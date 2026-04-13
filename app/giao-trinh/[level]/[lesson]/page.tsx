@@ -141,7 +141,7 @@ export default function LessonDetail() {
           {/* --- MAIN CONTENT AREA --- */}
           <main className="lg:w-3/4">
             
-            {/* TABS NAVIGATION (Glassmorphism) */}
+            {/* TABS NAVIGATION (As seen in image 5) */}
             <nav className="flex items-center gap-2 p-1.5 rounded-[2rem] bg-gray-50/80 backdrop-blur-md border border-gray-100 mb-10 overflow-x-auto no-scrollbar scroll-smooth">
               {TABS.map((tab) => {
                 const isActive = activeTab === tab.id;
@@ -149,14 +149,14 @@ export default function LessonDetail() {
                   <button
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
-                    className={`flex items-center gap-2 px-6 py-4 rounded-[1.5rem] text-xs font-black transition-all whitespace-nowrap whitespace-nowrap ${
+                    className={`flex items-center gap-2 px-6 py-4 rounded-[1.5rem] text-xs font-black transition-all whitespace-nowrap ${
                       isActive 
                         ? `${theme.bg} text-white shadow-xl shadow-current/20` 
                         : 'text-gray-400 hover:text-gray-600 hover:bg-white'
                     }`}
                   >
                     {tab.icon}
-                    {tab.name}
+                    {tab.name.toUpperCase()}
                   </button>
                 );
               })}
