@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #D85A30;
+  --secondary: #2563EB;
+  --accent: #F59E0B;
+  --background: #FFFFFF;
+  --foreground: #1F2937;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  color: var(--foreground);
+  background-color: #F9FAFB;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Path Cards Styling */
+.path-card {
+  @apply bg-white p-8 rounded-[40px] border border-gray-100 flex flex-col items-start transition-all duration-500 relative overflow-hidden h-full hover:shadow-2xl hover:shadow-orange-100/50 hover:-translate-y-2;
+}
+
+.path-icon {
+  @apply w-16 h-16 rounded-3xl flex items-center justify-center mb-6 transition-transform group-hover:scale-110 duration-500;
+}
+
+.level-badge {
+  @apply text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-wider mb-4;
+}
+
+.path-card.featured {
+  @apply border-orange-200 ring-4 ring-orange-50;
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.gradient-premium {
+  background: linear-gradient(135deg, #FF6B6B 0%, #D85A30 100%);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+}
