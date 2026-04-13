@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { supabase } from '@/lib/supabase';
-import { calculateSRS, SRSRating } from '@/lib/srs';
+import { calculateSRS } from '@/lib/srs';
 
 export async function PATCH(
   request: Request,
@@ -24,7 +24,7 @@ export async function PATCH(
 
     // 2. Calculate new values
     const nextSrs = calculateSRS(
-      rating as SRSRating,
+      rating,
       prevSrs?.interval || 0,
       prevSrs?.repetition || 0,
       prevSrs?.ease_factor || 2.5

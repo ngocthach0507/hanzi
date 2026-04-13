@@ -4,36 +4,41 @@
  */
 
 export interface SRSData {
-  repetitions: number;
-  easeFactor: number;
+  repetition: number;
+  ease_factor: number;
   interval: number;
+  next_review: Date;
 }
 
 export function calculateNextReview(
-  quality: number, // 0: quên hoàn toàn, 5: nhớ hoàn hảo
-  currentSRS: SRSData = { repetitions: 0, easeFactor: 2.5, interval: 0 }
+  quality: number, // 0-5
+  current: { repetition: number; ease_factor: number; interval: number } = { repetition: 0, ease_factor: 2.5, interval: 0 }
 ): SRSData {
-  let { repetitions, easeFactor, interval } = currentSRS;
+  let { repetition, ease_factor, interval } = current;
 
   if (quality >= 3) {
-    // Nếu nhớ bài (quality >= 3)
-    if (repetitions === 0) {
+    if (repetition === 0) {
       interval = 1;
-    } else if (repetitions === 1) {
+    } else if (repetition === 1) {
       interval = 6;
     } else {
-      interval = Math.round(interval * easeFactor);
+      interval = Math.round(interval * ease_factor);
     }
-    repetitions++;
+    repetition++;
   } else {
-    // Nếu quên bài (quality < 3)
-    repetitions = 0;
+    repetition = 0;
     interval = 1;
   }
 
-  // Cập nhật Ease Factor (Độ dễ)
-  easeFactor = easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
-  if (easeFactor < 1.3) easeFactor = 1.3;
+  ease_factor = ease_factor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+  if (ease_factor < 1.3) ease_factor = 1.3;
 
-  return { repetitions, easeFactor, interval };
+  const next_review = new Date();
+  next_review.setDate(next_review.getDate() + interval);
+
+  return { repetition, ease_factor, interval, next_review };
 }
+
+// Alias for backward compatibility
+export const calculateSRS = (quality: number, interval: number, repetition: number, ease_factor: number) => 
+  calculateNextReview(quality, { interval, repetition, ease_factor });
