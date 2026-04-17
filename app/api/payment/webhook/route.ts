@@ -27,10 +27,16 @@ export async function POST(request: Request) {
       if (subData) {
         console.log(`SUCCESS: Found matching subscription for user ${subData.user_id}`);
         
-        // Xác định gói cước (30 ngày hoặc 365 ngày dựa trên số tiền)
+        // Xác định số ngày cộng thêm dựa trên số tiền hoặc loại gói
         let daysToAdd = 30;
-        if (amount >= 500000) {
-          daysToAdd = 365;
+        if (amount >= 600000) {
+          daysToAdd = 365; // Gói 1 năm
+        } else if (amount >= 400000) {
+          daysToAdd = 180; // Gói 6 tháng
+        } else if (amount >= 250000) {
+          daysToAdd = 90;  // Gói 3 tháng
+        } else {
+          daysToAdd = 30;  // Gói 1 tháng
         }
 
         // Cập nhật trạng thái Active
@@ -38,6 +44,7 @@ export async function POST(request: Request) {
           .from('subscriptions')
           .update({
             status: 'active',
+            activated_at: new Date().toISOString(),
             expires_at: new Date(Date.now() + daysToAdd * 24 * 60 * 60 * 1000).toISOString()
           })
           .eq('user_id', subData.user_id);
