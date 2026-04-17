@@ -1,113 +1,107 @@
 import { NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase";
 
-function parseAmount(value: unknown) {
-  if (typeof value === "number" && !Number.isNaN(value)) {
-    return value;
-  }
-
-  if (typeof value === "string") {
-    const digits = value.replace(/[^\d]/g, "");
-    const parsed = Number(digits);
-    return Number.isNaN(parsed) ? 0 : parsed;
-  }
-
-  return 0;
-}
-
-function extractPaymentReference(body: any) {
-  const content = String(body.content || body.memo || body.message || body.description || body.paymentRef || body.payment_ref || "").toUpperCase().trim();
-  const match = content.match(/DH\d{6}/);
-  return match ? match[0] : content;
-}
-
-export async function GET() {
-  return NextResponse.json({ 
-    status: "ok", 
-    message: "SePay Webhook is listening",
-    adminInitialized: !!supabaseAdmin
-  });
-}
+export const dynamic = 'force-dynamic';
 
 export async function POST(request: Request) {
-  console.log("===> SEPAY WEBHOOK RECEIVED <===");
-  
+  const logId = crypto.randomUUID();
+  console.log(`[WEBHOOK ${logId}] START - Received at ${new Date().toISOString()}`);
+
   try {
-    const body = await request.json();
-    const bodyStr = JSON.stringify(body);
-    console.log("WEBHOOK_DATA:", bodyStr);
-    
-    const tType = String(body.transferType || body.type || body.transactionType || "").toLowerCase();
-    const tAmount = parseAmount(body.transferAmount ?? body.amount ?? body.value ?? 0);
-    const extractedRef = extractPaymentReference(body);
-
-    console.log(`PROCESSING: Ref=${extractedRef}, Amount=${tAmount}, Type=${tType}`);
-
-    if (tType === "in" || tAmount > 0) {
-      if (!supabaseAdmin) {
-        console.error("[CRITICAL] supabaseAdmin is not initialized. Check SUPABASE_SERVICE_KEY.");
-        return NextResponse.json({ error: "Server configuration error" }, { status: 500 });
-      }
-
-      const { data: subData, error: findError } = await supabaseAdmin
-        .from('subscriptions')
-        .select('user_id, plan, status, expires_at')
-        .eq('payment_ref', extractedRef)
-        .maybeSingle();
-
-      if (findError) {
-        console.error("FIND_SUB_ERROR:", findError);
-      }
-
-      if (subData) {
-        console.log(`MATCH_FOUND: User ${subData.user_id}, Current Status: ${subData.status}`);
-        
-        let daysToAdd = 0;
-        if (tAmount >= 680000) daysToAdd = 365;
-        else if (tAmount >= 480000) daysToAdd = 180;
-        else if (tAmount >= 280000) daysToAdd = 90;
-        else if (tAmount >= 110000) daysToAdd = 30;
-        else if (tAmount > 0) daysToAdd = 30;
-        else daysToAdd = 0;
-
-        if (daysToAdd > 0) {
-          const isCurrentlyActive = subData.expires_at ? new Date(subData.expires_at) > new Date() : false;
-          const baseDate = isCurrentlyActive ? new Date(subData.expires_at) : new Date();
-          const newExpiry = new Date(baseDate.getTime() + daysToAdd * 24 * 60 * 60 * 1000);
-
-          let newPlan = subData.plan;
-          if (daysToAdd >= 365) newPlan = "premium_1_year";
-          else if (daysToAdd >= 180) newPlan = "premium_6_months";
-          else if (daysToAdd >= 90) newPlan = "premium_3_months";
-          else if (daysToAdd >= 30) newPlan = "premium_1_month";
-
-          const { error: updateError } = await supabaseAdmin
-            .from('subscriptions')
-            .update({
-              status: 'active',
-              plan: newPlan,
-              sepay_ref: body.id || body.paymentRef || body.payment_ref || "WEBHOOK_AUTO",
-              expires_at: newExpiry.toISOString()
-            })
-            .eq('user_id', subData.user_id);
-
-          if (updateError) {
-            console.error(`[WEBHOOK_ERROR] Failed to update sub for ${subData.user_id}:`, updateError);
-          } else {
-            const expiryDate = newExpiry.toLocaleDateString('vi-VN');
-            console.log(`[WEBHOOK_SUCCESS] Activated Premium for ${subData.user_id}. Amount: ${tAmount}, Days: ${daysToAdd}, Expires: ${expiryDate}`);
-          }
-        } else {
-          console.warn(`[WEBHOOK_IGNORE] Amount too small or invalid: ${tAmount}`);
-        }
-      } else {
-        console.warn("NO_MATCH_FOUND_FOR:", extractedRef);
-      }
+    if (!supabaseAdmin) {
+      console.error(`[WEBHOOK ${logId}] CRITICAL: supabaseAdmin is not initialized.`);
+      return NextResponse.json({ error: "Server configuration error" }, { status: 500 });
     }
 
-    return NextResponse.json({ success: true, message: "Webhook processed" });
-  } catch (error: any) {
-    console.error("WEBHOOK_ERROR:", error);
-    return NextResponse.json({ error: error.message }, { status: 400 });
+    const payload = await request.json();
+    console.log(`[WEBHOOK ${logId}] Payload:`, JSON.stringify(payload));
+
+    // SePay payload format: { content: "DH123456...", amount: 119000, ... }
+    const content = String(payload.content || "");
+    const amount = Number(payload.transferAmount || payload.amount || 0);
+    const referenceCode = String(payload.referenceCode || "");
+    
+    // Tìm mã đơn hàng trong nội dung chuyển khoản (Ví dụ: DH811524)
+    const orderMatch = content.match(/DH\d+/);
+    const paymentRef = orderMatch ? orderMatch[0] : (referenceCode !== "" ? referenceCode : null);
+
+    if (!paymentRef) {
+      const msg = "No payment reference found in content or referenceCode";
+      console.error(`[WEBHOOK ${logId}] ${msg}`);
+      await supabaseAdmin.from('webhook_errors').insert({
+        log_id: logId,
+        payload,
+        error: msg
+      });
+      return NextResponse.json({ error: msg }, { status: 400 });
+    }
+
+    console.log(`[WEBHOOK ${logId}] Processing reference: ${paymentRef}, Amount: ${amount}`);
+
+    // 1. Tìm đơn hàng tương ứng trong DB
+    const { data: subscription, error: fetchError } = await supabaseAdmin
+      .from('subscriptions')
+      .select('*')
+      .eq('payment_ref', paymentRef)
+      .maybeSingle();
+
+    if (fetchError || !subscription) {
+      const msg = `Subscription not found for ref: ${paymentRef}`;
+      console.error(`[WEBHOOK ${logId}] ${msg}`, fetchError);
+      await supabaseAdmin.from('webhook_errors').insert({
+        log_id: logId,
+        payload,
+        error: msg + (fetchError ? ': ' + fetchError.message : '')
+      });
+      return NextResponse.json({ error: msg }, { status: 404 });
+    }
+
+    // 2. Cập nhật trạng thái Premium
+    // Logic: 119k/tháng, 480k/6 tháng, 680k/1 năm, 999k/vĩnh viễn
+    let daysToAdd = 30;
+    let plan = 'premium_1_month';
+
+    if (amount >= 900000) {
+      daysToAdd = 3650; 
+      plan = 'premium_lifetime';
+    } else if (amount >= 600000) {
+      daysToAdd = 365;
+      plan = 'premium_1_year';
+    } else if (amount >= 400000) {
+      daysToAdd = 180;
+      plan = 'premium_6_months';
+    }
+
+    const currentExpiry = subscription.expires_at ? new Date(subscription.expires_at) : new Date();
+    const baseDate = currentExpiry > new Date() ? currentExpiry : new Date();
+    const newExpiry = new Date(baseDate.getTime() + daysToAdd * 24 * 60 * 60 * 1000);
+
+    const { error: updateError } = await supabaseAdmin
+      .from('subscriptions')
+      .update({
+        status: 'active',
+        plan: plan,
+        sepay_ref: String(payload.id || ""),
+        expires_at: newExpiry.toISOString(),
+      })
+      .eq('payment_ref', paymentRef);
+
+    if (updateError) {
+      const msg = `DB Update failed: ${updateError.message}`;
+      console.error(`[WEBHOOK ${logId}] ${msg}`);
+      await supabaseAdmin.from('webhook_errors').insert({
+        log_id: logId,
+        payload,
+        error: msg
+      });
+      return NextResponse.json({ error: "Update failed" }, { status: 500 });
+    }
+
+    console.log(`[WEBHOOK ${logId}] SUCCESS: Activated ${paymentRef} for user ${subscription.user_id}`);
+    return NextResponse.json({ success: true, logId });
+
+  } catch (err: any) {
+    console.error(`[WEBHOOK ${logId}] Unexpected Error:`, err);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
