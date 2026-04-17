@@ -20,6 +20,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="vi" suppressHydrationWarning>
         <head>
+          <Script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js" strategy="beforeInteractive" />
           {/* Google Analytics */}
           <Script
             src="https://www.googletagmanager.com/gtag/js?id=G-RFGKV7WHTS"

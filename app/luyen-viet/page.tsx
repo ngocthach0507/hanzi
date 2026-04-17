@@ -70,28 +70,50 @@ export default function LuyenVietPage() {
   const [translated, setTranslated] = useState<string[]>([]);
 
   const [charLoadError, setCharLoadError] = useState(false);
+  const [isScriptReady, setIsScriptReady] = useState(false);
+
+  // Poll for HanziWriter if it's not ready yet
+  useEffect(() => {
+    if (typeof window !== 'undefined' && (window as any).HanziWriter) {
+      setIsScriptReady(true);
+      return;
+    }
+    const interval = setInterval(() => {
+      if (typeof window !== 'undefined' && (window as any).HanziWriter) {
+        setIsScriptReady(true);
+        clearInterval(interval);
+      }
+    }, 500);
+    return () => clearInterval(interval);
+  }, []);
 
   useEffect(() => {
-    if (writerContainerRef.current) {
+    if (writerContainerRef.current && isScriptReady) {
+      const HW = (window as any).HanziWriter;
+      if (!HW) return;
+
       writerContainerRef.current.innerHTML = '';
       setCharLoadError(false);
-      if (HanziWriter) {
-        writerRef.current = HanziWriter.create(writerContainerRef.current, activeChar.char, {
-          width: 400,
-          height: 400,
-          padding: 20,
-          showOutline: true,
-          strokeAnimationSpeed: 1,
-          delayBetweenStrokes: 200,
-          strokeColor: '#D85A30',
-          outlineColor: '#F3F4F6',
-          drawingColor: '#1F2937',
-          onLoadCharDataSuccess: () => setCharLoadError(false),
-          onLoadCharDataError: () => setCharLoadError(true),
-        });
-      }
+      
+      // Calculate responsive size
+      const containerWidth = writerContainerRef.current.clientWidth || 400;
+      const size = Math.min(containerWidth, 400);
+
+      writerRef.current = HW.create(writerContainerRef.current, activeChar.char, {
+        width: size,
+        height: size,
+        padding: 20,
+        showOutline: true,
+        strokeAnimationSpeed: 1,
+        delayBetweenStrokes: 200,
+        strokeColor: '#D85A30',
+        outlineColor: '#F3F4F6',
+        drawingColor: '#1F2937',
+        onLoadCharDataSuccess: () => setCharLoadError(false),
+        onLoadCharDataError: () => setCharLoadError(true),
+      });
     }
-  }, [activeChar]);
+  }, [activeChar, isScriptReady]);
 
   useEffect(() => {
     if (showAddInput && inputRef.current) {
@@ -268,12 +290,12 @@ export default function LuyenVietPage() {
               />
               
               {/* Floating Toolbar inside canvas */}
-              <div className="absolute right-8 top-1/2 -translate-y-1/2 flex flex-col gap-4">
-                 <button onClick={handleReset} className="w-12 h-12 bg-white rounded-full shadow-lg border border-gray-100 flex items-center justify-center text-gray-400 hover:text-red-500 transition-colors" title="Làm lại">
-                    <RotateCcw size={24} />
+              <div className="absolute right-4 top-1/2 -translate-y-1/2 flex flex-col gap-3">
+                 <button onClick={handleReset} className="w-10 h-10 bg-white rounded-full shadow-lg border border-gray-100 flex items-center justify-center text-gray-400 hover:text-red-500 transition-all hover:scale-110 active:scale-95" title="Làm lại">
+                    <RotateCcw size={20} />
                  </button>
-                 <button onClick={handleAnimate} className="w-12 h-12 bg-white rounded-full shadow-lg border border-gray-100 flex items-center justify-center text-gray-400 hover:text-orange-500 transition-colors" title="Xem hướng dẫn">
-                    <Play size={24} />
+                 <button onClick={handleAnimate} className="w-10 h-10 bg-white rounded-full shadow-lg border border-gray-100 flex items-center justify-center text-gray-400 hover:text-orange-500 transition-all hover:scale-110 active:scale-95" title="Xem hướng dẫn">
+                    <Play size={20} />
                  </button>
               </div>
 
