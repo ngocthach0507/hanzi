@@ -132,15 +132,6 @@ export default function Dashboard() {
     fetchData();
   }, [isLoaded, user]);
 
-  if (!isLoaded || loading) {
-    return (
-      <div className="min-h-screen bg-white flex flex-col items-center justify-center p-6 text-center">
-        <div className="w-16 h-16 border-4 border-red-500 border-t-transparent rounded-full animate-spin mb-6"></div>
-        <p className="text-gray-400 font-bold uppercase tracking-widest text-xs animate-pulse">Đang đồng bộ dữ liệu Hán ngữ...</p>
-      </div>
-    );
-  }
-
   const [daysLeft, setDaysLeft] = useState<number | null>(null);
 
   useEffect(() => {
@@ -152,6 +143,15 @@ export default function Dashboard() {
       setDaysLeft(days > 0 ? days : 0);
     }
   }, [subscription]);
+
+  if (!isLoaded || loading) {
+    return (
+      <div className="min-h-screen bg-white flex flex-col items-center justify-center p-6 text-center">
+        <div className="w-16 h-16 border-4 border-red-500 border-t-transparent rounded-full animate-spin mb-6"></div>
+        <p className="text-gray-400 font-bold uppercase tracking-widest text-xs animate-pulse">Đang đồng bộ dữ liệu Hán ngữ...</p>
+      </div>
+    );
+  }
 
   const isPro = subscription?.plan && 
                 subscription.plan !== 'free' && 
