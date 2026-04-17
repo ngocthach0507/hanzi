@@ -42,7 +42,8 @@ export async function GET(request: Request) {
           status: data?.status,
           plan: data?.plan,
           expires_at: data?.expires_at,
-          now: new Date().toISOString()
+          now: new Date().toISOString(),
+          db: process.env.NEXT_PUBLIC_SUPABASE_URL
         } 
       });
     }
@@ -56,7 +57,8 @@ export async function GET(request: Request) {
       debug: { 
         userId, 
         hasData: !!data,
-        status: data?.status
+        status: data?.status,
+        db: process.env.NEXT_PUBLIC_SUPABASE_URL
       } 
     });
   } catch (err: any) {
