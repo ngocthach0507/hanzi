@@ -59,7 +59,8 @@ export default function LessonList() {
             .eq('user_id', userId)
             .single();
           
-          if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active') {
+          if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' && 
+              (subData.expires_at ? new Date(subData.expires_at) > new Date() : true)) {
             setIsPro(true);
           }
         }

@@ -34,7 +34,8 @@ export default function ConversationList() {
           .eq('user_id', user.id)
           .single();
         
-        if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active') {
+        if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' &&
+            (subData.expires_at ? new Date(subData.expires_at) > new Date() : true)) {
           setIsPro(true);
         }
       }

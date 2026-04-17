@@ -141,7 +141,22 @@ export default function Dashboard() {
     );
   }
 
-  const isPro = subscription?.plan && subscription.plan !== 'free' && subscription?.status === 'active';
+  const [daysLeft, setDaysLeft] = useState<number | null>(null);
+
+  useEffect(() => {
+    if (subscription?.expires_at) {
+      const expiry = new Date(subscription.expires_at);
+      const now = new Date();
+      const diff = expiry.getTime() - now.getTime();
+      const days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+      setDaysLeft(days > 0 ? days : 0);
+    }
+  }, [subscription]);
+
+  const isPro = subscription?.plan && 
+                subscription.plan !== 'free' && 
+                subscription?.status === 'active' && 
+                (subscription.expires_at ? new Date(subscription.expires_at) > new Date() : true);
 
   return (
     <div className="min-h-screen bg-[#FDFDFD] pb-20">
@@ -188,6 +203,20 @@ export default function Dashboard() {
                     {isPro ? 'Premium' : 'Miễn phí'}
                   </span>
                 </div>
+                {isPro && daysLeft !== null && (
+                  <div className="flex items-center justify-between text-xs pt-2">
+                    <span className="text-gray-400 font-bold uppercase tracking-wider text-[9px] md:text-[10px]">Thời gian còn lại</span>
+                    <span className={`font-black flex items-center gap-1 ${daysLeft <= 3 ? 'text-red-600 animate-pulse' : 'text-green-600'}`}>
+                      <Clock className="w-3 h-3" /> {daysLeft} ngày
+                    </span>
+                  </div>
+                )}
+                {!isPro && subscription?.expires_at && (
+                  <div className="flex flex-col gap-1 text-[10px] pt-2">
+                    <span className="text-red-500 font-bold uppercase tracking-widest italic">Hết hạn vào:</span>
+                    <span className="text-gray-400 font-medium">{new Date(subscription.expires_at).toLocaleDateString('vi-VN')}</span>
+                  </div>
+                )}
               </div>
 
               <Link href="/nang-cap" className="mt-8 block w-full bg-black text-white py-4 rounded-2xl font-black text-center text-sm shadow-xl shadow-gray-200 hover:scale-[1.02] transition-transform active:scale-95">
