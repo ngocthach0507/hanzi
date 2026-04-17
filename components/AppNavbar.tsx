@@ -181,7 +181,6 @@ export default function AppNavbar() {
               <div className="w-8 h-8 bg-gray-100 animate-pulse rounded-full"></div>
             ) : user ? (
               <UserButton 
-                afterSignOutUrl="/"
                 appearance={{
                   elements: {
                     userButtonAvatarBox: "w-9 h-9 border-2 border-red-100 hover:border-red-400 transition-all shadow-sm"
