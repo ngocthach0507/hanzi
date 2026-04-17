@@ -1,203 +1,356 @@
 "use client";
 
-import React from 'react';
+import { useState } from "react";
+import { useAuth } from "@clerk/nextjs";
+import { useRouter } from "next/navigation";
 import { 
-  Crown, 
-  CheckCircle2, 
+  Check, 
+  X, 
   Zap, 
+  Star, 
   ShieldCheck, 
-  MessageSquare, 
-  FileText, 
-  PlayCircle, 
-  Headphones,
-  Sparkles,
-  ArrowRight
-} from 'lucide-react';
-import Link from 'next/link';
+  TrendingDown,
+  ChevronRight,
+  ClipboardCheck,
+  Crown
+} from "lucide-react";
 
-export default function VIPUpgradePage() {
-  const plans = [
-    {
-      name: 'Gói Tháng',
-      price: '199.000đ',
-      duration: '/tháng',
-      description: 'Phù hợp để trải nghiệm đầy đủ tính năng trong thời gian ngắn.',
-      features: [
-        'Mở khóa 100% bài học HSK 1-6',
-        'Luyện hội thoại AI không giới hạn',
-        'Kho đề thi thử 2026 đầy đủ',
-        'Giải thích ngữ pháp chuyên sâu'
-      ],
-      color: 'bg-white',
-      buttonColor: 'bg-gray-900',
-      popular: false
-    },
-    {
-      name: 'Gói Năm',
-      price: '990.000đ',
-      duration: '/năm',
-      description: 'Lựa chọn tiết kiệm nhất cho lộ trình học dài hạn.',
-      features: [
-        'Toàn bộ quyền lợi gói Tháng',
-        'Tải tài liệu PDF độc quyền',
-        'Hỗ trợ ưu tiên từ giáo viên',
-        'Tiết kiệm 60% so với gói tháng'
-      ],
-      color: 'bg-orange-50 border-orange-200',
-      buttonColor: 'bg-orange-500',
-      popular: true
-    },
-    {
-      name: 'Vĩnh Viễn',
-      price: '2.490.000đ',
-      duration: '',
-      description: 'Sở hữu trọn đời, cập nhật nội dung mới mãi mãi.',
-      features: [
-        'Toàn bộ quyền lợi gói Năm',
-        'Không bao giờ phải gia hạn',
-        'Cập nhật HSK 7-9 miễn phí',
-        'Tặng áo thun Hanzi độc quyền'
-      ],
-      color: 'bg-gray-900 text-white',
-      buttonColor: 'bg-white text-gray-900',
-      popular: false
+const plans = [
+  {
+    id: "1_MONTH",
+    name: "Gói 1 tháng",
+    months: 1,
+    price: 119000,
+    originalPrice: 119000,
+    savingsPercent: 0,
+    savingsAmount: 0,
+    description: "Toàn bộ tính năng Premium",
+    isPopular: false,
+    color: "blue"
+  },
+  {
+    id: "3_MONTHS",
+    name: "Gói 3 tháng",
+    months: 3,
+    price: 289000,
+    originalPrice: 357000,
+    savingsPercent: 19,
+    savingsAmount: 68000,
+    description: "Toàn bộ tính năng Premium",
+    isPopular: false,
+    color: "blue"
+  },
+  {
+    id: "6_MONTHS",
+    name: "Gói 6 tháng",
+    months: 6,
+    price: 489000,
+    originalPrice: 714000,
+    savingsPercent: 32,
+    savingsAmount: 225000,
+    description: "Toàn bộ tính năng Premium",
+    isPopular: true,
+    color: "orange"
+  },
+  {
+    id: "12_MONTHS",
+    name: "Gói 1 năm",
+    months: 12,
+    price: 689000,
+    originalPrice: 1428000,
+    savingsPercent: 52,
+    savingsAmount: 739000,
+    description: "Toàn bộ tính năng Premium",
+    isPopular: false,
+    color: "blue"
+  }
+];
+
+const features = [
+  { name: "Loại bỏ quảng cáo", free: false, pro: true },
+  { name: "Giáo trình Hán ngữ", free: false, pro: true },
+  { name: "Luyện đề thi HSK", free: false, pro: true },
+  { name: "Kiểm tra từ vựng", free: false, pro: true },
+  { name: "Học bài nghe HSK", free: false, pro: true },
+  { name: "Bài hội thoại theo chủ đề", free: false, pro: true },
+  { name: "Nhận diện chữ viết tay", free: false, pro: true },
+  { name: "Học bộ thủ", free: false, pro: true },
+  { name: "Kiểm tra bộ thủ", free: false, pro: true },
+  { name: "Mẫu câu tiếng Trung", free: false, pro: true },
+  { name: "Sổ tay cá nhân", free: true, pro: true },
+  { name: "Bảng phát âm", free: true, pro: true },
+];
+
+export default function UpgradePage() {
+  const { isLoaded, userId } = useAuth();
+  const router = useRouter();
+  const [loadingPlan, setLoadingPlan] = useState<string | null>(null);
+  const [selectedPlanId, setSelectedPlanId] = useState<string>("6_MONTHS");
+
+  // State thanh toán SePay
+  const [paymentInfo, setPaymentInfo] = useState<{
+    qrUrl: string;
+    accountNo: string;
+    accountName: string;
+    amount: number;
+    paymentRef: string;
+    bankId: string;
+  } | null>(null);
+
+  const handleUpgrade = async (plan: any) => {
+    if (!isLoaded) return;
+    
+    if (!userId) {
+      router.push("/dang-ky");
+      return;
     }
-  ];
+
+    try {
+      setLoadingPlan(plan.id);
+      
+      const response = await fetch('/api/pay', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          planType: plan.id,
+          amount: plan.price
+        })
+      });
+      
+      const result = await response.json();
+
+      if (result.success && result.data) {
+        setPaymentInfo(result.data);
+      } else {
+        alert(`Lỗi hệ thống: ${result.error || "Không thể tạo mã QR"}`);
+      }
+    } catch (error: any) {
+      console.error("Payment failed:", error);
+      alert(`Lỗi kết nối: ${error.message || "Không thể kết nối"}`);
+    } finally {
+      setLoadingPlan(null);
+    }
+  };
+
+  const closePaymentModal = () => {
+    setPaymentInfo(null);
+  };
 
   return (
-    <div className="min-h-screen bg-white font-sans overflow-hidden">
-      {/* Hero Section */}
-      <div className="relative pt-20 pb-32 px-4 overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full opacity-10">
-          <div className="absolute top-20 left-10 w-64 h-64 bg-orange-400 rounded-full blur-[100px]"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-400 rounded-full blur-[100px]"></div>
-        </div>
+    <div className="min-h-screen bg-[#F8FAFC] py-16 px-4 md:px-8 font-sans">
+      <div className="max-w-7xl mx-auto">
         
-        <div className="max-w-4xl mx-auto text-center relative z-10">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-orange-50 text-orange-600 rounded-full text-xs font-black uppercase tracking-widest mb-8 border border-orange-100 animate-bounce">
-            <Crown size={16} /> Đặc quyền dành riêng cho bạn
+        {/* Header */}
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-blue-50 text-blue-600 rounded-full text-xs font-black uppercase tracking-widest mb-6 border border-blue-100 italic">
+             <Crown size={14} className="animate-bounce" /> Bảng giá Premium
           </div>
-          <h1 className="text-5xl md:text-7xl font-black text-gray-900 mb-8 tracking-tighter leading-tight">
-            Nâng tầm trải nghiệm cùng <span className="text-orange-500">Hanzi VIP</span>
+          <h1 className="text-4xl md:text-6xl font-black text-gray-900 mb-6 tracking-tight">
+            Chọn gói phù hợp với <span className="text-blue-600">nhịp học</span> của bạn
           </h1>
-          <p className="text-xl text-gray-500 mb-12 max-w-2xl mx-auto font-medium leading-relaxed">
-            Mở khóa toàn bộ kho tàng kiến thức HSK 3.0, luyện phản xạ AI và chinh phục chứng chỉ quốc tế nhanh gấp 3 lần.
+          <p className="text-gray-500 text-lg font-medium flex items-center justify-center gap-2">
+             <ShieldCheck size={20} className="text-green-500" /> Không giới hạn tính năng ở mọi gói
           </p>
         </div>
-      </div>
 
-      {/* Pricing Grid */}
-      <div className="max-w-7xl mx-auto px-4 -mt-20 mb-32">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {plans.map((plan, idx) => (
+        {/* Pricing Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-24">
+          {plans.map((plan) => (
             <div 
-              key={idx} 
-              className={`relative p-10 rounded-[48px] border-2 transition-all hover:scale-[1.02] flex flex-col ${plan.color} ${plan.popular ? 'shadow-2xl shadow-orange-200' : 'border-gray-50'}`}
+              key={plan.id}
+              onClick={() => setSelectedPlanId(plan.id)}
+              className={`relative bg-white rounded-[40px] p-8 border-2 transition-all duration-300 cursor-pointer flex flex-col h-full group ${
+                selectedPlanId === plan.id 
+                ? 'border-blue-500 shadow-2xl shadow-blue-100 scale-[1.02] z-10' 
+                : 'border-gray-50 hover:border-blue-200 shadow-sm'
+              } ${plan.isPopular ? 'ring-4 ring-orange-50' : ''}`}
             >
-              {plan.popular && (
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-orange-500 text-white px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest shadow-lg">
-                  Phổ biến nhất
+              {plan.isPopular && (
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 gradient-gold text-white text-[10px] font-black px-6 py-2 rounded-full uppercase tracking-widest shadow-lg flex items-center gap-2">
+                   <Star size={12} fill="currentColor" /> Phổ biến nhất
                 </div>
               )}
-              
+
               <div className="mb-8">
-                <h3 className="text-xl font-black mb-2 uppercase tracking-widest opacity-80">{plan.name}</h3>
-                <div className="flex items-baseline gap-1">
-                  <span className="text-5xl font-black tracking-tighter">{plan.price}</span>
-                  <span className="text-sm font-bold opacity-60">{plan.duration}</span>
+                <div className="text-sm font-bold text-blue-500 mb-2">{plan.name}</div>
+                <div className="text-gray-400 text-xs font-medium uppercase tracking-wider mb-6">{plan.description}</div>
+                
+                <div className="flex flex-col">
+                  <div className="flex items-baseline gap-2">
+                    <span className={`text-4xl font-black tracking-tighter ${plan.isPopular ? 'text-orange-600' : 'text-gray-900'}`}>
+                      {plan.price.toLocaleString('vi-VN')}đ
+                    </span>
+                    {plan.savingsPercent > 0 && (
+                      <span className="text-sm font-bold text-gray-300 line-through">
+                        {plan.originalPrice.toLocaleString('vi-VN')}đ
+                      </span>
+                    )}
+                  </div>
+                  
+                  {plan.savingsPercent > 0 && (
+                     <div className="flex items-center gap-2 mt-4">
+                        <span className="bg-red-500 text-white text-[10px] font-black px-2 py-1 rounded-md">
+                          -{plan.savingsPercent}%
+                        </span>
+                        <span className="text-[11px] font-bold text-green-600">
+                          Tiết kiệm {plan.savingsAmount.toLocaleString('vi-VN')}đ
+                        </span>
+                     </div>
+                  )}
+                  
+                  <div className="mt-4 text-[13px] font-bold text-gray-400 italic">
+                    ~{(Math.round(plan.price / plan.months)).toLocaleString('vi-VN')}đ/tháng
+                  </div>
                 </div>
-                <p className={`mt-4 text-sm font-medium leading-relaxed ${plan.name === 'Vĩnh Viễn' ? 'text-gray-400' : 'text-gray-500'}`}>
-                  {plan.description}
-                </p>
               </div>
 
-              <div className="space-y-4 mb-10 flex-1">
-                {plan.features.map((feature, fIdx) => (
-                  <div key={fIdx} className="flex items-start gap-3">
-                    <CheckCircle2 size={18} className={plan.name === 'Vĩnh Viễn' ? 'text-orange-400' : 'text-orange-500'} />
-                    <span className="text-sm font-bold leading-tight">{feature}</span>
+              <div className="flex-1 space-y-4 mb-10">
+                {features.slice(0, 7).map((f, i) => (
+                  <div key={i} className="flex items-center gap-3 text-xs font-bold text-gray-500">
+                    <div className="w-5 h-5 bg-gray-50 rounded-full flex items-center justify-center group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
+                      <Check size={12} strokeWidth={3} />
+                    </div>
+                    {f.name}
                   </div>
                 ))}
+                <div className="text-[10px] font-bold text-gray-300 italic">Và toàn bộ tính năng Premium còn lại...</div>
               </div>
 
-              <button className={`w-full py-5 rounded-3xl font-black text-sm transition-all hover:shadow-xl active:scale-95 ${plan.buttonColor}`}>
-                ĐĂNG KÝ NGAY
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleUpgrade(plan);
+                }}
+                disabled={loadingPlan === plan.id}
+                className={`w-full py-5 rounded-2xl font-black text-sm uppercase tracking-widest transition-all shadow-xl active:scale-95 flex items-center justify-center gap-2 ${
+                  selectedPlanId === plan.id
+                  ? 'bg-blue-600 text-white shadow-blue-200 hover:bg-blue-700'
+                  : 'bg-gray-50 text-gray-400 hover:bg-gray-100 hover:text-gray-900'
+                }`}
+              >
+                {loadingPlan === plan.id ? 'Đang xử lý...' : (selectedPlanId === plan.id ? 'Chọn gói này' : 'Dùng gói này')} 
+                <ChevronRight size={18} />
               </button>
             </div>
           ))}
         </div>
-      </div>
 
-      {/* Why VIP? */}
-      <div className="bg-gray-50 py-32 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-20">
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6 tracking-tighter">Tại sao nên học VIP?</h2>
-            <p className="text-gray-500 font-medium">Những tính năng giúp bạn bứt phá điểm số HSK trong thời gian ngắn nhất.</p>
+        {/* Comparison Table Section */}
+        <div className="max-w-4xl mx-auto mb-24">
+          <div className="text-center mb-12">
+            <div className="text-blue-500 font-black text-xs uppercase tracking-[0.3em] mb-4">Quyền lợi</div>
+            <h2 className="text-3xl font-black text-gray-900 tracking-tight">So sánh nhanh gói miễn phí và <span className="text-blue-600">Premium</span></h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-8 rounded-[32px] border border-gray-100 shadow-sm">
-              <div className="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6">
-                <MessageSquare size={28} />
-              </div>
-              <h4 className="text-lg font-black mb-3">Hội thoại AI 24/7</h4>
-              <p className="text-gray-500 text-sm leading-relaxed font-medium">Luyện nói mọi lúc mọi nơi với AI thông minh, sửa lỗi phát âm ngay lập tức.</p>
-            </div>
-
-            <div className="bg-white p-8 rounded-[32px] border border-gray-100 shadow-sm">
-              <div className="w-14 h-14 bg-orange-50 text-orange-600 rounded-2xl flex items-center justify-center mb-6">
-                <FileText size={28} />
-              </div>
-              <h4 className="text-lg font-black mb-3">1000+ Đề thi thử</h4>
-              <p className="text-gray-500 text-sm leading-relaxed font-medium">Kho đề thi mô phỏng sát thực tế, cập nhật liên tục theo chuẩn HSK 3.0 mới nhất.</p>
-            </div>
-
-            <div className="bg-white p-8 rounded-[32px] border border-gray-100 shadow-sm">
-              <div className="w-14 h-14 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center mb-6">
-                <ShieldCheck size={28} />
-              </div>
-              <h4 className="text-lg font-black mb-3">Lộ trình bài bản</h4>
-              <p className="text-gray-500 text-sm leading-relaxed font-medium">Hệ thống bài học từ dễ đến khó, giúp bạn xây dựng nền tảng vững chắc.</p>
-            </div>
-
-            <div className="bg-white p-8 rounded-[32px] border border-gray-100 shadow-sm">
-              <div className="w-14 h-14 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center mb-6">
-                <Sparkles size={28} />
-              </div>
-              <h4 className="text-lg font-black mb-3">Không quảng cáo</h4>
-              <p className="text-gray-500 text-sm leading-relaxed font-medium">Trải nghiệm học tập mượt mà, tập trung hoàn toàn vào việc chinh phục ngôn ngữ.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Final CTA */}
-      <div className="max-w-5xl mx-auto px-4 py-32 text-center">
-        <div className="bg-gradient-to-br from-gray-900 to-gray-800 p-16 md:p-24 rounded-[4rem] text-white shadow-2xl relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-80 h-80 bg-orange-500/10 rounded-full blur-[80px]"></div>
-          
-          <div className="relative z-10">
-            <h2 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter leading-tight">Sẵn sàng để trở thành <br/><span className="text-orange-500">Bậc thầy tiếng Trung?</span></h2>
-            <p className="text-gray-400 mb-12 max-w-xl mx-auto font-medium text-lg">
-              Tham gia cùng +10,000 học viên khác đang bứt phá mỗi ngày trên Hanzi.
-            </p>
-            <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-              <button className="bg-orange-500 text-white px-12 py-6 rounded-full font-black text-xl hover:bg-orange-600 transition-all shadow-xl hover:-translate-y-1 active:scale-95 flex items-center gap-3">
-                Nâng cấp VIP ngay <ArrowRight size={24} />
-              </button>
-              <Link href="/" className="text-gray-400 font-bold hover:text-white transition-colors">
-                Trở về Trang chủ
-              </Link>
+          <div className="bg-white rounded-[48px] shadow-sm border border-gray-100 overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse">
+                <thead>
+                  <tr className="bg-gray-50/50">
+                    <th className="p-8 text-sm font-black text-gray-400 uppercase tracking-widest">Tính năng</th>
+                    <th className="p-8 text-center text-sm font-black text-gray-400 uppercase tracking-widest flex flex-col items-center gap-1">
+                       <Zap size={16} /> <span>Miễn phí</span>
+                    </th>
+                    <th className="p-8 text-center text-sm font-black text-blue-600 uppercase tracking-widest bg-blue-50/50">
+                       <div className="flex flex-col items-center gap-1">
+                          <Crown size={16} className="text-orange-500" /> <span>Premium</span>
+                       </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-50">
+                  {features.map((feature, i) => (
+                    <tr key={i} className="hover:bg-gray-50/20 transition-colors">
+                      <td className="p-6 pl-8">
+                        <div className="flex items-center gap-4">
+                           <div className="w-2 h-2 rounded-full bg-blue-100"></div>
+                           <span className="text-sm font-bold text-gray-600">{feature.name}</span>
+                        </div>
+                      </td>
+                      <td className="p-6 text-center">
+                        {feature.free ? (
+                          <div className="mx-auto w-6 h-6 bg-green-100 text-green-600 rounded-full flex items-center justify-center border border-green-200">
+                             <Check size={14} strokeWidth={4} />
+                          </div>
+                        ) : (
+                          <div className="mx-auto w-6 h-6 bg-red-50 text-red-300 rounded-full flex items-center justify-center border border-red-100">
+                             <X size={14} strokeWidth={4} />
+                          </div>
+                        )}
+                      </td>
+                      <td className="p-6 text-center bg-blue-50/10">
+                        <div className="mx-auto w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center shadow-md shadow-green-100">
+                          <Check size={14} strokeWidth={4} />
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Footer minimal */}
-      <div className="py-12 border-t border-gray-50 text-center">
-        <p className="text-gray-400 text-sm font-bold">© 2026 Hanzi.io.vn — Một sản phẩm của Tiếng Trung Hongdou</p>
-      </div>
+      {/* Payment Modal */}
+      {paymentInfo && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-gray-900/60 backdrop-blur-md">
+          <div className="bg-white rounded-[50px] shadow-2xl w-full max-w-lg overflow-hidden animate-in fade-in zoom-in duration-300 border border-gray-100">
+            <div className="bg-blue-600 p-10 text-white text-center relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.2),transparent)]"></div>
+              <h3 className="text-3xl font-black mb-2 flex items-center justify-center gap-3">
+                 <ClipboardCheck size={28} /> Thanh toán
+              </h3>
+              <p className="text-blue-100 font-medium tracking-wide">Quét mã QR để kích hoạt Premium tự động</p>
+            </div>
+            
+            <div className="p-10">
+              <div className="flex justify-center mb-10">
+                <div className="relative group p-4 bg-gray-50 rounded-[40px] border-2 border-gray-100">
+                  <img 
+                    src={paymentInfo.qrUrl} 
+                    alt="VietQR" 
+                    className="w-60 h-60 rounded-3xl"
+                  />
+                  <div className="absolute inset-0 rounded-[40px] ring-8 ring-blue-50/50 animate-pulse"></div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 rounded-[40px] p-8 mb-10 space-y-5 border border-gray-100 shadow-inner">
+                <div className="flex justify-between items-center pb-4 border-b border-gray-200/60">
+                  <span className="text-gray-400 text-xs font-black uppercase tracking-widest">Số tài khoản</span>
+                  <span className="font-black text-gray-900 text-lg tabular-nums tracking-wider">{paymentInfo.accountNo}</span>
+                </div>
+                <div className="flex justify-between items-center py-4 border-b border-gray-200/60">
+                  <span className="text-gray-400 text-xs font-black uppercase tracking-widest">Nội dung</span>
+                  <span className="bg-blue-100 text-blue-700 px-5 py-2 rounded-full font-black text-xl border-2 border-blue-200 shadow-sm">
+                    {paymentInfo.paymentRef}
+                  </span>
+                </div>
+                <div className="flex justify-between items-center pt-2">
+                  <span className="text-gray-400 text-xs font-black uppercase tracking-widest">Số tiền</span>
+                  <span className="text-3xl font-black text-blue-600 tabular-nums">
+                    {paymentInfo.amount.toLocaleString('vi-VN')}đ
+                  </span>
+                </div>
+              </div>
+
+              <div className="space-y-4">
+                <button
+                  onClick={closePaymentModal}
+                  className="w-full py-6 rounded-3xl bg-gray-900 text-white font-black text-lg hover:bg-black transition-all shadow-2xl active:scale-95"
+                >
+                  TÔI ĐÃ CHUYỂN KHOẢN
+                </button>
+                <div className="flex items-center justify-center gap-2 text-red-500 bg-red-50 py-3 rounded-2xl border border-red-100">
+                   <TrendingDown size={16} />
+                   <p className="text-center text-[11px] font-bold">Vui lòng chuyển đúng nội dung để được kích hoạt tự động</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
