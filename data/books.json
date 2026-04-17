@@ -1,0 +1,38 @@
+[
+  {
+    "level": 1,
+    "title_zh": "新HSK教程1",
+    "title_vi": "Tân HSK Giáo Trình 1",
+    "title_en": "New HSK Course 1",
+    "total_lessons": 15,
+    "total_words": 300,
+    "total_grammar": 40,
+    "hours_min": 30,
+    "hours_max": 36,
+    "color_hex": "#E53E3E"
+  },
+  {
+    "level": 2,
+    "title_zh": "新HSK教程2",
+    "title_vi": "Tân HSK Giáo Trình 2",
+    "title_en": "New HSK Course 2",
+    "total_lessons": 15,
+    "total_words": 200,
+    "total_grammar": 45,
+    "hours_min": 30,
+    "hours_max": 45,
+    "color_hex": "#DD6B20"
+  },
+  {
+    "level": 3,
+    "title_zh": "新HSK教程3",
+    "title_vi": "Tân HSK Giáo Trình 3",
+    "title_en": "New HSK Course 3",
+    "total_lessons": 18,
+    "total_words": 500,
+    "total_grammar": 63,
+    "hours_min": 54,
+    "hours_max": 72,
+    "color_hex": "#D69E2E"
+  }
+]

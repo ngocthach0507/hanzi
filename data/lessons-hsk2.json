@@ -1,0 +1,122 @@
+[
+  {
+    "book_level": 2,
+    "lesson_number": 1,
+    "title_zh": "她请我们吃了北京烤鸭",
+    "title_en": "She treated us to Peking Duck",
+    "title_vi": "她请我们吃了北京烤鸭",
+    "is_free": true
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 2,
+    "title_zh": "还是打车去北大吧",
+    "title_en": "Let's take a taxi to Peking University instead",
+    "title_vi": "还是打车去北大吧",
+    "is_free": true
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 3,
+    "title_zh": "我想去西安旅游",
+    "title_en": "I want to visit Xi'an",
+    "title_vi": "我想去西安旅游",
+    "is_free": true
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 4,
+    "title_zh": "你穿红色的很好看",
+    "title_en": "You look pretty good in red",
+    "title_vi": "你穿红色的很好看",
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 5,
+    "title_zh": "第一次去中国朋友家",
+    "title_en": "Visiting a Chinese friend's home for the first time",
+    "title_vi": "第一次去中国朋友家",
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 6,
+    "title_zh": "小雪，生日快乐！",
+    "title_en": "Happy birthday, Xiaoxue!",
+    "title_vi": "小雪，生日快乐！",
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 7,
+    "title_zh": "他篮球打得很好",
+    "title_en": "He plays basketball very well",
+    "title_vi": "他篮球打得很好",
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 8,
+    "title_zh": "虽然你忘了，但是我记得",
+    "title_en": "Even though you forgot, I remembered",
+    "title_vi": "虽然你忘了，但是我记得",
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 9,
+    "title_zh": "我去买杯奶茶",
+    "title_en": "I'm going to buy a cup of bubble tea",
+    "title_vi": "我去买杯奶茶",
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 10,
+    "title_zh": "就要考试了",
+    "title_en": "The exam is coming",
+    "title_vi": "就要考试了",
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 11,
+    "title_zh": "我最喜欢吃中国菜",
+    "title_en": "I like Chinese food the most",
+    "title_vi": "我最喜欢吃中国菜",
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 12,
+    "title_zh": "这里比北京冷多了",
+    "title_en": "It's much colder here than in Beijing",
+    "title_vi": "这里比北京冷多了",
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 13,
+    "title_zh": "我们爱上中文课",
+    "title_en": "We love attending Chinese class",
+    "title_vi": "我们爱上中文课",
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 14,
+    "title_zh": "一个人过年多没意思啊",
+    "title_en": "It's boring to celebrate the Spring Festival alone",
+    "title_vi": "一个人过年多没意思啊",
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 15,
+    "title_zh": "我想再去一次中国",
+    "title_en": "I want to go to China again",
+    "title_vi": "我想再去一次中国",
+    "is_free": false
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id":1,"pattern_zh":"S + 是 + O","pattern_vi":"Chủ ngữ + là + Tân ngữ",
+    "usage":"Câu đồng nhất: khẳng định một điều gì đó là gì","hsk_level":1,"topic":"cơ bản","is_free":true,"order_num":1,
+    "examples":[
+      {"zh":"我是学生。","pinyin":"Wǒ shì xuéshēng.","vi":"Tôi là học sinh."},
+      {"zh":"她是老师。","pinyin":"Tā shì lǎoshī.","vi":"Cô ấy là giáo viên."},
+      {"zh":"这是我的书。","pinyin":"Zhè shì wǒ de shū.","vi":"Đây là sách của tôi."}
+    ]
+  },
+  {
+    "id":2,"pattern_zh":"S + 不是 + O","pattern_vi":"Chủ ngữ + không phải + Tân ngữ",
+    "usage":"Phủ định câu 是","hsk_level":1,"topic":"cơ bản","is_free":true,"order_num":2,
+    "examples":[
+      {"zh":"我不是中国人。","pinyin":"Wǒ bú shì Zhōngguó rén.","vi":"Tôi không phải người Trung Quốc."},
+      {"zh":"这不是我的。","pinyin":"Zhè bú shì wǒ de.","vi":"Đây không phải của tôi."},
+      {"zh":"他不是老师，是医生。","pinyin":"Tā bú shì lǎoshī, shì yīshēng.","vi":"Anh ấy không phải giáo viên, là bác sĩ."}
+    ]
+  },
+  {
+    "id":3,"pattern_zh":"S + 有 + O","pattern_vi":"Chủ ngữ + có + Tân ngữ",
+    "usage":"Diễn đạt sở hữu","hsk_level":1,"topic":"cơ bản","is_free":true,"order_num":3,
+    "examples":[
+      {"zh":"我有一个妹妹。","pinyin":"Wǒ yǒu yī gè mèimei.","vi":"Tôi có một em gái."},
+      {"zh":"他没有钱。","pinyin":"Tā méiyǒu qián.","vi":"Anh ấy không có tiền."},
+      {"zh":"你有问题吗？","pinyin":"Nǐ yǒu wèntí ma?","vi":"Bạn có câu hỏi không?"}
+    ]
+  },
+  {
+    "id":4,"pattern_zh":"S + 在 + 地点 + V","pattern_vi":"Chủ ngữ + đang ở/tại + Địa điểm + Động từ",
+    "usage":"Diễn tả hành động đang xảy ra tại địa điểm nào đó","hsk_level":1,"topic":"cơ bản","is_free":true,"order_num":4,
+    "examples":[
+      {"zh":"我在家学习。","pinyin":"Wǒ zài jiā xuéxí.","vi":"Tôi học ở nhà."},
+      {"zh":"她在图书馆看书。","pinyin":"Tā zài túshūguǎn kàn shū.","vi":"Cô ấy đọc sách ở thư viện."},
+      {"zh":"他们在公园玩。","pinyin":"Tāmen zài gōngyuán wán.","vi":"Họ chơi ở công viên."}
+    ]
+  },
+  {
+    "id":5,"pattern_zh":"S + 很 + Adj","pattern_vi":"Chủ ngữ + rất + Tính từ",
+    "usage":"Mô tả đặc điểm, tính chất (rất ít khi dùng 是 + tính từ)","hsk_level":1,"topic":"mô tả","is_free":true,"order_num":5,
+    "examples":[
+      {"zh":"今天很热。","pinyin":"Jīntiān hěn rè.","vi":"Hôm nay rất nóng."},
+      {"zh":"她很漂亮。","pinyin":"Tā hěn piàoliang.","vi":"Cô ấy rất xinh đẹp."},
+      {"zh":"这道菜很好吃。","pinyin":"Zhè dào cài hěn hǎochī.","vi":"Món ăn này rất ngon."}
+    ]
+  },
+  {
+    "id":6,"pattern_zh":"S + 想 + V","pattern_vi":"Chủ ngữ + muốn + Động từ",
+    "usage":"Diễn đạt ý muốn, nguyện vọng","hsk_level":1,"topic":"nguyện vọng","is_free":false,"order_num":6,
+    "examples":[
+      {"zh":"我想吃火锅。","pinyin":"Wǒ xiǎng chī huǒguō.","vi":"Tôi muốn ăn lẩu."},
+      {"zh":"她想去中国。","pinyin":"Tā xiǎng qù Zhōngguó.","vi":"Cô ấy muốn đi Trung Quốc."},
+      {"zh":"你想喝什么？","pinyin":"Nǐ xiǎng hē shénme?","vi":"Bạn muốn uống gì?"}
+    ]
+  },
+  {
+    "id":7,"pattern_zh":"S + 可以 + V + 吗？","pattern_vi":"Chủ ngữ + có thể + Động từ + không?",
+    "usage":"Xin phép hoặc hỏi khả năng được phép làm gì","hsk_level":2,"topic":"xin phép","is_free":false,"order_num":7,
+    "examples":[
+      {"zh":"我可以进来吗？","pinyin":"Wǒ kěyǐ jìnlái ma?","vi":"Tôi có thể vào không?"},
+      {"zh":"这里可以拍照吗？","pinyin":"Zhèlǐ kěyǐ pāizhào ma?","vi":"Ở đây có thể chụp ảnh không?"},
+      {"zh":"你可以帮我吗？","pinyin":"Nǐ kěyǐ bāng wǒ ma?","vi":"Bạn có thể giúp tôi không?"}
+    ]
+  },
+  {
+    "id":8,"pattern_zh":"因为...，所以...","pattern_vi":"Vì/Bởi vì...，nên/cho nên...",
+    "usage":"Diễn đạt quan hệ nguyên nhân - kết quả","hsk_level":2,"topic":"logic","is_free":false,"order_num":8,
+    "examples":[
+      {"zh":"因为下雨，所以我没去。","pinyin":"Yīnwèi xià yǔ, suǒyǐ wǒ méi qù.","vi":"Vì trời mưa nên tôi không đi."},
+      {"zh":"因为他努力，所以成功了。","pinyin":"Yīnwèi tā nǔlì, suǒyǐ chénggōng le.","vi":"Vì anh ấy cố gắng nên đã thành công."},
+      {"zh":"因为我喜欢汉语，所以每天学习。","pinyin":"Yīnwèi wǒ xǐhuān Hànyǔ, suǒyǐ měitiān xuéxí.","vi":"Vì tôi thích tiếng Trung nên học mỗi ngày."}
+    ]
+  },
+  {
+    "id":9,"pattern_zh":"虽然...，但是...","pattern_vi":"Mặc dù/Tuy...，nhưng...",
+    "usage":"Diễn đạt sự tương phản, nhượng bộ","hsk_level":3,"topic":"logic","is_free":false,"order_num":9,
+    "examples":[
+      {"zh":"虽然很贵，但是很好吃。","pinyin":"Suīrán hěn guì, dànshì hěn hǎochī.","vi":"Mặc dù đắt nhưng rất ngon."},
+      {"zh":"虽然很累，但是很快乐。","pinyin":"Suīrán hěn lèi, dànshì hěn kuàilè.","vi":"Tuy mệt nhưng rất vui vẻ."},
+      {"zh":"虽然难，但是我坚持。","pinyin":"Suīrán nán, dànshì wǒ jiānchí.","vi":"Mặc dù khó nhưng tôi kiên trì."}
+    ]
+  },
+  {
+    "id":10,"pattern_zh":"越来越 + Adj","pattern_vi":"Ngày càng + Tính từ",
+    "usage":"Diễn đạt sự thay đổi theo chiều hướng tăng dần","hsk_level":3,"topic":"biến đổi","is_free":false,"order_num":10,
+    "examples":[
+      {"zh":"天气越来越热。","pinyin":"Tiānqì yuèlái yuè rè.","vi":"Thời tiết ngày càng nóng."},
+      {"zh":"我的汉语越来越好。","pinyin":"Wǒ de Hànyǔ yuèlái yuè hǎo.","vi":"Tiếng Trung của tôi ngày càng tốt."},
+      {"zh":"他越来越忙了。","pinyin":"Tā yuèlái yuè máng le.","vi":"Anh ấy ngày càng bận rộn hơn."}
+    ]
+  }
+]

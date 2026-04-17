@@ -1,0 +1,14 @@
+[
+  {"id":1,"slug":"nghe-nghiep","name_vi":"Nghề nghiệp","name_zh":"职业","description":"Từ vựng về các nghề nghiệp phổ biến","icon":"👨‍💼","lesson_count":16,"word_count":265,"is_free":false,"order_num":1},
+  {"id":2,"slug":"quan-ao","name_vi":"Quần áo","name_zh":"服装","description":"Từ vựng về trang phục và thời trang","icon":"👗","lesson_count":10,"word_count":167,"is_free":false,"order_num":2},
+  {"id":3,"slug":"con-vat","name_vi":"Con vật","name_zh":"动物","description":"Từ vựng về các loài động vật","icon":"🐾","lesson_count":7,"word_count":111,"is_free":false,"order_num":3},
+  {"id":4,"slug":"rau-cu-qua","name_vi":"Rau củ quả","name_zh":"蔬菜水果","description":"Từ vựng về rau, củ, trái cây","icon":"🥦","lesson_count":5,"word_count":107,"is_free":true,"order_num":4},
+  {"id":5,"slug":"co-the-nguoi","name_vi":"Cơ thể người","name_zh":"人体","description":"Từ vựng về các bộ phận cơ thể","icon":"🧍","lesson_count":7,"word_count":104,"is_free":false,"order_num":5},
+  {"id":6,"slug":"giao-thong","name_vi":"Giao thông","name_zh":"交通","description":"Từ vựng về phương tiện và giao thông","icon":"🚗","lesson_count":7,"word_count":164,"is_free":false,"order_num":6},
+  {"id":7,"slug":"do-an","name_vi":"Đồ ăn","name_zh":"食物","description":"Từ vựng về các món ăn và đồ uống","icon":"🍜","lesson_count":3,"word_count":40,"is_free":true,"order_num":7},
+  {"id":8,"slug":"tet","name_vi":"Tết","name_zh":"春节","description":"Từ vựng về Tết Nguyên Đán","icon":"🧨","lesson_count":4,"word_count":50,"is_free":true,"order_num":8},
+  {"id":9,"slug":"truong-hoc","name_vi":"Trường học","name_zh":"学校","description":"Từ vựng về môi trường học đường","icon":"🏫","lesson_count":5,"word_count":72,"is_free":false,"order_num":9},
+  {"id":10,"slug":"gia-dinh","name_vi":"Gia đình","name_zh":"家庭","description":"Từ vựng về các thành viên gia đình","icon":"👨‍👩‍👧‍👦","lesson_count":4,"word_count":55,"is_free":true,"order_num":10},
+  {"id":11,"slug":"mau-sac","name_vi":"Màu sắc","name_zh":"颜色","description":"Từ vựng về màu sắc trong tiếng Trung","icon":"🎨","lesson_count":2,"word_count":30,"is_free":true,"order_num":11},
+  {"id":12,"slug":"so-dem","name_vi":"Số đếm","name_zh":"数字","description":"Học số đếm từ 0 đến 1 tỷ","icon":"🔢","lesson_count":3,"word_count":45,"is_free":true,"order_num":12}
+]

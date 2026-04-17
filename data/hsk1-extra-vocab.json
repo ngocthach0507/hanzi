@@ -1,0 +1,98 @@
+[
+  {
+    "book_level": 1, "lesson_number": 11, "word_number": 1, "hanzi": "大学", "pinyin": "dàxué", "meaning_vi": "đại học", "part_of_speech": "Danh từ", "hsk_level": 1,
+    "example_zh": "我在大学学习。", "example_pinyin": "Wǒ zài dàxué xuéxí.", "example_vi": "Tôi học ở đại học."
+  },
+  {
+    "book_level": 1, "lesson_number": 11, "word_number": 2, "hanzi": "学生", "pinyin": "xuésheng", "meaning_vi": "học sinh, sinh viên", "part_of_speech": "Danh từ", "hsk_level": 1,
+    "example_zh": "他是一个大学生。", "example_pinyin": "Tā shì yī gè dàxuésheng.", "example_vi": "Anh ấy là một sinh viên đại học."
+  },
+  {
+    "book_level": 1, "lesson_number": 11, "word_number": 3, "hanzi": "学习", "pinyin": "xuéxí", "meaning_vi": "học tập", "part_of_speech": "Động từ", "hsk_level": 1,
+    "example_zh": "我们要好好学习。", "example_pinyin": "Wǒmen yào hǎohǎo xuéxí.", "example_vi": "Chúng ta phải học tập tốt."
+  },
+  {
+    "book_level": 1, "lesson_number": 11, "word_number": 4, "hanzi": "读", "pinyin": "dú", "meaning_vi": "đọc, học", "part_of_speech": "Động từ", "hsk_level": 1,
+    "example_zh": "你在读什么书？", "example_pinyin": "Nǐ zài dú shénme shū?", "example_vi": "Bạn đang đọc sách gì vậy?"
+  },
+  {
+    "book_level": 1, "lesson_number": 11, "word_number": 5, "hanzi": "这里", "pinyin": "zhèlǐ", "meaning_vi": "ở đây", "part_of_speech": "Đại từ", "hsk_level": 1,
+    "example_zh": "这里很漂亮。", "example_pinyin": "Zhèlǐ hěn piàoliang.", "example_vi": "Ở đây rất đẹp."
+  },
+  {
+    "book_level": 1, "lesson_number": 12, "word_number": 1, "hanzi": "昨天", "pinyin": "zuótiān", "meaning_vi": "hôm qua", "part_of_speech": "Danh từ", "hsk_level": 1,
+    "example_zh": "昨天我没去学校。", "example_pinyin": "Zuótiān wǒ méi qù xuéxiào.", "example_vi": "Hôm qua tôi không đến trường."
+  },
+  {
+    "book_level": 1, "lesson_number": 12, "word_number": 2, "hanzi": "天气", "pinyin": "tiānqì", "meaning_vi": "thời tiết", "part_of_speech": "Danh từ", "hsk_level": 1,
+    "example_zh": "今天天气很好。", "example_pinyin": "Jīntiān tiānqì hěn hǎo.", "example_vi": "Hôm nay thời tiết rất tốt."
+  },
+  {
+    "book_level": 1, "lesson_number": 12, "word_number": 3, "hanzi": "下雪", "pinyin": "xià xuě", "meaning_vi": "tuyết rơi", "part_of_speech": "Cụm động từ", "hsk_level": 1,
+    "example_zh": "北京下雪 rồi.", "example_pinyin": "Běijīng xià xuě le.", "example_vi": "Bắc Kinh tuyết rơi rồi."
+  },
+  {
+    "book_level": 1, "lesson_number": 12, "word_number": 4, "hanzi": "冷", "pinyin": "lěng", "meaning_vi": "lạnh", "part_of_speech": "Tính từ", "hsk_level": 1,
+    "example_zh": "天冷了，多穿衣服。", "example_pinyin": "Tiān lěng le, duō chuān yīfu.", "example_vi": "Trời lạnh rồi, hãy mặc thêm áo."
+  },
+  {
+    "book_level": 1, "lesson_number": 12, "word_number": 5, "hanzi": "热", "pinyin": "rè", "meaning_vi": "nóng", "part_of_speech": "Tính từ", "hsk_level": 1,
+    "example_zh": "今天太热了。", "example_pinyin": "Jīntiān tài rè le.", "example_vi": "Hôm nay nóng quá."
+  },
+  {
+    "book_level": 1, "lesson_number": 12, "word_number": 6, "hanzi": "雨", "pinyin": "yǔ", "meaning_vi": "mưa", "part_of_speech": "Danh từ", "hsk_level": 1,
+    "example_zh": "现在没下雨。", "example_pinyin": "Xiànzài méi xià yǔ.", "example_vi": "Bây giờ không có mưa."
+  },
+  {
+    "book_level": 1, "lesson_number": 12, "word_number": 7, "hanzi": "怎么样", "pinyin": "zěnmeyàng", "meaning_vi": "như thế nào", "part_of_speech": "Đại từ", "hsk_level": 1,
+    "example_zh": "你觉得这件衣服怎么样？", "example_pinyin": "Nǐ juéde zhè jiàn yīfu zěnmeyàng?", "example_vi": "Bạn thấy bộ quần áo này thế nào?"
+  },
+  {
+    "book_level": 1, "lesson_number": 13, "word_number": 1, "hanzi": "请", "pinyin": "qǐng", "meaning_vi": "mời, xin", "part_of_speech": "Động từ", "hsk_level": 1,
+    "example_zh": "请坐。", "example_pinyin": "Qǐng zuò.", "example_vi": "Mời ngồi."
+  },
+  {
+    "book_level": 1, "lesson_number": 13, "word_number": 2, "hanzi": "给", "pinyin": "gěi", "meaning_vi": "cho", "part_of_speech": "Động từ / Giới từ", "hsk_level": 1,
+    "example_zh": "请给我一杯水。", "example_pinyin": "Qǐng gěi wǒ yī bēi shuǐ.", "example_vi": "Xin cho tôi một ly nước."
+  },
+  {
+    "book_level": 1, "lesson_number": 13, "word_number": 3, "hanzi": "茶", "pinyin": "chá", "meaning_vi": "trà", "part_of_speech": "Danh từ", "hsk_level": 1,
+    "example_zh": "我不喝茶。", "example_pinyin": "Wǒ bù hē chá.", "example_vi": "Tôi không uống trà."
+  },
+  {
+    "book_level": 1, "lesson_number": 13, "word_number": 4, "hanzi": "杯", "pinyin": "bēi", "meaning_vi": "ly, cốc (lượng từ)", "part_of_speech": "Lượng từ", "hsk_level": 1,
+    "example_zh": "一共三杯茶。", "example_pinyin": "Yīgòng sān bēi chá.", "example_vi": "Tổng cộng 3 ly trà."
+  },
+  {
+    "book_level": 1, "lesson_number": 13, "word_number": 5, "hanzi": "买", "pinyin": "mǎi", "meaning_vi": "mua", "part_of_speech": "Động từ", "hsk_level": 1,
+    "example_zh": "你想买什么？", "example_pinyin": "Nǐ xiǎng mǎi shénme?", "example_vi": "Bạn muốn mua gì?"
+  },
+  {
+    "book_level": 1, "lesson_number": 14, "word_number": 1, "hanzi": "看", "pinyin": "kàn", "meaning_vi": "xem, nhìn, đọc", "part_of_speech": "Động từ", "hsk_level": 1,
+    "example_zh": "我在看电影。", "example_pinyin": "Wǒ zài kàn diànyǐng.", "example_vi": "Tôi đang xem phim."
+  },
+  {
+    "book_level": 1, "lesson_number": 14, "word_number": 2, "hanzi": "电影", "pinyin": "diànyǐng", "meaning_vi": "phim điện ảnh", "part_of_speech": "Danh từ", "hsk_level": 1,
+    "example_zh": "这部电影很好看。", "example_pinyin": "Zhè bù diànyǐng hěn hǎokàn.", "example_vi": "Bộ phim này rất hay."
+  },
+  {
+    "book_level": 1, "lesson_number": 14, "word_number": 3, "hanzi": "东西", "pinyin": "dōngxi", "meaning_vi": "đồ vật, thứ", "part_of_speech": "Danh từ", "hsk_level": 1,
+    "example_zh": "去超市买东西。", "example_pinyin": "Qù chāoshì mǎi dōngxi.", "example_vi": "Đi siêu thị mua đồ."
+  },
+  {
+    "book_level": 1, "lesson_number": 14, "word_number": 4, "hanzi": "都", "pinyin": "dōu", "meaning_vi": "đều", "part_of_speech": "Phó từ", "hsk_level": 1,
+    "example_zh": "我们都是学生。", "example_pinyin": "Wǒmen dōu shì xuésheng.", "example_vi": "Chúng tôi đều là học sinh."
+  },
+  {
+    "book_level": 1, "lesson_number": 15, "word_number": 1, "hanzi": "机场", "pinyin": "jīchǎng", "meaning_vi": "sân bay", "part_of_speech": "Danh từ", "hsk_level": 1,
+    "example_zh": "大兴机场很远。", "example_pinyin": "Dàxīng jīchǎng hěn yuǎn.", "example_vi": "Sân bay Đại Hưng rất xa."
+  },
+  {
+    "book_level": 1, "lesson_number": 15, "word_number": 2, "hanzi": "见", "pinyin": "jiàn", "meaning_vi": "gặp", "part_of_speech": "Động từ", "hsk_level": 1,
+    "example_zh": "明天见！", "example_pinyin": "Míngtiān jiàn!", "example_vi": "Hẹn gặp lại ngày mai!"
+  },
+  {
+    "book_level": 1, "lesson_number": 15, "word_number": 3, "hanzi": "再见", "pinyin": "zàijiàn", "meaning_vi": "tạm biệt", "part_of_speech": "Động từ", "hsk_level": 1,
+    "example_zh": "大家再见。", "example_pinyin": "Dàjiā zàijiàn.", "example_vi": "Chào tạm biệt mọi người."
+  }
+]

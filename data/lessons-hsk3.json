@@ -1,0 +1,146 @@
+[
+  {
+    "book_level": 3,
+    "lesson_number": 1,
+    "title_zh": "我们去机场接你们",
+    "title_en": "We will pick you up at the airport",
+    "title_vi": "Chúng tôi đi sân bay đón các bạn",
+    "is_free": true
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 2,
+    "title_zh": "你们想吃什么就点什么",
+    "title_en": "You can order whatever you feel like",
+    "title_vi": "Các bạn muốn ăn gì thì gọi nấy",
+    "is_free": true
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 3,
+    "title_zh": "这个小区挺好的",
+    "title_en": "This neighborhood is pretty nice",
+    "title_vi": "Khu chung cư này khá tốt",
+    "is_free": true
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 4,
+    "title_zh": "这家宾馆跟别的都不一样",
+    "title_en": "This hotel is unlike any other",
+    "title_vi": "Khách sạn này không giống những nơi khác",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 5,
+    "title_zh": "这样的照片才好看",
+    "title_en": "Photos like these are the best",
+    "title_vi": "Những bức ảnh như thế này mới đẹp",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 6,
+    "title_zh": "高铁上还可以点外卖",
+    "title_en": "You can even order takeout on a high-speed train",
+    "title_vi": "Trên tàu cao tốc cũng có thể gọi đồ ăn ngoài",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 7,
+    "title_zh": "那条裙子比短裤还好看",
+    "title_en": "That skirt looks better than the shorts",
+    "title_vi": "Chiếc váy đó mặc vào còn đẹp hơn cả quần đùi",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 8,
+    "title_zh": "今天我出院了",
+    "title_en": "Today I was discharged from the hospital",
+    "title_vi": "Hôm nay tôi xuất viện rồi",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 9,
+    "title_zh": "打不好没关系",
+    "title_en": "It doesn't matter if you don't play well",
+    "title_vi": "Không đánh tốt cũng không sao",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 10,
+    "title_zh": "你明天再把书还给我",
+    "title_en": "You can return the book to me tomorrow",
+    "title_vi": "Ngày mai bạn trả sách cho tôi cũng được",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 11,
+    "title_zh": "看来我没办法解决这个问题",
+    "title_en": "It seems I can't solve this problem",
+    "title_vi": "Có vẻ như tôi không có cách giải quyết vấn đề này",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 12,
+    "title_zh": "这个季节天气变化很快",
+    "title_en": "The weather changes rapidly in this season",
+    "title_vi": "Mùa này thời tiết thay đổi rất nhanh",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 13,
+    "title_zh": "我的新邻居来自英国",
+    "title_en": "My new neighbors come from the UK",
+    "title_vi": "Hàng xóm mới của tôi đến từ nước Anh",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 14,
+    "title_zh": "这本书被别人借走了",
+    "title_en": "This book is checked out",
+    "title_vi": "Cuốn sách này bị người khác mượn rồi",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 15,
+    "title_zh": "我是半个南京人",
+    "title_en": "I am basically half a Nanjing local",
+    "title_vi": "Tôi là nửa người Nam Kinh",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 16,
+    "title_zh": "我听说有的熊猫出国了",
+    "title_en": "I heard that some pandas have gone abroad",
+    "title_vi": "Tôi nghe nói có vài con gấu trúc đã ra nước ngoài",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 17,
+    "title_zh": "我要多向认真的人学习",
+    "title_en": "I will learn from people who are careful",
+    "title_vi": "Tôi phải học hỏi nhiều hơn từ những người chăm chỉ",
+    "is_free": false
+  },
+  {
+    "book_level": 3,
+    "lesson_number": 18,
+    "title_zh": "我学会了包饺子",
+    "title_en": "I've learned how to make jiaozi",
+    "title_vi": "Tôi đã biết gói sủi cảo rồi",
+    "is_free": false
+  }
+]

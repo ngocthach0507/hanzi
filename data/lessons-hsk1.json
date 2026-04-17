@@ -1,0 +1,122 @@
+[
+  {
+    "book_level": 1,
+    "lesson_number": 1,
+    "title_zh": "AI小语，你好！",
+    "title_en": "Hello, AI Xiaoyu!",
+    "title_vi": "AI小语，你好！",
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 2,
+    "title_zh": "我叫李文",
+    "title_en": "My name is Li Wen",
+    "title_vi": "我叫李文",
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 3,
+    "title_zh": "我是中国人",
+    "title_en": "I'm Chinese",
+    "title_vi": "我是中国人",
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 4,
+    "title_zh": "我有两个孩子",
+    "title_en": "I have two children",
+    "title_vi": "我有两个孩子",
+    "is_free": false
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 5,
+    "title_zh": "今天我休息",
+    "title_en": "I'm off today",
+    "title_vi": "今天我休息",
+    "is_free": false
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 6,
+    "title_zh": "你的手机号是多少？",
+    "title_en": "What's your phone number?",
+    "title_vi": "你的手机号是多少？",
+    "is_free": false
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 7,
+    "title_zh": "我晚上六点半下班",
+    "title_en": "I'll finish work at 6:30 in the evening",
+    "title_vi": "我晚上六点半下班",
+    "is_free": false
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 8,
+    "title_zh": "我爸爸也在医院工作",
+    "title_en": "My father also works at a hospital",
+    "title_vi": "我爸爸也在医院工作",
+    "is_free": false
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 9,
+    "title_zh": "我明天上午在学校学习",
+    "title_en": "I'll be studying at school tomorrow morning",
+    "title_vi": "我明天上午在学校学习",
+    "is_free": false
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 10,
+    "title_zh": "这儿的苹果真便宜！",
+    "title_en": "The apples here are really affordable!",
+    "title_vi": "这儿的苹果真便宜！",
+    "is_free": false
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 11,
+    "title_zh": "我读大学呢",
+    "title_en": "I'm studying at university",
+    "title_vi": "我读大学呢",
+    "is_free": false
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 12,
+    "title_zh": "昨天下雪了",
+    "title_en": "It snowed yesterday",
+    "title_vi": "昨天下雪了",
+    "is_free": false
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 13,
+    "title_zh": "请给我一杯茶",
+    "title_en": "I'll have a cup of tea, please",
+    "title_vi": "请给我一杯茶",
+    "is_free": false
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 14,
+    "title_zh": "我看了一个电影",
+    "title_en": "I watched a movie",
+    "title_vi": "我看了一个电影",
+    "is_free": false
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 15,
+    "title_zh": "大兴机场见！",
+    "title_en": "See you at Daxing Airport!",
+    "title_vi": "大兴机场见！",
+    "is_free": false
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id":1,"character":"人","pinyin":"rén","meaning_vi":"người","stroke_count":2,
+    "group_name":"Con người",
+    "example_chars":[{"char":"你","meaning":"bạn"},{"char":"他","meaning":"anh ấy"},{"char":"们","meaning":"(số nhiều)"},{"char":"休","meaning":"nghỉ ngơi"},{"char":"信","meaning":"thư, tin"}],
+    "memory_tip":"Chữ 人 trông giống hình người đang đứng với 2 chân mở rộng",
+    "order_num":1
+  },
+  {
+    "id":2,"character":"口","pinyin":"kǒu","meaning_vi":"miệng","stroke_count":3,
+    "group_name":"Con người",
+    "example_chars":[{"char":"吃","meaning":"ăn"},{"char":"喝","meaning":"uống"},{"char":"说","meaning":"nói"},{"char":"唱","meaning":"hát"},{"char":"叫","meaning":"gọi, tên"}],
+    "memory_tip":"Hình vuông nhỏ như cái miệng há ra. Chữ nào có 口 thường liên quan đến miệng, lời nói.",
+    "order_num":2
+  },
+  {
+    "id":3,"character":"手","pinyin":"shǒu","meaning_vi":"tay","stroke_count":4,
+    "group_name":"Con người",
+    "example_chars":[{"char":"打","meaning":"đánh, chơi"},{"char":"拿","meaning":"cầm"},{"char":"把","meaning":"nắm, tay cầm"},{"char":"接","meaning":"tiếp nhận, đón"}],
+    "memory_tip":"Bộ thủ dạng 扌(3 nét) xuất hiện ở bên trái chữ. Liên quan đến hành động của tay.",
+    "order_num":3
+  },
+  {
+    "id":4,"character":"目","pinyin":"mù","meaning_vi":"mắt","stroke_count":5,
+    "group_name":"Con người",
+    "example_chars":[{"char":"看","meaning":"nhìn, xem"},{"char":"眼","meaning":"mắt"},{"char":"睡","meaning":"ngủ"},{"char":"眉","meaning":"lông mày"}],
+    "memory_tip":"Hình chữ nhật đứng với 2 nét ngang bên trong — như 2 con ngươi mắt nhìn thẳng.",
+    "order_num":4
+  },
+  {
+    "id":5,"character":"心","pinyin":"xīn","meaning_vi":"tim, tâm","stroke_count":4,
+    "group_name":"Con người",
+    "example_chars":[{"char":"想","meaning":"muốn, suy nghĩ"},{"char":"感","meaning":"cảm nhận"},{"char":"忙","meaning":"bận"},{"char":"忘","meaning":"quên"},{"char":"愿","meaning":"nguyện, muốn"}],
+    "memory_tip":"Bộ 忄(2 chấm + 1 nét đứng) ở bên trái. Chữ có 心 liên quan đến cảm xúc, suy nghĩ.",
+    "order_num":5
+  },
+  {
+    "id":6,"character":"水","pinyin":"shuǐ","meaning_vi":"nước","stroke_count":4,
+    "group_name":"Thiên nhiên",
+    "example_chars":[{"char":"海","meaning":"biển"},{"char":"河","meaning":"sông"},{"char":"游","meaning":"bơi"},{"char":"洗","meaning":"rửa"},{"char":"泳","meaning":"bơi lội"}],
+    "memory_tip":"Bộ 氵(3 chấm bên trái) = nước chảy. Chữ nào có 氵 thường liên quan đến nước, chất lỏng.",
+    "order_num":6
+  },
+  {
+    "id":7,"character":"火","pinyin":"huǒ","meaning_vi":"lửa","stroke_count":4,
+    "group_name":"Thiên nhiên",
+    "example_chars":[{"char":"热","meaning":"nóng"},{"char":"烤","meaning":"nướng"},{"char":"炒","meaning":"xào"},{"char":"烧","meaning":"đốt, nấu"},{"char":"灯","meaning":"đèn"}],
+    "memory_tip":"Bộ 灬(4 chấm dưới) = lửa bốc lên. Liên quan đến lửa, nhiệt độ, nấu ăn.",
+    "order_num":7
+  },
+  {
+    "id":8,"character":"木","pinyin":"mù","meaning_vi":"gỗ, cây","stroke_count":4,
+    "group_name":"Thiên nhiên",
+    "example_chars":[{"char":"树","meaning":"cây"},{"char":"桌","meaning":"bàn"},{"char":"椅","meaning":"ghế"},{"char":"林","meaning":"rừng cây nhỏ"},{"char":"森","meaning":"rừng rậm"}],
+    "memory_tip":"Hình cây: nét thẳng đứng là thân, nét ngang là cành, nét xuống là rễ.",
+    "order_num":8
+  },
+  {
+    "id":9,"character":"土","pinyin":"tǔ","meaning_vi":"đất","stroke_count":3,
+    "group_name":"Thiên nhiên",
+    "example_chars":[{"char":"地","meaning":"đất, địa điểm"},{"char":"场","meaning":"sân, trường"},{"char":"坐","meaning":"ngồi"},{"char":"城","meaning":"thành phố"}],
+    "memory_tip":"Hình dạng mô đất: nét ngang dưới là mặt đất, nét thẳng đứng là khối đất.",
+    "order_num":9
+  },
+  {
+    "id":10,"character":"日","pinyin":"rì","meaning_vi":"mặt trời, ngày","stroke_count":4,
+    "group_name":"Thiên nhiên",
+    "example_chars":[{"char":"明","meaning":"sáng"},{"char":"时","meaning":"thời gian"},{"char":"早","meaning":"sáng sớm"},{"char":"晚","meaning":"buổi tối"},{"char":"晴","meaning":"trời nắng"}],
+    "memory_tip":"Hình vuông với nét ngang giữa = mặt trời tròn phát sáng. Liên quan đến thời gian, ánh sáng.",
+    "order_num":10
+  },
+  {
+    "id":11,"character":"月","pinyin":"yuè","meaning_vi":"mặt trăng, tháng","stroke_count":4,
+    "group_name":"Thiên nhiên",
+    "example_chars":[{"char":"明","meaning":"sáng"},{"char":"期","meaning":"kỳ, tuần"},{"char":"朝","meaning":"buổi sáng, triều đại"},{"char":"腿","meaning":"chân"},{"char":"脸","meaning":"mặt"}],
+    "memory_tip":"Hình lưỡi liềm trăng khuyết. Khi đứng cạnh → thường chỉ bộ phận cơ thể (thịt/月肉).",
+    "order_num":11
+  },
+  {
+    "id":12,"character":"马","pinyin":"mǎ","meaning_vi":"ngựa","stroke_count":3,
+    "group_name":"Động vật",
+    "example_chars":[{"char":"妈","meaning":"mẹ"},{"char":"骑","meaning":"cưỡi"},{"char":"驾","meaning":"lái"},{"char":"骗","meaning":"lừa dối"}],
+    "memory_tip":"Hình ngựa đứng đơn giản hóa. Chữ có 马 liên quan đến ngựa hoặc âm 'ma'.",
+    "order_num":12
+  },
+  {
+    "id":13,"character":"鸟","pinyin":"niǎo","meaning_vi":"chim","stroke_count":5,
+    "group_name":"Động vật",
+    "example_chars":[{"char":"鸡","meaning":"gà"},{"char":"鸭","meaning":"vịt"},{"char":"鹅","meaning":"ngỗng"},{"char":"鸽","meaning":"bồ câu"}],
+    "memory_tip":"Hình con chim đơn giản hóa. Chữ có bộ 鸟 đều là tên các loài chim.",
+    "order_num":13
+  },
+  {
+    "id":14,"character":"走","pinyin":"zǒu","meaning_vi":"đi, chạy","stroke_count":7,
+    "group_name":"Hành động",
+    "example_chars":[{"char":"起","meaning":"đứng dậy"},{"char":"越","meaning":"vượt qua"},{"char":"趣","meaning":"thú vị"},{"char":"赶","meaning":"đuổi theo"}],
+    "memory_tip":"Hình người đang bước đi. Bộ này chỉ hành động di chuyển.",
+    "order_num":14
+  },
+  {
+    "id":15,"character":"言","pinyin":"yán","meaning_vi":"lời nói","stroke_count":7,
+    "group_name":"Hành động",
+    "example_chars":[{"char":"说","meaning":"nói"},{"char":"话","meaning":"lời nói"},{"char":"语","meaning":"ngôn ngữ"},{"char":"谢","meaning":"cảm ơn"},{"char":"请","meaning":"mời, xin"}],
+    "memory_tip":"Bộ 讠(2 nét) ở bên trái. Chữ nào có 讠 đều liên quan đến lời nói, ngôn ngữ.",
+    "order_num":15
+  },
+  {
+    "id":16,"character":"上","pinyin":"shàng","meaning_vi":"trên, lên","stroke_count":3,
+    "group_name":"Phương hướng/Địa điểm",
+    "example_chars":[{"char":"上面","meaning":"bên trên"},{"char":"上班","meaning":"đi làm"},{"char":"上课","meaning":"học bài"},{"char":"以上","meaning":"trở lên, từ trở lên"}],
+    "memory_tip":"Nét thẳng đứng chỉ lên trên mặt đường ngang. Ngược lại với 下 (dưới).",
+    "order_num":16
+  },
+  {
+    "id":17,"character":"下","pinyin":"xià","meaning_vi":"dưới, xuống","stroke_count":3,
+    "group_name":"Phương hướng/Địa điểm",
+    "example_chars":[{"char":"下面","meaning":"bên dưới"},{"char":"下班","meaning":"tan ca"},{"char":"下课","meaning":"tan học"},{"char":"以下","meaning":"dưới đây"}],
+    "memory_tip":"Nét chỉ xuống dưới mặt đường ngang. Cặp đôi với 上.",
+    "order_num":17
+  },
+  {
+    "id":18,"character":"刀","pinyin":"dāo","meaning_vi":"dao","stroke_count":2,
+    "group_name":"Đồ vật, công cụ",
+    "example_chars":[{"char":"分","meaning":"phút, chia"},{"char":"切","meaning":"cắt"},{"char":"别","meaning":"khác, đừng"},{"char":"刻","meaning":"khắc, khắc giờ"}],
+    "memory_tip":"Bộ 刂(2 nét đứng) ở bên phải. Chữ có bộ này liên quan đến cắt, chia.",
+    "order_num":18
+  },
+  {
+    "id":19,"character":"金","pinyin":"jīn","meaning_vi":"kim loại, vàng","stroke_count":8,
+    "group_name":"Đồ vật, công cụ",
+    "example_chars":[{"char":"钱","meaning":"tiền"},{"char":"银","meaning":"bạc"},{"char":"铁","meaning":"sắt"},{"char":"钟","meaning":"đồng hồ, chuông"},{"char":"针","meaning":"kim, mũi kim"}],
+    "memory_tip":"Bộ 钅(5 nét) ở bên trái = kim loại. Chữ có 钅 liên quan đến kim loại, đồ dùng bằng kim loại.",
+    "order_num":19
+  },
+  {
+    "id":20,"character":"一","pinyin":"yī","meaning_vi":"một","stroke_count":1,
+    "group_name":"Biểu tượng",
+    "example_chars":[{"char":"一","meaning":"một"},{"char":"七","meaning":"bảy"},{"char":"下","meaning":"dưới"},{"char":"不","meaning":"không"}],
+    "memory_tip":"1 nét ngang đơn giản = số một. Nền tảng của hệ thống chữ số Hán.",
+    "order_num":20
+  }
+]

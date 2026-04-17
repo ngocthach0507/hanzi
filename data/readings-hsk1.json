@@ -1,0 +1,828 @@
+[
+  {
+    "id": "r1-l2-gioithieu",
+    "level": 1, "lesson_ref": 2,
+    "title_zh": "你叫什么名字？",
+    "title_vi": "Bạn tên là gì?",
+    "topic": "Giao tiếp",
+    "grammar_focus": ["是字句", "叫 + 名字", "也"],
+    "content": [
+      { "zh": "李文是中国人，也是一名大学生。", "py": "Lǐ Wén shì Zhōngguórén, yě shì yī míng dàxuéshēng.", "vi": "Lý Văn là người Trung Quốc, cũng là một sinh viên đại học." },
+      { "zh": "他的好朋友白家月是法国人，他们在一起学习中文。", "py": "Tā de hǎo péngyou Bái Jiāyuè shì Fǎguórén, tāmen zài yīqǐ xuéxí Zhōngwén.", "vi": "Bạn tốt của anh ấy là Bạch Gia Nguyệt, là người Pháp, họ cùng nhau học tiếng Trung." },
+      { "zh": "白家月的中文老师叫王一飞，她是一个很好的老师。", "py": "Bái Jiāyuè de Zhōngwén lǎoshī jiào Wáng Yīfēi, tā shì yī gè hěn hǎo de lǎoshī.", "vi": "Giáo viên tiếng Trung của Bạch Gia Nguyệt tên là Vương Nhất Phi, cô ấy là một giáo viên rất tốt." },
+      { "zh": "有一天，王老师问白家月：「你叫什么名字？」", "py": "Yǒu yītiān, Wáng lǎoshī wèn Bái Jiāyuè: 「Nǐ jiào shénme míngzi?」", "vi": "Một hôm, cô Vương hỏi Bạch Gia Nguyệt: 'Em tên là gì?'" },
+      { "zh": "白家月笑着说：「老师，我叫白家月。」", "py": "Bái Jiāyuè huídá shuō: 「Lǎoshī, wǒ jiào Bái Jiāyuè.」", "vi": "Bạch Gia Nguyệt cười nói: 'Thưa cô, em tên là Bạch Gia Nguyệt.'" },
+      { "zh": "现在，他们都是非常好的朋友。", "py": "Xiànzài, tāmen dōu shì fēicháng hǎo de péngyou.", "vi": "Hiện tại, họ đều là những người bạn vô cùng thân thiết." }
+    ],
+    "vocabulary": [
+      { "zh": "大学生", "py": "dàxuéshēng", "vi": "sinh viên đại học" },
+      { "zh": "中国人", "py": "Zhōngguórén", "vi": "người Trung Quốc" },
+      { "zh": "名字", "py": "míngzi", "vi": "tên" },
+      { "zh": "朋友", "py": "péngyou", "vi": "bạn bè" },
+      { "zh": "老师", "py": "lǎoshī", "vi": "giáo viên" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "李文是哪国人？", "q_vi": "Lý Văn là người nước nào?", "options": ["法国人", "中国人", "泰国人", "韩国人"], "answer": 1 },
+        { "q_zh": "白家月的老师叫什么名字？", "q_vi": "Giáo viên của Bạch Gia Nguyệt tên là gì?", "options": ["王一雪", "刘明", "王一飞", "李文"], "answer": 2 },
+        { "q_zh": "白家月是什么人？", "q_vi": "Bạch Gia Nguyệt là người gì?", "options": ["中国人", "越南人", "法国人", "英国人"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "她___白家月，是法国人。", "sentence_vi": "Cô ấy ___ Bạch Gia Nguyệt, là người Pháp.", "answer": "叫", "options": ["是", "叫", "在", "有"], "grammar_point": "叫+名字" },
+        { "type": "fill", "sentence_zh": "白家月___是大学生。", "sentence_vi": "Bạch Gia Nguyệt ___ là sinh viên.", "answer": "也", "options": ["都", "也", "很", "不"], "grammar_point": "副词 也" }
+      ]
+    }
+  },
+  {
+    "id": "r1-l4-jiating",
+    "level": 1, "lesson_ref": 4,
+    "title_zh": "我有两个孩子",
+    "title_vi": "Tôi có hai người con",
+    "topic": "Gia đình",
+    "grammar_focus": ["有字句", "数量词", "语气助词呢"],
+    "content": [
+      { "zh": "王一雪是一个快乐的妈妈，她家在北京，家里有四口人。", "py": "Wáng Yīxuě shì yī gè kuàilè de māma, tā jiā zài Běijīng, jiā lǐ yǒu sì kǒu rén.", "vi": "Vương Nhất Tuyết là một người mẹ hạnh phúc, nhà cô ấy ở Bắc Kinh, trong nhà có bốn người." },
+      { "zh": "她有两个可爱的孩子，一个五岁的儿子和一个十二岁的女儿。", "py": "Tā yǒu liǎng gè kě'ài de háizi, yī gè wǔ suì de érzi hé yī gè shí'èr suì de nǚ'ér.", "vi": "Cô ấy có hai người con đáng yêu, một con trai năm tuổi và một con gái mười hai tuổi." },
+      { "zh": "儿子叫王小龙，女儿叫王小凤，他们都很听话。", "py": "Érzi jiào Wáng Xiǎolóng, nǚ'ér jiào Wáng Xiǎofèng, tāmen dōu hěn tīnghuà.", "vi": "Con trai tên là Vương Tiểu Long, con gái tên là Vương Tiểu Phượng, các con đều rất ngoan ngoãn." },
+      { "zh": "今天早晨，王一雪在门口遇到了邻居陈天中。", "py": "Jīntiān zǎochen, Wáng Yīxuě zài ménkǒu yùdào le línjū Chén Tiānzhōng.", "vi": "Sáng nay, Vương Nhất Tuyết gặp người hàng xóm Trần Thiên Trung ở cửa." },
+      { "zh": "陈天中问：「你好，你家有几口人？」", "py": "Chén Tiānzhōng wèn: 「Nǐ hǎo, nǐ jiā yǒu jǐ kǒu rén?」", "vi": "Trần Thiên Trung hỏi: 'Chào chị, nhà chị có mấy người?'" },
+      { "zh": "王一雪回答说：「我家有四口人，还有一个好朋友也常来我家玩。」", "py": "Wáng Yīxuě huídá shuō: 「Wǒ jiā yǒu sì kǒu rén, hái yǒu yī gè hǎo péngyou yě cháng lái wǒ jiā wán.」", "vi": "Vương Nhất Tuyết trả lời: 'Nhà tôi có bốn người, còn có một người bạn tốt cũng thường xuyên đến nhà tôi chơi.'" }
+    ],
+    "vocabulary": [
+      { "zh": "孩子", "py": "háizi", "vi": "đứa trẻ / con" },
+      { "zh": "儿子", "py": "érzi", "vi": "con trai" },
+      { "zh": "女儿", "py": "nǚ'ér", "vi": "con gái" },
+      { "zh": "口", "py": "kǒu", "vi": "miệng / lượng từ chỉ người trong gia đình" },
+      { "zh": "邻居", "py": "línjū", "vi": "hàng xóm" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "王一雪的儿子叫什么名字？", "q_vi": "Con trai của Vương Nhất Tuyết tên là gì?", "options": ["王一雪", "王小龙", "王小凤", "陈天中"], "answer": 1 },
+        { "q_zh": "王一雪的女儿今年多大了？", "q_vi": "Con gái của Vương Nhất Tuyết năm nay bao nhiêu tuổi?", "options": ["五岁", "四岁", "十二岁", "十岁"], "answer": 2 },
+        { "q_zh": "谁是王一雪的邻居？", "q_vi": "Ai là hàng xóm của Vương Nhất Tuyết?", "options": ["李文", "陈天中", "杨同乐", "老师"], "answer": 1 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "王一雪___两个孩子。", "sentence_vi": "Vương Nhất Tuyết ___ hai người con.", "answer": "有", "options": ["是", "有", "在", "叫"], "grammar_point": "有字句" },
+        { "type": "fill", "sentence_zh": "杨同乐___有哥哥。", "sentence_vi": "Dương Đồng Lạc ___ có anh trai.", "answer": "没", "options": ["不", "没", "也", "很"], "grammar_point": "没有" }
+      ]
+    }
+  },
+  {
+    "id": "r1-l5-xiuxi",
+    "level": 1, "lesson_ref": 5,
+    "title_zh": "今天我休息",
+    "title_vi": "Hôm nay tôi nghỉ",
+    "topic": "Đời sống",
+    "grammar_focus": ["时间表达", "能愿动词会", "星期"],
+    "content": [
+      { "zh": "今天是九月八号，星期日，刘明在家里休息。", "py": "Jīntiān shì jiǔyuè bā hào, xīngqīrì, Liú Míng zài jiālǐ xiūxi.", "vi": "Hôm nay là ngày 8 tháng 9, Chủ nhật, Lưu Minh ở nhà nghỉ ngơi." },
+      { "zh": "他的朋友杨同乐很会做饭，他会做面条儿，也会做饺子。", "py": "Tā de péngyou Yáng Tónglè hěn huì zuòfàn, tā huì zuò miàntiáor, yě huì zuò jiǎozi.", "vi": "Bạn của anh ấy là Dương Đồng Lạc rất biết nấu ăn, anh ấy biết làm mì, cũng biết làm sủi cảo." },
+      { "zh": "杨同乐星期天喜欢在家做饭，不去超市买东西。", "py": "Yáng Tónglè xīngqītiān xǐhuān zài jiā zuòfàn, bù qù chāoshì mǎi dōngxi.", "vi": "Chủ nhật Dương Đồng Lạc thích ở nhà nấu ăn, không đi siêu thị mua đồ." },
+      { "zh": "下午，王一雪来找他，问他：「你会做什么好吃的？」", "py": "Xiàwǔ, Wáng Yīxuě lái zhǎo tā, wèn tā: 「Nǐ huì zuò shénme hǎochī de?」", "vi": "Buổi chiều, Vương Nhất Tuyết đến tìm anh ấy, hỏi: 'Cậu biết làm món gì ngon nào?'" },
+      { "zh": "杨同乐笑着说：「我会做很多好吃的，你想吃什么，我就做什么。」", "py": "Yáng Tónglè xiàozhe shuō: 「Wǒ huì zuò hěn duō hǎochī de, nǐ xiǎng chī shénme, wǒ jiù zuò shénme.」", "vi": "Dương Đồng Lạc cười nói: 'Tớ biết làm nhiều món ngon lắm, cậu muốn ăn gì tớ sẽ làm món đó.'" }
+    ],
+    "vocabulary": [
+      { "zh": "休息", "py": "xiūxi", "vi": "nghỉ ngơi" },
+      { "zh": "星期日", "py": "xīngqīrì", "vi": "chủ nhật" },
+      { "zh": "做饭", "py": "zuòfàn", "vi": "nấu ăn" },
+      { "zh": "面条儿", "py": "miàntiáor", "vi": "mì" },
+      { "zh": "饺子", "py": "jiǎozi", "vi": "sủi cảo" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "今天是星期几？", "q_vi": "Hôm nay là thứ mấy?", "options": ["星期一", "星期五", "星期日", "星期三"], "answer": 2 },
+        { "q_zh": "杨同乐会做什么？", "q_vi": "Dương Đồng Lạc biết làm gì?", "options": ["只会做米饭", "只会做面条儿", "会做面条儿和饺子", "不会做饭"], "answer": 2 },
+        { "q_zh": "杨同乐星期天做什么？", "q_vi": "Chủ nhật Dương Đồng Lạc làm gì?", "options": ["去超市", "在家做饭", "看电影", "休息"], "answer": 1 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "杨同乐___做面条儿，也会做饺子。", "sentence_vi": "Dương Đồng Lạc ___ làm mì, cũng biết làm sủi cảo.", "answer": "会", "options": ["想", "会", "能", "可以"], "grammar_point": "能愿动词 会" },
+        { "type": "fill", "sentence_zh": "今天___星期日。", "sentence_vi": "Hôm nay ___ chủ nhật.", "answer": "是", "options": ["在", "有", "是", "叫"], "grammar_point": "名词谓语句" }
+      ]
+    }
+  },
+  {
+    "id": "r1-l6-chaoshi",
+    "level": 1, "lesson_ref": 6,
+    "title_zh": "我想去超市买东西",
+    "title_vi": "Tôi muốn đi siêu thị mua đồ",
+    "topic": "Mua sắm",
+    "grammar_focus": ["能愿动词想", "连动句", "疑问代词哪儿"],
+    "content": [
+      { "zh": "白家月想去超市买牛奶，她在门口遇到了陈天中。", "py": "Bái Jiāyuè xiǎng qù chāoshì mǎi niúnǎi, tā zài ménkǒu yùdào le Chén Tiānzhōng.", "vi": "Bạch Gia Nguyệt muốn đi siêu thị mua sữa, cô ấy gặp Trần Thiên Trung ở cửa." },
+      { "zh": "陈天中说：「我也去超市买东西，我们一起去吧。」白家月说：「太好了！」", "py": "Chén Tiānzhōng shuō: 「Wǒ yě qù chāoshì mǎi dōngxi, wǒmen yīqǐ qù ba.」 Bái Jiāyuè shuō: 「Tài hǎo le!」", "vi": "Trần Thiên Trung nói: 'Tớ cũng đi siêu thị mua đồ, chúng mình cùng đi nhé.' Bạch Gia Nguyệt nói: 'Tuyệt quá!'" },
+      { "zh": "王一雪的家人星期天也喜欢出去吃晚饭，他们今天去西安饭店吃包子。", "py": "Wáng Yīxuě de jiārén xīngqītiān yě xǐhuān chūqù chī wǎnfàn, tāmen jīntiān qù Xī'ān Fàndiàn chī bāozi.", "vi": "Gia đình Vương Nhất Tuyết Chủ nhật cũng thích ra ngoài ăn tối, hôm nay họ đến nhà hàng Tây An ăn bánh bao." },
+      { "zh": "那边的包子非常好吃，她的女儿非常喜欢，每次都要吃很多。", "py": "Nàbiān de bāozi fēicháng hǎochī, tā de nǚ'ér fēicháng xǐhuān, měi cì dōu yào chī hěn duō.", "vi": "Bánh bao ở đó rất ngon, con gái cô ấy rất thích, lần nào cũng ăn rất nhiều." },
+      { "zh": "因为饭店离家 not xa, họ đi taxi, rất nhanh là đến nơi.", "py": "Yīnwèi fàndiàn lí jiā bù yuǎn, tāmen zuò chūzūchē qù, hěn kuài jiù dào le.", "vi": "Vì nhà hàng không xa nhà lắm, họ đi taxi, rất nhanh là đến nơi." }
+    ],
+    "vocabulary": [
+      { "zh": "超市", "py": "chāoshì", "vi": "siêu thị" },
+      { "zh": "牛奶", "py": "niúnǎi", "vi": "sữa" },
+      { "zh": "包子", "py": "bāozi", "vi": "bánh bao" },
+      { "zh": "出租车", "py": "chūzūchē", "vi": "taxi" },
+      { "zh": "晚饭", "py": "wǎnfàn", "vi": "bữa tối" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "白家月去超市买什么？", "q_vi": "Bạch Gia Nguyệt đi siêu thị mua gì?", "options": ["饺子", "牛奶", "面条儿", "包子"], "answer": 1 },
+        { "q_zh": "王一雪的家人怎么去饭店？", "q_vi": "Gia đình Vương Nhất Tuyết đi nhà hàng bằng gì?", "options": ["坐地铁", "骑自行车", "坐出租车", "走路"], "answer": 2 },
+        { "q_zh": "西安饭店的包子怎么样？", "q_vi": "Bánh bao ở nhà hàng Tây An thế nào?", "options": ["非常贵", "不太好吃", "非常好吃", "很便宜"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "白家月想___超市买牛奶。", "sentence_vi": "Bạch Gia Nguyệt muốn ___ siêu thị mua sữa.", "answer": "去", "options": ["去", "在", "有", "叫"], "grammar_point": "连动句" },
+        { "type": "fill", "sentence_zh": "我们一___去吧。", "sentence_vi": "Chúng mình cùng ___ nhé.", "answer": "起", "options": ["起", "样", "直", "共"], "grammar_point": "一起" }
+      ]
+    }
+  },
+  {
+    "id": "r1-l8-yiyuan",
+    "level": 1, "lesson_ref": 8,
+    "title_zh": "我爸爸也在医院工作",
+    "title_vi": "Bố tôi cũng làm việc ở bệnh viện",
+    "topic": "Nghề nghiệp",
+    "grammar_focus": ["在+地点+工作", "也", "存现句"],
+    "content": [
+      { "zh": "在王一飞老师家，房间外边有一只漂亮的小猫。", "py": "Zài Wáng Yīfēi lǎoshī jiā, fángjiān wàibian yǒu yī zhī piàoliang de xiǎo māo.", "vi": "Ở nhà cô Vương Nhất Phi, bên ngoài phòng có một con mèo nhỏ rất đẹp." },
+      { "zh": "白家月指着桌子说：「看，它在桌子下面呢!」陈天中说：「这只小猫真好看!」", "py": "Bái Jiāyuè zhǐzhe zhuōzi shuō: 「Kàn, tā zài zhuōzi xiàmiàn ne!」 Chén Tiānzhōng shuō: 「Zhè zhī xiǎo māo zhēn hǎokàn!」", "vi": "Bạch Gia Nguyệt chỉ vào cái bàn nói: 'Xem kìa, nó đang ở dưới gầm bàn đấy!' Trần Thiên Trung nói: 'Con mèo này thật là đẹp!'" },
+      { "zh": "此刻在医院里，刘明医生正在和他的同事胡医生聊天儿。", "py": "Cǐkè zài yīyuàn lǐ, Liú Míng yīshēng zhèngzài hé tā de tóngshì Hú yīshēng liáotiānr.", "vi": "Lúc này ở bệnh viện, bác sĩ Lưu Minh đang trò chuyện với đồng nghiệp của mình là bác sĩ Hồ." },
+      { "zh": "胡医生说：「我爸爸也在这个医院工作，他也是一名医生，他每天都非常忙。」", "py": "Hú yīshēng shuō: 「Wǒ bàba yě zài zhège yīyuàn gōngzuò, tā yě shì yī míng yīshēng, tā měitiān dōu fēicháng máng.」", "vi": "Bác sĩ Hồ nói: 'Bố tôi cũng làm việc ở bệnh viện này, ông cũng là một bác sĩ, ông ấy mỗi ngày đều rất bận rộn.'" },
+      { "zh": "刘明问：「这么说，你家有两个医生?」胡医生笑着回答：「对，我们都爱这份工作。」", "py": "Liú Míng wèn: 「Zhème shuō, nǐ jiā yǒu liǎng gè yīshēng?」 Hú yīshēng xiàozhe huídá: 「Duì, wǒmen dōu ài zhè fèn gōngzuò.」", "vi": "Lưu Minh hỏi: 'Nói vậy là nhà cậu có hai bác sĩ à?' Bác sĩ Hồ cười trả lời: 'Đúng vậy, chúng tôi đều yêu công việc này.'" }
+    ],
+    "vocabulary": [
+      { "zh": "医院", "py": "yīyuàn", "vi": "bệnh viện" },
+      { "zh": "医生", "py": "yīshēng", "vi": "bác sĩ" },
+      { "zh": "工作", "py": "gōngzuò", "vi": "làm việc" },
+      { "zh": "忙", "py": "máng", "vi": "bận rộn" },
+      { "zh": "同事", "py": "tóngshì", "vi": "đồng nghiệp" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "刘明在哪里工作？", "q_vi": "Lưu Minh làm việc ở đâu?", "options": ["学校", "超市", "医院", "公司"], "answer": 2 },
+        { "q_zh": "胡医生的爸爸做什么工作？", "q_vi": "Bố của bác sĩ Hồ làm gì?", "options": ["老师", "医生", "工程师", "服务员"], "answer": 1 },
+        { "q_zh": "胡医生家有几个医生？", "q_vi": "Nhà bác sĩ Hồ có mấy bác sĩ?", "options": ["一个", "两个", "三个", "四个"], "answer": 1 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "我爸爸___在医院工作。", "sentence_vi": "Bố tôi ___ làm việc ở bệnh viện.", "answer": "也", "options": ["都", "也", "很", "没"], "grammar_point": "副词 也" },
+        { "type": "fill", "sentence_zh": "房间外___一只小猫。", "sentence_vi": "Bên ngoài phòng ___ một con mèo nhỏ.", "answer": "有", "options": ["是", "有", "在", "叫"], "grammar_point": "存现句" }
+      ]
+    }
+  },
+  {
+    "id": "r1-l9-xuexiao",
+    "level": 1, "lesson_ref": 9,
+    "title_zh": "明天上午我在学校学习",
+    "title_vi": "Sáng mai tôi học ở trường",
+    "topic": "Học tập",
+    "grammar_focus": ["在+地点+动词", "方位词", "疑问代词哪儿"],
+    "content": [
+      { "zh": "学校前边有一家很大的电影院，离学校很近。", "py": "Xuéxiào qiánbiān yǒu yī jiā hěn dà de diànyǐngyuàn, lí xuéxiào hěn jìn.", "vi": "Phía trước trường học có một rạp chiếu phim rất lớn, cách trường rất gần." },
+      { "zh": "李文对白家月说：「我们晚上七点在电影院外边见面吧。」", "py": "Lǐ Wén duì Bái Jiāyuè shuō: 「Wǒmen wǎnshang qī diǎn zài diànyǐngyuàn wàibiān jiànmiàn ba.」", "vi": "Lý Văn nói với Bạch Gia Nguyệt: 'Tối bảy giờ chúng mình gặp nhau ở bên ngoài rạp chiếu phim nhé.'" },
+      { "zh": "白家月问陈天中：「你明天上午在哪儿？」陈天中说：「我在学校学习，不出去。」", "py": "Bái Jiāyuè wèn Chén Tiānzhōng: 「Nǐ míngtiān shàngwǔ zài nǎr?」 Chén Tiānzhōng shuō: 「Wǒ zài xuéxiào xuéxí, bù chūqù.」", "vi": "Bạch Gia Nguyệt hỏi Trần Thiên Trung: 'Sáng mai cậu ở đâu?' Trần Thiên Trung nói: 'Tớ học ở trường, không đi ra ngoài.'" },
+      { "zh": "教室的椅子上有一本中文书，那是陈天中的书。", "py": "Jiàoshì de yǐzi shàng yǒu yī běn Zhōngwén shū, nà shì Chén Tiānzhōng de shū.", "vi": "Trên chiếc ghế trong lớp học có một cuốn sách tiếng Trung, đó là sách của Trần Thiên Trung." },
+      { "zh": "这是他在北京买的第二本中文书了。", "py": "Zhè shì tā zài Běijīng mǎi de dì-èr běn Zhōngwén shū le.", "vi": "Đây là cuốn sách tiếng Trung thứ hai mà anh ấy mua ở Bắc Kinh rồi." }
+    ],
+    "vocabulary": [
+      { "zh": "前边", "py": "qiánbian", "vi": "phía trước" },
+      { "zh": "外边", "py": "wàibian", "vi": "bên ngoài" },
+      { "zh": "学习", "py": "xuéxí", "vi": "học tập" },
+      { "zh": "椅子", "py": "yǐzi", "vi": "ghế" },
+      { "zh": "书", "py": "shū", "vi": "sách" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "学校前边有什么？", "q_vi": "Phía trước trường có gì?", "options": ["超市", "电影院", "医院", "饭店"], "answer": 1 },
+        { "q_zh": "陈天中明天上午在哪里？", "q_vi": "Sáng mai Trần Thiên Trung ở đâu?", "options": ["在家", "在医院", "在学校", "在超市"], "answer": 2 },
+        { "q_zh": "椅子上有什么？", "q_vi": "Trên ghế có gì?", "options": ["一本书", "一个杯子", "一只猫", "一个书包"], "answer": 0 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "我明天上午___学校学习。", "sentence_vi": "Sáng mai tôi ___ trường học tập.", "answer": "在", "options": ["去", "在", "到", "有"], "grammar_point": "在+地点+动词" },
+        { "type": "fill", "sentence_zh": "椅子___有一本中文书。", "sentence_vi": "___ ghế có một cuốn sách tiếng Trung.", "answer": "上", "options": ["上", "下", "里", "外"], "grammar_point": "方位词" }
+      ]
+    }
+  },
+  {
+    "id": "r1-l10-goumai",
+    "level": 1, "lesson_ref": 10,
+    "title_zh": "这儿的苹果真便宜！",
+    "title_vi": "Táo ở đây thật rẻ!",
+    "topic": "Mua sắm",
+    "grammar_focus": ["多少钱", "数字+量词", "程度副词真"],
+    "content": [
+      { "zh": "在菜市场，王一雪想买水果。", "py": "Zài càishìchǎng, Wáng Yīxuě xiǎng mǎi shuǐguǒ.", "vi": "Ở chợ, Vương Nhất Tuyết muốn mua trái cây." },
+      { "zh": "她问：「苹果多少钱一斤？」", "py": "Tā wèn: 「Píngguǒ duōshao qián yī jīn?」", "vi": "Cô ấy hỏi: 'Táo bao nhiêu tiền một cân?'" },
+      { "zh": "售货员说：「苹果三块五一斤。两斤七块二，七块钱吧。」", "py": "Shòuhuòyuán shuō: 「Píngguǒ sān kuài wǔ yī jīn. Liǎng jīn qī kuài èr, qī kuài qián ba.」", "vi": "Người bán nói: 'Táo 3,5 tệ một cân. Hai cân 7,2, thôi bảy tệ thôi.'" },
+      { "zh": "王一雪说：「好的，这儿的苹果真便宜！」", "py": "Wáng Yīxuě shuō: 「Hǎo de, zhèr de píngguǒ zhēn piányí!」", "vi": "Vương Nhất Tuyết nói: 'Được rồi, táo ở đây thật rẻ!'" },
+      { "zh": "在商场，刘明和王一雪给孩子买衣服。这件一百元，好看也不贵。", "py": "Zài shāngchǎng, Liú Míng hé Wáng Yīxuě gěi háizi mǎi yīfu. Zhè jiàn yī bǎi yuán, hǎokàn yě bú guì.", "vi": "Ở trung tâm thương mại, Lưu Minh và Vương Nhất Tuyết mua quần áo cho con. Cái này một trăm tệ, đẹp mà không đắt." }
+    ],
+    "vocabulary": [
+      { "zh": "苹果", "py": "píngguǒ", "vi": "táo" },
+      { "zh": "便宜", "py": "piányí", "vi": "rẻ" },
+      { "zh": "多少钱", "py": "duōshao qián", "vi": "bao nhiêu tiền" },
+      { "zh": "斤", "py": "jīn", "vi": "cân (đơn vị 500g)" },
+      { "zh": "商场", "py": "shāngchǎng", "vi": "trung tâm thương mại" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "苹果多少钱一斤？", "q_vi": "Táo bao nhiêu tiền một cân?", "options": ["两块五", "三块五", "四块五", "五块"], "answer": 1 },
+        { "q_zh": "王一雪觉得苹果怎么样？", "q_vi": "Vương Nhất Tuyết thấy táo thế nào?", "options": ["很贵", "不好吃", "真便宜", "不新鲜"], "answer": 2 },
+        { "q_zh": "商场的衣服多少钱一件？", "q_vi": "Quần áo ở trung tâm thương mại bao nhiêu tiền một cái?", "options": ["五十元", "一百元", "两百元", "三百元"], "answer": 1 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "苹果___钱一斤？", "sentence_vi": "Táo ___ tiền một cân?", "answer": "多少", "options": ["几个", "多少", "什么", "哪里"], "grammar_point": "多少钱" },
+        { "type": "fill", "sentence_zh": "这儿的苹果___便宜！", "sentence_vi": "Táo ở đây ___ rẻ!", "answer": "真", "options": ["很", "真", "非常", "也"], "grammar_point": "程度副词 真" }
+      ]
+    }
+  },
+  {
+    "id": "r1-l11-daxue",
+    "level": 1, "lesson_ref": 11,
+    "title_zh": "我读大学呢",
+    "title_vi": "Tôi đang học đại học",
+    "topic": "Học tập",
+    "grammar_focus": ["语气助词呢", "正在...呢", "在+动词"],
+    "content": [
+      { "zh": "老师问李文：「你还在读大学吗？」李文回答：「对，我读大学呢，还是学生。」", "py": "Lǎoshī wèn Lǐ Wén: 「Nǐ hái zài dú dàxué ma?」 Lǐ Wén huídá: 「Duì, wǒ dú dàxué ne, hái shì xuésheng.」", "vi": "Thầy hỏi Lý Văn: 'Em vẫn còn đang học đại học à?' Lý Văn trả lời: 'Vâng, em đang học đại học, vẫn còn là sinh viên ạ.'" },
+      { "zh": "老师又问：「你们的学习忙不忙？」李文说：「非常忙，我学医，课很多。」", "py": "Lǎoshī yòu wèn: 「Nǐmen de xuéxí máng bu máng?」 Lǐ Wén shuō: 「Fēicháng máng, wǒ xué yī, kè hěn duō.」", "vi": "Thầy lại hỏi: 'Việc học của các em có bận không?' Lý Văn nói: 'Rất bận ạ, em học y, tiết học nhiều lắm.'" },
+      { "zh": "星期六早上，刘明医生去医院加班，因为医院里的病人很多。", "py": "Xīngqīliù zǎoshang, Liú Míng yīshēng qù yīyuàn jiābān, yīnwèi yīyuàn lǐ de bìngrén hěn duō.", "vi": "Sáng thứ Bảy, bác sĩ Lưu Minh đến bệnh viện làm thêm giờ, vì bệnh nhân trong bệnh viện rất đông." },
+      { "zh": "刘小雪在家里对妈妈说，弟弟现在还在睡觉呢，还没起床。", "py": "Liú Xiǎoxuě zài jiālǐ duì māma shuō, dìdi xiànzài hái zài shuìjiào ne, hái méi qǐchuáng.", "vi": "Lưu Tiểu Tuyết ở nhà nói với mẹ rằng em trai hiện giờ vẫn còn đang ngủ, chưa ngủ dậy." }
+    ],
+    "vocabulary": [
+      { "zh": "大学", "py": "dàxué", "vi": "đại học" },
+      { "zh": "学医", "py": "xué yī", "vi": "học y" },
+      { "zh": "加班", "py": "jiābān", "vi": "làm thêm giờ" },
+      { "zh": "睡觉", "py": "shuìjiào", "vi": "ngủ" },
+      { "zh": "起床", "py": "qǐchuáng", "vi": "thức dậy" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "李文在做什么？", "q_vi": "Lý Văn đang làm gì?", "options": ["工作", "读大学", "看书", "睡觉"], "answer": 1 },
+        { "q_zh": "李文学什么？", "q_vi": "Lý Văn học gì?", "options": ["学语言", "学商业", "学医", "学历史"], "answer": 2 },
+        { "q_zh": "刘小明在做什么？", "q_vi": "Lưu Tiểu Minh đang làm gì?", "options": ["去超市", "在学校", "还在睡觉", "看电视"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "我读大学___，还是大学生。", "sentence_vi": "Tôi đang học đại học ___, vẫn còn là sinh viên.", "answer": "呢", "options": ["吧", "呢", "吗", "了"], "grammar_point": "语气助词 呢" },
+        { "type": "fill", "sentence_zh": "弟弟还___睡觉呢。", "sentence_vi": "Em trai vẫn đang ___ ngủ.", "answer": "在", "options": ["是", "在", "有", "想"], "grammar_point": "正在...呢" }
+      ]
+    }
+  },
+  {
+    "id": "r1-l12-tianqi",
+    "level": 1, "lesson_ref": 12,
+    "title_zh": "昨天下雪了",
+    "title_vi": "Hôm qua có tuyết",
+    "topic": "Thời tiết",
+    "grammar_focus": ["完成时了", "觉得", "天气词汇"],
+    "content": [
+      { "zh": "王一雪给好朋友王一飞打电话，问她那边的天气怎么样。", "py": "Wáng Yīxuě gěi hǎo péngyou Wáng Yīfēi dǎ diànhuà, wèn tā nàbiān de tiānqì zěnmeyàng.", "vi": "Vương Nhất Tuyết gọi điện cho người bạn tốt Vương Nhất Phi, hỏi thăm thời tiết bên đó thế nào." },
+      { "zh": "王一飞说：「这里的天气不太好，下雨了，我觉得很冷。」", "py": "Wáng Yīfēi shuō: 「Zhèlǐ de tiānqì bú tài hǎo, xià yǔ le, wǒ juéde hěn lěng.」", "vi": "Vương Nhất Phi nói: 'Thời tiết ở đây không tốt lắm, mưa rồi, mình thấy rất lạnh.'" },
+      { "zh": "在公司电梯里，王一雪对杨同乐说：「昨天下大雪了，今天真冷啊!」", "py": "Zài gōngsī diànti lǐ, Wáng Yīxuě duì Yáng Tónglè shuō: 「Zuótiān xià dàxuě le, jīntiān zhēn lěng a!」", "vi": "Trong thang máy công ty, Vương Nhất Tuyết nói với Dương Đồng Lạc: 'Hôm qua tuyết rơi lớn quá, hôm nay thật là lạnh!'" },
+      { "zh": "杨同乐昨天感冒了，没来公司，他去医院看病了。", "py": "Yáng Tónglè zuótiān gǎnmào le, méi lái gōngsī, tā qù yīyuàn kànbìng le.", "vi": "Dương Đồng Lạc hôm qua bị cảm, không đến công ty, anh ấy đi khám bệnh ở bệnh viện rồi." },
+      { "zh": "医生说：「你吃一点儿药，今天休息，回家后再多喝些热水。」", "py": "Yīshēng shuō: 「Nǐ chī yīdiǎnr yào, jīntiān xiūxi, huí jiā hòu zài duō hē xiē rè shuǐ.」", "vi": "Bác sĩ nói: 'Cậu uống chút thuốc, hôm nay nghỉ ngơi đi, về nhà rồi uống thêm nhiều nước nóng nhé.'" }
+    ],
+    "vocabulary": [
+      { "zh": "下雪", "py": "xià xuě", "vi": "tuyết rơi" },
+      { "zh": "下雨", "py": "xià yǔ", "vi": "mưa" },
+      { "zh": "冷", "py": "lěng", "vi": "lạnh" },
+      { "zh": "看病", "py": "kànbìng", "vi": "đi khám bệnh" },
+      { "zh": "休息", "py": "xiūxi", "vi": "nghỉ ngơi" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "王一飞那边天气怎么样？", "q_vi": "Thời tiết bên phía Vương Nhất Phi thế nào?", "options": ["晴天", "下雪", "下雨", "刮风"], "answer": 2 },
+        { "q_zh": "杨同乐昨天为什么没来公司？", "q_vi": "Tại sao hôm qua Dương Đồng Lạc không đến công ty?", "options": ["因为下雪", "因为他去医院", "因为他休息", "因为他在家做饭"], "answer": 1 },
+        { "q_zh": "医生让杨同乐做什么？", "q_vi": "Bác sĩ bảo Dương Đồng Lạc làm gì?", "options": ["去运动", "吃药休息", "多吃东西", "打电话"], "answer": 1 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "昨天___雪了，太冷了。", "sentence_vi": "Hôm qua ___ tuyết rồi, lạnh quá.", "answer": "下", "options": ["下", "有", "是", "看"], "grammar_point": "天气词汇" },
+        { "type": "fill", "sentence_zh": "我___很冷。", "sentence_vi": "Tôi ___ rất lạnh.", "answer": "觉得", "options": ["知道", "觉得", "喜欢", "想"], "grammar_point": "觉得+形容词" }
+      ]
+    }
+  },
+  {
+    "id": "r1-l13-canguan",
+    "level": 1, "lesson_ref": 13,
+    "title_zh": "请给我一杯茶",
+    "title_vi": "Cho tôi một tách trà",
+    "topic": "Ăn uống",
+    "grammar_focus": ["请给我...", "还要...", "能愿动词可以"],
+    "content": [
+      { "zh": "在咖啡馆里，服务员说：「女士，请坐！您喝什么？」", "py": "Zài kāfēiguǎn lǐ, fúwùyuán shuō: 「Nǚshì, qǐng zuò! Nín hē shénme?」", "vi": "Trong quán cà phê, nhân viên nói: 'Thưa quý cô, mời ngồi! Cô dùng gì ạ?'" },
+      { "zh": "王一雪说：「请给我一杯牛奶。」然后她还要了面包和鸡蛋。", "py": "Wáng Yīxuě shuō: 「Qǐng gěi wǒ yī bēi niúnǎi.」 Ránhòu tā hái yào le miànbāo hé jīdàn.", "vi": "Vương Nhất Tuyết nói: 'Cho tôi một ly sữa.' Rồi cô ấy gọi thêm bánh mì và trứng." },
+      { "zh": "在餐馆里，刘明要了半斤饺子，一共二十个。", "py": "Zài cāntīng lǐ, Liú Míng yào le bàn jīn jiǎozi, yīgòng èrshí gè.", "vi": "Trong nhà hàng, Lưu Minh gọi nửa cân sủi cảo, tổng cộng hai mươi cái." },
+      { "zh": "服务员问：「您想喝什么？」刘明说：「请给我一杯茶吧。」", "py": "Fúwùyuán wèn: 「Nín xiǎng hē shénme?」 Liú Míng shuō: 「Qǐng gěi wǒ yī bēi chá ba.」", "vi": "Nhân viên hỏi: 'Anh muốn uống gì?' Lưu Minh nói: 'Cho tôi một tách trà nhé.'" },
+      { "zh": "白家月问老师：「我可以再问您一个问题吗？」老师说：「可以。」", "py": "Bái Jiāyuè wèn lǎoshī: 「Wǒ kěyǐ zài wèn nín yī gè wèntí ma?」 Lǎoshī shuō: 「Kěyǐ.」", "vi": "Bạch Gia Nguyệt hỏi thầy: 'Em có thể hỏi thêm một câu nữa không?' Thầy nói: 'Được.'" }
+    ],
+    "vocabulary": [
+      { "zh": "杯", "py": "bēi", "vi": "tách, ly" },
+      { "zh": "牛奶", "py": "niúnǎi", "vi": "sữa" },
+      { "zh": "面包", "py": "miànbāo", "vi": "bánh mì" },
+      { "zh": "鸡蛋", "py": "jīdàn", "vi": "trứng" },
+      { "zh": "饺子", "py": "jiǎozi", "vi": "sủi cảo" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "王一雪喝什么？", "q_vi": "Vương Nhất Tuyết uống gì?", "options": ["茶", "牛奶", "咖啡", "水"], "answer": 1 },
+        { "q_zh": "刘明要了多少个饺子？", "q_vi": "Lưu Minh gọi bao nhiêu cái sủi cảo?", "options": ["十个", "二十个", "四十个", "三十个"], "answer": 1 },
+        { "q_zh": "刘明要了什么饮料？", "q_vi": "Lưu Minh gọi đồ uống gì?", "options": ["牛奶", "水", "茶", "咖啡"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "请___我一杯牛奶。", "sentence_vi": "Xin ___ tôi một ly sữa.", "answer": "给", "options": ["帮", "给", "让", "告诉"], "grammar_point": "请给我..." },
+        { "type": "fill", "sentence_zh": "我___再问您一个问题吗？", "sentence_vi": "Tôi ___ hỏi thêm một câu nữa không?", "answer": "可以", "options": ["想", "会", "可以", "能"], "grammar_point": "能愿动词 可以" }
+      ]
+    }
+  },
+  {
+    "id": "r1-l14-huoche",
+    "level": 1, "lesson_ref": 14,
+    "title_zh": "我看了一个电影",
+    "title_vi": "Tôi đã xem một bộ phim",
+    "topic": "Giải trí",
+    "grammar_focus": ["过去时动词+了", "有些...有些...", "会+动词"],
+    "content": [
+      { "zh": "白家月和陈天中谈论上一次课外旅行。", "py": "Bái Jiāyuè hé Chén Tiānzhōng tánlùn shàng yī cì kèwài lǚxíng.", "vi": "Bạch Gia Nguyệt và Trần Thiên Trung nói về chuyến dã ngoại vừa rồi." },
+      { "zh": "陈天中说：「中午车开后，有些人在看书，有些人睡觉了。」", "py": "Chén Tiānzhōng shuō: 「Zhōngwǔ chē kāi hòu, yǒuxiē rén zài kàn shū, yǒuxiē rén shuìjiào le.」", "vi": "Trần Thiên Trung nói: 'Sau khi xe khởi hành lúc trưa, một số người đọc sách, một số người ngủ.'" },
+      { "zh": "白家月问：「你呢？」陈天中说：「我看了一个电影。」", "py": "Bái Jiāyuè wèn: 「Nǐ ne?」 Chén Tiānzhōng shuō: 「Wǒ kànle yī gè diànyǐng.」", "vi": "Bạch Gia Nguyệt hỏi: 'Còn cậu?' Trần Thiên Trung nói: 'Tôi đã xem một bộ phim.'" },
+      { "zh": "王一飞老师问：「你们会说汉语了，也会写汉字了吗？」", "py": "Wáng Yīfēi lǎoshī wèn: 「Nǐmen huì shuō Hànyǔ le, yě huì xiě Hànzì le ma?」", "vi": "Cô giáo Vương Nhất Phi hỏi: 'Các em đã nói được tiếng Trung rồi, thế còn viết được chữ Hán chưa?'" },
+      { "zh": "白家月说：「我们都会写了。」陈天中说：「我会写这些字了，您看！」", "py": "Bái Jiāyuè shuō: 「Wǒmen dōu huì xiě le.」 Chén Tiānzhōng shuō: 「Wǒ huì xiě zhèxiē zì le, nín kàn!」", "vi": "Bạch Gia Nguyệt nói: 'Chúng em đều viết được rồi.' Trần Thiên Trung nói: 'Em viết được những chữ này rồi, xem này!'" }
+    ],
+    "vocabulary": [
+      { "zh": "电影", "py": "diànyǐng", "vi": "phim" },
+      { "zh": "汉语", "py": "Hànyǔ", "vi": "tiếng Trung" },
+      { "zh": "汉字", "py": "Hànzì", "vi": "chữ Hán" },
+      { "zh": "写", "py": "xiě", "vi": "viết" },
+      { "zh": "旅行", "py": "lǚxíng", "vi": "du lịch, đi xa" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "陈天中在车上做了什么？", "q_vi": "Trần Thiên Trung đã làm gì trên xe?", "options": ["看书", "睡觉", "看电影", "听音乐"], "answer": 2 },
+        { "q_zh": "车上有些人做什么了？", "q_vi": "Một số người trên xe đã làm gì?", "options": ["唱歌了", "看电视了", "睡觉了", "打电话了"], "answer": 2 },
+        { "q_zh": "学生们会写什么了？", "q_vi": "Học sinh đã viết được gì rồi?", "options": ["英文", "汉字", "拼音", "数字"], "answer": 1 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "我___了一个电影。", "sentence_vi": "Tôi đã ___ một bộ phim.", "answer": "看", "options": ["看", "说", "写", "听"], "grammar_point": "动词+了" },
+        { "type": "fill", "sentence_zh": "___些人在看书，___些人睡觉了。", "sentence_vi": "___ số người đọc sách, ___ số người ngủ.", "answer": "有", "options": ["有", "那", "这", "都"], "grammar_point": "有些...有些..." }
+      ]
+    }
+  },
+  {
+    "id": "r1-l15-beijing",
+    "level": 1, "lesson_ref": 15,
+    "title_zh": "大兴机场见！",
+    "title_vi": "Hẹn gặp ở sân bay Đại Hưng!",
+    "topic": "Du lịch",
+    "grammar_focus": ["第一次", "都+动词", "时间+才"],
+    "content": [
+      { "zh": "李文邀请陈天中和白家月来家里吃中国菜。", "py": "Lǐ Wén yāoqǐng Chén Tiānzhōng hé Bái Jiāyuè lái jiā lǐ chī Zhōngguó cài.", "vi": "Lý Văn mời Trần Thiên Trung và Bạch Gia Nguyệt đến nhà ăn đồ Trung Quốc." },
+      { "zh": "李文说：「我爱吃中国菜，也喜欢做。大家多吃点儿。」", "py": "Lǐ Wén shuō: 「Wǒ ài chī Zhōngguó cài, yě xǐhuān zuò. Dàjiā duō chī diǎnr.」", "vi": "Lý Văn nói: 'Tôi thích ăn đồ Trung Quốc, cũng thích nấu. Mọi người ăn nhiều vào nhé.'" },
+      { "zh": "安妮说：「去年我和男朋友去了西安，今年我想去北京。」", "py": "Ānnī shuō: 「Qùnián wǒ hé nánpéngyou qùle Xī'ān, jīnnián wǒ xiǎng qù Běijīng.」", "vi": "Annie nói: 'Năm ngoái tôi và bạn trai đi Tây An, năm nay tôi muốn đi Bắc Kinh.'" },
+      { "zh": "王一飞老师说：「我家人都在北京，我姐姐可以去机场接你们。」", "py": "Wáng Yīfēi lǎoshī shuō: 「Wǒ jiārén dōu zài Běijīng, wǒ jiějie kěyǐ qù jīchǎng jiē nǐmen.」", "vi": "Cô giáo Vương Nhất Phi nói: 'Cả nhà tôi đều ở Bắc Kinh, chị gái tôi có thể ra sân bay đón các em.'" },
+      { "zh": "白家月说：「谢谢老师！那我们和您姐姐在大兴机场见！」", "py": "Bái Jiāyuè shuō: 「Xièxie lǎoshī! Nà wǒmen hé nín jiějie zài Dàxīng Jīchǎng jiàn!」", "vi": "Bạch Gia Nguyệt nói: 'Cảm ơn thầy! Vậy chúng em sẽ gặp chị thầy tại sân bay Đại Hưng!'" }
+    ],
+    "vocabulary": [
+      { "zh": "机场", "py": "jīchǎng", "vi": "sân bay" },
+      { "zh": "邀请", "py": "yāoqǐng", "vi": "mời" },
+      { "zh": "去年", "py": "qùnián", "vi": "năm ngoái" },
+      { "zh": "今年", "py": "jīnnián", "vi": "năm nay" },
+      { "zh": "接", "py": "jiē", "vi": "đón" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "安妮去年去了哪儿？", "q_vi": "Năm ngoái Annie đã đi đâu?", "options": ["北京", "上海", "西安", "成都"], "answer": 2 },
+        { "q_zh": "安妮今年想去哪儿？", "q_vi": "Năm nay Annie muốn đi đâu?", "options": ["西安", "北京", "上海", "广州"], "answer": 1 },
+        { "q_zh": "谁可以去机场接白家月和安妮？", "q_vi": "Ai có thể ra sân bay đón Bạch Gia Nguyệt và Annie?", "options": ["王一飞", "王一雪", "王一飞的姐姐", "刘明"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "我家人___在北京。", "sentence_vi": "Cả nhà tôi ___ ở Bắc Kinh.", "answer": "都", "options": ["也", "都", "很", "没"], "grammar_point": "都+动词" },
+        { "type": "fill", "sentence_zh": "去年我和男朋友___了西安。", "sentence_vi": "Năm ngoái tôi và bạn trai đã ___ Tây An.", "answer": "去", "options": ["去", "来", "到", "走"], "grammar_point": "过去时动词+了" }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-pengyou",
+    "level": 1, "lesson_ref": 3,
+    "title_zh": "我的朋友们",
+    "title_vi": "Những người bạn của tôi",
+    "topic": "Giao tiếp",
+    "grammar_focus": ["形容词谓语句", "很+形容词", "不+形容词"],
+    "content": [
+      { "zh": "李文学医，他的中文很好，也会说法语。", "py": "Lǐ Wén xué yī, tā de Zhōngwén hěn hǎo, yě huì shuō Fǎyǔ.", "vi": "Lý Văn học y, tiếng Trung của anh ấy rất tốt, cũng biết nói tiếng Pháp." },
+      { "zh": "白家月是法国人，她的中文不太好，但是她很努力学习。", "py": "Bái Jiāyuè shì Fǎguórén, tā de Zhōngwén bú tài hǎo, dànshì tā hěn nǔlì xuéxí.", "vi": "Bạch Gia Nguyệt là người Pháp, tiếng Trung của cô ấy chưa được tốt, nhưng cô ấy học rất chăm chỉ." },
+      { "zh": "陈天中是法国人，他非常喜欢运动，篮球打得很好。", "py": "Chén Tiānzhōng shì Fǎguórén, tā fēicháng xǐhuān yùndòng, lánqiú dǎ de hěn hǎo.", "vi": "Trần Thiên Trung là người Pháp, anh ấy rất thích thể thao, chơi bóng rổ rất giỏi." },
+      { "zh": "安妮喜欢旅游，她去过很多地方。", "py": "Ānnī xǐhuān lǚyóu, tā qùguo hěn duō dìfang.", "vi": "Annie thích du lịch, cô ấy đã đến rất nhiều nơi rồi." },
+      { "zh": "他们都是好朋友，虽然来自不同的国家，但是大家相处得很好。", "py": "Tāmen dōu shì hǎo péngyou, suīrán lái zì bùtóng de guójiā, dànshì dàjiā xiāngchǔ de hěn hǎo.", "vi": "Họ đều là bạn tốt, tuy đến từ nhiều đất nước khác nhau, nhưng mọi người quan hệ với nhau rất tốt." }
+    ],
+    "vocabulary": [
+      { "zh": "努力", "py": "nǔlì", "vi": "chăm chỉ, cố gắng" },
+      { "zh": "篮球", "py": "lánqiú", "vi": "bóng rổ" },
+      { "zh": "运动", "py": "yùndòng", "vi": "thể thao, vận động" },
+      { "zh": "旅游", "py": "lǚyóu", "vi": "du lịch" },
+      { "zh": "相处", "py": "xiāngchǔ", "vi": "quan hệ với nhau" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "李文的中文怎么样？", "q_vi": "Tiếng Trung của Lý Văn thế nào?", "options": ["不太好", "很好", "非常差", "一般"], "answer": 1 },
+        { "q_zh": "陈天中喜欢什么运动？", "q_vi": "Trần Thiên Trung thích môn thể thao nào?", "options": ["足球", "篮球", "游泳", "跑步"], "answer": 1 },
+        { "q_zh": "他们来自那些国家？", "q_vi": "Họ đến từ những nước nào?", "options": ["都是中国人", "都是法国人", "不同的国家", "中国和法国"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "他的中文___好。", "sentence_vi": "Tiếng Trung của anh ấy ___ tốt.", "answer": "很", "options": ["很", "更", "最", "比"], "grammar_point": "很+形容词" },
+        { "type": "fill", "sentence_zh": "她的中文___太好。", "sentence_vi": "Tiếng Trung của cô ấy ___ được tốt.", "answer": "不", "options": ["没", "不", "别", "没有"], "grammar_point": "不+形容词" }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-zhoumuo",
+    "level": 1, "lesson_ref": 9,
+    "title_zh": "周末怎么过？",
+    "title_vi": "Cuối tuần làm gì?",
+    "topic": "Đời sống",
+    "grammar_focus": ["白天...晚上...", "和...一起", "喜欢+动词"],
+    "content": [
+      { "zh": "王一雪问杨同乐：「明天星期六，你做什么？」", "py": "Wáng Yīxuě wèn Yáng Tónglè: 「Míngtiān xīngqīliù, nǐ zuò shénme?」", "vi": "Vương Nhất Tuyết hỏi Dương Đồng Lạc: 'Ngày mai thứ Bảy, bạn làm gì?'" },
+      { "zh": "杨同乐说：「白天在家里读书，晚上和朋友们去外边唱歌。」", "py": "Yáng Tónglè shuō: 「Báitiān zài jiā lǐ dúshū, wǎnshang hé péngyoumen qù wàibian chànggē.」", "vi": "Dương Đồng Lạc nói: 'Ban ngày ở nhà đọc sách, tối đi hát với bạn bè.'" },
+      { "zh": "王一雪说：「你唱歌很好听。」杨同乐谢谢她。", "py": "Wáng Yīxuě shuō: 「Nǐ chànggē hěn hǎotīng.」 Yáng Tónglè xièxie tā.", "vi": "Vương Nhất Tuyết nói: 'Bạn hát rất hay.' Dương Đồng Lạc cảm ơn cô ấy." },
+      { "zh": "王一雪星期六在家做饭、看电视，和孩子们玩。", "py": "Wáng Yīxuě xīngqīliù zài jiā zuòfàn, kàn diànshì, hé háizimen wán.", "vi": "Thứ Bảy Vương Nhất Tuyết ở nhà nấu ăn, xem tivi, chơi cùng các con." },
+      { "zh": "杨同乐也有一只小狗，他很喜欢小动物。", "py": "Yáng Tónglè yě yǒu yī zhī xiǎo gǒu, tā hěn xǐhuān xiǎo dòngwù.", "vi": "Dương Đồng Lạc cũng có một chú chó nhỏ, anh ấy rất thích động vật nhỏ." }
+    ],
+    "vocabulary": [
+      { "zh": "白天", "py": "báitiān", "vi": "ban ngày" },
+      { "zh": "唱歌", "py": "chànggē", "vi": "ca hát" },
+      { "zh": "读书", "py": "dúshū", "vi": "đọc sách" },
+      { "zh": "看电视", "py": "kàn diànshì", "vi": "xem tivi" },
+      { "zh": "小狗", "py": "xiǎo gǒu", "vi": "chó nhỏ" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "杨同乐白天做什么？", "q_vi": "Ban ngày Dương Đồng Lạc làm gì?", "options": ["唱歌", "在家读书", "看电视", "去超市"], "answer": 1 },
+        { "q_zh": "王一雪星期六做什么？", "q_vi": "Thứ Bảy Vương Nhất Tuyết làm gì?", "options": ["去超市购物", "在家做饭看电视", "去唱歌", "去医院"], "answer": 1 },
+        { "q_zh": "杨同乐有什么小动物？", "q_vi": "Dương Đồng Lạc có loài vật nhỏ nào?", "options": ["小猫", "小鸟", "小狗", "小鱼"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "晚上和朋友们去外边___歌。", "sentence_vi": "Tối đi ___ với bạn bè bên ngoài.", "answer": "唱", "options": ["唱", "听", "看", "说"], "grammar_point": "喜欢+动词" },
+        { "type": "fill", "sentence_zh": "___天在家里读书，晚上去唱歌。", "sentence_vi": "___ ngày ở nhà đọc sách, tối đi hát.", "answer": "白", "options": ["白", "早", "上", "下"], "grammar_point": "白天...晚上..." }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-zaocan",
+    "level": 1, "lesson_ref": 13,
+    "title_zh": "早上吃什么？",
+    "title_vi": "Buổi sáng ăn gì?",
+    "topic": "Ăn uống",
+    "grammar_focus": ["还没...呢", "再要...", "多少钱"],
+    "content": [
+      { "zh": "早上，王一雪还没吃早饭，她去了咖啡馆。", "py": "Zǎoshang, Wáng Yīxuě hái méi chī zǎofàn, tā qùle kāfēiguǎn.", "vi": "Buổi sáng, Vương Nhất Tuyết chưa ăn sáng, cô ấy đến quán cà phê." },
+      { "zh": "服务员问：「您喝什么？」王一雪说：「请给我一杯牛奶。」", "py": "Fúwùyuán wèn: 「Nín hē shénme?」 Wáng Yīxuě shuō: 「Qǐng gěi wǒ yī bēi niúnǎi.」", "vi": "Nhân viên hỏi: 'Cô dùng gì?' Vương Nhất Tuyết nói: 'Cho tôi một ly sữa.'" },
+      { "zh": "然后她还要了这个面包和鸡蛋。", "py": "Ránhòu tā hái yào le zhège miànbāo hé jīdàn.", "vi": "Rồi cô ấy gọi thêm bánh mì và trứng này." },
+      { "zh": "王一雪问：「这个多少钱？」服务员说：「面包五块，鸡蛋三块。」", "py": "Wáng Yīxuě wèn: 「Zhège duōshao qián?」 Fúwùyuán shuō: 「Miànbāo wǔ kuài, jīdàn sān kuài.」", "vi": "Vương Nhất Tuyết hỏi: 'Cái này bao nhiêu tiền?' Nhân viên nói: 'Bánh mì năm tệ, trứng ba tệ.'" },
+      { "zh": "王一雪觉得这家咖啡馆的早餐很好吃，下次还想来。", "py": "Wáng Yīxuě juéde zhè jiā kāfēiguǎn de zǎocān hěn hǎochī, xià cì hái xiǎng lái.", "vi": "Vương Nhất Tuyết thấy bữa sáng ở quán cà phê này rất ngon, lần sau còn muốn đến." }
+    ],
+    "vocabulary": [
+      { "zh": "早饭", "py": "zǎofàn", "vi": "bữa sáng" },
+      { "zh": "咖啡馆", "py": "kāfēiguǎn", "vi": "quán cà phê" },
+      { "zh": "面包", "py": "miànbāo", "vi": "bánh mì" },
+      { "zh": "鸡蛋", "py": "jīdàn", "vi": "trứng" },
+      { "zh": "早餐", "py": "zǎocān", "vi": "bữa sáng" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "王一雪去了哪里吃早餐？", "q_vi": "Vương Nhất Tuyết đi đâu ăn sáng?", "options": ["超市", "咖啡馆", "医院", "学校"], "answer": 1 },
+        { "q_zh": "王一雪点了什么？", "q_vi": "Vương Nhất Tuyết gọi gì?", "options": ["咖啡和面包", "牛奶、面包和鸡蛋", "茶和饺子", "牛奶和饺子"], "answer": 1 },
+        { "q_zh": "王一雪觉得早餐怎么样？", "q_vi": "Vương Nhất Tuyết thấy bữa sáng thế nào?", "options": ["不太好吃", "很贵", "很好吃", "太少了"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "她___没吃早饭。", "sentence_vi": "Cô ấy ___ chưa ăn sáng.", "answer": "还", "options": ["已经", "还", "都", "在"], "grammar_point": "还没...呢" },
+        { "type": "fill", "sentence_zh": "她___要了面包和鸡蛋。", "sentence_vi": "Cô ấy ___ gọi thêm bánh mì và trứng.", "answer": "还", "options": ["也", "还", "就", "只"], "grammar_point": "再/还+要..." }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-chezi",
+    "level": 1, "lesson_ref": 6,
+    "title_zh": "坐出租车还是走路？",
+    "title_vi": "Đi taxi hay đi bộ?",
+    "topic": "Giao thông",
+    "grammar_focus": ["还是...吧", "从...到...", "要+时间"],
+    "content": [
+      { "zh": "白家月和陈天中要去超市，他们讨论怎么去。", "py": "Bái Jiāyuè hé Chén Tiānzhōng yào qù chāoshì, tāmen tǎolùn zěnme qù.", "vi": "Bạch Gia Nguyệt và Trần Thiên Trung muốn đi siêu thị, họ thảo luận đi bằng cách nào." },
+      { "zh": "陈天中说：「我们还是打车去吧，今天太热了。」", "py": "Chén Tiānzhōng shuō: 「Wǒmen háishi dǎchē qù ba, jīntiān tài rè le.」", "vi": "Trần Thiên Trung nói: 'Thôi chúng mình bắt taxi đi, hôm nay nóng quá.'" },
+      { "zh": "白家月说：「不要，超市离这儿很近，走路去吧。」", "py": "Bái Jiāyuè shuō: 「Bú yào, chāoshì lí zhèr hěn jìn, zǒulù qù ba.」", "vi": "Bạch Gia Nguyệt nói: 'Thôi, siêu thị gần đây lắm, đi bộ thôi.'" },
+      { "zh": "从这里到超市，走路要十分钟。", "py": "Cóng zhèlǐ dào chāoshì, zǒulù yào shí fēnzhōng.", "vi": "Từ đây đến siêu thị, đi bộ mất mười phút." },
+      { "zh": "最后，他们决定走路去。一路上，他们边走边聊天儿。", "py": "Zuìhòu, tāmen juédìng zǒulù qù. Yī lù shang, tāmen biān zǒu biān liáotiānr.", "vi": "Cuối cùng, họ quyết định đi bộ. Trên đường, họ vừa đi vừa trò chuyện." }
+    ],
+    "vocabulary": [
+      { "zh": "超市", "py": "chāoshì", "vi": "siêu thị" },
+      { "zh": "走路", "py": "zǒulù", "vi": "đi bộ" },
+      { "zh": "打车", "py": "dǎchē", "vi": "bắt taxi" },
+      { "zh": "近", "py": "jìn", "vi": "gần" },
+      { "zh": "决定", "py": "juédìng", "vi": "quyết định" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "陈天中想怎么去超市？", "q_vi": "Trần Thiên Trung muốn đi siêu thị bằng gì?", "options": ["走路", "打车", "骑车", "坐地铁"], "answer": 1 },
+        { "q_zh": "白家月为什么想走路去？", "q_vi": "Tại sao Bạch Gia Nguyệt muốn đi bộ?", "options": ["因为很便宜", "因为超市很近", "因为没有出租车", "因为天气很好"], "answer": 1 },
+        { "q_zh": "走路去超市要多少时间？", "q_vi": "Đi bộ đến siêu thị mất bao lâu?", "options": ["五分钟", "十分钟", "二十分钟", "半小时"], "answer": 1 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "我们___打车去___。", "sentence_vi": "Chúng mình ___ bắt taxi đi ___.", "answer": "还是", "options": ["或者", "还是", "也许", "可能"], "grammar_point": "还是...吧" },
+        { "type": "fill", "sentence_zh": "___这里___超市，走路要十分钟。", "sentence_vi": "___ đây ___ siêu thị, đi bộ mất mười phút.", "answer": "从", "options": ["在", "从", "到", "去"], "grammar_point": "从...到..." }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-shengri",
+    "level": 1, "lesson_ref": 10,
+    "title_zh": "生日快乐！",
+    "title_vi": "Sinh nhật vui vẻ!",
+    "topic": "Gia đình",
+    "grammar_focus": ["再+动词", "还有...", "都+副词"],
+    "content": [
+      { "zh": "今天是刘小雪的生日，妈妈买了大蛋糕。", "py": "Jīntiān shì Liú Xiǎoxuě de shēngrì, māma mǎile dà dàngāo.", "vi": "Hôm nay là sinh nhật Lưu Tiểu Tuyết, mẹ mua bánh kem to." },
+      { "zh": "爸爸刘明送了画笔作为礼物，小雪非常喜欢。", "py": "Bàba Liú Míng sòng le huàbǐ zuòwéi lǐwù, Xiǎo Xuě fēicháng xǐhuān.", "vi": "Bố Lưu Minh tặng bút vẽ làm quà, Tiểu Tuyết rất thích." },
+      { "zh": "桌子上有长长的面条儿、大大的蛋糕，还有鱼和肉。", "py": "Zhuōzi shàng yǒu cháng cháng de miàntiáor, dà dà de dàngāo, hái yǒu yú hé ròu.", "vi": "Trên bàn có mì trường thọ, bánh kem to, còn có cá và thịt." },
+      { "zh": "刘小雪说：「过生日真好啊！」妈妈说：「过生日就要高高兴兴地玩。」", "py": "Liú Xiǎoxuě shuō: 「Guò shēngrì zhēn hǎo a!」 Māma shuō: 「Guò shēngrì jiù yào gāogāo-xìngxìng de wán.」", "vi": "Lưu Tiểu Tuyết nói: 'Sinh nhật thật vui!' Mẹ nói: 'Sinh nhật thì phải chơi thật vui vẻ.'" },
+      { "zh": "她还想用新画笔画家人：爸爸、妈妈、弟弟和小狗、小猫。", "py": "Tā hái xiǎng yòng xīn huàbǐ huà jiārén: bàba, māma, dìdi hé xiǎo gǒu, xiǎo māo.", "vi": "Cô bé còn muốn dùng bút vẽ mới để vẽ gia đình: bố, mẹ, em trai và chó, mèo." }
+    ],
+    "vocabulary": [
+      { "zh": "生日", "py": "shēngrì", "vi": "sinh nhật" },
+      { "zh": "蛋糕", "py": "dàngāo", "vi": "bánh kem" },
+      { "zh": "礼物", "py": "lǐwù", "vi": "quà tặng" },
+      { "zh": "画笔", "py": "huàbǐ", "vi": "bút vẽ" },
+      { "zh": "高兴", "py": "gāoxìng", "vi": "vui mừng" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "刘明送了什么礼物？", "q_vi": "Lưu Minh tặng quà gì?", "options": ["蛋糕", "书包", "画笔", "衣服"], "answer": 2 },
+        { "q_zh": "桌子上没有什么？", "q_vi": "Trên bàn không có gì?", "options": ["蛋糕", "面条儿", "苹果", "鱼"], "answer": 2 },
+        { "q_zh": "刘小雪想画什么？", "q_vi": "Lưu Tiểu Tuyết muốn vẽ gì?", "options": ["学校", "超市", "家人和宠物", "老师"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "桌子上有蛋糕，___有鱼和肉。", "sentence_vi": "Trên bàn có bánh kem, ___ có cá và thịt.", "answer": "还", "options": ["也", "还", "都", "只"], "grammar_point": "还有..." },
+        { "type": "fill", "sentence_zh": "过生日就要___兴兴地玩。", "sentence_vi": "Sinh nhật thì phải chơi thật ___ vẻ.", "answer": "高高", "options": ["好好", "高高", "快快", "大大"], "grammar_point": "AABB型形容词" }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-jiuyi",
+    "level": 1, "lesson_ref": 8,
+    "title_zh": "我能到！",
+    "title_vi": "Tôi đến được!",
+    "topic": "Giao tiếp",
+    "grammar_focus": ["能+动词", "能...吗", "在哪儿见"],
+    "content": [
+      { "zh": "下课后，白家月给李文打电话，约他见面。", "py": "Xiàkè hòu, Bái Jiāyuè gěi Lǐ Wén dǎ diànhuà, yuē tā jiànmiàn.", "vi": "Sau giờ học, Bạch Gia Nguyệt gọi điện cho Lý Văn, hẹn gặp mặt." },
+      { "zh": "白家月问：「下午两点你能到吗？」李文说：「我能到，我在学校吃午饭。」", "py": "Bái Jiāyuè wèn: 「Xiàwǔ liǎng diǎn nǐ néng dào ma?」 Lǐ Wén shuō: 「Wǒ néng dào, wǒ zài xuéxiào chī wǔfàn.」", "vi": "Bạch Gia Nguyệt hỏi: 'Chiều hai giờ cậu đến được không?' Lý Văn nói: 'Được, tôi ăn trưa ở trường.'" },
+      { "zh": "他们约好在学校书店前见面。", "py": "Tāmen yuēhǎo zài xuéxiào shūdiàn qián jiànmiàn.", "vi": "Họ hẹn nhau gặp trước hiệu sách của trường." },
+      { "zh": "王一雪也打电话问刘明：「你在哪儿？」刘明说：「我在家里呢。」", "py": "Wáng Yīxuě yě dǎ diànhuà wèn Liú Míng: 「Nǐ zài nǎr?」 Liú Míng shuō: 「Wǒ zài jiā lǐ ne.」", "vi": "Vương Nhất Tuyết cũng gọi điện hỏi Lưu Minh: 'Anh đang ở đâu?' Lưu Minh nói: 'Anh đang ở nhà.'" },
+      { "zh": "王一雪说：「我晚上六点半下班，八点去医院上班。好，你去店里买些菜吧。」", "py": "Wáng Yīxuě shuō: 「Wǒ wǎnshang liù diǎn bàn xiàbān, bā diǎn qù yīyuàn shàngbān. Hǎo, nǐ qù diàn lǐ mǎi xiē cài ba.」", "vi": "Vương Nhất Tuyết nói: 'Em sáu giờ rưỡi tan làm, tám giờ đi trực bệnh viện. Thôi, anh qua cửa hàng mua ít rau nhé.'" }
+    ],
+    "vocabulary": [
+      { "zh": "约", "py": "yuē", "vi": "hẹn" },
+      { "zh": "书店", "py": "shūdiàn", "vi": "hiệu sách" },
+      { "zh": "下班", "py": "xiàbān", "vi": "tan làm" },
+      { "zh": "上班", "py": "shàngbān", "vi": "đi làm" },
+      { "zh": "午饭", "py": "wǔfàn", "vi": "bữa trưa" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "他们约好在哪里见面？", "q_vi": "Họ hẹn gặp nhau ở đâu?", "options": ["超市前", "医院前", "学校书店前", "电影院外"], "answer": 2 },
+        { "q_zh": "王一雪几点下班？", "q_vi": "Vương Nhất Tuyết mấy giờ tan làm?", "options": ["五点半", "六点", "六点半", "七点"], "answer": 2 },
+        { "q_zh": "刘明在哪里？", "q_vi": "Lưu Minh đang ở đâu?", "options": ["在公司", "在医院", "在超市", "在家"], "answer": 3 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "下午两点你___到吗？", "sentence_vi": "Chiều hai giờ cậu ___ đến không?", "answer": "能", "options": ["能", "行", "要", "会"], "grammar_point": "能+动词" },
+        { "type": "fill", "sentence_zh": "你去店里买___菜吧。", "sentence_vi": "Em qua cửa hàng mua ___ rau nhé.", "answer": "些", "options": ["几个", "些", "两斤", "多"], "grammar_point": "一些/些" }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-waiguo",
+    "level": 1, "lesson_ref": 2,
+    "title_zh": "你是哪国人？",
+    "title_vi": "Bạn là người nước nào?",
+    "topic": "Giao tiếp",
+    "grammar_focus": ["是...人", "请问...吗", "我是..."],
+    "content": [
+      { "zh": "在课堂上，王一飞老师问白家月：「请问，你是哪国人？」", "py": "Zài kètáng shàng, Wáng Yīfēi lǎoshī wèn Bái Jiāyuè: 「Qǐngwèn, nǐ shì nǎ guó rén?」", "vi": "Trên lớp, cô giáo Vương Nhất Phi hỏi Bạch Gia Nguyệt: 'Cho hỏi, bạn là người nước nào?'" },
+      { "zh": "白家月说：「我是法国人，请问您是中国人吗？」", "py": "Bái Jiāyuè shuō: 「Wǒ shì Fǎguórén, qǐngwèn nín shì Zhōngguórén ma?」", "vi": "Bạch Gia Nguyệt nói: 'Tôi là người Pháp, xin hỏi cô có phải là người Trung Quốc không?'" },
+      { "zh": "王一飞说：「是的，我是中国人，是北京人。」", "py": "Wáng Yīfēi shuō: 「Shì de, wǒ shì Zhōngguórén, shì Běijīngrén.」", "vi": "Vương Nhất Phi nói: 'Đúng vậy, tôi là người Trung Quốc, là người Bắc Kinh.'" },
+      { "zh": "班里还有美国学生、韩国学生和越南学生。", "py": "Bān lǐ hái yǒu Měiguó xuéshēng, Hánguó xuéshēng hé Yuènán xuéshēng.", "vi": "Trong lớp còn có học sinh Mỹ, học sinh Hàn Quốc và học sinh Việt Nam." },
+      { "zh": "大家来自不同的国家，但都是好同学。", "py": "Dàjiā lái zì bùtóng de guójiā, dàn dōu shì hǎo tóngxué.", "vi": "Mọi người đến từ các nước khác nhau, nhưng đều là bạn học tốt." }
+    ],
+    "vocabulary": [
+      { "zh": "法国人", "py": "Fǎguórén", "vi": "người Pháp" },
+      { "zh": "中国人", "py": "Zhōngguórén", "vi": "người Trung Quốc" },
+      { "zh": "美国人", "py": "Měiguórén", "vi": "người Mỹ" },
+      { "zh": "韩国人", "py": "Hánguórén", "vi": "người Hàn Quốc" },
+      { "zh": "同学", "py": "tóngxué", "vi": "bạn cùng lớp" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "王一飞是哪里人？", "q_vi": "Vương Nhất Phi là người ở đâu?", "options": ["上海人", "北京人", "广州人", "西安人"], "answer": 1 },
+        { "q_zh": "班里有没有韩国学生？", "q_vi": "Trong lớp có học sinh Hàn Quốc không?", "options": ["没有", "有一个", "有", "不知道"], "answer": 2 },
+        { "q_zh": "白家月是哪国人？", "q_vi": "Bạch Gia Nguyệt là người nước nào?", "options": ["中国人", "美国人", "法国人", "英国人"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "请问，你___哪国人？", "sentence_vi": "Cho hỏi, bạn ___ người nước nào?", "answer": "是", "options": ["有", "是", "叫", "在"], "grammar_point": "是+名词" },
+        { "type": "fill", "sentence_zh": "我___法国人。", "sentence_vi": "Tôi ___ người Pháp.", "answer": "是", "options": ["叫", "在", "是", "有"], "grammar_point": "我是..." }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-ganmao",
+    "level": 1, "lesson_ref": 12,
+    "title_zh": "我生病了",
+    "title_vi": "Tôi bị ốm rồi",
+    "topic": "Sức khỏe",
+    "grammar_focus": ["动词+了(完成)", "觉得+形容词", "再+动词"],
+    "content": [
+      { "zh": "昨天天气很冷，杨同乐感冒了。", "py": "Zuótiān tiānqì hěn lěng, Yáng Tónglè gǎnmào le.", "vi": "Hôm qua thời tiết rất lạnh, Dương Đồng Lạc bị cảm rồi." },
+      { "zh": "他去医院，告诉医生：「我觉得很冷，头也疼。」", "py": "Tā qù yīyuàn, gàosu yīshēng: 「Wǒ juéde hěn lěng, tóu yě téng.」", "vi": "Anh ấy đến bệnh viện, nói với bác sĩ: 'Tôi thấy rất lạnh, đầu cũng đau.'" },
+      { "zh": "医生说：「吃一点儿药，今天休息半天，回家后再喝些热水。」", "py": "Yīshēng shuō: 「Chī yīdiǎnr yào, jīntiān xiūxi bàn tiān, huí jiā hòu zài hē xiē rè shuǐ.」", "vi": "Bác sĩ nói: 'Uống một chút thuốc, hôm nay nghỉ nửa ngày, về nhà rồi uống thêm nước nóng.'" },
+      { "zh": "王一雪知道了，给杨同乐发短信：「好好休息，身体要紧。」", "py": "Wáng Yīxuě zhīdào le, gěi Yáng Tónglè fā duǎnxìn: 「Hǎohǎo xiūxi, shēntǐ yào jǐn.」", "vi": "Vương Nhất Tuyết biết chuyện, nhắn tin cho Dương Đồng Lạc: 'Nghỉ ngơi cho tốt, sức khỏe là trên hết.'" },
+      { "zh": "第二天，杨同乐好多了，他觉得药很有效。", "py": "Dì-èr tiān, Yáng Tónglè hǎo duō le, tā juéde yào hěn yǒuxiào.", "vi": "Ngày hôm sau, Dương Đồng Lạc khỏe hơn nhiều, anh ấy thấy thuốc rất có hiệu quả." }
+    ],
+    "vocabulary": [
+      { "zh": "感冒", "py": "gǎnmào", "vi": "cảm lạnh" },
+      { "zh": "头疼", "py": "tóuténg", "vi": "đau đầu" },
+      { "zh": "药", "py": "yào", "vi": "thuốc" },
+      { "zh": "热水", "py": "rèshuǐ", "vi": "nước nóng" },
+      { "zh": "休息", "py": "xiūxi", "vi": "nghỉ ngơi" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "杨同乐为什么去医院？", "q_vi": "Tại sao Dương Đồng Lạc đến bệnh viện?", "options": ["因为想工作", "因为感冒了", "因为看朋友", "因为买药"], "answer": 1 },
+        { "q_zh": "医生让他做什么？", "q_vi": "Bác sĩ bảo anh ấy làm gì?", "options": ["多运动", "吃药休息喝热水", "吃很多东西", "去旅游"], "answer": 1 },
+        { "q_zh": "第二天杨同乐怎么样了？", "q_vi": "Ngày hôm sau Dương Đồng Lạc thế nào?", "options": ["更不好了", "没变化", "好多了", "还在医院"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "杨同乐感冒___。", "sentence_vi": "Dương Đồng Lạc bị cảm ___ rồi.", "answer": "了", "options": ["呢", "了", "吧", "吗"], "grammar_point": "动词+了" },
+        { "type": "fill", "sentence_zh": "回家后___喝些热水。", "sentence_vi": "Về nhà ___ uống thêm nước nóng.", "answer": "再", "options": ["也", "再", "还", "都"], "grammar_point": "再+动词" }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-xuexi2",
+    "level": 1, "lesson_ref": 9,
+    "title_zh": "我在学校学中文",
+    "title_vi": "Tôi học tiếng Trung ở trường",
+    "topic": "Học tập",
+    "grammar_focus": ["在+地点+动词", "第几+量词", "喜欢+什么"],
+    "content": [
+      { "zh": "白家月和李文都在大学里学中文。", "py": "Bái Jiāyuè hé Lǐ Wén dōu zài dàxué lǐ xué Zhōngwén.", "vi": "Bạch Gia Nguyệt và Lý Văn đều học tiếng Trung ở đại học." },
+      { "zh": "王一飞是他们的中文老师，她教得很好。", "py": "Wáng Yīfēi shì tāmen de Zhōngwén lǎoshī, tā jiāo de hěn hǎo.", "vi": "Vương Nhất Phi là giáo viên tiếng Trung của họ, cô ấy dạy rất tốt." },
+      { "zh": "陈天中有两本中文书。这是他的第二本中文书。", "py": "Chén Tiānzhōng yǒu liǎng běn Zhōngwén shū. Zhè shì tā de dì-èr běn Zhōngwén shū.", "vi": "Trần Thiên Trung có hai cuốn sách tiếng Trung. Đây là cuốn thứ hai của anh ấy." },
+      { "zh": "他喜欢在教室学习，不喜欢在家里学。", "py": "Tā xǐhuān zài jiàoshì xuéxí, bù xǐhuān zài jiā lǐ xué.", "vi": "Anh ấy thích học trong lớp, không thích học ở nhà." },
+      { "zh": "下课后，同学们一起去书店看书，大家都喜欢看中文书。", "py": "Xiàkè hòu, tóngxuémen yīqǐ qù shūdiàn kàn shū, dàjiā dōu xǐhuān kàn Zhōngwén shū.", "vi": "Sau giờ học, các bạn cùng nhau đến hiệu sách đọc sách, mọi người đều thích đọc sách tiếng Trung." }
+    ],
+    "vocabulary": [
+      { "zh": "中文", "py": "Zhōngwén", "vi": "tiếng Trung" },
+      { "zh": "教室", "py": "jiàoshì", "vi": "phòng học" },
+      { "zh": "书店", "py": "shūdiàn", "vi": "hiệu sách" },
+      { "zh": "教", "py": "jiāo", "vi": "dạy" },
+      { "zh": "同学", "py": "tóngxué", "vi": "bạn cùng lớp" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "陈天中有几本中文书？", "q_vi": "Trần Thiên Trung có mấy cuốn sách tiếng Trung?", "options": ["一本", "两本", "三本", "四本"], "answer": 1 },
+        { "q_zh": "陈天中喜欢在哪里学习？", "q_vi": "Trần Thiên Trung thích học ở đâu?", "options": ["在家里", "在书店", "在教室", "在图书馆"], "answer": 2 },
+        { "q_zh": "下课后，同学们去哪里？", "q_vi": "Sau giờ học, các bạn đi đâu?", "options": ["去超市", "去书店", "去医院", "去公园"], "answer": 1 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "这是他的第___本中文书。", "sentence_vi": "Đây là cuốn sách tiếng Trung thứ ___ của anh ấy.", "answer": "二", "options": ["一", "二", "三", "四"], "grammar_point": "第+数字+量词" },
+        { "type": "fill", "sentence_zh": "他喜欢___教室学习。", "sentence_vi": "Anh ấy thích học ___ trong lớp.", "answer": "在", "options": ["去", "到", "在", "从"], "grammar_point": "在+地点+动词" }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-pengyou2",
+    "level": 1, "lesson_ref": 14,
+    "title_zh": "我的手机在哪儿？",
+    "title_vi": "Điện thoại của tôi ở đâu?",
+    "topic": "Đời sống",
+    "grammar_focus": ["在+方位词", "找+东西", "哪儿/哪里"],
+    "content": [
+      { "zh": "早上，刘小雪找不到她的手机。", "py": "Zǎoshang, Liú Xiǎoxuě zhǎobudào tā de shǒujī.", "vi": "Buổi sáng, Lưu Tiểu Tuyết không tìm thấy điện thoại." },
+      { "zh": "她问：「妈妈，我的手机在哪儿？」", "py": "Tā wèn: 「Māma, wǒ de shǒujī zài nǎr?」", "vi": "Cô bé hỏi: 'Mẹ ơi, điện thoại con ở đâu?'" },
+      { "zh": "妈妈说：「手机在桌子上面。书包在门后面。」", "py": "Māma shuō: 「Shǒujī zài zhuōzi shàngmiàn. Shūbāo zài mén hòumiàn.」", "vi": "Mẹ nói: 'Điện thoại ở trên bàn. Cặp sách ở sau cửa.'" },
+      { "zh": "书在床上，笔在桌子上面。刘小明的球在桌子下面。", "py": "Shū zài chuáng shàng, bǐ zài zhuōzi shàngmiàn. Liú Xiǎomíng de qiú zài zhuōzi xiàmiàn.", "vi": "Sách ở trên giường, bút ở trên bàn. Quả bóng của Lưu Tiểu Minh ở dưới gầm bàn." },
+      { "zh": "找到以后，刘小雪很高兴，快快去上学了。", "py": "Zhǎodào yǐhòu, Liú Xiǎoxuě hěn gāoxìng, kuài kuài qù shàngxué le.", "vi": "Sau khi tìm thấy, Lưu Tiểu Tuyết rất vui, nhanh chóng đi học." }
+    ],
+    "vocabulary": [
+      { "zh": "手机", "py": "shǒujī", "vi": "điện thoại" },
+      { "zh": "上面", "py": "shàngmiàn", "vi": "phía trên" },
+      { "zh": "下面", "py": "xiàmiàn", "vi": "phía dưới" },
+      { "zh": "后面", "py": "hòumiàn", "vi": "phía sau" },
+      { "zh": "找", "py": "zhǎo", "vi": "tìm kiếm" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "刘小雪的手机在哪里？", "q_vi": "Điện thoại của Lưu Tiểu Tuyết ở đâu?", "options": ["在床上", "在桌子上面", "在书包里", "在门后面"], "answer": 1 },
+        { "q_zh": "书包在哪里？", "q_vi": "Cặp sách ở đâu?", "options": ["门前面", "桌子上", "门后面", "床上"], "answer": 2 },
+        { "q_zh": "刘小明的球在哪里？", "q_vi": "Quả bóng của Lưu Tiểu Minh ở đâu?", "options": ["桌子上面", "床上", "桌子下面", "门后面"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "手机___桌子上面。", "sentence_vi": "Điện thoại ___ trên bàn.", "answer": "在", "options": ["有", "在", "是", "放"], "grammar_point": "在+方位词" },
+        { "type": "fill", "sentence_zh": "书包在门___面。", "sentence_vi": "Cặp sách ở ___ cửa.", "answer": "后", "options": ["前", "后", "左", "右"], "grammar_point": "方位词" }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-keshi",
+    "level": 1, "lesson_ref": 7,
+    "title_zh": "你能来我家吗？",
+    "title_vi": "Bạn có thể đến nhà tôi không?",
+    "topic": "Giao tiếp",
+    "grammar_focus": ["能+吗", "离+地点+远/近", "骑车/坐车/走路"],
+    "content": [
+      { "zh": "陈天中问安妮：「你能来我家吗？」", "py": "Chén Tiānzhōng wèn Ānnī: 「Nǐ néng lái wǒ jiā ma?」", "vi": "Trần Thiên Trung hỏi Annie: 'Bạn có thể đến nhà tôi không?'" },
+      { "zh": "安妮说：「可以，你家离学校远不远？」", "py": "Ānnī shuō: 「Kěyǐ, nǐ jiā lí xuéxiào yuǎn bu yuǎn?」", "vi": "Annie nói: 'Được, nhà bạn có xa trường không?'" },
+      { "zh": "陈天中说：「不远，骑车十分钟就到了。」", "py": "Chén Tiānzhōng shuō: 「Bù yuǎn, qí chē shí fēnzhōng jiù dào le.」", "vi": "Trần Thiên Trung nói: 'Không xa, đạp xe mười phút là đến.'" },
+      { "zh": "安妮没有自行车，她说：「我走路去，大概要多少时间？」陈天中说：「走路大概要三十分钟。」", "py": "Ānnī méiyǒu zìxíngchē, tā shuō: 「Wǒ zǒulù qù, dàgài yào duōshao shíjiān?」 Chén Tiānzhōng shuō: 「Zǒulù dàgài yào sānshí fēnzhōng.」", "vi": "Annie không có xe đạp, cô ấy nói: 'Tôi đi bộ, khoảng bao lâu?' Trần Thiên Trung nói: 'Đi bộ khoảng ba mươi phút.'" },
+      { "zh": "最后，安妮坐出租车去了，很快就到了。", "py": "Zuìhòu, Ānnī zuò chūzūchē qù le, hěn kuài jiù dào le.", "vi": "Cuối cùng, Annie đi taxi, nhanh chóng là đến nơi." }
+    ],
+    "vocabulary": [
+      { "zh": "自行车", "py": "zìxíngchē", "vi": "xe đạp" },
+      { "zh": "骑车", "py": "qí chē", "vi": "đạp xe" },
+      { "zh": "走路", "py": "zǒulù", "vi": "đi bộ" },
+      { "zh": "离", "py": "lí", "vi": "cách (khoảng cách)" },
+      { "zh": "大概", "py": "dàgài", "vi": "khoảng, đại khái" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "陈天中的家离学校远吗？", "q_vi": "Nhà Trần Thiên Trung có xa trường không?", "options": ["很远", "不远", "一点儿远", "非常远"], "answer": 1 },
+        { "q_zh": "安妮最后怎么去的？", "q_vi": "Cuối cùng Annie đi bằng gì?", "options": ["走路", "骑车", "坐出租车", "坐公交车"], "answer": 2 },
+        { "q_zh": "骑车去要多少时间？", "q_vi": "Đạp xe mất bao lâu?", "options": ["五分钟", "十分钟", "二十分钟", "三十分钟"], "answer": 1 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "你家___学校远不远？", "sentence_vi": "Nhà bạn ___ trường có xa không?", "answer": "离", "options": ["到", "离", "从", "在"], "grammar_point": "离+地点+远/近" },
+        { "type": "fill", "sentence_zh": "骑车十分钟___到了。", "sentence_vi": "Đạp xe mười phút ___ đến rồi.", "answer": "就", "options": ["才", "就", "再", "也"], "grammar_point": "就+动词+了" }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-chidao",
+    "level": 1, "lesson_ref": 5,
+    "title_zh": "我迟到了！",
+    "title_vi": "Tôi đến muộn rồi!",
+    "topic": "Thời gian",
+    "grammar_focus": ["...分钟后", "还有...时间", "已经...了"],
+    "content": [
+      { "zh": "白家月和安妮约好上午九点在书店见面。", "py": "Bái Jiāyuè hé Ānnī yuēhǎo shàngwǔ jiǔ diǎn zài shūdiàn jiànmiàn.", "vi": "Bạch Gia Nguyệt và Annie hẹn nhau sáng chín giờ gặp mặt ở hiệu sách." },
+      { "zh": "安妮已经九点了，白家月还没来。", "py": "Ānnī zuò zài nàr, yǐjīng jiǔ diǎn le, Bái Jiāyuè hái méi lái.", "vi": "Annie ngồi đó, đã chín giờ rồi mà Bạch Gia Nguyệt vẫn chưa đến." },
+      { "zh": "安妮给白家月打电话：「家月，现在几点了？」", "py": "Ānnī gěi Bái Jiāyuè dǎ diànhuà: 「Jiāyuè, xiànzài jǐ diǎn le?」", "vi": "Annie gọi điện cho Bạch Gia Nguyệt: 'Gia Nguyệt, bây giờ mấy giờ rồi?'" },
+      { "zh": "白家月说：「不好意思！我错了，不是九点，是九点半！」", "py": "Bái Jiāyuè shuō: 「Bù hǎoyìsi! Wǒ cuò le, bú shì jiǔ diǎn, shì jiǔ diǎn bàn!」", "vi": "Bạch Gia Nguyệt nói: 'Xin lỗi! Tôi nhầm rồi, không phải chín giờ, mà là chín giờ rưỡi!'" },
+      { "zh": "安妮说：「好的，那我再等你三十分钟。」", "py": "Ānnī shuō: 「Hǎo de, nà wǒ zài děng nǐ sānshí fēnzhōng.」", "vi": "Annie nói: 'Được rồi, vậy tôi đợi thêm cậu ba mươi phút nữa.'" }
+    ],
+    "vocabulary": [
+      { "zh": "迟到", "py": "chídào", "vi": "đến muộn" },
+      { "zh": "等", "py": "děng", "vi": "đợi, chờ" },
+      { "zh": "不好意思", "py": "bù hǎoyìsi", "vi": "xin lỗi, ngại ngùng" },
+      { "zh": "错", "py": "cuò", "vi": "sai, nhầm" },
+      { "zh": "半", "py": "bàn", "vi": "nửa" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "他们约好几点见面？", "q_vi": "Họ hẹn mấy giờ gặp nhau?", "options": ["八点", "九点", "九点半", "十点"], "answer": 2 },
+        { "q_zh": "白家月为什么还没到？", "q_vi": "Tại sao Bạch Gia Nguyệt vẫn chưa đến?", "options": ["因为她忘了", "因为她记错时间了", "因为堵车了", "因为生病了"], "answer": 1 },
+        { "q_zh": "安妮要等多少时间？", "q_vi": "Annie sẽ đợi thêm bao lâu?", "options": ["十分钟", "二十分钟", "三十分钟", "一小时"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "已经九点___，白家月还没来。", "sentence_vi": "Đã chín giờ ___ mà Bạch Gia Nguyệt vẫn chưa đến.", "answer": "了", "options": ["呢", "了", "吧", "吗"], "grammar_point": "已经...了" },
+        { "type": "fill", "sentence_zh": "我___等你三十分钟。", "sentence_vi": "Tôi ___ đợi thêm cậu ba mươi phút nữa.", "answer": "再", "options": ["又", "再", "还", "也"], "grammar_point": "再+动词" }
+      ]
+    }
+  },
+  {
+    "id": "r1-extra-pengyoulaile",
+    "level": 1, "lesson_ref": 5,
+    "title_zh": "老朋友来北京了",
+    "title_vi": "Bạn cũ đến Bắc Kinh rồi",
+    "topic": "Du lịch",
+    "grammar_focus": ["来+地点+了", "动词+完", "给...打电话"],
+    "content": [
+      { "zh": "白家月和安妮第一次来北京，她们很兴奋。", "py": "Bái Jiāyuè hé Ānnī dì-yī cì lái Běijīng, tāmen hěn xīngfèn.", "vi": "Bạch Gia Nguyệt và Annie lần đầu tiên đến Bắc Kinh, họ rất phấn khích." },
+      { "zh": "王一雪去机场接她们，她们一见面就很高兴。", "py": "Wáng Yīxuě qù jīchǎng jiē tāmen, tāmen yī jiànmiàn jiù hěn gāoxìng.", "vi": "Vương Nhất Tuyết ra sân bay đón họ, vừa gặp mặt đã rất vui." },
+      { "zh": "王一雪请她们吃了北京烤鸭，非常好吃。", "py": "Wáng Yīxuě qǐng tāmen chī le Běijīng kǎoyā, fēicháng hǎochī.", "vi": "Vương Nhất Tuyết mời họ ăn vịt quay Bắc Kinh, rất ngon." },
+      { "zh": "吃完饭，白家月给陈天中打了电话，告诉他她已经到北京了。", "py": "Chī wán fàn, Bái Jiāyuè gěi Chén Tiānzhōng dǎle diànhuà, gàosu tā tā yǐjīng dào Běijīng le.", "vi": "Ăn xong, Bạch Gia Nguyệt gọi điện cho Trần Thiên Trung, báo anh ấy là cô đã đến Bắc Kinh rồi." },
+      { "zh": "陈天中说有事让李文帮忙，再见后挂上了电话。", "py": "Chén Tiānzhōng shuō yǒu shì ràng Lǐ Wén bāngmáng, zàijiàn hòu guàshàng le diànhuà.", "vi": "Trần Thiên Trung nói có việc nhờ Lý Văn giúp, nói tạm biệt rồi cúp máy." }
+    ],
+    "vocabulary": [
+      { "zh": "北京烤鸭", "py": "Běijīng kǎoyā", "vi": "vịt quay Bắc Kinh" },
+      { "zh": "兴奋", "py": "xīngfèn", "vi": "phấn khích" },
+      { "zh": "接", "py": "jiē", "vi": "đón" },
+      { "zh": "一见面", "py": "yī jiànmiàn", "vi": "vừa gặp mặt" },
+      { "zh": "挂电话", "py": "guà diànhuà", "vi": "cúp điện thoại" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "这是白家月第几次来北京？", "q_vi": "Đây là lần thứ mấy Bạch Gia Nguyệt đến Bắc Kinh?", "options": ["第一次", "第二次", "第三次", "第四次"], "answer": 0 },
+        { "q_zh": "王一雪请她们吃什么？", "q_vi": "Vương Nhất Tuyết mời họ ăn gì?", "options": ["饺子", "北京烤鸭", "面条儿", "包子"], "answer": 1 },
+        { "q_zh": "吃完饭白家月给谁打电话了？", "q_vi": "Ăn xong Bạch Gia Nguyệt gọi điện cho ai?", "options": ["李文", "王一雪", "陈天中", "安妮"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "白家月第一次___北京。", "sentence_vi": "Bạch Gia Nguyệt lần đầu tiên ___ Bắc Kinh.", "answer": "来", "options": ["到", "来", "去", "在"], "grammar_point": "来+地点+了" },
+        { "type": "fill", "sentence_zh": "吃___饭，白家月给陈天中打了电话。", "sentence_vi": "Ăn ___ cơm, Bạch Gia Nguyệt gọi điện cho Trần Thiên Trung.", "answer": "完", "options": ["过", "到", "完", "了"], "grammar_point": "动词+完" }
+      ]
+    }
+  }
+]

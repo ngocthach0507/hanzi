@@ -1,0 +1,753 @@
+[
+  {
+    "book_level": 3, "lesson_number": 1, "text_number": 1, "type": "dialogue",
+    "scene_zh": "我们去机场接你们 (1)", "scene_vi": "Chúng tôi đi đón các bạn ở sân bay (1)",
+    "audio_ref": "3-1-1",
+    "content": [
+      {"speaker": "刘明", "zh": "这是杨同乐吗？他怎么跟白家月在一起？", "pinyin": "Zhè shì Yáng Tónglè ma? Tā zěnme gēn Bái Jiāyuè zài yīqǐ?", "vi": "Đây có phải Dương Đồng Lạc không? Sao cậu ấy lại ở cùng Bạch Gia Nguyệt?"},
+      {"speaker": "王一雪", "zh": "他不是杨同乐，他叫李文，是白家月的好朋友。", "pinyin": "Tā bù shì Yáng Tónglè, tā jiào Lǐ Wén, shì Bái Jiāyuè de hǎo péngyou.", "vi": "Anh ấy không phải Đồng Lạc, tên là Lý Văn, bạn tốt của Gia Nguyệt."},
+      {"speaker": "刘明", "zh": "我还以为是同乐呢，他们看上去有点儿像。", "pinyin": "Wǒ hái yǐwéi shì Tónglè ne, tāmen kàn shàngqù yǒudiǎnr xiàng.", "vi": "Tôi cứ tưởng là Đồng Lạc, trông họ hơi giống nhau."},
+      {"speaker": "王一雪", "zh": "提是长得有点儿像，但是他比同乐高，身高有一米八。", "pinyin": "Shì zhǎng de yǒudiǎnr xiàng, dànshì tā bǐ Tónglè gāo, shēngāo yǒu yī mǐ bā.", "vi": "Đúng là hơi giống, nhưng anh ấy cao hơn Đồng Lạc, cao 1m8."},
+      {"speaker": "刘明", "zh": "看起来也比同乐瘦一点儿。", "pinyin": "Kàn qǐlái yě bǐ Tónglè shòu yīdiǎnr.", "vi": "Nhìn cũng gầy hơn Đồng Lạc một chút."},
+      {"speaker": "王一雪", "zh": "下个星期家月和李文要来北京，我去机场接他们。", "pinyin": "Xià gè xīngqī Jiāyuè hé Lǐ Wén yào lái Běijīng, wǒ qù jīchǎng jiē tāmen.", "vi": "Tuần sau Gia Nguyệt và Lý Văn đến Bắc Kinh, tôi ra sân bay đón họ."},
+      {"speaker": "刘明", "zh": "他们哪天到北京？我跟你一起去机场接他们吧。", "pinyin": "Tāmen nǎ tiān dào Běijīng? Wǒ gēn nǐ yīqǐ qù jīchǎng jiē tāmen ba.", "vi": "Họ đến Bắc Kinh ngày nào? Tôi đi cùng đón họ nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 1, "text_number": 2, "type": "dialogue",
+    "scene_zh": "我们去机场接你们 (2)", "scene_vi": "Chúng tôi đi đón các bạn ở sân bay (2)",
+    "audio_ref": "3-1-2",
+    "content": [
+      {"speaker": "白家月", "zh": "我的行李怎么还没出来？是不是丢了？", "pinyin": "Wǒ de xíngli zěnme hái méi chūlái? Shì bù shì diū le?", "vi": "Sao hành lý của tôi chưa ra? Có phải bị mất không?"},
+      {"speaker": "李文", "zh": "你的行李箱是什么样的？", "pinyin": "Nǐ de xínglǐxiāng shì shénme yàng de?", "vi": "Vali của bạn trông thế nào?"},
+      {"speaker": "白家月", "zh": "是一个黑色的箱子，上面写着我的名字和电话号码。", "pinyin": "Shì yī gè hēisè de xiāngzi, shàngmiàn xiě zhe wǒ de míngzì hé diànhuà hàomǎ.", "vi": "Là vali màu đen, trên đó có viết tên và số điện thoại của tôi."},
+      {"speaker": "李文", "zh": "我好像在哪儿看到过这个箱子，是不是有人拿错了？", "pinyin": "Wǒ hǎoxiàng zài nǎr kàn dào guò zhège xiāngzi, shì bù shì yǒurén ná cuò le?", "vi": "Hình như tôi thấy vali này ở đâu rồi, có ai lấy nhầm không?"},
+      {"speaker": "白家月", "zh": "我们快找谁问一下吧，箱子里有不少重要的东西。", "pinyin": "Wǒmen kuài zhǎo shuí wèn yīxià ba, xiāngzi lǐ yǒu bù shǎo zhòngyào de dōngxi.", "vi": "Chúng ta nhanh hỏi ai đó đi, trong vali có nhiều đồ quan trọng."},
+      {"speaker": "李文", "zh": "别着急，我们拿着护照和机票，去服务台问问吧。", "pinyin": "Bié zhāojí, wǒmen ná zhe hùzhào hé jīpiào, qù fúwùtái wènwen ba.", "vi": "Đừng lo, chúng ta cầm hộ chiếu và vé máy bay ra quầy dịch vụ hỏi nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 1, "text_number": 3, "type": "dialogue",
+    "scene_zh": "我们去机场接你们 (3)", "scene_vi": "Chúng tôi đi đón các bạn ở sân bay (3)",
+    "audio_ref": "3-1-3",
+    "content": [
+      {"speaker": "刘明", "zh": "飞机早就到了，你看见白家月他们了吗？", "pinyin": "Fēijī zǎo jiù dào le, nǐ kànjiàn Bái Jiāyuè tāmen le ma?", "vi": "Máy bay đến từ lâu rồi, bạn thấy Gia Nguyệt và mọi người chưa?"},
+      {"speaker": "王一雪", "zh": "没有，他们应该快出来了。", "pinyin": "Méiyǒu, tāmen yīnggāi huài chūlái le.", "vi": "Chưa, chắc họ sắp ra rồi."},
+      {"speaker": "刘明", "zh": "我们站到中间去吧，这样他们好找一些。", "pinyin": "Wǒmen zhàn dào zhōngjiān qù ba, zhèyàng tāmen hǎo zhǎo yīxiē.", "vi": "Chúng ta đứng ra giữa đi, để họ dễ tìm hơn."},
+      {"speaker": "王一雪", "zh": "你看那个高个子的人是李文吗？", "pinyin": "Nǐ kàn nà gè gāo gèzi de rén shì Lǐ Wén ma?", "vi": "Bạn xem người cao cao kia có phải Lý Văn không?"},
+      {"speaker": "刘明", "zh": "你说的是哪个？那个穿着黑衣服的短头发的年轻人？", "pinyin": "Nǐ shuō de shì nǎge? Nàge chuān zhe hēi yīfú de duǎn tóufa de niánqīng rén?", "vi": "Bạn nói người nào? Người trẻ mặc áo đen tóc ngắn ấy à?"},
+      {"speaker": "王一雪", "zh": "对，那个人就是李文！你看，家月在他后面呢。", "pinyin": "Duì, nàge rén jiù shì Lǐ Wén! Nǐ kàn, Jiāyuè zài tā hòumiàn ne.", "vi": "Đúng, người đó chính là Lý Văn! Bạn xem, Gia Nguyệt ở sau anh ấy kìa."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 2, "text_number": 1, "type": "dialogue",
+    "scene_zh": "你们想吃什么就点什么 (1)", "scene_vi": "Các bạn muốn ăn gì thì gọi món đấy (1)",
+    "audio_ref": "3-2-1",
+    "content": [
+      {"speaker": "王一雪", "zh": "家月、李文，你们看看菜单，想吃点儿什么？", "pinyin": "Jiāyuè, Lǐ Wén, nǐmen kànkan càidān, xiǎng chī diǎnr shénme?", "vi": "Gia Nguyệt, Lý Văn, hai bạn xem menu, muốn ăn gì nào?"},
+      {"speaker": "李文", "zh": "谢谢一雪姐，我都可以，你们点吧。", "pinyin": "Xièxie Yīxuě jiě, wǒ dōu kěyǐ, nǐmen diǎn ba.", "vi": "Cảm ơn chị Tuyết, em ăn gì cũng được, chị gọi đi ạ."},
+      {"speaker": "白家月", "zh": "飞了这么远，现在还真是又饿又渴。", "pinyin": "Fēi le zhème yuǎn, xiànzài hái zhēn shì yòu è yòu kě.", "vi": "Bay xa thế này, bây giờ đúng là vừa đói vừa khát."},
+      {"speaker": "王一雪", "zh": "那多点点儿，别客气。你们喝什么饮料？", "pinyin": "Nà duō diǎn diǎnr, bié kèqi. Nǐmen hē shénme yǐnliào?", "vi": "Thế gọi nhiều lên, đừng khách sáo. Hai bạn uống gì?"},
+      {"speaker": "白家月", "zh": "好久没喝中国茶，也好久没吃饺子了。我想喝绿茶、吃饺子，可以吗？", "pinyin": "Hǎojiǔ méi hē Zhōngguó chá, yě hǎojiǔ méi chī jiǎozi le. Wǒ xiǎng hē lǜchá, chī jiǎozi, kěyǐ ma?", "vi": "Lâu rồi em chưa uống trà Trung Quốc, cũng lâu chưa ăn sủi cảo. Em muốn uống trà xanh, ăn sủi cảo, được không ạ?"},
+      {"speaker": "王一雪", "zh": "没问题。你们看看还想吃什么。", "pinyin": "Méi wèntí. Nǐmen kànkan hái xiǎng chī shénme.", "vi": "Không vấn đề. Hai bạn xem còn muốn ăn gì nữa không."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 2, "text_number": 2, "type": "dialogue",
+    "scene_zh": "你们想吃什么就点什么 (2)", "scene_vi": "Các bạn muốn ăn gì thì gọi món đấy (2)",
+    "audio_ref": "3-2-2",
+    "content": [
+      {"speaker": "王一雪", "zh": "服务员，再给我们拿一双筷子、一个勺子和一个碗。", "pinyin": "Fúwùyuán, zài gěi wǒmen ná yī shuāng kuàizi, yī gè sháozi hé yī gè wǎn.", "vi": "Phục vụ ơi, lấy cho chúng tôi thêm một đôi đũa, một cái thìa và một cái bát."},
+      {"speaker": "服务员", "zh": "好的，请等一下，我马上去拿。", "pinyin": "Hǎo de, qǐng děng yīxià, wǒ mǎshàng qù ná.", "vi": "Vâng, mời đợi một chút, tôi lấy ngay."},
+      {"speaker": "王一雪", "zh": "这家饭馆的服务很热情，菜也都做得很好吃。你们尝尝，看喜不喜欢这些菜。", "pinyin": "Zhè jiā fànguǎn de fúwù hěn rèqíng, cài yě dōu zuò de hěn hǎochī. Nǐmen chángchang, kàn xǐ bù xǐhuan zhèxiē cài.", "vi": "Phục vụ ở nhà hàng này rất nhiệt tình, món ăn cũng làm rất ngon. Hai bạn nếm thử xem có thích những món này không."},
+      {"speaker": "白家月", "zh": "哪个菜都好吃。您点的这些菜真不错。", "pinyin": "Nǎge cài dōu hǎochī. Nín diǎn de zhèxiē cài zhēn bùcuò.", "vi": "Món nào cũng ngon. Mấy món chị gọi thật tuyệt."},
+      {"speaker": "李文", "zh": "王姐，您经常来吃饭，今天送您一些水果，请慢用。", "pinyin": "Wáng jiě, nín jīngcháng lái chīfàn, jīntiān sòng nín yīxiē shuǐguǒ, qǐng màn yòng.", "vi": "Chị Vương, chị thường xuyên đến ăn, hôm nay tặng chị ít hoa quả, mời dùng chậm rãi."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 2, "text_number": 3, "type": "dialogue",
+    "scene_zh": "你们想吃什么就点什么 (3)", "scene_vi": "Các bạn muốn ăn gì thì gọi món đấy (3)",
+    "audio_ref": "3-2-3",
+    "content": [
+      {"speaker": "白家月", "zh": "这个鸡肉饭太好吃了，我要再来吃一次。", "pinyin": "Zhège jīròu fàn tài hǎochī le, wǒ yào zài lái chī yī cì.", "vi": "Cơm gà này ngon quá, em phải đến ăn lại một lần nữa."},
+      {"speaker": "李文", "zh": "你可以拿走这张菜单，看看下次还吃点儿什么。", "pinyin": "Nǐ kěyǐ ná zǒu zhè zhāng càidān, kànkan xià cì hái chī diǎnr shénme.", "vi": "Em có thể cầm menu này về, xem lần sau ăn gì."},
+      {"speaker": "王一雪", "zh": "不用拿菜单，在手机上就能看到，也可以选好了让他们给你送。", "pinyin": "Bùyòng ná càidān, zài shǒujī shàng jiù néng kàndào, yě kěyǐ xuǎn hǎo le ràng tāmen gěi nǐ sòng.", "vi": "Không cần cầm menu đâu, trên điện thoại có thể xem được, cũng có thể chọn xong để họ giao cho."},
+      {"speaker": "白家月", "zh": "他们家还能送外卖？", "pinyin": "Tāmen jiā hái néng sòng wàimài?", "vi": "Nhà họ còn có thể giao đồ ăn tận nơi à?"},
+      {"speaker": "王一雪", "zh": "对，现在很多饭馆都能送外卖，想吃什么就点什么。", "pinyin": "Duì, xiànzài hěnduō fànguǎn dōu néng sòng wàimài, xiǎng chī shénme jiù diǎn shénme.", "vi": "Đúng, bây giờ nhiều nhà hàng có thể giao đồ ăn, muốn ăn gì thì gọi món đấy."},
+      {"speaker": "白家月", "zh": "那真是太方便了！", "pinyin": "Nà zhēn shì tài fāngbiàn le!", "vi": "Thế thì tiện quá!"}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 3, "text_number": 1, "type": "dialogue",
+    "scene_zh": "这个小区挺好的 (1)", "scene_vi": "Khu chung cư này khá tốt (1)",
+    "audio_ref": "3-3-1",
+    "content": [
+      {"speaker": "王一雪", "zh": "小雪的初中离家有点儿远，咱们换一个近点儿的房子吧。", "pinyin": "Xiǎoxuě de chūzhōng lí jiā yǒudiǎnr yuǎn, zánmen huàn yī gè jìn diǎnr de fángzi ba.", "vi": "Trường cấp 2 của Tiểu Tuyết hơi xa nhà, chúng ta đổi sang căn hộ gần hơn nhé."},
+      {"speaker": "刘明", "zh": "好啊，我上网看看。你觉得这个小区怎么样？", "pinyin": "Hǎo a, wǒ shàngwǎng kànkan. Nǐ juéde zhège xiǎoqū zěnme yàng?", "vi": "Được, anh lên mạng xem. Em thấy khu chung cư này thế nào?"},
+      {"speaker": "王一雪", "zh": "环境挺好的，离地铁站还不远。", "pinyin": "Huánjìng tǐng hǎo de, lí dìtiě zhàn hái bù yuǎn.", "vi": "Môi trường khá tốt, cách ga tàu điện ngầm cũng không xa."},
+      {"speaker": "刘明", "zh": "房子里面也不错，空调和洗衣机都是新的。", "pinyin": "Fángzi lǐmiàn yě bùcuò, kōngtiáo hé xǐyījī dōu shì xīn de.", "vi": "Bên trong căn hộ cũng tốt, điều hòa và máy giặt đều mới."},
+      {"speaker": "王一雪", "zh": "是不错，但是我不喜欢住一层。", "pinyin": "Shì bùcuò, dànshì wǒ bù xǐhuan zhù yī céng.", "vi": "Cũng tốt, nhưng em không thích ở tầng một."},
+      {"speaker": "刘明", "zh": "这个一层带一个小花园，我觉得咱们可以去看看。", "pinyin": "Zhège yī céng dài yī gè xiǎo huāyuán, wǒ juéde zánmen kěyǐ qù kànkan.", "vi": "Tầng một này có một vườn nhỏ, anh nghĩ chúng ta có thể đến xem thử."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 3, "text_number": 2, "type": "dialogue",
+    "scene_zh": "这个小区挺好的 (2)", "scene_vi": "Khu chung cư này khá tốt (2)",
+    "audio_ref": "3-3-2",
+    "content": [
+      {"speaker": "王一雪", "zh": "我今天早上来的时候，灯还开着。", "pinyin": "Wǒ jīntiān zǎoshang lái de shíhòu, dēng hái kāi zhe.", "vi": "Sáng nay lúc em đến, đèn vẫn đang sáng."},
+      {"speaker": "刘明", "zh": "我这几天忙坏了，可能走的时候忘关了。", "pinyin": "Wǒ zhè jǐ tiān máng huài le, kěnéng zǒu de shíhòu wàng guān le.", "vi": "Mấy hôm nay anh bận quá, chắc lúc đi quên tắt."},
+      {"speaker": "王一雪", "zh": "冰箱不能用，这些吃的东西放在哪儿？", "pinyin": "Bīngxiāng bù néng yòng, zhèxiē chī de dōngxi fàng zài nǎr?", "vi": "Tủ lạnh không dùng được, mấy thứ đồ ăn này để ở đâu?"},
+      {"speaker": "刘明", "zh": "不可能吧？冰箱是新买的，我来看看。", "pinyin": "Bù kěnéng ba? Bīngxiāng shì xīn mǎi de, wǒ lái kànkan.", "vi": "Không thể nào? Tủ lạnh mới mua mà, anh xem thử."},
+      {"speaker": "王一雪", "zh": "洗衣机也坏了吗？", "pinyin": "Xǐyījī yě huài le ma?", "vi": "Máy giặt cũng hỏng à?"},
+      {"speaker": "刘明", "zh": "没坏，但是卫生间没打扫好，还不能洗衣服。", "pinyin": "Méi huài, dànshì wèishēngjiān méi dǎsǎo hǎo, hái bù néng xǐ yīfu.", "vi": "Không hỏng, nhưng phòng vệ sinh chưa dọn xong, chưa thể giặt quần áo được."},
+      {"speaker": "王一雪", "zh": "星期天我们真的能搬家吗？", "pinyin": "Xīngqītiān wǒmen zhēn de néng bānjiā ma?", "vi": "Chủ nhật chúng ta thực sự có thể chuyển nhà được không?"}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 3, "text_number": 3, "type": "dialogue",
+    "scene_zh": "这个小区挺好的 (3)", "scene_vi": "Khu chung cư này khá tốt (3)",
+    "audio_ref": "3-3-3",
+    "content": [
+      {"speaker": "王一雪", "zh": "这个月花了不少钱。", "pinyin": "Zhège yuè huā le bù shǎo qián.", "vi": "Tháng này tiêu không ít tiền."},
+      {"speaker": "刘明", "zh": "是的，我们买了很多搬家时要用的东西。", "pinyin": "Shì de, wǒmen mǎi le hěnduō bānjiā shí yào yòng de dōngxi.", "vi": "Ừ, chúng ta mua nhiều thứ để chuyển nhà."},
+      {"speaker": "王一雪", "zh": "咱们办张信用卡吧，花的钱可以慢慢还。听说中国银行的服务不错，办了信用卡买东西还能便宜。", "pinyin": "Zánmen bàn zhāng xìnyòngkǎ ba, huā de qián kěyǐ mànmàn huán. Tīngshuō Zhōngguó Yínháng de fúwù bùcuò, bàn le xìnyòngkǎ mǎi dōngxi hái néng piányi.", "vi": "Chúng ta làm thẻ tín dụng đi, tiền tiêu có thể từ từ trả. Nghe nói dịch vụ Ngân hàng Trung Quốc tốt, làm thẻ tín dụng mua đồ còn được rẻ."},
+      {"speaker": "刘明", "zh": "好啊！中国银行很近，走路几分钟就能到. 咱们什么时候去？", "pinyin": "Hǎo a! Zhōngguó Yínháng hěn jìn, zǒulù jǐ fēnzhōng jiù néng dào. Zánmen shénme shíhòu qù?", "vi": "Được! Ngân hàng Trung Quốc rất gần, đi bộ vài phút là đến. Chúng ta đi khi nào?"},
+      {"speaker": "王一雪", "zh": "今天下午？", "pinyin": "Jīntiān xiàwǔ?", "vi": "Chiều nay?"},
+      {"speaker": "刘明", "zh": "我下午要去医院，很晚才能回来。", "pinyin": "Wǒ xiàwǔ yào qù yīyuàn, hěn wǎn cáinéng huílái.", "vi": "Chiều nay anh phải đi bệnh viện, tối muộn mới về được."},
+      {"speaker": "王一雪", "zh": "那我下午自己去吧。", "pinyin": "Nà wǒ xiàwǔ zìjǐ qù ba.", "vi": "Thế em tự đi chiều nay vậy."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 4, "text_number": 1, "type": "dialogue",
+    "scene_zh": "这家宾馆跟别的都不一样 (1)", "scene_vi": "Khách sạn này không giống những nơi khác (1)",
+    "audio_ref": "3-4-1",
+    "content": [
+      {"speaker": "杨同乐", "zh": "这个假期咱们去哪儿玩玩吧。", "pinyin": "Zhège jiàqī zánmen qù nǎr wánwan ba.", "vi": "Kỳ nghỉ này chúng ta đi đâu chơi nhỉ."},
+      {"speaker": "王一飞", "zh": "好啊，你想去哪儿，咱们就去哪儿。", "pinyin": "Hǎo a, nǐ xiǎng qù nǎr, zánmen jiù qù nǎr.", "vi": "Được, em muốn đi đâu thì chúng ta đi đấy."},
+      {"speaker": "杨同乐", "zh": "你喜欢海，找个海边住几天，怎么样？", "pinyin": "Nǐ xǐhuan hǎi, zhǎo ge hǎibiān zhù jǐ tiān, zěnme yàng?", "vi": "Em thích biển, tìm một chỗ ven biển ở mấy ngày thế nào?"},
+      {"speaker": "王一飞", "zh": "现在去海边有点儿冷。", "pinyin": "Xiànzài qù hǎibiān yǒudiǎnr lěng.", "vi": "Bây giờ đi biển hơi lạnh."},
+      {"speaker": "杨同乐", "zh": "那去草原吧？草原一点儿也不冷。", "pinyin": "Nà qù cǎoyuán ba? Cǎoyuán yīdiǎnr yě bù lěng.", "vi": "Thế đi đồng cỏ nhé? Đồng cỏ không lạnh chút nào."},
+      {"speaker": "王一飞", "zh": "这个主意好！我好久没骑马了。", "pinyin": "Zhège zhǔyi hǎo! Wǒ hǎojiǔ méi qí mǎ le.", "vi": "Ý kiến hay đấy! Lâu rồi em chưa cưỡi ngựa."},
+      {"speaker": "杨同乐", "zh": "对，在草原上骑马、吃羊肉、看月亮，一定很有意思。", "pinyin": "Duì, zài cǎoyuán shàng qí mǎ, chī yángròu, kàn yuèliang, yīdìng hěn yǒuyìsi.", "vi": "Đúng, trên đồng cỏ cưỡi ngựa, ăn thịt cừu, ngắm trăng, nhất định rất thú vị."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 4, "text_number": 2, "type": "dialogue",
+    "scene_zh": "这家宾馆跟别的都不一样 (2)", "scene_vi": "Khách sạn này không giống những nơi khác (2)",
+    "audio_ref": "3-4-2",
+    "content": [
+      {"speaker": "杨同乐", "zh": "出去玩的机票买好了吗？", "pinyin": "Chūqù wán de jīpiào mǎi hǎo le ma?", "vi": "Vé máy bay đi chơi đã mua xong chưa?"},
+      {"speaker": "王一飞", "zh": "买好了。星期六上午十点一刻起飞。", "pinyin": "Mǎi hǎo le. Xīngqīliù shàngwǔ shí diǎn yī kè qǐfēi.", "vi": "Mua xong rồi. Thứ Bảy, 10 giờ 15 phút sáng cất cánh."},
+      {"speaker": "杨同乐", "zh": "宾馆也选好了吗？", "pinyin": "Bīnguǎn yě xuǎn hǎo le ma?", "vi": "Khách sạn cũng chọn xong rồi chứ?"},
+      {"speaker": "王一飞", "zh": "是的，这家宾馆很特别，跟别的都不一样，一出门就能看见牛和羊！", "pinyin": "Shì de, zhè jiā bīnguǎn hěn tèbié, gēn biéde dōu bù yīyàng, yī chūmén jiù néng kànjiàn niú hé yáng!", "vi": "Vâng, khách sạn này rất đặc biệt, không giống với những nơi khác, vừa ra cửa đã thấy bò và cừu!"},
+      {"speaker": "杨同乐", "zh": "太好了！你看看要带什么东西？", "pinyin": "Tài hǎo le! Nǐ kànkan yào dài shénme dōngxi?", "vi": "Tuyệt quá! Em xem cần mang những gì?"},
+      {"speaker": "王一飞", "zh": "我们不用带太多东西，别忘了拿上新买的相机。", "pinyin": "Wǒmen bùyòng dài tài duō dōngxi, bié wàng le ná shàng xīn mǎi de xiàngjī.", "vi": "Chúng ta không cần mang nhiều đồ quá, đừng quên mang theo máy ảnh mới mua nhé."},
+      {"speaker": "杨同乐", "zh": "一定不会忘带的。我现在就去准备行李。", "pinyin": "Yīdìng bù huì wàng dài de. Wǒ xiànzài jiù qù zhǔnbèi xíngli.", "vi": "Nhất định sẽ không quên đâu. Anh đi chuẩn bị hành lý ngay đây."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 4, "text_number": 3, "type": "dialogue",
+    "scene_zh": "这家宾馆跟别的都不一样 (3)", "scene_vi": "Khách sạn này không giống những nơi khác (3)",
+    "audio_ref": "3-4-3",
+    "content": [
+      {"speaker": "小李", "zh": "欢迎你们！我是你们的司机，我姓李，叫我小李就可以。", "pinyin": "Huānyíng nǐmen! Wǒ shì nǐmen de sījī, wǒ xìng Lǐ, jiào wǒ Xiǎo Lǐ jiù kěyǐ.", "vi": "Chào mừng hai bạn! Tôi là tài xế của hai bạn, tôi họ Lý, gọi tôi là Tiểu Lý được rồi."},
+      {"speaker": "杨同乐", "zh": "您好！不好意思，飞机晚点了，让您久等了。", "pinyin": "Nín hǎo! Bù hǎoyìsi, fēijī wǎndiǎn le, ràng nín jiǔ děng le.", "vi": "Chào anh! Xin lỗi, máy bay bị chậm chuyến, để anh đợi lâu rồi."},
+      {"speaker": "小李", "zh": "没关系。除了这个行李箱以外，还有别的东西吗？", "pinyin": "Méi guānxi. Chúle zhège xínglǐxiāng yǐwài, hái yǒu biéde dōngxi ma?", "vi": "Không sao. Ngoài vali này ra, còn đồ gì khác không ạ?"},
+      {"speaker": "杨同乐", "zh": "还有一个包，我自己拿就可以。", "pinyin": "Hái yǒu yī gè bāo, wǒ zìjǐ ná jiù kěyǐ.", "vi": "Còn một cái túi, tôi tự cầm được."},
+      {"speaker": "小李", "zh": "车在一层，请跟我来。", "pinyin": "Chē zài yī céng, qǐng gēn wǒ lái.", "vi": "Xe ở tầng một, mời theo tôi."},
+      {"speaker": "王一飞", "zh": "我们住的宾馆离机场远吗？", "pinyin": "Wǒmen zhù de bīnguǎn lí jīchǎng yuǎn ma?", "vi": "Khách sạn chúng ta ở xa sân bay không ạ?"},
+      {"speaker": "小李", "zh": "不远，三十分钟就能到。两位到了可以先休息休息，晚饭的时候我叫你们。", "pinyin": "Bù yuǎn, sānshí fēnzhōng jiù néng dào. Liǎng wèi dào le kěyǐ xiān xiūxi xiūxi, wǎnfàn de shíhòu wǒ jiào nǐmen.", "vi": "Không xa, ba mươi phút là đến. Hai bạn đến nơi có thể nghỉ ngơi trước, lúc ăn tối tôi sẽ gọi."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 5, "text_number": 1, "type": "dialogue",
+    "scene_zh": "这样的照片才好看 (1)", "scene_vi": "Ảnh như thế này mới đẹp (1)",
+    "audio_ref": "3-5-1",
+    "content": [
+      {"speaker": "白家月", "zh": "这个星期总是阴天，今天终于晴了。", "pinyin": "Zhège xīngqī zǒngshì yīntiān, jīntiān zhōngyú qíng le.", "vi": "Tuần này lúc nào cũng âm u, hôm nay cuối cùng cũng quang mây rồi."},
+      {"speaker": "李文", "zh": "现在天气好得很！我们去爬山怎么样？", "pinyin": "Xiànzài tiānqì hǎo de hěn! Wǒmen qù páshān zěnme yàng?", "vi": "Thời tiết bây giờ đẹp lắm! Chúng ta đi leo núi thế nào?"},
+      {"speaker": "白家月", "zh": "好啊！又能锻炼身体，又能照好看的照片。", "pinyin": "Hǎo a! Yòu néng duànliàn shēntǐ, yòu néng zhào hǎokàn de zhàopiàn.", "vi": "Hay quá! Vừa có thể rèn luyện sức khỏe, vừa có thể chụp ảnh đẹp."},
+      {"speaker": "李文", "zh": "那我带点儿水和吃的，咱们现在就去？", "pinyin": "Nà wǒ dài diǎnr shuǐ hé chī de, zánmen xiànzài jiù qù?", "vi": "Thế tôi mang ít nước và đồ ăn, chúng ta đi bây giờ nhé?"},
+      {"speaker": "白家月", "zh": "我回去穿上运动鞋，拿上大衣。要不要叫一雪姐一起去？", "pinyin": "Wǒ huíqù chuān shàng yùndòng xié, ná shàng dàyī. Yào bu yào jiào Yīxuě jiě yīqǐ qù?", "vi": "Em về nhà đi giày thể thao, cầm áo khoác. Có nên gọi chị Tuyết đi cùng không?"},
+      {"speaker": "李文", "zh": "好主意。给她打个电话吧。", "pinyin": "Hǎo zhǔyi. Gěi tā dǎ ge diànhuà ba.", "vi": "Ý kiến hay đấy. Gọi điện cho chị ấy đi."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 5, "text_number": 2, "type": "dialogue",
+    "scene_zh": "这样的照片才好看 (2)", "scene_vi": "Ảnh như thế này mới đẹp (2)",
+    "audio_ref": "3-5-2",
+    "content": [
+      {"speaker": "白家月", "zh": "这些照片是谁给您照的？张张都非常好看。", "pinyin": "Zhèxiē zhàopiàn shì shéi gěi nín zhào de? Zhāng zhāng dōu fēicháng hǎokàn.", "vi": "Những bức ảnh này ai chụp cho chị vậy? Tấm nào cũng rất đẹp."},
+      {"speaker": "王一雪", "zh": "一飞. 她对拍照一直很感兴趣，经常给我照相。", "pinyin": "Yīfēi. Tā duì pāizhào yīzhí hěn gǎn xìngqù, jīngcháng gěi wǒ zhàoxiàng.", "vi": "Nhất Phi đấy. Em ấy luôn rất thích chụp ảnh, thường xuyên chụp cho chị."},
+      {"speaker": "白家月", "zh": "我喜欢您大笑的这张，看起来很漂亮。", "pinyin": "Wǒ xǐhuan nín dàxiào de zhè zhāng, kàn qǐlái hěn piàoliang.", "vi": "Em thích bức này chị cười to, trông rất đẹp."},
+      {"speaker": "王一雪", "zh": "我觉得这张有点儿难看，那时候我不知道她在给我照相。", "pinyin": "Wǒ juéde zhè zhāng yǒudiǎnr nánkàn, nà shíhòu wǒ bù zhīdào tā zài gěi wǒ zhàoxiàng.", "vi": "Chị thấy bức này hơi xấu, lúc đó chị không biết em ấy đang chụp mình."},
+      {"speaker": "白家月", "zh": "这样的照片才好看。我也喜欢拍照，爬山的时候我给您照几张照片吧。", "pinyin": "Zhèyàng de zhàopiàn cái hǎokàn. Wǒ yě xǐhuan pāizhào, páshān de shíhòu wǒ gěi nín zhào jǐ zhāng zhàopiàn ba.", "vi": "Ảnh như thế này mới đẹp. Em cũng thích chụp ảnh, lúc leo núi em chụp cho chị mấy tấm nhé."},
+      {"speaker": "王一雪", "zh": "好，我可以比较一下你们两个谁的水平高。", "pinyin": "Hǎo, wǒ kěyǐ bǐjiào yīxià nǐmen liǎng ge shéi de shuǐpíng gāo.", "vi": "Được, chị có thể so sánh xem hai đứa ai trình độ cao hơn."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 5, "text_number": 3, "type": "dialogue",
+    "scene_zh": "这样的照片才好看 (3)", "scene_vi": "Ảnh như thế này mới đẹp (3)",
+    "audio_ref": "3-5-3",
+    "content": [
+      {"speaker": "王一雪", "zh": "家月，这里挺漂亮的，咱们在这里拍照吧。", "pinyin": "Jiāyuè, zhèlǐ tǐng piàoliang de, zánmen zài zhèlǐ pāizhào ba.", "vi": "Gia Nguyệt, chỗ này khá đẹp, chúng ta chụp ảnh ở đây nhé."},
+      {"speaker": "白家月", "zh": "这边没有太阳，咱们去那边吧。", "pinyin": "Zhè biān méiyǒu tàiyáng, zánmen qù nà biān ba.", "vi": "Bên này không có nắng, chúng ta sang bên kia đi."},
+      {"speaker": "王一雪", "zh": "好。你觉得我站在这些树中间怎么样？", "pinyin": "Hǎo. Nǐ juéde wǒ zhàn zài zhèxiē shù zhōngjiān zěnme yàng?", "vi": "Được. Em thấy chị đứng giữa những cây này thế nào?"},
+      {"speaker": "白家月", "zh": "挺好的。等一下，后边走过去两个人。", "pinyin": "Tǐng hǎo de. Děng yīxià, hòubiān zǒu guòqù liǎng ge rén.", "vi": "Cũng đẹp. Khoan đã, phía sau có hai người đi qua."},
+      {"speaker": "王一雪", "zh": "我准备好了，你照的时候告诉我。", "pinyin": "Wǒ zhǔnbèi hǎo le, nǐ zhào de shíhòu gàosu wǒ.", "vi": "Chị chuẩn bị xong rồi, lúc chụp thì bảo chị nhé."},
+      {"speaker": "白家月", "zh": "你不用看着我，想干什么都可以。", "pinyin": "Nǐ bùyòng kàn zhe wǒ, xiǎng gàn shénme dōu kěyǐ.", "vi": "Chị không cần nhìn em đâu, muốn làm gì thì làm."},
+      {"speaker": "王一雪", "zh": "树上飞来了几只鸟，我就看它们吧。", "pinyin": "Shù shàng fēi lái le jǐ zhī niǎo, wǒ jiù kàn tāmen ba.", "vi": "Trên cây bay đến mấy con chim, chị nhìn chúng vậy."},
+      {"speaker": "白家月", "zh": "啊，手机没电了。", "pinyin": "A, shǒujī méi diàn le.", "vi": "A, điện thoại hết pin rồi."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 6, "text_number": 1, "type": "dialogue",
+    "scene_zh": "高铁上还可以点外卖 (1)", "scene_vi": "Trên tàu cao tốc cũng có thể gọi đồ ăn giao tới (1)",
+    "audio_ref": "3-6-1",
+    "content": [
+      {"speaker": "李文", "zh": "家月，咱们该买去上海的票了。你打算怎么去上海？", "pinyin": "Jiāyuè, zánmen gāi mǎi qù Shànghǎi de piào le. Nǐ dǎsuàn zěnme qù Shànghǎi?", "vi": "Gia Nguyệt, chúng ta nên mua vé đi Thượng Hải rồi. Em định đi Thượng Hải bằng gì?"},
+      {"speaker": "白家月", "zh": "我还没坐过高铁，咱们坐高铁去，怎么样？", "pinyin": "Wǒ hái méi zuò guò gāotiě, zánmen zuò gāotiě qù, zěnme yàng?", "vi": "Em chưa đi tàu cao tốc bao giờ, chúng ta đi tàu cao tốc nhé?"},
+      {"speaker": "李文", "zh": "没问题，从北京到上海的高铁很多，非常方便。", "pinyin": "Méi wèntí, cóng Běijīng dào Shànghǎi de gāotiě hěnduō, fēicháng fāngbiàn.", "vi": "Không vấn đề, tàu cao tốc từ Bắc Kinh đến Thượng Hải rất nhiều, rất tiện."},
+      {"speaker": "白家月", "zh": "行！怎么买高铁票？", "pinyin": "Xíng! Zěnme mǎi gāotiě piào?", "vi": "Được! Mua vé tàu cao tốc thế nào?"},
+      {"speaker": "李文", "zh": "用手机App就能买。给我你的护照，我帮你买。", "pinyin": "Yòng shǒujī App jiù néng mǎi. Gěi wǒ nǐ de hùzhào, wǒ bāng nǐ mǎi.", "vi": "Dùng App trên điện thoại là mua được. Đưa anh hộ chiếu của em, anh mua giúp cho."},
+      {"speaker": "白家月", "zh": "早就听说过高铁，终于可以坐上了。", "pinyin": "Zǎo jiù tīngshuō guò gāotiě, zhōngyú kěyǐ zuò shàng le.", "vi": "Nghe nói về tàu cao tốc từ lâu rồi, cuối cùng cũng được đi."},
+      {"speaker": "李文", "zh": "高铁又快又舒服，你一定会喜欢的。", "pinyin": "Gāotiě yòu kuài yòu shūfu, nǐ yīdìng huì xǐhuan de.", "vi": "Tàu cao tốc vừa nhanh vừa thoải mái, em nhất định sẽ thích."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 6, "text_number": 2, "type": "dialogue",
+    "scene_zh": "高铁上还可以点外卖 (2)", "scene_vi": "Trên tàu cao tốc cũng có thể gọi đồ ăn giao tới (2)",
+    "audio_ref": "3-6-2",
+    "content": [
+      {"speaker": "刘明", "zh": "过了前面的路口就到高铁站了。", "pinyin": "Guò le qiánmiàn de lùkǒu jiù dào gāotiě zhàn le.", "vi": "Qua ngã tư phía trước là đến ga tàu cao tốc rồi."},
+      {"speaker": "白家月", "zh": "我看见了。马上就到了，这条路车很多，您小心点儿。", "pinyin": "Wǒ kànjiàn le. Mǎshàng jiù dào le, zhè tiáo lù chē hěnduō, nín xiǎoxīn diǎnr.", "vi": "Em thấy rồi. Sắp đến rồi, đường này xe đông, chú cẩn thận nhé."},
+      {"speaker": "刘明", "zh": "好，你们还有一个小时，应该不会迟到的。", "pinyin": "Hǎo, nǐmen hái yǒu yī ge xiǎoshí, yīnggāi bù huì chídào de.", "vi": "Được, hai đứa còn một tiếng nữa, chắc sẽ không muộn đâu."},
+      {"speaker": "李文", "zh": "我发现这条路车多，红绿灯也多。", "pinyin": "Wǒ fāxiàn zhè tiáo lù chē duō, hónglǜdēng yě duō.", "vi": "Anh thấy đường này xe đông, đèn xanh đèn đỏ cũng nhiều."},
+      {"speaker": "刘明", "zh": "是啊，这条路我走过一次，后来再也不走了。", "pinyin": "Shì a, zhè tiáo lù wǒ zǒu guò yī cì, hòulái zài yě bù zǒu le.", "vi": "Ừ, đường này chú đi một lần rồi, sau đó không bao giờ đi nữa."},
+      {"speaker": "白家月", "zh": "那您今天为什么走了这条路？", "pinyin": "Nà nín jīntiān wèishénme zǒu le zhè tiáo lù?", "vi": "Thế sao hôm nay chú lại đi đường này?"},
+      {"speaker": "刘明", "zh": "我一急就走错了。如果没走错，二十分钟以前就到了。", "pinyin": "Wǒ yī jí jiù zǒu cuò le. Rúguǒ méi zǒu cuò, èrshí fēnzhōng yǐqián jiù dào le.", "vi": "Chú nhất thời vội nên đi nhầm. Nếu không đi nhầm thì hai mươi phút trước đã đến rồi."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 6, "text_number": 3, "type": "dialogue",
+    "scene_zh": "高铁上还可以点外卖 (3)", "scene_vi": "Trên tàu cao tốc cũng có thể gọi đồ ăn giao tới (3)",
+    "audio_ref": "3-6-3",
+    "content": [
+      {"speaker": "白家月", "zh": "李文，我的耳机没电了，你有充电宝吗？", "pinyin": "Lǐ Wén, wǒ de ěrjī méi diàn le, nǐ yǒu chōngdiàn bǎo ma?", "vi": "Lý Văn, tai nghe của em hết pin rồi, anh có sạc dự phòng không?"},
+      {"speaker": "李文", "zh": "有，这些常用的东西我都放在包里了，我给你拿。", "pinyin": "Yǒu, zhèxiē chángyòng de dōngxi wǒ dōu fàng zài bāo lǐ le, wǒ gěi nǐ ná.", "vi": "Có, mấy thứ thường dùng này anh đều để trong túi rồi, anh lấy cho em."},
+      {"speaker": "白家月", "zh": "前面的人越来越多。", "pinyin": "Qiánmiàn de rén yuè lái yuè duō.", "vi": "Người phía trước càng lúc càng đông."},
+      {"speaker": "李文", "zh": "对，马上就进高铁站了。咱们一起走，别分开。", "pinyin": "Duì, mǎshàng jiù jìn gāotiě zhàn le. Zánmen yīqǐ zǒu, bié fēnkāi.", "vi": "Ừ, sắp vào ga tàu cao tốc rồi. Chúng ta đi cùng nhau, đừng tách ra."},
+      {"speaker": "白家月", "zh": "好，你检查一下，高铁票都拿好了吗？", "pinyin": "Hǎo, nǐ jiǎnchá yīxià, gāotiě piào dōu ná hǎo le ma?", "vi": "Được, anh kiểm tra xem, đã cầm đủ vé tàu cao tốc chưa?"},
+      {"speaker": "李文", "zh": "不用拿票，刷护照就能检票进站。", "pinyin": "Bùyòng ná piào, shuā hùzhào jiù néng jiǎnpiào jìn zhàn.", "vi": "Không cần cầm vé, quẹt hộ chiếu là có thể soát vé vào ga."},
+      {"speaker": "白家月", "zh": "去哪里检票？", "pinyin": "Qù nǎlǐ jiǎnpiào?", "vi": "Soát vé ở đâu?"},
+      {"speaker": "李文", "zh": "检票口在二层，我们一会儿坐电梯上去。", "pinyin": "Jiǎnpiàokǒu zài èr céng, wǒmen yīhuìr zuò diàntī shàngqù.", "vi": "Cửa soát vé ở tầng hai, lát nữa chúng ta đi thang máy lên."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 7, "text_number": 1, "type": "dialogue",
+    "scene_zh": "那条裙子比短裤更好看 (1)", "scene_vi": "Chiếc váy kia đẹp hơn quần short (1)",
+    "audio_ref": "3-7-1",
+    "content": [
+      {"speaker": "王一雪", "zh": "这辆自行车是小雪八岁的时候买的，看起来有点儿旧了。", "pinyin": "Zhè liàng zìxíngchē shì Xiǎoxuě bā suì de shíhòu mǎi de, kàn qǐlái yǒudiǎnr jiù le.", "vi": "Chiếc xe đạp này mua lúc Tiểu Tuyết lên tám, trông hơi cũ rồi."},
+      {"speaker": "刘明", "zh": "是啊， tā xiànzài zhǎng gāo le, zhè liàng chē yǐjīng tài ǎi le.", "pinyin": "Shì a, tā xiànzài zhǎng gāo le, zhè liàng chē yǐjīng tài ǎi le.", "vi": "Ừ, bây giờ con đã cao lên, chiếc xe này quá thấp rồi."},
+      {"speaker": "王一雪", "zh": "商场里开了一家自行车店，咱们给她买辆新的吧。", "pinyin": "Shāngchǎng lǐ kāi le yī jiā zìxíngchē diàn, zánmen gěi tā mǎi liàng xīn de ba.", "vi": "Trong trung tâm thương mại mở một cửa hàng xe đạp, chúng ta mua cho con một chiếc mới nhé."},
+      {"speaker": "刘明", "zh": "好，咱们带小雪一起去，让她试一下。", "pinyin": "Hǎo, zánmen dài Xiǎoxuě yīqǐ qù, ràng tā shì yīxià.", "vi": "Được, chúng ta dắt Tiểu Tuyết đi cùng, để con thử một chút."},
+      {"speaker": "王一雪", "zh": "那今天就去吧！我也想再看看衣服. 咱们怎么去？", "pinyin": "Nà jīntiān jiù qù ba! Wǒ yě xiǎng zài kànkan yīfu. Zánmen zěnme qù?", "vi": "Thế hôm nay đi luôn nhé! Em cũng muốn xem lại quần áo. Chúng ta đi bằng gì?"},
+      {"speaker": "刘明", "zh": "商场不远，咱们可以走着去。", "pinyin": "Shāngchǎng bù yuǎn, zánmen kěyǐ zǒu zhe qù.", "vi": "Trung tâm thương mại không xa, chúng ta có thể đi bộ."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 7, "text_number": 2, "type": "dialogue",
+    "scene_zh": "那条裙子比短裤更好看 (2)", "scene_vi": "Chiếc váy kia đẹp hơn quần short (2)",
+    "audio_ref": "3-7-2",
+    "content": [
+      {"speaker": "王一雪", "zh": "你看我穿这条黄色的短裤好看吗？", "pinyin": "Nǐ kàn wǒ chuān zhè tiáo huángsè de duǎnkù hǎokàn ma?", "vi": "Anh xem em mặc chiếc quần short màu vàng này có đẹp không?"},
+      {"speaker": "刘明", "zh": "大小合适，但我觉得那条裙子比短裤更好看。", "pinyin": "Dàxiǎo héshì, dàn wǒ juéde nà tiáo qúnzi bǐ duǎnkù gèng hǎokàn.", "vi": "Kích thước vừa, nhưng anh thấy chiếc váy kia đẹp hơn quần short."},
+      {"speaker": "王一雪", "zh": "裙子比短裤贵一点儿。", "pinyin": "Qúnzi bǐ duǎnkù guì yīdiǎnr.", "vi": "Váy đắt hơn quần short một chút."},
+      {"speaker": "刘明", "zh": "贵多少？", "pinyin": "Guì duōshao?", "vi": "Đắt bao nhiêu?"},
+      {"speaker": "王一雪", "zh": "裙子480，短裤400。", "pinyin": "Qúnzi 480, duǎnkù 400.", "vi": "Váy 480, quần short 400."},
+      {"speaker": "刘明", "zh": "裙子不比短裤贵多少，还是买裙子吧，你穿裙子更好看。", "pinyin": "Qúnzi bù bǐ duǎnkù guì duōshao, háishì mǎi qúnzi ba, nǐ chuān qúnzi gèng hǎokàn.", "vi": "Váy chẳng đắt hơn quần short là bao, vẫn mua váy đi, em mặc váy đẹp hơn."},
+      {"speaker": "王一雪", "zh": "我多看看再决定. 你看, 那边有买二送一!", "pinyin": "Wǒ duō kànkan zài juédìng. Nǐ kàn, nà biān yǒu mǎi èr sòng yī!", "vi": "Em xem thêm đã rồi quyết định. Anh xem, bên kia có mua hai tặng một kìa!"}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 7, "text_number": 3, "type": "dialogue",
+    "scene_zh": "那条裙子比短裤更好看 (3)", "scene_vi": "Chiếc váy kia đẹp hơn quần short (3)",
+    "audio_ref": "3-7-3",
+    "content": [
+      {"speaker": "店员", "zh": "这些西瓜又大又新鲜，不甜不要钱！", "pinyin": "Zhèxiē xīguā yòu dà yòu xīnxiān, bù tián bù yào qián!", "vi": "Những quả dưa hấu này vừa to vừa tươi, không ngọt không lấy tiền!"},
+      {"speaker": "王一雪", "zh": "西瓜看着不错，怎么卖？", "pinyin": "Xīguā kàn zhe bùcuò, zěnme mài?", "vi": "Dưa hấu trông được đấy, bán thế nào?"},
+      {"speaker": "店员", "zh": "五块钱一公斤。来，尝尝这块冰西瓜，甜极了！", "pinyin": "Wǔ kuài qián yī gongjīn. Lái, chángchang zhè kuài bīng xīguā, tián jí le!", "vi": "Năm tệ một cân. Nào, nếm thử miếng dưa hấu đá này đi, ngọt lắm!"},
+      {"speaker": "王一雪", "zh": "是挺甜的！麻烦您帮我挑一个大点儿的，我再拿两斤香蕉。", "pinyin": "Shì tǐng tián de! Máfan nín bāng wǒ tiāo yī gè dà diǎnr de, wǒ zài ná liǎng jīn xiāngjiāo.", "vi": "Đúng là khá ngọt! Phiền chú giúp tôi chọn một quả to hơn một chút, tôi lấy thêm hai cân chuối nữa."},
+      {"speaker": "店员", "zh": "一共五十八块五毛。", "pinyin": "Yīgòng wǔshí bā kuài wǔ máo.", "vi": "Tổng cộng 58 đồng rưỡi ạ."},
+      {"speaker": "王一雪", "zh": "买这么多，您再便宜一点儿吧。", "pinyin": "Mǎi zhème duō, nín zài piányi yīdiǎnr ba.", "vi": "Mua nhiều thế này, chú rẻ thêm một chút nhỉ."},
+      {"speaker": "店员", "zh": "那就五十五吧，不能再便宜了。", "pinyin": "Nà jiù wǔshí wǔ ba, bù néng zài piányi le.", "vi": "Thế thì 55 nhé, không thể rẻ hơn được nữa."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 8, "text_number": 1, "type": "dialogue",
+    "scene_zh": "今天我出院了 (1)", "scene_vi": "Hôm nay tôi ra viện rồi (1)",
+    "audio_ref": "3-8-1",
+    "content": [
+      {"speaker": "李文", "zh": "天中，最近常看见你来体育馆。", "pinyin": "Tiānzhōng, zuìjìn cháng kànjiàn nǐ lái tǐyùguǎn.", "vi": "Thiên Trung, dạo này thường thấy cậu đến nhà thi đấu."},
+      {"speaker": "陈天中", "zh": "我每天下午都来跑一个小时步。", "pinyin": "Wǒ měitiān xiàwǔ dōu lái pǎo yī ge xiǎoshí bù.", "vi": "Tôi chiều nào cũng đến chạy bộ một tiếng."},
+      {"speaker": "李文", "zh": "你的运动习惯真不错。", "pinyin": "Nǐ de yùndòng xíguàn zhēn bùcuò.", "vi": "Thói quen thể thao của cậu tốt đấy."},
+      {"speaker": "陈天中", "zh": "因为我今年胖了十多斤，不能再胖下去了，有点儿不健康。", "pinyin": "Yīnwèi wǒ jīnnián pàng le shí duō jīn, bù néng zài pàng xiàqù le, yǒudiǎnr bù jiànkāng.", "vi": "Vì năm nay tôi béo lên hơn chục cân, không thể béo thêm được nữa, hơi không khỏe mạnh."},
+      {"speaker": "李文", "zh": "我下课以后常去打羽毛球，你也来玩吧。", "pinyin": "Wǒ xiàkè yǐhòu cháng qù dǎ yǔmáoqiú, nǐ yě lái wán ba.", "vi": "Tan học tôi thường đi đánh cầu lông, cậu cũng đến chơi đi."},
+      {"speaker": "陈天中", "zh": "我知道，但是你们的水平太高了，我打得不怎么样。", "pinyin": "Wǒ zhīdào, dànshì nǐmen de shuǐpíng tài gāo le, wǒ dǎ de bù zěnmeyàng.", "vi": "Tôi biết, nhưng trình độ của các cậu quá cao, tôi đánh chẳng ra gì."},
+      {"speaker": "李文", "zh": "没关系，我可以教你。", "pinyin": "Méi guānxi, wǒ kěyǐ jiāo nǐ.", "vi": "Không sao, tôi có thể dạy cậu."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 8, "text_number": 2, "type": "dialogue",
+    "scene_zh": "今天我出院了 (2)", "scene_vi": "Hôm nay tôi ra viện rồi (2)",
+    "audio_ref": "3-8-2",
+    "content": [
+      {"speaker": "安妮", "zh": "你怎么了？看上去有点儿不舒服。", "pinyin": "Nǐ zěnme le? Kàn shàngqù yǒudiǎnr bù shūfu.", "vi": "Cậu sao thế? Trông có vẻ hơi không khỏe."},
+      {"speaker": "陈天中", "zh": "昨天游完泳以后，耳朵一直有点儿疼。", "pinyin": "Zuótiān yóu wán yǒng yǐhòu, ěrduo yīzhí yǒudiǎnr téng.", "vi": "Hôm qua sau khi bơi xong, tai cứ hơi đau."},
+      {"speaker": "安妮", "zh": "是不是感冒了？发烧吗？", "pinyin": "Shì bù shì gǎnmào le? Fāshāo ma?", "vi": "Có phải bị cảm không? Sốt không?"},
+      {"speaker": "陈天中", "zh": "好像发低烧了。", "pinyin": "Hǎoxiàng fā dī shāo le.", "vi": "Hình như sốt nhẹ."},
+      {"speaker": "安妮", "zh": "我送你去医院，让医生检查一下吧。", "pinyin": "Wǒ sòng nǐ qù yīyuàn, ráng yīshēng jiǎnchá yīxià ba.", "vi": "Tôi đưa cậu đến bệnh viện, để bác sĩ kiểm tra một chút nhé."},
+      {"speaker": "陈天中", "zh": "我先回去睡一觉，可能休息休息就好了。", "pinyin": "Wǒ xiān huíqù shuì yī jiào, kěnéng xiūxi xiūxi jiù hǎo le.", "vi": "Tôi về ngủ một giấc đã, có thể nghỉ ngơi một chút sẽ khỏi."},
+      {"speaker": "安妮", "zh": "好吧，如果下午还发烧，就一定要去看医生。", "pinyin": "Hǎo ba, rúguǒ xiàwǔ hái fāshāo, jiù yīdìng yào qù kàn yīshēng.", "vi": "Thôi được, nếu chiều vẫn sốt thì nhất định phải đi khám bác sĩ đấy."},
+      {"speaker": "陈天中", "zh": "谢谢关心，我会注意的。", "pinyin": "Xièxie guānxīn, wǒ huì zhùyì de.", "vi": "Cảm ơn cậu đã quan tâm, tôi sẽ chú ý."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 8, "text_number": 3, "type": "dialogue",
+    "scene_zh": "今天我出院了 (3)", "scene_vi": "Hôm nay tôi ra viện rồi (3)",
+    "audio_ref": "3-8-3",
+    "content": [
+      {"speaker": "安妮", "zh": "你怎么突然住院了？大家都很担心你。", "pinyin": "Nǐ zěnme túrán zhùyuàn le? Dàjiā dōu hěn dānxīn nǐ.", "vi": "Sao cậu đột nhiên phải nhập viện thế? Mọi người đều rất lo cho cậu."},
+      {"speaker": "陈天中", "zh": "我的腿疼了几个星期了，医生说需要住院做检查。", "pinyin": "Wǒ de tuǐ téng le jǐ ge xīngqī le, yīshēng shuō xūyào zhùyuàn zuò jiǎnchá.", "vi": "Chân tôi đau mấy tuần rồi, bác sĩ nói cần nhập viện làm kiểm tra."},
+      {"speaker": "安妮", "zh": "你看起来一点儿也不像病人。", "pinyin": "Nǐ kàn qǐlái yīdiǎnr yě bù xiàng bìngrén.", "vi": "Cậu trông chẳng giống bệnh nhân chút nào."},
+      {"speaker": "陈天中", "zh": "是啊，我很少生病. 我上次来医院已经过去差不多两年了。", "pinyin": "Shì a, wǒ hěn shǎo shēngbìng. Wǒ shàng cì lái yīyuàn yǐjīng guòqù chàbuduō liǎng nián le.", "vi": "Ừ, tôi ít khi ốm lắm. Lần trước tôi đến bệnh viện cũng đã gần hai năm rồi."},
+      {"speaker": "安妮", "zh": "你每天跑步，有时候还去游泳，是不是运动太多了？", "pinyin": "Nǐ měitiān pǎobù, yǒu shíhòu hái qù yóuyǒng, shì bù shì yùndòng tài duō le?", "vi": "Cậu chạy bộ hàng ngày, thỉnh thoảng còn đi bơi, có phải vận động nhiều quá không?"},
+      {"speaker": "陈天中", "zh": "医生也这么说，但是还得做完检查才能知道。", "pinyin": "Yīshēng yě zhème shuō, dànshì hái děi zuò wán jiǎnchá cáinéng zhīdào.", "vi": "Bác sĩ cũng nói thế, nhưng vẫn phải làm xong kiểm tra mới biết được."},
+      {"speaker": "安妮", "zh": "别担心！听医生的话，好好休息，你的腿一定能好。", "pinyin": "Bié dānxīn! Tīng yīshēng de huà, hǎohǎo xiūxi, nǐ de tuǐ yīdìng néng hǎo.", "vi": "Đừng lo! Nghe lời bác sĩ, nghỉ ngơi tử tế, chân của cậu nhất định sẽ khỏi."},
+      {"speaker": "陈天中", "zh": "谢谢. 有人来看我，我就开心多了。", "pinyin": "Xièxie. Yǒurén lái kàn wǒ, wǒ jiù kāixīn duō le.", "vi": "Cảm ơn. Có người đến thăm, tôi vui hẳn lên."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 9, "text_number": 1, "type": "dialogue",
+    "scene_zh": "打不好没关系 (1)", "scene_vi": "Đánh không tốt cũng không sao (1)",
+    "audio_ref": "3-9-1",
+    "content": [
+      {"speaker": "李文", "zh": "家月，对不起，我昨天忘了还你校园卡了。", "pinyin": "Jiāyuè, duìbuqǐ, wǒ zuótiān wàng le hái nǐ xiàoyuán kǎ le.", "vi": "Gia Nguyệt, xin lỗi, hôm qua anh quên trả em thẻ trường rồi."},
+      {"speaker": "白家月", "zh": "没关系. 你怎么这么快就过来了？", "pinyin": "Méi guānxi. Nǐ zěnme zhème kuài jiù guòlái le?", "vi": "Không sao. Sao anh đến nhanh thế?"},
+      {"speaker": "李文", "zh": "我正在球场打球呢，接了你的电话就跑过来了。", "pinyin": "Wǒ zhèngzài qiúchǎng dǎqiú ne, jiē le nǐ de diànhuà jiù pǎo guòlái le.", "vi": "Anh đang đánh bóng ở sân, nhận điện thoại của em liền chạy sang đây."},
+      {"speaker": "白家月", "zh": "听说为了准备运动会，你们几个男生每天都练球。", "pinyin": "Tīngshuō wèile zhǔnbèi yùndònghuì, nǐmen jǐ ge nánshēng měitiān dōu liàn qiú.", "vi": "Nghe nói để chuẩn bị cho hội thao, mấy bạn nam ngày nào cũng luyện bóng."},
+      {"speaker": "李文", "zh": "是啊！你打算参加运动会吗？", "pinyin": "Shì a! Nǐ dǎsuàn cānjiā yùndònghuì ma?", "vi": "Ừ! Em định tham gia hội thao không?"},
+      {"speaker": "白家月", "zh": "我想参加网球比赛，最近一直在练习。", "pinyin": "Wǒ xiǎng cānjiā wǎngqiú bǐsài, zuìjìn yīzhí zài liànxí.", "vi": "Em muốn tham gia thi đấu tennis, dạo này vẫn đang luyện tập."},
+      {"speaker": "李文", "zh": "好，到时候我去看你的比赛。", "pinyin": "Hǎo, dào shíhòu wǒ qù kàn nǐ de bǐsài.", "vi": "Được, anh đến xem em thi đấu nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 9, "text_number": 2, "type": "dialogue",
+    "scene_zh": "打不好没关系 (2)", "scene_vi": "Đánh không tốt cũng không sao (2)",
+    "audio_ref": "3-9-2",
+    "content": [
+      {"speaker": "李文", "zh": "家月，你跟我们一起打羽毛球吧？", "pinyin": "Jiāyuè, nǐ gēn wǒmen yīqǐ dǎ yǔmáoqiú ba?", "vi": "Gia Nguyệt, em đánh cầu lông cùng chúng tôi nhé?"},
+      {"speaker": "白家月", "zh": "你们水平都太高了，我怕打不好。", "pinyin": "Nǐmen shuǐpíng dōu tài gāo le, wǒ pà dǎ bù hǎo.", "vi": "Trình độ các anh đều quá cao rồi, em sợ đánh không tốt."},
+      {"speaker": "李文", "zh": "不是比赛，打不好没关系。", "pinyin": "Bù shì bǐsài, dǎ bù hǎo méi guānxi.", "vi": "Không phải thi đấu, đánh không tốt cũng không sao."},
+      {"speaker": "白家月", "zh": "这么多同学一起打，如果总是接不住球，就太不好意思了。", "pinyin": "Zhème duō tóngxué yīqǐ dǎ, rúguǒ zǒngshì jiē bù zhù qiú, jiù tài bù hǎoyìsi le.", "vi": "Nhiều bạn cùng đánh, nếu lúc nào cũng không đỡ được cầu thì ngượng lắm."},
+      {"speaker": "李文", "zh": "你想得太多了！大家打球只是为了锻炼身体。", "pinyin": "Nǐ xiǎng de tài duō le! Dàjiā dǎqiú zhǐshì wèile duànliàn shēntǐ.", "vi": "Em nghĩ nhiều quá rồi! Mọi người đánh bóng chỉ để rèn luyện sức khỏe thôi."},
+      {"speaker": "白家月", "zh": "我先自己练练吧，下周再跟你们一起打。", "pinyin": "Wǒ xiān zìjǐ liànlian ba, xià zhōu zài gēn nǐmen yīqǐ dǎ.", "vi": "Để em tự luyện trước đã, tuần sau đánh cùng mọi người nhé."},
+      {"speaker": "李文", "zh": "我在教天中打羽毛球，你可以过来跟我们一起练。", "pinyin": "Wǒ zài jiāo Tiānzhōng dǎ yǔmáoqiú, nǐ kěyǐ guòlái gēn wǒmen yīqǐ liàn.", "vi": "Anh đang dạy Thiên Trung đánh cầu lông, em có thể sang luyện cùng chúng tôi."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 9, "text_number": 3, "type": "dialogue",
+    "scene_zh": "打不好没关系 (3)", "scene_vi": "Đánh không tốt cũng không sao (3)",
+    "audio_ref": "3-9-3",
+    "content": [
+      {"speaker": "李文", "zh": "足球比赛已经开始了，快过来看吧！", "pinyin": "Zúqiú bǐsài yǐjīng kāishǐ le, kuài guòlái kàn ba!", "vi": "Trận bóng đá bắt đầu rồi, nhanh sang xem đi!"},
+      {"speaker": "白家月", "zh": "你们先看，冰箱里有啤酒和饮料，我去拿一下。", "pinyin": "Nǐmen xiān kàn, bīngxiāng lǐ yǒu píjiǔ hé yǐnliào, wǒ qù ná yīxià.", "vi": "Các anh xem trước đi, trong tủ lạnh có bia và đồ uống, em đi lấy một lát."},
+      {"speaker": "陈天中", "zh": "今天怎么回事？总是踢不进去！", "pinyin": "Jīntiān zěnme huí shì? Zǒngshì tī bù jìnqù!", "vi": "Hôm nay thế nào ấy? Mãi không đá vào được!"},
+      {"speaker": "李文", "zh": "几个老球员生病了，新球员第一次参加这么重要的比赛，太紧张了。", "pinyin": "Jǐ ge lǎo qiúyuán shēngbìng le, xīn qiúyuán dì yī cì cānjiā zhème zhòngyào de bǐsài, tài jǐnzhāng le.", "vi": "Mấy cầu thủ cũ bị ốm, cầu thủ mới lần đầu tham gia trận quan trọng thế này, quá căng thẳng."},
+      {"speaker": "白家月", "zh": "是啊，主要的球员没参加比赛，所以大家也都受到影响了。", "pinyin": "Shì a, zhǔyào de qiúyuán méi cānjiā bǐsài, suǒyǐ dàjiā yě dōu shòudào yǐngxiǎng le.", "vi": "Ừ, các cầu thủ chính không tham gia, nên mọi người cũng bị ảnh hưởng."},
+      {"speaker": "陈天中", "zh": "越看越着急. 我不看了，你们告诉我得分吧。", "pinyin": "Yuè kàn yuè zhāojí. Wǒ bù kàn le, nǐmen gàosu wǒ défēn ba.", "vi": "Càng xem càng sốt ruột. Tôi không xem nữa, các cậu cho tôi biết tỉ số nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 10, "text_number": 1, "type": "dialogue",
+    "scene_zh": "你明天再把书还给我 (1)", "scene_vi": "Ngày mai bạn hẵng trả sách cho tôi (1)",
+    "audio_ref": "3-10-1",
+    "content": [
+      {"speaker": "同学", "zh": "你的数学越来越好，能不能介绍一下学习方法？", "pinyin": "Nǐ de shùxué yuè lái yuè hǎo, néng bù néng jièshào yīxià xuéxí fāngfǎ?", "vi": "Toán của cậu ngày càng tốt, có thể giới thiệu phương pháp học tập được không?"},
+      {"speaker": "刘小雪", "zh": "没有什么特别的方法，认真听课，认真记笔记。", "pinyin": "Méiyǒu shénme tèbié de fāngfǎ, rènzhēn tīngkè, rènzhēn jì bǐjì.", "vi": "Chẳng có phương pháp đặc biệt gì cả, chăm chỉ nghe giảng, chăm chỉ ghi chép thôi."},
+      {"speaker": "同学", "zh": "我看过你的笔记，记得非常清楚。", "pinyin": "Wǒ kàn guò nǐ de bǐjì, jì de fēicháng qīngchu.", "vi": "Tớ đã xem vở ghi của cậu, ghi rất rõ ràng."},
+      {"speaker": "刘小雪", "zh": "老师写在黑板上的题都很重要，所以我会把这些题都记在本子上。", "pinyin": "Lǎoshī xiě zài hēibǎn shàng de tí dōu hěn zhòngyào, suǒyǐ wǒ huì bǎ zhèxiē tí dōu jì zài běnzi shàng.", "vi": "Những bài cô viết trên bảng đều rất quan trọng, nên tớ sẽ ghi hết những bài đó vào vở."},
+      {"speaker": "同学", "zh": "你说得对. 我没有记笔记的习惯。", "pinyin": "Nǐ shuō de duì. Wǒ méiyǒu jì bǐjì de xíguàn.", "vi": "Cậu nói đúng. Tớ không có thói quen ghi chép."},
+      {"speaker": "刘小雪", "zh": "笔记挺重要的，我每天写作业以前，都要看一遍。", "pinyin": "Bǐjì tǐng zhòngyào de, wǒ měitiān xiě zuòyè yǐqián, dōu yào kàn yī biàn.", "vi": "Ghi chép khá quan trọng, ngày nào trước khi làm bài tập tớ cũng xem lại một lần."},
+      {"speaker": "同学", "zh": "这个方法真好！我以后也试试，希望能提高成绩。", "pinyin": "Zhège fāngfǎ zhēn hǎo! Wǒ yǐhòu yě shìshi, xīwàng néng tígāo chéngjì.", "vi": "Phương pháp này hay đấy! Sau tớ cũng thử xem, hy vọng có thể nâng cao thành tích."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 10, "text_number": 2, "type": "dialogue",
+    "scene_zh": "你明天再把书还给我 (2)", "scene_vi": "Ngày mai bạn hẵng trả sách cho tôi (2)",
+    "audio_ref": "3-10-2",
+    "content": [
+      {"speaker": "同学", "zh": "小雪，昨天的考试，你考得怎么样？", "pinyin": "Xiǎoxuě, zuótiān de kǎoshì, nǐ kǎo de zěnme yàng?", "vi": "Tiểu Tuyết, bài thi hôm qua cậu làm thế nào?"},
+      {"speaker": "刘小雪", "zh": "我觉得历史有点儿难，你呢？", "pinyin": "Wǒ juéde lìshǐ yǒudiǎnr nán, nǐ ne?", "vi": "Tớ thấy môn Lịch sử hơi khó, còn cậu?"},
+      {"speaker": "同学", "zh": "数学考试我没看清楚要求，做错了好几个题，考得挺差的。", "pinyin": "Shùxué kǎoshì wǒ méi kàn qīngchu yāoqiú, zuò cuò le hǎo jǐ ge tí, kǎo de tǐng chà de.", "vi": "Thi Toán tớ không đọc rõ yêu cầu, làm sai mất mấy bài, kết quả khá tệ."},
+      {"speaker": "刘小雪", "zh": "明天还有考试呢，别想那么多了，先复习外语吧。", "pinyin": "Míngtiān hái yǒu kǎoshì ne, bié xiǎng nàme duō le, xiān fùxí wàiyǔ ba.", "vi": "Ngày mai còn thi nữa, đừng nghĩ nhiều quá nữa, ôn ngoại ngữ trước đã."},
+      {"speaker": "同学", "zh": "外语作业里有几个问题，我可以问问你吗？", "pinyin": "Wàiyǔ zuòyè lǐ yǒu jǐ ge wèntí, wǒ kěyǐ wènwen nǐ ma?", "vi": "Trong bài tập ngoại ngữ có mấy vấn đề, tớ có thể hỏi cậu được không?"},
+      {"speaker": "刘小雪", "zh": "当然可以. 在学习上，遇到什么问题都可以问我。", "pinyin": "Dāngrán kěyǐ. Zài xuéxí shàng, yùdào shénme wèntí dōu kěyǐ wèn wǒ.", "vi": "Đương nhiên được. Trong học tập, gặp vấn đề gì cũng có thể hỏi tớ."},
+      {"speaker": "同学", "zh": "不好意思，这几个题我也不会。咱们还是一起去办公室问问李老师吧。", "pinyin": "Bù hǎoyìsi, zhè jǐ ge tí wǒ yě bù huì. Zánmen háishì yīqǐ qù bàngōngshì wènwen Lǐ lǎoshī ba.", "vi": "Ngại quá, mấy bài này tớ cũng không biết. Hay mình cùng lên phòng hỏi cô Lý nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 10, "text_number": 3, "type": "dialogue",
+    "scene_zh": "你明天再把书还给我 (3)", "scene_vi": "Ngày mai bạn hẵng trả sách cho tôi (3)",
+    "audio_ref": "3-10-3",
+    "content": [
+      {"speaker": "刘小雪", "zh": "李老师，书上有几个问题，我们想问问您。", "pinyin": "Lǐ lǎoshī, shū shàng yǒu jǐ ge wèntí, wǒmen xiǎng wènwen nín.", "vi": "Cô Lý, trên sách có mấy vấn đề, chúng em muốn hỏi cô ạ."},
+      {"speaker": "李老师", "zh": "好，坐下说吧，哪个题不会？", "pinyin": "Hǎo, zuòxià shuō ba, nǎge tí bù huì?", "vi": "Được, ngồi xuống nói đi, bài nào không biết?"},
+      {"speaker": "同学", "zh": "书上第五页的这个对话我看不懂，小雪也不明白。", "pinyin": "Shū shàng dì wǔ yè de zhège duìhuà wǒ kàn bù dǒng, Xiǎoxuě yě bù míngbai.", "vi": "Bài hội thoại ở trang năm sách này em đọc không hiểu, Tiểu Tuyết cũng không rõ ạ."},
+      {"speaker": "李老师", "zh": "我课上讲过这几句话，再给你们讲一遍。", "pinyin": "Wǒ kè shàng jiǎng guò zhè jǐ jù huà, zài gěi nǐmen jiǎng yī biàn.", "vi": "Cô đã giảng mấy câu này trên lớp rồi, cô giảng lại cho các em một lần nữa."},
+      {"speaker": "刘小雪", "zh": "我终于懂了. 这些句子一点儿也不难。", "pinyin": "Wǒ zhōngyú dǒng le. Zhèxiē jùzi yīdiǎnr yě bù nán.", "vi": "Cuối cùng em cũng hiểu rồi. Mấy câu này chẳng khó chút nào."},
+      {"speaker": "同学", "zh": "我也明白了，谢谢您，李老师。", "pinyin": "Wǒ yě míngbai le, xièxie nín, Lǐ lǎoshī.", "vi": "Em cũng hiểu rồi, cảm ơn cô Lý ạ."},
+      {"speaker": "李老师", "zh": "我这本书上还有几个练习，你们回家也做一做，明天再把书还给我。", "pinyin": "Wǒ zhè běn shū shàng hái yǒu jǐ ge liànxí, nǐmen huíjiā yě zuò yī zuò, míngtiān zài bǎ shū huán gěi wǒ.", "vi": "Trong quyển sách này của cô còn mấy bài tập nữa, các em về nhà cũng làm thử, ngày mai trả sách lại cho cô nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 11, "text_number": 1, "type": "dialogue",
+    "scene_zh": "看来我没办法解决这个问题 (1)", "scene_vi": "Xem ra tôi không có cách nào giải quyết vấn đề này (1)",
+    "audio_ref": "3-11-1",
+    "content": [
+      {"speaker": "王一雪", "zh": "会议下午几点开始？", "pinyin": "Huìyì xiàwǔ jǐ diǎn kāishǐ?", "vi": "Cuộc họp chiều mấy giờ bắt đầu?"},
+      {"speaker": "杨同乐", "zh": "今天下午经理不在，不开会了。", "pinyin": "Jīntiān xiàwǔ jīnglǐ bù zài, bù kāihuì le.", "vi": "Chiều nay giám đốc không có ở đây, không họp nữa."},
+      {"speaker": "王一雪", "zh": "那什么时候开会？", "pinyin": "Nà shénme shíhòu kāihuì?", "vi": "Thế khi nào họp?"},
+      {"speaker": "杨同乐", "zh": "后天上午十点，会议地点换到第一会议室. 我正要给大家发邮件。", "pinyin": "Hòutiān shàngwǔ shí diǎn, huìyì dìdiǎn huàn dào dì yī huìyìshì. Wǒ zhèngyào gěi dàjiā fā yóujiàn.", "vi": "Mười giờ sáng mốt, địa điểm họp chuyển sang phòng họp số một. Tôi đang định gửi email cho mọi người."},
+      {"speaker": "王一雪", "zh": "开会的时候，我们用会议室的电脑还是自己的笔记本电脑？", "pinyin": "Kāihuì de shíhòu, wǒmen yòng huìyìshì de diànnǎo háishì zìjǐ de bǐjìběn diànnǎo?", "vi": "Lúc họp, chúng ta dùng máy tính trong phòng họp hay máy tính xách tay của mình?"},
+      {"speaker": "杨同乐", "zh": "会议室的电脑或者自己的电脑都可以。", "pinyin": "Huìyìshì de diànnǎo huòzhě zìjǐ de diànnǎo dōu kěyǐ.", "vi": "Dùng máy tính trong phòng họp hoặc máy của mình đều được."},
+      {"speaker": "王一雪", "zh": "那到时候咱们早点儿过去，你帮 me 把电脑接好吧。", "pinyin": "Nà dào shíhòu zánmen zǎo diǎnr guòqù, nǐ bāng wǒ bǎ diànnǎo jiē hǎo ba.", "vi": "Thế lúc đó chúng ta sang sớm một chút, cậu giúp tôi kết nối máy tính nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 11, "text_number": 2, "type": "dialogue",
+    "scene_zh": "看来我没办法解决这个问题 (2)", "scene_vi": "Xem ra tôi không có cách nào giải quyết vấn đề này (2)",
+    "audio_ref": "3-11-2",
+    "content": [
+      {"speaker": "王一雪", "zh": "电脑接好了吗？", "pinyin": "Diànnǎo jiē hǎo le ma?", "vi": "Kết nối máy tính xong chưa?"},
+      {"speaker": "杨同乐", "zh": "已经接好了，您开机看看有没有问题。", "pinyin": "Yǐjīng jiē hǎo le, nín kāijī kànkan yǒu méiyǒu wèntí.", "vi": "Kết nối xong rồi, chị mở máy xem có vấn đề gì không."},
+      {"speaker": "王一雪", "zh": "现在什么都看不见。", "pinyin": "Xiànzài shénme dōu kàn bù jiàn.", "vi": "Bây giờ chẳng thấy gì cả."},
+      {"speaker": "杨同乐", "zh": "我检查一下哪里出问题了……您再试一下。", "pinyin": "Wǒ jiǎnchá yīxià nǎlǐ chū wèntí le... Nín zài shì yīxià.", "vi": "Em kiểm tra xem chỗ nào có vấn đề... Chị thử lại xem."},
+      {"speaker": "王一雪", "zh": "看见了，但是听不见声音。", "pinyin": "Kànjiàn le, dànshì tīng bù jiàn shēngyīn.", "vi": "Thấy rồi, nhưng không nghe thấy âm thanh."},
+      {"speaker": "杨同乐", "zh": "现在呢？", "pinyin": "Xiànzài ne?", "vi": "Bây giờ thì sao?"},
+      {"speaker": "王一雪", "zh": "听得见声音，但是声音有点儿小，听不清楚。", "pinyin": "Tīng dé jiàn shēngyīn, dànshì shēngyīn yǒudiǎnr xiǎo, tīng bù qīngchu.", "vi": "Nghe thấy âm thanh, nhưng âm thanh hơi nhỏ, nghe không rõ."},
+      {"speaker": "杨同乐", "zh": "看来我没办法解决这个问题，只能找别人来帮帮忙了。", "pinyin": "Kànlái wǒ méi bànfǎ jiějué zhège wèntí, zhǐ néng zhǎo biérén lái bāngbang máng le.", "vi": "Xem ra em không có cách giải quyết vấn đề này, chỉ có thể tìm người khác đến giúp thôi."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 11, "text_number": 3, "type": "dialogue",
+    "scene_zh": "看来激我没办法解决这个问题 (3)", "scene_vi": "Xem ra tôi không có cách nào giải quyết vấn đề này (3)",
+    "audio_ref": "3-11-3",
+    "content": [
+      {"speaker": "王一雪", "zh": "同乐，你看见老张了吗？", "pinyin": "Tónglè, nǐ kànjiàn Lǎo Zhāng le ma?", "vi": "Đồng Lạc, cậu có thấy lão Trương không?"},
+      {"speaker": "杨同乐", "zh": "老张没来. 他说家里有点儿事，所以请假了。", "pinyin": "Lǎo Zhāng méi lái. Tā shuō jiālǐ yǒudiǎnr shì, suǒyǐ qǐngjià le.", "vi": "Lão Trương không đến. Anh ấy bảo trong nhà có việc nên xin nghỉ rồi."},
+      {"speaker": "王一雪", "zh": "好几个同事都休假了，开会前这么多工作我怕干不完。", "pinyin": "Hǎo jǐ ge tóngshì dōu xiūjià le, kāihuì qián zhème duō gōngzuò wǒ pà gàn bù wán.", "vi": "Mấy đồng nghiệp đều nghỉ phép rồi, nhiều việc thế này trước khi họp tôi sợ làm không xong."},
+      {"speaker": "杨同乐", "zh": "十二点多了，咱们先去吃饭吧. 吃完饭，我跟您一起把这些工作做完。", "pinyin": "Shí'èr diǎn duō le, zánmen xiān qù chīfàn ba. Chī wán fàn, wǒ gēn nín yīqǐ bǎ zhèxiē gōngzuò zuò wán.", "vi": "Hơn mười hai giờ rồi, chúng mình đi ăn cơm trước đã. Ăn xong, em cùng chị làm hết những việc này."},
+      {"speaker": "王一雪", "zh": "你先去吃，我想再干一会儿. 明天开会前要发到公司的邮箱里。", "pinyin": "Nǐ xiān qù chī, wǒ xiǎng zài gàn yīhuìr. Míngtiān kāihuì qián yào fā dào gōngsī de yóuxiāng lǐ.", "vi": "Cậu đi ăn trước đi, tôi muốn làm thêm một lát. Trước khi họp ngày mai phải gửi vào hộp thư công ty."},
+      {"speaker": "杨同乐", "zh": "您没看到邮件吗？经理还没回来呢，下周才能开会。", "pinyin": "Nín méi kàn dào yóujiàn ma? Jīnglǐ hái méi huílái ne, xià zhōu cáinéng kāihuì.", "vi": "Chị không thấy email à? Giám đốc vẫn chưa về, tuần sau mới họp được."},
+      {"speaker": "王一雪", "zh": "那不着急了. 走，吃饭去。", "pinyin": "Nà bù zhāojí le. Zǒu, chīfàn qù.", "vi": "Thế không vội nữa. Đi, đi ăn cơm thôi."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 12, "text_number": 1, "type": "dialogue",
+    "scene_zh": "这个季节天气变化很快 (1)", "scene_vi": "Mùa này thời tiết thay đổi rất nhanh (1)",
+    "audio_ref": "3-12-1",
+    "content": [
+      {"speaker": "王一飞", "zh": "王老师，您看，这条街上的树都开花了。", "pinyin": "Wáng lǎoshī, nín kàn, zhè tiáo jiē shàng de shù dōu kāihuā le.", "vi": "Cô Vương, cô xem kìa, cây cối trên phố này đều ra hoa rồi."},
+      {"speaker": "白家月", "zh": "上周我去公园坐船了，公园里的花也开了。", "pinyin": "Shàng zhōu wǒ qù gōngyuán zuò chuán le, gōngyuán lǐ de huā yě kāi le.", "vi": "Tuần trước cô đi công viên ngồi thuyền, hoa trong công viên cũng nở rồi."},
+      {"speaker": "王一飞", "zh": "天气这么好，下午我也想去公园坐船。", "pinyin": "Tiānqì zhème hǎo, xiàwǔ wǒ yě xiǎng qù gōngyuán zuò chuán.", "vi": "Thời tiết đẹp thế này, chiều nay em cũng muốn đi công viên ngồi thuyền."},
+      {"speaker": "白家月", "zh": "去吧！今天是工作日，人应该不多。", "pinyin": "Qù ba! Jīntiān shì gōngzuòrì, rén yīnggāi bù duō.", "vi": "Đi đi! Hôm nay là ngày làm việc, chắc không đông người đâu."},
+      {"speaker": "王一飞", "zh": "您有时间吗？我想跟您一起去。", "pinyin": "Nín yǒu shíjiān ma? Wǒ xiǎng gēn nín yīqǐ qù.", "vi": "Cô có thời gian không ạ? Em muốn đi cùng cô."},
+      {"speaker": "白家月", "zh": "我今天下午有课，不能去太远的地方。", "pinyin": "Wǒ jīntiān xiàwǔ yǒu kè, bù néng qù tài yuǎn de dìfang.", "vi": "Chiều nay cô có tiết, không thể đi xa được."},
+      {"speaker": "王一飞", "zh": "那咱们换一天去？", "pinyin": "Nà zánmen huàn yī tiān qù?", "vi": "Thế mình đổi hôm khác đi nhé?"},
+      {"speaker": "白家月", "zh": "行. 或者明天去，或者后天去，我给你打电话。", "pinyin": "Xíng. Huòzhě míngtiān qù, huòzhě hòutiān qù, wǒ gěi nǐ dǎ diànhuà.", "vi": "Được. Hoặc mai đi, hoặc mốt đi, cô gọi điện cho em nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 12, "text_number": 2, "type": "dialogue",
+    "scene_zh": "这个季节天气变化很快 (2)", "scene_vi": "Mùa này thời tiết thay đổi rất nhanh (2)",
+    "audio_ref": "3-12-2",
+    "content": [
+      {"speaker": "白家月", "zh": "刚才还是大晴天呢，怎么突然就刮起风来了？", "pinyin": "Gāngcái háishì dà qíngtiān ne, zěnme túrán jiù guā qǐ fēng lái le?", "vi": "Lúc nãy trời vẫn còn rất nắng, sao tự nhiên lại nổi gió thế này?"},
+      {"speaker": "王一飞", "zh": "好像新闻里说今天有雨。", "pinyin": "Hǎoxiàng xīnwén lǐ shuō jīntiān yǒu yǔ.", "vi": "Hình như trong bản tin nói hôm nay có mưa."},
+      {"speaker": "白家月", "zh": "啊？我每天书包里都放着雨伞，就今天没带。", "pinyin": "A? Wǒ měitiān shūbāo lǐ dōu fàng zhe yǔsǎn, jiù jīntiān méi dài.", "vi": "A? Ngày nào em cũng để ô trong cặp, chỉ hôm nay không mang."},
+      {"speaker": "王一飞", "zh": "我可以借给你，我车里有一把伞和一件雨衣。", "pinyin": "Wǒ kěyǐ jiè gěi nǐ, wǒ chē lǐ yǒu yī bǎ sǎn hé yī jiàn yǔyī.", "vi": "Cô có thể cho em mượn, trong xe cô có một chiếc ô và một cái áo mưa."},
+      {"speaker": "白家月", "zh": "谢谢，希望下午天气能变好。", "pinyin": "Xièxie, xīwàng xiàwǔ tiānqì néng biàn hǎo.", "vi": "Cảm ơn cô, hy vọng chiều nay thời tiết sẽ đỡ hơn."},
+      {"speaker": "王一飞", "zh": "这个季节天气变化很快。", "pinyin": "Zhège jìjié tiānqì biànhuà hěn kuài.", "vi": "Mùa này thời tiết thay đổi rất nhanh."},
+      {"speaker": "白家月", "zh": "雨已经下起来了，咱们快点儿走吧。", "pinyin": "Yǔ yǐjīng xià qǐlái le, zánmen kuài diǎnr zǒu ba.", "vi": "Mưa đã bắt đầu rơi rồi, chúng mình đi nhanh lên nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 12, "text_number": 3, "type": "dialogue",
+    "scene_zh": "这个季节天气变化很快 (3)", "scene_vi": "Mùa này thời tiết thay đổi rất nhanh (3)",
+    "audio_ref": "3-12-3",
+    "content": [
+      {"speaker": "王一飞", "zh": "您来这里已经一年多了，习惯了吧？", "pinyin": "Nín lái zhèlǐ yǐjīng yī nián duō le, xíguàn le ba?", "vi": "Cô đến đây đã hơn bir năm rồi, chắc quen rồi chứ ạ?"},
+      {"speaker": "白家月", "zh": "别的早就习惯了，就是天气我还不太习惯。", "pinyin": "Biéde zǎo jiù xíguàn le, jiùshì tiānqì wǒ hái bù tài xíguàn.", "vi": "Những thứ khác thì đã quen từ lâu rồi, chỉ có thời tiết là cô vẫn chưa quen lắm."},
+      {"speaker": "王一飞", "zh": "为什么？您不喜欢这里的天气吗？", "pinyin": "Wèishénme? Nín bù xǐhuan zhèlǐ de tiānqì ma?", "vi": "Tại sao ạ? Cô không thích thời tiết ở đây à?"},
+      {"speaker": "白家月", "zh": "我觉得冬天太冷了。", "pinyin": "Wǒ juéde dōngtiān tài lěng le.", "vi": "Cô thấy mùa đông quá lạnh."},
+      {"speaker": "王一飞", "zh": "冬天虽然冷，但是下雪的时候特别漂亮。", "pinyin": "Dōngtiān suīrán lěng, dànshì xià xuě de shíhòu tèbié piàoliang.", "vi": "Tuy mùa đông lạnh, nhưng lúc có tuyết rơi thì rất đẹp."},
+      {"speaker": "白家月", "zh": "我也喜欢雪. 北京常常下雪, 但听说今年就下了一次。", "pinyin": "Wǒ yě xǐhuan xuě. Běijīng chángcháng xià xuě, dàn tīngshuō jīnnián jiù xià le yī cì.", "vi": "Em cũng thích tuyết. Bắc Kinh thường có tuyết, nhưng nghe nói năm nay chỉ có một lần thôi."},
+      {"speaker": "王一飞", "zh": "我没关注过北京的天气，但是新闻里说过，今年冬天很多地方雪下得都少了。", "pinyin": "Wǒ méi guānzhù guò Běijīng de tiānqì, dànshì xīnwén lǐ shuō guò, jīnnián dōngtiān hěnduō dìfang xuě xià de dōu shǎo le.", "vi": "Cô không để ý thời tiết ở Bắc Kinh, nhưng trong bản tin có nói, mùa đông năm nay nhiều nơi tuyết rơi ít hơn rồi."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 13, "text_number": 1, "type": "dialogue",
+    "scene_zh": "我的新邻居来自英国 (1)", "scene_vi": "Hàng xóm mới của tôi đến từ Anh (1)",
+    "audio_ref": "3-13-1",
+    "content": [
+      {"speaker": "王一雪", "zh": "今天我请客，你们想吃什么就点什么！", "pinyin": "Jīntiān wǒ qǐngkè, nǐmen xiǎng chī shénme jiù diǎn shénme!", "vi": "Hôm nay tôi mời, muốn ăn gì thì gọi món đấy nhé!"},
+      {"speaker": "杨同乐", "zh": "那我就不客气了. 听说这家饭馆的鱼做得很特别？", "pinyin": "Nà wǒ jiù bù kèqi le. Tīngshuō zhè jiā fànguǎn de yú zuò de hěn tèbié?", "vi": "Thế tôi không khách sáo nữa. Nghe nói nhà hàng này làm cá rất đặc biệt?"},
+      {"speaker": "王一雪", "zh": "对，南方菜跟你们北方菜的做法不同。除了鱼，你们还想吃什么？", "pinyin": "Duì, nánfāng cài gēn nǐmen běifāng cài de zuòfǎ bù tóng. Chúle yú, nǐmen hái xiǎng chī shénme?", "vi": "Đúng, món ăn phương Nam khác cách làm của món ăn phương Bắc các bạn. Ngoài cá ra, các bạn còn muốn ăn gì nữa?"},
+      {"speaker": "同事", "zh": "我不常吃南方菜，还是你决定吧。", "pinyin": "Wǒ bù cháng chī nánfāng cài, háishì nǐ juédìng ba.", "vi": "Tôi không thường ăn món Nam, hay chị quyết định đi."},
+      {"speaker": "王一雪", "zh": "好，那再加一个鸡肉，一个……", "pinyin": "Hǎo, nà zài jiā yī gè jīròu, yī gè...", "vi": "Được, thế thêm một món gà nữa, một món..."},
+      {"speaker": "杨同乐", "zh": "咱们就三个人，别点那么多。", "pinyin": "Zánmen jiù sān ge rén, bié diǎn nàme duō.", "vi": "Chúng mình chỉ có ba người, đừng gọi nhiều quá."},
+      {"speaker": "王一雪", "zh": "好，那先来这几个菜. 对了，下周我儿子过生日，你们有时间的话，就来我家做客，我给你们做北京菜。", "pinyin": "Hǎo, nà xiān lái zhè jǐ ge cài. Duìle, xià zhōu wǒ érzi guò shēngrì, nǐmen yǒu shíjiān de huà, jiù lái wǒ jiā zuòkè, wǒ gěi nǐmen zuò Běijīng cài.", "vi": "Được, thế gọi mấy món này trước đã. À, tuần sau con trai tôi sinh nhật, nếu các bạn có thời gian thì đến nhà tôi chơi nhé, tôi nấu món Bắc Kinh cho các bạn."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 13, "text_number": 2, "type": "dialogue",
+    "scene_zh": "我的新邻居来自英国 (2)", "scene_vi": "Hàng xóm mới của tôi đến từ Anh (2)",
+    "audio_ref": "3-13-2",
+    "content": [
+      {"speaker": "王一雪", "zh": "第一次请新邻居来做客，总是担心有什么没准备好。", "pinyin": "Dì yī cì qǐng xīn línjū lái zuòkè, zǒngshì dānxīn yǒu shénme méi zhǔnbèi hǎo.", "vi": "Lần đầu mời hàng xóm mới đến chơi, lúc nào cũng lo có gì chưa chuẩn bị xong."},
+      {"speaker": "刘明", "zh": "放心吧，我帮你看了，都已经准备好了。", "pinyin": "Fàngxīn ba, wǒ bāng nǐ kàn le, dōu yǐjīng zhǔnbèi hǎo le.", "vi": "Yên tâm đi, anh đã xem giúp em rồi, đều chuẩn bị xong cả rồi."},
+      {"speaker": "王一雪", "zh": "我记住刚才已经把饮料拿出来了，怎么不见了？", "pinyin": "Wǒ jìde gāngcái yǐjīng bǎ yǐnliào ná chūlái le, zěnme bùjiàn le?", "vi": "Em nhớ lúc nãy đã lấy đồ uống ra rồi, sao không thấy đâu nữa?"},
+      {"speaker": "刘明", "zh": "我把饮料和酒都放进冰箱里了，客人来了再拿出来。", "pinyin": "Wǒ bǎ yǐnliào hé jiǔ dōu fàng jìn bīngxiāng lǐ le, kèrén lái le zài ná chūlái.", "vi": "Anh bỏ đồ uống và rượu vào tủ lạnh rồi, lúc khách đến sẽ lấy ra."},
+      {"speaker": "王一雪", "zh": "音乐的声音合适吗？", "pinyin": "Yīnyuè de shēngyīn héshì ma?", "vi": "Âm thanh nhạc có phù hợp không?"},
+      {"speaker": "刘明", "zh": "你把声音开得太大了，我去关小一点儿。", "pinyin": "Nǐ bǎ shēngyīn kāi de tài dà le, wǒ qù guān xiǎo yīdiǎnr.", "vi": "Em bật âm thanh to quá, anh đến vặn nhỏ một chút."},
+      {"speaker": "王一雪", "zh": "好，那我们就等客人来吧。", "pinyin": "Hǎo, nà wǒmen jiù děng kèrén lái ba.", "vi": "Được, thế chúng ta đợi khách đến nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 13, "text_number": 3, "type": "dialogue",
+    "scene_zh": "我的新邻居来自英国 (3)", "scene_vi": "Hàng xóm mới của tôi đến từ Anh (3)",
+    "audio_ref": "3-13-3",
+    "content": [
+      {"speaker": "王一雪", "zh": "谢谢你们来参加我儿子的生日晚会，希望大家今晚玩得开心。", "pinyin": "Xièxie nǐmen lái cānjiā wǒ érzi de shēngrì wǎnhuì, xīwàng dàjiā jīnwǎn wán de kāixīn.", "vi": "Cảm ơn các bạn đã đến dự tiệc sinh nhật con trai tôi, chúc mọi người tối nay vui vẻ."},
+      {"speaker": "杨同乐", "zh": "小明, 生日快乐! 我准备了一个小礼物, 希望你喜欢!", "pinyin": "Xiǎomíng, shēngrì kuàilè! Wǒ zhǔnbèi le yī ge xiǎo lǐwù, xīwàng nǐ xǐhuan!", "vi": "Tiểu Minh, sinh nhật vui vẻ! Chú chuẩn bị một món quà nhỏ, hy vọng cháu thích!"},
+      {"speaker": "刘小明", "zh": "谢谢您，我可以打开吗？", "pinyin": "Xièxie nín, wǒ kěyǐ dǎkāi ma?", "vi": "Cảm ơn chú, cháu có thể mở ra không ạ?"},
+      {"speaker": "王一雪", "zh": "当然可以，你妈妈说你跟姐姐一样，都喜欢画画，对吗？", "pinyin": "Dāngrán kěyǐ, nǐ māma shuō nǐ gēn jiějie yīyàng, dōu xǐhuan huàhuà, duì ma?", "vi": "Đương nhiên được, mẹ cháu nói cháu giống chị, đều thích vẽ, đúng không?"},
+      {"speaker": "刘小明", "zh": "对，我想做一名画家. 啊！画板和画笔，这正是我需要的. 我太喜欢了。", "pinyin": "Duì, wǒ xiǎng zuò yī míng huàjiā. A! Huàbǎn hé huàbǐ, zhè zhèng shì wǒ xūyào de. Wǒ tài xǐhuan le.", "vi": "Vâng, cháu muốn làm một họa sĩ. A! Vở vẽ và bút vẽ, đây chính là thứ cháu cần. Cháu thích quá!"},
+      {"speaker": "王一雪", "zh": "我去把盘子拿过来，咱们一边吃蛋糕，一边聊天儿吧。", "pinyin": "Wǒ qù bǎ pánzi ná guòlái, zánmen yībiān chī dàngāo, yībiān liáotiānr ba.", "vi": "Cô đi lấy đĩa sang đây, chúng mình vừa ăn bánh vừa trò chuyện nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 14, "text_number": 1, "type": "dialogue",
+    "scene_zh": "这本书被别人借走了 (1)", "scene_vi": "Cuốn sách này bị người khác mượn mất rồi (1)",
+    "audio_ref": "3-14-1",
+    "content": [
+      {"speaker": "李文", "zh": "我借的这本词典最好今天还，但是我没时间去。", "pinyin": "Wǒ jiè de zhè běn cídiǎn zuìhǎo jīntiān hái, dànshì wǒ méi shíjiān qù.", "vi": "Cuốn từ điển anh mượn này tốt nhất hôm nay trả, nhưng anh không có thời gian đi."},
+      {"speaker": "白家月", "zh": "下午我只有两节课，可以帮你去图书馆还书。", "pinyin": "Xiàwǔ wǒ zhǐyǒu liǎng jié kè, kěyǐ bāng nǐ qù túshūguǎn huán shū.", "vi": "Chiều nay em chỉ có hai tiết, có thể giúp em lên thư viện trả sách."},
+      {"speaker": "李文", "zh": "那太谢谢了. 你能再帮我借本书吗？", "pinyin": "Nà tài xièxie le. Nǐ néng zài bāng wǒ jiè běn shū ma?", "vi": "Cảm ơn em nhiều nhé. Em có thể giúp anh mượn thêm một cuốn sách nữa không?"},
+      {"speaker": "白家月", "zh": "行，你告诉我书名。", "pinyin": "Xíng, nǐ gàosu wǒ shū míng.", "vi": "Được, anh nói tên sách cho em."},
+      {"speaker": "李文", "zh": "我把名字写在纸上吧. 我去了好几次图书馆，这本书都被别人借走了。", "pinyin": "Wǒ bǎ míngzì xiě zài zhǐ shàng ba. Wǒ qù le hǎo jǐ cì túshūguǎn, zhè běn shū dōu bèi biérén jiè zǒu le.", "vi": "Anh viết tên vào giấy nhé. Anh đến thư viện mấy lần rồi, cuốn sách này đều bị người khác mượn mất."},
+      {"speaker": "白家月", "zh": "《名人的故事》？我有这本书. 明天我借给你吧。", "pinyin": "《Míngrén de gùshì》? Wǒ yǒu zhè běn shū. Míngtiān wǒ jiè gěi nǐ ba.", "vi": "《Câu chuyện danh nhân》? Em có cuốn này. Mai em cho anh mượn nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 14, "text_number": 2, "type": "dialogue",
+    "scene_zh": "这本书被别人借走了 (2)", "scene_vi": "Cuốn sách này bị người khác mượn mất rồi (2)",
+    "audio_ref": "3-14-2",
+    "content": [
+      {"speaker": "白家月", "zh": "安妮，下课以后你要去哪儿？", "pinyin": "Ānní, xiàkè yǐhòu nǐ yào qù nǎr?", "vi": "Annie, tan học cậu định đi đâu?"},
+      {"speaker": "安妮", "zh": "我要先去图书馆借书，然后去游泳。", "pinyin": "Wǒ yào xiān qù túshūguǎn jiè shū, ránhòu qù yóuyǒng.", "vi": "Tớ muốn lên thư viện mượn sách trước, sau đó đi bơi."},
+      {"speaker": "白家月", "zh": "你没带校园卡吗？借书需要刷卡。", "pinyin": "Nǐ méi dài xiàoyuán kǎ ma? Jiè shū xūyào shuā kǎ.", "vi": "Cậu không mang thẻ trường à? Mượn sách cần quẹt thẻ đấy."},
+      {"speaker": "安妮", "zh": "我忘了. 如果进不去，我就在网上借电子书。", "pinyin": "Wǒ wàng le. Rúguǒ jìn bù qù, wǒ jiù zài wǎng shàng jiè diànzǐ shū.", "vi": "Tớ quên mất. Nếu không vào được thì tớ mượn sách điện tử trên mạng vậy."},
+      {"speaker": "陈天中", "zh": "我下午不去图书馆，可以把校园卡借给你。", "pinyin": "Wǒ xiàwǔ bù qù túshūguǎn, kěyǐ bǎ xiàoyuán kǎ jiè gěi nǐ.", "vi": "Chiều nay tớ không đi thư viện, có thể cho cậu mượn thẻ trường."},
+      {"speaker": "安妮", "zh": "那太好了，谢谢！", "pinyin": "Nà tài hǎo le, xièxie!", "vi": "Tuyệt quá, cảm ơn cậu nhé!"}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 14, "text_number": 3, "type": "dialogue",
+    "scene_zh": "这本书被别人借走了 (3)", "scene_vi": "Cuốn sách này bị người khác mượn mất rồi (3)",
+    "audio_ref": "3-14-3",
+    "content": [
+      {"speaker": "白家月", "zh": "下周学校有晚会，你知道吗？", "pinyin": "Xià zhōu xuéxiào yǒu wǎnhuì, nǐ zhīdào ma?", "vi": "Tuần sau trường có buổi tối văn nghệ, anh có biết không?"},
+      {"speaker": "李文", "zh": "知道，我和几个女生要表演一个节目. 也参加吗？", "pinyin": "Zhīdào, wǒ hé jǐ ge nǚshēng yào biǎoyǎn yī gè jiémù. Nǐ yě cānjiā ma?", "vi": "Biết chứ, anh với mấy bạn nữ sẽ biểu diễn một tiết mục. Em cũng tham gia à?"},
+      {"speaker": "白家月", "zh": "我想唱中文歌，但是还没找到人一起表演，不知道怎么办。", "pinyin": "Wǒ xiǎng chàng Zhōngwén gē, dànshì hái méi zhǎodào rén yīqǐ biǎoyǎn, bù zhīdào zěnme bàn.", "vi": "Em muốn hát bài hát tiếng Trung, nhưng vẫn chưa tìm được ai diễn cùng, không biết phải làm thế nào."},
+      {"speaker": "李文", "zh": "找不到人，你就一个人唱吧。", "pinyin": "Zhǎo bù dào rén, nǐ jiù yī ge rén chàng ba.", "vi": "Không tìm được ai thì em hát một mình đi."},
+      {"speaker": "白家月", "zh": "一想到要在校长、老师和那么多同学面前表演，我就有些紧张。", "pinyin": "Yī xiǎngdào yào zài xiàozhǎng, lǎoshī hé nàme duō tóngxué miànqián biǎoyǎn, wǒ jiù yǒuxiē jǐnzhāng.", "vi": "Cứ nghĩ đến việc phải biểu diễn trước mặt hiệu trưởng, giáo viên và nhiều bạn học như vậy, em lại hơi căng thẳng."},
+      {"speaker": "李文", "zh": "紧张什么啊，我们都喜欢听你唱歌，你要相信自己。", "pinyin": "Jǐnzhāng shénme a, wǒmen dōu xǐhuan tīng nǐ chànggē, nǐ yào xiāngxìn zìjǐ.", "vi": "Căng thẳng gì chứ, ai cũng thích nghe em hát cả, em phải tin vào chính mình."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 15, "text_number": 1, "type": "dialogue",
+    "scene_zh": "我是半个南京人 (1)", "scene_vi": "Tôi là một nửa người Nam Kinh (1)",
+    "audio_ref": "3-15-1",
+    "content": [
+      {"speaker": "王一雪", "zh": "您搬到蓝天小区一段时间了，觉得怎么样？", "pinyin": "Nín bān dào Lántiān xiǎoqū yī duàn shíjiān le, juéde zěnme yàng?", "vi": "Chị chuyển đến khu Lam Đình được một thời gian rồi, thấy thế nào ạ?"},
+      {"speaker": "杨同乐", "zh": "小区环境挺好的，附近买东西也很方便，过马路就是超市。", "pinyin": "Xiǎoqū huánjìng tǐng hǎo de, fùjìn mǎi dōngxi yě hěn fāngbiàn, guò mǎlù jiù shì chāoshì.", "vi": "Môi trường khu chung cư khá tốt, xung quanh mua đồ cũng rất tiện, sang đường là siêu thị."},
+      {"speaker": "王一雪", "zh": "平时孩子们在哪儿玩？", "pinyin": "Píngshí háizi men zài nǎr wán?", "vi": "Bình thường bọn trẻ chơi ở đâu ạ?"},
+      {"speaker": "杨同乐", "zh": "小区里有很多树，孩子们放学后就在树下做游戏. 你想买房子吗？", "pinyin": "Xiǎoqū lǐ yǒu hěnduō shù, háizi men fàngxué hòu jiù zài shù xià zuò yóuxì. Nǐ xiǎng mǎi fángzi ma?", "vi": "Trong khu có rất nhiều cây, bọn trẻ tan học là chơi trò chơi dưới gốc cây. Cậu muốn mua nhà à?"},
+      {"speaker": "王一雪", "zh": "是. 我想买一个大房子，让我爸妈过来跟我一起住。", "pinyin": "Shì. Wǒ xiǎng mǎi yī gè dà fángzi, ràng wǒ bà mā guòlái gēn wǒ yīqǐ zhù.", "vi": "Vâng. Em muốn mua một căn nhà lớn, để bố mẹ em sang đây ở cùng."},
+      {"speaker": "杨同乐", "zh": "蓝天小区的老人挺多的，这几年小区根据他们的需要，有了很多变化。", "pinyin": "Lántiān xiǎoqū de lǎorén tǐng duō de, zhè jǐ nián xiǎoqū gēnju tāmen de xūyào, yǒu le hěnduō biànhuà.", "vi": "Người già ở khu Lam Đình khá nhiều, mấy năm nay khu chung cư căn cứ theo nhu cầu của họ, có nhiều thay đổi."},
+      {"speaker": "王一雪", "zh": "真不错！过几天我去蓝天小区看看。", "pinyin": "Zhēn bùcuò! Guò jǐ tiān wǒ qù Lántiān xiǎoqū kànkan.", "vi": "Tuyệt quá! Mấy hôm nữa em sang khu Lam Đình xem thử."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 15, "text_number": 2, "type": "dialogue",
+    "scene_zh": "我是半个南京人 (2)", "scene_vi": "Tôi là một nửa người Nam Kinh (2)",
+    "audio_ref": "3-15-2",
+    "content": [
+      {"speaker": "王一雪", "zh": "假期我想去南京旅游，但是我不太了解那里。", "pinyin": "Jiàqī wǒ xiǎng qù Nánjīng lǚyóu, dànshì wǒ bù tài liǎojiě nàlǐ.", "vi": "Kỳ nghỉ em muốn đi du lịch Nam Kinh, nhưng em không hiểu rõ lắm về nơi đó."},
+      {"speaker": "杨同乐", "zh": "我虽然不是南京人，可是我是在南京上的大学，可以说是半个南京人。", "pinyin": "Wǒ suīrán bù shì Nánjīng rén, kěshì wǒ shì zài Nánjīng shàng de dàxué, kěyǐ shuō shì bàn gè Nánjīng rén.", "vi": "Tôi tuy không phải người Nam Kinh, nhưng tôi học đại học ở Nam Kinh, có thể nói là nửa người Nam Kinh."},
+      {"speaker": "王一雪", "zh": "太好了！你快给我介绍一下南京吧。", "pinyin": "Tài hǎo le! Nǐ kuài gěi wǒ jièshào yīxià Nánjīng ba.", "vi": "Tuyệt quá! Anh nhanh giới thiệu cho em về Nam Kinh đi."},
+      {"speaker": "杨同乐", "zh": "南京有两千年以上的历史，有老城、老街，还有很多有名的景点，每年去旅游的游客特别多。", "pinyin": "Nánjīng yǒu liǎng qiān nián yǐshàng de lìshǐ, yǒu lǎochéng, lǎojiē, hái yǒu hěnduō yǒumíng de jǐngdiǎn, měi nián qù lǚyóu de yóukè tèbié duō.", "vi": "Nam Kinh có lịch sử hơn hai nghìn năm, có phố cổ, phố cũ, còn có rất nhiều danh lam thắng cảnh, khách du lịch đến mỗi năm rất đông."},
+      {"speaker": "王一雪", "zh": "除了这些以外，你再告诉我一些外地人不知道的地方。", "pinyin": "Chúle zhèxiē yǐwài, nǐ zài gàosu wǒ yīxiē wàidì rén bù zhīdào de dìfang.", "vi": "Ngoài những thứ này ra, anh kể cho em một vài nơi mà người ngoài không biết đi."},
+      {"speaker": "杨同乐", "zh": "那太多了，我得一点儿一点儿给您讲。", "pinyin": "Nà tài duō le, wǒ děi yīdiǎnr yīdiǎnr gěi nín jiǎng.", "vi": "Nhiều lắm, tôi phải kể cho chị từng chút một."},
+      {"speaker": "王一雪", "zh": "行. 下班后我请你吃晚饭，咱们边吃边聊。", "pinyin": "Xíng, xiàbān hòu wǒ qǐng nǐ chī wǎnfàn, zánmen biān chī biān liáo.", "vi": "Được, tan làm em mời anh ăn tối, mình vừa ăn vừa nói chuyện nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 15, "text_number": 3, "type": "dialogue",
+    "scene_zh": "我是半个南京人 (3)", "scene_vi": "Tôi là một nửa người Nam Kinh (3)",
+    "audio_ref": "3-15-3",
+    "content": [
+      {"speaker": "王一雪", "zh": "小明，中国有一条大河，它的名字跟颜色有关系，你知道是什么河吗？", "pinyin": "Xiǎomíng, Zhōngguó yǒu yī tiáo dà hé, tā de míngzì gēn yánsè yǒu guānxi, nǐ zhīdào shì shénme hé ma?", "vi": "Tiểu Minh, Trung Quốc có một con sông lớn, tên của nó liên quan đến màu sắc, con biết là sông gì không?"},
+      {"speaker": "刘小明", "zh": "我知道，是黄河！", "pinyin": "Wǒ zhīdào, shì Huáng Hé!", "vi": "Con biết, là sông Hoàng Hà!"},
+      {"speaker": "王一雪", "zh": "你说对了. 我再问问你，你知道它为什么叫黄河吗？", "pinyin": "Nǐ shuō duì le. Wǒ zài wènwen nǐ, nǐ zhīdào tā wèishénme jiào Huáng Hé ma?", "vi": "Con nói đúng rồi. Mẹ hỏi lại con nhé, con có biết vì sao nó gọi là sông Hoàng Hà không?"},
+      {"speaker": "刘小明", "zh": "因为河水看起来是黄色的，所以叫这个名字. 黄河是中国最长的河吗？", "pinyin": "Yīnwèi héshuǐ kàn qǐlái shì huángsè de, suǒyǐ jiào zhège míngzì. Huáng Hé shì Zhōngguó zuì cháng de hé ma?", "vi": "Vì nước sông nhìn có màu vàng, nên gọi tên thế. Sông Hoàng Hà có phải là sông dài nhất Trung Quốc không mẹ?"},
+      {"speaker": "王一雪", "zh": "不是. 黄河虽然不是最长的河, 可是在历史上很重要。", "pinyin": "Bù shì. Huáng Hé suīrán bù shì zuì cháng de hé, kěshì zài lìshǐ shàng hěn zhòngyào.", "vi": "Không phải. Sông Hoàng Hà tuy không phải dài nhất, nhưng trong lịch sử rất quan trọng."},
+      {"speaker": "刘小明", "zh": "这个我知道. 很久以前，很多中国人都住在黄河边上。", "pinyin": "Zhège wǒ zhīdào. Hěn jiǔ yǐqián, hěnduō Zhōngguó rén dōu zhù zài Huáng Hé biān shàng.", "vi": "Cái này con biết. Rất lâu rồi, nhiều người Trung Quốc sống ở ven sông Hoàng Hà."},
+      {"speaker": "王一雪", "zh": "对. 在我们中国人看来, 黄河像妈妈一样, 养了我们几千年。", "pinyin": "Duì. Zài wǒmen Zhōngguó rén kànlái, Huáng Hé xiàng māma yīyàng, yǎng le wǒmen jǐ qiān nián.", "vi": "Đúng. Trong mắt người Trung Quốc, sông Hoàng Hà như người mẹ, nuôi dưỡng chúng ta mấy nghìn năm rồi."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 16, "text_number": 1, "type": "dialogue",
+    "scene_zh": "我听说有的熊猫出国了 (1)", "scene_vi": "Tôi nghe nói có vài chú gấu trúc đi ra nước ngoài rồi (1)",
+    "audio_ref": "3-16-1",
+    "content": [
+      {"speaker": "服务员", "zh": "这只小猫你们养了多久了？", "pinyin": "Zhè zhī xiǎo māo nǐmen yǎng le duōjiǔ le?", "vi": "Các bạn nuôi chú mèo nhỏ này được bao lâu rồi?"},
+      {"speaker": "王一雪", "zh": "已经一年多了. 第一天看见它的时候，它又脏又小。", "pinyin": "Yǐjīng yī nián duō le. Dì yī tiān kànjiàn tā de shíhòu, tā yòu zāng yòu xiǎo.", "vi": "Đã hơn một năm rồi. Ngày đầu tiên nhìn thấy nó, nó vừa bẩn vừa nhỏ."},
+      {"speaker": "服务员", "zh": "现在它变得又干净又漂亮了。", "pinyin": "Xiànzài tā biàn de yòu gānjìng yòu piàoliang le.", "vi": "Bây giờ nó trở nên vừa sạch sẽ vừa xinh đẹp."},
+      {"speaker": "王一雪", "zh": "是啊. 它还特别可爱，一会儿在你脚边睡觉，一会儿在你身上爬。", "pinyin": "Shì a. Tā hái tèbié kě'ài, yīhuìr zài nǐ jiǎo biān shuìjiào, yīhuìr zài nǐ shēnshàng pá.", "vi": "Vâng. Nó còn rất đáng yêu, lúc thì ngủ dưới chân bạn, lúc thì trèo lên người bạn."},
+      {"speaker": "服务员", "zh": "你们把它照顾得真好。", "pinyin": "Nǐmen bǎ tā zhàogù de zhēn hǎo.", "vi": "Các bạn chăm sóc nó thật tốt."},
+      {"speaker": "王一雪", "zh": "它就好像我们的孩子， we 照顾它，它也认得我们了。", "pinyin": "Tā jiù hǎoxiàng wǒmen de háizi, wǒmen zhàogù tā, tā yě rèn de wǒmen le.", "vi": "Nó như con của chúng tôi vậy, chúng tôi chăm sóc nó, nó cũng nhận ra chúng tôi."},
+      {"speaker": "刘小雪", "zh": "妈妈，我们家也养一只小猫吧。", "pinyin": "Māma, wǒmen jiā yě yǎng yī zhī xiǎo māo ba.", "vi": "Mẹ ơi, nhà mình cũng nuôi ஒரு chú mèo nhỏ đi mẹ."},
+      {"speaker": "王一雪", "zh": "咱们没时间照顾，还是别养了，我周末带你们去北京动物园看动物吧。", "pinyin": "Zánmen méi shíjiān zhàogù, háishì bié yǎng le, wǒ zhōumò dài nǐmen qù Běijīng dòngwùyuán kàn dòngwù ba.", "vi": "Mình không có thời gian chăm sóc, tốt nhất đừng nuôi nữa, cuối tuần mẹ dắt các con đến sở thú Bắc Kinh xem động vật nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 16, "text_number": 2, "type": "dialogue",
+    "scene_zh": "我听说有的熊猫出国了 (2)", "scene_vi": "Tôi nghe nói có vài chú gấu trúc đi ra nước ngoài rồi (2)",
+    "audio_ref": "3-16-2",
+    "content": [
+      {"speaker": "刘小雪", "zh": "妈妈，大熊猫这个名字很奇怪，它们跟猫有什么关系？", "pinyin": "Māma, dàxióngmāo zhège míngzì hěn qíguài, tāmen gēn māo yǒu shénme guānxi?", "vi": "Mẹ ơi, tên gấu trúc lớn nghe lạ quá, chúng có liên quan gì đến mèo không mẹ?"},
+      {"speaker": "王一雪", "zh": "这个问题问得好，它们跟猫没什么关系，其实应该叫大猫熊。", "pinyin": "Zhège wèntí wèn de hǎo, tāmen gēn māo méi shénme guānxi, qíshí yīnggāi jiào dà māoxióng.", "vi": "Câu hỏi hay đấy, chúng chẳng liên quan gì đến mèo cả, thực ra nên gọi là mèo gấu lớn."},
+      {"speaker": "刘小明", "zh": "大熊猫为什么只吃竹子不吃肉？", "pinyin": "Dàxióngmāo wèishénme zhǐ chī zhúzi bù chī ròu?", "vi": "Sao gấu trúc lớn chỉ ăn tre không ăn thịt ạ?"},
+      {"speaker": "王一雪", "zh": "它们跟人一样，也可以吃肉，但是对肉不感兴趣。", "pinyin": "Tāmen gēn rén yīyàng, yě kěyǐ chī ròu, dànshì duì ròu bù gǎn xìngqù.", "vi": "Chúng cũng như người, cũng có thể ăn thịt, nhưng không hứng thú với thịt."},
+      {"speaker": "刘小雪", "zh": "大熊猫为什么是中国的国宝？", "pinyin": "Dàxióngmāo wèishénme shì Zhōngguó de guóbǎo?", "vi": "Sao gấu trúc lớn là bảo vật quốc gia của Trung Quốc ạ?"},
+      {"speaker": "王一雪", "zh": "全世界只有中国有野生大熊猫，中国是大熊猫的家。", "pinyin": "Quán shìjiè zhǐyǒu Zhōngguó yǒu yěshēng dàxióngmāo, Zhōngguó shì dàxióngmāo de jiā.", "vi": "Cả thế giới chỉ có Trung Quốc có gấu trúc lớn hoang dã, Trung Quốc là nhà của gấu trúc lớn."},
+      {"speaker": "刘小明", "zh": "我听说有的熊猫出国了，他们去哪儿了？", "pinyin": "Wǒ tīngshuō yǒu de xióngmāo chūguó le, tāmen qù nǎr le?", "vi": "Con nghe nói có chú gấu trúc nào ra nước ngoài rồi, họ đi đâu thế mẹ?"},
+      {"speaker": "王一雪", "zh": "关于这个问题，我得慢慢给你讲。", "pinyin": "Guānyú zhège wèntí, wǒ děi mànmàn gěi nǐ jiǎng.", "vi": "Về vấn đề này, mẹ phải từ từ kể cho con."},
+      {"speaker": "刘小雪", "zh": "弟弟，你真是“十万个为什么”。", "pinyin": "Dìdi, nǐ zhēn shì “shí wàn gè wèishénme”.", "vi": "Em trai à, em đúng là “mười vạn cái tại sao”."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 16, "text_number": 3, "type": "dialogue",
+    "scene_zh": "我听说有的熊猫出国了 (3)", "scene_vi": "Tôi nghe nói có vài chú gấu trúc đi ra nước ngoài rồi (3)",
+    "audio_ref": "3-16-3",
+    "content": [
+      {"speaker": "刘小雪", "zh": "这只大熊猫一会儿爬上去，一会儿跳下来，可爱极了！", "pinyin": "Zhè zhī dàxióngmāo yīhuìr pá shàngqù, yīhuìr tiào xiàlái, kě'ài jí le!", "vi": "Chú gấu trúc lớn này lúc thì trèo lên, lúc thì nhảy xuống, đáng yêu quá!"},
+      {"speaker": "王一雪", "zh": "它好像还没吃饱，站起来张着嘴找吃的呢。", "pinyin": "Tā hǎoxiàng hái méi chī bǎo, zhàn qǐlái zhāng zhe zuǐ zhǎo chī de ne.", "vi": "Nó có vẻ chưa ăn no, đứng lên há miệng tìm đồ ăn kìa."},
+      {"speaker": "刘小明", "zh": "它身边那只熊猫半天没动，是不是在睡觉呢？", "pinyin": "Tā shēnbiān nà zhī xióngmāo bàntiān méi dòng, shì bù shì zài shuìjiào ne?", "vi": "Chú gấu trúc bên cạnh nó lâu rồi không nhúc nhích, có phải đang ngủ không ạ?"},
+      {"speaker": "王一雪", "zh": "我看不见它的脸，可能是吧. 一般来说，熊猫每天要睡很多次觉。", "pinyin": "Wǒ kàn bù jiàn tā de liǎn, kěnéng shì ba. Yībān lái shuō, xióngmāo měitiān yào shuì hěnduō cì jiào.", "vi": "Mẹ không nhìn thấy mặt nó, chắc vậy. Nói chung, gấu trúc mỗi ngày ngủ rất nhiều lần."},
+      {"speaker": "刘小雪", "zh": "对，除了睡觉以外，很多时间都在吃东西。", "pinyin": "Duì, chúle shuìjiào yǐwài, hěnduō shíjiān dōu zài chī dōngxi.", "vi": "Đúng, ngoài ngủ ra, nhiều thời gian đều ăn."},
+      {"speaker": "刘小明", "zh": "大熊猫的生活真舒服啊！", "pinyin": "Dàxióngmāo de shēnghuó zhēn shūfu a!", "vi": "Cuộc sống của gấu trúc lớn thật thoải mái quá!"},
+      {"speaker": "刘小雪", "zh": "妈妈，您帮我和这两只大熊猫照一张照片吧。", "pinyin": "Māma, nín bāng wǒ hé zhè liǎng zhī dàxióngmāo zhào yī zhāng zhàopiàn ba.", "vi": "Mẹ ơi, mẹ chụp cho con với hai chú gấu trúc lớn này một tấm ảnh nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 17, "text_number": 1, "type": "dialogue",
+    "scene_zh": "我要多向认真的人学习 (1)", "scene_vi": "Tôi phải học tập nhiều từ những người chăm chỉ (1)",
+    "audio_ref": "3-17-1",
+    "content": [
+      {"speaker": "刘小雪", "zh": "别再向前走了，李老师的办公室已经到了。", "pinyin": "Bié zài xiàng qián zǒu le, Lǐ lǎoshī de bàngōngshì yǐjīng dào le.", "vi": "Đừng đi tiếp về phía trước nữa, phòng cô Lý đến rồi đấy."},
+      {"speaker": "同学", "zh": "你进去吧，我在楼梯那儿等你. 我害怕见李老师。", "pinyin": "Nǐ jìnqù ba, wǒ zài lóutī nàr děng nǐ. Wǒ hàipà jiàn Lǐ lǎoshī.", "vi": "Cậu vào đi, tớ ở chỗ cầu thang đợi cậu. Tớ sợ gặp cô Lý."},
+      {"speaker": "刘小雪", "zh": "怎么回事？", "pinyin": "Zěnme huí shì?", "vi": "Sao thế?"},
+      {"speaker": "同学", "zh": "最近我做错了好几件事，我怕李老师生气。", "pinyin": "Zuìjìn wǒ zuò cuò le hǎo jǐ jiàn shì, wǒ pà Lǐ lǎoshī shēngqì.", "vi": "Gần đây tớ làm sai mất mấy việc, tớ sợ cô Lý nổi giận."},
+      {"speaker": "刘小雪", "zh": "你想多了，做错事情是很常见的。", "pinyin": "Nǐ xiǎng duō le, zuò cuò shìqing shì hěn chángjiàn de.", "vi": "Cậu nghĩ nhiều quá rồi, làm sai việc là rất bình thường mà."},
+      {"speaker": "同学", "zh": "我把简单的事情做错了，李老师一定觉得我不认真。", "pinyin": "Wǒ bǎ jiǎndān de shìqing zuò cuò le, Lǐ lǎoshī yīdìng juéde wǒ bù rènzhēn.", "vi": "Tớ làm sai việc đơn giản, cô Lý nhất định cho là tớ không chăm chỉ."},
+      {"speaker": "刘小雪", "zh": "有的人虽然很聪明，但是在会简单的事情中出错，因为他们认为事情简单，就不会认真去做了。", "pinyin": "Yǒu de rén suīrán hěn cōngmíng, dànshì zài huì jiǎndān de shìqing zhōng chū cuò, yīnwèi tāmen rènwéi shìqing jiǎndān, jiù bù huì rènzhēn qù zuò le.", "vi": "Có người tuy rất thông minh, nhưng lại sai trong việc đơn giản, vì họ cho rằng việc đơn giản thì sẽ không làm một cách nghiêm túc nữa."},
+      {"speaker": "同学", "zh": "你说的就是我，以后我要多向认真的人学习。", "pinyin": "Nǐ shuō de jiù shì wǒ, yǐhòu wǒ yào duō xiàng rènzhēn de rén xuéxí.", "vi": "Cậu nói đúng là tớ, sau này tớ phải học hỏi những người chăm chỉ nhiều hơn."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 17, "text_number": 2, "type": "dialogue",
+    "scene_zh": "我要多向认真的人学习 (2)", "scene_vi": "Tôi phải học tập nhiều từ những người chăm chỉ (2)",
+    "audio_ref": "3-17-2",
+    "content": [
+      {"speaker": "白家月", "zh": "太阳从西边出来了？这几天怎么总是在图书馆看见你？", "pinyin": "Tàiyáng cóng xībiān chūlái le? Zhè jǐ tiān zěnme zǒng shì zài túshūguǎn kànjiàn nǐ?", "vi": "Mặt trời mọc đằng tây à? Mấy hôm nay sao lúc nào cũng thấy cậu trong thư viện thế?"},
+      {"speaker": "陈天中", "zh": "这有什么奇怪的？我是来学习的。", "pinyin": "Zhè yǒu shénme qíguài de? Wǒ shì lái xuéxí de.", "vi": "Có gì lạ đâu? Tôi đến học mà."},
+      {"speaker": "白家月", "zh": "你怎么还来图书馆学习？同学们都在到处找工作呢。", "pinyin": "Nǐ zěnme hái lái túshūguǎn xuéxí? Tóngxuémen dōu zài dàochù zhǎo gōngzuò ne.", "vi": "Sao cậu vẫn đến thư viện học thế? Các bạn đang đi tìm việc khắp nơi rồi kìa."},
+      {"speaker": "陈天中", "zh": "我不想现在就工作，还想继续学习，我爸妈也同意. 可我还没想好学什么，所以来图书馆看看。", "pinyin": "Wǒ bù xiǎng xiànzài jiù gōngzuò, hái xiǎng jìxù xuéxí, wǒ bà mā yě tóngyì. Kě wǒ hái méi xiǎng hǎo xué shénme, suǒyǐ lái túshūguǎn kànkan.", "vi": "Tôi không muốn đi làm ngay bây giờ, vẫn muốn học tiếp, bố mẹ tôi cũng đồng ý. Nhưng tôi vẫn chưa nghĩ ra học gì, nên đến thư viện xem thử."},
+      {"speaker": "白家月", "zh": "你不是喜欢玩电脑吗？你可以去看看跟电脑有关系的书。", "pinyin": "Nǐ bù shì xǐhuan wán diànnǎo ma? Nǐ kěyǐ qù kànkan gēn diànnǎo yǒu guānxi de shū.", "vi": "Chẳng phải cậu thích chơi máy tính à? Cậu có thể xem mấy quyển sách liên quan đến máy tính."},
+      {"speaker": "陈天中", "zh": "你说得对，我记得那个屋子里有些跟电脑有关的书，我去找找。", "pinyin": "Nǐ shuō de duì, wǒ jìde nàge wūzi lǐ yǒuxiē gēn diànnǎo yǒuguān de shū, wǒ qù zhǎozhao.", "vi": "Cậu nói đúng, tôi nhớ trong căn phòng đó có mấy quyển sách liên quan đến máy tính, tôi đi tìm thử."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 17, "text_number": 3, "type": "dialogue",
+    "scene_zh": "我要多向认真的人学习 (3)", "scene_vi": "Tôi phải học tập nhiều từ những người chăm chỉ (3)",
+    "audio_ref": "3-17-3",
+    "content": [
+      {"speaker": "李文", "zh": "天中，你的手机怎么关机了？", "pinyin": "Tiānzhōng, nǐ de shǒujī zěnme guānjī le?", "vi": "Thiên Trung, sao điện thoại của cậu tắt nguồn thế?"},
+      {"speaker": "陈天中", "zh": "我的手机没电了. 你找我有事吗？", "pinyin": "Wǒ de shǒujī méi diàn le. Nǐ zhǎo wǒ yǒu shì ma?", "vi": "Điện thoại tôi hết pin rồi. Cậu tìm tôi có việc à?"},
+      {"speaker": "李文", "zh": "前天我看见家月了，她告诉我你打算继续留学？", "pinyin": "Qiántiān wǒ kànjiàn Jiāyuè le, tā gàosu wǒ nǐ dǎsuàn jìxù liúxué?", "vi": "Hôm kia anh gặp Gia Nguyệt, em ấy bảo cậu định tiếp tục đi du học?"},
+      {"speaker": "陈天中", "zh": "是，可是我还没想好学什么，更没想好去哪个国家。", "pinyin": "Shì, kěshì wǒ hái méi xiǎng hǎo xué shénme, gèng méi xiǎng hǎo qù nǎge guójiā.", "vi": "Đúng, nhưng tôi vẫn chưa nghĩ ra học gì, lại càng chưa nghĩ ra đi nước nào."},
+      {"speaker": "李文", "zh": "你可以去中国学中文啊. 比如可以去北京、上海这样的大城市，那里有很多好大学，也有很多留学生。", "pinyin": "Nǐ kěyǐ qù Zhōngguó xué Zhōngwén a. Bǐrú kěyǐ qù Běijīng, Shànghǎi zhèyàng de dà chéngshì, nàlǐ yǒu hěnduō hǎo dàxué, yě yǒu hěnduō liúxuéshēng.", "vi": "Cậu có thể sang Trung Quốc học tiếng Trung. Ví dụ có thể đến những thành phố lớn như Bắc Kinh, Thượng Hải, ở đó có nhiều trường đại học tốt, cũng có nhiều du học sinh."},
+      {"speaker": "陈天中", "zh": "好，那我上网查一查。", "pinyin": "Hǎo, nà wǒ shàngwǎng chá yī chá.", "vi": "Được, thế tôi lên mạng tra thử."},
+      {"speaker": "李文", "zh": "我给你介绍几个有用的网站。", "pinyin": "Wǒ gěi nǐ jièshào jǐ ge yǒuyòng de wǎngzhàn.", "vi": "Anh giới thiệu cho cậu mấy trang web hữu ích nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 18, "text_number": 1, "type": "dialogue",
+    "scene_zh": "我学会了包饺子 (1)", "scene_vi": "Tôi học được cách gói sủi cảo rồi (1)",
+    "audio_ref": "3-18-1",
+    "content": [
+      {"speaker": "白家月", "zh": "我要在中国过年，真开心。", "pinyin": "Wǒ yào zài Zhōngguó guònián, zhēn kāixīn.", "vi": "Em được đón Tết ở Trung Quốc, thật vui quá."},
+      {"speaker": "李文", "zh": "第一次请外国朋友来家里过春节，我也很高兴。", "pinyin": "Dì yī cì qǐng wàiguó péngyou lái jiālǐ guò Chūnjié, wǒ yě hěn gāoxìng.", "vi": "Lần đầu mời bạn nước ngoài đến nhà đón Tết, anh cũng rất vui."},
+      {"speaker": "白家月", "zh": "你们怎样过节？", "pinyin": "Nǐmen zěnyàng guò jié?", "vi": "Các anh đón Tết thế nào?"},
+      {"speaker": "李文", "zh": "春节是中国最重要的节日，我们一般会回家，跟家人一起过。", "pinyin": "Chūnjié shì Zhōngguó zuì zhòngyào de jiérì, wǒmen yībān huì huíjiā, gēn jiārén yīqǐ guò.", "vi": "Tết là ngày lễ quan trọng nhất ở Trung Quốc, chúng tôi thường sẽ về nhà, đón Tết cùng gia đình."},
+      {"speaker": "白家月", "zh": "那你跟家人会一起做什么？", "pinyin": "Nà nǐ gēn jiārén huì yīqǐ zuò shénme?", "vi": "Thế anh và gia đình thường cùng nhau làm gì?"},
+      {"speaker": "李文", "zh": "我们家会一边包饺子，一边看春节联欢晚会，一直到十二点以后才睡觉。", "pinyin": "Wǒmen jiā huì yībiān bāo jiǎozi, yībiān kàn Chūnjié liánhuān wǎnhuì, yīzhí dào shí'èr diǎn yǐhòu cái shuìjiào.", "vi": "Nhà anh vừa gói sủi cảo vừa xem chương trình Tết, mãi đến sau 12 giờ mới đi ngủ."},
+      {"speaker": "白家月", "zh": "听起来很有意思. 春节放几天假？", "pinyin": "Tīng qǐlái hěn yǒuyìsi. Chūnjié fàng jǐ tiān jià?", "vi": "Nghe thú vị đấy. Tết nghỉ mấy ngày thế?"},
+      {"speaker": "李文", "zh": "大概七八天。", "pinyin": "Dàgài qī bā tiān.", "vi": "Khoảng bảy tám ngày."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 18, "text_number": 2, "type": "dialogue",
+    "scene_zh": "我学会了包饺子 (2)", "scene_vi": "Tôi học được cách gói sủi cảo rồi (2)",
+    "audio_ref": "3-18-2",
+    "content": [
+      {"speaker": "白家月", "zh": "张阿姨，李叔叔. 过年好！这是我准备的礼物，请收下。", "pinyin": "Zhāng āyí, Lǐ shūshu. Guònián hǎo! Zhè shì wǒ zhǔnbèi de lǐwù, qǐng shōuxià.", "vi": "Bác Trương, chú Lý. Chúc mừng năm mới! Đây là quà cháu chuẩn bị, mời bác chú nhận cho."},
+      {"speaker": "张阿姨", "zh": "谢谢家月，你太客气了！", "pinyin": "Xièxie Jiāyuè, nǐ tài kèqi le!", "vi": "Cảm ơn Gia Nguyệt, cháu khách sáo quá!"},
+      {"speaker": "李叔叔", "zh": "总听小文说起你，今天终于有机会见面了。", "pinyin": "Zǒng tīng Xiǎo Wén shuō qǐ nǐ, jīntiān zhōngyú yǒu jīhuì jiànmiàn le.", "vi": "Lúc nào cũng nghe Tiểu Văn nhắc đến cháu, hôm nay cuối cùng cũng có cơ hội gặp mặt."},
+      {"speaker": "白家月", "zh": "谢谢您和叔叔请我来家里做客。", "pinyin": "Xièxie nín hé shūshu qǐng wǒ lái jiālǐ zuòkè.", "vi": "Cảm ơn bác và chú đã mời cháu đến nhà chơi."},
+      {"speaker": "张阿姨", "zh": "桌子上有饮料，还有矿泉水，你想喝什么就自己拿。", "pinyin": "Zhuōzi shàng yǒu yǐnliào, hái yǒu kuàngquán shuǐ, nǐ xiǎng hē shénme jiù zìjǐ ná.", "vi": "Trên bàn có đồ uống, còn có nước khoáng, cháu muốn uống gì thì tự lấy nhé."},
+      {"speaker": "李叔叔", "zh": "你先坐着看会儿电视，饺子很快就包好了。", "pinyin": "Nǐ xiān zuò zhe kàn huìr diànshì, jiǎozi hěn kuài jiù bāo hǎo le.", "vi": "Cháu ngồi xem tivi một lát, sủi cảo sắp gói xong rồi."},
+      {"speaker": "白家月", "zh": "我刚刚看视频学会了包饺子，我跟你们一起包吧。", "pinyin": "Wǒ gānggāng kàn shìpín xuéhuì le bāo jiǎozi, wǒ gēn nǐmen yīqǐ bāo ba.", "vi": "Cháu vừa xem video học được cách gói sủi cảo rồi, cháu gói cùng với các bác nhé."}
+    ]
+  },
+  {
+    "book_level": 3, "lesson_number": 18, "text_number": 3, "type": "dialogue",
+    "scene_zh": "我学会了包饺子 (3)", "scene_vi": "Tôi học được cách gói sủi cảo rồi (3)",
+    "audio_ref": "3-18-3",
+    "content": [
+      {"speaker": "白家月", "zh": "这张照片是李文出国前照的吗？", "pinyin": "Zhè zhāng zhàopiàn shì Lǐ Wén chūguó qián zhào de ma?", "vi": "Tấm ảnh này là lúc Lý Văn chưa xuất ngoại chụp phải không ạ?"},
+      {"speaker": "张阿姨", "zh": "对，这是他从北京出发时，我们全家在机场照的。", "pinyin": "Duì, zhè shì tā cóng Běijīng chūfā shí, wǒmen quán jiā zài jīchǎng zhào de.", "vi": "Đúng, đây là lúc cháu nó xuất phát từ Bắc Kinh, cả nhà chụp ở sân bay đấy."},
+      {"speaker": "白家月", "zh": "那是三四年前吧？", "pinyin": "Nà shì sān sì nián qián ba?", "vi": "Đó là ba bốn năm trước đúng không ạ?"},
+      {"speaker": "张阿姨", "zh": "是啊，时间过得真快，好像是不久前发生的一样。", "pinyin": "Shì a, shíjiān guò de zhēn kuài, hǎoxiàng shì bùjiǔ qián fāshēng de yīyàng.", "vi": "Ừ, thời gian trôi nhanh thật, cứ như mới xảy ra gần đây thôi."},
+      {"speaker": "白家月", "zh": "您一定特别想李文吧？", "pinyin": "Nín yīdìng tèbié xiǎng Lǐ Wén ba?", "vi": "Chắc bác nhớ Lý Văn lắm đúng không ạ?"},
+      {"speaker": "张阿姨", "zh": "他刚离开家时，我很不习惯，只要几天不跟他视频，就很想他。", "pinyin": "Tā gāng líkāi jiā shí, wǒ hěn bù xíguàn, zhǐyào jǐ tiān bù gēn tā shìpín, jiù hěn xiǎng tā.", "vi": "Lúc cháu nó mới rời nhà, tôi rất không quen, chỉ cần mấy ngày không gọi video với nó là nhớ lắm."},
+      {"speaker": "白家月", "zh": "还有最后一个学期就要毕业了，他很快就会回来了。", "pinyin": "Hái yǒu zuìhòu yī ge xuéqī jiù yào bìyè le, tā hěn kuài jiù huì huílái le.", "vi": "Chỉ còn học kỳ cuối cùng nữa là tốt nghiệp rồi, chú ấy sẽ nhanh về thôi ạ."}
+    ]
+  }
+]

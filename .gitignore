@@ -34,9 +34,6 @@ next-env.d.ts
 
 # Hanzi specific ignores
 brain.db
-*.zip
-data/*.json
-!data/example.json
 hanzi-final-kit/
 
 # clerk configuration (can include secrets)

@@ -1,0 +1,137 @@
+[
+  {
+    "id":1,"character":"个","pinyin":"gè","meaning_vi":"cái, người (lượng từ phổ dụng nhất)",
+    "used_for":"Dùng cho người, đồ vật thông thường không có lượng từ riêng",
+    "category":"Phổ dụng","is_free":true,
+    "examples":[
+      {"zh":"一个人","vi":"một người"},{"zh":"两个苹果","vi":"hai quả táo"},
+      {"zh":"三个问题","vi":"ba câu hỏi"},{"zh":"四个朋友","vi":"bốn người bạn"}
+    ]
+  },
+  {
+    "id":2,"character":"本","pinyin":"běn","meaning_vi":"cuốn (dùng cho sách, vở, tạp chí)",
+    "used_for":"Dùng cho sách, vở, tạp chí, từ điển, tài liệu dạng quyển",
+    "category":"Sách vở","is_free":true,
+    "examples":[
+      {"zh":"一本书","vi":"một cuốn sách"},{"zh":"两本杂志","vi":"hai cuốn tạp chí"},
+      {"zh":"三本词典","vi":"ba cuốn từ điển"},{"zh":"一本日记","vi":"một cuốn nhật ký"}
+    ]
+  },
+  {
+    "id":3,"character":"张","pinyin":"zhāng","meaning_vi":"tờ, chiếc (dùng cho giấy tờ, bàn ghế phẳng)",
+    "used_for":"Dùng cho giấy, vé, bàn, giường, mặt người",
+    "category":"Đồ phẳng","is_free":true,
+    "examples":[
+      {"zh":"一张纸","vi":"một tờ giấy"},{"zh":"两张票","vi":"hai tờ vé"},
+      {"zh":"三张桌子","vi":"ba cái bàn"},{"zh":"一张床","vi":"một cái giường"}
+    ]
+  },
+  {
+    "id":4,"character":"条","pinyin":"tiáo","meaning_vi":"cái, sợi (dùng cho vật dài, hẹp)",
+    "used_for":"Dùng cho cá, rắn, quần, đường phố, sông, tin tức",
+    "category":"Vật dài","is_free":false,
+    "examples":[
+      {"zh":"一条鱼","vi":"một con cá"},{"zh":"一条裤子","vi":"một cái quần"},
+      {"zh":"一条路","vi":"một con đường"},{"zh":"一条新闻","vi":"một tin tức"}
+    ]
+  },
+  {
+    "id":5,"character":"只","pinyin":"zhī","meaning_vi":"con (dùng cho động vật nhỏ, đôi đồ vật)",
+    "used_for":"Dùng cho chim, mèo, chó, tay, chân (từng chiếc)",
+    "category":"Động vật","is_free":false,
+    "examples":[
+      {"zh":"一只猫","vi":"một con mèo"},{"zh":"两只鸟","vi":"hai con chim"},
+      {"zh":"一只手","vi":"một bàn tay"},{"zh":"三只鸡","vi":"ba con gà"}
+    ]
+  },
+  {
+    "id":6,"character":"杯","pinyin":"bēi","meaning_vi":"ly, cốc (đơn vị đồ uống)",
+    "used_for":"Dùng cho đồ uống: trà, cà phê, nước, bia",
+    "category":"Đồ uống","is_free":true,
+    "examples":[
+      {"zh":"一杯茶","vi":"một ly trà"},{"zh":"两杯咖啡","vi":"hai ly cà phê"},
+      {"zh":"三杯水","vi":"ba ly nước"},{"zh":"一杯啤酒","vi":"một ly bia"}
+    ]
+  },
+  {
+    "id":7,"character":"碗","pinyin":"wǎn","meaning_vi":"bát, chén (đơn vị đồ ăn)",
+    "used_for":"Dùng cho cơm, phở, súp, đồ ăn trong bát",
+    "category":"Đồ ăn","is_free":true,
+    "examples":[
+      {"zh":"一碗米饭","vi":"một bát cơm"},{"zh":"两碗面","vi":"hai tô mì"},
+      {"zh":"一碗汤","vi":"một bát canh"},{"zh":"三碗粥","vi":"ba bát cháo"}
+    ]
+  },
+  {
+    "id":8,"character":"件","pinyin":"jiàn","meaning_vi":"cái, chiếc (quần áo, việc, đồ vật)",
+    "used_for":"Dùng cho áo, việc làm, hành lý, đồ vật nói chung",
+    "category":"Quần áo","is_free":false,
+    "examples":[
+      {"zh":"一件衣服","vi":"một bộ quần áo"},{"zh":"两件事","vi":"hai việc"},
+      {"zh":"三件行李","vi":"ba kiện hành lý"},{"zh":"一件礼物","vi":"một món quà"}
+    ]
+  },
+  {
+    "id":9,"character":"双","pinyin":"shuāng","meaning_vi":"đôi (dùng cho đồ vật thành đôi)",
+    "used_for":"Dùng cho giày, tất, đũa, tay, mắt (những thứ thành đôi)",
+    "category":"Đồ đôi","is_free":false,
+    "examples":[
+      {"zh":"一双鞋","vi":"một đôi giày"},{"zh":"两双筷子","vi":"hai đôi đũa"},
+      {"zh":"三双袜子","vi":"ba đôi tất"},{"zh":"一双手","vi":"một đôi tay"}
+    ]
+  },
+  {
+    "id":10,"character":"位","pinyin":"wèi","meaning_vi":"vị (kính ngữ đếm người)",
+    "used_for":"Dùng để đếm người một cách lịch sự, trang trọng",
+    "category":"Người (kính)","is_free":false,
+    "examples":[
+      {"zh":"一位老师","vi":"một vị giáo viên"},{"zh":"两位客人","vi":"hai vị khách"},
+      {"zh":"三位医生","vi":"ba vị bác sĩ"},{"zh":"请问几位？","vi":"Xin hỏi mấy vị ạ?"}
+    ]
+  },
+  {
+    "id":11,"character":"次","pinyin":"cì","meaning_vi":"lần (đơn vị số lần)",
+    "used_for":"Dùng để đếm số lần hành động xảy ra",
+    "category":"Số lần","is_free":false,
+    "examples":[
+      {"zh":"一次","vi":"một lần"},{"zh":"两次","vi":"hai lần"},
+      {"zh":"第三次","vi":"lần thứ ba"},{"zh":"很多次","vi":"rất nhiều lần"}
+    ]
+  },
+  {
+    "id":12,"character":"层","pinyin":"céng","meaning_vi":"tầng (tầng nhà, lớp)",
+    "used_for":"Dùng cho tầng nhà, tầng lớp, lớp phủ",
+    "category":"Tầng lớp","is_free":false,
+    "examples":[
+      {"zh":"一层楼","vi":"một tầng nhà"},{"zh":"五层大楼","vi":"tòa nhà 5 tầng"},
+      {"zh":"三层蛋糕","vi":"bánh kem 3 tầng"},{"zh":"一层意思","vi":"một tầng nghĩa"}
+    ]
+  },
+  {
+    "id":13,"character":"块","pinyin":"kuài","meaning_vi":"miếng, đồng tệ",
+    "used_for":"Dùng cho vật cứng cắt thành miếng; đơn vị tiền tệ Trung Quốc",
+    "category":"Đồ vật + Tiền","is_free":true,
+    "examples":[
+      {"zh":"一块蛋糕","vi":"một miếng bánh"},{"zh":"一块钱","vi":"một đồng tệ"},
+      {"zh":"两块肉","vi":"hai miếng thịt"},{"zh":"十块钱","vi":"mười đồng tệ"}
+    ]
+  },
+  {
+    "id":14,"character":"匹","pinyin":"pǐ","meaning_vi":"con (dùng cho ngựa, vải)",
+    "used_for":"Đặc biệt dùng cho ngựa và vải tính theo cuộn",
+    "category":"Động vật đặc biệt","is_free":false,
+    "examples":[
+      {"zh":"一匹马","vi":"một con ngựa"},{"zh":"两匹布","vi":"hai cuộn vải"},
+      {"zh":"三匹马","vi":"ba con ngựa"}
+    ]
+  },
+  {
+    "id":15,"character":"节","pinyin":"jié","meaning_vi":"tiết (tiết học, phần, đốt)",
+    "used_for":"Dùng cho tiết học, phần bài, đốt tre, nút",
+    "category":"Giáo dục","is_free":false,
+    "examples":[
+      {"zh":"一节课","vi":"một tiết học"},{"zh":"两节课","vi":"hai tiết học"},
+      {"zh":"一节课45分钟","vi":"Một tiết học 45 phút"},{"zh":"第一节","vi":"phần/tiết thứ nhất"}
+    ]
+  }
+]

@@ -1,0 +1,2982 @@
+[
+  {
+    "book_level": 2,
+    "lesson_number": 1,
+    "point_number": 1,
+    "title_zh": "语气助词“吧”（2）",
+    "explanation_vi": "Các bạn chính là học sinh của cô ấy nhỉ?",
+    "formula": "Câu + 吧",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你们就是她的学生吧？",
+        "py": "",
+        "vi": "Các bạn chính là học sinh của cô ấy nhỉ?"
+      },
+      {
+        "zh": "你们就是她的学生吧",
+        "py": "",
+        "vi": "Các bạn chính là học sinh của cô ấy nhỉ?"
+      },
+      {
+        "zh": "今天星期六吧",
+        "py": "",
+        "vi": "Hôm nay thứ Bảy phải không?"
+      },
+      {
+        "zh": "他去河内吧",
+        "py": "",
+        "vi": "Anh ấy đi Hà Nội phải không?"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Các bạn chính là học sinh của cô ấy nhỉ?",
+        "segments": [
+          "你们",
+          "就是",
+          "她的",
+          "学生",
+          "吧"
+        ],
+        "answer": "你们就是她的学生吧",
+        "hint": "Cấu trúc: Câu trần thuật + 吧"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền trợ từ biểu thị sự suy đoán: 你们就是她的学生___？",
+        "answer": "吧"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Hôm nay thứ Bảy phải không?",
+        "answer": "今天星期六吧"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Anh ấy đi Hà Nội phải không?",
+        "segments": [
+          "他",
+          "去",
+          "河内",
+          "吧"
+        ],
+        "answer": "他去河内吧"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 1,
+    "point_number": 2,
+    "title_zh": "“是……的”句",
+    "explanation_vi": "Chúng tôi đến để du lịch.",
+    "formula": "(是) + Phần nhấn mạnh + Động từ/Cụm động từ + 的",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我们是来旅游的。",
+        "py": "",
+        "vi": "Chúng tôi đến để du lịch."
+      },
+      {
+        "zh": "我是坐飞机来的",
+        "py": "",
+        "vi": "Tôi đến bằng máy bay. (Nhấn mạnh phương tiện)"
+      },
+      {
+        "zh": "这件衣服是我妈妈买的",
+        "py": "",
+        "vi": "Quần áo này mẹ tôi mua đó."
+      },
+      {
+        "zh": "我是北京出生的",
+        "py": "",
+        "vi": "Tôi sinh ra ở Bắc Kinh."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu nhấn mạnh mục đích: Chúng tôi đến để du lịch.",
+        "segments": [
+          "我们",
+          "是",
+          "来",
+          "旅游",
+          "的"
+        ],
+        "answer": "我们是来旅游的",
+        "hint": "Cấu trúc nhấn mạnh: 是 ... 的"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ còn thiếu vào cấu trúc nhấn mạnh: 我们是来旅游___。",
+        "answer": "的"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi đến bằng máy bay. (Nhấn mạnh phương tiện)",
+        "answer": "我是坐飞机来的"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Quần áo này mẹ tôi mua đó.",
+        "segments": [
+          "这件衣服",
+          "是",
+          "我妈妈",
+          "买",
+          "的"
+        ],
+        "answer": "这件衣服是我妈妈买的"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi sinh ra ở Bắc Kinh.",
+        "answer": "我是北京出生的"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 他是昨天来___。",
+        "answer": "的"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 1,
+    "point_number": 3,
+    "title_zh": "兼语句",
+    "explanation_vi": "Tôi muốn nhờ bạn giúp một việc.",
+    "formula": "Chủ ngữ + 请/让/叫 + Tân ngữ + Cụm động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我想请你帮个忙。",
+        "py": "",
+        "vi": "Tôi muốn nhờ bạn giúp một việc."
+      },
+      {
+        "zh": "我想请你帮个忙",
+        "py": "",
+        "vi": "Tôi muốn nhờ bạn giúp một việc."
+      },
+      {
+        "zh": "老师让我们读课文",
+        "py": "",
+        "vi": "Thầy giáo bảo chúng tôi đọc bài."
+      },
+      {
+        "zh": "妈妈叫我回家吃饭",
+        "py": "",
+        "vi": "Mẹ gọi tôi về nhà ăn cơm."
+      },
+      {
+        "zh": "他叫我去看电影",
+        "py": "",
+        "vi": "Anh ấy bảo tôi đi xem phim."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi muốn nhờ bạn giúp một việc.",
+        "segments": [
+          "我",
+          "想",
+          "请",
+          "你",
+          "帮个忙"
+        ],
+        "answer": "我想请你帮个忙",
+        "hint": "Cấu trúc kiêm ngữ: Chủ ngữ + Động từ 1 + Kiêm ngữ + Động từ 2"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ nhờ vả: 我想___你帮个忙。",
+        "answer": "请"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Thầy giáo bảo chúng tôi đọc bài.",
+        "answer": "老师让我们读课文"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Mẹ gọi tôi về nhà ăn cơm.",
+        "segments": [
+          "妈妈",
+          "叫",
+          "我",
+          "回家",
+          "吃饭"
+        ],
+        "answer": "妈妈叫我回家吃饭"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Anh ấy bảo tôi đi xem phim.",
+        "answer": "他叫我去看电影"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 老师___我们写汉字。",
+        "answer": "让"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 2,
+    "point_number": 1,
+    "title_zh": "固定格式“还是……吧”",
+    "explanation_vi": "Chúng ta vẫn nên đi taxi đi.",
+    "formula": "hay là + Lựa chọn + 吧",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我们还是打车去吧。",
+        "py": "",
+        "vi": "Chúng ta vẫn nên đi taxi đi."
+      },
+      {
+        "zh": "我们还是喝茶吧",
+        "py": "",
+        "vi": "Chúng ta vẫn nên uống trà đi."
+      },
+      {
+        "zh": "还是买红色的吧",
+        "py": "",
+        "vi": "Vẫn cứ mua cái màu đỏ đi."
+      },
+      {
+        "zh": "还是早点睡觉吧",
+        "py": "",
+        "vi": "Vẫn cứ đi ngủ sớm đi."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Chúng ta vẫn nên đi taxi đi.",
+        "segments": [
+          "我们",
+          "还是",
+          "打车",
+          "去",
+          "吧"
+        ],
+        "answer": "我们还是打车去吧",
+        "hint": "Dùng '还是...吧' để đưa ra lời gợi ý tốt nhất"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ biểu thị sự lựa chọn tốt hơn: 我们___打车去吧。",
+        "answer": "还是"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Chúng ta vẫn nên uống trà đi.",
+        "answer": "我们还是喝茶吧"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Vẫn cứ mua cái màu đỏ đi.",
+        "segments": [
+          "还是",
+          "买",
+          "红色的",
+          "吧"
+        ],
+        "answer": "还是买红色的吧"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Vẫn cứ đi ngủ sớm đi.",
+        "answer": "还是早点睡觉吧"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: ___看书吧。",
+        "answer": "还是"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 2,
+    "point_number": 2,
+    "title_zh": "用“多”表达概数",
+    "explanation_vi": "Đại học Bắc Kinh có hơn 40.000 sinh viên đấy!",
+    "formula": "Số từ + 多 + Lượng từ / Số từ + Lượng từ + 多",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "北京大学有四万多名学生呢！",
+        "py": "",
+        "vi": "Đại học Bắc Kinh có hơn 40.000 sinh viên đấy!"
+      },
+      {
+        "zh": "我等了你十多分钟了",
+        "py": "",
+        "vi": "Tôi đợi cậu hơn mười phút rồi."
+      },
+      {
+        "zh": "一年多",
+        "py": "",
+        "vi": "Hơn một năm."
+      },
+      {
+        "zh": "三个多小时",
+        "py": "",
+        "vi": "Hơn 3 tiếng."
+      },
+      {
+        "zh": "他买了二十多本书",
+        "py": "",
+        "vi": "Anh ấy mua hơn 20 quyển sách."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ số ước lượng (hơn): 四万___名学生",
+        "answer": "多"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi đợi cậu hơn mười phút rồi.",
+        "segments": [
+          "我",
+          "等了",
+          "你",
+          "十多分钟",
+          "了"
+        ],
+        "answer": "我等了你十多分钟了"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Hơn một năm.",
+        "answer": "一年多"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ 'hơn': 500多块 -> 五百___块",
+        "answer": "多"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Hơn 3 tiếng.",
+        "answer": "三个多小时"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Anh ấy mua hơn 20 quyển sách.",
+        "segments": [
+          "他",
+          "买了",
+          "二十多本",
+          "书"
+        ],
+        "answer": "他买了二十多本书"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 2,
+    "point_number": 3,
+    "title_zh": "动词或动词性短语、主谓短语作定语",
+    "explanation_vi": "Vé xem phim họ bán cũng rất rẻ.",
+    "formula": "Cụm động từ/Cụm chủ vị + 的 + Danh từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "他们卖的电影票也很便宜。",
+        "py": "",
+        "vi": "Vé xem phim họ bán cũng rất rẻ."
+      },
+      {
+        "zh": "他们卖的电影票也很便宜",
+        "py": "",
+        "vi": "Vé xem phim họ bán cũng rất rẻ."
+      },
+      {
+        "zh": "妈妈做的菜很好吃",
+        "py": "",
+        "vi": "Đồ ăn mẹ làm rất ngon."
+      },
+      {
+        "zh": "今天的报纸在哪儿",
+        "py": "",
+        "vi": "Tờ báo hôm nay ở đâu?"
+      },
+      {
+        "zh": "正在说话的人是我老师",
+        "py": "",
+        "vi": "Người đang nói chuyện là thầy giáo tôi."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Vé xem phim họ bán cũng rất rẻ.",
+        "segments": [
+          "他们",
+          "卖的",
+          "电影票",
+          "也",
+          "很",
+          "便宜"
+        ],
+        "answer": "他们卖的电影票也很便宜",
+        "hint": "Định ngữ (Cụm động từ) + 的 + Danh từ chính"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền trợ từ kết nối định ngữ: 他们卖___电影票",
+        "answer": "的"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Đồ ăn mẹ làm rất ngon.",
+        "answer": "妈妈做的菜很好吃"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tờ báo hôm nay ở đâu?",
+        "segments": [
+          "今天的",
+          "报纸",
+          "在",
+          "哪儿"
+        ],
+        "answer": "今天的报纸在哪儿"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Người đang nói chuyện là thầy giáo tôi.",
+        "answer": "正在说话的人是我老师"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 我买___书很好看。",
+        "answer": "的"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 3,
+    "point_number": 1,
+    "title_zh": "结果补语",
+    "explanation_vi": "Đồ ăn đã làm xong cả rồi.",
+    "formula": "Động từ + Bổ ngữ kết quả (完/好/到/见/懂等)",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "菜都做好了。",
+        "py": "",
+        "vi": "Đồ ăn đã làm xong cả rồi."
+      },
+      {
+        "zh": "菜都做好了",
+        "py": "",
+        "vi": "Đồ ăn đã làm xong cả rồi."
+      },
+      {
+        "zh": "我听见了",
+        "py": "",
+        "vi": "Tôi đã nghe thấy rồi."
+      },
+      {
+        "zh": "作业做完了吗",
+        "py": "",
+        "vi": "Bài tập làm xong chưa?"
+      },
+      {
+        "zh": "我没听懂",
+        "py": "",
+        "vi": "Tôi không hiểu."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Đồ ăn đã làm xong cả rồi.",
+        "segments": [
+          "菜",
+          "都",
+          "做好了"
+        ],
+        "answer": "菜都做好了",
+        "hint": "Cấu trúc: Động từ + 好 (biểu thị kết quả đã hoàn thành tốt)"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền bổ ngữ kết quả (xong/tốt): 菜都做___了。",
+        "answer": "好"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi đã nghe thấy rồi.",
+        "answer": "我听见了"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Bài tập làm xong chưa?",
+        "segments": [
+          "作业",
+          "做完了",
+          "吗"
+        ],
+        "answer": "作业做完了吗"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi không hiểu.",
+        "answer": "我没听懂"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền bổ ngữ: 我找___我的书了。",
+        "answer": "到"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 3,
+    "point_number": 2,
+    "title_zh": "动词重叠（1）",
+    "explanation_vi": "Thế bạn nghĩ lại đi.",
+    "formula": "AA / A一A / ABAB / AAB",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "那你再想一想。",
+        "py": "",
+        "vi": "Thế bạn nghĩ lại đi."
+      },
+      {
+        "zh": "你看看这个",
+        "py": "",
+        "vi": "Bạn thử xem cái này xem."
+      },
+      {
+        "zh": "我想休息休息",
+        "py": "",
+        "vi": "Tôi muốn nghỉ ngơi một chút."
+      },
+      {
+        "zh": "讨论讨论吧",
+        "py": "",
+        "vi": "Hãy thảo luận một chút."
+      },
+      {
+        "zh": "你听一听",
+        "py": "",
+        "vi": "Bạn nghe thử xem."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung (dùng động từ lặp lại): Thế bạn nghĩ lại đi.",
+        "answer": "那你再想一想"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Bạn thử xem cái này xem.",
+        "segments": [
+          "你",
+          "看看",
+          "这个"
+        ],
+        "answer": "你看看这个"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi muốn nghỉ ngơi một chút.",
+        "answer": "我想休息休息"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Hãy thảo luận một chút.",
+        "segments": [
+          "讨论讨论",
+          "吧"
+        ],
+        "answer": "讨论讨论吧"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Bạn nghe thử xem.",
+        "answer": "你听一听"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 请你___一下。",
+        "answer": "说说"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 3,
+    "point_number": 3,
+    "title_zh": "动词重叠（2）",
+    "explanation_vi": "Tôi đã xem qua phần giới thiệu trên mạng.",
+    "formula": "A了A / AB了一下 / A了AB",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我看了看网上的介绍。",
+        "py": "",
+        "vi": "Tôi đã xem qua phần giới thiệu trên mạng."
+      },
+      {
+        "zh": "我试了试这件衣服",
+        "py": "",
+        "vi": "Tôi đã thử mặc cái áo này."
+      },
+      {
+        "zh": "我问了问他",
+        "py": "",
+        "vi": "Tôi đã hỏi qua anh ấy."
+      },
+      {
+        "zh": "她看了看照片",
+        "py": "",
+        "vi": "Cô ấy đã xem qua ảnh."
+      },
+      {
+        "zh": "我走了走",
+        "py": "",
+        "vi": "Tôi đã đi dạo một chút."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Lặp lại động từ trong quá khứ: 我看___看网上的介绍。",
+        "answer": "了"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi đã thử mặc cái áo này.",
+        "segments": [
+          "我",
+          "试了试",
+          "这件衣服"
+        ],
+        "answer": "我试了试这件衣服"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi đã hỏi qua anh ấy.",
+        "answer": "我问了问他"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Cô ấy đã xem qua ảnh.",
+        "segments": [
+          "她",
+          "看了看",
+          "照片"
+        ],
+        "answer": "她看了看照片"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi đã đi dạo một chút.",
+        "answer": "我走了走"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 我听___听音乐。",
+        "answer": "了"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 4,
+    "point_number": 1,
+    "title_zh": "动态助词“过”",
+    "explanation_vi": "Chúng ta đã đến trung tâm thương mại này chưa?",
+    "formula": "Động từ + 过",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我们来过这家商场吗？",
+        "py": "",
+        "vi": "Chúng ta đã đến trung tâm thương mại này chưa?"
+      },
+      {
+        "zh": "我们来过这家商场吗",
+        "py": "",
+        "vi": "Chúng ta đã từng đến trung tâm thương mại này chưa?"
+      },
+      {
+        "zh": "我没吃过这个菜",
+        "py": "",
+        "vi": "Tôi chưa từng ăn món này."
+      },
+      {
+        "zh": "你去过中国吗",
+        "py": "",
+        "vi": "Bạn đã từng đi Trung Quốc chưa?"
+      },
+      {
+        "zh": "我看过这个电影",
+        "py": "",
+        "vi": "Tôi đã từng xem phim này."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Chúng ta đã từng đến trung tâm thương mại này chưa?",
+        "segments": [
+          "我们",
+          "来过",
+          "这家",
+          "商场",
+          "吗"
+        ],
+        "answer": "我们来过这家商场吗",
+        "hint": "Cấu trúc: Động từ + 过 (đã từng)"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ trải nghiệm (đã từng): 我们来___这家商场吗？",
+        "answer": "过"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi chưa từng ăn món này.",
+        "answer": "我没吃过这个菜"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Bạn đã từng đi Trung Quốc chưa?",
+        "segments": [
+          "你",
+          "去过",
+          "中国",
+          "吗"
+        ],
+        "answer": "你去过中国吗"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi đã từng xem phim này.",
+        "answer": "我看过这个电影"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 他没学___汉语。",
+        "answer": "过"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 4,
+    "point_number": 2,
+    "title_zh": "因果复句“因为……，所以……”",
+    "explanation_vi": "Vì tôi thích màu trắng, nên tôi vẫn muốn mua quần áo trắng.",
+    "formula": "因为 + Nguyên nhân，所以 + Kết quả",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "因为我喜欢白色，所以我还想买白色的衣服。",
+        "py": "",
+        "vi": "Vì tôi thích màu trắng, nên tôi vẫn muốn mua quần áo trắng."
+      },
+      {
+        "zh": "因为下雨，所以我没去",
+        "py": "",
+        "vi": "Vì trời mưa nên tôi không đi."
+      },
+      {
+        "zh": "因为忙所以我没来",
+        "py": "",
+        "vi": "Vì bận nên tôi không đến."
+      },
+      {
+        "zh": "因为他很好，所以我喜欢他",
+        "py": "",
+        "vi": "Vì anh ấy tốt nên tôi thích anh ấy."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Vì tôi thích màu trắng, nên tôi vẫn muốn mua quần áo trắng.",
+        "segments": [
+          "因为",
+          "我",
+          "喜欢",
+          "白色",
+          "所以",
+          "我",
+          "还",
+          "想",
+          "买",
+          "白色的",
+          "衣服"
+        ],
+        "answer": "因为我喜欢白色所以我还想买白色的衣服",
+        "hint": "Cấu trúc: Bởi vì... cho nên..."
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ kết nối kết quả: 因为我喜欢白色，___我还想买白色的衣服。",
+        "answer": "所以"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Vì trời mưa nên tôi không đi.",
+        "answer": "因为下雨，所以我没去"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Vì bận nên tôi không đến.",
+        "segments": [
+          "因为",
+          "忙",
+          "所以",
+          "我",
+          "没来"
+        ],
+        "answer": "因为忙所以我没来"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Vì anh ấy tốt nên tôi thích anh ấy.",
+        "answer": "因为他很好，所以我喜欢他"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: ___他生病了，所以没上课。",
+        "answer": "因为"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 4,
+    "point_number": 3,
+    "title_zh": "“的”字短语",
+    "explanation_vi": "Màu đỏ, màu xanh, màu đen, bạn muốn mua cái nào?",
+    "formula": "Đại từ/Danh từ/Động từ/Tính từ + 的",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "红色的、绿色的、黑色的，你想买哪个？",
+        "py": "",
+        "vi": "Màu đỏ, màu xanh, màu đen, bạn muốn mua cái nào?"
+      },
+      {
+        "zh": "这个是他的",
+        "py": "",
+        "vi": "Cái này là của anh ấy."
+      },
+      {
+        "zh": "我要新的",
+        "py": "",
+        "vi": "Tôi muốn cái mới."
+      },
+      {
+        "zh": "这个是我的",
+        "py": "",
+        "vi": "Cái này là của tôi."
+      },
+      {
+        "zh": "我喜欢绿色的",
+        "py": "",
+        "vi": "Tôi thích cái màu xanh."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Dùng cụm '的' để nói 'Cái màu đỏ': 红色___",
+        "answer": "的"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Cái này là của anh ấy.",
+        "segments": [
+          "这个",
+          "是",
+          "他的"
+        ],
+        "answer": "这个是他的"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi muốn cái mới.",
+        "answer": "我要新的"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: Bạn bè của anh ấy -> 他___朋友",
+        "answer": "的"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Cái này là của tôi.",
+        "answer": "这个是我的"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi thích cái màu xanh.",
+        "segments": [
+          "我",
+          "喜欢",
+          "绿色的"
+        ],
+        "answer": "我喜欢绿色的"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 5,
+    "point_number": 1,
+    "title_zh": "简单趋向补语（1）",
+    "explanation_vi": "Tôi không lên trên nữa, chờ bạn ở dưới này.",
+    "formula": "Động từ + 来/去",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我不上去了，就在下面等你。",
+        "py": "",
+        "vi": "Tôi không lên trên nữa, chờ bạn ở dưới này."
+      },
+      {
+        "zh": "我不上去了就在下面等你",
+        "py": "",
+        "vi": "Tôi không lên đó nữa, ở dưới này đợi bạn."
+      },
+      {
+        "zh": "你进来吧",
+        "py": "",
+        "vi": "Hãy vào đi! (hướng về phía người nói)"
+      },
+      {
+        "zh": "她离开了",
+        "py": "",
+        "vi": "Cô ấy đi ra ngoài rồi."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi không lên đó nữa, ở dưới này đợi bạn.",
+        "segments": [
+          "我",
+          "不",
+          "上去",
+          "了",
+          "就",
+          "在",
+          "下面",
+          "等",
+          "你"
+        ],
+        "answer": "我不上去了就在下面等你",
+        "hint": "Cấu trúc: Động từ + 趋向补语 (来/去)"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ hướng đi lên (xa người nói): 我不___去了。",
+        "answer": "上"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Hãy vào đi! (hướng về phía người nói)",
+        "answer": "你进来吧"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Cô ấy đi ra ngoài rồi.",
+        "segments": [
+          "她",
+          "出去",
+          "了"
+        ],
+        "answer": "她离开了"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ hướng xuống: 老师没下___来。",
+        "answer": "楼"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 5,
+    "point_number": 2,
+    "title_zh": "简单趋向补语（2）",
+    "explanation_vi": "Các bạn khách sáo quá, còn mang nhiều quà đến thế!",
+    "formula": "Động từ + 上/下/进/出/回/过 + 来/去",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你们太客气了，还拿这么多礼物来！",
+        "py": "",
+        "vi": "Các bạn khách sáo quá, còn mang nhiều quà đến thế!"
+      },
+      {
+        "zh": "你们太客气了还拿这么多礼物来",
+        "py": "",
+        "vi": "Các bạn khách sáo quá, còn mang nhiều quà đến thế!"
+      },
+      {
+        "zh": "你买回来点儿水果吧",
+        "py": "",
+        "vi": "Cậu mua mang về một ít hoa quả đi."
+      },
+      {
+        "zh": "爸爸已经回到家了",
+        "py": "",
+        "vi": "Bố đã về đến nhà rồi."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Các bạn khách sáo quá, còn mang nhiều quà đến thế!",
+        "segments": [
+          "你们",
+          "太客气了",
+          "还",
+          "拿",
+          "这么多",
+          "礼物",
+          "来"
+        ],
+        "answer": "你们太客气了还拿这么多礼物来",
+        "hint": "Mẫu câu mang vật gì đó đến"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền bổ ngữ hướng: 他从教室跑___来了。",
+        "answer": "出"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Cậu mua mang về một ít hoa quả đi.",
+        "answer": "你买回来点儿水果吧"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Bố đã về đến nhà rồi.",
+        "segments": [
+          "爸爸",
+          "已经",
+          "回到",
+          "家",
+          "了"
+        ],
+        "answer": "爸爸已经回到家了"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 5,
+    "point_number": 3,
+    "title_zh": "固定格式“都……了”",
+    "explanation_vi": "Đã 12 giờ rồi, chúng ta ăn cơm đi.",
+    "formula": "都 + Thời gian/数量 + 了",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "都12点了，我们吃饭吧。",
+        "py": "",
+        "vi": "Đã 12 giờ rồi, chúng ta ăn cơm đi."
+      },
+      {
+        "zh": "都晚了，快睡觉吧",
+        "py": "",
+        "vi": "Đã muộn rồi, mau đi ngủ đi."
+      },
+      {
+        "zh": "都一年了我没看见他",
+        "py": "",
+        "vi": "Đã một năm rồi tôi chưa gặp anh ấy."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền từ nhấn mạnh 'đã đến mức nào đó': ___12点了。",
+        "answer": "都"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Đã muộn rồi, mau đi ngủ đi.",
+        "answer": "都晚了，快睡觉吧"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Đã một năm rồi tôi chưa gặp anh ấy.",
+        "segments": [
+          "都",
+          "一年",
+          "了",
+          "我",
+          "没看见",
+          "他"
+        ],
+        "answer": "都一年了我没看见他"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: ___十点了，你怎么还不走？",
+        "answer": "都"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 6,
+    "point_number": 1,
+    "title_zh": "形容词重叠",
+    "explanation_vi": "Anh lại mua cho em ấy một cái bánh sinh nhật thật to.",
+    "formula": "AA / AABB",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我再给她买个大大的生日蛋糕。",
+        "py": "",
+        "vi": "Anh lại mua cho em ấy một cái bánh sinh nhật thật to."
+      },
+      {
+        "zh": "她有一双大大的眼睛",
+        "py": "",
+        "vi": "Cô ấy có đôi mắt to tròn."
+      },
+      {
+        "zh": "这些花红红的",
+        "py": "",
+        "vi": "Những bông hoa này thật đỏ."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Lặp lại tính từ 'to': 大___的生日蛋糕",
+        "answer": "大"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Cô ấy có đôi mắt to tròn.",
+        "answer": "她有一双大大的眼睛"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Những bông hoa này thật đỏ.",
+        "segments": [
+          "这些",
+          "花",
+          "红红的"
+        ],
+        "answer": "这些花红红的"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Lặp lại từ 'vui vẻ': 高高___",
+        "answer": "兴兴"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 6,
+    "point_number": 2,
+    "title_zh": "固定短语“什么的”",
+    "explanation_vi": "Có bố, mẹ, em trai, còn có chó đen, mèo trắng các thứ.",
+    "formula": "A、B + 什么的",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "有爸爸、妈妈、弟弟，还有黑色的狗、白色的猫什么的。",
+        "py": "",
+        "vi": "Có bố, mẹ, em trai, còn có chó đen, mèo trắng các thứ."
+      },
+      {
+        "zh": "我喜欢吃苹果、香蕉什么的",
+        "py": "",
+        "vi": "Tôi thích ăn táo, chuối các thứ."
+      },
+      {
+        "zh": "书包里有书笔什么的",
+        "py": "",
+        "vi": "Trong cặp có sách, bút các kiểu."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền từ biểu thị liệt kê không hết (các thứ...): 黑色的狗、白色的猫___。",
+        "answer": "什么的"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi thích ăn táo, chuối các thứ.",
+        "answer": "我喜欢吃苹果、香蕉什么的"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Trong cặp có sách, bút các kiểu.",
+        "segments": [
+          "书包里",
+          "有",
+          "书",
+          "笔",
+          "什么的"
+        ],
+        "answer": "书包里有书笔什么的"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 我想买衣服、裤子___。",
+        "answer": "什么的"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 6,
+    "point_number": 3,
+    "title_zh": "结构助词“地”",
+    "explanation_vi": "Chơi một cách vui vẻ.",
+    "formula": "Tính từ + 地 + Động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "高高兴兴地玩。",
+        "py": "",
+        "vi": "Chơi một cách vui vẻ."
+      },
+      {
+        "zh": "好好地学习",
+        "py": "",
+        "vi": "Hãy học tập thật tốt."
+      },
+      {
+        "zh": "他正在认真地看书",
+        "py": "",
+        "vi": "Anh ấy đang đọc sách một cách chăm chú."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền trạng từ nối hình dung từ và động từ: 高高兴兴___玩。",
+        "answer": "地"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Hãy học tập thật tốt.",
+        "answer": "好好地学习"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Anh ấy đang đọc sách một cách chăm chú.",
+        "segments": [
+          "他",
+          "正在",
+          "认真地",
+          "看书"
+        ],
+        "answer": "他正在认真地看书"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 慢慢___吃吧。",
+        "answer": "地"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 7,
+    "point_number": 1,
+    "title_zh": "紧缩复句“……就……”",
+    "explanation_vi": "Sao cậu vừa tan học đã chạy ra ngoài thế?",
+    "formula": "一 + A + 就 + B",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你怎么一下课就往外跑？",
+        "py": "",
+        "vi": "Sao cậu vừa tan học đã chạy ra ngoài thế?"
+      },
+      {
+        "zh": "你怎么一下课就往外跑",
+        "py": "",
+        "vi": "Sao cậu vừa tan học đã chạy ngay ra ngoài thế?"
+      },
+      {
+        "zh": "他一回家就洗澡",
+        "py": "",
+        "vi": "Anh ấy vừa về đến nhà đã đi tắm."
+      },
+      {
+        "zh": "我一喝咖啡就不困了",
+        "py": "",
+        "vi": "Tôi vừa uống cà phê là hết buồn ngủ."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Sao cậu vừa tan học đã chạy ngay ra ngoài thế?",
+        "segments": [
+          "你",
+          "怎么",
+          "一",
+          "下课",
+          "就",
+          "往外跑"
+        ],
+        "answer": "你怎么一下课就往外跑",
+        "hint": "Cấu trúc: 一...就... (vừa... đã...)"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền cặp liên từ 'vừa... đã...': 你怎么___下课___往外跑？",
+        "answer": "一...就"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Anh ấy vừa về đến nhà đã đi tắm.",
+        "answer": "他一回家就洗澡"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi vừa uống cà phê là hết buồn ngủ.",
+        "segments": [
+          "我",
+          "一喝咖啡",
+          "就",
+          "不困了"
+        ],
+        "answer": "我一喝咖啡就不困了"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 7,
+    "point_number": 2,
+    "title_zh": "状态补语（1）",
+    "explanation_vi": "Tôi đá cũng tạm được.",
+    "formula": "Động từ + 得 + Tính từCụm từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我踢得还可以。",
+        "py": "",
+        "vi": "Tôi đá cũng tạm được."
+      },
+      {
+        "zh": "她说得很好",
+        "py": "",
+        "vi": "Cô ấy nói rất tốt."
+      },
+      {
+        "zh": "他写得非常慢",
+        "py": "",
+        "vi": "Anh ấy viết rất chậm."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền trạng từ nối đánh giá động từ: 我踢___还可以。",
+        "answer": "得"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Cô ấy nói rất tốt.",
+        "answer": "她说得很好"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Anh ấy viết rất chậm.",
+        "segments": [
+          "他",
+          "写得",
+          "非常",
+          "慢"
+        ],
+        "answer": "他写得非常慢"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền trợ từ: 你做什么做___最好？",
+        "answer": "得"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 7,
+    "point_number": 3,
+    "title_zh": "状态补语（2）",
+    "explanation_vi": "Cậu chơi bóng rổ thế nào?",
+    "formula": "Động từ + Tân ngữ + Động từ + 得 + Bổ ngữ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你篮球打得怎么样？",
+        "py": "",
+        "vi": "Cậu chơi bóng rổ thế nào?"
+      },
+      {
+        "zh": "你做饭做得很好吃",
+        "py": "",
+        "vi": "Cậu nấu cơm rất ngon."
+      },
+      {
+        "zh": "他跑得不快",
+        "py": "",
+        "vi": "Anh ấy chạy không nhanh."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu hỏi đánh giá: Cậu chơi bóng rổ thế nào?",
+        "segments": [
+          "你",
+          "篮球",
+          "打得",
+          "怎么样"
+        ],
+        "answer": "你篮球打得怎么样",
+        "hint": "Cấu trúc: Danh từ (tân ngữ) + Động từ + 得 + Trạng từ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền động từ đúng cấu trúc: 你英语说___真流利。",
+        "answer": "得"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Cậu nấu cơm rất ngon.",
+        "answer": "你做饭做得很好吃"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Anh ấy chạy không nhanh.",
+        "segments": [
+          "他",
+          "跑得",
+          "不快"
+        ],
+        "answer": "他跑得不快"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 8,
+    "point_number": 1,
+    "title_zh": "比较句（1）",
+    "explanation_vi": "Cái bên trái đẹp hơn cái bên phải.",
+    "formula": "A 比 B + Tính từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "左边的比右边的好看。",
+        "py": "",
+        "vi": "Cái bên trái đẹp hơn cái bên phải."
+      },
+      {
+        "zh": "我哥哥比我高",
+        "py": "",
+        "vi": "Anh trai tôi cao hơn tôi."
+      },
+      {
+        "zh": "今天比昨天热",
+        "py": "",
+        "vi": "Hôm nay nóng hơn hôm qua."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu so sánh: Cái bên trái đẹp hơn cái bên phải.",
+        "segments": [
+          "左边的",
+          "比",
+          "右边的",
+          "好看"
+        ],
+        "answer": "左边的比右边的好看",
+        "hint": "Cấu trúc: A 比 B + Tính từ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ để so sánh 'hơn': 左边的___右边的好看。",
+        "answer": "比"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Anh trai tôi cao hơn tôi.",
+        "answer": "我哥哥比我高"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Hôm nay nóng hơn hôm qua.",
+        "segments": [
+          "今天",
+          "比",
+          "昨天",
+          "热"
+        ],
+        "answer": "今天比昨天热"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 8,
+    "point_number": 2,
+    "title_zh": "比较句（2）",
+    "explanation_vi": "Bộ phim này còn thú vị hơn phim tình cảm kia.",
+    "formula": "A 比 B + 更/还 + Tính từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "这个电影比那个爱情片更有意思。",
+        "py": "",
+        "vi": "Bộ phim này còn thú vị hơn phim tình cảm kia."
+      },
+      {
+        "zh": "汉语比英语还难",
+        "py": "",
+        "vi": "Tiếng Trung còn khó hơn tiếng Anh."
+      },
+      {
+        "zh": "跑步比游泳还累",
+        "py": "",
+        "vi": "Chạy bộ còn mệt hơn bơi lội."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền phó từ mức độ so sánh: 这个电影比那个爱情片___有意思。",
+        "answer": "更"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tiếng Trung còn khó hơn tiếng Anh.",
+        "answer": "汉语比英语还难"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Chạy bộ còn mệt hơn bơi lội.",
+        "segments": [
+          "跑步",
+          "比",
+          "游泳",
+          "还累"
+        ],
+        "answer": "跑步比游泳还累"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền phó từ mức độ: 苹果比西瓜___便宜。",
+        "answer": "更"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 8,
+    "point_number": 3,
+    "title_zh": "转折复句“虽然……，但是……”",
+    "explanation_vi": "Tuy em quên, nhưng anh vẫn nhớ.",
+    "formula": "虽然 + A，但是 + B",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "虽然你忘了，但是我记得。",
+        "py": "",
+        "vi": "Tuy em quên, nhưng anh vẫn nhớ."
+      },
+      {
+        "zh": "虽然他没有钱，但是他很幸福",
+        "py": "",
+        "vi": "Tuy anh ấy không có tiền, nhưng anh ấy rất hạnh phúc."
+      },
+      {
+        "zh": "虽然外面很冷但是里面很暖和",
+        "py": "",
+        "vi": "Tuy bên ngoài rất lạnh, nhưng bên trong rất ấm áp."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu chuyển ngoặt: Tuy em quên, nhưng anh vẫn nhớ.",
+        "segments": [
+          "虽然",
+          "你",
+          "忘了",
+          "但是",
+          "我",
+          "记得"
+        ],
+        "answer": "虽然你忘了但是我记得",
+        "hint": "Cấu trúc: Mặc dù... nhưng..."
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền liên từ chuyển ngoặt: 虽然你忘了，___我记得。",
+        "answer": "但是"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền liên từ chuyển ngoặt: 虽然你忘了，___我记得。",
+        "answer": " nhưng "
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tuy anh ấy không có tiền, nhưng anh ấy rất hạnh phúc.",
+        "answer": "虽然他没有钱，但是他很幸福"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tuy bên ngoài rất lạnh, nhưng bên trong rất ấm áp.",
+        "segments": [
+          "虽然",
+          "外面很冷",
+          "但是",
+          "里面很暖和"
+        ],
+        "answer": "虽然外面很冷但是里面很暖和"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 9,
+    "point_number": 1,
+    "title_zh": "比较句（3）",
+    "explanation_vi": "Con trai không cao bằng anh ấy.",
+    "formula": "A 没有 B + Tính từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "儿子的个子没有他那么高。",
+        "py": "",
+        "vi": "Con trai không cao bằng anh ấy."
+      },
+      {
+        "zh": "我的汉语没有他那么好",
+        "py": "",
+        "vi": "Tiếng Trung của tôi không tốt bằng anh ấy."
+      },
+      {
+        "zh": "这个城市没有那个城市那么热闹",
+        "py": "",
+        "vi": "Thành phố này không náo nhiệt bằng thành phố kia."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Con trai không cao bằng anh ấy.",
+        "segments": [
+          "儿子的",
+          "个子",
+          "没有",
+          "他",
+          "那么高"
+        ],
+        "answer": "儿子的个子没有他那么高",
+        "hint": "Cấu trúc so sánh 'không bằng': A 没有 B + Tính từ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ so sánh không bằng: 儿子的个子___他那么高。",
+        "answer": "没有"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tiếng Trung của tôi không tốt bằng anh ấy.",
+        "answer": "我的汉语没有他那么好"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Thành phố này không náo nhiệt bằng thành phố kia.",
+        "segments": [
+          "这个城市",
+          "没有",
+          "那个城市",
+          "那么热闹"
+        ],
+        "answer": "这个城市没有那个城市那么热闹"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 9,
+    "point_number": 2,
+    "title_zh": "动词“离”",
+    "explanation_vi": "Quán cà phê hơi xa chỗ này.",
+    "formula": "A 离 B + 远/近/距离",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "咖啡店离这儿有点儿远。",
+        "py": "",
+        "vi": "Quán cà phê hơi xa chỗ này."
+      },
+      {
+        "zh": "我家离学校很近",
+        "py": "",
+        "vi": "Nhà tôi cách trường học rất gần."
+      },
+      {
+        "zh": "公司离银行多远",
+        "py": "",
+        "vi": "Công ty cách ngân hàng bao xa?"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ khoảng cách: 咖啡店___这儿有点儿远。",
+        "answer": "离"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Nhà tôi cách trường học rất gần.",
+        "answer": "我家离学校很近"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Công ty cách ngân hàng bao xa?",
+        "segments": [
+          "公司",
+          "离",
+          "银行",
+          "多远"
+        ],
+        "answer": "公司离银行多远"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 车站___这儿只有五百米。",
+        "answer": "离"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 9,
+    "point_number": 3,
+    "title_zh": "时量补语（1）",
+    "explanation_vi": "Đi bộ hơn nửa tiếng là đến.",
+    "formula": "Động từ + Thời gian段",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "走半个多小时就到了。",
+        "py": "",
+        "vi": "Đi bộ hơn nửa tiếng là đến."
+      },
+      {
+        "zh": "走半个多小时就到了",
+        "py": "",
+        "vi": "Đi bộ hơn nửa tiếng là đến."
+      },
+      {
+        "zh": "我学了两年的汉语",
+        "py": "",
+        "vi": "Tôi đã học tiếng Trung được hai năm."
+      },
+      {
+        "zh": "他已经等了一个小时了",
+        "py": "",
+        "vi": "Anh ấy đã đợi một tiếng đồng hồ rồi."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Đi bộ hơn nửa tiếng là đến.",
+        "segments": [
+          "走",
+          "半个多小时",
+          "就",
+          "到了"
+        ],
+        "answer": "走半个多小时就到了",
+        "hint": "Cấu trúc: Động từ + Thời gian + 就 + Kết quả"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ thời gian: 我每天工作八个___。",
+        "answer": "小时"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi đã học tiếng Trung được hai năm.",
+        "answer": "我学了两年的汉语"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Anh ấy đã đợi một tiếng đồng hồ rồi.",
+        "segments": [
+          "他",
+          "已经",
+          "等了",
+          "一个小时",
+          "了"
+        ],
+        "answer": "他已经等了一个小时了"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 10,
+    "point_number": 1,
+    "title_zh": "主谓谓语句",
+    "explanation_vi": "Cậu có nhìn thấy cặp sách của tôi không?",
+    "formula": "Chủ ngữ + Cụm chủ vị",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我的书包你看见了吗？",
+        "py": "",
+        "vi": "Cậu có nhìn thấy cặp sách của tôi không?"
+      },
+      {
+        "zh": "我的书包你看见了吗",
+        "py": "",
+        "vi": "Cậu có nhìn thấy cặp sách của tôi không?"
+      },
+      {
+        "zh": "他汉语说得很好",
+        "py": "",
+        "vi": "Tiếng Trung anh ấy nói rất tốt."
+      },
+      {
+        "zh": "这个菜我做好了",
+        "py": "",
+        "vi": "Món ăn này tôi làm xong rồi."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Cậu có nhìn thấy cặp sách của tôi không?",
+        "segments": [
+          "我的",
+          "书包",
+          "你",
+          "看见",
+          "了",
+          "吗"
+        ],
+        "answer": "我的书包你看见了吗",
+        "hint": "Chủ ngữ lớn (Đối tượng) + Chủ ngữ nhỏ + Động từ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: ___杯子，你洗了吗？",
+        "answer": "那个"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tiếng Trung anh ấy nói rất tốt.",
+        "answer": "他汉语说得很好"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Món ăn này tôi làm xong rồi.",
+        "segments": [
+          "这个菜",
+          "我",
+          "做好了"
+        ],
+        "answer": "这个菜我做好了"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 10,
+    "point_number": 2,
+    "title_zh": "选择问句",
+    "explanation_vi": "Là cô chuẩn bị thi hay tôi chuẩn bị thi?",
+    "formula": "(是) A hay là B",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "是您准备考试还是我准备考试？",
+        "py": "",
+        "vi": "Là cô chuẩn bị thi hay tôi chuẩn bị thi?"
+      },
+      {
+        "zh": "你喜欢喝咖啡还是喝茶",
+        "py": "",
+        "vi": "Bạn thích uống cà phê hay uống trà?"
+      },
+      {
+        "zh": "是你去还是我去",
+        "py": "",
+        "vi": "Là anh đi hay tôi đi?"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền liên từ chọn lựa trong câu hỏi: 是您准备考试___我准备考试？",
+        "answer": "还是"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Bạn thích uống cà phê hay uống trà?",
+        "answer": "你喜欢喝咖啡还是喝茶"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Là anh đi hay tôi đi?",
+        "segments": [
+          "是",
+          "你去",
+          "还是",
+          "我去"
+        ],
+        "answer": "是你去还是我去"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 你想买新的___买旧 patch的？",
+        "answer": "还是"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 10,
+    "point_number": 3,
+    "title_zh": "固定格式“要/快/快要/就要……了”",
+    "explanation_vi": "Đồ ăn sắp làm xong rồi.",
+    "formula": "要/快/快要/就要 + Cụm động từ + 了",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "饭菜快要做好了。",
+        "py": "",
+        "vi": "Đồ ăn sắp làm xong rồi."
+      },
+      {
+        "zh": "饭菜快要做好了",
+        "py": "",
+        "vi": "Đồ ăn sắp làm xong rồi."
+      },
+      {
+        "zh": "飞机快要起飞了",
+        "py": "",
+        "vi": "Máy bay sắp cất cánh rồi."
+      },
+      {
+        "zh": "就要下雨了",
+        "py": "",
+        "vi": "Trời sắp mưa rồi."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Đồ ăn sắp làm xong rồi.",
+        "segments": [
+          "饭菜",
+          "快要",
+          "做好",
+          "了"
+        ],
+        "answer": "饭菜快要做好了",
+        "hint": "Cấu trúc: Sắp... rồi"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ sự sắp xảy ra: 饭菜___要做好了。",
+        "answer": "快"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Máy bay sắp cất cánh rồi.",
+        "answer": "飞机快要起飞了"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Trời sắp mưa rồi.",
+        "segments": [
+          "就要",
+          "下雨",
+          "了"
+        ],
+        "answer": "就要下雨了"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 11,
+    "point_number": 1,
+    "title_zh": "动态助词“着”（1）",
+    "explanation_vi": "Thế em ngồi đây đi.",
+    "formula": "Động từ + 着",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "那你在这儿坐着。",
+        "py": "",
+        "vi": "Thế em ngồi đây đi."
+      },
+      {
+        "zh": "他笑着看我",
+        "py": "",
+        "vi": "Anh ấy đang cười nhìn tôi."
+      },
+      {
+        "zh": "门开着呢",
+        "py": "",
+        "vi": "Cửa đang mở."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền trợ từ biểu thị duy trì trạng thái: 那你在这儿坐___。",
+        "answer": "着"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Anh ấy đang cười nhìn tôi.",
+        "answer": "他笑着看我"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Cửa đang mở.",
+        "segments": [
+          "门",
+          "开着",
+          "呢"
+        ],
+        "answer": "门开着呢"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 老师手里拿___一本书。",
+        "answer": "着"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 11,
+    "point_number": 2,
+    "title_zh": "动态助词“着”（2）",
+    "explanation_vi": "Bây giờ đường nhiều xe, lại còn đang có tuyết rơi.",
+    "formula": "Động từ + 着 + Tân ngữ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "现在路上车多，还下着雪。",
+        "py": "",
+        "vi": "Bây giờ đường nhiều xe, lại còn đang có tuyết rơi."
+      },
+      {
+        "zh": "现在路上车多还下着雪",
+        "py": "",
+        "vi": "Bây giờ đường nhiều xe, lại còn đang có tuyết rơi."
+      },
+      {
+        "zh": "桌子上放着一杯咖啡",
+        "py": "",
+        "vi": "Trên bàn có đặt một ly cà phê."
+      },
+      {
+        "zh": "她穿着一件白色的衬衫",
+        "py": "",
+        "vi": "Cô ấy đang mặc một chiếc áo sơ mi màu trắng."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Bây giờ đường nhiều xe, lại còn đang có tuyết rơi.",
+        "segments": [
+          "现在",
+          "路上",
+          "车多",
+          "还",
+          "下着雪"
+        ],
+        "answer": "现在路上车多还下着雪",
+        "hint": "Cấu trúc: Động từ + 着 + Tân ngữ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 墙上挂___一张图。",
+        "answer": "着"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Trên bàn có đặt một ly cà phê.",
+        "answer": "桌子上放着一杯咖啡"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Cô ấy đang mặc một chiếc áo sơ mi màu trắng.",
+        "segments": [
+          "她",
+          "穿着",
+          "一件",
+          "白色的",
+          "衬衫"
+        ],
+        "answer": "她穿着一件白色的衬衫"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 11,
+    "point_number": 3,
+    "title_zh": "程度副词“最”",
+    "explanation_vi": "Cậu thích nhất là ăn đồ Trung Quốc.",
+    "formula": "最 + Tính từ/心理Động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你最喜欢吃中国菜。",
+        "py": "",
+        "vi": "Cậu thích nhất là ăn đồ Trung Quốc."
+      },
+      {
+        "zh": "这是最好看的电影",
+        "py": "",
+        "vi": "Đây là bộ phim hay nhất."
+      },
+      {
+        "zh": "他跑得最快",
+        "py": "",
+        "vi": "Anh ấy chạy nhanh nhất."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền phó từ mức độ 'nhất': 你___喜欢吃中国菜。",
+        "answer": "最"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Đây là bộ phim hay nhất.",
+        "answer": "这是最好看的电影"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Anh ấy chạy nhanh nhất.",
+        "segments": [
+          "他",
+          "跑得",
+          "最快"
+        ],
+        "answer": "他跑得最快"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 谁___聪明？",
+        "answer": "最"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 12,
+    "point_number": 1,
+    "title_zh": "比较句（4）",
+    "explanation_vi": "Chỗ tôi lạnh hơn Bắc Kinh nhiều.",
+    "formula": "A 比 B + Tính từ + 多了/得多",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我这里比北京冷多了。",
+        "py": "",
+        "vi": "Chỗ tôi lạnh hơn Bắc Kinh nhiều."
+      },
+      {
+        "zh": "这个西瓜比那个大得多",
+        "py": "",
+        "vi": "Quả dưa hấu này to hơn quả kia nhiều."
+      },
+      {
+        "zh": "今天天气比昨天好多了",
+        "py": "",
+        "vi": "Hôm nay đẹp trời hơn hôm qua nhiều."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu so sánh mức độ lớn: Chỗ tôi lạnh hơn Bắc Kinh nhiều.",
+        "segments": [
+          "我这里",
+          "比",
+          "北京",
+          "冷多了"
+        ],
+        "answer": "我这里比北京冷多了",
+        "hint": "Cấu trúc: A 比 B + Tính từ + 多了"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ so sánh độ chênh lệch: 这件衣服比那件贵___。",
+        "answer": "得多"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Quả dưa hấu này to hơn quả kia nhiều.",
+        "answer": "这个西瓜比那个大得多"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Hôm nay đẹp trời hơn hôm qua nhiều.",
+        "segments": [
+          "今天",
+          "天气",
+          "比",
+          "昨天",
+          "好多了"
+        ],
+        "answer": "今天天气比昨天好多了"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 12,
+    "point_number": 2,
+    "title_zh": "比较句（5）",
+    "explanation_vi": "Hôm qua tuyết rơi to hơn hôm nay.",
+    "formula": "A 比 B + 状态Bổ ngữ / 状态Bổ ngữ + 比 B",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "昨天比今天下得大。",
+        "py": "",
+        "vi": "Hôm qua tuyết rơi to hơn hôm nay."
+      },
+      {
+        "zh": "他汉语说得比我流利",
+        "py": "",
+        "vi": "Anh ấy nói tiếng Trung trôi chảy hơn tôi."
+      },
+      {
+        "zh": "她唱得比我好听",
+        "py": "",
+        "vi": "Cô ấy hát hay hơn tôi."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền trợ từ trong bổ ngữ trạng thái: 昨天比今天下___大。",
+        "answer": "得"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Anh ấy nói tiếng Trung trôi chảy hơn tôi.",
+        "answer": "他汉语说得比我流利"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Cô ấy hát hay hơn tôi.",
+        "segments": [
+          "她",
+          "唱得",
+          "比",
+          "我",
+          "好听"
+        ],
+        "answer": "她唱得比我好听"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 妹妹写字写___比我漂亮。",
+        "answer": "得"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 12,
+    "point_number": 3,
+    "title_zh": "比较句（6）",
+    "explanation_vi": "Cậu chạy nhanh hơn tôi.",
+    "formula": "Động từ + Tân ngữ + Động từ + 得 + 比 + Bổ ngữ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你跑步跑得比我快。",
+        "py": "",
+        "vi": "Cậu chạy nhanh hơn tôi."
+      },
+      {
+        "zh": "你跑步跑得比我快",
+        "py": "",
+        "vi": "Cậu chạy nhanh hơn tôi."
+      },
+      {
+        "zh": "他学得比我好",
+        "py": "",
+        "vi": "Anh ấy học giỏi hơn tôi."
+      },
+      {
+        "zh": "她准备得比他认真",
+        "py": "",
+        "vi": "Cô ấy chuẩn bị bài kỹ hơn anh ấy."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Cậu chạy nhanh hơn tôi.",
+        "segments": [
+          "你",
+          "跑步",
+          "跑得",
+          "比",
+          "我",
+          "快"
+        ],
+        "answer": "你跑步跑得比我快",
+        "hint": "Cấu trúc so sánh hành động"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ so sánh: 他来___比你早。",
+        "answer": "得"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Anh ấy học giỏi hơn tôi.",
+        "answer": "他学得比我好"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Cô ấy chuẩn bị bài kỹ hơn anh ấy.",
+        "segments": [
+          "她",
+          "准备得",
+          "比",
+          "他",
+          "认真"
+        ],
+        "answer": "她准备得比他认真"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 13,
+    "point_number": 1,
+    "title_zh": "双宾语句（2）",
+    "explanation_vi": "Thì tặng hoa cho cô ấy đi.",
+    "formula": "Chủ ngữ + 拿/送/卖 + 给 + 间接Tân ngữ + 直接Tân ngữ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "就送给她花吧。",
+        "py": "",
+        "vi": "Thì tặng hoa cho cô ấy đi."
+      },
+      {
+        "zh": "就送给她花吧",
+        "py": "",
+        "vi": "Thì tặng hoa cho cô ấy đi."
+      },
+      {
+        "zh": "他送给我一个礼物",
+        "py": "",
+        "vi": "Anh ấy tặng tôi một món quà."
+      },
+      {
+        "zh": "妈妈给我买了一件衣服",
+        "py": "",
+        "vi": "Mẹ mua cho tôi một bộ quần áo."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Thì tặng hoa cho cô ấy đi.",
+        "segments": [
+          "就",
+          "送给",
+          "她",
+          "花",
+          "吧"
+        ],
+        "answer": "就送给她花吧",
+        "hint": "Cấu trúc: Tặng + Cho ai + Vật gì"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ đối tượng nhận: 请把这本书交给___。",
+        "answer": "老师"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Anh ấy tặng tôi một món quà.",
+        "answer": "他送给我一个礼物"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Mẹ mua cho tôi một bộ quần áo.",
+        "segments": [
+          "妈妈",
+          "给我",
+          "买了",
+          "一件衣服"
+        ],
+        "answer": "妈妈给我买了一件衣服"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 13,
+    "point_number": 2,
+    "title_zh": "比较句（7）",
+    "explanation_vi": "Từ hôm nay nhiều hơn hôm qua mười từ.",
+    "formula": "A 比 B + Tính từ + Cụm số lượng",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "今天的词比昨天多了十个。",
+        "py": "",
+        "vi": "Từ hôm nay nhiều hơn hôm qua mười từ."
+      },
+      {
+        "zh": "他比我高五厘米",
+        "py": "",
+        "vi": "Anh ấy cao hơn tôi 5 cm."
+      },
+      {
+        "zh": "这本书比那本书贵五块钱",
+        "py": "",
+        "vi": "Quyển sách này đắt hơn quyển kia 5 tệ."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền từ so sánh: 今天的词___昨天多了十个。",
+        "answer": "比"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Anh ấy cao hơn tôi 5 cm.",
+        "answer": "他比我高五厘米"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Quyển sách này đắt hơn quyển kia 5 tệ.",
+        "segments": [
+          "这本书",
+          "比",
+          "那本书",
+          "贵五块钱"
+        ],
+        "answer": "这本书比那本书贵五块钱"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 他的英语比我学___好两年。",
+        "answer": "得"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 13,
+    "point_number": 3,
+    "title_zh": "比较句（8）",
+    "explanation_vi": "Đắt hơn cuốn vở chúng ta mua cùng nhau một chút.",
+    "formula": "A 比 B + Tính từ + 一点儿/一些",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "比我们一起买的那个本子贵一点儿。",
+        "py": "",
+        "vi": "Đắt hơn cuốn vở chúng ta mua cùng nhau một chút."
+      },
+      {
+        "zh": "今天比昨天暖和一些",
+        "py": "",
+        "vi": "Hôm nay ấm áp hơn hôm qua một chút."
+      },
+      {
+        "zh": "这件衣服比那件小一点儿",
+        "py": "",
+        "vi": "Cái áo này nhỏ hơn cái áo kia một tí."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ mức độ chênh lệch ít: 比原来贵___。",
+        "answer": "一点儿"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Hôm nay ấm áp hơn hôm qua một chút.",
+        "answer": "今天比昨天暖和一些"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Cái áo này nhỏ hơn cái áo kia một tí.",
+        "segments": [
+          "这件衣服",
+          "比",
+          "那件",
+          "小一点儿"
+        ],
+        "answer": "这件衣服比那件小一点儿"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 他的汉语比我___一些。",
+        "answer": "好"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 14,
+    "point_number": 1,
+    "title_zh": "存现句（2）",
+    "explanation_vi": "Dưới tầng nhà cậu có một người đang đứng.",
+    "formula": "处所 + Động từ + 着 + 人/事物",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你家楼下站着一个人。",
+        "py": "",
+        "vi": "Dưới tầng nhà cậu có một người đang đứng."
+      },
+      {
+        "zh": "你家楼下站着一个人",
+        "py": "",
+        "vi": "Dưới tầng nhà cậu có một người đang đứng."
+      },
+      {
+        "zh": "墙上挂着一张全家福",
+        "py": "",
+        "vi": "Trên tường có treo một bức ảnh gia đình."
+      },
+      {
+        "zh": "房间里坐着几个客人",
+        "py": "",
+        "vi": "Trong phòng có ngồi mấy người khách."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Dưới tầng nhà cậu có một người đang đứng.",
+        "segments": [
+          "你家",
+          "楼下",
+          "站着",
+          "一个人"
+        ],
+        "answer": "你家楼下站着一个人",
+        "hint": "Địa điểm + Động từ + 着 + Người/Vật"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 桌子上放___很多书。",
+        "answer": "着"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Trên tường có treo một bức ảnh gia đình.",
+        "answer": "墙上挂着一张全家福"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Trong phòng có ngồi mấy người khách.",
+        "segments": [
+          "房间里",
+          "坐着",
+          "几个客人"
+        ],
+        "answer": "房间里坐着几个客人"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 14,
+    "point_number": 2,
+    "title_zh": "程度副词“多”",
+    "explanation_vi": "Một mình cậu ở đây chán chết đi được!",
+    "formula": "多 + Tính từ + 啊",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你一个人在这儿多没意思啊！",
+        "py": "",
+        "vi": "Một mình cậu ở đây chán chết đi được!"
+      },
+      {
+        "zh": "这个孩子多可爱啊",
+        "py": "",
+        "vi": "Đứa trẻ này đáng yêu quá!"
+      },
+      {
+        "zh": "这里的风景多美啊",
+        "py": "",
+        "vi": "Phong cảnh ở đây đẹp biết bao!"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền phó từ mức độ trong câu cảm thán: 你一个人在这儿___没意思啊！",
+        "answer": "多"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Đứa trẻ này đáng yêu quá!",
+        "answer": "这个孩子多可爱啊"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Phong cảnh ở đây đẹp biết bao!",
+        "segments": [
+          "这里的",
+          "风景",
+          "多美啊"
+        ],
+        "answer": "这里的风景多美啊"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 听这首歌___舒服啊！",
+        "answer": "多"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 14,
+    "point_number": 3,
+    "title_zh": "复合趋向补语",
+    "explanation_vi": "Em ấy thường chạy lên trên tìm tôi chơi.",
+    "formula": "Động từ + 上/下/进/出/回/过 + 来/去",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "她经常跑上来找我玩。",
+        "py": "",
+        "vi": "Em ấy thường chạy lên trên tìm tôi chơi."
+      },
+      {
+        "zh": "老师走进教室去了",
+        "py": "",
+        "vi": "Thầy giáo đi vào trong lớp học rồi."
+      },
+      {
+        "zh": "把这些书拿过去吧",
+        "py": "",
+        "vi": "Hãy mang những cuốn sách này sang bên kia."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền bổ ngữ xu hướng kép: 她经常跑___来找我玩。",
+        "answer": "上"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Thầy giáo đi vào trong lớp học rồi.",
+        "answer": "老师走进教室去了"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Hãy mang những cuốn sách này sang bên kia.",
+        "segments": [
+          "把",
+          "这些书",
+          "拿过去",
+          "吧"
+        ],
+        "answer": "把这些书拿过去吧"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: 太阳跳___来了。",
+        "answer": "出"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 15,
+    "point_number": 1,
+    "title_zh": "动量补语（1）",
+    "explanation_vi": "Tuy đã đi một lần rồi, nhưng rất muốn đi thêm một lần nữa.",
+    "formula": "Động từ + Số từ + 次",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "虽然去过一次，但是很想去再去一次。",
+        "py": "",
+        "vi": "Tuy đã đi một lần rồi, nhưng rất muốn đi thêm một lần nữa."
+      },
+      {
+        "zh": "虽然去过一次但是很想再去一次",
+        "py": "",
+        "vi": "Tuy đã đi một lần, nhưng rất muốn đi thêm một lần nữa."
+      },
+      {
+        "zh": "我给他打过两次电话了",
+        "py": "",
+        "vi": "Tôi đã gọi cho anh ấy hai lần rồi."
+      },
+      {
+        "zh": "请再读一次课文",
+        "py": "",
+        "vi": "Hãy đọc bài khóa thêm một lần nữa."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tuy đã đi một lần, nhưng rất muốn đi thêm một lần nữa.",
+        "segments": [
+          "虽然",
+          "去过一次",
+          "但是",
+          "很想",
+          "再去一次"
+        ],
+        "answer": "虽然去过一次但是很想再去一次",
+        "hint": "Cấu trúc: Động từ + 次"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ số lần: 那个电影我看了三___。",
+        "answer": "次"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi đã gọi cho anh ấy hai lần rồi.",
+        "answer": "我给他打过两次电话了"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Hãy đọc bài khóa thêm một lần nữa.",
+        "segments": [
+          "请",
+          "再读一次",
+          "课文"
+        ],
+        "answer": "请再读一次课文"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 15,
+    "point_number": 2,
+    "title_zh": "动量补语（2）",
+    "explanation_vi": "Tôi muốn ăn thêm một lần vịt quay Bắc Kinh nữa.",
+    "formula": "Động từ + Đại từ + 动量Bổ ngữ / Động từ + 动量Bổ ngữ + 事物Danh từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我想再吃一次烤鸭。",
+        "py": "",
+        "vi": "Tôi muốn ăn thêm một lần vịt quay Bắc Kinh nữa."
+      },
+      {
+        "zh": "我找了你三次",
+        "py": "",
+        "vi": "Tôi đã tìm bạn ba lần rồi."
+      },
+      {
+        "zh": "这首歌我听了很多次",
+        "py": "",
+        "vi": "Tôi đã nghe bài hát này rất nhiều lần."
+      },
+      {
+        "zh": "请再读一次课文",
+        "py": "",
+        "vi": "Hãy đọc bài khóa thêm một lần nữa."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi đã tìm bạn ba lần rồi.",
+        "segments": [
+          "我",
+          "找了",
+          "你",
+          "三次"
+        ],
+        "answer": "我找了你三次"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền bổ ngữ chỉ số lần: 我找了你三___。",
+        "answer": "次"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi đã nghe bài hát này rất nhiều lần.",
+        "answer": "这首歌我听了很多次"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Hãy đọc bài khóa thêm một lần nữa.",
+        "segments": [
+          "请",
+          "再读一次",
+          "课文"
+        ],
+        "answer": "请再读一次课文"
+      }
+    ],
+    "is_free": false
+  },
+  {
+    "book_level": 2,
+    "lesson_number": 15,
+    "point_number": 3,
+    "title_zh": "“有”字句（2）",
+    "explanation_vi": "Cậu đã một năm chưa về nước rồi nhỉ?",
+    "formula": "有 + Cụm số lượng",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你有一年没回国了吧？",
+        "py": "",
+        "vi": "Cậu đã một năm chưa về nước rồi nhỉ?"
+      },
+      {
+        "zh": "他有十几年没写汉字了",
+        "py": "",
+        "vi": "Anh ấy đã mười mấy năm không viết chữ Hán rồi."
+      },
+      {
+        "zh": "我有半个月没喝咖啡了",
+        "py": "",
+        "vi": "Tôi đã có nửa tháng chưa uống cà phê rồi."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền từ biểu thị thời gian kéo dài: 你___一年没回国了吧？",
+        "answer": "有"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Anh ấy đã mười mấy năm không viết chữ Hán rồi.",
+        "answer": "他有十几年没写汉字了"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi đã có nửa tháng chưa uống cà phê rồi.",
+        "segments": [
+          "我有",
+          "半个月",
+          "没喝",
+          "咖啡了"
+        ],
+        "answer": "我有半个月没喝咖啡了"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: ___ 很久没下雨 rồi (Có khoảng thời gian dài chưa mưa).",
+        "answer": "有"
+      }
+    ],
+    "is_free": false
+  }
+]

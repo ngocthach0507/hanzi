@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1, "hsk_level": 1, "title_vi": "Chào hỏi và giới thiệu bản thân", "title_zh": "打招呼和自我介绍",
+    "topic": "greeting", "difficulty": "Dễ", "is_free": true, "order_num": 1,
+    "content": [
+      {"role":"A","name":"Minh","zh":"你好！","pinyin":"Nǐ hǎo!","vi":"Xin chào!"},
+      {"role":"B","name":"Lan","zh":"你好！你叫什么名字？","pinyin":"Nǐ hǎo! Nǐ jiào shénme míngzi?","vi":"Xin chào! Bạn tên là gì?"},
+      {"role":"A","name":"Minh","zh":"我叫阮明。你呢？","pinyin":"Wǒ jiào Ruǎn Míng. Nǐ ne?","vi":"Tôi tên là Nguyễn Minh. Còn bạn?"},
+      {"role":"B","name":"Lan","zh":"我叫陈兰。很高兴认识你！","pinyin":"Wǒ jiào Chén Lán. Hěn gāoxìng rènshi nǐ!","vi":"Tôi tên là Trần Lan. Rất vui được gặp bạn!"},
+      {"role":"A","name":"Minh","zh":"我也很高兴认识你！你是哪国人？","pinyin":"Wǒ yě hěn gāoxìng rènshi nǐ! Nǐ shì nǎ guó rén?","vi":"Tôi cũng rất vui! Bạn là người nước nào?"},
+      {"role":"B","name":"Lan","zh":"我是越南人。你呢？","pinyin":"Wǒ shì Yuènán rén. Nǐ ne?","vi":"Tôi là người Việt Nam. Còn bạn?"},
+      {"role":"A","name":"Minh","zh":"我也是越南人！我在学汉语。","pinyin":"Wǒ yě shì Yuènán rén! Wǒ zài xué Hànyǔ.","vi":"Tôi cũng là người Việt Nam! Tôi đang học tiếng Trung."}
+    ],
+    "vocabulary": [
+      {"zh":"名字","pinyin":"míngzi","vi":"tên"},
+      {"zh":"高兴","pinyin":"gāoxìng","vi":"vui mừng"},
+      {"zh":"认识","pinyin":"rènshi","vi":"quen biết"},
+      {"zh":"哪国人","pinyin":"nǎ guó rén","vi":"người nước nào"}
+    ]
+  },
+  {
+    "id": 2, "hsk_level": 1, "title_vi": "Hỏi thăm sức khỏe", "title_zh": "问候健康",
+    "topic": "greeting", "difficulty": "Dễ", "is_free": true, "order_num": 2,
+    "content": [
+      {"role":"A","name":"Thầy","zh":"同学们好！","pinyin":"Tóngxuémen hǎo!","vi":"Chào các em học sinh!"},
+      {"role":"B","name":"HS","zh":"老师好！","pinyin":"Lǎoshī hǎo!","vi":"Chào thầy!"},
+      {"role":"A","name":"Thầy","zh":"你们今天好吗？","pinyin":"Nǐmen jīntiān hǎo ma?","vi":"Hôm nay các em có khỏe không?"},
+      {"role":"B","name":"HS","zh":"很好，谢谢老师！老师您好吗？","pinyin":"Hěn hǎo, xièxie lǎoshī! Lǎoshī nín hǎo ma?","vi":"Rất khỏe, cảm ơn thầy! Thầy có khỏe không?"},
+      {"role":"A","name":"Thầy","zh":"我也很好，谢谢！我们开始上课吧。","pinyin":"Wǒ yě hěn hǎo, xièxie! Wǒmen kāishǐ shàngkè ba.","vi":"Thầy cũng rất khỏe, cảm ơn! Chúng ta bắt đầu học thôi."}
+    ],
+    "vocabulary": [
+      {"zh":"同学","pinyin":"tóngxué","vi":"bạn cùng lớp"},
+      {"zh":"今天","pinyin":"jīntiān","vi":"hôm nay"},
+      {"zh":"开始","pinyin":"kāishǐ","vi":"bắt đầu"},
+      {"zh":"上课","pinyin":"shàngkè","vi":"lên lớp, học bài"}
+    ]
+  },
+  {
+    "id": 3, "hsk_level": 1, "title_vi": "Mua sắm tại cửa hàng", "title_zh": "在商店购物",
+    "topic": "shopping", "difficulty": "Dễ", "is_free": false, "order_num": 3,
+    "content": [
+      {"role":"A","name":"Khách","zh":"你好！这个多少钱？","pinyin":"Nǐ hǎo! Zhège duōshao qián?","vi":"Xin chào! Cái này bao nhiêu tiền?"},
+      {"role":"B","name":"Bán","zh":"这个二十块钱。","pinyin":"Zhège èrshí kuài qián.","vi":"Cái này 20 tệ."},
+      {"role":"A","name":"Khách","zh":"有没有便宜一点的？","pinyin":"Yǒu méiyǒu piányí yīdiǎn de?","vi":"Có loại rẻ hơn một chút không?"},
+      {"role":"B","name":"Bán","zh":"这个十五块，怎么样？","pinyin":"Zhège shíwǔ kuài, zěnmeyàng?","vi":"Cái này 15 tệ, được không?"},
+      {"role":"A","name":"Khách","zh":"好的，我买这个。给你钱。","pinyin":"Hǎo de, wǒ mǎi zhège. Gěi nǐ qián.","vi":"Được rồi, tôi mua cái này. Đây tiền của bạn."},
+      {"role":"B","name":"Bán","zh":"谢谢！找你五块钱。","pinyin":"Xièxie! Zhǎo nǐ wǔ kuài qián.","vi":"Cảm ơn! Thối lại bạn 5 tệ."}
+    ],
+    "vocabulary": [
+      {"zh":"便宜","pinyin":"piányí","vi":"rẻ"},
+      {"zh":"怎么样","pinyin":"zěnmeyàng","vi":"thế nào"},
+      {"zh":"找钱","pinyin":"zhǎo qián","vi":"thối tiền"}
+    ]
+  },
+  {
+    "id": 4, "hsk_level": 1, "title_vi": "Đặt món ở nhà hàng", "title_zh": "在餐厅点菜",
+    "topic": "restaurant", "difficulty": "Dễ", "is_free": false, "order_num": 4,
+    "content": [
+      {"role":"A","name":"Bồi","zh":"您好，请问几位？","pinyin":"Nín hǎo, qǐngwèn jǐ wèi?","vi":"Xin chào, xin hỏi mấy người ạ?"},
+      {"role":"B","name":"Khách","zh":"两位。","pinyin":"Liǎng wèi.","vi":"Hai người."},
+      {"role":"A","name":"Bồi","zh":"请坐。这是菜单。","pinyin":"Qǐng zuò. Zhè shì càidān.","vi":"Mời ngồi. Đây là thực đơn."},
+      {"role":"B","name":"Khách","zh":"谢谢。我要一碗米饭和一个炒菜。","pinyin":"Xièxie. Wǒ yào yī wǎn mǐfàn hé yī gè chǎocài.","vi":"Cảm ơn. Tôi muốn một bát cơm và một đĩa xào."},
+      {"role":"A","name":"Bồi","zh":"好的。喝什么？","pinyin":"Hǎo de. Hē shénme?","vi":"Vâng. Uống gì ạ?"},
+      {"role":"B","name":"Khách","zh":"一杯茶，谢谢。","pinyin":"Yī bēi chá, xièxie.","vi":"Một ly trà, cảm ơn."},
+      {"role":"A","name":"Bồi","zh":"好，请稍等。","pinyin":"Hǎo, qǐng shāo děng.","vi":"Vâng, xin chờ một chút."}
+    ],
+    "vocabulary": [
+      {"zh":"菜单","pinyin":"càidān","vi":"thực đơn"},
+      {"zh":"碗","pinyin":"wǎn","vi":"bát"},
+      {"zh":"炒菜","pinyin":"chǎocài","vi":"món xào"},
+      {"zh":"稍等","pinyin":"shāo děng","vi":"chờ một chút"}
+    ]
+  },
+  {
+    "id": 5, "hsk_level": 2, "title_vi": "Hỏi đường", "title_zh": "问路",
+    "topic": "direction", "difficulty": "Dễ-TB", "is_free": false, "order_num": 1,
+    "content": [
+      {"role":"A","name":"Du khách","zh":"请问，去火车站怎么走？","pinyin":"Qǐngwèn, qù huǒchēzhàn zěnme zǒu?","vi":"Xin hỏi, đi đến nhà ga tàu lửa thế nào?"},
+      {"role":"B","name":"Dân địa phương","zh":"你一直走，然后在第二个路口左转。","pinyin":"Nǐ yīzhí zǒu, ránhòu zài dì èr gè lùkǒu zuǒ zhuǎn.","vi":"Bạn đi thẳng, rồi rẽ trái ở ngã tư thứ hai."},
+      {"role":"A","name":"Du khách","zh":"左转以后呢？","pinyin":"Zuǒ zhuǎn yǐhòu ne?","vi":"Sau khi rẽ trái thì sao?"},
+      {"role":"B","name":"Dân địa phương","zh":"走五分钟就到了。火车站在左边。","pinyin":"Zǒu wǔ fēnzhōng jiù dào le. Huǒchēzhàn zài zuǒbiān.","vi":"Đi 5 phút là đến. Nhà ga ở bên trái."},
+      {"role":"A","name":"Du khách","zh":"谢谢你！","pinyin":"Xièxie nǐ!","vi":"Cảm ơn bạn!"},
+      {"role":"B","name":"Dân địa phương","zh":"不客气，祝你旅途愉快！","pinyin":"Bú kèqi, zhù nǐ lǚtú yúkuài!","vi":"Không có gì, chúc bạn có chuyến đi vui vẻ!"}
+    ],
+    "vocabulary": [
+      {"zh":"一直","pinyin":"yīzhí","vi":"thẳng, liên tục"},
+      {"zh":"路口","pinyin":"lùkǒu","vi":"ngã tư, ngã ba"},
+      {"zh":"左转","pinyin":"zuǒ zhuǎn","vi":"rẽ trái"},
+      {"zh":"右转","pinyin":"yòu zhuǎn","vi":"rẽ phải"},
+      {"zh":"旅途愉快","pinyin":"lǚtú yúkuài","vi":"chúc thượng lộ bình an"}
+    ]
+  }
+]

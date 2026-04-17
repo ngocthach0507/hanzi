@@ -1,0 +1,3578 @@
+[
+  {
+    "book_level": 1,
+    "lesson_number": 1,
+    "point_number": 1,
+    "title_zh": "汉语的基本语序",
+    "explanation_vi": "Tôi tên là Trần Thiên Trung.",
+    "formula": "Chủ ngữ + Vị ngữ + Tân ngữ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我叫陈天中。",
+        "py": "",
+        "vi": "Tôi tên là Trần Thiên Trung.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "S",
+            "label": "Chủ ngữ"
+          },
+          {
+            "text": "叫",
+            "role": "V",
+            "label": "Vị ngữ"
+          },
+          {
+            "text": "陈天中",
+            "role": "O",
+            "label": "Tân ngữ"
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Tôi tên là Trần Thiên Trung.",
+        "segments": [
+          "我",
+          "叫",
+          "陈天中"
+        ],
+        "answer": "我叫陈天中",
+        "hint": "Cấu trúc: Chủ ngữ + Động từ + Tân ngữ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ thích hợp: 我___陈天中。",
+        "answer": "叫",
+        "hint": "Dùng động từ 'gọi là'"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch câu sau sang tiếng Trung: Tôi tên là Trần Thiên Trung.",
+        "answer": "我叫陈天中"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Tôi tên là Trần Thiên Trung: ___叫陈天中。",
+        "answer": "我",
+        "hint": "Cần đại từ nhân xưng ngôi thứ nhất"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 2,
+    "point_number": 1,
+    "title_zh": "汉语的基本语序",
+    "explanation_vi": "Tôi tên là Bạch Gia Nguyệt.",
+    "formula": "Chủ ngữ + Vị ngữ + Tân ngữ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我叫白家月。",
+        "py": "",
+        "vi": "Tôi tên là Bạch Gia Nguyệt.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "S",
+            "label": "Chủ ngữ"
+          },
+          {
+            "text": "叫",
+            "role": "V",
+            "label": "Vị ngữ"
+          },
+          {
+            "text": "白家月",
+            "role": "O",
+            "label": "Tân ngữ"
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Tôi tên là Bạch Gia Nguyệt.",
+        "segments": [
+          "我",
+          "叫",
+          "白家月"
+        ],
+        "answer": "我叫白家月",
+        "hint": "Chào hỏi: Tôi + tên là + Tên"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ thích hợp: 我___白家月。",
+        "answer": "叫"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Tôi tên là Bạch Gia Nguyệt.",
+        "answer": "我叫白家月"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Tôi tên là Bạch Gia Nguyệt: 我___白家月。",
+        "answer": "叫",
+        "hint": "Dùng động từ 'gọi là'"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 3,
+    "point_number": 1,
+    "title_zh": "“是”字句",
+    "explanation_vi": "Tôi là người Pháp.",
+    "formula": "Chủ ngữ + 是 + Tân ngữ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我是法国人。",
+        "py": "",
+        "vi": "Tôi là người Pháp.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "S",
+            "label": "Chủ ngữ"
+          },
+          {
+            "text": "是",
+            "role": "V",
+            "label": "Vị ngữ"
+          },
+          {
+            "text": "法国人",
+            "role": "O",
+            "label": "Tân ngữ"
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Tôi là người Pháp.",
+        "segments": [
+          "我",
+          "是",
+          "法国人"
+        ],
+        "answer": "我是法国人",
+        "hint": "Cấu trúc: A là B"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ thích hợp: 我___法国人。",
+        "answer": "是"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Tôi là người Pháp.",
+        "answer": "我是法国人"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu phủ định: Tôi không phải là người Pháp.",
+        "segments": [
+          "我",
+          "不是",
+          "法国人"
+        ],
+        "answer": "我不是法国人",
+        "hint": "Cấu trúc phủ định: Chủ ngữ + 不是 + Tân ngữ"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 3,
+    "point_number": 2,
+    "title_zh": "结构助词“的”",
+    "explanation_vi": "Giáo viên tiếng Trung của Bạch Gia Nguyệt",
+    "formula": "Định ngữ + 的 + 中心语",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "白家月的中文老师",
+        "py": "",
+        "vi": "Giáo viên tiếng Trung của Bạch Gia Nguyệt",
+        "analysis": [
+          {
+            "text": "白家月",
+            "role": "S",
+            "label": "Định ngữ"
+          },
+          {
+            "text": "的",
+            "role": "P",
+            "label": "Trợ từ"
+          },
+          {
+            "text": "中文老师",
+            "role": "O",
+            "label": "Trung tâm ngữ"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp cụm từ: Giáo viên tiếng Trung của Bạch Gia Nguyệt",
+        "segments": [
+          "白家月",
+          "的",
+          "中文",
+          "老师"
+        ],
+        "answer": "白家月的中文老师",
+        "hint": "Cấu trúc: Sở hữu + 的 + Đối tượng"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền trợ từ thích hợp: 白家月___中文老师",
+        "answer": "的"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Giáo viên tiếng Trung của Bạch Gia Nguyệt",
+        "answer": "白家月的中文老师"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Giáo viên của tôi: 我___老师",
+        "answer": "的",
+        "hint": "Sở hữu cách"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 3,
+    "point_number": 3,
+    "title_zh": "用“吗”的是非问句",
+    "explanation_vi": "Bạn có phải là học sinh không?",
+    "formula": "陈述句 + 吗？",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你是学生吗？",
+        "py": "",
+        "vi": "Bạn có phải là học sinh không?",
+        "analysis": [
+          {
+            "text": "你",
+            "role": "S",
+            "label": "Chủ ngữ"
+          },
+          {
+            "text": "是",
+            "role": "V",
+            "label": "Vị ngữ"
+          },
+          {
+            "text": "学生",
+            "role": "O",
+            "label": "Tân ngữ"
+          },
+          {
+            "text": "吗",
+            "role": "P",
+            "label": "Trợ từ"
+          },
+          {
+            "text": "？",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu hỏi: Bạn có phải là học sinh không?",
+        "segments": [
+          "你",
+          "是",
+          "学生",
+          "吗"
+        ],
+        "answer": "你是学生吗",
+        "hint": "Câu hỏi dùng '吗' ở cuối câu"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ để tạo câu hỏi: 你是学生___？",
+        "answer": "吗"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Bạn có phải là học sinh không?",
+        "answer": "你是学生吗"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Bạn có phải là người Việt Nam không: 你是越南人___？",
+        "answer": "吗",
+        "hint": "Trợ từ nghi vấn"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 4,
+    "point_number": 1,
+    "title_zh": "“有”字句（1）",
+    "explanation_vi": "Cô ấy có hai mươi học sinh.",
+    "formula": "Chủ ngữ + 有 + Tân ngữ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "她有二十个学生。",
+        "py": "",
+        "vi": "Cô ấy có hai mươi học sinh.",
+        "analysis": [
+          {
+            "text": "她",
+            "role": "S",
+            "label": "Chủ ngữ"
+          },
+          {
+            "text": "有",
+            "role": "V",
+            "label": "Vị ngữ"
+          },
+          {
+            "text": "二十个",
+            "role": "O",
+            "label": "Số lượng"
+          },
+          {
+            "text": "学生",
+            "role": "O",
+            "label": "Tân ngữ"
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Cô ấy có 20 học sinh.",
+        "segments": [
+          "她",
+          "有",
+          "二十个",
+          "学生"
+        ],
+        "answer": "她有二十个学生",
+        "hint": "Cấu trúc: Chủ ngữ + 有 + Số lượng + Danh từ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ thích hợp: 她___二十个学生。",
+        "answer": "有"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Cô ấy có 20 học sinh.",
+        "answer": "她有二十个学生"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu phủ định: Tôi không có anh trai.",
+        "segments": [
+          "我",
+          "没有",
+          "哥哥"
+        ],
+        "answer": "我没有哥哥",
+        "hint": "Cấu trúc phủ định: 主语 + 没有 + 宾语"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 4,
+    "point_number": 2,
+    "title_zh": "数字的表达",
+    "explanation_vi": "22, 999",
+    "formula": "0–99, 百, 千, 万",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "二十二，九百九十九",
+        "py": "",
+        "vi": "22, 999"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Viết số 999 bằng chữ Hán: ___",
+        "answer": "九百九十九"
+      },
+      {
+        "type": "q_a",
+        "question": "Số 22 đọc là gì?",
+        "answer": "二十二"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Số 100 đọc là: 一___",
+        "answer": "百"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp số: 99",
+        "segments": [
+          "九",
+          "十",
+          "九"
+        ],
+        "answer": "九十九"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 4,
+    "point_number": 3,
+    "title_zh": "语气助词“呢”（1）",
+    "explanation_vi": "Tôi có hai anh trai, còn bạn thì sao?",
+    "formula": "A……，B呢？",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我有两个哥哥，你呢？",
+        "py": "",
+        "vi": "Tôi có hai anh trai, còn bạn thì sao?"
+      },
+      {
+        "zh": "我有两个孩子他呢",
+        "py": "",
+        "vi": "Tôi có hai đứa con, còn anh ấy?",
+        "analysis": [
+          {
+            "text": "我有",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "两个孩子",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "他呢",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Tôi có 2 anh trai, còn bạn?",
+        "segments": [
+          "我",
+          "有",
+          "两个",
+          "哥哥",
+          "你",
+          "呢"
+        ],
+        "answer": "我有两个哥哥你呢",
+        "hint": "Dùng '呢' để hỏi ngược lại"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Hoàn thành câu hỏi: 我有两个哥哥，你___？",
+        "answer": "呢"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Còn bạn thì sao?",
+        "answer": "你呢"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi có hai đứa con, còn anh ấy?",
+        "segments": [
+          "我有",
+          "两个孩子",
+          "他呢"
+        ],
+        "answer": "我有两个孩子他呢"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 4,
+    "point_number": 4,
+    "title_zh": "名量词和名量结构",
+    "explanation_vi": "Bốn người trong gia đình, hai anh trai",
+    "formula": "Số từ + Lượng từ + (Danh từ)",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "四口人，两个哥哥",
+        "py": "",
+        "vi": "Bốn người trong gia đình, hai anh trai"
+      },
+      {
+        "zh": "四口人",
+        "py": "",
+        "vi": "4 người (trong gia đình)",
+        "analysis": [
+          {
+            "text": "四",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "口",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "人",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "二十个学生",
+        "py": "",
+        "vi": "20 học sinh",
+        "analysis": [
+          {
+            "text": "二十个",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "学生",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: 4 người (trong gia đình)",
+        "segments": [
+          "四",
+          "口",
+          "人"
+        ],
+        "answer": "四口人",
+        "hint": "Dùng lượng từ '口' cho thành viên gia đình"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền lượng từ phù hợp cho 'gia đình': 四___人",
+        "answer": "口"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Hai người anh trai",
+        "answer": "两个哥哥"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: 20 học sinh",
+        "segments": [
+          "二十个",
+          "学生"
+        ],
+        "answer": "二十个学生"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 5,
+    "point_number": 1,
+    "title_zh": "时间的表达（1）",
+    "explanation_vi": "Ngày 22 tháng 5 năm 2025, thứ Tư",
+    "formula": "年 → 月 → 日/号 → 星期",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "2025年5月22号，星期三",
+        "py": "",
+        "vi": "Ngày 22 tháng 5 năm 2025, thứ Tư"
+      },
+      {
+        "zh": "5月1号",
+        "py": "",
+        "vi": "Ngày 1 tháng 5",
+        "analysis": [
+          {
+            "text": "5月",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "1号",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp thời gian: 22/05/2025",
+        "segments": [
+          "2025年",
+          "5月",
+          "22号"
+        ],
+        "answer": "2025年5月22号",
+        "hint": "Quy tắc: To đến nhỏ (Năm -> Tháng -> Ngày)"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Tháng 5 nói là: 5___",
+        "answer": "月"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Thứ Tư",
+        "answer": "星期三"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Ngày 1 tháng 5",
+        "segments": [
+          "5月",
+          "1号"
+        ],
+        "answer": "5月1号"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 5,
+    "point_number": 2,
+    "title_zh": "名词谓语句",
+    "explanation_vi": "Hôm nay là ngày 1 tháng 5.",
+    "formula": "Chủ ngữ + Danh từ性成分",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "今天5月1号。",
+        "py": "",
+        "vi": "Hôm nay là ngày 1 tháng 5.",
+        "analysis": [
+          {
+            "text": "今天",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "5月",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "1号",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "今天2025年",
+        "py": "",
+        "vi": "Hôm nay là năm 2025.",
+        "analysis": [
+          {
+            "text": "今天",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "2025年",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Hôm nay là ngày 1 tháng 5.",
+        "segments": [
+          "今天",
+          "5月",
+          "1号"
+        ],
+        "answer": "今天5月1号",
+        "hint": "Câu nêu thời gian không cần dùng '是'"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Hôm nay là ngày 1 tháng 5.",
+        "answer": "今天5月1号"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: Hôm nay thứ Hai. 今天___二。",
+        "answer": "星期"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Hôm nay là năm 2025.",
+        "segments": [
+          "今天",
+          "2025年"
+        ],
+        "answer": "今天2025年"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 5,
+    "point_number": 3,
+    "title_zh": "能愿动词“会”",
+    "explanation_vi": "Tôi biết nấu ăn.",
+    "formula": "会 + Động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我会做饭。",
+        "py": "",
+        "vi": "Tôi biết nấu ăn.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "V",
+            "label": "Vị ngữ"
+          },
+          {
+            "text": "会",
+            "role": "V",
+            "label": "Động từ"
+          },
+          {
+            "text": "做饭",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Tôi biết nấu ăn.",
+        "segments": [
+          "我",
+          "会",
+          "做饭"
+        ],
+        "answer": "我会做饭",
+        "hint": "Cấu trúc: Biết làm gì đó qua học tập"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ thích hợp: 我___做饭。",
+        "answer": "会"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Tôi biết nấu ăn.",
+        "answer": "我会做饭"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Câu phủ định: Tôi không biết nấu ăn. 我___会做饭。",
+        "answer": "不"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 6,
+    "point_number": 1,
+    "title_zh": "能愿动词“想”",
+    "explanation_vi": "Tôi muốn đi siêu thị.",
+    "formula": "想 + Động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我想去超市。",
+        "py": "",
+        "vi": "Tôi muốn đi siêu thị.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "V",
+            "label": "Vị ngữ"
+          },
+          {
+            "text": "想",
+            "role": "V",
+            "label": "Động từ"
+          },
+          {
+            "text": "去",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "超市",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Tôi muốn đi siêu thị.",
+        "segments": [
+          "我",
+          "想",
+          "去",
+          "超市"
+        ],
+        "answer": "我想去超市",
+        "hint": "Cấu trúc: Chủ ngữ + 想 + Động từ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ thích hợp: 我___去超市。",
+        "answer": "想",
+        "hint": "Dùng từ biểu thị mong muốn"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Tôi muốn đi siêu thị.",
+        "answer": "我想去超市"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Tôi không muốn đi: 我___想去。",
+        "answer": "不"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 6,
+    "point_number": 2,
+    "title_zh": "连动句（1）",
+    "explanation_vi": "Tôi đi siêu thị mua đồ.",
+    "formula": "Cụm động từ + Cụm động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我去超市买东西。",
+        "py": "",
+        "vi": "Tôi đi siêu thị mua đồ.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "去",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "超市",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "买",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "东西",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "我去学校学习汉语",
+        "py": "",
+        "vi": "Tôi đến trường học tiếng Trung.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "去学校",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "学习汉语",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Tôi đi siêu thị mua đồ.",
+        "segments": [
+          "我",
+          "去",
+          "超市",
+          "买",
+          "东西"
+        ],
+        "answer": "我去超市买东西",
+        "hint": "Cấu trúc: Đi đâu + Làm gì"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền động từ thích hợp: 我去超市___东西。",
+        "answer": "买"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Tôi đi siêu thị mua đồ.",
+        "answer": "我去超市买东西"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi đến trường học tiếng Trung.",
+        "segments": [
+          "我",
+          "去学校",
+          "学习汉语"
+        ],
+        "answer": "我去学校学习汉语"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 6,
+    "point_number": 3,
+    "title_zh": "疑问代词“怎么”",
+    "explanation_vi": "Bạn đi siêu thị bằng cách nào?",
+    "formula": "怎么 + Động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你怎么去超市？",
+        "py": "",
+        "vi": "Bạn đi siêu thị bằng cách nào?",
+        "analysis": [
+          {
+            "text": "你",
+            "role": "V",
+            "label": "Vị ngữ"
+          },
+          {
+            "text": "怎么",
+            "role": "V",
+            "label": "Động từ"
+          },
+          {
+            "text": "去",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "超市",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "？",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "他怎么去",
+        "py": "",
+        "vi": "Anh ấy đi bằng cách nào?",
+        "analysis": [
+          {
+            "text": "他",
+            "role": "V",
+            "label": "Vị ngữ"
+          },
+          {
+            "text": "怎么去",
+            "role": "V",
+            "label": "Động từ"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu hỏi: Bạn đi siêu thị bằng cách nào?",
+        "segments": [
+          "你",
+          "怎么",
+          "去",
+          "超市"
+        ],
+        "answer": "你怎么去超市",
+        "hint": "Dùng '怎么' để hỏi về phương thức"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ để hỏi phương thức: 你___去超市？",
+        "answer": "怎么"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Bạn đi như thế nào?",
+        "answer": "你怎么去"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Anh ấy đi bằng cách nào?",
+        "segments": [
+          "他",
+          "怎么去"
+        ],
+        "answer": "他怎么去"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 7,
+    "point_number": 1,
+    "title_zh": "时间的表达（2）",
+    "explanation_vi": "10 giờ 10 phút sáng",
+    "formula": "点 + 分",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "上午十点十分",
+        "py": "",
+        "vi": "10 giờ 10 phút sáng",
+        "analysis": [
+          {
+            "text": "上午",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "十点",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "十分",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "下午两点",
+        "py": "",
+        "vi": "2 giờ chiều",
+        "analysis": [
+          {
+            "text": "下午",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "两点",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: 10 giờ 10 phút sáng",
+        "segments": [
+          "上午",
+          "十点",
+          "十分"
+        ],
+        "answer": "上午十点十分",
+        "hint": "Cấu trúc: Buổi + Giờ + Phút"
+      },
+      {
+        "type": "fill_blank",
+        "question": "10 giờ nói là: 十___",
+        "answer": "点"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: 10 giờ 10 phút",
+        "answer": "十点十分"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: 2 giờ chiều",
+        "segments": [
+          "下午",
+          "两点"
+        ],
+        "answer": "下午两点"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 7,
+    "point_number": 2,
+    "title_zh": "语气助词“吧”（1）",
+    "explanation_vi": "Chúng mình gặp nhau lúc 2 giờ chiều nhé.",
+    "formula": "Câu + 吧",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我们下午两点见吧。",
+        "py": "",
+        "vi": "Chúng mình gặp nhau lúc 2 giờ chiều nhé.",
+        "analysis": [
+          {
+            "text": "我们",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "下午",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "两点",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "见",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "吧",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "吃饭吧",
+        "py": "",
+        "vi": "Ăn cơm đi.",
+        "analysis": [
+          {
+            "text": "吃",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "饭",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "吧",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu rủ rê: Chúng mình gặp nhau lúc 2 giờ chiều nhé.",
+        "segments": [
+          "我们",
+          "下午",
+          "两点",
+          "见",
+          "吧"
+        ],
+        "answer": "我们下午两点见吧",
+        "hint": "Dùng '吧' ở cuối câu để đưa ra lời đề nghị"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ để đề nghị: 我们见___。",
+        "answer": "吧"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Chúng ta đi thôi.",
+        "answer": "我们走吧"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Ăn cơm đi.",
+        "segments": [
+          "吃",
+          "饭",
+          "吧"
+        ],
+        "answer": "吃饭吧"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 7,
+    "point_number": 3,
+    "title_zh": "副词、时间词语作状语的位置",
+    "explanation_vi": "Chiều nay tôi không đi học.",
+    "formula": "Từ chỉ thời gian + Động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我下午不去学校。",
+        "py": "",
+        "vi": "Chiều nay tôi không đi học.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "下午",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "不",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "去",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "学校",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "我晚上在家",
+        "py": "",
+        "vi": "Tối nay tôi ở nhà.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "晚上",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "在",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "家",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Chiều nay tôi không đi học.",
+        "segments": [
+          "我",
+          "下午",
+          "不",
+          "去",
+          "学校"
+        ],
+        "answer": "我下午不去学校",
+        "hint": "Thời gian đứng sau chủ ngữ hoặc đầu câu"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền trạng từ phủ định đúng vị trí: 我下午___去学校。",
+        "answer": "不"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Sáng nay tôi không uống cà phê.",
+        "answer": "我上午不喝咖啡"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tối nay tôi ở nhà.",
+        "segments": [
+          "我",
+          "晚上",
+          "在",
+          "家"
+        ],
+        "answer": "我晚上在家"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 7,
+    "point_number": 4,
+    "title_zh": "语气助词“呢”（2）",
+    "explanation_vi": "Chiều nay tôi vẫn còn tiết học đấy.",
+    "formula": "Câu + 呢",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我下午 còn tiết học呢。",
+        "py": "",
+        "vi": "Chiều nay tôi vẫn còn tiết học đấy."
+      },
+      {
+        "zh": "我工作呢",
+        "py": "",
+        "vi": "Tôi vẫn đang làm việc đây.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "工作",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "呢",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền trợ từ nhấn mạnh: 我下午还有课___。",
+        "answer": "呢"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Anh ấy vẫn còn ở trường đấy.",
+        "answer": "他在学校呢"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi vẫn đang làm việc đây.",
+        "segments": [
+          "我",
+          "工作",
+          "呢"
+        ],
+        "answer": "我工作呢"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền trợ từ: Bạn đang làm gì thế? 你干什么___？",
+        "answer": "呢"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 8,
+    "point_number": 1,
+    "title_zh": "方位词",
+    "explanation_vi": "Trong phòng có một chú mèo nhỏ.",
+    "formula": "上、下、里、外、前、后、外边",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "房间里有一只小猫。",
+        "py": "",
+        "vi": "Trong phòng có một chú mèo nhỏ.",
+        "analysis": [
+          {
+            "text": "房间",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "里",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "有",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "一只",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "小猫",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "前边有一个人",
+        "py": "",
+        "vi": "Phía trước có một người.",
+        "analysis": [
+          {
+            "text": "前边",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "有",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "一个人",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Trong phòng có 1 chú mèo nhỏ.",
+        "segments": [
+          "房间",
+          "里",
+          "有",
+          "一只",
+          "小猫"
+        ],
+        "answer": "房间里有一只小猫",
+        "hint": "Địa điểm + 方位词 + 有 + Sự vật"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ phương hướng: 房间___有一只小猫。",
+        "answer": "里",
+        "hint": "Có nghĩa là 'trong'"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Trên bàn có một cái điện thoại.",
+        "answer": "桌子上有一个手机"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Phía trước có một người.",
+        "segments": [
+          "前边",
+          "有",
+          "一个人"
+        ],
+        "answer": "前边有一个人"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 8,
+    "point_number": 2,
+    "title_zh": "介词“在”",
+    "explanation_vi": "Tôi ăn trưa ở trường.",
+    "formula": "在 + Địa điểm + Động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我在学校吃午饭。",
+        "py": "",
+        "vi": "Tôi ăn trưa ở trường.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "在",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "学校",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "吃",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "午饭",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "我们在中国学习汉语",
+        "py": "",
+        "vi": "Chúng tôi học tiếng Trung ở Trung Quốc.",
+        "analysis": [
+          {
+            "text": "我们",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "在",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "中国",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "学习汉语",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Tôi ăn trưa ở trường.",
+        "segments": [
+          "我",
+          "在",
+          "学校",
+          "吃",
+          "午饭"
+        ],
+        "answer": "我在学校吃午饭",
+        "hint": "Chủ ngữ + 在 + Địa điểm + Động từ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền giới từ thích hợp: 我___学校吃午饭。",
+        "answer": "在"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Anh ấy làm việc ở bệnh viện.",
+        "answer": "他在医院工作"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Chúng tôi học tiếng Trung ở Trung Quốc.",
+        "segments": [
+          "我们",
+          "在",
+          "中国",
+          "学习汉语"
+        ],
+        "answer": "我们在中国学习汉语"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 8,
+    "point_number": 3,
+    "title_zh": "能愿动词“能”",
+    "explanation_vi": "2 giờ chiều bạn có thể đến được không?",
+    "formula": "能 + Động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "下午两点你能到吗？",
+        "py": "",
+        "vi": "2 giờ chiều bạn có thể đến được không?",
+        "analysis": [
+          {
+            "text": "下午",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "两点",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "你",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "能",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "到",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "吗",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "？",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "你能帮我吗",
+        "py": "",
+        "vi": "Bạn có thể giúp tôi không?",
+        "analysis": [
+          {
+            "text": "你",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "能",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "帮我",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "吗",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu hỏi: 2 giờ chiều bạn có thể đến được không?",
+        "segments": [
+          "下午",
+          "两点",
+          "你",
+          "能",
+          "到",
+          "吗"
+        ],
+        "answer": "下午两点你能到吗",
+        "hint": "Cấu trúc: Có thể làm gì đó không?"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ khả năng: 下午两点你___到吗？",
+        "answer": "能"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Tôi không thể đi.",
+        "answer": "我不能去"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Bạn có thể giúp tôi không?",
+        "segments": [
+          "你",
+          "能",
+          "帮我",
+          "吗"
+        ],
+        "answer": "你能帮我吗"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 9,
+    "point_number": 1,
+    "title_zh": "存现句（1）",
+    "explanation_vi": "Trên bàn có một quyển sách.",
+    "formula": "处所 + 有/是 + 人/物",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "桌子上有一本书。",
+        "py": "",
+        "vi": "Trên bàn có một quyển sách.",
+        "analysis": [
+          {
+            "text": "桌子",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "上",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "有",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "一本书",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "外边有一辆自行车",
+        "py": "",
+        "vi": "Bên ngoài có một cái xe đạp.",
+        "analysis": [
+          {
+            "text": "外边",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "有",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "一辆自行车",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Trên bàn có 1 quyển sách.",
+        "segments": [
+          "桌子",
+          "上",
+          "有",
+          "一本书"
+        ],
+        "answer": "桌子上有一本书",
+        "hint": "Cấu trúc tồn tại: Ở đâu có cái gì"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền động từ tồn tại: 桌子上___一本书。",
+        "answer": "有"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Trong trường có rất nhiều học sinh.",
+        "answer": "学校里有很多学生"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Bên ngoài có một cái xe đạp.",
+        "segments": [
+          "外边",
+          "有",
+          "一辆自行车"
+        ],
+        "answer": "外边有一辆自行车"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 9,
+    "point_number": 2,
+    "title_zh": "时间词语和处所词语同时作状语的顺序",
+    "explanation_vi": "Chúng ta gặp nhau lúc 7 giờ ở bên ngoài rạp chiếu phim.",
+    "formula": "Thời gian + 处所 + Động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我们七点在电影院外边见。",
+        "py": "",
+        "vi": "Chúng ta gặp nhau lúc 7 giờ ở bên ngoài rạp chiếu phim.",
+        "analysis": [
+          {
+            "text": "我们",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "七点",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "在",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "电影院",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "外边",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "见",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "我今天晚上在家吃饭",
+        "py": "",
+        "vi": "Tối nay tôi ăn cơm ở nhà.",
+        "analysis": [
+          {
+            "text": "我今天晚上",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "在家",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "吃饭",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Chúng ta gặp nhau lúc 7 giờ ở ngoài rạp phim.",
+        "segments": [
+          "我们",
+          "七点",
+          "在",
+          "电影院",
+          "外边",
+          "见"
+        ],
+        "answer": "我们七点在电影院外边见",
+        "hint": "Quy tắc: Thời gian trước, địa điểm sau"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ còn thiếu: 我们七点___电影院见。",
+        "answer": "在"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Ngày mai chúng ta gặp nhau ở trường nhé.",
+        "answer": "我们明天在学校见吧"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tối nay tôi ăn cơm ở nhà.",
+        "segments": [
+          "我今天晚上",
+          "在家",
+          "吃饭"
+        ],
+        "answer": "我今天晚上在家吃饭"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 9,
+    "point_number": 3,
+    "title_zh": "表示序数的“第”",
+    "explanation_vi": "Thứ nhất, học sinh thứ nhất",
+    "formula": "第 + Số từ + (Lượng từ) + (Danh từ)",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "第一，第一个学生",
+        "py": "",
+        "vi": "Thứ nhất, học sinh thứ nhất"
+      },
+      {
+        "zh": "第二次",
+        "py": "",
+        "vi": "Lần thứ hai",
+        "analysis": [
+          {
+            "text": "第二",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "次",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Nói 'học sinh đầu tiên': ___一个学生",
+        "answer": "第"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Bài thứ nhất",
+        "answer": "第一课"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Lần thứ hai",
+        "segments": [
+          "第二",
+          "次"
+        ],
+        "answer": "第二次"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Con số thứ tự: Số 10. ___十。",
+        "answer": "第"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 10,
+    "point_number": 1,
+    "title_zh": "钱数的表达",
+    "explanation_vi": "3,2 tệ, 6,02 tệ",
+    "formula": "元/块 + 角/毛 + 分",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "三块二，六块零两分",
+        "py": "",
+        "vi": "3,2 tệ, 6,02 tệ"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Ba tệ hai hào (khẩu ngữ): 三___二",
+        "answer": "块"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp số tiền: 5 khối 8 (5.8 tệ)",
+        "segments": [
+          "五块",
+          "八"
+        ],
+        "answer": "五块八"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: 2 tệ 5 hào",
+        "answer": "两块五"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Một tệ (khẩu ngữ): 一___",
+        "answer": "块"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 10,
+    "point_number": 2,
+    "title_zh": "形容词谓语句",
+    "explanation_vi": "Hoa quả ở đây thật không ít!",
+    "formula": "Chủ ngữ + Tính từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "这儿的水果真不少！",
+        "py": "",
+        "vi": "Hoa quả ở đây thật không ít!",
+        "analysis": [
+          {
+            "text": "这儿的",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "水果",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "真",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "不少",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "！",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "今天天气很好",
+        "py": "",
+        "vi": "Hôm nay thời tiết rất tốt.",
+        "analysis": [
+          {
+            "text": "今天",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "天气",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "很好",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Hoa quả ở đây thật không ít!",
+        "segments": [
+          "这儿的",
+          "水果",
+          "真",
+          "不少"
+        ],
+        "answer": "这儿的水果真不少",
+        "hint": "Chủ ngữ + (Phó từ) + Hình dung từ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền phó từ mức độ: 这儿的水果___不少！",
+        "answer": "真"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Quần áo của cô ấy rất đẹp.",
+        "answer": "她的衣服很好看"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Hôm nay thời tiết rất tốt.",
+        "segments": [
+          "今天",
+          "天气",
+          "很好"
+        ],
+        "answer": "今天天气很好"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 10,
+    "point_number": 3,
+    "title_zh": "疑问代词“怎么样”",
+    "explanation_vi": "Chiếc áo này thế nào?",
+    "formula": "……怎么样？",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "这件衣服怎么样？",
+        "py": "",
+        "vi": "Chiếc áo này thế nào?",
+        "analysis": [
+          {
+            "text": "这件",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "衣服",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "怎么样",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "？",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "你妈妈的身体怎么样",
+        "py": "",
+        "vi": "Sức khỏe của mẹ bạn thế nào?",
+        "analysis": [
+          {
+            "text": "你妈妈的身体",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "怎么样",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu hỏi: Chiếc áo này thế nào?",
+        "segments": [
+          "这件",
+          "衣服",
+          "怎么样"
+        ],
+        "answer": "这件衣服怎么样",
+        "hint": "Dùng '怎么样' để hỏi ý kiến"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ để hỏi ý kiến: 这件衣服___？",
+        "answer": "怎么样"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Tiếng Trung của anh ấy thế nào?",
+        "answer": "他的汉语怎么样"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Sức khỏe của mẹ bạn thế nào?",
+        "segments": [
+          "你妈妈的身体",
+          "怎么样"
+        ],
+        "answer": "你妈妈的身体怎么样"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 11,
+    "point_number": 1,
+    "title_zh": "正反问",
+    "explanation_vi": "Nó có ở sau siêu thị không?",
+    "formula": "Động từ + 不/没 + Động từ / Tính từ + 不 + Tính từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "它是不是在超市后边？",
+        "py": "",
+        "vi": "Nó có ở sau siêu thị không?",
+        "analysis": [
+          {
+            "text": "它",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "是不是",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "在",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "超市",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "后边",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "？",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu hỏi: Nó có ở sau siêu thị không?",
+        "segments": [
+          "它",
+          "是不是",
+          "在",
+          "超市",
+          "后边"
+        ],
+        "answer": "它是不是在超市后边",
+        "hint": "Cấu trúc: Động từ + 不 + Động từ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ để tạo câu hỏi chính phản: 它___在超市后边？",
+        "answer": "是不是"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Bạn có đi không? (dùng chính phản)",
+        "answer": "你去不去"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu hỏi: Bạn có thích ăn táo không?",
+        "segments": [
+          "你",
+          "喜欢不喜欢",
+          "吃苹果"
+        ],
+        "answer": "你喜欢不喜欢吃苹果"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 11,
+    "point_number": 2,
+    "title_zh": "时间副词“在/正在”",
+    "explanation_vi": "Anh ấy đang xem tivi.",
+    "formula": "在/正在 + Động từ + (呢)",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "他正在看电视呢。",
+        "py": "",
+        "vi": "Anh ấy đang xem tivi.",
+        "analysis": [
+          {
+            "text": "他",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "正在",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "看",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "电视",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "呢",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "我们在吃饭",
+        "py": "",
+        "vi": "Chúng tôi đang ăn cơm.",
+        "analysis": [
+          {
+            "text": "我们",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "在",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "吃饭",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Anh ấy đang xem tivi.",
+        "segments": [
+          "他",
+          "正在",
+          "看",
+          "电视",
+          "呢"
+        ],
+        "answer": "他正在看电视呢",
+        "hint": "Cấu trúc: Chủ ngữ + 正在 + Động từ + (呢)"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ chỉ hành động đang diễn ra: 他___看电视呢。",
+        "answer": "正在"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Tôi đang học bài đấy.",
+        "answer": "我正在学习呢"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Chúng tôi đang ăn cơm.",
+        "segments": [
+          "我们",
+          "在",
+          "吃饭"
+        ],
+        "answer": "我们在吃饭"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 11,
+    "point_number": 3,
+    "title_zh": "能愿动词“要”",
+    "explanation_vi": "Hôm nay anh ấy muốn chơi với các bạn nhỏ.",
+    "formula": "要 + Động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "他今天要和小朋友玩。",
+        "py": "",
+        "vi": "Hôm nay anh ấy muốn chơi với các bạn nhỏ.",
+        "analysis": [
+          {
+            "text": "他",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "今天",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "要",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "和",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "小朋友",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "玩",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "他今天要和小朋友玩",
+        "py": "",
+        "vi": "Hôm nay anh ấy muốn chơi với các bạn nhỏ.",
+        "analysis": [
+          {
+            "text": "他",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "今天",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "要",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "和",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "小朋友",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "玩",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "你要不要喝水",
+        "py": "",
+        "vi": "Bạn có muốn uống nước không?",
+        "analysis": [
+          {
+            "text": "你",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "要不要",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "喝水",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Hôm nay anh ấy muốn chơi với các bạn nhỏ.",
+        "segments": [
+          "他",
+          "今天",
+          "要",
+          "和",
+          "小朋友",
+          "玩"
+        ],
+        "answer": "他今天要和小朋友玩",
+        "hint": "Cấu trúc: Chủ ngữ + 要 + Động từ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ biểu thị dự định: 他今天___和小朋友玩。",
+        "answer": "要"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Ngày mai tôi muốn đi Bắc Kinh.",
+        "answer": "明天我要去北京"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Bạn có muốn uống nước không?",
+        "segments": [
+          "你",
+          "要不要",
+          "喝水"
+        ],
+        "answer": "你要不要喝水"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 12,
+    "point_number": 1,
+    "title_zh": "非主谓句",
+    "explanation_vi": "Trời mưa rồi.",
+    "formula": "词/Cụm từ，无Chủ ngữVị ngữ之分",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "下雨了。",
+        "py": "",
+        "vi": "Trời mưa rồi."
+      },
+      {
+        "zh": "下雪了",
+        "py": "",
+        "vi": "Trời tuyết rơi rồi.",
+        "analysis": [
+          {
+            "text": "下雪",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "了",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "门开了",
+        "py": "",
+        "vi": "Cửa đang mở."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Trời mưa rồi.",
+        "answer": "下雨了"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Trời tuyết rơi rồi.",
+        "segments": [
+          "下雪",
+          "了"
+        ],
+        "answer": "下雪了"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: Chào buổi sáng. 早上___。",
+        "answer": "好"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Cửa đang mở.",
+        "answer": "门开了"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 12,
+    "point_number": 2,
+    "title_zh": "语气助词“了（1）”",
+    "explanation_vi": "Trời mưa rồi (trước không mưa).",
+    "formula": "Câu + 了",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "下雨了。",
+        "py": "",
+        "vi": "Trời mưa rồi (trước không mưa)."
+      },
+      {
+        "zh": "饭好了",
+        "py": "",
+        "vi": "Cơm chín rồi.",
+        "analysis": [
+          {
+            "text": "饭",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "好",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "了",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Điền trợ từ biểu thị sự thay đổi: 下雨___。",
+        "answer": "了"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Tôi hiểu rồi.",
+        "answer": "我懂了"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Cơm chín rồi.",
+        "segments": [
+          "饭",
+          "好",
+          "了"
+        ],
+        "answer": "饭好了"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền trợ từ: Tôi biết rồi. 我知道___。",
+        "answer": "了"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 12,
+    "point_number": 3,
+    "title_zh": "“太……了”格式",
+    "explanation_vi": "Lạnh quá!",
+    "formula": "太 + Tính từ + 了",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "太冷了！",
+        "py": "",
+        "vi": "Lạnh quá!",
+        "analysis": [
+          {
+            "text": "太",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "冷",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "了",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "！",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "太冷了",
+        "py": "",
+        "vi": "Lạnh quá!",
+        "analysis": [
+          {
+            "text": "太",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "冷",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "了",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "太好了",
+        "py": "",
+        "vi": "Tốt quá rồi!",
+        "analysis": [
+          {
+            "text": "太",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "好",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "了",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Lạnh quá!",
+        "segments": [
+          "太",
+          "冷",
+          "了"
+        ],
+        "answer": "太冷了",
+        "hint": "Cấu trúc cảm thán: 太 + 形容 từ + 了"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ để cảm thán: ___冷了！",
+        "answer": "太"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch sang tiếng Trung: Đẹp quá!",
+        "answer": "太漂亮了"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tốt quá rồi!",
+        "segments": [
+          "太",
+          "好",
+          "了"
+        ],
+        "answer": "太好了"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 13,
+    "point_number": 1,
+    "title_zh": "能愿动词“可以”",
+    "explanation_vi": "Tôi có thể hỏi cô thêm một câu được không?",
+    "formula": "可以 + Động từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我可以再问您一个问题吗？",
+        "py": "",
+        "vi": "Tôi có thể hỏi cô thêm một câu được không?"
+      },
+      {
+        "zh": "我可以进来吗",
+        "py": "",
+        "vi": "Tôi có thể vào không?",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "可以",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "进来",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "吗",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "你可以送我回家吗",
+        "py": "",
+        "vi": "Bạn có thể đưa tôi về nhà không?"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Tôi có thể vào không?",
+        "segments": [
+          "我",
+          "可以",
+          "进来",
+          "吗"
+        ],
+        "answer": "我可以进来吗",
+        "hint": "Có thể làm gì đó không? (xin phép)"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ xin phép: 我___坐这儿吗？",
+        "answer": "可以"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Bạn có thể đưa tôi về nhà không?",
+        "answer": "你可以送我回家吗"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Câu phủ định: Không được hút thuốc ở đây. 这儿不___吸烟。",
+        "answer": "可以"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 13,
+    "point_number": 2,
+    "title_zh": "“动词+一下”结构",
+    "explanation_vi": "Bạn có thể gọi điện hỏi thử.",
+    "formula": "Động từ + 一下",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "你可以打电话问一下。",
+        "py": "",
+        "vi": "Bạn có thể gọi điện hỏi thử."
+      },
+      {
+        "zh": "等一下",
+        "py": "",
+        "vi": "Đợi một chút.",
+        "analysis": [
+          {
+            "text": "等",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "一下",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "休息一下吧",
+        "py": "",
+        "vi": "Nghỉ ngơi một lát đi."
+      },
+      {
+        "zh": "介绍一下吧",
+        "py": "",
+        "vi": "Hãy giới thiệu một chút.",
+        "analysis": [
+          {
+            "text": "介绍",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "一下",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "吧",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Đợi một chút.",
+        "segments": [
+          "等",
+          "一下"
+        ],
+        "answer": "等一下"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ: Để tôi xem thử. 让我看___。",
+        "answer": "一下"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Nghỉ ngơi một lát đi.",
+        "answer": "休息一下吧"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Hãy giới thiệu một chút.",
+        "segments": [
+          "介绍",
+          "一下",
+          "吧"
+        ],
+        "answer": "介绍一下吧"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 13,
+    "point_number": 3,
+    "title_zh": "双宾语句（1）",
+    "explanation_vi": "Làm ơn cho tôi một cốc sữa.",
+    "formula": "Động từ + 间接Tân ngữ + 直接Tân ngữ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "请给我一杯牛奶。",
+        "py": "",
+        "vi": "Làm ơn cho tôi một cốc sữa."
+      },
+      {
+        "zh": "老师教我们汉语",
+        "py": "",
+        "vi": "Thầy giáo dạy chúng tôi tiếng Trung.",
+        "analysis": [
+          {
+            "text": "老师",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "教",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "我们",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "汉语",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "他送我一个礼物",
+        "py": "",
+        "vi": "Anh ấy tặng tôi một món quà."
+      },
+      {
+        "zh": "他问我一个问题",
+        "py": "",
+        "vi": "Anh ấy hỏi tôi một vấn đề.",
+        "analysis": [
+          {
+            "text": "他",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "问",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "我",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "一个问题",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Thầy giáo dạy chúng tôi tiếng Trung.",
+        "segments": [
+          "老师",
+          "教",
+          "我们",
+          "汉语"
+        ],
+        "answer": "老师教我们汉语",
+        "hint": "Động từ + Đối tượng 1 + Đối tượng 2"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền động từ: Vui lòng ___ cho tôi một ly nước. 请___我一杯水。",
+        "answer": "给"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Anh ấy tặng tôi một món quà.",
+        "answer": "他送我一个礼物"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Anh ấy hỏi tôi một vấn đề.",
+        "segments": [
+          "他",
+          "问",
+          "我",
+          "一个问题"
+        ],
+        "answer": "他问我一个问题"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 14,
+    "point_number": 1,
+    "title_zh": "动态助词“了（2）”",
+    "explanation_vi": "Tôi đã xem một bộ phim.",
+    "formula": "Động từ + 了",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我看了一个电影。",
+        "py": "",
+        "vi": "Tôi đã xem một bộ phim.",
+        "analysis": [
+          {
+            "text": "我",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "看",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "了",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "一个",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "电影",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "我吃饭了",
+        "py": "",
+        "vi": "Tôi ăn cơm rồi."
+      },
+      {
+        "zh": "他去了",
+        "py": "",
+        "vi": "Anh ấy đã đi rồi.",
+        "analysis": [
+          {
+            "text": "他",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "去",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "了",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Tôi đã xem một bộ phim.",
+        "segments": [
+          "我",
+          "看",
+          "了",
+          "一个",
+          "电影"
+        ],
+        "answer": "我看了一个电影",
+        "hint": "Cấu trúc: Động từ + 了 + Tân ngữ"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ biểu thị hành động đã hoàn thành: 我看___一个电影。",
+        "answer": "了"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi ăn cơm rồi.",
+        "answer": "我吃饭了"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Anh ấy đã đi rồi.",
+        "segments": [
+          "他",
+          "去",
+          "了"
+        ],
+        "answer": "他去了"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 14,
+    "point_number": 2,
+    "title_zh": "离合词（1）",
+    "explanation_vi": "Lên lớp → đã lên lớp; ngủ → đã ngủ một giấc",
+    "formula": "可分可合",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "上课 → 上了课；睡觉 → 睡了一觉",
+        "py": "",
+        "vi": "Lên lớp → đã lên lớp; ngủ → đã ngủ một giấc"
+      },
+      {
+        "zh": "上了课",
+        "py": "",
+        "vi": "Đã lên lớp rồi.",
+        "analysis": [
+          {
+            "text": "上",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "了",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "课",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "我跑步了",
+        "py": "",
+        "vi": "Tôi đã chạy bộ."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "question": "Dùng '了' với động từ 'ngủ': 睡___一觉",
+        "answer": "了"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Đã lên lớp rồi.",
+        "segments": [
+          "上",
+          "了",
+          "课"
+        ],
+        "answer": "上了课"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi đã chạy bộ.",
+        "answer": "我跑步了"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền trợ từ: Đã kết hôn rồi. 结婚___。",
+        "answer": "了"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 14,
+    "point_number": 3,
+    "title_zh": "范围副词“都”",
+    "explanation_vi": "Chúng tôi đều biết viết rồi.",
+    "formula": "都 + Động từ/Tính từ",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我们都会写了。",
+        "py": "",
+        "vi": "Chúng tôi đều biết viết rồi.",
+        "analysis": [
+          {
+            "text": "我们",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "都",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "会",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "写",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "了",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "。",
+            "role": "",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "zh": "我们都去",
+        "py": "",
+        "vi": "Tất cả chúng tôi đều đi."
+      },
+      {
+        "zh": "他们都是中国人",
+        "py": "",
+        "vi": "Bọn họ đều là người Trung Quốc.",
+        "analysis": [
+          {
+            "text": "他们",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "都是",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "中国人",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Chúng tôi đều đã biết viết rồi.",
+        "segments": [
+          "我们",
+          "都",
+          "会",
+          "写",
+          "了"
+        ],
+        "answer": "我们都会写了",
+        "hint": "Dùng '都' sau chủ ngữ tập thể"
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền phó từ phạm vi (đều): Chúng tôi đều biết viết rồi. 我们___会写了。",
+        "answer": "都"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tất cả chúng tôi đều đi.",
+        "answer": "我们都去"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Bọn họ đều là người Trung Quốc.",
+        "segments": [
+          "他们",
+          "都是",
+          "中国人"
+        ],
+        "answer": "他们都是中国人"
+      }
+    ],
+    "is_free": true
+  },
+  {
+    "book_level": 1,
+    "lesson_number": 15,
+    "point_number": 1,
+    "title_zh": "并列复句“……，还/也……”",
+    "explanation_vi": "Tôi thích cái này, cũng thích cái kia.",
+    "formula": "小句1，还/也 + 小句2",
+    "category": "Ngữ pháp",
+    "examples": [
+      {
+        "zh": "我喜欢这个，也喜欢那个。",
+        "py": "",
+        "vi": "Tôi thích cái này, cũng thích cái kia."
+      },
+      {
+        "zh": "我也会说汉语",
+        "py": "",
+        "vi": "Tôi cũng biết nói tiếng Trung."
+      },
+      {
+        "zh": "他还想喝茶",
+        "py": "",
+        "vi": "Anh ấy còn muốn uống trà.",
+        "analysis": [
+          {
+            "text": "他",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "还",
+            "role": "",
+            "label": ""
+          },
+          {
+            "text": "想喝茶",
+            "role": "",
+            "label": ""
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": "Sắp xếp câu: Tôi thích cái này, cũng thích cái kia.",
+        "segments": [
+          "我",
+          "喜欢",
+          "这个",
+          "也",
+          "喜欢",
+          "那个"
+        ],
+        "answer": "我喜欢这个也喜欢那个",
+        "hint": "Cấu trúc: ... cũng ..."
+      },
+      {
+        "type": "fill_blank",
+        "question": "Điền từ thích hợp: 我喜欢这个，___喜欢那个。",
+        "answer": "也"
+      },
+      {
+        "type": "q_a",
+        "question": "Dịch: Tôi cũng biết nói tiếng Trung.",
+        "answer": "我也会说汉语"
+      },
+      {
+        "type": "reorder",
+        "question": "Sắp xếp: Anh ấy còn muốn uống trà.",
+        "segments": [
+          "他",
+          "还",
+          "想喝茶"
+        ],
+        "answer": "他还想喝茶"
+      }
+    ],
+    "is_free": true
+  }
+]

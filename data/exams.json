@@ -1,0 +1,146 @@
+[
+  {
+    "id":1,"title":"Đề thi thử HSK 1 - Số 1","type":"hsk","hsk_level":1,
+    "duration_minutes":40,"is_free":true,"order_num":1,
+    "questions":[
+      {
+        "type":"single","section":"Phần 1: Từ vựng",
+        "q":"'你好' có nghĩa là gì?",
+        "options":["Tạm biệt","Xin chào","Cảm ơn","Xin lỗi"],
+        "answer":1,"explain":"你好 (nǐ hǎo) = Xin chào, là câu chào hỏi cơ bản nhất"
+      },
+      {
+        "type":"single","section":"Phần 1: Từ vựng",
+        "q":"Chữ nào có nghĩa là 'mẹ'?",
+        "options":["爸爸","妹妹","妈妈","哥哥"],
+        "answer":2,"explain":"妈妈 (māma) = mẹ, má. 爸爸=bố, 妹妹=em gái, 哥哥=anh trai"
+      },
+      {
+        "type":"single","section":"Phần 1: Từ vựng",
+        "q":"'多少钱' có nghĩa là gì?",
+        "options":["Bao giờ","Ở đâu","Bao nhiêu tiền","Như thế nào"],
+        "answer":2,"explain":"多少钱 (duōshao qián) = bao nhiêu tiền, câu hỏi giá cả"
+      },
+      {
+        "type":"single","section":"Phần 2: Ngữ pháp",
+        "q":"Chọn câu đúng: Tôi là học sinh",
+        "options":["我是不学生","我学生是","我是学生","学生是我"],
+        "answer":2,"explain":"Cấu trúc: Chủ ngữ + 是 + Tân ngữ → 我是学生"
+      },
+      {
+        "type":"single","section":"Phần 2: Ngữ pháp",
+        "q":"Điền vào chỗ trống: 你___什么名字？(Bạn tên là gì?)",
+        "options":["是","有","叫","在"],
+        "answer":2,"explain":"叫 (jiào) dùng để hỏi/nói tên: 你叫什么名字？"
+      },
+      {
+        "type":"single","section":"Phần 2: Ngữ pháp",
+        "q":"'他没有___' — điền từ thích hợp để có nghĩa 'Anh ấy không có tiền'",
+        "options":["钱","书","水","饭"],
+        "answer":0,"explain":"钱 (qián) = tiền. 他没有钱 = Anh ấy không có tiền"
+      },
+      {
+        "type":"single","section":"Phần 3: Đọc hiểu",
+        "q":"'我家有四口人' có nghĩa là?",
+        "options":["Nhà tôi có 4 phòng","Nhà tôi có 4 người","Tôi có 4 anh chị em","Tôi mua 4 thứ"],
+        "answer":1,"explain":"口 (kǒu) ở đây là đơn vị đếm người trong gia đình"
+      },
+      {
+        "type":"single","section":"Phần 3: Đọc hiểu",
+        "q":"Câu nào đúng với nghĩa 'Tôi rất thích ăn cơm'?",
+        "options":["我不喜欢吃米饭","我很喜欢吃米饭","我喜欢不吃米饭","我喜欢吃不米饭"],
+        "answer":1,"explain":"我很喜欢吃米饭 = Tôi rất thích ăn cơm"
+      },
+      {
+        "type":"single","section":"Phần 4: Phát âm",
+        "q":"Chữ '白' (bái) mang thanh điệu mấy?",
+        "options":["Thanh 1 (ngang)","Thanh 2 (lên)","Thanh 3 (hỏi)","Thanh 4 (sắc)"],
+        "answer":1,"explain":"bái là thanh 2 (thanh sắc lên), ký hiệu á"
+      },
+      {
+        "type":"single","section":"Phần 4: Phát âm",
+        "q":"Pinyin của '谢谢' là?",
+        "options":["xīxī","xíxí","xièxie","xiēxiē"],
+        "answer":2,"explain":"谢谢 = xièxie (thanh 4, thanh nhẹ)"
+      }
+    ]
+  },
+  {
+    "id":2,"title":"Đề thi thử HSK 2 - Số 1","type":"hsk","hsk_level":2,
+    "duration_minutes":55,"is_free":false,"order_num":1,
+    "questions":[
+      {
+        "type":"single","section":"Phần 1: Từ vựng",
+        "q":"'已经' có nghĩa là?",
+        "options":["sắp sửa","đã, rồi","vẫn còn","chưa"],
+        "answer":1,"explain":"已经 (yǐjīng) = đã, rồi (chỉ hành động đã hoàn thành)"
+      },
+      {
+        "type":"single","section":"Phần 1: Từ vựng",
+        "q":"Chữ nào có nghĩa là 'rẻ'?",
+        "options":["贵","便宜","便","宜"],
+        "answer":1,"explain":"便宜 (piányí) = rẻ. 贵 (guì) = đắt"
+      },
+      {
+        "type":"single","section":"Phần 2: Ngữ pháp",
+        "q":"Sắp xếp thành câu đúng: 去/我/商店/想/买/东西",
+        "options":["我想去商店买东西","商店想我去买东西","我买东西想去商店","去商店我想买东西"],
+        "answer":0,"explain":"Cấu trúc: Tôi muốn đi cửa hàng mua đồ = 我想去商店买东西"
+      }
+    ]
+  },
+  {
+    "id":10,"title":"Đề thi THPT Tiếng Trung 2024 - Số 1","type":"thpt","hsk_level":null,
+    "duration_minutes":60,"is_free":true,"order_num":1,
+    "questions":[
+      {
+        "type":"single","section":"Phần 1: Ngữ âm",
+        "q":"Từ nào có phụ âm đầu là 'zh'?",
+        "options":["季节","知道","西瓜","学习"],
+        "answer":1,"explain":"知道 (zhīdào) có phụ âm đầu zh. 季节=jì, 西瓜=xī, 学习=xué"
+      },
+      {
+        "type":"single","section":"Phần 1: Ngữ âm",
+        "q":"Chữ '重' trong '重要' đọc là?",
+        "options":["chóng","zhòng","chòng","zhōng"],
+        "answer":1,"explain":"重要 = zhòngyào (quan trọng). 重 còn đọc là chóng nghĩa là lặp lại"
+      },
+      {
+        "type":"single","section":"Phần 2: Từ vựng",
+        "q":"Chọn từ điền vào: 他的汉语说得非常___。(Tiếng Trung của anh ấy nói rất lưu loát)",
+        "options":["流利","努力","顺利","便利"],
+        "answer":0,"explain":"流利 (liúlì) = lưu loát, thành thạo"
+      },
+      {
+        "type":"single","section":"Phần 2: Từ vựng",
+        "q":"'环境' có nghĩa là?",
+        "options":["môi trường","hoàn cảnh","điều kiện","tình huống"],
+        "answer":0,"explain":"环境 (huánjìng) = môi trường, hoàn cảnh xung quanh"
+      },
+      {
+        "type":"single","section":"Phần 3: Ngữ pháp",
+        "q":"Chọn mẫu câu đúng: 'Mặc dù trời mưa nhưng anh ấy vẫn đi'",
+        "options":["虽然下雨，但是他还是去了","因为下雨，所以他没去","既然下雨，他就去了","如果下雨，他才去"],
+        "answer":0,"explain":"虽然...但是... = mặc dù...nhưng... diễn đạt sự tương phản"
+      },
+      {
+        "type":"single","section":"Phần 3: Ngữ pháp",
+        "q":"Câu nào dùng 把 đúng?",
+        "options":["我把书看","我把书在看","我把书看了","把我书看了"],
+        "answer":2,"explain":"Câu 把: S + 把 + O + V + kết quả/bổ ngữ → 我把书看了"
+      },
+      {
+        "type":"single","section":"Phần 4: Đọc hiểu",
+        "q":"Đọc đoạn văn và chọn: '随着经济的发展，人们的生活水平不断提高' — từ '随着' có nghĩa là?",
+        "options":["mặc dù","cùng với, theo","vì vì","nếu như"],
+        "answer":1,"explain":"随着 (suízhe) = cùng với, theo đà, theo sự phát triển của"
+      },
+      {
+        "type":"single","section":"Phần 4: Đọc hiểu",
+        "q":"'不断' trong câu trên có nghĩa là?",
+        "options":["đột nhiên","không liên tục","không ngừng","rất ít"],
+        "answer":2,"explain":"不断 (bùduàn) = không ngừng, liên tục"
+      }
+    ]
+  }
+]

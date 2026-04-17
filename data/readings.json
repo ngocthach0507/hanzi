@@ -1,0 +1,63 @@
+[
+  {
+    "id":1,"hsk_level":1,"title_vi":"Tôi và gia đình tôi","is_free":true,"order_num":1,
+    "content_zh":"我叫阮明，我是越南人。我家有四口人：爸爸、妈妈、妹妹和我。爸爸是医生，妈妈是老师。我今年二十岁，是大学生。我在学习汉语，因为我很喜欢中国文化。我的妹妹十五岁，是中学生。我们都很高兴。",
+    "content_pinyin":"Wǒ jiào Ruǎn Míng, wǒ shì Yuènán rén. Wǒ jiā yǒu sì kǒu rén: bàba, māma, mèimei hé wǒ. Bàba shì yīshēng, māma shì lǎoshī. Wǒ jīnnián èrshí suì, shì dàxuéshēng. Wǒ zài xuéxí Hànyǔ, yīnwèi wǒ hěn xǐhuān Zhōngguó wénhuà. Wǒ de mèimei shíwǔ suì, shì zhōngxuéshēng. Wǒmen dōu hěn gāoxìng.",
+    "content_vi":"Tôi tên Nguyễn Minh, tôi là người Việt Nam. Gia đình tôi có 4 người: bố, mẹ, em gái và tôi. Bố là bác sĩ, mẹ là giáo viên. Năm nay tôi 20 tuổi, là sinh viên đại học. Tôi đang học tiếng Trung vì tôi rất thích văn hóa Trung Quốc. Em gái tôi 15 tuổi, là học sinh trung học. Chúng tôi đều rất vui vẻ.",
+    "new_words":[
+      {"zh":"口","pinyin":"kǒu","vi":"người (đơn vị đếm người trong gia đình)"},
+      {"zh":"岁","pinyin":"suì","vi":"tuổi"},
+      {"zh":"大学生","pinyin":"dàxuéshēng","vi":"sinh viên đại học"},
+      {"zh":"文化","pinyin":"wénhuà","vi":"văn hóa"},
+      {"zh":"中学生","pinyin":"zhōngxuéshēng","vi":"học sinh trung học"}
+    ],
+    "questions":[
+      {"q":"阮明是哪国人？","options":["中国人","越南人","韩国人","日本人"],"answer":1,"explain":"文中说'我是越南人'"},
+      {"q":"阮明的爸爸是做什么的？","options":["老师","学生","医生","工人"],"answer":2,"explain":"文中说'爸爸是医生'"},
+      {"q":"阮明今年多少岁？","options":["十五岁","十八岁","二十岁","二十五岁"],"answer":2,"explain":"文中说'我今年二十岁'"},
+      {"q":"阮明为什么学习汉语？","options":["因为工作需要","因为喜欢中国文化","因为老师要求","因为妹妹喜欢"],"answer":1,"explain":"文中说'因为我很喜欢中国文化'"},
+      {"q":"阮明家有几口人？","options":["三口人","四口人","五口人","六口人"],"answer":1,"explain":"文中说'我家有四口人'"}
+    ]
+  },
+  {
+    "id":2,"hsk_level":1,"title_vi":"Buổi sáng của tôi","is_free":true,"order_num":2,
+    "content_zh":"我每天早上六点起床。起床以后，我先洗脸、刷牙，然后吃早饭。我喜欢吃米饭和喝茶。早饭以后，我骑自行车去学校。学校离我家不远，骑车大约二十分钟。我七点半到学校，然后开始上课。我很喜欢学习汉语，每天都很用功。",
+    "content_pinyin":"Wǒ měitiān zǎoshang liù diǎn qǐchuáng. Qǐchuáng yǐhòu, wǒ xiān xǐliǎn, shuāyá, ránhòu chī zǎofàn. Wǒ xǐhuān chī mǐfàn hé hē chá. Zǎofàn yǐhòu, wǒ qí zìxíngchē qù xuéxiào. Xuéxiào lí wǒ jiā bù yuǎn, qí chē dàyuē èrshí fēnzhōng. Wǒ qī diǎn bàn dào xuéxiào, ránhòu kāishǐ shàngkè. Wǒ hěn xǐhuān xuéxí Hànyǔ, měitiān dōu hěn yōnggōng.",
+    "content_vi":"Mỗi ngày tôi dậy lúc 6 giờ sáng. Sau khi dậy, tôi rửa mặt, đánh răng rồi ăn sáng. Tôi thích ăn cơm và uống trà. Sau bữa sáng, tôi đạp xe đến trường. Trường không xa nhà tôi, đạp xe khoảng 20 phút. Tôi đến trường lúc 7 giờ rưỡi rồi bắt đầu học. Tôi rất thích học tiếng Trung, mỗi ngày đều rất chăm chỉ.",
+    "new_words":[
+      {"zh":"洗脸","pinyin":"xǐliǎn","vi":"rửa mặt"},
+      {"zh":"刷牙","pinyin":"shuāyá","vi":"đánh răng"},
+      {"zh":"骑","pinyin":"qí","vi":"đạp, cưỡi"},
+      {"zh":"自行车","pinyin":"zìxíngchē","vi":"xe đạp"},
+      {"zh":"大约","pinyin":"dàyuē","vi":"khoảng, xấp xỉ"},
+      {"zh":"用功","pinyin":"yōnggōng","vi":"chăm chỉ"}
+    ],
+    "questions":[
+      {"q":"他每天几点起床？","options":["五点","六点","七点","八点"],"answer":1,"explain":"文中说'每天早上六点起床'"},
+      {"q":"他早饭喜欢吃什么？","options":["面包","米饭","包子","粥"],"answer":1,"explain":"文中说'我喜欢吃米饭'"},
+      {"q":"他怎么去学校？","options":["走路","坐公交","骑自行车","开车"],"answer":2,"explain":"文中说'骑自行车去学校'"},
+      {"q":"他几点到学校？","options":["七点","七点半","八点","八点半"],"answer":1,"explain":"文中说'七点半到学校'"},
+      {"q":"骑车去学校需要多长时间？","options":["十分钟","十五分钟","二十分钟","三十分钟"],"answer":2,"explain":"文中说'骑车大约二十分钟'"}
+    ]
+  },
+  {
+    "id":3,"hsk_level":2,"title_vi":"Đi mua sắm","is_free":false,"order_num":1,
+    "content_zh":"上个周末，我和朋友一起去商场买东西。商场里有很多商店，卖衣服、鞋子、书和电子产品。我想买一件新衣服，因为明天有一个重要的面试。我看了很多衣服，最后买了一件蓝色的衬衫，花了三百块钱。我朋友买了一双运动鞋，打了八折，便宜了不少。我们在商场里吃了午饭，然后下午五点才回家。虽然买了很多东西，但是我们都很开心。",
+    "content_pinyin":"Shàng gè zhōumò, wǒ hé péngyou yīqǐ qù shāngchǎng mǎi dōngxi. Shāngchǎng lǐ yǒu hěn duō shāngdiàn, mài yīfu, xiézi, shū hé diànzǐ chǎnpǐn. Wǒ xiǎng mǎi yī jiàn xīn yīfu, yīnwèi míngtiān yǒu yī gè zhòngyào de miànshì. Wǒ kànle hěn duō yīfu, zuìhòu mǎile yī jiàn lǎnsè de chènshān, huāle sānbǎi kuài qián. Wǒ péngyou mǎile yī shuāng yùndòngxié, dǎle bā zhé, piányíle bùshǎo. Wǒmen zài shāngchǎng lǐ chīle wǔfàn, ránhòu xiàwǔ wǔ diǎn cái huí jiā. Suīrán mǎile hěn duō dōngxi, dànshì wǒmen dōu hěn kāixīn.",
+    "content_vi":"Cuối tuần trước, tôi và bạn cùng nhau đi trung tâm thương mại mua đồ. Trong trung tâm có rất nhiều cửa hàng, bán quần áo, giày, sách và sản phẩm điện tử. Tôi muốn mua một bộ quần áo mới vì ngày mai có một buổi phỏng vấn quan trọng. Tôi xem rất nhiều quần áo, cuối cùng mua một chiếc áo sơ mi màu xanh, tốn 300 tệ. Bạn tôi mua một đôi giày thể thao, giảm 20%, rẻ hơn khá nhiều. Chúng tôi ăn trưa trong trung tâm, rồi 5 giờ chiều mới về nhà. Mặc dù mua nhiều đồ nhưng chúng tôi đều rất vui.",
+    "new_words":[
+      {"zh":"商场","pinyin":"shāngchǎng","vi":"trung tâm thương mại"},
+      {"zh":"面试","pinyin":"miànshì","vi":"phỏng vấn"},
+      {"zh":"衬衫","pinyin":"chènshān","vi":"áo sơ mi"},
+      {"zh":"运动鞋","pinyin":"yùndòngxié","vi":"giày thể thao"},
+      {"zh":"打折","pinyin":"dǎ zhé","vi":"giảm giá"}
+    ],
+    "questions":[
+      {"q":"他们为什么去商场？","options":["看电影","买东西","吃饭","见朋友"],"answer":1,"explain":"文中说'去商场买东西'"},
+      {"q":"他为什么要买新衣服？","options":["因为旧的破了","因为有面试","因为打折","因为朋友送"],"answer":1,"explain":"文中说'因为明天有一个重要的面试'"},
+      {"q":"他买的衬衫是什么颜色的？","options":["白色","红色","黑色","蓝色"],"answer":3,"explain":"文中说'一件蓝色的衬衫'"},
+      {"q":"他朋友的鞋子打了几折？","options":["七折","八折","九折","九五折"],"answer":1,"explain":"文中说'打了八折'"},
+      {"q":"他们几点回家？","options":["三点","四点","五点","六点"],"answer":2,"explain":"文中说'下午五点才回家'"}
+    ]
+  }
+]
