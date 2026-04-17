@@ -26,23 +26,41 @@ export async function GET(request: Request) {
 
     if (error) {
       console.error("Sub API Error:", error);
-      return NextResponse.json({ isPro: false });
+      return NextResponse.json({ isPro: false, error: error.message });
     }
 
     const isPro = data && data.plan !== 'free' && data.status === 'active' && 
                  (data.expires_at ? new Date(data.expires_at) > new Date() : false);
 
     if (full) {
-      return NextResponse.json({ isPro: !!isPro, data });
+      return NextResponse.json({ 
+        isPro: !!isPro, 
+        data, 
+        debug: { 
+          userId, 
+          hasData: !!data,
+          status: data?.status,
+          plan: data?.plan,
+          expires_at: data?.expires_at,
+          now: new Date().toISOString()
+        } 
+      });
     }
 
     if (isPro) {
       return NextResponse.json({ isPro: true, plan: data.plan });
     }
 
-    return NextResponse.json({ isPro: false });
-  } catch (err) {
+    return NextResponse.json({ 
+      isPro: false, 
+      debug: { 
+        userId, 
+        hasData: !!data,
+        status: data?.status
+      } 
+    });
+  } catch (err: any) {
     console.error("Sub API Catch:", err);
-    return NextResponse.json({ isPro: false });
+    return NextResponse.json({ isPro: false, error: err.message });
   }
 }
