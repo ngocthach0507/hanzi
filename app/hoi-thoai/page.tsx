@@ -161,7 +161,7 @@ export default function ConversationList() {
                   </Link>
                 ) : (
                   <div className="flex items-center gap-2 text-gray-400 font-bold text-sm">
-                    <Lock size={16} /> 🔒 PRO
+                    <Lock size={16} /> 🔒 PREMIUM
                   </div>
                 )}
               </div>

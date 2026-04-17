@@ -120,7 +120,7 @@ export default function ExamListByLevel() {
                   {!canAccess && (
                     <div className="absolute inset-0 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-white/40 backdrop-blur-[2px] rounded-[32px]">
                       <Link href="/vip" className="bg-orange-500 text-white px-6 py-2 rounded-xl font-black shadow-xl">
-                        MỞ KHÓA VIP
+                        MỞ KHÓA PREMIUM
                       </Link>
                     </div>
                   )}
@@ -134,7 +134,7 @@ export default function ExamListByLevel() {
                     <span className={`text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full italic ${
                       canAccess ? 'bg-blue-50 text-blue-500' : 'bg-gray-100 text-gray-400'
                     }`}>
-                      {canAccess ? 'Miễn phí' : '🔒 VIP'}
+                      {canAccess ? 'Miễn phí' : '🔒 PREMIUM'}
                     </span>
                   </div>
 

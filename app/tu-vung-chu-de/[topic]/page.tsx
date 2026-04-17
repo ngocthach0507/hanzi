@@ -95,7 +95,7 @@ export default function TopicLessonList() {
                   <div className="bg-gray-50 text-gray-300 px-6 py-3 rounded-2xl font-bold flex items-center gap-2">
                     <Lock size={18} /> Khóa
                   </div>
-                  <span className="text-[10px] font-black text-gray-300 uppercase mr-2">Cần tài khoản PRO</span>
+                  <span className="text-[10px] font-black text-gray-300 uppercase mr-2">Cần tài khoản PREMIUM</span>
                 </div>
               )}
             </div>

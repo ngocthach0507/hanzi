@@ -58,7 +58,7 @@ export async function POST(request: Request) {
         if (updateError) {
           console.error("UPDATE_ERROR:", updateError);
         } else {
-          console.log(`ACTIVATE_PRO_SUCCESS: User ${subData.user_id} is now PRO for ${daysToAdd} days`);
+          console.log(`ACTIVATE_PREMIUM_SUCCESS: User ${subData.user_id} is now PREMIUM for ${daysToAdd} days`);
         }
       } else {
         console.warn("WARN: No matching payment_ref found for content:", content);

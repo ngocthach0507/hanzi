@@ -183,7 +183,7 @@ export default function AppNavbar() {
 
             <Link href="/vip" className="flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-orange-500 text-white px-4 py-2 rounded-xl text-sm font-black shadow-lg shadow-orange-100 hover:scale-105 transition-all animate-shimmer bg-[length:200%_100%]">
               <Zap className="w-4 h-4 fill-white" />
-              NÂNG CẤP VIP
+              NÂNG CẤP PREMIUM
             </Link>
 
             <div className="h-6 w-px bg-gray-200 hidden md:block"></div>

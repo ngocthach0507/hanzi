@@ -165,7 +165,7 @@ export default function LessonList() {
                        </>
                     ) : (
                       <div className="flex items-center gap-2 text-[10px] font-black text-red-500 uppercase tracking-widest">
-                        <Lock size={12} /> Cần kích hoạt PRO
+                        <Lock size={12} /> Cần kích hoạt PREMIUM
                       </div>
                     )}
                   </div>
@@ -203,7 +203,7 @@ export default function LessonList() {
                  Mở khóa toàn bộ bài học, luyện tập thi thử và nhận sự hỗ trợ đặc biệt từ AI Tiểu Ngữ 24/7.
                </p>
                <Link href="/vip" className="inline-flex items-center gap-4 bg-white text-gray-900 px-12 py-6 rounded-full font-black text-2xl hover:bg-yellow-400 transition-all shadow-xl hover:-translate-y-1 active:scale-95">
-                  NÂNG CẤP PRO NGAY
+                  NÂNG CẤP PREMIUM NGAY
                </Link>
             </div>
           </div>

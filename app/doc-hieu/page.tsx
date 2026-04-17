@@ -173,7 +173,7 @@ export default function ReadingList() {
                       </div>
                     </div>
                     <div className={`flex items-center justify-between pt-4 border-t font-black text-sm ${canAccess ? 'text-[#D85A30] border-gray-50' : 'text-gray-400 border-gray-100'}`}>
-                      {canAccess ? 'Đọc ngay' : '🔒 Nâng cấp VIP'}
+                      {canAccess ? 'Đọc ngay' : '🔒 Nâng cấp PREMIUM'}
                       <ChevronRight size={18} className={`transition-transform ${canAccess ? 'translate-x-0 group-hover:translate-x-1' : ''}`} />
                     </div>
                   </div>
@@ -194,7 +194,7 @@ export default function ReadingList() {
                   className="bg-gray-50/50 rounded-[32px] border border-dashed border-gray-200 p-8 flex flex-col h-full opacity-70 grayscale relative overflow-hidden group cursor-pointer"
                 >
                   <Link href="/vip" className="absolute inset-0 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-white/20 backdrop-blur-[2px]">
-                    <span className="bg-orange-500 text-white px-6 py-2 rounded-xl font-black shadow-xl">HỌC VIP NGAY</span>
+                    <span className="bg-orange-500 text-white px-6 py-2 rounded-xl font-black shadow-xl">HỌC PREMIUM NGAY</span>
                   </Link>
                   {Content}
                 </div>

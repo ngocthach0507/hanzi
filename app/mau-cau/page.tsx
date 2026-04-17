@@ -116,7 +116,7 @@ export default function SentencePatternsPage() {
               </div>
            </div>
            <button className="relative z-10 whitespace-nowrap bg-white text-[#D85A30] px-12 py-6 rounded-[24px] font-black text-2xl hover:scale-110 transition-transform shadow-2xl shadow-black/20 active:scale-95">
-              👑 Đăng ký PRO
+              👑 Đăng ký Premium
            </button>
            
            {/* Abstract shapes */}

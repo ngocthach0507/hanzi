@@ -72,7 +72,7 @@ function MeasureWordCard({ word }: { word: any }) {
           </div>
           <div className="flex gap-2">
             {!word.is_free && (
-              <span className="px-2 py-1 bg-amber-100 text-amber-700 text-[9px] font-black rounded-full uppercase tracking-wider">PRO</span>
+              <span className="px-2 py-1 bg-amber-100 text-amber-700 text-[9px] font-black rounded-full uppercase tracking-wider">PREMIUM</span>
             )}
             <button
               onClick={() => speak(word.character)}
