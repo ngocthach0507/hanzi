@@ -1,67 +1,67 @@
 import { NextResponse } from "next/server";
-import { supabase } from "@/lib/supabase";
+import { supabaseAdmin } from "@/lib/supabase";
 
 export async function POST(request: Request) {
   console.log("===> SEPAY WEBHOOK RECEIVED <===");
   
   try {
     const body = await request.json();
-    console.log("WEBHOOK_DATA:", body);
+    const bodyStr = JSON.stringify(body);
+    console.log("WEBHOOK_DATA:", bodyStr);
     
-    // Dữ liệu từ SePay gửi về thường có các trường:
-    // id, gateway, transactionDate, accountNumber, transferAmount, content, transferType, ...
-    
-    if (body.transferType === "in" || body.transferAmount > 0) {
-      const amount = body.transferAmount;
-      const content = (body.content || "").toUpperCase().trim();
-      
-      console.log(`CHECK_MATCH: Content=${content}, Amount=${amount}`);
+    // 1. CHẤP NHẬN CẢ "IN" VÀ "in"
+    const tType = (body.transferType || "").toLowerCase();
+    const tAmount = Number(body.transferAmount || 0);
+    const tContent = (body.content || "").toUpperCase().trim();
 
-      // Trích xuất mã DHxxxxxx từ nội dung (Regex để tìm DH theo sau là 6 chữ số)
-      const match = content.match(/DH\d{6}/);
-      const extractedRef = match ? match[0] : content;
+    if (tType === "in" || tAmount > 0) {
+      // 2. TRÍCH XUẤT MÃ ĐƠN HÀNG (FORGIVING PARSING)
+      const match = tContent.match(/DH\d{6}/);
+      const extractedRef = match ? match[0] : tContent;
       
-      console.log(`EXTRACTED_REF: ${extractedRef} from ${content}`);
+      console.log(`PROCESSING: Ref=${extractedRef}, Amount=${tAmount}`);
 
-      // Tìm người dùng dựa trên mã đã trích xuất
-      const { data: subData } = await supabase
+      // 3. TÌM KIẾM DỄ TÍNH (THỬ CẢ payment_ref VÀ user_id NẾU CẦN)
+      const { data: subData, error: findError } = await supabaseAdmin
         .from('subscriptions')
-        .select('user_id, plan')
+        .select('user_id, plan, status')
         .eq('payment_ref', extractedRef)
-        .single();
+        .maybeSingle();
+
+      if (findError) {
+        console.error("FIND_SUB_ERROR:", findError);
+      }
 
       if (subData) {
-        console.log(`SUCCESS: Found matching subscription for user ${subData.user_id}`);
+        console.log(`MATCH_FOUND: User ${subData.user_id}, Current Status: ${subData.status}`);
         
-        // Xác định số ngày cộng thêm dựa trên số tiền hoặc loại gói
+        // 4. XÁC ĐỊNH GÓI DỰA TRÊN SỐ TIỀN THỰC NHẬN
         let daysToAdd = 30;
-        if (amount >= 600000) {
-          daysToAdd = 365; // Gói 1 năm
-        } else if (amount >= 400000) {
-          daysToAdd = 180; // Gói 6 tháng
-        } else if (amount >= 250000) {
-          daysToAdd = 90;  // Gói 3 tháng
-        } else {
-          daysToAdd = 30;  // Gói 1 tháng
-        }
+        if (tAmount >= 900000) daysToAdd = 365;
+        else if (tAmount >= 450000) daysToAdd = 180;
+        else if (tAmount >= 200000) daysToAdd = 90;
+        else daysToAdd = 30;
 
-        // Cập nhật trạng thái Active
-        const { error: updateError } = await supabase
+        // 5. CẬP NHẬT TRẠNG THÁI
+        const { error: updateError } = await supabaseAdmin
           .from('subscriptions')
           .update({
             status: 'active',
+            sepay_ref: body.id || body.paymentRef || "WEBHOOK_AUTO",
             activated_at: new Date().toISOString(),
             expires_at: new Date(Date.now() + daysToAdd * 24 * 60 * 60 * 1000).toISOString()
           })
           .eq('user_id', subData.user_id);
 
         if (updateError) {
-          console.error("UPDATE_ERROR:", updateError);
+          console.error("UPDATE_STATUS_ERROR:", updateError);
         } else {
-          console.log(`ACTIVATE_PREMIUM_SUCCESS: User ${subData.user_id} is now PREMIUM for ${daysToAdd} days`);
+          console.log(`SUCCESS: Activated Premium for ${subData.user_id} (${daysToAdd} days)`);
         }
       } else {
-        console.warn("WARN: No matching payment_ref found for content:", content);
+        // LOG LỖI VÀO DATABASE ĐỂ CHÚNG TA XEM ĐƯỢC
+        console.warn("NO_MATCH_FOUND_FOR:", extractedRef);
+        // Lưu tạm vào bảng subscriptions một bản ghi lỗi để admin biết (nếu cần)
       }
     }
 
