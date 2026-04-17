@@ -29,11 +29,14 @@ export default function AppNavbar() {
   const { user, isLoaded } = useUser();
 
   const subNavItems = [
-    { label: 'Giáo trình HSK 3.0', icon: <Book className="w-4 h-4" />, href: '/giao-trinh' },
+    { label: 'Giáo trình HSK 3.0', icon: <Book className="w-4 h-4" />, href: '/giao-trinh', color: 'text-red-500', hoverBg: 'hover:bg-red-50', hoverBorder: 'hover:border-red-500' },
     { 
       label: 'Luyện tập', 
       icon: <Dumbbell className="w-4 h-4" />, 
       href: '#',
+      color: 'text-blue-500',
+      hoverBg: 'hover:bg-blue-50',
+      hoverBorder: 'hover:border-blue-500',
       dropdown: [
         { label: 'Luyện nghe', href: '/luyen-nghe' },
         { label: 'Luyện viết', href: '/luyen-viet' },
@@ -44,16 +47,19 @@ export default function AppNavbar() {
       label: 'Từ vựng', 
       icon: <BookOpen className="w-4 h-4" />, 
       href: '/tu-vung-chu-de',
+      color: 'text-green-500',
+      hoverBg: 'hover:bg-green-50',
+      hoverBorder: 'hover:border-green-500',
       dropdown: [
         { label: 'Từ vựng chủ đề', href: '/tu-vung-chu-de' },
         { label: 'Từ vựng HSK', href: '/giao-trinh' },
         { label: 'Lượng từ', href: '/luong-tu' },
       ]
     },
-    { label: 'Hội thoại', icon: <MessageCircle className="w-4 h-4" />, href: '/hoi-thoai' },
-    { label: 'Đọc hiểu', icon: <FileText className="w-4 h-4" />, href: '/doc-hieu' },
-    { label: 'Bộ thủ', icon: <LayoutGrid className="w-4 h-4" />, href: '/bo-thu' },
-    { label: 'Luyện thi', icon: <ClipboardList className="w-4 h-4" />, href: '/luyen-thi' },
+    { label: 'Hội thoại', icon: <MessageCircle className="w-4 h-4" />, href: '/hoi-thoai', color: 'text-orange-500', hoverBg: 'hover:bg-orange-50', hoverBorder: 'hover:border-orange-500' },
+    { label: 'Đọc hiểu', icon: <FileText className="w-4 h-4" />, href: '/doc-hieu', color: 'text-purple-500', hoverBg: 'hover:bg-purple-50', hoverBorder: 'hover:border-purple-500' },
+    { label: 'Bộ thủ', icon: <LayoutGrid className="w-4 h-4" />, href: '/bo-thu', color: 'text-pink-500', hoverBg: 'hover:bg-pink-50', hoverBorder: 'hover:border-pink-500' },
+    { label: 'Luyện thi', icon: <ClipboardList className="w-4 h-4" />, href: '/luyen-thi', color: 'text-amber-500', hoverBg: 'hover:bg-amber-50', hoverBorder: 'hover:border-amber-500' },
   ];
 
   return (
@@ -228,9 +234,9 @@ export default function AppNavbar() {
               <li key={idx} className="relative group">
                 <Link 
                   href={item.href} 
-                  className="flex items-center gap-2 px-3 py-3 text-sm font-bold text-gray-500 hover:text-red-500 transition-colors border-b-2 border-transparent hover:border-red-500"
+                  className={`flex items-center gap-2 px-3 py-3 text-sm font-bold text-gray-500 transition-all border-b-2 border-transparent ${item.hoverBorder} hover:text-gray-900 ${item.hoverBg}`}
                 >
-                  <span className="text-gray-400 group-hover:text-red-500">{item.icon}</span>
+                  <span className={`${item.color}`}>{item.icon}</span>
                   {item.label}
                   {item.dropdown && <ChevronDown className="w-3 h-3 opacity-30" />}
                 </Link>
