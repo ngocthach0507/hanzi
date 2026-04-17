@@ -22,11 +22,32 @@ import {
   LogOut
 } from 'lucide-react';
 import { UserButton, SignInButton, useUser } from '@clerk/nextjs';
+import { supabase } from '@/lib/supabase';
+import { Crown } from 'lucide-react';
 
 export default function AppNavbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeModal, setActiveModal] = useState<null | 'intro' | 'teacher'>(null);
   const { user, isLoaded } = useUser();
+  const [isPro, setIsPro] = useState(false);
+
+  React.useEffect(() => {
+    if (isLoaded && user) {
+      const checkSub = async () => {
+        const { data } = await supabase
+          .from('subscriptions')
+          .select('plan, status, expires_at')
+          .eq('user_id', user.id)
+          .maybeSingle();
+        
+        if (data && data.plan !== 'free' && data.status === 'active' && 
+            (data.expires_at ? new Date(data.expires_at) > new Date() : false)) {
+          setIsPro(true);
+        }
+      };
+      checkSub();
+    }
+  }, [user, isLoaded]);
 
   const subNavItems = [
     { label: 'Giáo trình HSK 3.0', icon: <Book className="w-4 h-4" />, href: '/giao-trinh', color: 'text-red-500', hoverBg: 'hover:bg-red-50', hoverBorder: 'hover:border-red-500' },
@@ -181,10 +202,17 @@ export default function AppNavbar() {
               <span className="bg-red-500 text-white text-[9px] px-1 rounded-sm animate-pulse">NEW</span>
             </Link>
 
-            <Link href="/nang-cap" className="flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-orange-500 text-white px-4 py-2 rounded-xl text-sm font-black shadow-lg shadow-orange-100 hover:scale-105 transition-all animate-shimmer bg-[length:200%_100%]">
-              <Zap className="w-4 h-4 fill-white" />
-              NÂNG CẤP PREMIUM
-            </Link>
+            {isPro ? (
+              <div className="flex items-center gap-1.5 bg-gray-900 text-white px-4 py-2 rounded-xl text-sm font-black shadow-lg">
+                <Crown size={14} className="text-yellow-400" />
+                PREMIUM
+              </div>
+            ) : (
+              <Link href="/nang-cap" className="flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-orange-500 text-white px-4 py-2 rounded-xl text-sm font-black shadow-lg shadow-orange-100 hover:scale-105 transition-all animate-shimmer bg-[length:200%_100%]">
+                <Zap className="w-4 h-4 fill-white" />
+                NÂNG CẤP PREMIUM
+              </Link>
+            )}
 
             <div className="h-6 w-px bg-gray-200 hidden md:block"></div>
 

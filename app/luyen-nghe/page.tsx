@@ -1,6 +1,9 @@
 "use client";
 
+import React, { useState, useEffect } from 'react';
 import { useUser } from '@clerk/nextjs';
+import { supabase } from '@/lib/supabase';
+import Link from 'next/link';
 import { 
   Headphones, 
   ChevronRight, 
@@ -72,7 +75,7 @@ export default function LuyenNgheHub() {
           .single();
         
         if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' &&
-            (subData.expires_at ? new Date(subData.expires_at) > new Date() : true)) {
+            (subData.expires_at ? new Date(subData.expires_at) > new Date() : false)) {
           setIsPro(true);
         }
       }

@@ -1,7 +1,12 @@
 "use client";
 
+import React, { useState, useEffect, useRef } from 'react';
 import { useUser } from '@clerk/nextjs';
+import Link from 'next/link';
 import { supabase } from '@/lib/supabase';
+
+// @ts-ignore
+const HanziWriter = typeof window !== 'undefined' ? (window as any).HanziWriter : null;
 import { 
   PenTool, 
   RotateCcw, 
@@ -70,19 +75,21 @@ export default function LuyenVietPage() {
     if (writerContainerRef.current) {
       writerContainerRef.current.innerHTML = '';
       setCharLoadError(false);
-      writerRef.current = HanziWriter.create(writerContainerRef.current, activeChar.char, {
-        width: 400,
-        height: 400,
-        padding: 20,
-        showOutline: true,
-        strokeAnimationSpeed: 1,
-        delayBetweenStrokes: 200,
-        strokeColor: '#D85A30',
-        outlineColor: '#F3F4F6',
-        drawingColor: '#1F2937',
-        onLoadCharDataSuccess: () => setCharLoadError(false),
-        onLoadCharDataError: () => setCharLoadError(true),
-      });
+      if (HanziWriter) {
+        writerRef.current = HanziWriter.create(writerContainerRef.current, activeChar.char, {
+          width: 400,
+          height: 400,
+          padding: 20,
+          showOutline: true,
+          strokeAnimationSpeed: 1,
+          delayBetweenStrokes: 200,
+          strokeColor: '#D85A30',
+          outlineColor: '#F3F4F6',
+          drawingColor: '#1F2937',
+          onLoadCharDataSuccess: () => setCharLoadError(false),
+          onLoadCharDataError: () => setCharLoadError(true),
+        });
+      }
     }
   }, [activeChar]);
 

@@ -156,7 +156,7 @@ export default function Dashboard() {
   const isPro = subscription?.plan && 
                 subscription.plan !== 'free' && 
                 subscription?.status === 'active' && 
-                (subscription.expires_at ? new Date(subscription.expires_at) > new Date() : true);
+                (subscription.expires_at ? new Date(subscription.expires_at) > new Date() : false);
 
   return (
     <div className="min-h-screen bg-[#FDFDFD] pb-20">

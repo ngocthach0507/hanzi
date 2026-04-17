@@ -1,6 +1,14 @@
 import { NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase";
 
+export async function GET() {
+  return NextResponse.json({ 
+    status: "ok", 
+    message: "SePay Webhook is listening",
+    adminInitialized: !!supabaseAdmin
+  });
+}
+
 export async function POST(request: Request) {
   console.log("===> SEPAY WEBHOOK RECEIVED <===");
   
@@ -46,20 +54,26 @@ export async function POST(request: Request) {
         else if (tAmount >= 480000) daysToAdd = 180;
         else if (tAmount >= 280000) daysToAdd = 90;
         else if (tAmount >= 110000) daysToAdd = 30;
-        else if (tAmount > 0) daysToAdd = 30; // Min 30 days for any positive amount
+        else if (tAmount > 0) daysToAdd = 30; // Min 30 days
         else daysToAdd = 0;
 
         if (daysToAdd > 0) {
           // 5. CẬP NHẬT TRẠNG THÁI (Gia hạn nếu đã có gói)
-          const currentExpiry = subData.expires_at ? new Date(subData.expires_at) : new Date();
-          const baseDate = currentExpiry > new Date() ? currentExpiry : new Date();
+          const isCurrentlyActive = (subData.expires_at ? new Date(subData.expires_at) > new Date() : false);
+          const baseDate = isCurrentlyActive ? new Date(subData.expires_at) : new Date();
           const newExpiry = new Date(baseDate.getTime() + daysToAdd * 24 * 60 * 60 * 1000);
+
+          let newPlan = subData.plan;
+          if (daysToAdd >= 365) newPlan = "premium_1_year";
+          else if (daysToAdd >= 180) newPlan = "premium_6_months";
+          else if (daysToAdd >= 90) newPlan = "premium_3_months";
+          else if (daysToAdd >= 30) newPlan = "premium_1_month";
 
           const { error: updateError } = await supabaseAdmin
             .from('subscriptions')
             .update({
               status: 'active',
-              plan: subData.plan === 'free' ? 'pro' : subData.plan, // Update from free to pro
+              plan: newPlan,
               sepay_ref: body.id || body.paymentRef || "WEBHOOK_AUTO",
               activated_at: new Date().toISOString(),
               expires_at: newExpiry.toISOString()

@@ -40,7 +40,7 @@ export default function LuyenDeTHPTPage() {
           .single();
         
         if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' &&
-            (subData.expires_at ? new Date(subData.expires_at) > new Date() : true)) {
+            (subData.expires_at ? new Date(subData.expires_at) > new Date() : false)) {
           setIsPremium(true);
         }
       }
