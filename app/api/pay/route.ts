@@ -23,7 +23,7 @@ export async function POST(request: Request) {
 
     // Tạo mã nội dung chuyển khoản ngẫu nhiên (Ví dụ: HZ123456)
     const randomSuffix = Math.floor(100000 + Math.random() * 900000);
-    const paymentRef = `HZ${randomSuffix}`;
+    const paymentRef = `DH${randomSuffix}`;
 
     // Thông tin tài khoản nhận tiền
     const bankId = process.env.SEPAY_BANK_ID || "mbbank";
