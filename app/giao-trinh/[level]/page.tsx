@@ -120,7 +120,7 @@ export default function LessonList() {
         <div className="grid grid-cols-1 gap-4">
           {lessons.map((lesson) => {
             const isCompleted = userProgress.has(lesson.lesson_number);
-            const isUnlocked = true; // DEV BYPASS: Luôn mở khóa để kiểm tra dữ liệu
+            const isUnlocked = isPro || lesson.lesson_number <= 2; // Chỉ mở khóa 2 bài đầu cho bản dùng thử
 
             return (
               <div 
@@ -180,7 +180,7 @@ export default function LessonList() {
                       <ArrowRight size={28} strokeWidth={3} />
                     </Link>
                   ) : (
-                    <Link href="/nang-cap" className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-gray-100 text-gray-400 flex items-center justify-center transition-all group-hover:bg-red-50 group-hover:text-red-500">
+                    <Link href="/vip" className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-gray-100 text-gray-400 flex items-center justify-center transition-all group-hover:bg-red-50 group-hover:text-red-500">
                       <Lock size={28} />
                     </Link>
                   )}
@@ -201,7 +201,7 @@ export default function LessonList() {
                <p className="text-gray-400 mb-12 max-w-2xl mx-auto text-xl leading-relaxed font-medium">
                  Mở khóa toàn bộ bài học, luyện tập thi thử và nhận sự hỗ trợ đặc biệt từ AI Tiểu Ngữ 24/7.
                </p>
-               <Link href="/nang-cap" className="inline-flex items-center gap-4 bg-white text-gray-900 px-12 py-6 rounded-full font-black text-2xl hover:bg-yellow-400 transition-all shadow-xl hover:-translate-y-1 active:scale-95">
+               <Link href="/vip" className="inline-flex items-center gap-4 bg-white text-gray-900 px-12 py-6 rounded-full font-black text-2xl hover:bg-yellow-400 transition-all shadow-xl hover:-translate-y-1 active:scale-95">
                   NÂNG CẤP PRO NGAY
                </Link>
             </div>

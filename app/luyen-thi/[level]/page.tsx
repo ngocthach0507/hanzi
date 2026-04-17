@@ -83,40 +83,70 @@ export default function ExamListByLevel() {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {exams.map((exam) => (
-              <div 
-                key={exam.id}
-                className="bg-white p-6 rounded-[32px] border transition-all flex flex-col h-full relative group hover:shadow-md hover:border-blue-100"
-              >
-                <div className="flex items-center justify-between mb-6">
-                  <div className="w-12 h-12 bg-gray-50 rounded-2xl flex items-center justify-center text-gray-400 group-hover:bg-blue-50 group-hover:text-blue-500 transition-colors">
-                    <FileText size={24} />
-                  </div>
-                  <span className="text-[10px] font-black text-gray-400 uppercase tracking-widest bg-gray-50 px-3 py-1 rounded-full italic">Mới</span>
-                </div>
+            {exams.map((exam, index) => {
+              const isFree = index === 0; // Chỉ đề thi đầu tiên miễn phí
 
-                <h3 className="text-lg font-black text-gray-900 mb-2 leading-tight">{exam.title}</h3>
-                <p className="text-xs text-gray-400 font-bold uppercase mb-8">HSK{level}-2026-{exam.id}</p>
+              return (
+                <div 
+                  key={exam.id}
+                  className={`p-6 rounded-[32px] border transition-all flex flex-col h-full relative group shadow-sm ${
+                    isFree 
+                    ? 'bg-white hover:shadow-md hover:border-blue-100' 
+                    : 'bg-gray-50/50 border-dashed border-gray-200 grayscale opacity-80'
+                  }`}
+                >
+                  {!isFree && (
+                    <div className="absolute inset-0 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-white/40 backdrop-blur-[2px] rounded-[32px]">
+                      <Link href="/vip" className="bg-orange-500 text-white px-6 py-2 rounded-xl font-black shadow-xl">
+                        MỞ KHÓA VIP
+                      </Link>
+                    </div>
+                  )}
 
-                <div className="mt-auto pt-4 border-t border-gray-50 flex items-center justify-between">
-                  <div className="flex gap-4">
-                    <div className="flex items-center gap-1.5 text-[10px] font-bold text-gray-500">
-                      <Clock size={14} className="text-orange-400" /> {exam.duration_minutes} phút
+                  <div className="flex items-center justify-between mb-6">
+                    <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-colors ${
+                      isFree ? 'bg-gray-50 text-gray-400 group-hover:bg-blue-50 group-hover:text-blue-500' : 'bg-gray-100 text-gray-300'
+                    }`}>
+                      {isFree ? <FileText size={24} /> : <Lock size={24} />}
                     </div>
-                    <div className="flex items-center gap-1.5 text-[10px] font-bold text-gray-500">
-                      <BarChart3 size={14} className="text-blue-500" /> {exam.total_questions} câu
-                    </div>
+                    <span className={`text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full italic ${
+                      isFree ? 'bg-blue-50 text-blue-500' : 'bg-gray-100 text-gray-400'
+                    }`}>
+                      {isFree ? 'Miễn phí' : '🔒 VIP'}
+                    </span>
                   </div>
-                  
-                  <Link 
-                    href={`/luyen-thi/hsk${level}/${exam.id}`}
-                    className="p-3 bg-gray-900 text-white rounded-xl hover:bg-blue-600 transition-all shadow-lg shadow-gray-200 group-hover:scale-110 active:scale-95"
-                  >
-                    <PlayCircle size={20} />
-                  </Link>
+
+                  <h3 className={`text-lg font-black mb-2 leading-tight ${isFree ? 'text-gray-900' : 'text-gray-400'}`}>
+                    {exam.title}
+                  </h3>
+                  <p className="text-xs text-gray-400 font-bold uppercase mb-8">HSK{level}-2026-{exam.id}</p>
+
+                  <div className="mt-auto pt-4 border-t border-gray-50 flex items-center justify-between">
+                    <div className="flex gap-4">
+                      <div className="flex items-center gap-1.5 text-[10px] font-bold text-gray-500">
+                        <Clock size={14} className={isFree ? "text-orange-400" : "text-gray-300"} /> {exam.duration_minutes} phút
+                      </div>
+                      <div className="flex items-center gap-1.5 text-[10px] font-bold text-gray-500">
+                        <BarChart3 size={14} className={isFree ? "text-blue-500" : "text-gray-300"} /> {exam.total_questions} câu
+                      </div>
+                    </div>
+                    
+                    {isFree ? (
+                      <Link 
+                        href={`/luyen-thi/hsk${level}/${exam.id}`}
+                        className="p-3 bg-gray-900 text-white rounded-xl hover:bg-blue-600 transition-all shadow-lg shadow-gray-200 group-hover:scale-110 active:scale-95"
+                      >
+                        <PlayCircle size={20} />
+                      </Link>
+                    ) : (
+                      <div className="p-3 bg-gray-200 text-gray-400 rounded-xl cursor-not-allowed">
+                        <Lock size={20} />
+                      </div>
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         )}
 

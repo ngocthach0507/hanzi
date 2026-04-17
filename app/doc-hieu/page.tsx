@@ -109,31 +109,31 @@ export default function ReadingList() {
         {/* Readings Grid */}
         {!loading && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {readings.map((read) => {
+            {readings.map((read, index) => {
               const topicColor = TOPIC_COLOR[read.topic] || 'bg-gray-50 text-gray-600';
-              return (
-                <Link 
-                  key={read.id}
-                  href={`/doc-hieu/hsk${read.level}/${read.id}`}
-                  className="group bg-white rounded-[32px] border border-gray-100 p-8 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full"
-                >
+              const isFree = index < 2; // Chỉ 2 bài đầu miễn phí
+
+              const Content = (
+                <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between mb-6">
-                    <div className="p-4 bg-blue-50 text-blue-600 rounded-2xl group-hover:bg-blue-600 group-hover:text-white transition-colors">
-                      <FileText size={24} />
+                    <div className={`p-4 rounded-2xl transition-colors ${isFree ? 'bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white' : 'bg-gray-100 text-gray-400'}`}>
+                      {isFree ? <FileText size={24} /> : <Lock size={24} />}
                     </div>
-                    <span className={`text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-xl ${topicColor}`}>
+                    <span className={`text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-xl ${isFree ? topicColor : 'bg-gray-50 text-gray-400'}`}>
                       {read.topic}
                     </span>
                   </div>
 
-                  <h3 className="text-2xl font-black text-gray-900 mb-1 group-hover:text-[#D85A30] transition-colors">{read.title_zh}</h3>
+                  <h3 className={`text-2xl font-black mb-1 transition-colors ${isFree ? 'text-gray-900 group-hover:text-[#D85A30]' : 'text-gray-400'}`}>
+                    {read.title_zh}
+                  </h3>
                   <p className="text-gray-500 font-bold text-sm mb-5">{read.title_vi}</p>
 
                   {/* Grammar focus tags */}
                   {read.grammar_focus?.length > 0 && (
                     <div className="flex flex-wrap gap-1.5 mb-6">
                       {read.grammar_focus.slice(0, 2).map((g, i) => (
-                        <span key={i} className="text-[10px] font-bold text-[#D85A30] bg-orange-50 border border-orange-100 px-2 py-1 rounded-lg flex items-center gap-1">
+                        <span key={i} className={`text-[10px] font-bold px-2 py-1 rounded-lg flex items-center gap-1 border ${isFree ? 'text-[#D85A30] bg-orange-50 border-orange-100' : 'text-gray-400 bg-gray-50 border-gray-100'}`}>
                           <Tag size={9} /> {g}
                         </span>
                       ))}
@@ -143,19 +143,39 @@ export default function ReadingList() {
                   <div className="mt-auto">
                     {/* Exercise types */}
                     <div className="flex gap-2 mb-4">
-                      <div className="flex items-center gap-1.5 text-[10px] font-bold bg-blue-50 text-blue-600 px-2.5 py-1.5 rounded-lg">
+                      <div className={`flex items-center gap-1.5 text-[10px] font-bold px-2.5 py-1.5 rounded-lg ${isFree ? 'bg-blue-50 text-blue-600' : 'bg-gray-50 text-gray-400'}`}>
                         ✅ Trắc nghiệm
                       </div>
-                      <div className="flex items-center gap-1.5 text-[10px] font-bold bg-amber-50 text-amber-600 px-2.5 py-1.5 rounded-lg">
+                      <div className={`flex items-center gap-1.5 text-[10px] font-bold px-2.5 py-1.5 rounded-lg ${isFree ? 'bg-amber-50 text-amber-600' : 'bg-gray-50 text-gray-400'}`}>
                         💡 Ngữ pháp
                       </div>
                     </div>
-                    <div className="flex items-center justify-between pt-4 border-t border-gray-50 font-black text-sm text-[#D85A30]">
-                      Đọc ngay
-                      <ChevronRight size={18} className="translate-x-0 group-hover:translate-x-1 transition-transform" />
+                    <div className={`flex items-center justify-between pt-4 border-t font-black text-sm ${isFree ? 'text-[#D85A30] border-gray-50' : 'text-gray-400 border-gray-100'}`}>
+                      {isFree ? 'Đọc ngay' : '🔒 Nâng cấp VIP'}
+                      <ChevronRight size={18} className={`transition-transform ${isFree ? 'translate-x-0 group-hover:translate-x-1' : ''}`} />
                     </div>
                   </div>
+                </div>
+              );
+
+              return isFree ? (
+                <Link 
+                  key={read.id}
+                  href={`/doc-hieu/hsk${read.level}/${read.id}`}
+                  className="group bg-white rounded-[32px] border border-gray-100 p-8 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full"
+                >
+                  {Content}
                 </Link>
+              ) : (
+                <div 
+                  key={read.id}
+                  className="bg-gray-50/50 rounded-[32px] border border-dashed border-gray-200 p-8 flex flex-col h-full opacity-70 grayscale relative overflow-hidden group cursor-pointer"
+                >
+                  <Link href="/vip" className="absolute inset-0 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-white/20 backdrop-blur-[2px]">
+                    <span className="bg-orange-500 text-white px-6 py-2 rounded-xl font-black shadow-xl">HỌC VIP NGAY</span>
+                  </Link>
+                  {Content}
+                </div>
               );
             })}
 

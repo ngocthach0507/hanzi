@@ -149,20 +149,20 @@ export default function AppNavbar() {
         <div className="flex items-center gap-3">
           {/* App Buttons */}
           <div className="hidden sm:flex items-center gap-2 mr-4">
-            <Link href="#" className="bg-black text-white px-3 py-1.5 rounded-lg flex items-center gap-1.5 hover:opacity-80 transition-opacity">
+            <div className="bg-black/5 text-gray-400 px-3 py-1.5 rounded-lg flex items-center gap-1.5 cursor-not-allowed grayscale">
               <Smartphone className="w-3.5 h-3.5" />
               <div className="flex flex-col leading-none">
-                <span className="text-[8px] uppercase font-bold opacity-70">Get it on</span>
+                <span className="text-[8px] uppercase font-bold opacity-70">Coming soon</span>
                 <span className="text-[10px] font-black tracking-tight">Google Play</span>
               </div>
-            </Link>
-            <Link href="#" className="bg-black text-white px-3 py-1.5 rounded-lg flex items-center gap-1.5 hover:opacity-80 transition-opacity">
+            </div>
+            <div className="bg-black/5 text-gray-400 px-3 py-1.5 rounded-lg flex items-center gap-1.5 cursor-not-allowed grayscale">
               <Smartphone className="w-3.5 h-3.5" />
               <div className="flex flex-col leading-none">
-                <span className="text-[8px] uppercase font-bold opacity-70">Download on</span>
+                <span className="text-[8px] uppercase font-bold opacity-70">Coming soon</span>
                 <span className="text-[10px] font-black tracking-tight">App Store</span>
               </div>
-            </Link>
+            </div>
           </div>
 
           <div className="flex items-center gap-2 md:gap-4">
@@ -173,6 +173,11 @@ export default function AppNavbar() {
             <Link href="/giao-trinh" className="flex items-center gap-1.5 text-sm font-bold text-gray-700 hover:text-red-500 relative py-1 px-2 bg-gray-50 rounded-lg group">
               📚 HSK 3.0
               <span className="bg-red-500 text-white text-[9px] px-1 rounded-sm animate-pulse">NEW</span>
+            </Link>
+
+            <Link href="/vip" className="flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-orange-500 text-white px-4 py-2 rounded-xl text-sm font-black shadow-lg shadow-orange-100 hover:scale-105 transition-all animate-shimmer bg-[length:200%_100%]">
+              <Zap className="w-4 h-4 fill-white" />
+              NÂNG CẤP VIP
             </Link>
 
             <div className="h-6 w-px bg-gray-200 hidden md:block"></div>

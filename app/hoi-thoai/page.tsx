@@ -48,7 +48,7 @@ export default function ConversationList() {
             vi: d.scene_vi,
             topic: getTopic(d.lesson_number),
             difficulty: d.book_level <= 2 ? 'Dễ' : 'Trung bình',
-            isFree: d.book_level <= 1, // HSK 1 free
+            isFree: d.lesson_number <= 2, // Chỉ cho dùng thử 2 bài đầu
             rolesCount
           };
         }));
