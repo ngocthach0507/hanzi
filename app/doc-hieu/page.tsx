@@ -12,6 +12,8 @@ import {
   Tag,
   Lock
 } from 'lucide-react';
+import { supabase } from '@/lib/supabase';
+import { useUser } from '@clerk/nextjs';
 
 interface ReadingCard {
   id: string;
@@ -36,13 +38,30 @@ const TOPIC_COLOR: Record<string, string> = {
 };
 
 export default function ReadingList() {
+  const { user, isLoaded: isUserLoaded } = useUser();
   const [activeLevel, setActiveLevel] = useState(1);
   const [readings, setReadings] = useState<ReadingCard[]>([]);
   const [loading, setLoading] = useState(true);
+  const [isPro, setIsPro] = useState(false);
 
   useEffect(() => {
     async function fetchReadings() {
+      if (!isUserLoaded) return;
       setLoading(true);
+
+      // Check VIP status
+      if (user) {
+        const { data: subData } = await supabase
+          .from('subscriptions')
+          .select('plan, status')
+          .eq('user_id', user.id)
+          .single();
+        
+        if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active') {
+          setIsPro(true);
+        }
+      }
+
       try {
         const res = await fetch(`/api/readings?level=${activeLevel}`);
         if (res.ok) {
@@ -57,7 +76,7 @@ export default function ReadingList() {
       setLoading(false);
     }
     fetchReadings();
-  }, [activeLevel]);
+  }, [activeLevel, isUserLoaded, user]);
 
   return (
     <div className="py-12 px-4 md:px-8 bg-white min-h-screen">
@@ -113,19 +132,20 @@ export default function ReadingList() {
             {readings.map((read, index) => {
               const topicColor = TOPIC_COLOR[read.topic] || 'bg-gray-50 text-gray-600';
               const isFree = index < 2; // Chỉ 2 bài đầu miễn phí
+              const canAccess = isFree || isPro;
 
               const Content = (
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between mb-6">
-                    <div className={`p-4 rounded-2xl transition-colors ${isFree ? 'bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white' : 'bg-gray-100 text-gray-400'}`}>
-                      {isFree ? <FileText size={24} /> : <Lock size={24} />}
+                    <div className={`p-4 rounded-2xl transition-colors ${canAccess ? 'bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white' : 'bg-gray-100 text-gray-400'}`}>
+                      {canAccess ? <FileText size={24} /> : <Lock size={24} />}
                     </div>
-                    <span className={`text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-xl ${isFree ? topicColor : 'bg-gray-50 text-gray-400'}`}>
+                    <span className={`text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-xl ${canAccess ? topicColor : 'bg-gray-50 text-gray-400'}`}>
                       {read.topic}
                     </span>
                   </div>
 
-                  <h3 className={`text-2xl font-black mb-1 transition-colors ${isFree ? 'text-gray-900 group-hover:text-[#D85A30]' : 'text-gray-400'}`}>
+                  <h3 className={`text-2xl font-black mb-1 transition-colors ${canAccess ? 'text-gray-900 group-hover:text-[#D85A30]' : 'text-gray-400'}`}>
                     {read.title_zh}
                   </h3>
                   <p className="text-gray-500 font-bold text-sm mb-5">{read.title_vi}</p>
@@ -134,7 +154,7 @@ export default function ReadingList() {
                   {read.grammar_focus?.length > 0 && (
                     <div className="flex flex-wrap gap-1.5 mb-6">
                       {read.grammar_focus.slice(0, 2).map((g, i) => (
-                        <span key={i} className={`text-[10px] font-bold px-2 py-1 rounded-lg flex items-center gap-1 border ${isFree ? 'text-[#D85A30] bg-orange-50 border-orange-100' : 'text-gray-400 bg-gray-50 border-gray-100'}`}>
+                        <span key={i} className={`text-[10px] font-bold px-2 py-1 rounded-lg flex items-center gap-1 border ${canAccess ? 'text-[#D85A30] bg-orange-50 border-orange-100' : 'text-gray-400 bg-gray-50 border-gray-100'}`}>
                           <Tag size={9} /> {g}
                         </span>
                       ))}
@@ -144,22 +164,22 @@ export default function ReadingList() {
                   <div className="mt-auto">
                     {/* Exercise types */}
                     <div className="flex gap-2 mb-4">
-                      <div className={`flex items-center gap-1.5 text-[10px] font-bold px-2.5 py-1.5 rounded-lg ${isFree ? 'bg-blue-50 text-blue-600' : 'bg-gray-50 text-gray-400'}`}>
+                      <div className={`flex items-center gap-1.5 text-[10px] font-bold px-2.5 py-1.5 rounded-lg ${canAccess ? 'bg-blue-50 text-blue-600' : 'bg-gray-50 text-gray-400'}`}>
                         ✅ Trắc nghiệm
                       </div>
-                      <div className={`flex items-center gap-1.5 text-[10px] font-bold px-2.5 py-1.5 rounded-lg ${isFree ? 'bg-amber-50 text-amber-600' : 'bg-gray-50 text-gray-400'}`}>
+                      <div className={`flex items-center gap-1.5 text-[10px] font-bold px-2.5 py-1.5 rounded-lg ${canAccess ? 'bg-amber-50 text-amber-600' : 'bg-gray-50 text-gray-400'}`}>
                         💡 Ngữ pháp
                       </div>
                     </div>
-                    <div className={`flex items-center justify-between pt-4 border-t font-black text-sm ${isFree ? 'text-[#D85A30] border-gray-50' : 'text-gray-400 border-gray-100'}`}>
-                      {isFree ? 'Đọc ngay' : '🔒 Nâng cấp VIP'}
-                      <ChevronRight size={18} className={`transition-transform ${isFree ? 'translate-x-0 group-hover:translate-x-1' : ''}`} />
+                    <div className={`flex items-center justify-between pt-4 border-t font-black text-sm ${canAccess ? 'text-[#D85A30] border-gray-50' : 'text-gray-400 border-gray-100'}`}>
+                      {canAccess ? 'Đọc ngay' : '🔒 Nâng cấp VIP'}
+                      <ChevronRight size={18} className={`transition-transform ${canAccess ? 'translate-x-0 group-hover:translate-x-1' : ''}`} />
                     </div>
                   </div>
                 </div>
               );
 
-              return isFree ? (
+              return canAccess ? (
                 <Link 
                   key={read.id}
                   href={`/doc-hieu/hsk${read.level}/${read.id}`}

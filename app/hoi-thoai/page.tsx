@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { ChevronRight, Search, MessageSquare, Users, PlayCircle, Lock, CheckCircle2 } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
+import { useUser } from '@clerk/nextjs';
+
 // Helper for topics based on lesson titles (mental map)
 const getTopic = (lesson: number) => {
   if (lesson <= 3) return 'greeting';
@@ -13,13 +15,30 @@ const getTopic = (lesson: number) => {
 };
 
 export default function ConversationList() {
+  const { user, isLoaded: isUserLoaded } = useUser();
   const [activeLevel, setActiveLevel] = useState(1);
   const [conversations, setConversations] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const [isPro, setIsPro] = useState(false);
 
   React.useEffect(() => {
     async function fetchConvs() {
+      if (!isUserLoaded) return;
       setLoading(true);
+
+      // Check VIP status
+      if (user) {
+        const { data: subData } = await supabase
+          .from('subscriptions')
+          .select('plan, status')
+          .eq('user_id', user.id)
+          .single();
+        
+        if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active') {
+          setIsPro(true);
+        }
+      }
+
       const { data, error } = await supabase
         .from('texts')
         .select('*')
@@ -56,7 +75,7 @@ export default function ConversationList() {
       setLoading(false);
     }
     fetchConvs();
-  }, [activeLevel]);
+  }, [activeLevel, isUserLoaded, user]);
 
   const filteredConvs = conversations;
 
@@ -132,7 +151,7 @@ export default function ConversationList() {
                   <Users size={14} className="text-blue-500" /> {conv.rolesCount || 2} vai diễn
                 </div>
                 
-                {conv.isFree ? (
+                {(conv.isFree || isPro) ? (
                   <Link 
                     href={`/hoi-thoai/hsk${conv.level}/${conv.id}`}
                     className="flex items-center gap-2 bg-gray-900 text-white px-6 py-2.5 rounded-xl text-sm font-bold hover:bg-[#D85A30] transition-colors"
