@@ -13,11 +13,7 @@ export default function WelcomeModal() {
       // Kiểm tra xem đã xem hướng dẫn chưa
       const hasSeenWelcome = localStorage.getItem('hasSeenWelcomeGuide');
       if (!hasSeenWelcome) {
-        // Delay một chút để trang load xong rồi mới hiện popup cho chuyên nghiệp
-        const timer = setTimeout(() => {
-          setIsOpen(true);
-        }, 1500);
-        return () => clearTimeout(timer);
+        setIsOpen(true);
       }
     }
   }, [isLoaded, isSignedIn]);
