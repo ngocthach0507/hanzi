@@ -9,7 +9,8 @@ import {
   BarChart3,
   BookOpen,
   Loader2,
-  Tag
+  Tag,
+  Lock
 } from 'lucide-react';
 
 interface ReadingCard {
