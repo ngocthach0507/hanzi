@@ -132,7 +132,21 @@ export default function UpgradePage() {
     }
   };
 
-  const closePaymentModal = () => {
+  const closePaymentModal = async () => {
+    if (paymentInfo) {
+      try {
+        const response = await fetch('/api/user/subscription');
+        const data = await response.json();
+
+        if (data.isPro) {
+          window.location.reload();
+          return;
+        }
+      } catch (error) {
+        console.error("Failed to refresh subscription:", error);
+      }
+    }
+
     setPaymentInfo(null);
   };
 

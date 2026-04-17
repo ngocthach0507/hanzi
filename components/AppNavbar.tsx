@@ -32,22 +32,28 @@ export default function AppNavbar() {
   const [isPro, setIsPro] = useState(false);
 
   React.useEffect(() => {
-    if (isLoaded && user) {
-      const checkSub = async () => {
-        try {
-          const res = await fetch('/api/user/subscription');
-          const data = await res.json();
-          if (data.isPro) {
-            setIsPro(true);
-          } else {
-            setIsPro(false);
-          }
-        } catch (err) {
-          console.error("Failed to check subscription:", err);
-        }
-      };
-      checkSub();
+    if (!isLoaded || !user) {
+      return;
     }
+
+    const checkSub = async () => {
+      try {
+        const res = await fetch('/api/user/subscription');
+        const data = await res.json();
+        setIsPro(Boolean(data.isPro));
+      } catch (err) {
+        console.error("Failed to check subscription:", err);
+      }
+    };
+
+    checkSub();
+
+    const handleFocus = () => {
+      checkSub();
+    };
+
+    window.addEventListener('focus', handleFocus);
+    return () => window.removeEventListener('focus', handleFocus);
   }, [user, isLoaded]);
 
   const subNavItems = [
