@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import {
   ChevronRight,
@@ -14,7 +14,10 @@ import {
   Lightbulb,
   ChevronDown,
   ChevronUp,
+  Lock,
 } from 'lucide-react';
+import { supabase } from '@/lib/supabase';
+import { useUser } from '@clerk/nextjs';
 import measureWords from '../../data/measure-words.json';
 
 const CATEGORIES = ['Tất cả', ...Array.from(new Set(measureWords.map((w: any) => w.category)))];
@@ -46,26 +49,35 @@ function speak(text: string) {
   }
 }
 
-function MeasureWordCard({ word }: { word: any }) {
+function MeasureWordCard({ word, isPremium }: { word: any, isPremium: boolean }) {
   const [expanded, setExpanded] = useState(false);
   const color = CATEGORY_COLORS[word.category] || { bg: 'bg-gray-50', text: 'text-gray-600', border: 'border-gray-200' };
+  const canAccess = word.is_free || isPremium;
 
   return (
-    <div className="bg-white rounded-[28px] border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition-all group">
+    <div className={`bg-white rounded-[28px] border border-gray-100 shadow-sm overflow-hidden transition-all group relative ${!canAccess ? 'opacity-80' : 'hover:shadow-md'}`}>
+      {!canAccess && (
+        <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-white/40 backdrop-blur-[1px] opacity-0 group-hover:opacity-100 transition-opacity">
+          <Link href="/nang-cap" className="bg-gray-900 text-white px-5 py-2 rounded-xl font-black text-xs shadow-xl flex items-center gap-2">
+            <Lock size={12} /> MỞ KHÓA PREMIUM
+          </Link>
+        </div>
+      )}
+
       {/* Header */}
       <div className="p-6 pb-4">
         <div className="flex items-start justify-between mb-4">
           <div className="flex items-center gap-4">
             <div
               className={`w-20 h-20 rounded-2xl ${color.bg} border ${color.border} flex items-center justify-center cursor-pointer group-hover:scale-105 transition-transform`}
-              onClick={() => speak(word.character)}
+              onClick={() => canAccess && speak(word.character)}
             >
-              <span className={`text-4xl font-black ${color.text}`}>{word.character}</span>
+              <span className={`text-4xl font-black ${canAccess ? color.text : 'text-gray-300'}`}>{word.character}</span>
             </div>
             <div>
               <div className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">{word.pinyin}</div>
-              <h3 className="text-base font-black text-gray-900 leading-tight">{word.meaning_vi}</h3>
-              <span className={`inline-block mt-2 px-2.5 py-0.5 rounded-full text-[10px] font-bold ${color.bg} ${color.text} border ${color.border}`}>
+              <h3 className={`text-base font-black leading-tight ${canAccess ? 'text-gray-900' : 'text-gray-400'}`}>{word.meaning_vi}</h3>
+              <span className={`inline-block mt-2 px-2.5 py-0.5 rounded-full text-[10px] font-bold ${canAccess ? color.bg : 'bg-gray-100'} ${canAccess ? color.text : 'text-gray-300'} border ${canAccess ? color.border : 'border-gray-200'}`}>
                 {word.category}
               </span>
             </div>
@@ -75,8 +87,8 @@ function MeasureWordCard({ word }: { word: any }) {
               <span className="px-2 py-1 bg-amber-100 text-amber-700 text-[9px] font-black rounded-full uppercase tracking-wider">PREMIUM</span>
             )}
             <button
-              onClick={() => speak(word.character)}
-              className="w-8 h-8 bg-gray-50 rounded-full flex items-center justify-center text-gray-400 hover:text-orange-500 hover:bg-orange-50 transition-all"
+              onClick={() => canAccess && speak(word.character)}
+              className={`w-8 h-8 bg-gray-50 rounded-full flex items-center justify-center text-gray-400 transition-all ${canAccess ? 'hover:text-orange-500 hover:bg-orange-50' : 'cursor-not-allowed opacity-50'}`}
             >
               <Volume2 size={14} />
             </button>
@@ -86,21 +98,22 @@ function MeasureWordCard({ word }: { word: any }) {
         {/* Used for */}
         <div className="flex items-start gap-2 p-3 bg-gray-50 rounded-xl">
           <Lightbulb size={14} className="text-orange-400 flex-shrink-0 mt-0.5" />
-          <p className="text-xs text-gray-600 font-medium leading-relaxed">{word.used_for}</p>
+          <p className="text-xs text-gray-600 font-medium leading-relaxed">{canAccess ? word.used_for : 'Nội dung chi tiết dành cho thành viên Premium...'}</p>
         </div>
       </div>
 
       {/* Examples toggle */}
       <div className="px-6 pb-6">
         <button
-          onClick={() => setExpanded(!expanded)}
-          className="w-full flex items-center justify-between py-2 border-t border-gray-50 text-xs font-bold text-gray-400 hover:text-gray-600 transition-colors"
+          onClick={() => canAccess && setExpanded(!expanded)}
+          className={`w-full flex items-center justify-between py-2 border-t border-gray-50 text-xs font-bold transition-colors ${canAccess ? 'text-gray-400 hover:text-gray-600' : 'text-gray-200 cursor-not-allowed'}`}
+          disabled={!canAccess}
         >
           <span>{word.examples.length} ví dụ</span>
-          {expanded ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
+          {canAccess ? (expanded ? <ChevronUp size={14} /> : <ChevronDown size={14} />) : <Lock size={12} />}
         </button>
 
-        {expanded && (
+        {expanded && canAccess && (
           <div className="mt-3 grid grid-cols-1 gap-2">
             {word.examples.map((ex: any, i: number) => (
               <div
@@ -123,9 +136,30 @@ function MeasureWordCard({ word }: { word: any }) {
 }
 
 export default function LuongTuPage() {
+  const { user, isLoaded: isUserLoaded } = useUser();
+  const [isPremium, setIsPremium] = useState(false);
   const [activeCategory, setActiveCategory] = useState('Tất cả');
   const [search, setSearch] = useState('');
   const [showFreeOnly, setShowFreeOnly] = useState(false);
+
+  useEffect(() => {
+    async function checkSubscription() {
+      if (!isUserLoaded) return;
+      if (user) {
+        const { data: subData } = await supabase
+          .from('subscriptions')
+          .select('plan, status, expires_at')
+          .eq('user_id', user.id)
+          .single();
+        
+        if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' &&
+            (subData.expires_at ? new Date(subData.expires_at) > new Date() : true)) {
+          setIsPremium(true);
+        }
+      }
+    }
+    checkSubscription();
+  }, [isUserLoaded, user]);
 
   const filtered = useMemo(() => {
     return measureWords.filter((w: any) => {
@@ -255,7 +289,7 @@ export default function LuongTuPage() {
         {filtered.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {filtered.map((word: any) => (
-              <MeasureWordCard key={word.id} word={word} />
+              <MeasureWordCard key={word.id} word={word} isPremium={isPremium} />
             ))}
           </div>
         ) : (

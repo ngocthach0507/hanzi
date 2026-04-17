@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { 
   FileText, 
@@ -12,17 +12,42 @@ import {
   BarChart3,
   ShieldCheck,
   Zap,
-  GraduationCap
+  GraduationCap,
+  Lock
 } from 'lucide-react';
+import { supabase } from '@/lib/supabase';
+import { useUser } from '@clerk/nextjs';
 
 const thptExams = [
-  { id: 1, name: 'Đề thi THPT Quốc gia 2023', year: '2023', questions: 50, time: '60 phút', difficulty: 'Vừa', color: 'bg-emerald-50 text-emerald-600 border-emerald-100' },
+  { id: 1, name: 'Đề thi THPT Quốc gia 2023', year: '2023', questions: 50, time: '60 phút', difficulty: 'Vừa', color: 'bg-emerald-50 text-emerald-600 border-emerald-100', isFree: true },
   { id: 2, name: 'Đề minh họa Bộ GD&ĐT 2024', year: '2024', questions: 50, time: '60 phút', difficulty: 'Khó', color: 'bg-purple-50 text-purple-600 border-purple-100' },
   { id: 3, name: 'Đề khảo sát chuyên Thái Bình', year: '2024', questions: 50, time: '60 phút', difficulty: 'Cực khó', color: 'bg-rose-50 text-rose-600 border-rose-100' },
   { id: 4, name: 'Đề thi các năm (Tổng hợp)', year: '2020-2022', questions: 50, time: '60 phút', difficulty: 'Vừa', color: 'bg-blue-50 text-blue-600 border-blue-100' },
 ];
 
 export default function LuyenDeTHPTPage() {
+  const { user, isLoaded: isUserLoaded } = useUser();
+  const [isPremium, setIsPremium] = useState(false);
+
+  useEffect(() => {
+    async function checkSubscription() {
+      if (!isUserLoaded) return;
+      if (user) {
+        const { data: subData } = await supabase
+          .from('subscriptions')
+          .select('plan, status, expires_at')
+          .eq('user_id', user.id)
+          .single();
+        
+        if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' &&
+            (subData.expires_at ? new Date(subData.expires_at) > new Date() : true)) {
+          setIsPremium(true);
+        }
+      }
+    }
+    checkSubscription();
+  }, [isUserLoaded, user]);
+
   return (
     <div className="py-12 px-4 md:px-8 bg-[#F9FAFB] min-h-screen">
       <div className="max-w-7xl mx-auto">
@@ -77,37 +102,61 @@ export default function LuyenDeTHPTPage() {
 
         {/* Exam Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-           {thptExams.map((exam) => (
-              <div 
-                key={exam.id} 
-                className="bg-white p-8 rounded-[40px] border border-gray-100 shadow-sm card-hover flex flex-col md:flex-row items-center gap-8 group"
-              >
-                 <div className={`w-32 h-32 rounded-3xl flex flex-col items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform ${exam.color}`}>
-                    <FileText size={40} />
-                    <span className="text-[10px] font-black mt-2 uppercase tracking-widest">{exam.year}</span>
-                 </div>
-                 
-                 <div className="flex-1 text-center md:text-left">
-                    <h3 className="text-2xl font-black text-gray-900 mb-2 group-hover:text-blue-600 transition-colors leading-tight">{exam.name}</h3>
-                    <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-6">
-                       <span className="flex items-center gap-1.5 text-xs font-bold text-gray-400">
-                          <Clock size={16} /> {exam.time}
-                       </span>
-                       <span className="flex items-center gap-1.5 text-xs font-bold text-gray-400">
-                          <FileText size={16} /> {exam.questions} Câu hỏi
-                       </span>
-                       <span className="text-xs font-black text-orange-500 bg-orange-50 px-3 py-1 rounded-full uppercase tracking-widest">{exam.difficulty}</span>
-                    </div>
-                    
-                    <Link 
-                      href={`/luyen-thi/hsk1/1`} // Reusing the same exam interface for mock
-                      className="inline-flex items-center gap-3 bg-gray-900 text-white px-10 py-4 rounded-2xl font-black text-sm shadow-xl hover:bg-black transition-all hover:scale-105 active:scale-95"
-                    >
-                       Vào phòng thi <PlayCircle size={20} />
-                    </Link>
-                 </div>
-              </div>
-           ))}
+           {thptExams.map((exam) => {
+              const canAccess = exam.isFree || isPremium;
+
+              return (
+                <div 
+                  key={exam.id} 
+                  className={`bg-white p-8 rounded-[40px] border border-gray-100 shadow-sm flex flex-col md:flex-row items-center gap-8 group relative overflow-hidden transition-all duration-300 ${
+                    canAccess ? 'card-hover' : 'opacity-80'
+                  }`}
+                >
+                   {!canAccess && (
+                      <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-white/40 backdrop-blur-[1px] opacity-0 group-hover:opacity-100 transition-opacity">
+                        <Link href="/nang-cap" className="bg-gray-900 text-white px-8 py-3 rounded-2xl font-black text-sm shadow-xl flex items-center gap-2">
+                          <Lock size={16} /> MỞ KHÓA PREMIUM
+                        </Link>
+                      </div>
+                   )}
+
+                   <div className={`w-32 h-32 rounded-3xl flex flex-col items-center justify-center flex-shrink-0 transition-transform ${exam.color} ${canAccess ? 'group-hover:scale-110' : ''}`}>
+                      {canAccess ? <FileText size={40} /> : <Lock size={40} />}
+                      <span className="text-[10px] font-black mt-2 uppercase tracking-widest">{exam.year}</span>
+                   </div>
+                   
+                   <div className="flex-1 text-center md:text-left">
+                      <h3 className={`text-2xl font-black mb-2 transition-colors leading-tight ${canAccess ? 'text-gray-900 group-hover:text-blue-600' : 'text-gray-400'}`}>
+                        {exam.name}
+                      </h3>
+                      <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-6">
+                         <span className="flex items-center gap-1.5 text-xs font-bold text-gray-400">
+                            <Clock size={16} /> {exam.time}
+                         </span>
+                         <span className="flex items-center gap-1.5 text-xs font-bold text-gray-400">
+                            <FileText size={16} /> {exam.questions} Câu hỏi
+                         </span>
+                         <span className={`text-xs font-black px-3 py-1 rounded-full uppercase tracking-widest ${canAccess ? 'text-orange-500 bg-orange-50' : 'text-gray-300 bg-gray-50'}`}>
+                            {exam.difficulty}
+                         </span>
+                      </div>
+                      
+                      {canAccess ? (
+                        <Link 
+                          href={`/luyen-thi/hsk1/1`} // Reusing the same exam interface for mock
+                          className="inline-flex items-center gap-3 bg-gray-900 text-white px-10 py-4 rounded-2xl font-black text-sm shadow-xl hover:bg-black transition-all hover:scale-105 active:scale-95"
+                        >
+                           Vào phòng thi <PlayCircle size={20} />
+                        </Link>
+                      ) : (
+                        <div className="inline-flex items-center gap-3 bg-gray-200 text-gray-400 px-10 py-4 rounded-2xl font-black text-sm cursor-not-allowed">
+                           Khóa Premium <Lock size={20} />
+                        </div>
+                      )}
+                   </div>
+                </div>
+              );
+           })}
         </div>
       </div>
     </div>

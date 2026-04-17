@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import { 
   Shapes, 
@@ -16,10 +16,33 @@ import {
 } from 'lucide-react';
 
 import { radicals, Radical } from '../../constants/radicals';
+import { supabase } from '@/lib/supabase';
+import { useUser } from '@clerk/nextjs';
+import { Lock } from 'lucide-react';
 
 export default function RadicalsList() {
+  const { user, isLoaded: userLoaded } = useUser();
+  const [isPremium, setIsPremium] = useState(false);
   const [activeStrokes, setActiveStrokes] = useState<number | 'all'>('all');
   const [selectedRadical, setSelectedRadical] = useState<Radical | null>(null);
+
+  useEffect(() => {
+    async function checkPremium() {
+      if (user) {
+        const { data: subData } = await supabase
+          .from('subscriptions')
+          .select('plan, status, expires_at')
+          .eq('user_id', user.id)
+          .single();
+        
+        if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' &&
+            (subData.expires_at ? new Date(subData.expires_at) > new Date() : true)) {
+          setIsPremium(true);
+        }
+      }
+    }
+    checkPremium();
+  }, [user]);
 
   const filteredRadicals = useMemo(() => {
     if (!radicals || !Array.isArray(radicals)) return [];
@@ -84,53 +107,71 @@ export default function RadicalsList() {
 
         {/* Radicals Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          {filteredRadicals.map((r) => (
-            <div 
-              key={r.id} 
-              onClick={() => setSelectedRadical(r)}
-              className="bg-white p-8 rounded-[40px] border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-500 group cursor-pointer flex flex-col items-center relative"
-            >
-              {/* Title Section */}
-              <div className="text-center mb-8">
-                <div className="text-3xl font-black text-gray-900 mb-1 group-hover:text-blue-600 transition-colors">Bộ {r.hanViet || '...'}</div>
-                <div className="text-base text-gray-400 font-bold italic">({r.meaning || '...'})</div>
-              </div>
-
-              {/* Characters Section */}
-              <div className="flex gap-4 justify-center mb-10">
-                {[r.char, ...(r.variants || [])].filter(Boolean).slice(0, 2).map((v, i) => (
-                  <div key={i} className="relative w-28 h-28 border border-gray-200 rounded-2xl bg-gray-50 flex items-center justify-center overflow-hidden">
-                    {/* Grid lines */}
-                    <div className="absolute inset-0 pointer-events-none opacity-40">
-                      <div className="absolute top-1/2 left-0 w-full border-t border-gray-300 border-dashed -translate-y-1/2"></div>
-                      <div className="absolute top-0 left-1/2 h-full border-l border-gray-300 border-dashed -translate-x-1/2"></div>
+          {filteredRadicals.map((r, index) => {
+            const isLocked = !isPremium && index >= 20;
+            return (
+              <div 
+                key={r.id} 
+                onClick={() => {
+                  if (isLocked) {
+                    window.location.href = '/nang-cap';
+                  } else {
+                    setSelectedRadical(r);
+                  }
+                }}
+                className={`bg-white p-8 rounded-[40px] border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-500 group cursor-pointer flex flex-col items-center relative ${isLocked ? 'opacity-70 grayscale-[0.5]' : ''}`}
+              >
+                {isLocked && (
+                  <div className="absolute inset-0 bg-white/40 backdrop-blur-[2px] z-10 rounded-[40px] flex flex-col items-center justify-center gap-2">
+                    <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-lg text-orange-600">
+                      <Lock size={24} />
                     </div>
-                    <div className="text-6xl font-black text-gray-900 relative z-10">{v}</div>
+                    <span className="text-[10px] font-black uppercase tracking-widest text-orange-600">Mở khóa Premium</span>
                   </div>
-                ))}
-                {(!r.variants || r.variants.length === 0) && (
-                   <div className="w-28 h-28 border border-gray-100 border-dashed rounded-2xl flex items-center justify-center">
-                      <div className="text-[10px] text-gray-300 font-bold uppercase tracking-widest text-center px-4">Không có biến thể</div>
-                   </div>
                 )}
-              </div>
+                
+                {/* Title Section */}
+                <div className="text-center mb-8">
+                  <div className="text-3xl font-black text-gray-900 mb-1 group-hover:text-blue-600 transition-colors">Bộ {r.hanViet || '...'}</div>
+                  <div className="text-base text-gray-400 font-bold italic">({r.meaning || '...'})</div>
+                </div>
 
-              {/* Examples Section */}
-              <div className="flex gap-10 justify-center w-full pt-8 border-t border-gray-50">
-                {(r.exampleWords || (r.examples || []).slice(0, 2).map(ex => ({char: ex, pinyin: ''}))).map((ex, i) => (
-                  <div key={i} className="flex flex-col items-center group/ex">
-                    <div className="text-sm font-bold text-gray-400 mb-1 tracking-tighter">{ex.pinyin || '...'}</div>
-                    <div className="text-4xl font-medium text-gray-800 group-hover/ex:scale-125 transition-transform">{ex.char}</div>
-                  </div>
-                ))}
-              </div>
+                {/* Characters Section */}
+                <div className="flex gap-4 justify-center mb-10">
+                  {[r.char, ...(r.variants || [])].filter(Boolean).slice(0, 2).map((v, i) => (
+                    <div key={i} className="relative w-28 h-28 border border-gray-200 rounded-2xl bg-gray-50 flex items-center justify-center overflow-hidden">
+                      {/* Grid lines */}
+                      <div className="absolute inset-0 pointer-events-none opacity-40">
+                        <div className="absolute top-1/2 left-0 w-full border-t border-gray-300 border-dashed -translate-y-1/2"></div>
+                        <div className="absolute top-0 left-1/2 h-full border-l border-gray-300 border-dashed -translate-x-1/2"></div>
+                      </div>
+                      <div className="text-6xl font-black text-gray-900 relative z-10">{v}</div>
+                    </div>
+                  ))}
+                  {(!r.variants || r.variants.length === 0) && (
+                     <div className="w-28 h-28 border border-gray-100 border-dashed rounded-2xl flex items-center justify-center">
+                        <div className="text-[10px] text-gray-300 font-bold uppercase tracking-widest text-center px-4">Không có biến thể</div>
+                     </div>
+                  )}
+                </div>
 
-              {/* ID Badge */}
-              <div className="absolute top-6 right-8 text-[10px] font-black text-gray-200 tracking-widest">
-                #{r.id}
+                {/* Examples Section */}
+                <div className="flex gap-10 justify-center w-full pt-8 border-t border-gray-50">
+                  {(r.exampleWords || (r.examples || []).slice(0, 2).map(ex => ({char: ex, pinyin: ''}))).map((ex, i) => (
+                    <div key={i} className="flex flex-col items-center group/ex">
+                      <div className="text-sm font-bold text-gray-400 mb-1 tracking-tighter">{ex.pinyin || '...'}</div>
+                      <div className="text-4xl font-medium text-gray-800 group-hover/ex:scale-125 transition-transform">{ex.char}</div>
+                    </div>
+                  ))}
+                </div>
+
+                {/* ID Badge */}
+                <div className="absolute top-6 right-8 text-[10px] font-black text-gray-200 tracking-widest">
+                  #{r.id}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Info card */}

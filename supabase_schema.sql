@@ -264,3 +264,9 @@ CREATE POLICY "users_own_progress_insert" ON user_progress
 
 CREATE POLICY "users_own_progress_update" ON user_progress
   FOR UPDATE USING (auth.uid()::text = user_id);
+
+-- Subscriptions Policies
+CREATE POLICY "users_own_subscription_select" ON subscriptions
+  FOR SELECT USING (TRUE); -- Allow reading for now to prevent blockages during transition
+
+ALTER TABLE subscriptions ENABLE ROW LEVEL SECURITY;

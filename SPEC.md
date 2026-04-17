@@ -1,11 +1,11 @@
-# HanziPro – Tài liệu Spec Đầy Đủ cho Developer / AI Agent
+# HanziPremium – Tài liệu Spec Đầy Đủ cho Developer / AI Agent
 > Phiên bản: 1.0 | Ngày: 2025
 
 ---
 
 ## 1. TỔNG QUAN DỰ ÁN
 
-**HanziPro** là nền tảng học tiếng Trung trực tuyến có thu phí dành cho người Việt Nam.  
+**HanziPremium** là nền tảng học tiếng Trung trực tuyến có thu phí dành cho người Việt Nam.  
 Mô hình kinh doanh: Freemium + Subscription (tháng/năm) + Live Class
 
 ### Stack đề xuất
@@ -114,7 +114,7 @@ CREATE TABLE users (
   hsk_target  INTEGER DEFAULT 2,
   streak      INTEGER DEFAULT 0,
   last_active DATE,
-  plan        TEXT DEFAULT 'free', -- free | pro | live
+  plan        TEXT DEFAULT 'free', -- free | Premium | live
   plan_expires_at TIMESTAMP,
   created_at  TIMESTAMP DEFAULT NOW()
 );
@@ -171,7 +171,7 @@ CREATE TABLE user_vocabulary (
 CREATE TABLE subscriptions (
   id              UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id         UUID REFERENCES users(id),
-  plan            TEXT, -- pro | live
+  plan            TEXT, -- Premium | live
   billing_cycle   TEXT, -- monthly | yearly
   amount          INTEGER, -- VND cents
   payment_method  TEXT, -- stripe | payos

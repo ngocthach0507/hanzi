@@ -1,8 +1,7 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from 'react';
-import Link from 'next/link';
-import HanziWriter from 'hanzi-writer';
+import { useUser } from '@clerk/nextjs';
+import { supabase } from '@/lib/supabase';
 import { 
   PenTool, 
   RotateCcw, 
@@ -17,7 +16,8 @@ import {
   X,
   Check,
   Languages,
-  Loader2
+  Loader2,
+  Lock
 } from 'lucide-react';
 
 const DEFAULT_CHARS = [
@@ -29,9 +29,29 @@ const DEFAULT_CHARS = [
 ];
 
 export default function LuyenVietPage() {
+  const { user, isLoaded: userLoaded } = useUser();
+  const [isPro, setIsPro] = useState(false);
   const writerContainerRef = useRef<HTMLDivElement>(null);
   const writerRef = useRef<any>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    async function checkPro() {
+      if (user) {
+        const { data: subData } = await supabase
+          .from('subscriptions')
+          .select('plan, status, expires_at')
+          .eq('user_id', user.id)
+          .single();
+        
+        if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' &&
+            (subData.expires_at ? new Date(subData.expires_at) > new Date() : true)) {
+          setIsPro(true);
+        }
+      }
+    }
+    checkPro();
+  }, [user]);
 
   const [charList, setCharList] = useState(DEFAULT_CHARS);
   const [activeChar, setActiveChar] = useState(DEFAULT_CHARS[0]);
@@ -433,11 +453,17 @@ export default function LuyenVietPage() {
                      </div>
                    ) : (
                      <button
-                       onClick={() => setShowAddInput(true)}
-                       className="aspect-square rounded-2xl border-2 border-dashed border-gray-200 flex flex-col items-center justify-center text-gray-300 hover:border-orange-300 hover:text-orange-400 hover:bg-orange-50 transition-all gap-1 group/add"
+                       onClick={() => {
+                         if (!isPro) {
+                           window.location.href = '/nang-cap';
+                         } else {
+                           setShowAddInput(true);
+                         }
+                       }}
+                       className={`aspect-square rounded-2xl border-2 border-dashed flex flex-col items-center justify-center transition-all gap-1 group/add ${!isPro ? 'border-gray-100 bg-gray-50 text-gray-300' : 'border-gray-200 text-gray-300 hover:border-orange-300 hover:text-orange-400 hover:bg-orange-50'}`}
                      >
-                       <Plus size={20} className="group-hover/add:scale-125 transition-transform" />
-                       <span className="text-[9px] font-bold uppercase tracking-wide">Thêm</span>
+                       {!isPro ? <Lock size={20} /> : <Plus size={20} className="group-hover/add:scale-125 transition-transform" />}
+                       <span className="text-[9px] font-bold uppercase tracking-wide">{!isPro ? 'Premium' : 'Thêm'}</span>
                      </button>
                    )}
                 </div>

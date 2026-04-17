@@ -1,8 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { supabase } from '@/lib/supabase';
+import { useUser } from '@clerk/nextjs';
 import { 
   Headphones, 
   ChevronRight, 
@@ -13,7 +11,8 @@ import {
   Loader2,
   Trophy,
   ArrowRight,
-  ChevronLeft
+  ChevronLeft,
+  Lock
 } from 'lucide-react';
 
 // --- Level Data ---
@@ -27,7 +26,8 @@ const HSK_LEVELS = [
     color: 'text-hsk1',
     bg: 'bg-hsk1',
     lightBg: 'bg-hsk1-light',
-    accent: 'border-red-100'
+    accent: 'border-red-100',
+    free: true
   },
   { 
     id: 2, 
@@ -38,7 +38,8 @@ const HSK_LEVELS = [
     color: 'text-hsk2',
     bg: 'bg-hsk2',
     lightBg: 'bg-hsk2-light',
-    accent: 'border-orange-100'
+    accent: 'border-orange-100',
+    free: false
   },
   { 
     id: 3, 
@@ -49,14 +50,35 @@ const HSK_LEVELS = [
     color: 'text-hsk3',
     bg: 'bg-hsk3',
     lightBg: 'bg-hsk3-light',
-    accent: 'border-yellow-100'
+    accent: 'border-yellow-100',
+    free: false
   }
 ];
 
 export default function LuyenNgheHub() {
+  const { user, isLoaded: userLoaded } = useUser();
+  const [isPro, setIsPro] = useState(false);
   const [selectedLevel, setSelectedLevel] = useState<number | null>(null);
   const [lessons, setLessons] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    async function checkPro() {
+      if (user) {
+        const { data: subData } = await supabase
+          .from('subscriptions')
+          .select('plan, status, expires_at')
+          .eq('user_id', user.id)
+          .single();
+        
+        if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' &&
+            (subData.expires_at ? new Date(subData.expires_at) > new Date() : true)) {
+          setIsPro(true);
+        }
+      }
+    }
+    checkPro();
+  }, [user]);
 
   useEffect(() => {
     if (selectedLevel) {
@@ -108,35 +130,46 @@ export default function LuyenNgheHub() {
         {!selectedLevel ? (
           /* --- LEVEL SELECTION GRID --- */
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
-            {HSK_LEVELS.map((level) => (
-              <button 
-                key={level.id}
-                onClick={() => setSelectedLevel(level.id)}
-                className="group relative bg-white rounded-[40px] p-10 border border-gray-100 hover:border-orange-500 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-100/50 text-left overflow-hidden"
-              >
-                 <div className={`absolute top-0 right-0 w-32 h-32 ${level.bg} opacity-5 rounded-full -translate-y-1/2 translate-x-1/2 transition-transform duration-700 group-hover:scale-150`}></div>
-                 
-                 <div className={`w-16 h-16 rounded-2xl ${level.lightBg} ${level.color} flex items-center justify-center mb-10 shadow-inner group-hover:scale-110 transition-transform`}>
-                    <Trophy size={32} />
-                 </div>
-                 
-                 <h2 className="text-4xl font-black text-gray-900 mb-2">{level.title}</h2>
-                 <p className={`text-sm font-black uppercase tracking-widest ${level.color} mb-6`}>{level.subtitle}</p>
-                 <p className="text-gray-400 font-medium leading-relaxed mb-10 h-20 overflow-hidden line-clamp-3">
-                   {level.desc}
-                 </p>
-                 
-                 <div className="flex items-center justify-between mt-auto">
-                    <div className="flex items-center gap-2">
-                       <BookOpen size={16} className="text-gray-300" />
-                       <span className="text-xs font-bold text-gray-400">{level.lessonCount} bài học</span>
-                    </div>
-                    <div className={`w-12 h-12 rounded-full ${level.bg} text-white flex items-center justify-center shadow-lg group-hover:translate-x-2 transition-transform`}>
-                       <ChevronRight size={20} />
-                    </div>
-                 </div>
-              </button>
-            ))}
+            {HSK_LEVELS.map((level) => {
+              const locked = !level.free && !isPro;
+              return (
+                <button 
+                  key={level.id}
+                  onClick={() => {
+                    if (locked) {
+                      window.location.href = '/nang-cap';
+                    } else {
+                      setSelectedLevel(level.id);
+                    }
+                  }}
+                  className={`group relative bg-white rounded-[40px] p-10 border transition-all duration-500 text-left overflow-hidden ${locked ? 'border-gray-100 opacity-80' : 'border-gray-100 hover:border-orange-500 hover:shadow-2xl hover:shadow-orange-100/50'}`}
+                >
+                   <div className={`absolute top-0 right-0 w-32 h-32 ${level.bg} opacity-5 rounded-full -translate-y-1/2 translate-x-1/2 transition-transform duration-700 group-hover:scale-150`}></div>
+                   
+                   <div className={`w-16 h-16 rounded-2xl ${level.lightBg} ${level.color} flex items-center justify-center mb-10 shadow-inner group-hover:scale-110 transition-transform`}>
+                      {locked ? <Lock size={28} /> : <Trophy size={32} />}
+                   </div>
+                   
+                   <h2 className="text-4xl font-black text-gray-900 mb-2">{level.title}</h2>
+                   <p className={`text-sm font-black uppercase tracking-widest ${level.color} mb-6`}>
+                     {locked ? 'KHÓA PREMIUM' : level.subtitle}
+                   </p>
+                   <p className="text-gray-400 font-medium leading-relaxed mb-10 h-20 overflow-hidden line-clamp-3">
+                     {locked ? 'Vui lòng nâng cấp gói Premium để truy cập lộ trình nghe hiểu nâng cao của cấp độ này.' : level.desc}
+                   </p>
+                   
+                   <div className="flex items-center justify-between mt-auto">
+                      <div className="flex items-center gap-2">
+                         <BookOpen size={16} className="text-gray-300" />
+                         <span className="text-xs font-bold text-gray-400">{level.lessonCount} bài học</span>
+                      </div>
+                      <div className={`w-12 h-12 rounded-full ${locked ? 'bg-gray-200' : level.bg} text-white flex items-center justify-center shadow-lg group-hover:translate-x-2 transition-transform`}>
+                         {locked ? <ArrowRight size={20} /> : <ChevronRight size={20} />}
+                      </div>
+                   </div>
+                </button>
+              );
+            })}
           </div>
         ) : (
           /* --- LESSONS LIST VIEW --- */

@@ -181,7 +181,7 @@ export default function AppNavbar() {
               <span className="bg-red-500 text-white text-[9px] px-1 rounded-sm animate-pulse">NEW</span>
             </Link>
 
-            <Link href="/vip" className="flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-orange-500 text-white px-4 py-2 rounded-xl text-sm font-black shadow-lg shadow-orange-100 hover:scale-105 transition-all animate-shimmer bg-[length:200%_100%]">
+            <Link href="/nang-cap" className="flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-orange-500 text-white px-4 py-2 rounded-xl text-sm font-black shadow-lg shadow-orange-100 hover:scale-105 transition-all animate-shimmer bg-[length:200%_100%]">
               <Zap className="w-4 h-4 fill-white" />
               NÂNG CẤP PREMIUM
             </Link>

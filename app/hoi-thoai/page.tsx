@@ -26,7 +26,7 @@ export default function ConversationList() {
       if (!isUserLoaded) return;
       setLoading(true);
 
-      // Check VIP status
+      // Check Premium status
       if (user) {
         const { data: subData } = await supabase
           .from('subscriptions')

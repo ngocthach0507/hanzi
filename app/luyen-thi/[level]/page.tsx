@@ -32,7 +32,7 @@ export default function ExamListByLevel() {
       if (!isUserLoaded) return;
       setIsLoading(true);
 
-      // Check VIP status
+      // Check Premium status
       if (user) {
         const { data: subData } = await supabase
           .from('subscriptions')
@@ -119,7 +119,7 @@ export default function ExamListByLevel() {
                 >
                   {!canAccess && (
                     <div className="absolute inset-0 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-white/40 backdrop-blur-[2px] rounded-[32px]">
-                      <Link href="/vip" className="bg-orange-500 text-white px-6 py-2 rounded-xl font-black shadow-xl">
+                      <Link href="/nang-cap" className="bg-orange-500 text-white px-6 py-2 rounded-xl font-black shadow-xl">
                         MỞ KHÓA PREMIUM
                       </Link>
                     </div>
