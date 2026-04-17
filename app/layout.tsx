@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
+import Script from "next/script";
 import "./globals.css";
 import AppNavbar from "@/components/AppNavbar";
 import Footer from "@/components/Footer";
@@ -17,6 +18,21 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="vi" suppressHydrationWarning>
+        <head>
+          {/* Google Analytics */}
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-RFGKV7WHTS"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-RFGKV7WHTS');
+            `}
+          </Script>
+        </head>
         <body className="antialiased font-sans" suppressHydrationWarning>
           <AppNavbar />
 
