@@ -172,14 +172,14 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-[#FDFDFD] pb-20">
       {/* Top Profile Banner */}
-      <div className="relative h-48 md:h-60 bg-gradient-to-r from-red-600 to-orange-500">
+      <div className="relative h-40 md:h-60 bg-gradient-to-r from-red-600 to-orange-500">
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] overflow-hidden rounded-b-[2rem] md:rounded-b-[3rem]"></div>
-        <div className="absolute -bottom-10 md:-bottom-12 left-6 md:left-20 z-10">
+        <div className="absolute -bottom-10 md:-bottom-12 left-1/2 -translate-x-1/2 md:left-20 md:translate-x-0 z-10">
           <div className="relative">
             <img 
               src={user?.imageUrl} 
               alt={user?.fullName || 'User'} 
-              className="w-28 h-28 md:w-40 md:h-40 rounded-[2rem] md:rounded-[3rem] border-4 md:border-8 border-white shadow-2xl object-cover"
+              className="w-24 h-24 md:w-40 md:h-40 rounded-[2rem] md:rounded-[3rem] border-4 md:border-8 border-white shadow-2xl object-cover"
             />
             {isPro && (
               <div className="absolute top-0 -right-1 md:-right-2 bg-yellow-400 text-white p-1.5 md:p-2 rounded-full shadow-lg border-2 md:border-4 border-white">
@@ -190,15 +190,15 @@ export default function Dashboard() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 md:px-8 mt-20">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 mt-16 md:mt-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           
           {/* LEFT COLUMN: User Info & Stats */}
           <div className="lg:col-span-4 space-y-6 md:space-y-8">
-            <div className="bg-white rounded-[2rem] md:rounded-[2.5rem] border border-gray-100 p-6 md:p-8 shadow-sm">
+            <div className="bg-white rounded-[2rem] md:rounded-[2.5rem] border border-gray-100 p-6 md:p-8 shadow-sm text-center md:text-left">
               <div className="mb-6">
                 <h2 className="text-xl md:text-2xl font-black text-gray-900 mb-1">{user?.fullName}</h2>
-                <div className="flex items-center gap-2 text-gray-400 text-xs md:text-sm font-medium">
+                <div className="flex items-center justify-center md:justify-start gap-2 text-gray-400 text-xs md:text-sm font-medium">
                   <Mail className="w-3.5 h-3.5 md:w-4 md:h-4" /> {user?.primaryEmailAddress?.emailAddress}
                 </div>
               </div>
@@ -222,12 +222,6 @@ export default function Dashboard() {
                     </span>
                   </div>
                 )}
-                {!isPro && subscription?.expires_at && (
-                  <div className="flex flex-col gap-1 text-[10px] pt-2">
-                    <span className="text-red-500 font-bold uppercase tracking-widest italic">Hết hạn vào:</span>
-                    <span className="text-gray-400 font-medium">{new Date(subscription.expires_at).toLocaleDateString('vi-VN')}</span>
-                  </div>
-                )}
               </div>
 
               <Link href="/nang-cap" className="mt-8 block w-full bg-black text-white py-4 rounded-2xl font-black text-center text-sm shadow-xl shadow-gray-200 hover:scale-[1.02] transition-transform active:scale-95">
@@ -237,7 +231,7 @@ export default function Dashboard() {
 
             <div className="grid grid-cols-2 gap-3 md:gap-4">
               {stats.map((s, i) => (
-                <div key={i} className="bg-white p-4 md:p-5 rounded-3xl border border-gray-100 shadow-sm flex flex-col items-center md:items-start text-center md:text-left">
+                <div key={i} className="bg-white p-4 md:p-5 rounded-[1.5rem] md:rounded-3xl border border-gray-100 shadow-sm flex flex-col items-center md:items-start text-center md:text-left transition-all hover:border-red-100">
                   <div className={`w-9 h-9 md:w-10 md:h-10 rounded-xl flex items-center justify-center mb-3 ${s.color}`}>
                     {s.icon}
                   </div>

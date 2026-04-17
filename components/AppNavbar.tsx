@@ -91,11 +91,11 @@ export default function AppNavbar() {
   ];
 
   return (
-    <header className="w-full bg-white sticky top-0 z-50 shadow-sm font-sans">
+    <header className="w-full bg-white sticky top-0 z-[60] shadow-sm font-sans">
       {/* ROW 1: TOP HEADER */}
-      <div className="border-b border-gray-100 px-4 md:px-8 py-3 flex items-center justify-between gap-4">
-        <div className="flex items-center gap-6">
-          <Link href="/" className="text-2xl font-black text-red-500 tracking-tighter">
+      <div className="border-b border-gray-100 px-4 md:px-8 py-3 flex items-center justify-between">
+        <div className="flex items-center gap-4">
+          <Link href="/" className="text-xl md:text-2xl font-black text-red-500 tracking-tighter">
             hanzi.io.vn
           </Link>
           
@@ -113,155 +113,81 @@ export default function AppNavbar() {
               Học với giáo viên
             </button>
           </div>
-          
-          {/* Global Search Bar */}
+        </div>
+
+        <div className="flex items-center gap-2 md:gap-4">
+          {/* Desktop Search Bar */}
           <div className="hidden lg:flex items-center bg-gray-100 rounded-lg px-3 py-1.5 w-64 border border-transparent focus-within:border-red-200 focus-within:bg-white transition-all">
             <Search className="w-4 h-4 text-gray-400 mr-2" />
             <input 
               type="text" 
-              placeholder="Tìm kiếm khóa học..." 
+              placeholder="Tìm kiếm..." 
               className="bg-transparent text-sm w-full outline-none text-gray-700 font-bold"
             />
           </div>
-        </div>
-        
-        {/* Modal Portals */}
-        {activeModal && (
-          <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-            <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setActiveModal(null)}></div>
-            <div className="relative bg-white w-full max-w-lg rounded-3xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">
-              <button 
-                onClick={() => setActiveModal(null)}
-                className="absolute top-4 right-4 p-2 rounded-full hover:bg-gray-100 text-gray-400 hover:text-gray-900 transition-all"
-              >
-                <X size={20} />
-              </button>
-              
-              <div className="p-8">
-                {activeModal === 'intro' ? (
-                  <div className="space-y-4">
-                    <div className="w-12 h-12 bg-red-50 rounded-2xl flex items-center justify-center mb-6">
-                      <Book className="text-red-500 w-6 h-6" />
-                    </div>
-                    <h3 className="text-2xl font-black text-gray-900 uppercase">Về Hanzi.io.vn</h3>
-                    <div className="h-1 w-12 bg-red-500"></div>
-                    <p className="text-gray-600 font-medium leading-relaxed pt-2">
-                       Hanzi.io.vn là sản phẩm thuộc hệ sinh thái Tiếng Trung Hongdou. Từ thực tế giảng dạy nhiều năm, chúng tôi xây dựng nền tảng này để hỗ trợ học viên tiếp cận với giáo trình HSK 3.0 (chuẩn 2026) một cách hiệu quả nhất. Đây chính là bước đệm vững chắc nhất để bạn hiện thực hóa giấc mơ du học.
-                    </p>
-                    <div className="pt-4 p-4 bg-red-50 rounded-2xl border border-red-100/50">
-                       <p className="text-[10px] font-bold text-red-400 uppercase tracking-widest mb-1">Dành cho bạn muốn du học</p>
-                       <a href="https://applychina.io.vn" target="_blank" className="text-red-600 font-black text-sm uppercase hover:underline flex items-center gap-2">
-                          Tìm trường & Học bổng: applychina.io.vn →
-                       </a>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="space-y-4">
-                    <div className="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center mb-6">
-                      <MessageCircle className="text-blue-500 w-6 h-6" />
-                    </div>
-                    <h3 className="text-2xl font-black text-gray-900 uppercase">Học cùng giáo viên</h3>
-                    <div className="h-1 w-12 bg-blue-500"></div>
-                    <p className="text-gray-600 font-medium leading-relaxed pt-2">
-                       Ngoài nền tảng tự học, Tiếng Trung Hongdou cung cấp các chương trình đào tạo chuyên sâu cùng giảng viên. Với lộ trình cá nhân hóa sát theo giáo trình HSK 3.0 mới nhất, chúng tôi cam kết giúp bạn chinh phục mục tiêu ngôn ngữ nhanh hơn gấp 3 lần.
-                    </p>
-                    <div className="grid grid-cols-1 gap-3 pt-6">
-                       <a href="https://tiengtrunghongdou.io.vn/" target="_blank" className="bg-blue-600 text-white p-4 rounded-2xl font-black text-center shadow-lg shadow-blue-100 hover:bg-blue-700 transition-all flex items-center justify-center gap-2">
-                          <Zap size={18} /> Đăng ký học Online
-                       </a>
-                       <a href="https://tiengtrunghongdou.io.vn/" target="_blank" className="border-2 border-gray-100 p-4 rounded-2xl font-black text-center text-gray-600 hover:bg-gray-50 transition-all">
-                          Tìm hiểu khóa Offline
-                       </a>
-                    </div>
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-        )}
 
-        <div className="flex items-center gap-3">
-          {/* App Buttons */}
-          <div className="hidden sm:flex items-center gap-2 mr-4">
-            <div className="bg-black/5 text-gray-400 px-3 py-1.5 rounded-lg flex items-center gap-1.5 cursor-not-allowed grayscale">
-              <Smartphone className="w-3.5 h-3.5" />
-              <div className="flex flex-col leading-none">
-                <span className="text-[8px] uppercase font-bold opacity-70">Coming soon</span>
-                <span className="text-[10px] font-black tracking-tight">Google Play</span>
-              </div>
-            </div>
-            <div className="bg-black/5 text-gray-400 px-3 py-1.5 rounded-lg flex items-center gap-1.5 cursor-not-allowed grayscale">
-              <Smartphone className="w-3.5 h-3.5" />
-              <div className="flex flex-col leading-none">
-                <span className="text-[8px] uppercase font-bold opacity-70">Coming soon</span>
-                <span className="text-[10px] font-black tracking-tight">App Store</span>
-              </div>
-            </div>
-          </div>
+          <Link href="/giao-trinh" className="hidden md:flex items-center gap-1.5 text-sm font-bold text-gray-700 hover:text-red-500 relative py-1 px-2 bg-gray-50 rounded-lg group">
+            📚 HSK 3.0
+            <span className="bg-red-500 text-white text-[9px] px-1 rounded-sm animate-pulse">NEW</span>
+          </Link>
 
-          <div className="flex items-center gap-2 md:gap-4">
-            <Link href="/" className="hidden md:flex items-center gap-1 text-sm font-bold text-gray-600 hover:text-red-500">
-              🏠 Trang chủ
+          {/* Premium Status/Button - Adaptive */}
+          {isPro ? (
+            <div className="flex items-center gap-1.5 bg-gray-900 text-white px-3 md:px-4 py-2 rounded-xl text-[10px] md:text-sm font-black shadow-lg">
+              <Crown size={14} className="text-yellow-400" />
+              <span className="hidden sm:inline">PREMIUM</span>
+            </div>
+          ) : (
+            <Link href="/nang-cap" className="hidden sm:flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-orange-500 text-white px-4 py-2 rounded-xl text-sm font-black shadow-lg shadow-orange-100 hover:scale-105 transition-all animate-shimmer bg-[length:200%_100%]">
+              <Zap className="w-4 h-4 fill-white" />
+              NÂNG CẤP
             </Link>
-            
-            <Link href="/giao-trinh" className="flex items-center gap-1.5 text-sm font-bold text-gray-700 hover:text-red-500 relative py-1 px-2 bg-gray-50 rounded-lg group">
-              📚 HSK 3.0
-              <span className="bg-red-500 text-white text-[9px] px-1 rounded-sm animate-pulse">NEW</span>
-            </Link>
+          )}
 
-            {isPro ? (
-              <div className="flex items-center gap-1.5 bg-gray-900 text-white px-4 py-2 rounded-xl text-sm font-black shadow-lg">
-                <Crown size={14} className="text-yellow-400" />
-                PREMIUM
-              </div>
-            ) : (
-              <Link href="/nang-cap" className="flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-orange-500 text-white px-4 py-2 rounded-xl text-sm font-black shadow-lg shadow-orange-100 hover:scale-105 transition-all animate-shimmer bg-[length:200%_100%]">
-                <Zap className="w-4 h-4 fill-white" />
-                NÂNG CẤP PREMIUM
-              </Link>
-            )}
+          <div className="h-6 w-px bg-gray-200 hidden md:block"></div>
 
-            <div className="h-6 w-px bg-gray-200 hidden md:block"></div>
-
+          {/* User Section */}
+          <div className="flex items-center gap-2">
             {!isLoaded ? (
               <div className="w-8 h-8 bg-gray-100 animate-pulse rounded-full"></div>
             ) : user ? (
-              <UserButton 
-                appearance={{
-                  elements: {
-                    userButtonAvatarBox: "w-9 h-9 border-2 border-red-100 hover:border-red-400 transition-all shadow-sm"
-                  }
-                }}
-              >
-                <UserButton.MenuItems>
-                  <UserButton.Link 
-                    label="Hồ sơ cá nhân" 
-                    href="/dashboard" 
-                    labelIcon={<LayoutDashboard className="w-4 h-4" />} 
-                  />
-                </UserButton.MenuItems>
-              </UserButton>
+              <div className="flex items-center gap-2">
+                <UserButton 
+                  appearance={{
+                    elements: {
+                      userButtonAvatarBox: "w-9 h-9 border-2 border-red-100 hover:border-red-400 transition-all shadow-sm"
+                    }
+                  }}
+                >
+                  <UserButton.MenuItems>
+                    <UserButton.Link 
+                      label="Hồ sơ cá nhân" 
+                      href="/dashboard" 
+                      labelIcon={<LayoutDashboard className="w-4 h-4" />} 
+                    />
+                  </UserButton.MenuItems>
+                </UserButton>
+              </div>
             ) : (
-              <>
+              <div className="hidden md:flex items-center gap-2">
                 <SignInButton mode="modal">
-                  <button className="text-sm font-bold text-gray-500 hover:text-gray-900">
-                    Đăng nhập
-                  </button>
+                  <button className="text-sm font-bold text-gray-500 hover:text-gray-900">Đăng nhập</button>
                 </SignInButton>
-                <Link href="/dang-ky" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-bold shadow-md shadow-blue-100 transition-all active:scale-95">
-                  Đăng ký
-                </Link>
-              </>
+                <Link href="/dang-ky" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-bold shadow-md shadow-blue-100">Đăng ký</Link>
+              </div>
             )}
             
-            <button className="md:hidden p-2 text-gray-500" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-              {isMobileMenuOpen ? <X /> : <Menu />}
+            <button 
+              className="md:hidden p-2 text-gray-700 bg-gray-50 rounded-xl hover:bg-gray-100 transition-all active:scale-90 ml-1" 
+              onClick={() => setIsMobileMenuOpen(true)}
+            >
+              <Menu size={24} />
             </button>
           </div>
         </div>
       </div>
 
-      {/* ROW 2: SUB-NAVBAR (Icons) */}
+      {/* ROW 2: SUB-NAVBAR (Desktop Only) */}
       <div className="hidden md:block border-b border-gray-50 bg-white">
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
           <ul className="flex items-center justify-between">
@@ -295,29 +221,120 @@ export default function AppNavbar() {
         </div>
       </div>
 
-      {/* MOBILE MENU */}
-      {isMobileMenuOpen && (
-        <div className="md:hidden bg-white border-b border-gray-100 p-4 animate-in slide-in-from-top-4">
-          <div className="space-y-4">
-             {/* Info links in mobile menu too */}
-             <div className="grid grid-cols-2 gap-2 border-b border-gray-50 pb-4">
-                <button onClick={() => { setActiveModal('intro'); setIsMobileMenuOpen(false); }} className="p-3 bg-gray-50 rounded-xl text-xs font-black uppercase text-gray-800">Giới thiệu</button>
-                <button onClick={() => { setActiveModal('teacher'); setIsMobileMenuOpen(false); }} className="p-3 bg-gray-50 rounded-xl text-xs font-black uppercase text-gray-800">Học giáo viên</button>
+      {/* MODERN MOBILE SIDEBAR (SIDE DRAWER) */}
+      <div 
+        className={`fixed inset-0 z-[100] transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+      >
+        {/* Backdrop */}
+        <div 
+          className="absolute inset-0 bg-black/40 backdrop-blur-sm" 
+          onClick={() => setIsMobileMenuOpen(false)}
+        ></div>
+        
+        {/* Sidebar Content */}
+        <div 
+          className={`absolute top-0 right-0 h-full w-[85%] max-w-[400px] bg-white shadow-2xl transition-transform duration-300 ease-out transform ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+        >
+          {/* Profile Header */}
+          <div className="relative p-6 bg-gradient-to-br from-red-600 to-orange-500 text-white overflow-hidden">
+             <div className="absolute top-0 right-0 p-8 opacity-10">
+                <Crown size={120} />
              </div>
-            {subNavItems.map((item, idx) => (
-              <Link 
-                key={idx} 
-                href={item.href} 
-                className="flex items-center gap-3 p-2 rounded-xl hover:bg-gray-50 text-sm font-bold text-gray-700"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {item.icon}
-                {item.label}
-              </Link>
-            ))}
+             
+             <button 
+               onClick={() => setIsMobileMenuOpen(false)}
+               className="absolute top-4 right-4 p-2 bg-white/20 rounded-full hover:bg-white/30 transition-all"
+             >
+               <X size={20} />
+             </button>
+
+             {user ? (
+               <div className="flex flex-col gap-4">
+                  <img 
+                    src={user.imageUrl} 
+                    alt={user.fullName || ""} 
+                    className="w-16 h-16 rounded-2xl border-2 border-white/50 shadow-lg object-cover"
+                  />
+                  <div>
+                    <h3 className="text-xl font-black">{user.fullName}</h3>
+                    <p className="text-white/70 text-xs font-medium">{user.primaryEmailAddress?.emailAddress}</p>
+                    <div className="mt-2 inline-flex items-center gap-1.5 px-3 py-1 bg-white/20 rounded-lg text-[10px] font-black uppercase tracking-wider">
+                       {isPro ? <><Crown size={12} className="text-yellow-300" /> Tài khoản Premium</> : 'Thành viên miễn phí'}
+                    </div>
+                  </div>
+               </div>
+             ) : (
+               <div className="py-4">
+                  <h3 className="text-xl font-black mb-4">Chào mừng đến với Hanzi!</h3>
+                  <div className="flex gap-2">
+                    <SignInButton mode="modal">
+                      <button className="flex-1 bg-white text-red-600 py-2.5 rounded-xl font-black text-sm">Đăng nhập</button>
+                    </SignInButton>
+                    <Link href="/dang-ky" className="flex-1 bg-red-700 text-white py-2.5 rounded-xl font-black text-sm text-center">Đăng ký</Link>
+                  </div>
+               </div>
+             )}
           </div>
+
+          {/* Navigation Items */}
+          <div className="flex-1 h-[calc(100%-180px)] overflow-y-auto p-4 space-y-6">
+             <div className="space-y-1">
+                <p className="px-4 text-[10px] font-black text-gray-400 uppercase tracking-[0.2em] mb-2">Học tập & Luyện tập</p>
+                {subNavItems.map((item, idx) => (
+                  <Link 
+                    key={idx} 
+                    href={item.href} 
+                    className="flex items-center justify-between p-3.5 rounded-2xl hover:bg-gray-50 text-gray-700 group transition-all"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    <div className="flex items-center gap-4">
+                       <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-transform group-active:scale-90 ${item.hoverBg}`}>
+                          <span className={item.color}>{item.icon}</span>
+                       </div>
+                       <span className="font-black text-sm">{item.label}</span>
+                    </div>
+                    <ChevronRight size={16} className="text-gray-300" />
+                  </Link>
+                ))}
+             </div>
+
+             <div className="space-y-1">
+                <p className="px-4 text-[10px] font-black text-gray-400 uppercase tracking-[0.2em] mb-2">Khám phá Hanzi</p>
+                <button 
+                  onClick={() => { setActiveModal('intro'); setIsMobileMenuOpen(false); }}
+                  className="w-full flex items-center gap-4 p-3.5 rounded-2xl hover:bg-gray-50 text-gray-700"
+                >
+                   <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gray-100 text-gray-500">
+                      <BookOpen size={18} />
+                   </div>
+                   <span className="font-black text-sm">Về chúng tôi</span>
+                </button>
+                <button 
+                  onClick={() => { setActiveModal('teacher'); setIsMobileMenuOpen(false); }}
+                  className="w-full flex items-center gap-4 p-3.5 rounded-2xl hover:bg-gray-50 text-gray-700"
+                >
+                   <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gray-100 text-gray-500">
+                      <GraduationCap size={18} />
+                   </div>
+                   <span className="font-black text-sm">Học với giáo viên</span>
+                </button>
+             </div>
+          </div>
+
+          {/* Footer Action */}
+          {!isPro && (
+            <div className="absolute bottom-0 left-0 w-full p-4 border-t border-gray-100 bg-gray-50/50">
+               <Link 
+                 href="/nang-cap" 
+                 onClick={() => setIsMobileMenuOpen(false)}
+                 className="flex items-center justify-center gap-3 bg-gradient-to-r from-amber-500 to-orange-600 text-white p-4 rounded-2xl font-black shadow-xl shadow-orange-100 animate-pulse-slow"
+               >
+                  <Zap size={18} className="fill-white" />
+                  NÂNG CẤP PREMIUM NGAY
+               </Link>
+            </div>
         </div>
-      )}
+      </div>
     </header>
   );
 }
@@ -330,4 +347,5 @@ const ChevronRight = ({ className, style }: { className?: string, style?: any })
 const User = ({ className }: { className?: string }) => (
   <svg className={className} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
 );
+
 
