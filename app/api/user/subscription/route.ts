@@ -32,37 +32,13 @@ export async function GET(request: Request) {
     const isPro = data && data.plan !== 'free' && data.status === 'active' && 
                  (data.expires_at ? new Date(data.expires_at) > new Date() : false);
 
-    if (full) {
-      return NextResponse.json({ 
-        isPro: !!isPro, 
-        data, 
-        debug: { 
-          userId, 
-          hasData: !!data,
-          status: data?.status,
-          plan: data?.plan,
-          expires_at: data?.expires_at,
-          now: new Date().toISOString(),
-          db: process.env.NEXT_PUBLIC_SUPABASE_URL
-        } 
-      });
-    }
-
     if (isPro) {
       return NextResponse.json({ isPro: true, plan: data.plan });
     }
 
-    return NextResponse.json({ 
-      isPro: false, 
-      debug: { 
-        userId, 
-        hasData: !!data,
-        status: data?.status,
-        db: process.env.NEXT_PUBLIC_SUPABASE_URL
-      } 
-    });
+    return NextResponse.json({ isPro: false });
   } catch (err: any) {
     console.error("Sub API Catch:", err);
-    return NextResponse.json({ isPro: false, error: err.message });
+    return NextResponse.json({ isPro: false });
   }
 }
