@@ -141,7 +141,7 @@ export default function Dashboard() {
     );
   }
 
-  const isPro = subscription?.plan?.toLowerCase().includes('pro') && subscription?.status === 'active';
+  const isPro = subscription?.plan && subscription.plan !== 'free' && subscription?.status === 'active';
 
   return (
     <div className="min-h-screen bg-[#FDFDFD] pb-20">
