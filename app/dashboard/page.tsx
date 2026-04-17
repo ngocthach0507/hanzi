@@ -42,13 +42,24 @@ export default function Dashboard() {
         setLoading(true);
         const userId = user.id;
 
-        // 1. Fetch Subscription Status
-        const { data: subData } = await supabase
-          .from('subscriptions')
-          .select('*')
-          .eq('user_id', userId)
-          .single();
-        setSubscription(subData);
+        // 1. Fetch Subscription Status via Secure API
+        const subRes = await fetch('/api/user/subscription');
+        const subResult = await subRes.json();
+        
+        // Mocking the structure expected by the component
+        if (subResult.isPro) {
+          // We need to fetch the full record for expires_at etc. from Admin if needed, 
+          // but for simplicity, let's just use the result.
+          // Actually, let's re-fetch with Admin to get full details for the dashboard
+          const { data: subData } = await (async () => {
+             const res = await fetch('/api/user/subscription?full=true');
+             const d = await res.json();
+             return { data: d.data };
+          })();
+          setSubscription(subData);
+        } else {
+          setSubscription(null);
+        }
 
         // 2. Fetch Streak & Total Stats
         const { data: streakData } = await supabase

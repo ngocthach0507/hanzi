@@ -34,15 +34,16 @@ export default function AppNavbar() {
   React.useEffect(() => {
     if (isLoaded && user) {
       const checkSub = async () => {
-        const { data } = await supabase
-          .from('subscriptions')
-          .select('plan, status, expires_at')
-          .eq('user_id', user.id)
-          .maybeSingle();
-        
-        if (data && data.plan !== 'free' && data.status === 'active' && 
-            (data.expires_at ? new Date(data.expires_at) > new Date() : false)) {
-          setIsPro(true);
+        try {
+          const res = await fetch('/api/user/subscription');
+          const data = await res.json();
+          if (data.isPro) {
+            setIsPro(true);
+          } else {
+            setIsPro(false);
+          }
+        } catch (err) {
+          console.error("Failed to check subscription:", err);
         }
       };
       checkSub();

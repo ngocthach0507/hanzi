@@ -53,15 +53,15 @@ export default function LessonList() {
           
           setUserProgress(new Set(progressData?.map(p => p.lesson_number) || []));
 
-          const { data: subData } = await supabase
-            .from('subscriptions')
-            .select('plan, status, expires_at')
-            .eq('user_id', userId)
-            .single();
-          
-          if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' && 
-              (subData.expires_at ? new Date(subData.expires_at) > new Date() : false)) {
-            setIsPro(true);
+          // 3. Fetch Subscription Status via Secure API
+          try {
+            const res = await fetch('/api/user/subscription');
+            const data = await res.json();
+            if (data.isPro) {
+              setIsPro(true);
+            }
+          } catch (err) {
+            console.error("Failed to check subscription:", err);
           }
         }
 
