@@ -17,11 +17,17 @@ export async function POST(request: Request) {
       
       console.log(`CHECK_MATCH: Content=${content}, Amount=${amount}`);
 
-      // Tìm người dùng dựa trên nội dung chuyển khoản (payment_ref)
+      // Trích xuất mã DHxxxxxx từ nội dung (Regex để tìm DH theo sau là 6 chữ số)
+      const match = content.match(/DH\d{6}/);
+      const extractedRef = match ? match[0] : content;
+      
+      console.log(`EXTRACTED_REF: ${extractedRef} from ${content}`);
+
+      // Tìm người dùng dựa trên mã đã trích xuất
       const { data: subData } = await supabase
         .from('subscriptions')
         .select('user_id, plan')
-        .eq('payment_ref', content)
+        .eq('payment_ref', extractedRef)
         .single();
 
       if (subData) {
