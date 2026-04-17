@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import AppNavbar from "@/components/AppNavbar";
 import Footer from "@/components/Footer";
+import WelcomeModal from "@/components/WelcomeModal";
 
 export const metadata: Metadata = {
   title: "hanzi.io.vn - Nền tảng học Tiếng Trung HSK 3.0 Toàn diện",
@@ -35,6 +36,7 @@ export default function RootLayout({
         </head>
         <body className="antialiased font-sans" suppressHydrationWarning>
           <AppNavbar />
+          <WelcomeModal />
 
           <main className="min-h-screen">
             {children}
