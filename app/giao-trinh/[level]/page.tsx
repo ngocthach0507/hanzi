@@ -55,7 +55,7 @@ export default function LessonList() {
 
           const { data: subData } = await supabase
             .from('subscriptions')
-            .select('plan, status')
+            .select('plan, status, expires_at')
             .eq('user_id', userId)
             .single();
           
