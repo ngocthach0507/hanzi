@@ -10,5 +10,7 @@ if (!supabaseUrl || !supabaseAnonKey) {
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-// Chìa khóa vạn năng dùng cho các thao tác phía Server (Webhook, Admin)
-export const supabaseAdmin = createClient(supabaseUrl, supabaseServiceKey);
+// Chỉ khởi tạo chìa khóa vạn năng nếu đang ở môi trường Server (có key)
+export const supabaseAdmin = supabaseServiceKey 
+  ? createClient(supabaseUrl, supabaseServiceKey) 
+  : null as any;
