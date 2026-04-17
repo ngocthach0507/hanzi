@@ -1,0 +1,2081 @@
+{
+  "metadata": {
+    "book": "新HSK教程2 (New HSK Course 2)",
+    "total_lessons": 15,
+    "texts_per_lesson": 3,
+    "total_dialogues": 45,
+    "source": "Extracted from scanned PDF pages by image analysis"
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title_zh": "她请我们吃了北京烤鸭",
+      "title_en": "She treated us to Peking Duck",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "1-1",
+          "scene_zh": "在机场，王一雪接到白家月和安妮。",
+          "scene_en": "At the airport, Wang Yixue picked up Bai Jiayue and Annie.",
+          "lines": [
+            {
+              "speaker": "白家月",
+              "zh": "请问，您是王一飞老师的姐姐吗？",
+              "pinyin": "Qǐngwèn, nín shì Wáng Yīfēi lǎoshī de jiějie ma?",
+              "en": "Excuse me, are you Ms. Wang Yifei's cousin?",
+              "vi": "Cho hỏi, cô có phải là chị gái của cô giáo Vương Nhất Phi không?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "是的，你们就是她的学生吧？",
+              "pinyin": "Shì de, nǐmen jiù shì tā de xuéshēng ba?",
+              "en": "Yes, you two must be her students, right?",
+              "vi": "Đúng vậy, hai em chắc là học sinh của em ấy nhỉ?"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "对。我是白家月，她是安妮。",
+              "pinyin": "Duì. Wǒ shì Bái Jiāyuè, tā shì Ānnī.",
+              "en": "Exactly. I'm Bai Jiayue, and this is Annie.",
+              "vi": "Đúng ạ. Em là Bạch Gia Nguyệt, còn đây là Anny."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "你们好，我叫王一雪。一飞给我们打电话了，让我来接你们。",
+              "pinyin": "Nǐmen hǎo, wǒ jiào Wáng Yīxuě. Yīfēi gěi wǒmen dǎ diànhuà le, ràng wǒ lái jiē nǐmen.",
+              "en": "Hello, I'm Wang Yixue. Yifei called me and asked me to pick you up.",
+              "vi": "Chào các em, chị là Vương Y Tuyết. Nhất Phi đã gọi điện cho chị nhờ đón các em."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "不客气。",
+              "pinyin": "Bú kèqi.",
+              "en": "You're welcome.",
+              "vi": "Đừng khách khí."
+            }
+          ],
+          "scene_vi": "Tại sân bay, Vương Y Tuyết đón Bạch Gia Nguyệt và Anny."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "1-3",
+          "scene_zh": "在王一雪的车里，三人在聊天儿。",
+          "scene_en": "In Wang Yixue's car, the three were chatting.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "你们是第一次来北京吗？",
+              "pinyin": "Nǐmen shì dì-yī cì lái Běijīng ma?",
+              "en": "Is this your first visit to Beijing?",
+              "vi": "Đây là lần đầu tiên các em đến Bắc Kinh à?"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "是的，我们都是第一次来。",
+              "pinyin": "Shì de, wǒmen dōu shì dì-yī cì lái.",
+              "en": "Yes, it's the first time for both of us.",
+              "vi": "Vâng, cả hai chúng em đều là lần đầu."
+            },
+            {
+              "speaker": "安妮",
+              "zh": "不是，我们是来旅游的。",
+              "pinyin": "Bú shì, wǒmen shì lái lǚyóu de.",
+              "en": "No, we're here for sightseeing.",
+              "vi": "Vâng, chúng em đến để du lịch."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "我这几天都不忙，你们有事就找我。",
+              "pinyin": "Wǒ zhè jǐ tiān dōu bù máng, nǐmen yǒu shì jiù zhǎo wǒ.",
+              "en": "I'm not busy these days. If you need anything, just let me know.",
+              "vi": "Mấy ngày tới chị không bận lắm, có việc gì cứ tìm chị nhé."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "好的，谢谢您。",
+              "pinyin": "Hǎo de, xièxie nín.",
+              "en": "Okay, thank you.",
+              "vi": "Vâng, cảm ơn chị."
+            }
+          ],
+          "scene_vi": "Trong xe của Vương Y Tuyết, ba người đang trò chuyện."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "1-5",
+          "scene_zh": "在王一雪的车上，白家月接了个电话。",
+          "scene_en": "In Wang Yixue's car, Bai Jiayue received a phone call.",
+          "lines": [
+            {
+              "speaker": "陈天中",
+              "zh": "喂，家月，你明天有时间吗？我想请你帮个忙。",
+              "pinyin": "Wèi, Jiāyuè, nǐ míngtiān yǒu shíjiān ma?",
+              "en": "Hello Jiayue, do you have time tomorrow? I need a favor.",
+              "vi": "Alo, Gia Nguyệt à, ngày mai bạn có thời gian không? Mình muốn nhờ bạn chút việc."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "不好意思，天中，我已经到北京了。",
+              "pinyin": "Bù hǎoyìsi, Tiānzhōng, wǒ yǐjīng dào Běijīng le.",
+              "en": "Sorry Tianzhong, I'm already in Beijing.",
+              "vi": "Xin lỗi Thiên Trung, mình đã đến Bắc Kinh rồi."
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "你是什么时候到的？",
+              "pinyin": "Nǐ shì shénme shíhou dào de?",
+              "en": "When did you get there?",
+              "vi": "Bạn đến đó từ khi nào thế?"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "我是今天早上到的。你有事可以叫李文帮忙，他还在学校呢。",
+              "pinyin": "Wǒ shì jīntiān zǎoshang dào de. Nǐ yǒu shì kěyǐ jiào Lǐ Wén bāngmáng.",
+              "en": "I arrived this morning. You can ask Li Wen for help—he's still at school."
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "好的，那我给他打个电话。再见！",
+              "pinyin": "Hǎo de, nà wǒ gěi tā dǎ gè diànhuà. Zàijiàn!",
+              "en": "Okay, then I'll give him a call. Goodbye!",
+              "vi": "Được, vậy mình sẽ gọi cho cậu ấy. Tạm biệt!"
+            }
+          ],
+          "scene_vi": "Trên xe của Vương Y Tuyết, Bạch Gia Nguyệt nhận được một cuộc điện thoại."
+        }
+      ],
+      "title_vi": "Cô ấy mời chúng tôi ăn Vịt quay Bắc Kinh"
+    },
+    {
+      "lesson": 2,
+      "title_zh": "还是打车去北大吧",
+      "title_en": "Let's take a taxi to Peking University instead",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "2-1",
+          "scene_zh": "在宾馆前台，白家月和安妮向服务员咨询。",
+          "scene_en": "At the hotel reception, Bai Jiayue and Annie asked the receptionist for information.",
+          "lines": [
+            {
+              "speaker": "白家月",
+              "zh": "请问，这儿有到北京大学的公交车吗？",
+              "pinyin": "Qǐngwèn, zhèr yǒu dào Běijīng Dàxué de gōngjiāochē ma?",
+              "en": "Excuse me, is there a bus from here to Peking University?",
+              "vi": "Cho hỏi, ở đây có xe buýt đi Đại học Bắc Kinh không?"
+            },
+            {
+              "speaker": "服务员",
+              "zh": "有，但车站有点儿远。",
+              "pinyin": "Yǒu, dàn chēzhàn yǒudiǎnr yuǎn.",
+              "en": "Yes, but the bus stop is a bit far.",
+              "vi": "Có, nhưng bến xe hơi xa một chút."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "这儿好打车吗？",
+              "pinyin": "Zhèr hǎo dǎchē ma?",
+              "en": "Is it easy to get a taxi around here?",
+              "vi": "Ở đây có dễ bắt taxi không ạ?"
+            },
+            {
+              "speaker": "服务员",
+              "zh": "好打车。",
+              "pinyin": "Hǎo dǎchē.",
+              "en": "Yes, it is.",
+              "vi": "Có, dễ lắm."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "谢谢。安妮，我们还是打车去吧。",
+              "pinyin": "Xièxie. Ānnī, wǒmen háishi dǎchē qù ba.",
+              "en": "Thank you. Annie, let's take a taxi instead.",
+              "vi": "Cảm ơn ạ. Anny à, chúng mình bắt taxi đi đi."
+            },
+            {
+              "speaker": "安妮",
+              "zh": "好，没问题。",
+              "pinyin": "Hǎo, méi wèntí.",
+              "en": "Okay, no problem.",
+              "vi": "Được, không vấn đề gì."
+            }
+          ],
+          "scene_vi": "Tại quầy lễ tân khách sạn, Bạch Gia Nguyệt và Anny hỏi nhân viên phục vụ."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "2-3",
+          "scene_zh": "在北京大学校园，白家月和安妮在参观。",
+          "scene_en": "At Peking University campus, Bai Jiayue and Annie were touring.",
+          "lines": [
+            {
+              "speaker": "白家月",
+              "zh": "学校里人真多啊！",
+              "pinyin": "Xuéxiào lǐ rén zhēn duō a!",
+              "en": "It's so crowded on campus!",
+              "vi": "Trong trường đông người thật đấy!"
+            },
+            {
+              "speaker": "安妮",
+              "zh": "是啊，北京大学有四万多名学生呢！",
+              "pinyin": "Shì a, Běijīng Dàxué yǒu sìwàn duō míng xuéshēng ne!",
+              "en": "Yeah, Peking University has over 40,000 students.",
+              "vi": "Đúng vậy, Đại học Bắc Kinh có hơn 40.000 sinh viên cơ đấy!"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "你是怎么知道的？",
+              "pinyin": "Nǐ shì zěnme zhīdào de?",
+              "en": "How do you know that?",
+              "vi": "Sao bạn biết hay thế?"
+            },
+            {
+              "speaker": "安妮",
+              "zh": "是网上说的，网上还说北京大学有三千多名外国学生。",
+              "pinyin": "Shì wǎngshang shuō de, hái yǒu sānqiān duō míng wàiguó xuéshēng.",
+              "en": "I read it online. It also says there are over 3,000 international students.",
+              "vi": "Mình đọc trên mạng đấy, trên mạng còn nói có hơn 3.000 sinh viên nước ngoài nữa."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "我也想来这儿学习。那边就有一间教室，我们去看一下吧。",
+              "pinyin": "Wǒ yě xiǎng lái zhèr xuéxí. Nàbiān jiù yǒu yī jiān jiàoshì, wǒmen qù kàn yīxià ba.",
+              "en": "I'd love to study here too. There's a classroom over there. Let's go have a look.",
+              "vi": "MÌnh cũng muốn đến đây học. Đằng kia có một phòng học, chúng mình qua xem thử đi."
+            }
+          ],
+          "scene_vi": "Tại khuôn viên Đại học Bắc Kinh, Bạch Gia Nguyệt và Anny đang tham quan."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "1-5",
+          "scene_zh": "在王一雪的车上，白家月接到陈天中的电话。",
+          "scene_en": "In Wang Yixue's car, Bai Jiayue received a call from Chen Tianzhong.",
+          "lines": [
+            {
+              "speaker": "陈天中",
+              "zh": "喂，家月，你明天有时间吗？我想请你帮个忙。",
+              "pinyin": "Wèi, Jiāyuè, nǐ míngtiān yǒu shíjiān ma?",
+              "en": "Hello Jiayue, do you have time tomorrow? I need a favor.",
+              "vi": "Alo, Gia Nguyệt à, ngày mai bạn có thời gian không? Mình muốn nhờ bạn chút việc."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "不好意思，天中，我已经到北京了。我是今天早上到的。",
+              "pinyin": "Bù hǎoyìsi, Tiānzhōng, wǒ yǐjīng dào Běijīng le. Wǒ shì jīntiān zǎoshang dào de.",
+              "en": "Sorry Tianzhong, I'm already in Beijing. I arrived this morning."
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "好的，那我给李文打个电话。再见！",
+              "pinyin": "Hǎo de, nà wǒ gěi Lǐ Wén dǎ gè diànhuà. Zàijiàn!",
+              "en": "Okay, then I'll give Li Wen a call. Goodbye!"
+            }
+          ],
+          "scene_vi": "Trên xe của Vương Y Tuyết, Bạch Gia Nguyệt nhận được điện thoại từ Trần Thiên Trung."
+        }
+      ],
+      "title_vi": "Hay là bắt taxi đi Đại học Bắc Kinh đi"
+    },
+    {
+      "lesson": 3,
+      "title_zh": "我想去西安旅游",
+      "title_en": "I want to visit Xi'an",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "3-1",
+          "scene_zh": "在家门口，刘明回家很晚。",
+          "scene_en": "At the doorway, Liu Ming came home very late.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "今天回来这么晚啊！",
+              "pinyin": "Jīntiān huílái zhème wǎn a!",
+              "en": "You're back so late today!",
+              "vi": "Hôm nay về muộn thế!"
+            },
+            {
+              "speaker": "刘明",
+              "zh": "工作太多了，下班的时候没做完。",
+              "pinyin": "Gōngzuò tài duō le, xiàbān de shíhou méi zuò wán.",
+              "en": "I had too much work to do, and I hadn't finished it when it was time to get off work.",
+              "vi": "Công việc nhiều quá, lúc hết giờ làm vẫn chưa xong."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "菜都做好了，过来吃饭吧。",
+              "pinyin": "Cài dōu zuò hǎo le, guòlái chī fàn ba.",
+              "en": "Dinner's ready. Come and eat.",
+              "vi": "Cơm nấu xong cả rồi, qua ăn thôi."
+            },
+            {
+              "speaker": "刘明",
+              "zh": "我想休息一下，喝杯水。",
+              "pinyin": "Wǒ xiǎng xiūxi yīxià, hē bēi shuǐ.",
+              "en": "I'd like to take a break and have a glass of water first.",
+              "vi": "Mình muốn nghỉ một lát, uống ly nước đã."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "好的。",
+              "pinyin": "Hǎo de.",
+              "en": "Okay.",
+              "vi": "Được."
+            }
+          ],
+          "scene_vi": "Tại cửa nhà, Lưu Minh đi làm về rất muộn."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "3-3",
+          "scene_zh": "在客厅，刘明和王一雪在聊天儿。",
+          "scene_en": "In the living room, Liu Ming and Wang Yixue were chatting.",
+          "lines": [
+            {
+              "speaker": "刘明",
+              "zh": "我们找个时间去旅游，怎么样？",
+              "pinyin": "Wǒmen zhǎo gè shíjiān qù lǚyóu, zěnmeyàng?",
+              "en": "Why don't we find some time to go on a trip?",
+              "vi": "Chúng mình tìm lúc nào đó đi du lịch đi, thấy sao?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "好啊，我也很想一起出去玩。",
+              "pinyin": "Hǎo a, wǒ yě hěn xiǎng yīqǐ chūqù wán.",
+              "en": "Great! I also really want to go traveling with you.",
+              "vi": "Hay quá, mình cũng rất muốn cùng nhau đi chơi."
+            },
+            {
+              "speaker": "刘明",
+              "zh": "你想去哪儿？",
+              "pinyin": "Nǐ xiǎng qù nǎr?",
+              "en": "Where do you want to go?",
+              "vi": "Bạn muốn đi đâu?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "我还没想好呢。",
+              "pinyin": "Wǒ hái méi xiǎnghǎo ne.",
+              "en": "I haven't figured it out yet.",
+              "vi": "Mình vẫn chưa nghĩ ra."
+            },
+            {
+              "speaker": "刘明",
+              "zh": "那你再想一想，你想好了，我来买票。",
+              "pinyin": "Nà nǐ zài xiǎng yi xiǎng, nǐ xiǎnghǎo le, wǒ lái mǎi piào.",
+              "en": "Think about it further. Once you've decided, I'll buy the tickets.",
+              "vi": "Vậy bạn nghĩ thêm đi, nghĩ xong mình sẽ đi mua vé."
+            }
+          ],
+          "scene_vi": "Trong phòng khách, Lưu Minh và Vương Y Tuyết đang trò chuyện."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "3-5",
+          "scene_zh": "在客厅，刘明和王一雪在聊天儿，王一雪提出去西安。",
+          "scene_en": "In the living room, Wang Yixue suggested going to Xi'an.",
+          "lines": [
+            {
+              "speaker": "刘明",
+              "zh": "吃个苹果吧，我都洗好了。就在桌子上，你自己拿。",
+              "pinyin": "Chī gè píngguǒ ba, wǒ dōu xǐ hǎo le. Jiù zài zhuōzi shàng, nǐ zìjǐ ná.",
+              "en": "Have an apple. I've already washed them. They're on the table. Help yourself.",
+              "vi": "Ăn táo đi, mình rửa sạch cả rồi. Ở trên bàn đấy, bạn tự lấy nhé."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "我去洗手。对了，我们去西安旅游，怎么样？",
+              "pinyin": "Wǒ qù xǐ shǒu. Duì le, wǒmen qù Xī'ān lǚyóu, zěnmeyàng?",
+              "en": "I'm going to wash my hands. By the way, how about taking a trip to Xi'an?",
+              "vi": "Mình đi rửa tay đã. Đúng rồi, chúng mình đi Tây An du lịch được không?"
+            },
+            {
+              "speaker": "刘明",
+              "zh": "为什么想去西安？",
+              "pinyin": "Wèi shénme xiǎng qù Xī'ān?",
+              "en": "Why do you want to go to Xi'an?",
+              "vi": "Tại sao lại muốn đi Tây An?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "我看了看网上的介绍，这个时候去西安很不错！",
+              "pinyin": "Wǒ kànle kàn wǎngshang de jièshào, zhège shíhou qù Xī'ān hěn bú cuò!",
+              "en": "I read some introductions online—it's a great time to visit Xi'an!",
+              "vi": "Mình xem giới thiệu trên mạng, đi Tây An tầm này rất tuyệt!"
+            }
+          ],
+          "scene_vi": "Trong phòng khách, Vương Y Tuyết đề nghị đi Tây An."
+        }
+      ],
+      "title_vi": "Tôi muốn đi du lịch Tây An"
+    },
+    {
+      "lesson": 4,
+      "title_zh": "你穿红色的很好看",
+      "title_en": "You look pretty good in red",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "4-1",
+          "scene_zh": "在商场门口，王一雪和刘小雪在聊天儿。",
+          "scene_en": "At the shopping mall entrance, Wang Yixue and Liu Xiaoxue were chatting.",
+          "lines": [
+            {
+              "speaker": "刘小雪",
+              "zh": "妈妈，我们来过这家商场吗？",
+              "pinyin": "Māma, wǒmen láiguo zhè jiā shāngchǎng ma?",
+              "en": "Mom, have we been to this shopping mall before?",
+              "vi": "Mẹ ơi, chúng mình đã từng đến trung tâm thương mại này chưa?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "没来过，这是新开的。",
+              "pinyin": "Méi láiguo, zhè shì xīn kāi de.",
+              "en": "No, it just opened recently.",
+              "vi": "Chưa, cái này mới mở đấy."
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "我们进去看看吧。",
+              "pinyin": "Wǒmen jìnqù kànkan ba.",
+              "en": "Let's go inside and have a look.",
+              "vi": "Chúng mình vào trong xem đi."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "好啊！你想买点儿什么？",
+              "pinyin": "Hǎo a! Nǐ xiǎng mǎi diǎnr shénme?",
+              "en": "Sure! What do you want to buy?",
+              "vi": "Được chứ! Con muốn mua gì nào?"
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "我想买条裤子。",
+              "pinyin": "Wǒ xiǎng mǎi tiáo kùzi.",
+              "en": "I want to buy a pair of pants.",
+              "vi": "Con muốn mua một chiếc quần."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "没问题。",
+              "pinyin": "Méi wèntí.",
+              "en": "No problem.",
+              "vi": "Không thành vấn đề."
+            }
+          ],
+          "scene_vi": "Tại cổng trung tâm thương mại, Vương Y Tuyết và Lưu Tiểu Tuyết đang trò chuyện."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "4-3",
+          "scene_zh": "在商场，王一雪和刘小雪在看衣服。",
+          "scene_en": "In the shopping mall, Wang Yixue and Liu Xiaoxue were shopping for clothes.",
+          "lines": [
+            {
+              "speaker": "刘小雪",
+              "zh": "妈妈，我想买这条白色的裤子。",
+              "pinyin": "Māma, wǒ xiǎng mǎi zhè tiáo báisè de kùzi.",
+              "en": "Mom, I want to buy this pair of white pants.",
+              "vi": "Mẹ ơi, con muốn mua chiếc quần màu trắng này."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "你有很多白色的衣服，为什么还买白色的？",
+              "pinyin": "Nǐ yǒu hěn duō báisè de yīfu, wèi shénme hái mǎi báisè de?",
+              "en": "You already have lots of white clothes. Why do you want to buy something white again?",
+              "vi": "Con có nhiều quần áo trắng rồi mà, sao lại mua màu trắng nữa?"
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "因为我喜欢白色啊！",
+              "pinyin": "Yīnwèi wǒ xǐhuān báisè a!",
+              "en": "Because I like white!",
+              "vi": "Vì con thích màu trắng mà!"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "我觉得这条白色的不太好看，你试试那条红色的吧。",
+              "pinyin": "Wǒ juéde zhè tiáo báisè de bú tài hǎokàn, nǐ shìshi nà tiáo hóngsè de ba.",
+              "en": "I don't think this white one looks very good. Why don't you try that red one?",
+              "vi": "Mẹ thấy cái màu trắng này không đẹp lắm, con thử cái màu đỏ kia xem."
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "我没穿过红色的，红色的好看吗？",
+              "pinyin": "Wǒ méi chuānguo hóngsè de, hóngsè de hǎokàn ma?",
+              "en": "I've never worn red before. Does red look good?",
+              "vi": "Con chưa mặc màu đỏ bao giờ, màu đỏ đẹp không mẹ?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "就是因为没穿过，所以要试试啊！",
+              "pinyin": "Jiù shì yīnwèi méi chuānguo, suǒyǐ yào shìshi a!",
+              "en": "That's exactly why you should try it!",
+              "vi": "Chính vì chưa mặc nên mới phải thử chứ!"
+            }
+          ],
+          "scene_vi": "Trong trung tâm thương mại, Vương Y Tuyết và Lưu Tiểu Tuyết đang xem quần áo."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "4-5",
+          "scene_zh": "在商场，王一雪和刘小雪在看书包。",
+          "scene_en": "In the shopping mall, Wang Yixue and Liu Xiaoxue were shopping for schoolbags.",
+          "lines": [
+            {
+              "speaker": "刘小雪",
+              "zh": "妈妈，我想买个新书包。",
+              "pinyin": "Māma, wǒ xiǎng mǎi gè xīn shūbāo.",
+              "en": "Mom, I want to buy a new schoolbag.",
+              "vi": "Mẹ ơi, con muốn mua một chiếc cặp sách mới."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "好，那边卖书包，我们过去看看吧。",
+              "pinyin": "Hǎo, nàbiān mài shūbāo, wǒmen guòqù kànkan ba.",
+              "en": "Okay. They're selling schoolbags over there. Let's go take a look.",
+              "vi": "Được, đằng kia bán cặp sách, chúng mình qua xem nhé."
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "这么多漂亮的书包！红色的、绿色的、黑色的，你想买哪个？",
+              "pinyin": "Zhème duō piàoliang de shūbāo! Hóngsè de, lǜsè de, hēisè de, nǐ xiǎng mǎi nǎge?",
+              "en": "So many beautiful ones! Red, green, black—which one do you want?",
+              "vi": "Nhiều cặp sách đẹp quá! Đỏ, xanh lá, đen, con muốn mua cái nào?"
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "绿色的吧。",
+              "pinyin": "Lǜsè de ba.",
+              "en": "The green one.",
+              "vi": "Cái màu xanh lá ạ."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "不错，我也觉得绿色的更好看。",
+              "pinyin": "Búcuò, wǒ yě juéde lǜsè de gèng hǎokàn.",
+              "en": "Not bad. I think the green one looks better too.",
+              "vi": "Không tệ, mẹ cũng thấy cái màu xanh lá đẹp hơn."
+            }
+          ],
+          "scene_vi": "Trong trung tâm thương mại, Vương Y Tuyết và Lưu Tiểu Tuyết đang xem cặp sách."
+        }
+      ],
+      "title_vi": "Bạn mặc màu đỏ trông rất đẹp"
+    },
+    {
+      "lesson": 5,
+      "title_zh": "第一次去中国朋友家",
+      "title_en": "Visiting a Chinese friend's home for the first time",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "5-1",
+          "scene_zh": "在宾馆楼下，安妮给白家月打电话。",
+          "scene_en": "Downstairs in the hotel, Annie was calling Bai Jiayue.",
+          "lines": [
+            {
+              "speaker": "安妮",
+              "zh": "家月，快下来吧，第一次去中国朋友家，别晚了。",
+              "pinyin": "Jiāyuè, kuài xià lái ba, dì-yī cì qù Zhōngguó péngyou jiā, bié wǎn le.",
+              "en": "Jiayue, come down quickly. It's our first time visiting a Chinese friend's home. Don't be late.",
+              "vi": "Gia Nguyệt, xuống nhanh đi, lần đầu đến nhà bạn Trung Quốc chơi, đừng để muộn đấy."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "还有时间，你上来吧。",
+              "pinyin": "Hái yǒu shíjiān, nǐ shànglái ba.",
+              "en": "We still have time. Come on up.",
+              "vi": "Vẫn còn thời gian mà, bạn lên đây đi."
+            },
+            {
+              "speaker": "安妮",
+              "zh": "我不上去了，就在下面等你。那我一会儿就下去。你快点儿吧。",
+              "pinyin": "Wǒ bú shàngqù le, jiù zài xiàmiàn děng nǐ. Nǐ kuài diǎnr ba.",
+              "en": "I'm not going up. I'll wait downstairs. Hurry up.",
+              "vi": "Mình không lên nữa đâu, đứng dưới này đợi bạn. Bạn nhanh lên nhé."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "没事，一雪姐说11点前到就可以。",
+              "pinyin": "Méishì, Yīxuě jiě shuō shíyī diǎn qián dào jiù kěyǐ.",
+              "en": "It's fine. Sister Yixue said we just need to get there before 11 o'clock.",
+              "vi": "Không sao đâu, chị Y Tuyết bảo trước 11 giờ đến là được."
+            }
+          ],
+          "scene_vi": "Dưới lầu khách sạn, Anny gọi điện cho Bạch Gia Nguyệt."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "5-3",
+          "scene_zh": "在王一雪家，白家月和安妮来做客。",
+          "scene_en": "At Wang Yixue's home, Bai Jiayue and Annie were visiting.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "家月、安妮，快进来！这是孩子们的爷爷、奶奶。",
+              "pinyin": "Jiāyuè, Ānnī, kuài jìnlái! Zhè shì háizimen de yéye, nǎinai.",
+              "en": "Jiayue, Annie, come on in! These are the children's grandfather and grandmother.",
+              "vi": "Gia Nguyệt, Anny, vào đi! Đây là ông nội và bà nội của bọn trẻ."
+            },
+            {
+              "speaker": "白家月&安妮",
+              "zh": "你们好！",
+              "pinyin": "Nǐmen hǎo!",
+              "en": "Hello!",
+              "vi": "Chào ông bà ạ!"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "这是送给你们的礼物。",
+              "pinyin": "Zhè shì sòng gěi nǐmen de lǐwù.",
+              "en": "These gifts are for you.",
+              "vi": "Đây là quà tặng ông bà ạ."
+            },
+            {
+              "speaker": "刘爷爷",
+              "zh": "你们太客气了，还拿这么多礼物来！",
+              "pinyin": "Nǐmen tài kèqi le, hái ná zhème duō lǐwù lái!",
+              "en": "You're too kind! You didn't have to bring so many gifts.",
+              "vi": "Các cháu khách sáo quá, mang nhiều quà thế này!"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "一雪姐，这是给孩子们准备的礼物。",
+              "pinyin": "Yīxuě jiě, zhè shì gěi háizimen zhǔnbèi de lǐwù.",
+              "en": "Sister Yixue, here's a gift we prepared for the children.",
+              "vi": "Chị Y Tuyết, đây là quà chúng em chuẩn bị cho các cháu."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "谢谢！你们别客气，快坐吧！",
+              "pinyin": "Xièxie! Nǐmen bié kèqi, kuài zuò ba!",
+              "en": "Thank you! Please make yourselves at home and have a seat!",
+              "vi": "Cảm ơn các em! Đừng khách sáo, mau ngồi đi!"
+            }
+          ],
+          "scene_vi": "Tại nhà Vương Y Tuyết, Bạch Gia Nguyệt và Anny đến làm khách."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "5-5",
+          "scene_zh": "在王一雪家，白家月和安妮在吃饭。",
+          "scene_en": "At Wang Yixue's home, Bai Jiayue and Annie were having a meal.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "都12点了，我们吃饭吧。",
+              "pinyin": "Dōu shí'èr diǎn le, wǒmen chī fàn ba.",
+              "en": "It's already 12 o'clock. Let's eat.",
+              "vi": "12 giờ rồi, chúng mình ăn cơm thôi."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "这么多好吃的，您太客气了！",
+              "pinyin": "Zhème duō hǎochī de, nín tài kèqi le!",
+              "en": "There are so many delicious dishes. You're really too kind!",
+              "vi": "Nhiều món ngon quá, chị khách sáo quá ạ!"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "都是我自己做的，你们多吃点儿。",
+              "pinyin": "Dōu shì wǒ zìjǐ zuò de, nǐmen duō chī diǎnr.",
+              "en": "I cooked all of these myself. Please help yourselves.",
+              "vi": "Đều là chị tự làm đấy, các em ăn nhiều vào nhé."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "奶茶也很好喝，是您自己做的吗？",
+              "pinyin": "Nǎichá yě hěn hǎohē, shì nín zìjǐ zuò de ma?",
+              "en": "The bubble tea tastes amazing. Did you make it yourself?",
+              "vi": "Trà sữa cũng ngon lắm, là chị tự làm ạ?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "不是，奶茶是爷爷买的。就在前边的商场，吃完饭你们跟我去看看。",
+              "pinyin": "Bú shì, nǎichá shì yéye mǎi de. Jiù zài qiánbian de shāngchǎng, chī wán fàn nǐmen gēn wǒ qù kànkan.",
+              "en": "No, Grandpa bought it. It's from the mall ahead. After eating, you can come with me to check it out.",
+              "vi": "Không, trà sữa là ông nội mua đấy. Ở trung tâm thương mại phía trước ấy, ăn xong các em đi cùng chị qua đó xem."
+            }
+          ],
+          "scene_vi": "Tại nhà Vương Y Tuyết, Bạch Gia Nguyệt và Anny đang ăn cơm."
+        }
+      ],
+      "title_vi": "Lần đầu tiên đến nhà bạn Trung Quốc chơi"
+    },
+    {
+      "lesson": 6,
+      "title_zh": "小雪，生日快乐！",
+      "title_en": "Happy birthday, Xiaoxue!",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "6-1",
+          "scene_zh": "在家里，刘明和王一雪在聊天儿。",
+          "scene_en": "At home, Liu Ming and Wang Yixue were chatting.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "明天就是女儿的生日了。",
+              "pinyin": "Míngtiān jiù shì nǚ'ér de shēngrì le.",
+              "en": "Tomorrow is our daughter's birthday.",
+              "vi": "Ngày mai là sinh nhật con gái rồi đấy."
+            },
+            {
+              "speaker": "刘明",
+              "zh": "你不说，我还真忘了。我们给她准备个什么礼物呢？",
+              "pinyin": "Nǐ bù shuō, wǒ hái zhēn wàng le. Wǒmen gěi tā zhǔnbèi gè shénme lǐwù ne?",
+              "en": "I would have totally forgotten. What should we get her as a gift?",
+              "vi": "Em không nói là anh quên bẵng đi mất. Chúng mình chuẩn bị quà gì cho con nhỉ?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "她喜欢画画，你觉得画笔怎么样？",
+              "pinyin": "Tā xǐhuān huà huà, nǐ juéde huàbǐ zěnmeyàng?",
+              "en": "She likes drawing. How about some color pens?",
+              "vi": "Con bé thích vẽ tranh, em thấy bút vẽ thế nào?"
+            },
+            {
+              "speaker": "刘明",
+              "zh": "就送画笔吧！那我再给她买个大大的生日蛋糕。",
+              "pinyin": "Jiù sòng huàbǐ ba! Nà wǒ zài gěi tā mǎi gè dà dà de shēngrì dàngāo.",
+              "en": "Let's get her color pens! And I'll also get her a big birthday cake.",
+              "vi": "Tặng bút vẽ đi! Vậy anh mua cho con thêm một cái bánh sinh nhật thật to nữa."
+            }
+          ],
+          "scene_vi": "Ở nhà, Lưu Minh và Vương Y Tuyết đang trò chuyện."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "6-3",
+          "scene_zh": "在客厅，刘明一家人给刘小雪过生日。",
+          "scene_en": "In the living room, Liu Ming's family celebrated Liu Xiaoxue's birthday.",
+          "lines": [
+            {
+              "speaker": "刘明",
+              "zh": "小雪，生日快乐！",
+              "pinyin": "Xiǎo Xuě, shēngrì kuàilè!",
+              "en": "Happy birthday, Xiaoxue!",
+              "vi": "Sinh nhật vui vẻ, Tiểu Tuyết!"
+            },
+            {
+              "speaker": "刘小明",
+              "zh": "姐姐，生日快乐！",
+              "pinyin": "Jiějie, shēngrì kuàilè!",
+              "en": "Happy birthday, sister!",
+              "vi": "Sinh nhật vui vẻ, chị nhé!"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "小雪，这是爸爸、妈妈送你的礼物。你打开看看。",
+              "pinyin": "Xiǎo Xuě, zhè shì bàba, māma sòng nǐ de lǐwù. Nǐ dǎkāi kànkan.",
+              "en": "Xiaoxue, here's a gift from dad and mom. Go ahead and open it.",
+              "vi": "Tiểu Tuyết, đây là quà bố mẹ tặng con. Mở ra xem đi."
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "画笔！我很喜欢！那你想画点儿什么？",
+              "pinyin": "Huàbǐ! Wǒ hěn xǐhuān! Nà nǐ xiǎng huà diǎnr shénme?",
+              "en": "Color pens! I love them! What would you like to draw?",
+              "vi": "Bút vẽ! Con thích lắm! Vậy con muốn vẽ gì nào?"
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "画我们的家！有爸爸、妈妈、弟弟，还有黑色的狗、白色的猫什么的。",
+              "pinyin": "Huà wǒmen de jiā! Yǒu bàba, māma, dìdi, hái yǒu hēisè de gǒu, báisè de māo shénme de.",
+              "en": "Our home! With dad, mom, my little brother, and our black dog, white cat, and all the others.",
+              "vi": "Vẽ nhà mình! Có bố, mẹ, em trai, và cả con chó màu đen, con mèo màu trắng nữa."
+            },
+            {
+              "speaker": "刘小明",
+              "zh": "那我要画一个穿白色衣服的姐姐。",
+              "pinyin": "Nà wǒ yào huà yī gè chuān báisè yīfu de jiějie.",
+              "en": "Then I'll draw a sister in white clothes.",
+              "vi": "Vậy thì em sẽ vẽ một người chị mặc quần áo trắng."
+            }
+          ],
+          "scene_vi": "Trong phòng khách, gia đình Lưu Minh tổ chức sinh nhật cho Lưu Tiểu Tuyết."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "6-5",
+          "scene_zh": "在客厅，刘明一家人在过生日。",
+          "scene_en": "In the living room, Liu Ming's family were celebrating the birthday.",
+          "lines": [
+            {
+              "speaker": "刘明",
+              "zh": "小雪，看看今天有什么好吃的。",
+              "pinyin": "Xiǎo Xuě, kànkan jīntiān yǒu shénme hǎochī de.",
+              "en": "Xiaoxue, take a look at all the delicious food we have today.",
+              "vi": "Tiểu Tuyết, xem hôm nay có món gì ngon nào."
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "长长的面条儿，大大的蛋糕。你看，还有鱼啊肉啊什么的，都是你喜欢吃的。",
+              "pinyin": "Cháng cháng de miàntiáor, dà dà de dàngāo. Nǐ kàn, hái yǒu yú a ròu a shénme de.",
+              "en": "Long noodles and a big cake. Look, there's fish, meat, and other dishes too — all your favorites.",
+              "vi": "Mì trường thọ nè, bánh kem to nè. Con xem, còn có cá, có thịt, toàn món con thích ăn đấy."
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "谢谢爸爸、妈妈！",
+              "pinyin": "Xièxie bàba, māma!",
+              "en": "Thank you, Dad and Mom!",
+              "vi": "Cảm ơn bố mẹ ạ!"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "快去叫弟弟过来吃饭吧，吃完饭我们还要出去玩儿呢。",
+              "pinyin": "Kuài qù jiào dìdi guòlái chī fàn ba, chī wán fàn wǒmen hái yào chūqù wánr ne.",
+              "en": "Go call your brother to come eat. After dinner, we'll go out and have some fun!",
+              "vi": "Mau gọi em qua ăn cơm đi con, ăn xong chúng mình còn đi chơi nữa."
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "过生日真好啊！",
+              "pinyin": "Guò shēngrì zhēn hǎo a!",
+              "en": "Birthdays are so wonderful!",
+              "vi": "Sinh nhật thật là thích!"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "是的，过生日就要吃好吃的，还要高高兴兴地玩。",
+              "pinyin": "Shì de, guò shēngrì jiù yào chī hǎochī de, hái yào gāogāo-xìngxìng de wán.",
+              "en": "That's right. On your birthday, enjoy good food and have lots of fun.",
+              "vi": "Đúng vậy, sinh nhật thì phải ăn ngon và chơi thật vui vào."
+            }
+          ],
+          "scene_vi": "Trong phòng khách, gia đình Lưu Minh đang đón sinh nhật."
+        }
+      ],
+      "title_vi": "Sinh nhật vui vẻ, Tiểu Tuyết!"
+    },
+    {
+      "lesson": 7,
+      "title_zh": "他篮球打得很好",
+      "title_en": "He plays basketball very well",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "7-1",
+          "scene_zh": "在教室，安妮和陈天中在聊天儿。",
+          "scene_en": "In the classroom, Annie and Chen Tianzhong were chatting.",
+          "lines": [
+            {
+              "speaker": "陈天中",
+              "zh": "安妮，你是什么时候从北京回来的？",
+              "pinyin": "Ānnī, nǐ shì shénme shíhou cóng Běijīng huílái de?",
+              "en": "Annie, when did you get back from Beijing?",
+              "vi": "Anny, bạn từ Bắc Kinh về từ khi nào thế?"
+            },
+            {
+              "speaker": "安妮",
+              "zh": "昨天下午。天中，你怎么一下课就往外跑？",
+              "pinyin": "Zuótiān xiàwǔ. Tiānzhōng, nǐ zěnme yī xiàkè jiù wǎng wài pǎo?",
+              "en": "Yesterday afternoon. Tianzhong, why do you rush out as soon as class ends?",
+              "vi": "Chiều hôm qua. Thiên Trung, sao bạn vừa tan học đã chạy ngay ra ngoài thế?"
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "我跟同学说好了，一起去打篮球。",
+              "pinyin": "Wǒ gēn tóngxué shuō hǎo le, yīqǐ qù dǎ lánqiú.",
+              "en": "I made an appointment with my classmates to play basketball together.",
+              "vi": "Mình hẹn với bạn cùng lớp rồi, cùng nhau đi đánh bóng rổ."
+            },
+            {
+              "speaker": "安妮",
+              "zh": "我也想跟你们一起玩。",
+              "pinyin": "Wǒ yě xiǎng gēn nǐmen yīqǐ wán.",
+              "en": "I want to join you too.",
+              "vi": "Mình cũng muốn chơi cùng các bạn."
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "没问题，走吧。",
+              "pinyin": "Méi wèntí, zǒu ba.",
+              "en": "No problem, let's go!",
+              "vi": "Không vấn đề gì, đi thôi!"
+            }
+          ],
+          "scene_vi": "Trong lớp học, Anny và Trần Thiên Trung đang trò chuyện."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "7-3",
+          "scene_zh": "在校园，安妮和陈天中边走边聊。",
+          "scene_en": "On campus, Annie and Chen Tianzhong were chatting as they walked.",
+          "lines": [
+            {
+              "speaker": "安妮",
+              "zh": "天中，你是不是很喜欢打篮球？",
+              "pinyin": "Tiānzhōng, nǐ shì bu shì hěn xǐhuān dǎ lánqiú?",
+              "en": "Tianzhong, do you really like playing basketball?",
+              "vi": "Thiên Trung, có phải bạn rất thích đánh bóng rổ không?"
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "没错。我还喜欢踢足球，一到星期天就跟朋友们去踢球。",
+              "pinyin": "Méicuò. Wǒ hái xǐhuān tī zúqiú, yī dào Xīngqītiān jiù gēn péngyoumen qù tī qiú.",
+              "en": "Yes. I also enjoy playing soccer. I play with my friends every Sunday."
+            },
+            {
+              "speaker": "安妮",
+              "zh": "你踢得怎么样？",
+              "pinyin": "Nǐ tī de zěnmeyàng?",
+              "en": "How well do you play?"
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "我踢得还可以。",
+              "pinyin": "Wǒ tī de hái kěyǐ.",
+              "en": "Not bad."
+            }
+          ],
+          "scene_vi": "Trong khuôn viên trường, Anny và Trần Thiên Trung vừa đi vừa trò chuyện."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "7-5",
+          "scene_zh": "在校园，安妮和陈天中边走边聊体育运动。",
+          "scene_en": "On campus, Annie and Chen Tianzhong chatted about sports.",
+          "lines": [
+            {
+              "speaker": "陈天中",
+              "zh": "你篮球打得怎么样？",
+              "pinyin": "Nǐ lánqiú dǎ de zěnmeyàng?",
+              "en": "How are your basketball skills?"
+            },
+            {
+              "speaker": "安妮",
+              "zh": "打得还可以。",
+              "pinyin": "Dǎ de hái kěyǐ.",
+              "en": "Not too bad."
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "跑步呢？你跑得快不快？",
+              "pinyin": "Pǎobù ne? Nǐ pǎo de kuài bu kuài?",
+              "en": "What about running? Are you fast?"
+            },
+            {
+              "speaker": "安妮",
+              "zh": "我跑得不太快，也不太喜欢跑步。",
+              "pinyin": "Wǒ pǎo de bú tài kuài, yě bú tài xǐhuān pǎobù.",
+              "en": "I'm not very fast, and I don't really like running either."
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "那你喜欢游泳吗？",
+              "pinyin": "Nà nǐ xǐhuān yóuyǒng ma?",
+              "en": "Do you like swimming then?"
+            },
+            {
+              "speaker": "安妮",
+              "zh": "喜欢，但我游泳游得不快。",
+              "pinyin": "Xǐhuān, dàn wǒ yóuyǒng yóu de bú kuài.",
+              "en": "I do, but I'm not very good at it either."
+            }
+          ],
+          "scene_vi": "On campus, Annie and Chen Tianzhong chatted about sports."
+        }
+      ],
+      "title_vi": "Anh ấy chơi bóng rổ rất giỏi"
+    },
+    {
+      "lesson": 8,
+      "title_zh": "虽然你忘了，但是我记得",
+      "title_en": "Even though you forgot, I remembered",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "8-1",
+          "scene_zh": "在商场，王一雪和刘明在购物。",
+          "scene_en": "In the mall, Wang Yixue and Liu Ming were shopping.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "你看，这两块手表怎么样？",
+              "pinyin": "Nǐ kàn, zhè liǎng kuài shǒubiǎo zěnmeyàng?",
+              "en": "Look, what do you think of these two watches?"
+            },
+            {
+              "speaker": "刘明",
+              "zh": "都不错！我也觉得左边的比右边的好看。",
+              "pinyin": "Dōu búcuò! Wǒ yě juéde zuǒbian de bǐ yòubian de hǎokàn.",
+              "en": "They're nice! I think the one on the left looks better than the one on the right too."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "你看看要多少钱！",
+              "pinyin": "Nǐ kànkan yào duōshao qián!",
+              "en": "Check the price!"
+            },
+            {
+              "speaker": "刘明",
+              "zh": "真不便宜！八千八！",
+              "pinyin": "Zhēn bù piányí! Bā qiān bā!",
+              "en": "It's not cheap! 8,800 yuan!"
+            }
+          ],
+          "scene_vi": "In the mall, Wang Yixue and Liu Ming were shopping."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "8-3",
+          "scene_zh": "在电影院外面，王一雪和刘明在聊天儿。",
+          "scene_en": "Outside the cinema, Wang Yixue and Liu Ming were chatting.",
+          "lines": [
+            {
+              "speaker": "刘明",
+              "zh": "今天有不少电影，我们看个电影吧。",
+              "pinyin": "Jīntiān yǒu bùshǎo diànyǐng, wǒmen kàn gè diànyǐng ba.",
+              "en": "There are quite a few movies showing today. Let's watch one."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "好啊！我们看哪个？",
+              "pinyin": "Hǎo a! Wǒmen kàn nǎge?",
+              "en": "Great! Which one should we watch?"
+            },
+            {
+              "speaker": "刘明",
+              "zh": "我记得你喜欢看爱情片，我们看那个爱情片，怎么样？",
+              "pinyin": "Wǒ jìde nǐ xǐhuān kàn àiqíngpiàn, wǒmen kàn nàge àiqíngpiàn, zěnmeyàng?",
+              "en": "I remember you like romantic movies. How about that romantic one?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "还是看这个吧，网上说这个比那个更有意思。",
+              "pinyin": "Háishi kàn zhège ba, wǎngshang shuō zhège bǐ nàge gèng yǒuyìsi.",
+              "en": "Let's watch this one instead. Online reviews say it's more interesting than that romantic one."
+            },
+            {
+              "speaker": "刘明",
+              "zh": "好，我去买票。",
+              "pinyin": "Hǎo, wǒ qù mǎi piào.",
+              "en": "Okay. I'll go buy the tickets."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "到网上买吧，网上买比在这里买便宜。",
+              "pinyin": "Dào wǎngshang mǎi ba, wǎngshang mǎi bǐ zài zhèlǐ mǎi piányí.",
+              "en": "Buy them online. It's cheaper to buy tickets online than here."
+            }
+          ],
+          "scene_vi": "Outside the cinema, Wang Yixue and Liu Ming were chatting."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "8-5",
+          "scene_zh": "在饭馆，王一雪和刘明在点菜。",
+          "scene_en": "At the restaurant, Wang Yixue and Liu Ming were ordering food.",
+          "lines": [
+            {
+              "speaker": "刘明",
+              "zh": "您好！就要这几个菜吧，谢谢！",
+              "pinyin": "Nín hǎo! Jiù yào zhè jǐ gè cài ba, xièxie!",
+              "en": "Hello! We'll have these dishes, thank you!"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "怎么点这么多菜？你想想，今天是几月几号？",
+              "pinyin": "Zěnme diǎn zhème duō cài? Nǐ xiǎnxiǎng, jīntiān shì jǐ yuè jǐ hào?",
+              "en": "Why did you order so much? Think about it—what's the date today?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "8月27号。啊！我的生日！",
+              "pinyin": "Bā yuè èrshíqī hào. Ā! Wǒ de shēngrì!",
+              "en": "August 27th. Ah! My birthday!"
+            },
+            {
+              "speaker": "刘明",
+              "zh": "生日快乐！虽然你忘了，但是我记得。看看，这是什么？",
+              "pinyin": "Shēngrì kuàilè! Suīrán nǐ wàng le, dànshì wǒ jìde. Kànkan, zhè shì shénme?",
+              "en": "Happy birthday! Even though you forgot, I remembered. Look, what's this?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "手表！今天花了不少钱吧。",
+              "pinyin": "Shǒubiǎo! Jīntiān huāle bùshǎo qián ba.",
+              "en": "A watch! You must have spent quite a lot today."
+            },
+            {
+              "speaker": "刘明",
+              "zh": "虽然花了一些钱，但是我们过了一个快乐的生日。",
+              "pinyin": "Suīrán huāle yīxiē qián, dànshì wǒmen guòle yī gè kuàilè de shēngrì.",
+              "en": "Although we spent some money, we celebrated a happy birthday."
+            }
+          ],
+          "scene_vi": "At the restaurant, Wang Yixue and Liu Ming were ordering food."
+        }
+      ],
+      "title_vi": "Even though you forgot, I remembered"
+    },
+    {
+      "lesson": 9,
+      "title_zh": "我去买杯奶茶",
+      "title_en": "I'm going to buy a cup of bubble tea",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "9-1",
+          "scene_zh": "在商店，王一雪和刘明在看裤子。",
+          "scene_en": "In the store, Wang Yixue and Liu Ming were looking at pants.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "儿子的裤子坏了，我们给他买条新的吧。",
+              "pinyin": "Érzi de kùzi huài le, wǒmen gěi tā mǎi tiáo xīn de ba.",
+              "en": "Our son's pants are torn. Let's buy him a new pair."
+            },
+            {
+              "speaker": "刘明",
+              "zh": "好啊。你看这条黑色的怎么样？",
+              "pinyin": "Hǎo a. Nǐ kàn zhè tiáo hēisè de zěnmeyàng?",
+              "en": "Okay. What do you think of this pair of black ones?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "没有你上次买的那条好看。",
+              "pinyin": "Méiyǒu nǐ shàngcì mǎi de nà tiáo hǎokàn.",
+              "en": "They're not as nice as the ones you bought last time."
+            },
+            {
+              "speaker": "刘明",
+              "zh": "旁边那个男孩儿就穿了这样的裤子，我觉得很好看啊！",
+              "pinyin": "Pángbiān nàge nánháir jiù chuānle zhèyàng de kùzi, wǒ juéde hěn hǎokàn a!",
+              "en": "The boy next to us is wearing pants like these, and I think they look great!"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "儿子的个子没他那么高，穿上就不会太好看。好吧，我们再去那边看看。",
+              "pinyin": "Érzi de gèzi méiyǒu tā nàme gāo, chuānshang jiù bú huì tài hǎokàn. Hǎo ba, wǒmen zài qù nàbiān kànkan.",
+              "en": "Our son isn't as tall as him, so they wouldn't look so good on him. Alright, let's go over there."
+            }
+          ],
+          "scene_vi": "In the store, Wang Yixue and Liu Ming were looking at pants."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "9-3",
+          "scene_zh": "在商店门口，王一雪和刘明往外走。",
+          "scene_en": "At the store entrance, Wang Yixue and Liu Ming were walking out.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "门口有家奶茶店。你想喝杯奶茶吗？",
+              "pinyin": "Ménkǒu yǒu jiā nǎichá diàn. Nǐ xiǎng hē bēi nǎichá ma?",
+              "en": "There's a bubble tea shop at the entrance. Do you want a cup of bubble tea?"
+            },
+            {
+              "speaker": "刘明",
+              "zh": "我想喝咖啡，还是去咖啡店吧。",
+              "pinyin": "Wǒ xiǎng hē kāfēi, háishi qù kāfēidiàn ba.",
+              "en": "I'd prefer coffee. Let's go to a coffee shop."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "咖啡店离这儿有点儿远。没关系，那家店的咖啡很好喝。",
+              "pinyin": "Kāfēidiàn lí zhèr yǒudiǎnr yuǎn. Méi guānxi, nà jiā diàn de kāfēi hěn hǎohē.",
+              "en": "The coffee shop is a bit far. That's fine—the coffee there is very good.",
+              "vi": "Quán cà phê hơi xa một chút. Không sao đâu, cà phê ở đó ngon lắm."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "那你等一下，我去买杯奶茶。",
+              "pinyin": "Nà nǐ děng yīxià, wǒ qù mǎi bēi nǎichá.",
+              "en": "Then wait here while I go buy a cup of bubble tea.",
+              "vi": "Vậy anh đợi ở đây nhé, em đi mua một ly trà sữa."
+            },
+            {
+              "speaker": "刘明",
+              "zh": "你不想喝咖啡吗？",
+              "pinyin": "Nǐ bù xiǎng hē kāfēi ma?",
+              "en": "Don't you want to drink coffee?",
+              "vi": "Em không muốn uống cà phê à?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "喝了咖啡，晚上就别想睡觉了。",
+              "pinyin": "Hēle kāfēi, wǎnshang jiù bié xiǎng shuìjiào le.",
+              "en": "I can't fall asleep if I drink coffee.",
+              "vi": "Em mà uống cà phê là không ngủ được đâu."
+            }
+          ],
+          "scene_vi": "Tại cổng cửa hàng, Vương Y Tuyết và Lưu Minh đang đi ra."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "9-5",
+          "scene_zh": "在咖啡店门口，王一雪和刘明在聊天儿。",
+          "scene_en": "At the entrance of a coffee shop, Wang Yixue and Liu Ming were chatting.",
+          "lines": [
+            {
+              "speaker": "刘明",
+              "zh": "我们打车回去吧。",
+              "pinyin": "Wǒmen dǎchē huíqù ba.",
+              "en": "Let's take a taxi home.",
+              "vi": "Chúng mình bắt taxi về nhà đi."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "这里离家很近，还是走路吧。要走多长时间？",
+              "pinyin": "Zhèlǐ lí jiā hěn jìn, háishi zǒulù ba. Yào zǒu duō cháng shíjiān?",
+              "en": "It's close to home. Let's walk. How long will it take?",
+              "vi": "Gần nhà mà, đi bộ đi. Mất bao lâu nhỉ?"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "走半个多小时就到了。",
+              "pinyin": "Zǒu bàn gè duō xiǎoshí jiù dào le.",
+              "en": "Walking will take a little more than half an hour.",
+              "vi": "Đi bộ thì mất hơn nửa tiếng một chút."
+            },
+            {
+              "speaker": "刘明",
+              "zh": "好的。每天上下班都坐车，今天运动运动吧。",
+              "pinyin": "Hǎo de. Měi tiān shàngxiàbān dōu zuò chē, jīntiān yùndòng yùndòng ba.",
+              "en": "Alright. I take the car every day, so I'll get some exercise today.",
+              "vi": "Được rồi. Ngày nào anh cũng đi ô tô, hôm nay đi bộ cho khỏe người."
+            }
+          ],
+          "scene_vi": "Tại cổng quán cà phê, Vương Y Tuyết và Lưu Minh đang trò chuyện."
+        }
+      ],
+      "title_vi": "Tôi đi mua một ly trà sữa"
+    },
+    {
+      "lesson": 10,
+      "title_zh": "就要考试了",
+      "title_en": "The exam is coming",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "10-1",
+          "scene_zh": "在房间，刘明在帮刘小明准备东西。",
+          "scene_en": "In the room, Liu Ming was helping Liu Xiaoming prepare things.",
+          "lines": [
+            {
+              "speaker": "刘明",
+              "zh": "小明，你们明天开学，你准备好了吗？",
+              "pinyin": "Xiǎo Míng, nǐmen míngtiān kāixué, nǐ zhǔnbèi hǎo le ma?",
+              "en": "Xiaoming, school will start tomorrow. Are you ready?",
+              "vi": "Tiểu Minh, ngày mai khai giảng rồi. Con đã chuẩn bị xong chưa?"
+            },
+            {
+              "speaker": "刘小明",
+              "zh": "明天就开学啊？爸爸，我的书包你看见了吗？",
+              "pinyin": "Míngtiān jiù kāixué a? Bàba, wǒ de shūbāo nǐ kànjiàn le ma?",
+              "en": "School starts tomorrow? Dad, did you see my schoolbag?",
+              "vi": "Mai đi học rồi á? Bố ơi, bố có thấy cặp sách của con đâu không?"
+            },
+            {
+              "speaker": "刘明",
+              "zh": "书包在门后面。书在床上，笔在桌子上。",
+              "pinyin": "Shūbāo zài mén hòumiàn. Shū zài chuáng shàng, bǐ zài zhuōzi shàng.",
+              "en": "It's behind the door. The books are on the bed, and the pens are on the table.",
+              "vi": "Nó ở sau cửa ấy. Sách thì trên giường, còn bút thì ở trên bàn nhé."
+            },
+            {
+              "speaker": "刘小明",
+              "zh": "太好了！现在都准备好了。",
+              "pinyin": "Tài hǎo le! Xiànzài dōu zhǔnbèi hǎo le.",
+              "en": "Great! Everything is ready now.",
+              "vi": "Tuyệt quá! Mọi thứ đều đã sẵn sàng rồi."
+            },
+            {
+              "speaker": "刘明",
+              "zh": "这次爸爸帮你，下次你自己准备，好不好？",
+              "pinyin": "Zhè cì bàba bāng nǐ, xià cì nǐ zìjǐ zhǔnbèi, hǎo bu hǎo?",
+              "en": "Dad helped you this time. Next time, prepare it yourself, okay?",
+              "vi": "Lần này bố giúp con, lần sau con tự chuẩn bị nhé, được không?"
+            },
+            {
+              "speaker": "刘小明",
+              "zh": "好！",
+              "pinyin": "Hǎo!",
+              "en": "Okay!",
+              "vi": "Vâng ạ!"
+            }
+          ],
+          "scene_vi": "Trong phòng, Lưu Minh đang giúp Lưu Tiểu Minh chuẩn bị đồ đạc."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "10-3",
+          "scene_zh": "在房间，王一雪和刘小雪在聊学习。",
+          "scene_en": "In the room, Wang Yixue and Liu Xiaoxue were talking about studying.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "小雪，你在做什么呢？",
+              "pinyin": "Xiǎo Xuě, nǐ zài zuò shénme ne?",
+              "en": "Xiaoxue, what are you doing?",
+              "vi": "Tiểu Tuyết, con đang làm gì đấy?"
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "明天考试，我在看书呢。这些词要好好看看。",
+              "pinyin": "Míngtiān kǎoshì, wǒ zài kàn shū ne. Zhèxiē cí yào hǎohǎo kànkan.",
+              "en": "I have an exam tomorrow, so I'm reading. I should review these words carefully.",
+              "vi": "Mai con có bài kiểm tra nên con đang đọc sách. Con phải ôn kỹ mấy từ này mới được."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "我看过了，意思也都懂了。你的本子呢？本子上做错的题也要看一看。",
+              "pinyin": "Wǒ kànguo le, yìsi yě dōu dǒng le. Nǐ de běnzi ne? Běnzi shàng zuòcuò de tí yě yào kànkan.",
+              "en": "I've already reviewed them. Where's your notebook? You should also go over the questions you got wrong.",
+              "vi": "Mẹ ôn cùng con rồi mà. Vở ghi của con đâu? Con cũng nên xem lại mấy câu làm sai đi."
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "妈妈，是您准备考试还是我准备考试？",
+              "pinyin": "Māma, shì nín zhǔnbèi kǎoshì háishi wǒ zhǔnbèi kǎoshì?",
+              "en": "Mom, are you the one preparing for the exam or am I?",
+              "vi": "Mẹ ơi, là mẹ đi thi hay con đi thi thế ạ?"
+            }
+          ],
+          "scene_vi": "Trong phòng, Vương Y Tuyết và Lưu Tiểu Tuyết đang nói chuyện học tập."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "10-5",
+          "scene_zh": "在客厅，王一雪和孩子们在聊天儿。",
+          "scene_en": "In the living room, Wang Yixue was chatting with the children.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "小雪，你考试考得怎么样？",
+              "pinyin": "Xiǎo Xuě, nǐ kǎoshì kǎo de zěnmeyàng?",
+              "en": "Xiaoxue, how did your exam go?",
+              "vi": "Tiểu Tuyết, bài kiểm tra của con thế nào?"
+            },
+            {
+              "speaker": "刘小雪",
+              "zh": "还可以，比上次好。",
+              "pinyin": "Hái kěyǐ, bǐ shàngcì hǎo.",
+              "en": "Not bad. Better than last time.",
+              "vi": "Cũng tạm ạ. Tốt hơn lần trước."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "小明，你怎么样？",
+              "pinyin": "Xiǎo Míng, nǐ zěnmeyàng?",
+              "en": "Xiaoming, how about you?",
+              "vi": "Tiểu Minh, còn con thì sao?"
+            },
+            {
+              "speaker": "刘小明",
+              "zh": "妈妈，我考得很好！",
+              "pinyin": "Māma, wǒ kǎo de hěn hǎo!",
+              "en": "Mom, I did really well!",
+              "vi": "Mẹ ơi, con làm tốt lắm ạ!"
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "那就好。你们都好好学习。",
+              "pinyin": "Nà jiù hǎo. Nǐmen dōu hǎohǎo xuéxí.",
+              "en": "Good. You should both study hard.",
+              "vi": "Tốt. Cả hai đứa đều phải học hành chăm chỉ đấy nhé."
+            }
+          ],
+          "scene_vi": "Trong phòng khách, Vương Y Tuyết đang trò chuyện với các con."
+        }
+      ],
+      "title_vi": "Sắp thi rồi"
+    },
+    {
+      "lesson": 11,
+      "title_zh": "我最喜欢吃中国菜",
+      "title_en": "I like Chinese food the most",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "11-1",
+          "scene_zh": "在教室，王一飞和白家月在聊天儿。",
+          "scene_en": "In the classroom, Wang Yifei and Bai Jiayue were chatting.",
+          "lines": [
+            {
+              "speaker": "王一飞",
+              "zh": "家月，都下课了，你怎么还不回家？",
+              "pinyin": "Jiāyuè, dōu xiàkè le, nǐ zěnme hái bù huí jiā?",
+              "en": "Jiayue, class is over. Why aren't you going home?",
+              "vi": "Gia Nguyệt, tan học rồi, sao em chưa về nhà?"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "我头疼，不太舒服。",
+              "pinyin": "Wǒ tóuténg, bú tài shūfu.",
+              "en": "I have a headache. I'm not feeling well.",
+              "vi": "Em bị đau đầu ạ. Em thấy hơi khó chịu trong người."
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "你这几天经常头疼，去医院看看吧。我去开车，送你去医院。",
+              "pinyin": "Nǐ zhè jǐ tiān jīngcháng tóuténg, qù yīyuàn kànkan ba. Wǒ qù kāichē, sòng nǐ qù yīyuàn.",
+              "en": "You've been having headaches frequently. You should go to the hospital. I'll go get the car and take you.",
+              "vi": "Em hay bị đau đầu thế. Nên đến bệnh viện khám đi. Cô đi lấy xe rồi đưa em đi."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "谢谢王老师。",
+              "pinyin": "Xièxie Wáng lǎoshī.",
+              "en": "Thank you, Ms. Wang.",
+              "vi": "Em cảm ơn cô Vương."
+            }
+          ],
+          "scene_vi": "In the classroom, Wang Yifei and Bai Jiayue were chatting."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "11-3",
+          "scene_zh": "在王一飞车里，李文来电话，白家月接听。",
+          "scene_en": "In Wang Yifei's car, Li Wen called and Bai Jiayue answered.",
+          "lines": [
+            {
+              "speaker": "王一飞",
+              "zh": "现在路上车多，还下着雪，我开慢一点儿。",
+              "pinyin": "Xiànzài lùshang chē duō, hái xià zhe xuě, wǒ kāi màn yīdiǎnr.",
+              "en": "There are a lot of cars and it's snowing. I'll drive a bit slower.",
+              "vi": "Nhiều xe quá lại còn đang có tuyết nữa. Cô sẽ lái chậm một chút."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "没问题，现在头没那么疼了。李文来电话了，我帮你接。",
+              "pinyin": "Méi wèntí, xiànzài tóu méi nàme téng le. Lǐ Wén lái diànhuà le, wǒ bāng nǐ jiē.",
+              "en": "No problem. My head doesn't hurt as much now. Li Wen is calling, I'll answer for you.",
+              "vi": "Không sao ạ. Đầu em cũng bớt đau rồi. Lý Văn gọi đến kìa, để em nghe máy giúp cô."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "喂，李文，王老师开着车呢，你找她有事吗？",
+              "pinyin": "Wèi, Lǐ Wén, Wáng lǎoshī kāi zhe chē ne, nǐ zhǎo tā yǒu shì ma?",
+              "en": "Hello Li Wen. Ms. Wang is driving right now. Do you need her?",
+              "vi": "Chào Lý Văn. Cô Vương đang lái xe. Bạn có việc gì tìm cô không?"
+            },
+            {
+              "speaker": "李文",
+              "zh": "没什么事。今天雪这么大，你们开车去哪儿啊？",
+              "pinyin": "Méi shénme shì. Jīntiān xuě zhème dà, nǐmen kāichē qù nǎr a?",
+              "en": "Nothing important. The snow is so heavy. Where are you driving?",
+              "vi": "Không có gì quan trọng đâu. Tuyết rơi dày quá. Cô đang lái xe đi đâu thế?"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "去医院，我头有点儿疼。",
+              "pinyin": "Qù yīyuàn, wǒ tóu yǒudiǎnr téng.",
+              "en": "To the hospital. I have a headache.",
+              "vi": "Đến bệnh viện. Mình bị đau đầu."
+            },
+            {
+              "speaker": "李文",
+              "zh": "那我一会儿去看看你。",
+              "pinyin": "Nà wǒ yīhuìr qù kànkan nǐ.",
+              "en": "Then I'll come visit you later.",
+              "vi": "Vậy lát nữa mình sẽ qua thăm bạn."
+            }
+          ],
+          "scene_vi": "Trên xe Vương Y Phi, Lý Văn gọi đến và Bạch Gia Nguyệt trả lời."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "11-5",
+          "scene_zh": "在房间，李文来看望白家月。",
+          "scene_en": "In the room, Li Wen came to visit Bai Jiayue.",
+          "lines": [
+            {
+              "speaker": "白家月",
+              "zh": "李文，快请进！",
+              "pinyin": "Lǐ Wén, kuài qǐng jìn!",
+              "en": "Li Wen, please come in!",
+              "vi": "Lý Văn, mời vào!"
+            },
+            {
+              "speaker": "李文",
+              "zh": "家月，你怎么样了？头还疼吗？",
+              "pinyin": "Jiāyuè, nǐ zěnmeyàng le? Tóu hái téng ma?",
+              "en": "Jiayue, how are you feeling? Does your head still hurt?",
+              "vi": "Gia Nguyệt, bạn thấy thế nào rồi? Đầu còn đau không?"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "不那么疼了。医生开了一些药，吃完就好多了。",
+              "pinyin": "Bù nàme téng le. Yīshēng kāile yīxiē yào, chī wán jiù hǎo duō le.",
+              "en": "It doesn't hurt much. The doctor prescribed medicine and I feel much better.",
+              "vi": "Không đau lắm đâu. Bác sĩ kê đơn thuốc rồi, mình thấy đỡ nhiều rồi."
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "家月，你最喜欢吃中国菜，我做几个中国菜吧。",
+              "pinyin": "Jiāyuè, nǐ zuì xǐhuān chī Zhōngguó cài, wǒ zuò jǐ gè Zhōngguó cài ba.",
+              "en": "Jiayue, you like Chinese food the most, so I'll cook some Chinese dishes.",
+              "vi": "Gia Nguyệt, em thích ăn món Trung Quốc nhất, nên cô sẽ nấu vài món Trung Quốc nhé."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "好的，谢谢王老师。",
+              "pinyin": "Hǎo de, xièxie Wáng lǎoshī.",
+              "en": "Okay, thank you Ms. Wang.",
+              "vi": "Vâng ạ, em cảm ơn cô Vương."
+            }
+          ],
+          "scene_vi": "Trong phòng, Lý Văn đến thăm Bạch Gia Nguyệt."
+        }
+      ],
+      "title_vi": "Tôi thích ăn món Trung Quốc nhất"
+    },
+    {
+      "lesson": 12,
+      "title_zh": "这里比北京冷多了",
+      "title_en": "It's much colder here than in Beijing",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "12-1",
+          "scene_zh": "在房间，王一雪接到白家月的电话。",
+          "scene_en": "In the room, Wang Yixue received a call from Bai Jiayue.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "喂，家月，是你啊！有什么事情吗？",
+              "pinyin": "Wèi, Jiāyuè, shì nǐ a! Yǒu shénme shìqing ma?",
+              "en": "Hello, Jiayue, it's you! Is there anything you need?",
+              "vi": "Alo, Gia Nguyệt à, là em đấy à! Có việc gì không em?"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "没什么事，就想跟您说说话。",
+              "pinyin": "Méi shénme shì, jiù xiǎng gēn nín shuōshuo huà.",
+              "en": "Nothing important. I just want to talk to you.",
+              "vi": "Không có gì quan trọng đâu ạ. Em chỉ muốn nói chuyện với chị thôi."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "北京这几天虽然是晴天，但是有点儿冷。",
+              "pinyin": "Běijīng zhè jǐ tiān suīrán shì qíngtiān, dànshì yǒudiǎnr lěng.",
+              "en": "Although it's been sunny in Beijing these days, it's a bit cold.",
+              "vi": "Mặc dù mấy ngày nay Bắc Kinh có nắng nhưng hơi lạnh một chút."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "我这里比北京冷多了，外边还正下着雪呢！",
+              "pinyin": "Wǒ zhèlǐ bǐ Běijīng lěng duō le, wàibian hái zhèng xià zhe xuě ne!",
+              "en": "It's much colder here than in Beijing, and it's snowing outside right now!",
+              "vi": "Ở đây lạnh hơn Bắc Kinh nhiều, bên ngoài còn đang có tuyết rơi nữa!"
+            }
+          ],
+          "scene_vi": "Trong phòng, Vương Y Tuyết nhận được điện thoại từ Bạch Gia Nguyệt."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "12-3",
+          "scene_zh": "在客厅，王一雪给王一飞打电话。",
+          "scene_en": "In the living room, Wang Yixue was making a call to Wang Yifei.",
+          "lines": [
+            {
+              "speaker": "王一雪",
+              "zh": "喂，一飞，听家月说你那边下雪了，下得大不大？",
+              "pinyin": "Wèi, Yīfēi, tīng Jiāyuè shuō nǐ nàbiān xià xuě le, xià de dà bu dà?",
+              "en": "Hello, Yifei. I heard from Jiayue that it's snowing there. Is it heavy?",
+              "vi": "Alo, Nhất Phi à. Chị nghe Gia Nguyệt nói bên đó có tuyết. Rơi có dày không em?"
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "今天不大，昨天比今天下得大。",
+              "pinyin": "Jīntiān bú dà, zuótiān bǐ jīntiān xià de dà.",
+              "en": "Not heavy today. Yesterday's snow was heavier than today's.",
+              "vi": "Hôm nay không dày lắm. Tuyết hôm qua còn dày hơn hôm nay."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "天气不好，你去外面的时候多穿点儿衣服。这几天我在网上上课，没出去过。那就好，有事记得给我打电话。",
+              "pinyin": "Tiānqì bù hǎo, nǐ qù wàimiàn de shíhou duō chuān diǎnr yīfu.",
+              "en": "The weather isn't good. Wear more clothes when you go outside. Call me if you need anything.",
+              "vi": "Thời tiết không tốt đâu. Khi ra ngoài em nhớ mặc thêm áo nhé. Có việc gì cứ gọi cho chị."
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "好的。现在不下雪了，我出去买点儿吃的。",
+              "pinyin": "Hǎo de. Xiànzài bú xià xuě le, wǒ chūqù mǎi diǎnr chī de.",
+              "en": "Alright. It's not snowing now, so I'll go out to buy some food.",
+              "vi": "Vâng ạ. Giờ trời không có tuyết, em định ra ngoài mua ít đồ ăn."
+            },
+            {
+              "speaker": "王一雪",
+              "zh": "一次多买点儿，阴天下雪的时候就少出去吧。",
+              "pinyin": "Yī cì duō mǎi diǎnr, yīntiān xià xuě de shénme jiù shǎo chūqù ba.",
+              "en": "Buy more at once, and try to go out less when it's cloudy or snowy.",
+              "vi": "Mua nhiều một chút cho bõ công, trời âm u hay có tuyết thì hạn chế ra ngoài thôi."
+            }
+          ],
+          "scene_vi": "Trong phòng khách, Vương Y Tuyết đang gọi điện cho Vương Y Phi."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "12-5",
+          "scene_zh": "在房间，李文给白家月打电话约去跑步。",
+          "scene_en": "In the room, Li Wen called Bai Jiayue to go running.",
+          "lines": [
+            {
+              "speaker": "李文",
+              "zh": "喂，家月，今天天气不错，我们去跑步吧！",
+              "pinyin": "Wèi, Jiāyuè, jīntiān tiānqì búcuò, wǒmen qù pǎobù ba!",
+              "en": "Hello, Jiayue! The weather is nice today. Let's go for a run!",
+              "vi": "Chào Gia Nguyệt! Hôm nay thời tiết đẹp quá. Chúng mình đi chạy bộ đi!"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "你跑步跑得比我快，我们能一起跑吗？",
+              "pinyin": "Nǐ pǎobù pǎo de bǐ wǒ kuài, wǒmen néng yīqǐ pǎo ma?",
+              "en": "You run faster than me. Can we run together?",
+              "vi": "Bạn chạy nhanh hơn mình mà. Chúng mình có chạy cùng nhau được không?"
+            },
+            {
+              "speaker": "李文",
+              "zh": "可以的，我慢慢跑，等着你。",
+              "pinyin": "Kěyǐ de, wǒ mànmàn pǎo, děng zhe nǐ.",
+              "en": "It's OK. I'll run slowly and wait for you.",
+              "vi": "Không sao đâu. Mình sẽ chạy chậm lại đợi bạn."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "好吧。你真爱跑步啊！",
+              "pinyin": "Hǎo ba. Nǐ zhēn ài pǎobù a!",
+              "en": "Alright. You really love running!",
+              "vi": "Được thôi. Bạn đúng là rất thích chạy bộ!"
+            },
+            {
+              "speaker": "李文",
+              "zh": "我从小就经常跟爸爸跑步，跑步能让人快乐！我现在坐地铁去找你，一会儿楼下见。",
+              "pinyin": "Wǒ cóngxiǎo jiù jīngcháng gēn bàba pǎobù, pǎobù néng ràng rén kuàilè! Wǒ xiànzài zuò dìtiě qù zhǎo nǐ, yīhuìr lóu xià jiàn.",
+              "en": "I've been running with my dad since childhood. Running makes people happy! I'm taking the subway to meet you now. See you downstairs in a bit.",
+              "vi": "Mình chạy cùng bố từ nhỏ rồi. Chạy bộ giúp con người ta thấy hạnh phúc! Giờ mình đang đi tàu điện ngầm đến chỗ bạn đây. Lát nữa gặp ở dưới lầu nhé."
+            }
+          ],
+          "scene_vi": "Trong phòng, Lý Văn gọi cho Bạch Gia Nguyệt rủ đi chạy bộ."
+        }
+      ],
+      "title_vi": "Ở đây lạnh hơn Bắc Kinh nhiều"
+    },
+    {
+      "lesson": 13,
+      "title_zh": "我们爱上中文课",
+      "title_en": "We love attending Chinese class",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "13-1",
+          "scene_zh": "在教室，白家月和陈天中在聊天儿。",
+          "scene_en": "In the classroom, Bai Jiayue and Chen Tianzhong were chatting.",
+          "lines": [
+            {
+              "speaker": "白家月",
+              "zh": "时间过得真快啊！新年就要到了。",
+              "pinyin": "Shíjiān guò de zhēn kuài a! Xīnnián jiù yào dào le.",
+              "en": "Time flies! The New Year is almost here.",
+              "vi": "Thời gian trôi nhanh quá! Sắp đến năm mới rồi."
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "这一年王老师教我们中文，每天工作都很累。因为她，我们都非常爱上中文课。",
+              "pinyin": "Zhè yī nián Wáng lǎoshī jiāo wǒmen Zhōngwén, měi tiān gōngzuò dōu hěn lèi. Yīnwèi tā, wǒmen dōu fēicháng ài shàng Zhōngwén kè.",
+              "en": "This year Ms. Wang taught us Chinese, working so hard every day. Because of her, we all love attending Chinese class.",
+              "vi": "Năm nay cô Vương dạy chúng mình tiếng Trung, ngày nào cô cũng làm việc rất vất vả. Nhờ có cô mà tất cả chúng mình đều yêu thích giờ học tiếng Trung."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "我们给她准备个新年礼物吧。王老师喜欢花，就送给她花吧。",
+              "pinyin": "Wǒmen gěi tā zhǔnbèi gè xīnnián lǐwù ba. Wáng lǎoshī xǐhuān huā, jiù sòng gěi tā huā ba.",
+              "en": "Let's prepare a New Year's gift for her. Ms. Wang likes flowers. I think we can give her flowers.",
+              "vi": "Chúng mình chuẩn bị món quà năm mới cho cô đi. Cô Vương thích hoa, mình nghĩ chúng mình có thể tặng hoa cho cô."
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "那我们去花店看看，希望花店还有漂亮的花。",
+              "pinyin": "Nà wǒmen qù huādiàn kànkan, xīwàng huādiàn hái yǒu piàoliang de huā.",
+              "en": "Then let's go to the flower shop. I hope there are still some beautiful ones.",
+              "vi": "Vậy chúng mình đến cửa hàng hoa đi. Hy vọng vẫn còn nhiều bông đẹp."
+            }
+          ],
+          "scene_vi": "In the classroom, Bai Jiayue and Chen Tianzhong were chatting."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "13-3",
+          "scene_zh": "在教室，王一飞在上课。",
+          "scene_en": "In the classroom, Wang Yifei was teaching.",
+          "lines": [
+            {
+              "speaker": "白家月",
+              "zh": "王老师，今天的词比昨天多了十个。",
+              "pinyin": "Wáng lǎoshī, jīntiān de cí bǐ zuótiān duō le shí gè.",
+              "en": "Ms. Wang, today's vocabulary has ten more words than yesterday's.",
+              "vi": "Thưa cô Vương, từ vựng hôm nay có thêm 10 từ so với hôm qua ạ."
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "是啊！你们都学会了吗？好。现在我来说，你们在本子上面写。同学们，'洗手间'的'间'字写错了，它的里面是'日'，不是'口'。",
+              "pinyin": "Shì a! Nǐmen dōu xuéhuì le ma? Hǎo. Xiànzài wǒ lái shuō, nǐmen zài běnzi shàngmiàn xiě.",
+              "en": "Yes! Have you all learned them? Good. Now I'll say them, and you write them down in your notebooks. Class, the character '间' in '洗手间' is wrong. The part inside is '日', not '口'.",
+              "vi": "Phải đấy! Các em đã học thuộc hết chưa? Tốt. Giờ cô sẽ đọc, các em ghi vào vở nhé. Cả lớp này, chữ '间' trong '洗手间' các em viết sai rồi. Phần bên trong là chữ '日', không phải chữ '口' đâu."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "'日'比'口'多一笔，写'口'就是'问题'的'问'了。",
+              "pinyin": "'Rì' bǐ 'kǒu' duō yī bǐ, xiě 'kǒu' jiù shì 'wèntí' de 'wèn' le.",
+              "en": "'日' has one more stroke than '口'. Writing '口' turns it into the '问' in '问题'.",
+              "vi": "Chữ '日' có thêm một nét so với chữ '口'. Viết thành chữ '口' là nó biến thành chữ '问' trong '问题' rồi ạ."
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "没错，你说得很对。",
+              "pinyin": "Méicuò, nǐ shuō de hěn duì.",
+              "en": "Yes, you are right.",
+              "vi": "Đúng vậy, em nói đúng đấy."
+            }
+          ],
+          "scene_vi": "In the classroom, Wang Yifei was teaching."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "13-5",
+          "scene_zh": "在教室，安妮和白家月在聊天儿。",
+          "scene_en": "In the classroom, Annie and Bai Jiayue were chatting.",
+          "lines": [
+            {
+              "speaker": "安妮",
+              "zh": "家月，你觉得这个本子怎么样？",
+              "pinyin": "Jiāyuè, nǐ juéde zhège běnzi zěnmeyàng?",
+              "en": "Jiayue, what do you think of this notebook?",
+              "vi": "Gia Nguyệt, bạn thấy cuốn vở này thế nào?"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "很漂亮。多少钱一个？比我们一起买的那个贵一点儿。",
+              "pinyin": "Hěn piàoliang. Duōshao qián yī gè? Bǐ wǒmen yīqǐ mǎi de nàge guì yīdiǎnr.",
+              "en": "Very pretty. How much? It's a bit more expensive than the notebook we bought together.",
+              "vi": "Đẹp lắm. Bao nhiêu tiền thế? Nó đắt hơn một chút so với cuốn vở lần trước chúng mình cùng mua nhỉ."
+            },
+            {
+              "speaker": "安妮",
+              "zh": "我是上网买的，真没那么贵。我买了两个，送你一个。",
+              "pinyin": "Wǒ shì shàngwǎng mǎi de, zhēn méi nàme guì. Wǒ mǎile liǎng gè, sòng nǐ yī gè.",
+              "en": "I bought it online, and it's really not that expensive. I bought two and will give you one.",
+              "vi": "Mình mua trên mạng đấy, thực ra không đắt lắm đâu. Mình mua hai cuốn, tặng bạn một cuốn nhé."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "谢谢！那我送给你什么呢？",
+              "pinyin": "Xièxie! Nà wǒ sòng gěi nǐ shénme ne?",
+              "en": "Thank you! Then what should I give you in return?",
+              "vi": "Cảm ơn bạn nhé! Vậy mình nên tặng lại bạn cái gì bây giờ nhỉ?"
+            },
+            {
+              "speaker": "安妮",
+              "zh": "咖啡杯吧，我最喜欢喝咖啡了。",
+              "pinyin": "Kāfēibēi ba, wǒ zuì xǐhuān hē kāfēi le.",
+              "en": "A coffee cup would be great. I like drinking coffee the most.",
+              "vi": "Một chiếc ly cà phê thì tuyệt vời. Mình thích uống cà phê nhất mà."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "好，那样我们就都有新年礼物了！",
+              "pinyin": "Hǎo, nàyàng wǒmen jiù dōu yǒu xīnnián lǐwù le!",
+              "en": "Alright! Then we'll both have New Year's gifts!",
+              "vi": "Được thôi! Vậy là cả hai chúng mình đều có quà năm mới rồi!"
+            }
+          ],
+          "scene_vi": "In the classroom, Annie and Bai Jiayue were chatting."
+        }
+      ],
+      "title_vi": "Chúng tôi yêu thích giờ học tiếng Trung"
+    },
+    {
+      "lesson": 14,
+      "title_zh": "一个人过年多没意思啊",
+      "title_en": "It's boring to celebrate the Spring Festival alone",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "14-1",
+          "scene_zh": "在回家路上，李文和王一飞边走边聊。",
+          "scene_en": "On the way home, Li Wen and Wang Yifei were walking and chatting.",
+          "lines": [
+            {
+              "speaker": "李文",
+              "zh": "王老师，你家楼下站着一个人。",
+              "pinyin": "Wáng lǎoshī, nǐ jiā lóu xià zhàn zhe yī gè rén.",
+              "en": "Ms. Wang, there's someone standing downstairs at your building.",
+              "vi": "Thưa cô Vương, có ai đó đang đứng dưới lầu nhà cô kìa."
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "我家楼下？我看看。那个人穿着黑色的裤子，手里还拿着一个黑色的包。",
+              "pinyin": "Wǒ jiā lóu xià? Wǒ kànkan.",
+              "en": "Downstairs at my building? Let me look. That person is wearing black pants and holding a black bag.",
+              "vi": "Dưới lầu nhà cô á? Để cô xem nào. Người đó mặc quần đen và cầm một chiếc túi màu đen."
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "我看见那个人了，他是我男朋友。那我们快过去吧。",
+              "pinyin": "Wǒ kànjiàn nàge rén le, tā shì wǒ nánpéngyou. Nà wǒmen kuài guòqù ba.",
+              "en": "I see him. He is my boyfriend. Let's go over quickly.",
+              "vi": "Cô thấy rồi. Đó là bạn trai cô. Chúng mình qua đó nhanh đi."
+            }
+          ],
+          "scene_vi": "Trên đường về nhà, Lý Văn và Vương Y Phi vừa đi vừa trò chuyện."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "14-3",
+          "scene_zh": "在楼下，王一飞遇到杨同乐。",
+          "scene_en": "Downstairs, Wang Yifei met Yang Tongle.",
+          "lines": [
+            {
+              "speaker": "王一飞",
+              "zh": "同乐，真是你啊！没想到这么快就来了！",
+              "pinyin": "Tónglè, zhēn shì nǐ a! Méi xiǎngdào zhème kuài jiù lái le!",
+              "en": "Tongle, it really is you! I didn't expect you to come so soon!",
+              "vi": "Đồng Nhạc, đúng là anh rồi! Em không ngờ anh lại đến sớm thế!"
+            },
+            {
+              "speaker": "杨同乐",
+              "zh": "就要过年了，你一个人在这儿多没意思啊，所以我就早早过来了。",
+              "pinyin": "Jiù yào guònián le, nǐ yī gè rén zài zhèr duō méi yìsi a, suǒyǐ wǒ jiù zǎozǎo guòlái le.",
+              "en": "The Spring Festival is almost here. It's no fun for you to be here alone, so I came early.",
+              "vi": "Sắp đến Tết rồi. Để em ở đây một mình thì buồn lắm, nên anh đến sớm."
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "你能来，我太高兴了！一飞，你旁边这位是？",
+              "pinyin": "Nǐ néng lái, wǒ tài gāoxìng le!",
+              "en": "I'm so happy you could come!",
+              "vi": "Em rất hạnh phúc khi anh đến!"
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "同乐，这是李文，他在我们学校学医。李文，这是我男朋友杨同乐。",
+              "pinyin": "Tónglè, zhè shì Lǐ Wén, tā zài wǒmen xuéxiào xué yī. Lǐ Wén, zhè shì wǒ nánpéngyou Yáng Tónglè.",
+              "en": "Tongle, this is Li Wen. He studies medicine at our school. Li Wen, this is my boyfriend Yang Tongle.",
+              "vi": "Đồng Nhạc, đây là Lý Văn. Cậu ấy học ngành Y ở trường mình. Lý Văn, đây là bạn trai cô, Dương Đồng Nhạc."
+            },
+            {
+              "speaker": "李文",
+              "zh": "很高兴认识你！",
+              "pinyin": "Hěn gāoxìng rènshi nǐ!",
+              "en": "Nice to meet you!"
+            },
+            {
+              "speaker": "杨同乐",
+              "zh": "认识你我也很高兴！",
+              "pinyin": "Rènshi nǐ wǒ yě hěn gāoxìng!",
+              "en": "Nice to meet you too!"
+            }
+          ],
+          "scene_vi": "Dưới lầu, Vương Y Phi gặp Dương Đồng Nhạc."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "14-5",
+          "scene_zh": "在王一飞家里，王一飞和杨同乐在聊天儿。",
+          "scene_en": "At Wang Yifei's home, Wang Yifei and Yang Tongle were chatting.",
+          "lines": [
+            {
+              "speaker": "杨同乐",
+              "zh": "一飞，你住的房子真不错，很大，离学校也不远。",
+              "pinyin": "Yīfēi, nǐ zhù de fángzi zhēn búcuò, hěn dà, lí xuéxiào yě bù yuǎn.",
+              "en": "Yifei, your house is really nice, very big, and not far from school.",
+              "vi": "Nhất Phi, nhà em đẹp thật đấy, rất rộng và lại không xa trường nữa."
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "是啊！我楼下还住着一家中国人，他们人很好。这样你有事情就可以找他们帮忙。",
+              "pinyin": "Shì a! Wǒ lóu xià hái zhù zhe yī jiā Zhōngguórén, tāmen rén hěn hǎo.",
+              "en": "Yes! There's a Chinese family living downstairs, and they are very nice. You can ask them for help if you ever need anything.",
+              "vi": "Vâng ạ! Có một gia đình người Trung Quốc sống ở dưới lầu, họ rất tốt bụng. Nếu cần gì anh có thể nhờ họ giúp đỡ."
+            },
+            {
+              "speaker": "杨同乐",
+              "zh": "对，我也帮他们家的小孩儿学中文。",
+              "pinyin": "Duì, wǒ yě bāng tāmen jiā de xiǎoháir xué Zhōngwén.",
+              "en": "Yes, I also help their child learn Chinese.",
+              "vi": "Vâng, em cũng hay giúp con của họ học tiếng Trung nữa."
+            },
+            {
+              "speaker": "杨同乐",
+              "zh": "你问问他们什么时候有时间，我请他们吃个饭。",
+              "pinyin": "Nǐ wènwen tāmen shénme shíhou yǒu shíjiān, wǒ qǐng tāmen chī gè fàn.",
+              "en": "You can ask them when they're free, and I'll treat them to a meal.",
+              "vi": "Khi nào họ rảnh anh hỏi thử nhé, em sẽ mời họ dùng bữa."
+            }
+          ],
+          "scene_vi": "Tại nhà Vương Y Phi, Vương Y Phi và Dương Đồng Nhạc đang trò chuyện."
+        }
+      ],
+      "title_vi": "Đón Tết một mình thật là vô vị"
+    },
+    {
+      "lesson": 15,
+      "title_zh": "我想再去一次中国",
+      "title_en": "I want to go to China again",
+      "texts": [
+        {
+          "text_no": 1,
+          "audio_ref": "15-1",
+          "scene_zh": "在教室，同学们在考试。",
+          "scene_en": "In the classroom, the students were taking an exam.",
+          "lines": [
+            {
+              "speaker": "王一飞",
+              "zh": "考试就要开始了，请大家写上姓名，写好后就可以做题了。",
+              "pinyin": "Kǎoshì jiù yào kāishǐ le, qǐng dàjiā xiě shàng xìngmíng.",
+              "en": "The exam is about to begin. Please write down your name, then you can start.",
+              "vi": "Bài kiểm tra sắp bắt đầu rồi. Các em hãy viết tên vào, sau đó có thể bắt đầu làm bài."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "老师，我做完了。",
+              "pinyin": "Lǎoshī, wǒ zuò wán le.",
+              "en": "Teacher, I'm finished.",
+              "vi": "Thưa cô, em làm xong rồi ạ."
+            },
+            {
+              "speaker": "陈天中",
+              "zh": "老师，我也做完了。",
+              "pinyin": "Lǎoshī, wǒ yě zuò wán le.",
+              "en": "Teacher, I'm finished too.",
+              "vi": "Thưa cô, em cũng xong rồi ạ."
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "你们考完试想做什么？",
+              "pinyin": "Nǐmen kǎowán shì xiǎng zuò shénme?",
+              "en": "What are you going to do after the exam?",
+              "vi": "Sau kỳ thi em định làm gì?"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "我很想去中国，虽然去过一次，但是很想再去一次。",
+              "pinyin": "Wǒ hěn xiǎng qù Zhōngguó, suīrán qùguo yī cì, dànshì hěn xiǎng zài qù yī cì.",
+              "en": "I want to go to China. I've been there once, but I really want to go again.",
+              "vi": "Em muốn đi Trung Quốc. Em đã đến đó một lần rồi, nhưng em thực sự muốn đi thêm lần nữa."
+            },
+            {
+              "speaker": "王一飞",
+              "zh": "不错，到中国后你就可以经常说中文了。",
+              "pinyin": "Búcuò, dào Zhōngguó hòu nǐ jiù kěyǐ jīngcháng shuō Zhōngwén le.",
+              "en": "Good, you can often speak Chinese in China.",
+              "vi": "Tốt lắm, ở Trung Quốc em có thể thường xuyên nói tiếng Trung."
+            }
+          ],
+          "scene_vi": "Trong lớp học, các học sinh đang làm bài kiểm tra."
+        },
+        {
+          "text_no": 2,
+          "audio_ref": "15-3",
+          "scene_zh": "在咖啡店，李文和白家月在聊天儿。",
+          "scene_en": "In the café, Li Wen and Bai Jiayue were chatting.",
+          "lines": [
+            {
+              "speaker": "白家月",
+              "zh": "考完试了，我现在可以出国旅游了。我要再去一次北京。",
+              "pinyin": "Kǎowán shì le, wǒ xiànzài kěyǐ chūguó lǚyóu le. Wǒ yào zài qù yī cì Běijīng.",
+              "en": "The exam is over, so now I can travel abroad. I want to go to Beijing again.",
+              "vi": "Thi xong rồi, giờ mình có thể đi du lịch nước ngoài. Mình muốn đi Bắc Kinh thêm lần nữa."
+            },
+            {
+              "speaker": "李文",
+              "zh": "为什么还去北京？",
+              "pinyin": "Wèi shénme hái qù Běijīng?",
+              "en": "Why Beijing again?",
+              "vi": "Sao lại là Bắc Kinh nữa?"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "因为我想再吃一次烤鸭，再喝一次奶茶，再去北京大学看一次电影……",
+              "pinyin": "Yīnwèi wǒ xiǎng zài chī yī cì kǎoyā, zài hē yī cì nǎichá, zài qù Běijīng Dàxué kàn yī cì diànyǐng……",
+              "en": "Because I want to eat Peking Duck again, drink bubble tea again, and watch a movie at Peking University again...",
+              "vi": "Vì mình muốn đi ăn Vịt quay Bắc Kinh lần nữa, uống trà sữa lần nữa, và xem phim ở Đại học Bắc Kinh lần nữa..."
+            },
+            {
+              "speaker": "李文",
+              "zh": "你想做的事情很多啊！",
+              "pinyin": "Nǐ xiǎng zuò de shìqing hěn duō a!",
+              "en": "You want to do a lot of things!",
+              "vi": "Bạn muốn làm nhiều việc quá nhỉ!"
+            },
+            {
+              "speaker": "白家月",
+              "zh": "是啊，我还在网上买好了颐和园的门票了呢。",
+              "pinyin": "Shì a, wǒ hái zài wǎngshang mǎihǎo le Yíhé Yuán de ménpiào le ne.",
+              "en": "Yes, I've already bought a ticket for the Summer Palace online.",
+              "vi": "Đúng vậy, mình đã mua vé đi Di Hòa Viên trên mạng rồi đấy."
+            },
+            {
+              "speaker": "李文",
+              "zh": "我的高中同学就在颐和园上班，可以让他给你好好介绍。",
+              "pinyin": "Wǒ de gāozhōng tóngxué jiù zài Yíhé Yuán shàngbān, kěyǐ ràng tā gěi nǐ hǎohǎo jièshào.",
+              "en": "One of my high school classmates works at the Summer Palace and can give you a great tour.",
+              "vi": "Một người bạn học cấp ba của mình làm việc ở Di Hòa Viên đấy, cậu ấy có thể dẫn bạn đi tham quan thật tốt."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "太好了！出门旅游，多个朋友多条路。",
+              "pinyin": "Tài hǎo le! Chūmén lǚyóu, duō gè péngyou duō tiáo lù.",
+              "en": "That's amazing! When you travel, the more friends you have, the more paths you have.",
+              "vi": "Tuyệt quá! Đúng là đi chơi thì càng nhiều bạn càng nhiều đường đi."
+            }
+          ],
+          "scene_vi": "Trong quán cà phê, Lý Văn và Bạch Gia Nguyệt đang trò chuyện."
+        },
+        {
+          "text_no": 3,
+          "audio_ref": "15-5",
+          "scene_zh": "在咖啡店，李文和白家月继续聊天儿。",
+          "scene_en": "In the café, Li Wen and Bai Jiayue continued chatting.",
+          "lines": [
+            {
+              "speaker": "白家月",
+              "zh": "李文，你有一年没回国了吧？",
+              "pinyin": "Lǐ Wén, nǐ yǒu yī nián méi huí guó le ba?",
+              "en": "Li Wen, you haven't been back to China for a year, right?",
+              "vi": "Lý Văn, bạn chưa về Trung Quốc một năm rồi phải không?"
+            },
+            {
+              "speaker": "李文",
+              "zh": "不到一年。我六月的时候回去了一次。",
+              "pinyin": "Bú dào yī nián. Wǒ Liùyuè de shíhou huíqùle yī cì.",
+              "en": "Not quite a year. I went back once in June.",
+              "vi": "Chưa đến một năm đâu. Mình có về một lần vào tháng Sáu."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "我怎么忘了？还是我送你去的机场呢。我记得你那次的机票很便宜。",
+              "pinyin": "Wǒ zěnme wàng le? Hái shì wǒ sòng nǐ qù de jīchǎng ne. Wǒ jìde nǐ nà cì de jīpiào hěn piányí.",
+              "en": "How could I forget? I was the one who took you to the airport. I remember your air ticket was very cheap.",
+              "vi": "Sao mình lại quên mất nhỉ? Chính mình là người đưa bạn ra sân bay mà. Mình nhớ vé máy bay của bạn lúc đó rẻ lắm."
+            },
+            {
+              "speaker": "李文",
+              "zh": "没错，可能因为那个时候去北京的人不多吧。",
+              "pinyin": "Méicuò, kěnéng yīnwèi nàge shíhou qù Běijīng de rén bù duō ba.",
+              "en": "Exactly. Maybe because there weren't many people going to Beijing at that time.",
+              "vi": "Đúng thế. Chắc là vì lúc đó không có nhiều người đi Bắc Kinh."
+            },
+            {
+              "speaker": "白家月",
+              "zh": "这次的机票虽然有点儿贵，但想到就要飞北京了，我还是很高兴的。",
+              "pinyin": "Zhè cì de jīpiào suīrán yǒudiǎnr guì, dàn xiǎngdào jiù yào fēi Běijīng le, wǒ háishi hěn gāoxìng de.",
+              "en": "The air ticket is a little expensive this time, but I'm so happy thinking about going to Beijing.",
+              "vi": "Lần này vé máy bay hơi đắt một chút, nhưng cứ nghĩ đến chuyện được đi Bắc Kinh là mình thấy vui rồi."
+            }
+          ],
+          "scene_vi": "Trong quán cà phê, Lý Văn và Bạch Gia Nguyệt tiếp tục trò chuyện."
+        }
+      ],
+      "title_vi": "Tôi muốn đi Trung Quốc thêm một lần nữa"
+    }
+  ]
+}

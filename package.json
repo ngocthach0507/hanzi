@@ -7,15 +7,18 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "import-data": "node scripts/import-all.js"
+    "import-data": "node scripts/import-all.js",
+    "upsert-readings": "node scripts/upsert_readings.js"
   },
   "dependencies": {
     "@clerk/nextjs": "latest",
     "@payos/node": "^2.0.5",
     "@supabase/supabase-js": "latest",
     "clsx": "latest",
+    "hanzi-writer": "^3.7.3",
     "lucide-react": "latest",
     "next": "^15.1.0",
+    "pinyin-pro": "^3.28.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "latest"

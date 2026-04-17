@@ -22,7 +22,7 @@ export default function LuyenNgheQuiz() {
   const router = useRouter();
   const { user } = useUser();
   const level = params.level?.toString().replace('hsk', '') || '1';
-  const lesson = params.lesson?.toString() || '1';
+  const lesson = params.lesson?.toString().replace('bai-', '') || '1';
   const numericLevel = parseInt(level);
   const numericLesson = parseInt(lesson);
 
@@ -42,7 +42,7 @@ export default function LuyenNgheQuiz() {
         const { data: vocab, error: vError } = await supabase
           .from('vocabulary')
           .select('*')
-          .eq('hsk_level', numericLevel)
+          .eq('book_level', numericLevel)
           .eq('lesson_number', numericLesson);
 
         if (vError) throw vError;
@@ -50,7 +50,7 @@ export default function LuyenNgheQuiz() {
         const { data: distractors, error: dError } = await supabase
           .from('vocabulary')
           .select('hanzi')
-          .eq('hsk_level', numericLevel)
+          .eq('book_level', numericLevel)
           .limit(50);
 
         if (dError) throw dError;
@@ -202,18 +202,24 @@ export default function LuyenNgheQuiz() {
         <div className="mb-12 text-center w-full">
           <span className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-10 block">Nghe và chọn chữ Hán đúng</span>
           
-          <button 
-            onClick={() => playSound(currentQuestion.correct_hanzi)}
-            className="w-40 h-40 bg-orange-50 hover:bg-orange-100 text-[#D85A30] rounded-full flex items-center justify-center transition-all shadow-lg active:scale-90 mx-auto group border-4 border-white ring-8 ring-orange-50"
-          >
-            <Volume2 size={64} className="group-hover:scale-110 transition-transform" />
-          </button>
-          <div className="mt-8 text-sm font-bold text-orange-400 animate-pulse">Nhấn để nghe lại</div>
+          {currentQuestion ? (
+            <>
+              <button 
+                onClick={() => playSound(currentQuestion.correct_hanzi)}
+                className="w-40 h-40 bg-orange-50 hover:bg-orange-100 text-[#D85A30] rounded-full flex items-center justify-center transition-all shadow-lg active:scale-90 mx-auto group border-4 border-white ring-8 ring-orange-50"
+              >
+                <Volume2 size={64} className="group-hover:scale-110 transition-transform" />
+              </button>
+              <div className="mt-8 text-sm font-bold text-orange-400 animate-pulse">Nhấn để nghe lại</div>
+            </>
+          ) : (
+            <div className="text-gray-400 italic">Không có dữ liệu câu hỏi cho bài học này</div>
+          )}
         </div>
 
         {/* Options Grid */}
         <div className="grid grid-cols-2 gap-4 w-full">
-          {currentQuestion.options.map((option, idx) => {
+          {currentQuestion?.options && currentQuestion.options.map((option, idx) => {
             let stateClass = "bg-white border-gray-100 hover:border-orange-200 hover:bg-orange-50 text-gray-700 shadow-sm h-32";
             if (selectedOption === idx) {
               stateClass = idx === currentQuestion.answer 

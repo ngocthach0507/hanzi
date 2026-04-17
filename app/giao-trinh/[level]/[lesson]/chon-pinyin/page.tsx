@@ -21,7 +21,7 @@ export default function ChonPinyinQuiz() {
   const router = useRouter();
   const { user } = useUser();
   const level = params.level?.toString().replace('hsk', '') || '1';
-  const lesson = params.lesson?.toString() || '1';
+  const lesson = params.lesson?.toString().replace('bai-', '') || '1';
   const numericLevel = parseInt(level);
   const numericLesson = parseInt(lesson);
 
@@ -42,7 +42,7 @@ export default function ChonPinyinQuiz() {
         const { data: vocab, error: vError } = await supabase
           .from('vocabulary')
           .select('*')
-          .eq('hsk_level', numericLevel)
+          .eq('book_level', numericLevel)
           .eq('lesson_number', numericLesson);
 
         if (vError) throw vError;
@@ -51,7 +51,7 @@ export default function ChonPinyinQuiz() {
         const { data: distractors, error: dError } = await supabase
           .from('vocabulary')
           .select('pinyin')
-          .eq('hsk_level', numericLevel)
+          .eq('book_level', numericLevel)
           .limit(50);
 
         if (dError) throw dError;

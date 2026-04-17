@@ -120,7 +120,7 @@ export default function LessonList() {
         <div className="grid grid-cols-1 gap-4">
           {lessons.map((lesson) => {
             const isCompleted = userProgress.has(lesson.lesson_number);
-            const isUnlocked = lesson.is_free || isPro;
+            const isUnlocked = true; // DEV BYPASS: Luôn mở khóa để kiểm tra dữ liệu
 
             return (
               <div 

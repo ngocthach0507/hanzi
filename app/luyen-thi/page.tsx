@@ -15,12 +15,9 @@ import {
 } from 'lucide-react';
 
 const hskExams = [
-  { level: 1, name: 'HSK 1', exams: 12, questions: 40, time: '35 phút', difficulty: 'Cơ bản', color: 'bg-blue-50 text-blue-600 border-blue-100' },
-  { level: 2, name: 'HSK 2', exams: 15, questions: 60, time: '50 phút', difficulty: 'Cơ bản', color: 'bg-green-50 text-green-600 border-green-100' },
-  { level: 3, name: 'HSK 3', exams: 10, questions: 80, time: '85 phút', difficulty: 'Trung bình', color: 'bg-orange-50 text-orange-600 border-orange-100' },
-  { level: 4, name: 'HSK 4', exams: 10, questions: 100, time: '105 phút', difficulty: 'Trung bình', color: 'bg-purple-50 text-purple-600 border-purple-100' },
-  { level: 5, name: 'HSK 5', exams: 13, questions: 100, time: '120 phút', difficulty: 'Nâng cao', color: 'bg-red-50 text-red-600 border-red-100' },
-  { level: 6, name: 'HSK 6', exams: 13, questions: 101, time: '135 phút', difficulty: 'Chuyên gia', color: 'bg-indigo-50 text-indigo-600 border-indigo-100' },
+  { level: 1, name: 'HSK 1', exams: 40, questions: 40, time: '35 phút', difficulty: 'Cơ bản', color: 'bg-blue-50 text-blue-600 border-blue-100' },
+  { level: 2, name: 'HSK 2', exams: 40, questions: 60, time: '50 phút', difficulty: 'Cơ bản', color: 'bg-green-50 text-green-600 border-green-100' },
+  { level: 3, name: 'HSK 3', exams: 40, questions: 80, time: '85 phút', difficulty: 'Trung bình', color: 'bg-orange-50 text-orange-600 border-orange-100' },
 ];
 
 export default function LuyenThiHome() {
@@ -75,7 +72,7 @@ export default function LuyenThiHome() {
             <div className="p-4 bg-green-50 text-green-600 rounded-2xl"><ShieldCheck size={24} /></div>
             <div>
               <div className="text-sm font-bold text-gray-900">Chuẩn HSK 3.0</div>
-              <div className="text-xs text-gray-400 mt-1">Cập nhật đề thi mới nhất 2024</div>
+              <div className="text-xs text-gray-400 mt-1">Cập nhật đề thi mới nhất 2026</div>
             </div>
           </div>
         </div>

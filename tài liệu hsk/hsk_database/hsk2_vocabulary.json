@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "book": "新HSK教程2 (New HSK Course 2)",
+    "publisher": "外语教学与研究出版社",
+    "year": 2026,
+    "total_lessons": 15,
+    "total_words": 213,
+    "prerequisite": "HSK Level 1 (300 words)",
+    "source": "Extracted from scanned PDF by image analysis",
+    "note": "Words marked with * are beyond syllabus for HSK Level 2"
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title_zh": "她请我们吃了北京烤鸭",
+      "title_en": "She treated us to Peking Duck",
+      "word_count": 10,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "就",    "pinyin": "jiù",      "pos": "adv.", "en": "exactly; precisely"},
+        {"no": 2,  "hanzi": "给",    "pinyin": "gěi",      "pos": "prep.","en": "(used to introduce the recipient of an action) to; for"},
+        {"no": 3,  "hanzi": "让",    "pinyin": "ràng",     "pos": "v.",   "en": "let; allow"},
+        {"no": 4,  "hanzi": "接",    "pinyin": "jiē",      "pos": "v.",   "en": "meet; welcome; receive"},
+        {"no": 5,  "hanzi": "次",    "pinyin": "cì",       "pos": "m.",   "en": "(indicating how many times or which time something happens) time; occurrence"},
+        {"no": 6,  "hanzi": "旅游",  "pinyin": "lǚyóu",    "pos": "v.",   "en": "travel; make a tour"},
+        {"no": 7,  "hanzi": "帮忙",  "pinyin": "bāngmáng", "pos": "v.",   "en": "help"},
+        {"no": 8,  "hanzi": "不好意思","pinyin": "bù hǎoyìsi","pos": "",  "en": "find it embarrassing (to do sth)"},
+        {"no": 9,  "hanzi": "已经",  "pinyin": "yǐjīng",   "pos": "adv.", "en": "already"},
+        {"no": 10, "hanzi": "那",    "pinyin": "nà",       "pos": "conj.","en": "then"}
+      ]
+    },
+    {
+      "lesson": 2,
+      "title_zh": "还是打车去北大吧",
+      "title_en": "Let's take a taxi to Peking University instead",
+      "word_count": 13,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "公交车","pinyin": "gōngjiāochē","pos": "n.", "en": "bus"},
+        {"no": 2,  "hanzi": "但",    "pinyin": "dàn",      "pos": "conj.","en": "but; yet"},
+        {"no": 3,  "hanzi": "车站",  "pinyin": "chēzhàn",  "pos": "n.",   "en": "stop; station"},
+        {"no": 4,  "hanzi": "远",    "pinyin": "yuǎn",     "pos": "adj.", "en": "far away"},
+        {"no": 5,  "hanzi": "打车",  "pinyin": "dǎchē",    "pos": "v.",   "en": "take/hail a taxi"},
+        {"no": 6,  "hanzi": "还是",  "pinyin": "háishi",   "pos": "adv.", "en": "had better"},
+        {"no": 7,  "hanzi": "啊",    "pinyin": "a",        "pos": "part.","en": "used at the end of a sentence to express appreciation, agreement, etc."},
+        {"no": 8,  "hanzi": "万",    "pinyin": "wàn",      "pos": "num.", "en": "ten thousand"},
+        {"no": 9,  "hanzi": "名",    "pinyin": "míng",     "pos": "m./n.","en": "used for people; place in a competition; name"},
+        {"no": 10, "hanzi": "网上",  "pinyin": "wǎngshang","pos": "n.",   "en": "online"},
+        {"no": 11, "hanzi": "外国",  "pinyin": "wàiguó",   "pos": "n.",   "en": "foreign country"},
+        {"no": 12, "hanzi": "间",    "pinyin": "jiān",     "pos": "m.",   "en": "used of smallest units of housing"},
+        {"no": 13, "hanzi": "教室",  "pinyin": "jiàoshì",  "pos": "n.",   "en": "classroom"}
+      ]
+    },
+    {
+      "lesson": 3,
+      "title_zh": "我想去西安旅游",
+      "title_en": "I want to visit Xi'an",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "累",    "pinyin": "lèi",      "pos": "adj.", "en": "tired"},
+        {"no": 2,  "hanzi": "每",    "pinyin": "měi",      "pos": "pron.","en": "every; each"},
+        {"no": 3,  "hanzi": "拿",    "pinyin": "ná",       "pos": "v.",   "en": "take; hold; carry"},
+        {"no": 4,  "hanzi": "送",    "pinyin": "sòng",     "pos": "v.",   "en": "give as a gift; send; accompany"},
+        {"no": 5,  "hanzi": "手",    "pinyin": "shǒu",     "pos": "n.",   "en": "hand"},
+        {"no": 6,  "hanzi": "洗",    "pinyin": "xǐ",       "pos": "v.",   "en": "wash"},
+        {"no": 7,  "hanzi": "完",    "pinyin": "wán",      "pos": "v.",   "en": "finish; complete"},
+        {"no": 8,  "hanzi": "一起",  "pinyin": "yīqǐ",     "pos": "adv.", "en": "together"},
+        {"no": 9,  "hanzi": "为什么","pinyin": "wèi shénme","pos": "pron.","en": "why"},
+        {"no": 10, "hanzi": "回来",  "pinyin": "huílái",   "pos": "v.",   "en": "come back"},
+        {"no": 11, "hanzi": "回去",  "pinyin": "huíqù",    "pos": "v.",   "en": "go back"},
+        {"no": 12, "hanzi": "出去",  "pinyin": "chūqù",    "pos": "v.",   "en": "go out"},
+        {"no": 13, "hanzi": "这么",  "pinyin": "zhème",    "pos": "pron.","en": "so; this way"},
+        {"no": 14, "hanzi": "不错",  "pinyin": "búcuò",    "pos": "adj.", "en": "not bad; pretty good"}
+      ]
+    },
+    {
+      "lesson": 4,
+      "title_zh": "你穿红色的很好看",
+      "title_en": "You look pretty good in red",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "白色",  "pinyin": "báisè",    "pos": "n.",   "en": "white (color)"},
+        {"no": 2,  "hanzi": "红色",  "pinyin": "hóngsè",   "pos": "n.",   "en": "red (color)"},
+        {"no": 3,  "hanzi": "黑色",  "pinyin": "hēisè",    "pos": "n.",   "en": "black (color)"},
+        {"no": 4,  "hanzi": "颜色",  "pinyin": "yánsè",    "pos": "n.",   "en": "color"},
+        {"no": 5,  "hanzi": "商场",  "pinyin": "shāngchǎng","pos": "n.",  "en": "shopping mall; market"},
+        {"no": 6,  "hanzi": "裤子",  "pinyin": "kùzi",     "pos": "n.",   "en": "trousers; pants"},
+        {"no": 7,  "hanzi": "条",    "pinyin": "tiáo",     "pos": "m.",   "en": "used for long, narrow things"},
+        {"no": 8,  "hanzi": "所以",  "pinyin": "suǒyǐ",    "pos": "conj.","en": "so; therefore"},
+        {"no": 9,  "hanzi": "因为",  "pinyin": "yīnwèi",   "pos": "conj.","en": "because"},
+        {"no": 10, "hanzi": "过",    "pinyin": "guò",      "pos": "part.","en": "aspect particle indicating past experience"},
+        {"no": 11, "hanzi": "过去",  "pinyin": "guòqù",    "pos": "v.",   "en": "go over; pass"},
+        {"no": 12, "hanzi": "进去",  "pinyin": "jìnqù",    "pos": "v.",   "en": "go in"},
+        {"no": 13, "hanzi": "书包",  "pinyin": "shūbāo",   "pos": "n.",   "en": "school bag; backpack"},
+        {"no": 14, "hanzi": "绿色",  "pinyin": "lǜsè",     "pos": "n.",   "en": "green (color)"}
+      ]
+    },
+    {
+      "lesson": 5,
+      "title_zh": "第一次去中国朋友家",
+      "title_en": "Visiting a Chinese friend's home for the first time",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "奶奶",  "pinyin": "nǎinai",   "pos": "n.",   "en": "grandmother (paternal)"},
+        {"no": 2,  "hanzi": "爷爷",  "pinyin": "yéye",     "pos": "n.",   "en": "grandfather (paternal)"},
+        {"no": 3,  "hanzi": "奶茶",  "pinyin": "nǎichá",   "pos": "n.",   "en": "milk tea"},
+        {"no": 4,  "hanzi": "一会儿","pinyin": "yīhuìr",   "pos": "adv.", "en": "a little while"},
+        {"no": 5,  "hanzi": "酒店",  "pinyin": "jiǔdiàn",  "pos": "n.",   "en": "hotel"},
+        {"no": 6,  "hanzi": "快",    "pinyin": "kuài",     "pos": "adj./adv.","en": "fast; quickly"},
+        {"no": 7,  "hanzi": "进来",  "pinyin": "jìnlái",   "pos": "v.",   "en": "come in"},
+        {"no": 8,  "hanzi": "上来",  "pinyin": "shànglái", "pos": "v.",   "en": "come up"},
+        {"no": 9,  "hanzi": "上去",  "pinyin": "shàngqù",  "pos": "v.",   "en": "go up"},
+        {"no": 10, "hanzi": "下来",  "pinyin": "xiàlái",   "pos": "v.",   "en": "come down"},
+        {"no": 11, "hanzi": "下去",  "pinyin": "xiàqù",    "pos": "v.",   "en": "go down"},
+        {"no": 12, "hanzi": "等",    "pinyin": "děng",     "pos": "v.",   "en": "wait"},
+        {"no": 13, "hanzi": "懂",    "pinyin": "dǒng",     "pos": "v.",   "en": "understand"},
+        {"no": 14, "hanzi": "面",    "pinyin": "miàn",     "pos": "n.",   "en": "side; face; noodles"}
+      ]
+    },
+    {
+      "lesson": 6,
+      "title_zh": "小雪，生日快乐！",
+      "title_en": "Happy birthday, Xiaoxue!",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "生日",  "pinyin": "shēngrì",  "pos": "n.",   "en": "birthday"},
+        {"no": 2,  "hanzi": "快乐",  "pinyin": "kuàilè",   "pos": "adj.", "en": "happy; joyful"},
+        {"no": 3,  "hanzi": "舒服",  "pinyin": "shūfu",    "pos": "adj.", "en": "comfortable; feeling well"},
+        {"no": 4,  "hanzi": "长",    "pinyin": "cháng",    "pos": "adj.", "en": "long"},
+        {"no": 5,  "hanzi": "肉",    "pinyin": "ròu",      "pos": "n.",   "en": "meat; flesh"},
+        {"no": 6,  "hanzi": "鱼",    "pinyin": "yú",       "pos": "n.",   "en": "fish"},
+        {"no": 7,  "hanzi": "忘",    "pinyin": "wàng",     "pos": "v.",   "en": "forget"},
+        {"no": 8,  "hanzi": "画",    "pinyin": "huà",      "pos": "v./n.","en": "draw; picture"},
+        {"no": 9,  "hanzi": "打开",  "pinyin": "dǎkāi",    "pos": "v.",   "en": "open"},
+        {"no": 10, "hanzi": "床",    "pinyin": "chuáng",   "pos": "n.",   "en": "bed"},
+        {"no": 11, "hanzi": "地",    "pinyin": "de",       "pos": "part.","en": "structural particle before verbs"},
+        {"no": 12, "hanzi": "过年",  "pinyin": "guònián",  "pos": "v.",   "en": "celebrate Chinese New Year"},
+        {"no": 13, "hanzi": "但是",  "pinyin": "dànshì",   "pos": "conj.","en": "but; however"},
+        {"no": 14, "hanzi": "点",    "pinyin": "diǎn",     "pos": "v.",   "en": "order (food/drinks)"}
+      ]
+    },
+    {
+      "lesson": 7,
+      "title_zh": "他篮球打得很好",
+      "title_en": "He plays basketball very well",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "篮球",  "pinyin": "lánqiú",   "pos": "n.",   "en": "basketball"},
+        {"no": 2,  "hanzi": "踢",    "pinyin": "tī",       "pos": "v.",   "en": "kick; play (football)"},
+        {"no": 3,  "hanzi": "跑",    "pinyin": "pǎo",      "pos": "v.",   "en": "run"},
+        {"no": 4,  "hanzi": "跑步",  "pinyin": "pǎobù",    "pos": "v.",   "en": "jog; running"},
+        {"no": 5,  "hanzi": "游",    "pinyin": "yóu",      "pos": "v.",   "en": "swim; travel"},
+        {"no": 6,  "hanzi": "游泳",  "pinyin": "yóuyǒng",  "pos": "v.",   "en": "swim; swimming"},
+        {"no": 7,  "hanzi": "运动",  "pinyin": "yùndòng",  "pos": "n./v.","en": "sport; exercise"},
+        {"no": 8,  "hanzi": "球",    "pinyin": "qiú",      "pos": "n.",   "en": "ball"},
+        {"no": 9,  "hanzi": "开始",  "pinyin": "kāishǐ",   "pos": "v.",   "en": "start; begin"},
+        {"no": 10, "hanzi": "打",    "pinyin": "dǎ",       "pos": "v.",   "en": "play (ball games); hit"},
+        {"no": 11, "hanzi": "得",    "pinyin": "de",       "pos": "part.","en": "structural particle after verbs"},
+        {"no": 12, "hanzi": "从",    "pinyin": "cóng",     "pos": "prep.","en": "from"},
+        {"no": 13, "hanzi": "往",    "pinyin": "wǎng",     "pos": "prep.","en": "toward; in the direction of"},
+        {"no": 14, "hanzi": "有时",  "pinyin": "yǒushí",   "pos": "adv.", "en": "sometimes"}
+      ]
+    },
+    {
+      "lesson": 8,
+      "title_zh": "虽然你忘了，但是我记得",
+      "title_en": "Even though you forgot, I remembered",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "虽然",  "pinyin": "suīrán",   "pos": "conj.","en": "although; even though"},
+        {"no": 2,  "hanzi": "记得",  "pinyin": "jìde",     "pos": "v.",   "en": "remember"},
+        {"no": 3,  "hanzi": "妻子",  "pinyin": "qīzi",     "pos": "n.",   "en": "wife"},
+        {"no": 4,  "hanzi": "丈夫",  "pinyin": "zhàngfu",  "pos": "n.",   "en": "husband"},
+        {"no": 5,  "hanzi": "有意思","pinyin": "yǒu yìsi", "pos": "adj.", "en": "interesting"},
+        {"no": 6,  "hanzi": "花",    "pinyin": "huā",      "pos": "n./v.","en": "flower; spend"},
+        {"no": 7,  "hanzi": "比",    "pinyin": "bǐ",       "pos": "prep.","en": "compared to; than"},
+        {"no": 8,  "hanzi": "右",    "pinyin": "yòu",      "pos": "n.",   "en": "right (direction)"},
+        {"no": 9,  "hanzi": "右边",  "pinyin": "yòubian",  "pos": "n.",   "en": "right side"},
+        {"no": 10, "hanzi": "手表",  "pinyin": "shǒubiǎo", "pos": "n.",   "en": "watch (timepiece)"},
+        {"no": 11, "hanzi": "饭馆",  "pinyin": "fànguǎn",  "pos": "n.",   "en": "restaurant"},
+        {"no": 12, "hanzi": "告诉",  "pinyin": "gàosu",    "pos": "v.",   "en": "tell; inform"},
+        {"no": 13, "hanzi": "点",    "pinyin": "diǎn",     "pos": "v.",   "en": "indicate; point to"},
+        {"no": 14, "hanzi": "但",    "pinyin": "dàn",      "pos": "conj.","en": "but"}
+      ]
+    },
+    {
+      "lesson": 9,
+      "title_zh": "我去买杯奶茶",
+      "title_en": "I'm going to buy a cup of bubble tea",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "咖啡",  "pinyin": "kāfēi",    "pos": "n.",   "en": "coffee"},
+        {"no": 2,  "hanzi": "近",    "pinyin": "jìn",      "pos": "adj.", "en": "near; close"},
+        {"no": 3,  "hanzi": "离",    "pinyin": "lí",       "pos": "prep.","en": "from; away from"},
+        {"no": 4,  "hanzi": "高",    "pinyin": "gāo",      "pos": "adj.", "en": "tall; high"},
+        {"no": 5,  "hanzi": "个子",  "pinyin": "gèzi",     "pos": "n.",   "en": "height; stature"},
+        {"no": 6,  "hanzi": "男孩儿","pinyin": "nánháir",  "pos": "n.",   "en": "boy"},
+        {"no": 7,  "hanzi": "周",    "pinyin": "zhōu",     "pos": "n.",   "en": "week"},
+        {"no": 8,  "hanzi": "旁边",  "pinyin": "pángbiān", "pos": "n.",   "en": "beside; nearby"},
+        {"no": 9,  "hanzi": "那么",  "pinyin": "nàme",     "pos": "pron.","en": "so; then"},
+        {"no": 10, "hanzi": "坏",    "pinyin": "huài",     "pos": "adj.", "en": "bad; broken"},
+        {"no": 11, "hanzi": "门口",  "pinyin": "ménkǒu",   "pos": "n.",   "en": "doorway; entrance"},
+        {"no": 12, "hanzi": "这样",  "pinyin": "zhèyàng",  "pos": "pron.","en": "like this; this way"},
+        {"no": 13, "hanzi": "错",    "pinyin": "cuò",      "pos": "adj.", "en": "wrong; mistake"},
+        {"no": 14, "hanzi": "笑",    "pinyin": "xiào",     "pos": "v.",   "en": "laugh; smile"}
+      ]
+    },
+    {
+      "lesson": 10,
+      "title_zh": "就要考试了",
+      "title_en": "The exam is coming",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "考试",  "pinyin": "kǎoshì",   "pos": "n./v.","en": "exam; take an exam"},
+        {"no": 2,  "hanzi": "考",    "pinyin": "kǎo",      "pos": "v.",   "en": "take an exam; examine"},
+        {"no": 3,  "hanzi": "开学",  "pinyin": "kāixué",   "pos": "v.",   "en": "school starts; beginning of term"},
+        {"no": 4,  "hanzi": "快要",  "pinyin": "kuàiyào",  "pos": "adv.", "en": "about to; soon"},
+        {"no": 5,  "hanzi": "题",    "pinyin": "tí",       "pos": "n.",   "en": "question; problem; topic"},
+        {"no": 6,  "hanzi": "词",    "pinyin": "cí",       "pos": "n.",   "en": "word; phrase"},
+        {"no": 7,  "hanzi": "笔",    "pinyin": "bǐ",       "pos": "n.",   "en": "pen; pencil"},
+        {"no": 8,  "hanzi": "本子",  "pinyin": "běnzi",    "pos": "n.",   "en": "notebook"},
+        {"no": 9,  "hanzi": "后面",  "pinyin": "hòumiàn",  "pos": "n.",   "en": "behind; back"},
+        {"no": 10, "hanzi": "门",    "pinyin": "mén",      "pos": "n.",   "en": "door; gate"},
+        {"no": 11, "hanzi": "帮",    "pinyin": "bāng",     "pos": "v.",   "en": "help; assist"},
+        {"no": 12, "hanzi": "动",    "pinyin": "dòng",     "pos": "v.",   "en": "move; act"},
+        {"no": 13, "hanzi": "前面",  "pinyin": "qiánmiàn", "pos": "n.",   "en": "in front; ahead"},
+        {"no": 14, "hanzi": "班",    "pinyin": "bān",      "pos": "n.",   "en": "class; shift"}
+      ]
+    },
+    {
+      "lesson": 11,
+      "title_zh": "我最喜欢吃中国菜",
+      "title_en": "I like Chinese food the most",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "药",    "pinyin": "yào",      "pos": "n.",   "en": "medicine; drug"},
+        {"no": 2,  "hanzi": "药店",  "pinyin": "yàodiàn",  "pos": "n.",   "en": "pharmacy; drugstore"},
+        {"no": 3,  "hanzi": "疼",    "pinyin": "téng",     "pos": "adj.", "en": "painful; aching"},
+        {"no": 4,  "hanzi": "身体",  "pinyin": "shēntǐ",   "pos": "n.",   "en": "body; health"},
+        {"no": 5,  "hanzi": "头",    "pinyin": "tóu",      "pos": "n.",   "en": "head"},
+        {"no": 6,  "hanzi": "慢",    "pinyin": "màn",      "pos": "adj.", "en": "slow"},
+        {"no": 7,  "hanzi": "路上",  "pinyin": "lùshang",  "pos": "n.",   "en": "on the way; en route"},
+        {"no": 8,  "hanzi": "时",    "pinyin": "shí",      "pos": "n.",   "en": "time; moment"},
+        {"no": 9,  "hanzi": "着",    "pinyin": "zhe",      "pos": "part.","en": "aspect particle indicating ongoing state"},
+        {"no": 10, "hanzi": "经常",  "pinyin": "jīngcháng","pos": "adv.", "en": "often; frequently"},
+        {"no": 11, "hanzi": "进",    "pinyin": "jìn",      "pos": "v.",   "en": "enter; come/go in"},
+        {"no": 12, "hanzi": "自",    "pinyin": "zì",       "pos": "prep.","en": "from; since"},
+        {"no": 13, "hanzi": "从小",  "pinyin": "cóngxiǎo", "pos": "adv.", "en": "since childhood; from an early age"},
+        {"no": 14, "hanzi": "最",    "pinyin": "zuì",      "pos": "adv.", "en": "most; -est (superlative)"}
+      ]
+    },
+    {
+      "lesson": 12,
+      "title_zh": "这里比北京冷多了",
+      "title_en": "It's much colder here than in Beijing",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "楼",    "pinyin": "lóu",      "pos": "n.",   "en": "building; floor/storey"},
+        {"no": 2,  "hanzi": "地铁",  "pinyin": "dìtiě",    "pos": "n.",   "en": "subway; metro"},
+        {"no": 3,  "hanzi": "外面",  "pinyin": "wàimiàn",  "pos": "n.",   "en": "outside"},
+        {"no": 4,  "hanzi": "阴",    "pinyin": "yīn",      "pos": "adj.", "en": "overcast; cloudy"},
+        {"no": 5,  "hanzi": "晴",    "pinyin": "qíng",     "pos": "adj.", "en": "clear; sunny"},
+        {"no": 6,  "hanzi": "正",    "pinyin": "zhèng",    "pos": "adv.", "en": "just; exactly; right"},
+        {"no": 7,  "hanzi": "站",    "pinyin": "zhàn",     "pos": "n./v.","en": "station; stand"},
+        {"no": 8,  "hanzi": "事情",  "pinyin": "shìqing",  "pos": "n.",   "en": "matter; thing; affair"},
+        {"no": 9,  "hanzi": "小时候","pinyin": "xiǎoshíhou","pos": "n.",  "en": "childhood; when young"},
+        {"no": 10, "hanzi": "从",    "pinyin": "cóng",     "pos": "prep.","en": "from"},
+        {"no": 11, "hanzi": "好",    "pinyin": "hǎo",      "pos": "adv.", "en": "very; quite (in exclamations)"},
+        {"no": 12, "hanzi": "那",    "pinyin": "nà",       "pos": "conj.","en": "in that case; then"},
+        {"no": 13, "hanzi": "回",    "pinyin": "huí",      "pos": "v.",   "en": "return; go back"},
+        {"no": 14, "hanzi": "眼睛",  "pinyin": "yǎnjīng",  "pos": "n.",   "en": "eye(s)"}
+      ]
+    },
+    {
+      "lesson": 13,
+      "title_zh": "我们爱上中文课",
+      "title_en": "We love attending Chinese class",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "教",    "pinyin": "jiāo",     "pos": "v.",   "en": "teach"},
+        {"no": 2,  "hanzi": "告诉",  "pinyin": "gàosu",    "pos": "v.",   "en": "tell; let know"},
+        {"no": 3,  "hanzi": "上网",  "pinyin": "shàngwǎng","pos": "v.",   "en": "go online; surf the internet"},
+        {"no": 4,  "hanzi": "上面",  "pinyin": "shàngmiàn","pos": "n.",   "en": "above; on top of"},
+        {"no": 5,  "hanzi": "里面",  "pinyin": "lǐmiàn",   "pos": "n.",   "en": "inside; interior"},
+        {"no": 6,  "hanzi": "洗手间","pinyin": "xǐshǒujiān","pos": "n.",  "en": "restroom; bathroom"},
+        {"no": 7,  "hanzi": "可能",  "pinyin": "kěnéng",   "pos": "mod./adj.","en": "possible; maybe"},
+        {"no": 8,  "hanzi": "那样",  "pinyin": "nàyàng",   "pos": "pron.","en": "like that; in that way"},
+        {"no": 9,  "hanzi": "希望",  "pinyin": "xīwàng",   "pos": "v./n.","en": "hope; wish"},
+        {"no": 10, "hanzi": "介绍",  "pinyin": "jièshào",  "pos": "v.",   "en": "introduce; recommend"},
+        {"no": 11, "hanzi": "班",    "pinyin": "bān",      "pos": "n.",   "en": "class; group"},
+        {"no": 12, "hanzi": "笑",    "pinyin": "xiào",     "pos": "v.",   "en": "laugh; smile"},
+        {"no": 13, "hanzi": "花",    "pinyin": "huā",      "pos": "v.",   "en": "spend (money/time)"},
+        {"no": 14, "hanzi": "向",    "pinyin": "xiàng",    "pos": "prep.","en": "toward; to"}
+      ]
+    },
+    {
+      "lesson": 14,
+      "title_zh": "一个人过年多没意思啊",
+      "title_en": "It's boring to celebrate the Spring Festival alone",
+      "word_count": 14,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "没意思","pinyin": "méi yìsi", "pos": "adj.", "en": "boring; uninteresting"},
+        {"no": 2,  "hanzi": "女孩儿","pinyin": "nǚháir",   "pos": "n.",   "en": "girl"},
+        {"no": 3,  "hanzi": "小孩儿","pinyin": "xiǎoháir", "pos": "n.",   "en": "child; kid"},
+        {"no": 4,  "hanzi": "包",    "pinyin": "bāo",      "pos": "v./n.","en": "wrap; bag"},
+        {"no": 5,  "hanzi": "位",    "pinyin": "wèi",      "pos": "m.",   "en": "used for people (polite)"},
+        {"no": 6,  "hanzi": "跳舞",  "pinyin": "tiàowǔ",   "pos": "v.",   "en": "dance"},
+        {"no": 7,  "hanzi": "姓名",  "pinyin": "xìngmíng", "pos": "n.",   "en": "full name"},
+        {"no": 8,  "hanzi": "姓",    "pinyin": "xìng",     "pos": "n./v.","en": "surname; family name"},
+        {"no": 9,  "hanzi": "前面",  "pinyin": "qiánmiàn", "pos": "n.",   "en": "front; ahead"},
+        {"no": 10, "hanzi": "站",    "pinyin": "zhàn",     "pos": "v.",   "en": "stand"},
+        {"no": 11, "hanzi": "程度",  "pinyin": "chéngdù",  "pos": "n.",   "en": "degree; extent; level"},
+        {"no": 12, "hanzi": "多",    "pinyin": "duō",      "pos": "adv.", "en": "how (in exclamations); so"},
+        {"no": 13, "hanzi": "眼睛",  "pinyin": "yǎnjīng",  "pos": "n.",   "en": "eye(s)"},
+        {"no": 14, "hanzi": "鸟",    "pinyin": "niǎo",     "pos": "n.",   "en": "bird"}
+      ]
+    },
+    {
+      "lesson": 15,
+      "title_zh": "我想再去一次中国",
+      "title_en": "I want to go to China again",
+      "word_count": 15,
+      "vocabulary": [
+        {"no": 1,  "hanzi": "机场",  "pinyin": "jīchǎng",  "pos": "n.",   "en": "airport"},
+        {"no": 2,  "hanzi": "机票",  "pinyin": "jīpiào",   "pos": "n.",   "en": "air ticket"},
+        {"no": 3,  "hanzi": "飞",    "pinyin": "fēi",      "pos": "v.",   "en": "fly"},
+        {"no": 4,  "hanzi": "出国",  "pinyin": "chūguó",   "pos": "v.",   "en": "go abroad"},
+        {"no": 5,  "hanzi": "出门",  "pinyin": "chūmén",   "pos": "v.",   "en": "go out; leave home"},
+        {"no": 6,  "hanzi": "高中",  "pinyin": "gāozhōng", "pos": "n.",   "en": "senior high school"},
+        {"no": 7,  "hanzi": "路",    "pinyin": "lù",       "pos": "n.",   "en": "road; path; route"},
+        {"no": 8,  "hanzi": "门票",  "pinyin": "ménpiào",  "pos": "n.",   "en": "admission ticket; entrance fee"},
+        {"no": 9,  "hanzi": "票",    "pinyin": "piào",     "pos": "n.",   "en": "ticket"},
+        {"no": 10, "hanzi": "好像",  "pinyin": "hǎoxiàng", "pos": "adv.", "en": "seem; be like"},
+        {"no": 11, "hanzi": "姓名",  "pinyin": "xìngmíng", "pos": "n.",   "en": "full name"},
+        {"no": 12, "hanzi": "还是",  "pinyin": "háishi",   "pos": "conj.","en": "or (in questions); still"},
+        {"no": 13, "hanzi": "回",    "pinyin": "huí",      "pos": "m.",   "en": "time; occurrence (for actions)"},
+        {"no": 14, "hanzi": "动量补语","pinyin": "dòngliàng bǔyǔ","pos": "gram.","en": "complement of frequency"},
+        {"no": 15, "hanzi": "有字句","pinyin": "yǒu zì jù","pos": "gram.","en": "existential sentence with 有"}
+      ]
+    }
+  ]
+}

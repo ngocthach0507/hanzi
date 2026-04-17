@@ -23,7 +23,7 @@ export default function ChonNghiaQuiz() {
   const router = useRouter();
   const { user } = useUser();
   const level = params.level?.toString().replace('hsk', '') || '1';
-  const lesson = params.lesson?.toString() || '1';
+  const lesson = params.lesson?.toString().replace('bai-', '') || '1';
   const numericLevel = parseInt(level);
   const numericLesson = parseInt(lesson);
 
@@ -44,7 +44,7 @@ export default function ChonNghiaQuiz() {
         const { data: lessonVocab, error: vocabError } = await supabase
           .from('vocabulary')
           .select('*')
-          .eq('hsk_level', numericLevel)
+          .eq('book_level', numericLevel)
           .eq('lesson_number', numericLesson);
 
         if (vocabError) throw vocabError;
@@ -53,7 +53,7 @@ export default function ChonNghiaQuiz() {
         const { data: distractorsData, error: distError } = await supabase
           .from('vocabulary')
           .select('meaning_vi')
-          .eq('hsk_level', numericLevel)
+          .eq('book_level', numericLevel)
           .neq('lesson_number', numericLesson)
           .limit(40);
 

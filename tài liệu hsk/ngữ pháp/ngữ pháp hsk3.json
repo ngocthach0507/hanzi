@@ -1,0 +1,1035 @@
+{
+  "source": "HSK3.pdf",
+  "total_lessons": 18,
+  "grammar_points": [
+    {
+      "lesson": 1,
+      "title": "我们去机场接你们",
+      "points": [
+        {
+          "name": "固定短语“看上去/看起来”",
+          "structure": "看上去/看起来 + 形容词/动词短语",
+          "example": "他们看上去有点儿像。",
+          "meaning": "Trông họ hơi giống nhau.",
+          "note": "Dùng để miêu tả ngoại hình hoặc trạng thái của người/vật",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ quan sát diện mạo: 他们___有点儿像。",
+              "answer": "看上去",
+              "hint": "Trông có vẻ như..."
+            }
+          ]
+        },
+        {
+          "name": "疑问代词的非疑问用法（1）",
+          "structure": "疑问代词（哪儿/什么/谁/哪）+ 陈述句",
+          "example": "我好像在哪儿看到过这个箱子。",
+          "meaning": "Hình như tôi thấy chiếc vali này ở đâu đó rồi.",
+          "note": "Biểu thị địa điểm, sự vật, người không xác định",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Dùng từ để hỏi làm đại từ phi hồi vấn: 我好像在___看到过这个箱子。",
+              "answer": "哪儿"
+            }
+          ]
+        },
+        {
+          "name": "多项定语",
+          "structure": "时间/处所 + 动作/状态 + 特点 + 的 + 名词",
+          "example": "李文是那个穿着黑衣服的短头发的年轻人吗？",
+          "meaning": "Lý Văn có phải là người thanh niên tóc ngắn mặc áo đen không?",
+          "note": "Nhiều định ngữ cùng bổ nghĩa cho danh từ trung tâm",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Lý Văn có phải là người thanh niên tóc ngắn mặc áo đen không?",
+              "segments": ["李文是", "那个", "穿着黑衣服的", "短头发的", "年轻人吗"],
+              "answer": "李文是那个穿着黑衣服的短头发的年轻人吗",
+              "hint": "Thứ tự: Hành động -> Đặc điểm -> Đối tượng"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "title": "你们想吃什么就点什么",
+      "points": [
+        {
+          "name": "并列复句“又……又……”",
+          "structure": "又 + 形容词1 + 又 + 形容词2",
+          "example": "我现在还真是又饿又渴。",
+          "meaning": "Bây giờ tôi đúng là vừa đói vừa khát.",
+          "note": "Biểu thị một người/vật có đồng thời hai đặc điểm",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền cặp từ 'vừa... vừa...': 我现在还真是___饿___渴。",
+              "answer": "又...又"
+            }
+          ]
+        },
+        {
+          "name": "疑问代词的非疑问用法（2）",
+          "structure": "疑问代词 + 都 + 动词",
+          "example": "哪个菜都好吃。",
+          "meaning": "Món nào cũng ngon.",
+          "note": "Biểu thị 'bất kỳ' (ai cũng, cái gì cũng, ở đâu cũng...)",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Món nào cũng ngon.",
+              "segments": ["哪个菜", "都", "好吃"],
+              "answer": "哪个菜都好吃",
+              "hint": "Dùng '都' sau đại từ nghi vấn để mang nghĩa khẳng định"
+            }
+          ]
+        },
+        {
+          "name": "疑问代词的非疑问用法（3）",
+          "structure": "疑问代词 + 就 + 疑问代词",
+          "example": "你们想吃什么就点什么。",
+          "meaning": "Các bạn muốn ăn gì thì gọi món đấy.",
+          "note": "Biểu thị sự tùy ý, không hạn chế",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ còn thiếu: 你们想吃什么___点什么。",
+              "answer": "就"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "title": "这个小区挺好的",
+      "points": [
+        {
+          "name": "程度副词“挺”",
+          "structure": "挺 + 形容词/心理动词 + 的",
+          "example": "这个小区环境挺好的。",
+          "meaning": "Môi trường khu chung cư này khá tốt.",
+          "note": "Dùng trong khẩu ngữ, biểu thị mức độ tương đối cao",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ chỉ mức độ: 这个小区环境___好的。",
+              "answer": "挺"
+            }
+          ]
+        },
+        {
+          "name": "程度补语（1）",
+          "structure": "形容词 + 坏了",
+          "example": "我这几天忙坏了。",
+          "meaning": "Mấy hôm nay tôi bận quá.",
+          "note": "Biểu thị mức độ rất cao, thường dùng trong tình huống tiêu cực",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Mấy hôm nay tôi bận quá.",
+              "segments": ["我", "这几天", "忙坏了"],
+              "answer": "我这几天忙坏了",
+              "hint": "Cấu trúc: Tính từ + 坏了"
+            }
+          ]
+        },
+        {
+          "name": "“就”和“才”",
+          "structure": "就/才 + 动词",
+          "example": "中国银行很近，走路几分钟就能到。我下午要去医院，很晚才能回来。",
+          "meaning": "Ngân hàng Trung Quốc rất gần, đi bộ vài phút là đến. Chiều nay tôi phải đi bệnh viện, tối muộn mới về được.",
+          "note": "就: hành động xảy ra sớm/nhanh; 才: hành động xảy ra muộn/chậm",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ chỉ sự muộn: 我下午要去医院，很晚___能回来。",
+              "answer": "才"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "title": "这家宾馆跟别的都不一样",
+      "points": [
+        {
+          "name": "固定格式“一……也/都+不/没……”",
+          "structure": "一 + 量词 + 也/都 + 不/没 + 动词/形容词",
+          "example": "草原一点儿也不冷。",
+          "meaning": "Đồng cỏ không lạnh chút nào.",
+          "note": "Biểu thị sự phủ định hoàn toàn",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Đồng cỏ không lạnh chút nào.",
+              "segments": ["草原", "一点儿", "也", "不冷"],
+              "answer": "草原一点儿也不冷",
+              "hint": "Cấu trúc phủ định hoàn toàn"
+            }
+          ]
+        },
+        {
+          "name": "比较句（9）",
+          "structure": "A 跟 B 一样 (+ 形容词)",
+          "example": "这家宾馆跟别的都不一样。",
+          "meaning": "Khách sạn này không giống với những nơi khác.",
+          "note": "Biểu thị sự so sánh giống hoặc khác nhau",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ so sánh bằng: 这家宾馆___别的都不一样。",
+              "answer": "跟"
+            }
+          ]
+        },
+        {
+          "name": "固定格式“除了……（以外），……都/还/也……”",
+          "structure": "除了 + N + (以外)， + 都/还/也 + ...",
+          "example": "除了这个行李箱以外，还有别的东西吗？",
+          "meaning": "Ngoài vali này ra, còn đồ gì khác không?",
+          "note": "Biểu thị sự loại trừ hoặc bổ sung",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Ngoài chiếc vali này ra, còn đồ gì khác không?",
+              "segments": ["除了", "这个行李箱以外", "还有", "别的", "东西吗"],
+              "answer": "除了这个行李箱以外还有别的东西吗",
+              "hint": "Cấu trúc: Ngoài... ra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "title": "这样的照片才好看",
+      "points": [
+        {
+          "name": "程度补语（2）",
+          "structure": "形容词 + 得很",
+          "example": "现在天气好得很。",
+          "meaning": "Thời tiết bây giờ đẹp lắm.",
+          "note": "Biểu thị mức độ cao, dùng trong khẩu ngữ",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền trạng từ mức độ cực cao: 现在天气好___。",
+              "answer": "得很"
+            }
+          ]
+        },
+        {
+          "name": "量词重叠",
+          "structure": "量词 + 量词",
+          "example": "这些照片张张都非常好看。",
+          "meaning": "Những bức ảnh này tấm nào cũng rất đẹp.",
+          "note": "Nhấn mạnh mỗi cá thể trong phạm vi đều có đặc điểm đó",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Những tấm ảnh này tấm nào cũng rất đẹp.",
+              "segments": ["这些", "照片", "张张都", "非常", "好看"],
+              "answer": "这些照片张张都非常好看",
+              "hint": "Lặp lại lượng từ mang nghĩa 'mỗi/tất cả'"
+            }
+          ]
+        },
+        {
+          "name": "存现句（3）",
+          "structure": "处所 + 动词 + 趋向补语/结果补语 + 数量 + 人/物",
+          "example": "后边走过去两个人。",
+          "meaning": "Phía sau có hai người đi qua.",
+          "note": "Diễn tả sự xuất hiện hoặc biến mất của người/vật",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Phía sau có hai người đi qua.",
+              "segments": ["后边", "走过去", "两个人"],
+              "answer": "后边走过去两个人",
+              "hint": "Ở đâu + Hành động + Đối tượng"
+            }
+          ]
+        },
+        {
+          "name": "紧缩复句“……了……就……”",
+          "structure": "动词1 + 了 + 就 + 动词2",
+          "example": "你听完了音乐会就来我家吃饭。",
+          "meaning": "Em nghe xong hòa nhạc thì sang nhà chị ăn cơm nhé.",
+          "note": "Biểu thị hai hành động xảy ra liên tiếp",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ nối hai hành động liên tiếp: 你听完了音乐会___来我家吃饭。",
+              "answer": "就"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 6,
+      "title": "高铁上还可以点外卖",
+      "points": [
+        {
+          "name": "固定格式“该……了”",
+          "structure": "该 + 动词短语 + 了",
+          "example": "咱们该买去上海的票了。",
+          "meaning": "Chúng ta nên mua vé đi Thượng Hải rồi.",
+          "note": "Biểu thị đến lúc cần làm việc gì đó",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ biểu thị 'đã đến lúc': 咱们___买去上海的票了。",
+              "answer": "该"
+            }
+          ]
+        },
+        {
+          "name": "假设复句“如果……，就……”",
+          "structure": "如果 + 条件，就 + 结果",
+          "example": "如果没走错，二十分钟以前就到了。",
+          "meaning": "Nếu không đi nhầm thì đã đến từ hai mươi phút trước rồi.",
+          "note": "Biểu thị điều kiện giả định và kết quả",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp câu giả định: Nếu không đi nhầm, 20 phút trước đã đến rồi.",
+              "segments": ["如果", "没走错", "二十分钟以前", "就到了"],
+              "answer": "如果没走错二十分钟以前就到了",
+              "hint": "Nếu ... thì ..."
+            }
+          ]
+        },
+        {
+          "name": "固定短语“越来越”",
+          "structure": "越来越 + 形容词/心理动词",
+          "example": "前面的人越来越多。",
+          "meaning": "Người phía trước càng lúc càng đông.",
+          "note": "Biểu thị sự thay đổi về mức độ theo thời gian",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền cụm từ chỉ sự tăng dần: 前面的人___多。",
+              "answer": "越来越"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 7,
+      "title": "那条裙子比短裤更好看",
+      "points": [
+        {
+          "name": "连动句（2）",
+          "structure": "动词1 + 着 + 动词2",
+          "example": "咱们可以走着去。",
+          "meaning": "Chúng ta có thể đi bộ.",
+          "note": "Biểu thị trạng thái hoặc phương thức của hành động thứ hai",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền trợ từ biểu thị phương thức hành động: 咱们可以走___去。",
+              "answer": "着"
+            }
+          ]
+        },
+        {
+          "name": "比较句（10）",
+          "structure": "A 不比 B + 形容词",
+          "example": "裙子不比短裤贵多少。",
+          "meaning": "Váy chẳng đắt hơn quần short là bao.",
+          "note": "Biểu thị A và B gần như nhau, hoặc bác bỏ ý kiến của người khác",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ bác bỏ sự so sánh: 裙子___短裤贵多少。",
+              "answer": "不比"
+            }
+          ]
+        },
+        {
+          "name": "程度补语（3）",
+          "structure": "形容词/心理动词 + 极了",
+          "example": "这块 ice 西瓜甜极了。",
+          "meaning": "Miếng dưa hấu đá này ngọt quá.",
+          "note": "Biểu thị mức độ rất cao",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền trạng từ mức độ 'cực kỳ': 这块西瓜甜___。",
+              "answer": "极了"
+            }
+          ]
+        },
+        {
+          "name": "递进复句“不但……，而且……”",
+          "structure": "不但 + A，而且 + B",
+          "example": "现在的电视不但便宜，而且用着非常方便。",
+          "meaning": "Tivi bây giờ không những rẻ mà còn rất tiện dùng.",
+          "note": "Biểu thị quan hệ tăng tiến",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Tivi bây giờ chẳng những rẻ mà còn rất tiện dùng.",
+              "segments": ["现在的电视", "不但便宜", "而且", "用着非常方便"],
+              "answer": "现在的电视不但便宜而且用着非常方便",
+              "hint": "Cấu trúc: Không những... mà còn..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 8,
+      "title": "今天我出院了",
+      "points": [
+        {
+          "name": "趋向补语的引申用法（1）",
+          "structure": "动词/形容词 + 下去",
+          "example": "我今年胖了十多斤，不能再胖下去了。",
+          "meaning": "Năm nay tôi béo lên hơn chục cân, không thể béo thêm được nữa.",
+          "note": "Biểu thị hành động/trạng thái đã bắt đầu và còn tiếp tục",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền bổ ngữ xu hướng biểu thị sự tiếp tục: 不能再胖___了。",
+              "answer": "下去"
+            }
+          ]
+        },
+        {
+          "name": "离合词（2）",
+          "structure": "离合词中间插入其他成分",
+          "example": "昨天游完泳以后，我的耳朵一直有点儿疼。",
+          "meaning": "Hôm qua sau khi bơi xong, tai tôi cứ hơi đau.",
+          "note": "Khi có bổ ngữ, bổ ngữ được đặt giữa từ có thể tách rời",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Chèn thành phần vào giữa động từ ly hợp '游泳': 游___泳",
+              "answer": "完"
+            }
+          ]
+        },
+        {
+          "name": "时量补语（2）",
+          "structure": "动词 + 时间段 + 了",
+          "example": "我上次来医院已經过去差不多两年了。",
+          "meaning": "Lần trước tôi đến bệnh viện cũng đã gần hai năm rồi.",
+          "note": "Biểu thị thời gian từ khi hành động kết thúc đến hiện tại",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền trợ từ trong cấu trúc thời lượng: 过去差不多两年___。",
+              "answer": "了"
+            }
+          ]
+        },
+        {
+          "name": "固定格式“……以前/以后/前/后”",
+          "structure": "时间/事件 + 以前/以后/前/后",
+          "example": "这种药 cần uống mỗi ngày một lần trước khi đi ngủ.",
+          "meaning": "Loại thuốc này cần uống mỗi ngày một lần trước khi đi ngủ.",
+          "note": "Biểu thị mốc thời gian trước hoặc sau một sự việc",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Nói 'trước khi đi ngủ': 睡___",
+              "answer": "前"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 9,
+      "title": "打不好没关系",
+      "points": [
+        {
+          "name": "目的复句“为了……”",
+          "structure": "为了 + 目的， + 行动",
+          "example": "听说为了准备运动会，你们几个男生每天都练球。",
+          "meaning": "Nghe nói để chuẩn bị cho hội thao, mấy bạn nam ngày nào cũng luyện bóng.",
+          "note": "Biểu thị mục đích và hành động để đạt được mục đích đó",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ chỉ mục đích: ___准备运动会...",
+              "answer": "为了"
+            }
+          ]
+        },
+        {
+          "name": "可能补语",
+          "structure": "动词 + 得/不 + 补语",
+          "example": "打不好没关系。",
+          "meaning": "Đánh không tốt cũng không sao.",
+          "note": "Biểu thị điều kiện có cho phép đạt được kết quả hay không",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ phủ định khả năng: 打___好没关系。",
+              "answer": "不"
+            }
+          ]
+        },
+        {
+          "name": "固定格式“越A越B”",
+          "structure": "越 + A + 越 + B",
+          "example": "今天的足球比赛我越看越着急。",
+          "meaning": "Trận bóng đá hôm nay tôi càng xem càng sốt ruột.",
+          "note": "Biểu thị B thay đổi theo sự thay đổi của A",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Trận bóng đá hôm nay tôi càng xem càng sốt ruột.",
+              "segments": ["今天的足球比赛", "我", "越看", "越着急"],
+              "answer": "今天的足球比赛我越看越着急",
+              "hint": "Cấu trúc: Càng... càng..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 10,
+      "title": "你明天再把书还给我",
+      "points": [
+        {
+          "name": "“把”字句（1）",
+          "structure": "主语 + 把 + 宾语 + 动词 + 在/到 + 地点",
+          "example": "我会把这些题都记在本子上。",
+          "meaning": "Tôi sẽ ghi hết những bài này vào vở.",
+          "note": "Biểu thị sự thay đổi vị trí của sự vật",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Tôi sẽ ghi những bài này vào vở.",
+              "segments": ["我", "会", "把这些题", "都记在", "本子上"],
+              "answer": "我会把这些题都记在本子上",
+              "hint": "Cấu trúc câu chữ '把'"
+            }
+          ]
+        },
+        {
+          "name": "固定格式“在……上/中/下”",
+          "structure": "在 + 名词 + 上/中/下",
+          "example": "在学习上，遇到什么问题都可以问我。",
+          "meaning": "Trong học tập, gặp vấn đề gì cũng có thể hỏi tôi.",
+          "note": "Biểu thị phạm vi, thời gian, điều kiện",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ chỉ phạm vi 'trong': 在学习___",
+              "answer": "上"
+            }
+          ]
+        },
+        {
+          "name": "“把”字句（2）",
+          "structure": "主语 + 把 + 宾语1 + 动词 + 给 + 宾语2",
+          "example": "你明天再把书还给我。",
+          "meaning": "Ngày mai em trả sách lại cho anh nhé.",
+          "note": "Biểu thị sự chuyển giao quan hệ của sự vật",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Ngày mai em trả sách lại cho anh nhé.",
+              "segments": ["你明天", "再把书", "还给我"],
+              "answer": "你明天再把书还给我",
+              "hint": "Đưa vật gì đó cho ai dùng '把'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 11,
+      "title": "看来我没办法解决这个问题",
+      "points": [
+        {
+          "name": "“还是”和“或者”",
+          "structure": "还是 (câu hỏi) / 或者 (câu trần thuật)",
+          "example": "我们用会议室的电脑还是自己的笔记本电脑？会议室的电脑或者自己的电脑都可以。",
+          "meaning": "Chúng ta dùng máy tính trong phòng họp hay máy tính xách tay của mình? Dùng máy tính trong phòng họp hoặc máy của mình đều được.",
+          "note": "还是: dùng trong câu hỏi lựa chọn; 或者: dùng trong câu trần thuật",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ chọn lựa trong câu hỏi: A___B？",
+              "answer": "还是"
+            }
+          ]
+        },
+        {
+          "name": "固定短语“看来”",
+          "structure": "看来 + 结论",
+          "example": "看来我没办法解决这个问题。",
+          "meaning": "Xem ra tôi không có cách giải quyết vấn đề này.",
+          "note": "Biểu thị sự phân tích hoặc suy đoán dựa trên quan sát",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ đưa ra nhận định: ___我没办法解决这个问题。",
+              "answer": "看来"
+            }
+          ]
+        },
+        {
+          "name": "“把”字句（3）",
+          "structure": "主语 + 把 + 宾语 + 动词 + 结果补语",
+          "example": "我跟您一起把这些工作做完。",
+          "meaning": "Em cùng chị làm hết những việc này.",
+          "note": "Biểu thị kết quả của hành động tác động lên sự vật",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Em cùng chị làm hết những việc này.",
+              "segments": ["我", "跟您一起", "把这些工作", "做完"],
+              "answer": "我跟您一起把这些工作做完",
+              "hint": "Chủ ngữ + 把 + Tân ngữ + Động từ + Kết quả"
+            }
+          ]
+        },
+        {
+          "name": "固定格式“对……来说”",
+          "structure": "对 + 对象 + 来说",
+          "example": "对我来说，生活也很重要。",
+          "meaning": "Đối với tôi, cuộc sống cũng rất quan trọng.",
+          "note": "Chỉ đối tượng mà quan điểm, cảm xúc, tình huống hướng đến",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ chỉ quan điểm cá nhân: ___我来说...",
+              "answer": "对"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 12,
+      "title": "这个季节天气变化很快",
+      "points": [
+        {
+          "name": "选择复句“或者……，或者……”",
+          "structure": "或者 + A，或者 + B",
+          "example": "或者明天去，或者后天去，我给你打电话。",
+          "meaning": "Hoặc mai đi, hoặc mốt đi, cô gọi điện cho em nhé.",
+          "note": "Biểu thị lựa chọn giữa các khả năng",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ chọn lựa trong câu trần thuật: ___明天去，___后天去...",
+              "answer": "或者...或者"
+            }
+          ]
+        },
+        {
+          "name": "趋向补语的引申用法（2）",
+          "structure": "动词/形容词 + 起来",
+          "example": "雨已经下起来了。",
+          "meaning": "Mưa đã bắt đầu rơi rồi.",
+          "note": "Biểu thị hành động bắt đầu hoặc trạng thái mới",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền bổ ngữ xu hướng biểu thị sự bắt đầu: 雨已经下___了。",
+              "answer": "起来"
+            }
+          ]
+        },
+        {
+          "name": "范围副词“就”",
+          "structure": "就 + 数量 + 动词",
+          "example": "北京常常下雪，但听说今年就下了一次。",
+          "meaning": "Bắc Kinh thường có tuyết, nhưng nghe nói năm nay chỉ có một lần.",
+          "note": "Nhấn mạnh số lượng ít, mức độ nhẹ, thời gian ngắn",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền phó từ nhấn mạnh số lượng ít (chỉ): 今年___下了一次。",
+              "answer": "就"
+            }
+          ]
+        },
+        {
+          "name": "趋向补语的引申用法（3）",
+          "structure": "动词 + 下来",
+          "example": "这一年多住下来，我还是更喜欢北京的四季。",
+          "meaning": "Ở đây hơn một năm qua, tôi vẫn thích bốn mùa ở Bắc Kinh hơn.",
+          "note": "Biểu thị hoàn thành hành động tốn thời gian, công sức",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền bổ ngữ xu hướng biểu thị kết quả duy trì: 这一年多住___...",
+              "answer": "下来"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 13,
+      "title": "我的新邻居来自英国",
+      "points": [
+        {
+          "name": "假设复句“……的话，就……”",
+          "structure": "A + 的话，就 + B",
+          "example": "你们有时间的话，就来我家做客。",
+          "meaning": "Nếu các bạn có thời gian thì đến nhà tôi chơi nhé.",
+          "note": "Biểu thị điều kiện giả định và kết quả, dùng trong khẩu ngữ",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ đưa ra giả thiết: 你们有时间___，就来我家做客。",
+              "answer": "的话"
+            }
+          ]
+        },
+        {
+          "name": "“把”字句（4）",
+          "structure": "主语 + 把 + 宾语 + 动词 + 趋向补语/状态补语",
+          "example": "你把声音开得太大了。",
+          "meaning": "Em bật âm thanh to quá.",
+          "note": "Biểu thị sự thay đổi vị trí hoặc trạng thái",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Em bật âm thanh to quá.",
+              "segments": ["你", "把声音", "开得", "太大了"],
+              "answer": "你把声音开得太大了",
+              "hint": "Cấu trúc '把' + Bổ ngữ trạng thái"
+            }
+          ]
+        },
+        {
+          "name": "并列复句“一边……，一边……”",
+          "structure": "一边 + A，一边 + B",
+          "example": "咱们一边吃蛋糕，一边聊天儿吧。",
+          "meaning": "Chúng mình vừa ăn bánh vừa trò chuyện nhé.",
+          "note": "Biểu thị hai hành động xảy ra đồng thời",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ biểu thị hành động đồng thời: 咱们___吃蛋糕，___聊天儿吧。",
+              "answer": "一边...一边"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 14,
+      "title": "这本书被别人借走了",
+      "points": [
+        {
+          "name": "被动句（1）",
+          "structure": "主语 + 被 + (宾语) + 动词 + 其他成分",
+          "example": "这本书被别人借走了。",
+          "meaning": "Cuốn sách này đã bị người khác mượn mất.",
+          "note": "Biểu thị ý nghĩa bị động, thường mang sắc thái tiêu cực",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền trợ từ bị động: 这本书___别人借走了。",
+              "answer": "被"
+            }
+          ]
+        },
+        {
+          "name": "承接复句“先……，再/然后……”",
+          "structure": "先 + A，再/然后 + B",
+          "example": "我要先去图书馆借书，然后去游泳。",
+          "meaning": "Tôi muốn lên thư viện mượn sách trước, sau đó đi bơi.",
+          "note": "Biểu thị trình tự của các hành động",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Tôi muốn lên thư viện mượn sách trước, sau đó đi bơi.",
+              "segments": ["我要", "先去图书馆借书", "然后", "去游泳"],
+              "answer": "我要先去图书馆借书然后去游泳",
+              "hint": "Cấu trúc trình tự: Trước tiên... sau đó..."
+            }
+          ]
+        },
+        {
+          "name": "固定格式“×什么（啊）”",
+          "structure": "×什么 (啊)",
+          "example": "紧张什么啊，我们都喜欢听你唱歌。",
+          "meaning": "Căng thẳng gì chứ, ai cũng thích nghe em hát cả.",
+          "note": "Phủ định sự lo lắng/nghi ngờ, mang giọng phản bác hoặc an ủi",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ phản bác/an ủi: 紧张___啊，不要担心。",
+              "answer": "什么"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 15,
+      "title": "我是半个南京人",
+      "points": [
+        {
+          "name": "介词“根据”",
+          "structure": "根据 + 依据/理由",
+          "example": "这几年小区根据他们的需要，有了很多变化。",
+          "meaning": "Mấy năm nay khu chung cư căn cứ theo nhu cầu của họ, có nhiều thay đổi.",
+          "note": "Dẫn ra căn cứ hoặc lý do của sự việc",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền giới từ 'căn cứ vào': ___他们的需要...",
+              "answer": "根据"
+            }
+          ]
+        },
+        {
+          "name": "数量重叠“数词+量词+数词+量词”",
+          "structure": "数词 + 量词 + 数词 + 量词 + (地) + 动词",
+          "example": "我得一点儿一点儿给您讲。",
+          "meaning": "Tôi phải kể cho chị từng chút một.",
+          "note": "Làm trạng ngữ, biểu thị phương thức hành động một cách hình tượng",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Tôi phải kể cho chị từng chút một.",
+              "segments": ["我得", "一点儿", "一点儿", "给您讲"],
+              "answer": "我得一点儿一点儿给您讲",
+              "hint": "Cấu trúc: Số + Lượng + Số + Lượng"
+            }
+          ]
+        },
+        {
+          "name": "固定短语“在……看来”",
+          "structure": "在 + 对象 + 看来",
+          "example": "在我们中国人看来，黄河像妈妈一样。",
+          "meaning": "Trong mắt người Trung Quốc, sông Hoàng Hà như người mẹ.",
+          "note": "Biểu thị quan điểm của cá nhân hoặc nhóm",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ chỉ quan điểm: 在他___，这件事不难。",
+              "answer": "看来"
+            }
+          ]
+        },
+        {
+          "name": "固定短语“不一会儿”",
+          "structure": "不一会儿 + 动词",
+          "example": "难过的事情不一会儿就忘了。",
+          "meaning": "Chuyện buồn chẳng mấy chốc sẽ quên.",
+          "note": "Biểu thị thời gian rất ngắn, dùng trong khẩu ngữ",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ chỉ thời gian ngắn: ___就下雨了。",
+              "answer": "不一会儿"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 16,
+      "title": "我听说有的熊猫出国了",
+      "points": [
+        {
+          "name": "并列复句“一会儿……，一会儿……”",
+          "structure": "一会儿 + A，一会儿 + B",
+          "example": "它一会儿在你脚边睡觉，一会儿在你身上爬。",
+          "meaning": "Nó lúc thì ngủ dưới chân bạn, lúc thì trèo lên người bạn.",
+          "note": "Biểu thị các hành động khác nhau hoặc trạng thái đối lập trong thời gian ngắn",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền cặp từ 'lúc thì... lúc thì...': 她___唱歌，___跳舞。",
+              "answer": "一会儿...一会儿"
+            }
+          ]
+        },
+        {
+          "name": "介词“关于”",
+          "structure": "关于 + 名词",
+          "example": "关于这个问题，我得慢慢给你讲。",
+          "meaning": "Về vấn đề này, mẹ phải từ từ kể cho con.",
+          "note": "Dẫn ra đối tượng được đề cập đến",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền giới từ 'về/liên quan đến': ___这个问题...",
+              "answer": "关于"
+            }
+          ]
+        },
+        {
+          "name": "固定短语“一般来说”",
+          "structure": "一般来说， + 句子",
+          "example": "一般来说，熊猫每天要睡很多次觉。",
+          "meaning": "Nói chung, gấu trúc mỗi ngày ngủ rất nhiều lần.",
+          "note": "Biểu thị 'trong hầu hết các trường hợp', thường đứng đầu câu",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ chỉ lệ thường: ___，老师都很辛苦。",
+              "answer": "一般来说"
+            }
+          ]
+        },
+        {
+          "name": "比较句（11）",
+          "structure": "A 比 B + 多/少/早/晚 + 动词 + 数量短语",
+          "example": "冬天比夏天早关门一个小时。",
+          "meaning": "Mùa đông đóng cửa sớm hơn mùa hè một tiếng.",
+          "note": "Biểu thị sự khác biệt về số lượng hoặc thời gian",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Mùa đông đóng cửa sớm hơn mùa hè một tiếng.",
+              "segments": ["冬天", "比", "夏天", "早关门", "一个小时"],
+              "answer": "冬天比夏天早关门一个小时",
+              "hint": "Chênh lệch thời gian trong so sánh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 17,
+      "title": "我要多向认真的人学习",
+      "points": [
+        {
+          "name": "介词“向”",
+          "structure": "向 + 对象 + 动词",
+          "example": "以后我要多向认真的人学习。",
+          "meaning": "Sau này tôi phải học hỏi những người chăm chỉ nhiều hơn.",
+          "note": "Biểu thị phương hướng hoặc đối tượng của hành động",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền giới từ chỉ đối tượng học hỏi: 我要___你学习。",
+              "answer": "向"
+            }
+          ]
+        },
+        {
+          "name": "反问句“不是……吗？”",
+          "structure": "不是 + A + 吗？",
+          "example": "你不是喜欢玩电脑吗？",
+          "meaning": "Chẳng phải cậu thích chơi máy tính à?",
+          "note": "Biểu thị sự không hiểu, không hài lòng, hoặc nhắc nhở, xác nhận",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền cấu trúc phản vấn: 你___喜欢她___？",
+              "answer": "不是...吗"
+            }
+          ]
+        },
+        {
+          "name": "递进复句“……，更……”",
+          "structure": "A，更 + B",
+          "example": "我还没想好学什么，更没想好去哪个国家。",
+          "meaning": "Tôi vẫn chưa nghĩ ra học gì, lại càng chưa nghĩ ra đi nước nào.",
+          "note": "Biểu thị mức độ sâu hơn",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền phó từ biểu thị mức độ sâu hơn: ...___没想好去哪儿。",
+              "answer": "更"
+            }
+          ]
+        },
+        {
+          "name": "条件复句“只有……，才……”",
+          "structure": "只有 + A，才 + B",
+          "example": "只有想清楚自己真正喜欢什么，才能做出最合适的选择。",
+          "meaning": "Chỉ khi nghĩ rõ mình thực sự thích gì, mới có thể đưa ra lựa chọn phù hợp nhất.",
+          "note": "Biểu thị điều kiện duy nhất để có kết quả B",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Chỉ khi nghĩ rõ mới có thể đưa ra lựa chọn phù hợp nhất.",
+              "segments": ["只有想清楚", "才能", "做出最合适的选择"],
+              "answer": "只有想清楚才能做出最合适的选择",
+              "hint": "Cấu trúc: Chỉ có... mới..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 18,
+      "title": "我学会了包饺子",
+      "points": [
+        {
+          "name": "概数表达法",
+          "structure": "相邻数字 + 量词 + 名词",
+          "example": "春节大概放七八天假。",
+          "meaning": "Tết nghỉ khoảng bảy tám ngày.",
+          "note": "Biểu thị số lượng không xác định",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền số ước lượng (7-8): 春节大概放___天假。",
+              "answer": "七八"
+            }
+          ]
+        },
+        {
+          "name": "“刚才”和“刚刚”",
+          "structure": "刚才/刚刚 + 动词",
+          "example": "刚才的电话是我妈妈打来的。我刚刚看视频学会了包饺子。",
+          "meaning": "Cuộc điện thoại lúc nãy là mẹ tôi gọi. Tôi vừa xem video học được cách gói sủi cảo.",
+          "note": "刚才: danh từ thời gian (vài phút trước); 刚刚: phó từ thời gian (không lâu trước đây)",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ chỉ vừa mới đây: 我___学会了包饺子。",
+              "answer": "刚刚"
+            }
+          ]
+        },
+        {
+          "name": "条件复句“只要……，就……”",
+          "structure": "只要 + A，就 + B",
+          "example": "我只要几天不跟他视频，就很想他。",
+          "meaning": "Chỉ cần vài ngày không gọi video với nó là tôi nhớ lắm.",
+          "note": "Biểu thị điều kiện đủ để có kết quả B",
+          "exercises": [
+            {
+              "type": "reorder",
+              "question": "Sắp xếp: Chỉ cần vài ngày không gọi video với nó là tôi nhớ lắm.",
+              "segments": ["我只要", "几天不跟他视频", "就很想他"],
+              "answer": "我只要几天不跟他视频就很想他",
+              "hint": "Cấu trúc: Chỉ cần... là..."
+            }
+          ]
+        },
+        {
+          "name": "固定格式“从……起”",
+          "structure": "从 + 时间 + 起",
+          "example": "他从那时起就努力学习。",
+          "meaning": "Anh ấy từ lúc đó đã học tập chăm chỉ.",
+          "note": "Biểu thị 'bắt đầu từ', thường chỉ thời gian",
+          "exercises": [
+            {
+              "type": "fill_blank",
+              "question": "Điền từ sau cùng trong cặp 'Từ...': 从那时___",
+              "answer": "起"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

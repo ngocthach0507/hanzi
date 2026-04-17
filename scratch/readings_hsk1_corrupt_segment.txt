@@ -1,0 +1,121 @@
+﻿      { "zh": "鐧藉鏈堟兂鍘昏秴甯備拱鐗涘ザ锛屽ス鍦ㄩ棬鍙ｉ亣鍒颁簡闄堝ぉ涓€?, "py": "B谩i Ji膩yu猫 xi菐ng q霉 ch膩osh矛 m菐i ni煤n菐i, t膩 z脿i m茅nk菕u y霉d脿o le Ch茅n Ti膩nzh艒ng.", "vi": "B岷h Gia Nguy峄噒 mu峄憂 膽i si锚u th峄?mua s峄痑, c么 岷 g岷穚 Tr岷 Thi锚n Trung 峄?c峄璦." },
+      { "zh": "闄堝ぉ涓锛氥€屾垜涔熷幓瓒呭競涔颁笢瑗匡紝鎴戜滑涓€璧峰幓鍚с€傘€嶇櫧瀹舵湀璇达細銆屽お濂戒簡锛併€?, "py": "Ch茅n Ti膩nzh艒ng shu艒: 銆學菕 y臎 q霉 ch膩osh矛 m菐i d艒ngxi, w菕men y墨q菒 q霉 ba.銆?B谩i Ji膩yu猫 shu艒: 銆孴脿i h菐o le!銆?, "vi": "Tr岷 Thi锚n Trung n贸i: 'T峄?c农ng 膽i si锚u th峄?mua 膽峄? ch煤ng m矛nh c霉ng 膽i nh茅.' B岷h Gia Nguy峄噒 n贸i: 'Tuy峄噒 qu谩!'" },
+      { "zh": "鐜嬩竴闆殑瀹朵汉鏄熸湡澶╀篃鍠滄鍑哄幓鍚冩櫄楗紝浠栦滑浠婂ぉ鍘昏タ瀹夐キ搴楀悆鍖呭瓙銆?, "py": "W谩ng Y墨xu臎 de ji膩r茅n x墨ngq墨ti膩n y臎 x菒hu膩n ch奴q霉 ch墨 w菐nf脿n, t膩men j墨nti膩n q霉 X墨'膩n F脿ndi脿n ch墨 b膩ozi.", "vi": "Gia 膽矛nh V瓢啤ng Nh岷 Tuy岷縯 Ch峄?nh岷璽 c农ng th铆ch ra ngo脿i 膬n t峄慽, h么m nay h峄?膽岷縩 nh脿 h脿ng T芒y An 膬n b谩nh bao." },
+      { "zh": "閭ｈ竟鐨勫寘瀛愰潪甯稿ソ鍚冿紝濂圭殑濂冲効闈炲父鍠滄锛屾瘡娆￠兘瑕佸悆寰堝銆?, "py": "N脿bi膩n de b膩ozi f膿ich谩ng h菐och墨, t膩 de n菤'茅r f膿ich谩ng x菒hu膩n, m臎i c矛 d艒u y脿o ch墨 h臎n du艒.", "vi": "B谩nh bao 峄?膽贸 r岷 ngon, con g谩i c么 岷 r岷 th铆ch, l岷 n脿o c农ng 膬n r岷 nhi峄乽." },
+      { "zh": "鍥犱负楗簵绂诲 not xa, h峄?膽i taxi, r岷 nhanh l脿 膽岷縩 n啤i.", "py": "Y墨nw猫i f脿ndi脿n l铆 ji膩 b霉 yu菐n, t膩men zu貌 ch奴z奴ch膿 q霉, h臎n ku脿i ji霉 d脿o le.", "vi": "V矛 nh脿 h脿ng kh么ng xa nh脿 l岷痬, h峄?膽i taxi, r岷 nhanh l脿 膽岷縩 n啤i." }
+    ],
+    "vocabulary": [
+      { "zh": "瓒呭競", "py": "ch膩osh矛", "vi": "si锚u th峄? },
+      { "zh": "鐗涘ザ", "py": "ni煤n菐i", "vi": "s峄痑" },
+      { "zh": "鍖呭瓙", "py": "b膩ozi", "vi": "b谩nh bao" },
+      { "zh": "鍑虹杞?, "py": "ch奴z奴ch膿", "vi": "taxi" },
+      { "zh": "鏅氶キ", "py": "w菐nf脿n", "vi": "b峄痑 t峄慽" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "鐧藉鏈堝幓瓒呭競涔颁粈涔堬紵", "q_vi": "B岷h Gia Nguy峄噒 膽i si锚u th峄?mua g矛?", "options": ["楗哄瓙", "鐗涘ザ", "闈㈡潯鍎?, "鍖呭瓙"], "answer": 1 },
+        { "q_zh": "鐜嬩竴闆殑瀹朵汉鎬庝箞鍘婚キ搴楋紵", "q_vi": "Gia 膽矛nh V瓢啤ng Nh岷 Tuy岷縯 膽i nh脿 h脿ng b岷眓g g矛?", "options": ["鍧愬湴閾?, "楠戣嚜琛岃溅", "鍧愬嚭绉熻溅", "璧拌矾"], "answer": 2 },
+        { "q_zh": "瑗垮畨楗簵鐨勫寘瀛愭€庝箞鏍凤紵", "q_vi": "B谩nh bao 峄?nh脿 h脿ng T芒y An th岷?n脿o?", "options": ["闈炲父璐?, "涓嶅お濂藉悆", "闈炲父濂藉悆", "寰堜究瀹?], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "鐧藉鏈堟兂___瓒呭競涔扮墰濂躲€?, "sentence_vi": "B岷h Gia Nguy峄噒 mu峄憂 ___ si锚u th峄?mua s峄痑.", "answer": "鍘?, "options": ["鍘?, "鍦?, "鏈?, "鍙?], "grammar_point": "杩炲姩鍙? },
+        { "type": "fill", "sentence_zh": "鎴戜滑涓€___鍘诲惂銆?, "sentence_vi": "Ch煤ng m矛nh c霉ng ___ nh茅.", "answer": "璧?, "options": ["璧?, "鏍?, "鐩?, "鍏?], "grammar_point": "涓€璧? }
+      ]
+    }
+  },
+    "id": "r1-l8-yiyuan",
+    "level": 1, "lesson_ref": 8,
+    "title_zh": "鎴戠埜鐖镐篃鍦ㄥ尰闄㈠伐浣?,
+    "title_vi": "B峄?t么i c农ng l脿m vi峄嘽 峄?b峄噉h vi峄噉",
+    "topic": "Ngh峄?nghi峄噋",
+    "grammar_focus": ["鍦?鍦扮偣+宸ヤ綔", "涔?, "瀛樼幇鍙?],
+    "content": [
+      { "zh": "鍦ㄧ帇涓€椋炶€佸笀瀹讹紝鎴块棿澶栬竟鏈変竴鍙紓浜殑灏忕尗銆?, "py": "Z脿i W谩ng Y墨f膿i l菐osh墨 ji膩, f谩ngji膩n w脿ibian y菕u y墨 zh墨 pi脿oliang de xi菐o m膩o.", "vi": "峄?nh脿 c么 V瓢啤ng Nh岷 Phi, b锚n ngo脿i ph貌ng c贸 m峄檛 con m猫o nh峄?r岷 膽岷筽." },
+      { "zh": "鐧藉鏈堟寚鐫€妗屽瓙璇达細銆岀湅锛屽畠鍦ㄦ瀛愪笅闈㈠憿!銆嶉檲澶╀腑璇达細銆岃繖鍙皬鐚湡濂界湅!銆?, "py": "B谩i Ji膩yu猫 zh菒zhe zhu艒zi shu艒: 銆孠脿n, t膩 z脿i zhu艒zi xi脿mi脿n ne!銆?Ch茅n Ti膩nzh艒ng shu艒: 銆孼h猫 zh墨 xi菐o m膩o zh膿n h菐ok脿n!銆?, "vi": "B岷h Gia Nguy峄噒 ch峄?v脿o c谩i b脿n n贸i: 'Xem k矛a, n贸 膽ang 峄?d瓢峄沬 g岷 b脿n 膽岷!' Tr岷 Thi锚n Trung n贸i: 'Con m猫o n脿y th岷璽 l脿 膽岷筽!'" },
+      { "zh": "姝ゅ埢鍦ㄥ尰闄㈤噷锛屽垬鏄庡尰鐢熸鍦ㄥ拰浠栫殑鍚屼簨鑳″尰鐢熻亰澶╁効銆?, "py": "C菒k猫 z脿i y墨yu脿n l菒, Li煤 M铆ng y墨sh膿ng zh猫ngz脿i h茅 t膩 de t贸ngsh矛 H煤 y墨sh膿ng li谩oti膩nr.", "vi": "L煤c n脿y 峄?b峄噉h vi峄噉, b谩c s末 L瓢u Minh 膽ang tr貌 chuy峄噉 v峄沬 膽峄搉g nghi峄噋 c峄 m矛nh l脿 b谩c s末 H峄?" },
+      { "zh": "鑳″尰鐢熻锛氥€屾垜鐖哥埜涔熷湪杩欎釜鍖婚櫌宸ヤ綔锛屼粬涔熸槸涓€鍚嶅尰鐢燂紝浠栨瘡澶╅兘闈炲父蹇欍€傘€?, "py": "H煤 y墨sh膿ng shu艒: 銆學菕 b脿ba y臎 z脿i zh猫ge y墨yu脿n g艒ngzu貌, t膩 y臎 sh矛 y墨 m铆ng y墨sh膿ng, t膩 m臎iti膩n d艒u f膿ich谩ng m谩ng.銆?, "vi": "B谩c s末 H峄?n贸i: 'B峄?t么i c农ng l脿m vi峄嘽 峄?b峄噉h vi峄噉 n脿y, 么ng c农ng l脿 m峄檛 b谩c s末, 么ng 岷 m峄梚 ng脿y 膽峄乽 r岷 b岷璶 r峄檔.'" },
+      { "zh": "鍒樻槑闂細銆岃繖涔堣锛屼綘瀹舵湁涓や釜鍖荤敓?銆嶈儭鍖荤敓绗戠潃鍥炵瓟锛氥€屽锛屾垜浠兘鐖辫繖浠藉伐浣溿€傘€?, "py": "Li煤 M铆ng w猫n: 銆孼h猫me shu艒, n菒 ji膩 y菕u li菐ng g猫 y墨sh膿ng?銆?H煤 y墨sh膿ng xi脿ozhe hu铆d谩: 銆孌u矛, w菕men d艒u 脿i zh猫 f猫n g艒ngzu貌.銆?, "vi": "L瓢u Minh h峄廼: 'N贸i v岷瓂 l脿 nh脿 c岷璾 c贸 hai b谩c s末 脿?' B谩c s末 H峄?c瓢峄漣 tr岷?l峄漣: '膼煤ng v岷瓂, ch煤ng t么i 膽峄乽 y锚u c么ng vi峄嘽 n脿y.'" }
+    ],
+    "vocabulary": [
+      { "zh": "鍖婚櫌", "py": "y墨yu脿n", "vi": "b峄噉h vi峄噉" },
+      { "zh": "鍖荤敓", "py": "y墨sh膿ng", "vi": "b谩c s末" },
+      { "zh": "宸ヤ綔", "py": "g艒ngzu貌", "vi": "l脿m vi峄嘽" },
+      { "zh": "蹇?, "py": "m谩ng", "vi": "b岷璶 r峄檔" },
+      { "zh": "鍚屼簨", "py": "t贸ngsh矛", "vi": "膽峄搉g nghi峄噋" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "鍒樻槑鍦ㄥ摢閲屽伐浣滐紵", "q_vi": "L瓢u Minh l脿m vi峄嘽 峄?膽芒u?", "options": ["瀛︽牎", "瓒呭競", "鍖婚櫌", "鍏徃"], "answer": 2 },
+        { "q_zh": "鑳″尰鐢熺殑鐖哥埜鍋氫粈涔堝伐浣滐紵", "q_vi": "B峄?c峄 b谩c s末 H峄?l脿m g矛?", "options": ["鑰佸笀", "鍖荤敓", "宸ョ▼甯?, "鏈嶅姟鍛?], "answer": 1 },
+        { "q_zh": "鑳″尰鐢熷鏈夊嚑涓尰鐢燂紵", "q_vi": "Nh脿 b谩c s末 H峄?c贸 m岷 b谩c s末?", "options": ["涓€涓?, "涓や釜", "涓変釜", "鍥涗釜"], "answer": 1 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "鎴戠埜鐖竉__鍦ㄥ尰闄㈠伐浣溿€?, "sentence_vi": "B峄?t么i ___ l脿m vi峄嘽 峄?b峄噉h vi峄噉.", "answer": "涔?, "options": ["閮?, "涔?, "寰?, "娌?], "grammar_point": "鍓瘝 涔? },
+        { "type": "fill", "sentence_zh": "鎴块棿澶朹__涓€鍙皬鐚€?, "sentence_vi": "B锚n ngo脿i ph貌ng ___ m峄檛 con m猫o nh峄?", "answer": "鏈?, "options": ["鏄?, "鏈?, "鍦?, "鍙?], "grammar_point": "瀛樼幇鍙? }
+      ]
+    }
+  },
+B岷h Gia Nguy峄噒 c农ng c贸 ti岷縯, ph岷 膽岷縩 b峄憂 gi峄?r瓢峄 m峄沬 tan h峄峜." }
+    ],
+    "vocabulary": [
+      { "zh": "鐐?, "py": "di菐n", "vi": "gi峄?(膽峄搉g h峄?" },
+      { "zh": "鍒?, "py": "f膿n", "vi": "ph煤t" },
+      { "zh": "涓婂崍", "py": "sh脿ngw菙", "vi": "bu峄昳 s谩ng" },
+      { "zh": "涓嬪崍", "py": "xi脿w菙", "vi": "bu峄昳 chi峄乽" },
+      { "zh": "鐢靛奖闄?, "py": "di脿ny菒ngyu脿n", "vi": "r岷 chi岷縰 phim" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "瀹夊Ξ闂殑鏃跺€欙紝鐜板湪鍑犵偣锛?, "q_vi": "Khi Annie h峄廼, l煤c 膽贸 l脿 m岷 gi峄?", "options": ["涓婂崍鍗佺偣鍗佸垎", "涓嬪崍涓ょ偣", "鏃╀笂鍏偣鍥涘崄", "鏅氫笂鍏偣鍗?], "answer": 2 },
+        { "q_zh": "浠栦滑绾﹀ソ鍑犵偣瑙侊紵", "q_vi": "H峄?h岷筺 g岷穚 l煤c m岷 gi峄?", "options": ["涓婂崍鍗佺偣", "涓嬪崍涓ょ偣", "涓嬪崍鍥涚偣鍗?, "鏅氫笂鍏偣"], "answer": 1 },
+        { "q_zh": "鐧藉鏈堟槑澶╀笅鍗堝嚑鐐逛笅璇撅紵", "q_vi": "Chi峄乽 mai B岷h Gia Nguy峄噒 m岷 gi峄?tan h峄峜?", "options": ["涓ょ偣", "涓夌偣", "鍥涚偣鍗?, "浜旂偣"], "answer": 2 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "鎴戜滑涓嬪崍涓ょ偣___鍚с€?, "sentence_vi": "Ch煤ng m矛nh chi峄乽 hai gi峄?___ nh茅.", "answer": "瑙?, "options": ["瑙?, "鏉?, "鍘?, "鍚?], "grammar_point": "璇皵鍔╄瘝 鍚? },
+        { "type": "fill", "sentence_zh": "鐧藉鏈堜笅鍗坃__鎯冲幓銆?, "sentence_vi": "B岷h Gia Nguy峄噒 bu峄昳 chi峄乽 ___ mu峄憂 膽i.", "answer": "涓?, "options": ["涔?, "涓?, "娌?, "寰?], "grammar_point": "鍓瘝 涓? }
+      ]
+    }
+  },
+  {
+    "id": "r1-l8-yiyuan",
+    "level": 1, "lesson_ref": 8,
+    "title_zh": "鎴戠埜鐖镐篃鍦ㄥ尰闄㈠伐浣?,
+    "title_vi": "B峄?t么i c农ng l脿m vi峄嘽 峄?b峄噉h vi峄噉",
+    "topic": "Ngh峄?nghi峄噋",
+    "grammar_focus": ["鍦?鍦扮偣+宸ヤ綔", "涔?, "瀛樼幇鍙?],
+    "content": [
+      { "zh": "鍦ㄧ帇涓€椋炲锛屾埧闂村鏈変竴鍙皬鐚€?, "py": "Z脿i W谩ng Y墨f膿i ji膩, f谩ngji膩n w脿i y菕u y墨 zh墨 xi菐o m膩o.", "vi": "峄?nh脿 V瓢啤ng Nh岷 Phi, b锚n ngo脿i ph貌ng c贸 m峄檛 con m猫o nh峄?" },
+      { "zh": "鐧藉鏈堣锛氥€屽畠鍦ㄦ瀛愪笅鍛€傘€嶉檲澶╀腑璇达細銆岃繖鍙皬鐚湡婕備寒锛併€?  {
+    "id": "r1-l10-goumai",
+    "level": 1, "lesson_ref": 10,
+    "title_zh": "杩欏効鐨勮嫻鏋滅湡渚垮疁锛?,
+    "title_vi": "T谩o 峄?膽芒y th岷璽 r岷?",
+    "topic": "Mua s岷痬",
+    "grammar_focus": ["澶氬皯閽?, "鏁板瓧+閲忚瘝", "绋嬪害鍓瘝鐪?],
+    "content": [
+      { "zh": "浠婂ぉ鏄熸湡鍏紝鍦ㄨ彍甯傚満閲岋紝鐜嬩竴闆兂涔颁竴浜涙柊椴滅殑姘存灉銆?, "py": "J墨nti膩n x墨ngq墨li霉, z脿i c脿ish矛ch菐ng l菒, W谩ng Y墨xu臎 xi菐ng m菐i y墨xi膿 x墨nxi膩n de shu菒gu菕.", "vi": "H么m nay th峄?B岷, 峄?trong ch峄? V瓢啤ng Nh岷 Tuy岷縯 mu峄憂 mua m峄檛 铆t tr谩i c芒y t瓢啤i." },
+      { "zh": "濂规寚鐫€绾㈣嫻鏋滈棶鍞揣鍛橈細銆岃繖涓嫻鏋滃灏戦挶涓€鏂わ紵銆?, "py": "T膩 zh菒zhe h贸ng p铆nggu菕 w猫n sh貌uhu貌yu谩n: 銆孼h猫ge p铆nggu菕 du艒shao qi谩n y墨 j墨n?銆?, "vi": "C么 岷 ch峄?v脿o nh峄痭g qu岷?t谩o 膽峄?h峄廼 ng瓢峄漣 b谩n: 'T谩o n脿y bao nhi锚u ti峄乶 m峄檛 c芒n?'" },
+      { "zh": "鍞揣鍛樿锛氥€岃嫻鏋滀笁鍧椾簲涓€鏂ゃ€傚鏋滀綘涔颁袱鏂わ紝灏辨敹 you 涓冨潡閽卞惂銆傘€?, "py": "Sh貌uhu貌yu谩n shu艒: 銆孭铆nggu菕 s膩n ku脿i w菙 y墨 j墨n. R煤gu菕 n菒 m菐i li菐ng j墨n, ji霉 sh艒u n菒 q墨 ku脿i qi谩n ba.銆?, "vi": "Ng瓢峄漣 b谩n n贸i: 'T谩o 3,5 t峄?m峄檛 c芒n. N岷縰 c么 mua hai c芒n th矛 t么i l岷 c么 b岷 t峄?th么i nh茅.'" },
+      { "zh": "鐜嬩竴闆緢楂樺叴锛屽ス璇达細銆屽ソ鐨勶紝璋㈣阿锛岃繖鍎跨殑鑻规灉鐪熶究瀹滐紒銆?, "py": "W谩ng Y墨xu臎 h臎n g膩ox矛ng, t膩 shu艒: 銆孒菐o de, xi猫xie, zh猫r de p铆nggu菕 zh膿n pi谩ny铆!銆?, "vi": "V瓢啤ng Nh岷 Tuy岷縯 r岷 vui, c么 岷 n贸i: '膼瓢峄 岷? c岷 啤n, t谩o 峄?膽芒y th岷璽 r岷?'" },
+      { "zh": "涓嬪崍鍦ㄥ晢鍦猴紝鍒樻槑鍜岀帇涓€闆粰瀛╁瓙涔拌。鏈嶃€傝繖浠惰。鏈嶄竴鐧惧厓锛屽ソ鐪嬩篃涓嶈吹銆?, "py": "Xi脿w菙 z脿i sh膩ngch菐ng, Li煤 M铆ng h茅 W谩ng Y墨xu臎 g臎i h谩izi m菐i y墨fu. Zh猫 ji脿n y墨fu y墨 b菐i yu谩n, h菐ok脿n y臎 b煤 gu矛.", "vi": "Bu峄昳 chi峄乽 峄?trung t芒m th瓢啤ng m岷, L瓢u Minh v脿 V瓢啤ng Nh岷 Tuy岷縯 mua qu岷 谩o cho con. Chi岷縞 谩o n脿y m峄檛 tr膬m t峄? 膽岷筽 m脿 kh么ng 膽岷痶." }
+    ],
+    "vocabulary": [
+      { "zh": "鑻规灉", "py": "p铆nggu菕", "vi": "t谩o" },
+      { "zh": "渚垮疁", "py": "pi谩ny铆", "vi": "r岷? },
+      { "zh": "澶氬皯閽?, "py": "du艒shao qi谩n", "vi": "bao nhi锚u ti峄乶" },
+      { "zh": "鏂?, "py": "j墨n", "vi": "c芒n (膽啤n v峄?500g)" },
+      { "zh": "鍟嗗満", "py": "sh膩ngch菐ng", "vi": "trung t芒m th瓢啤ng m岷" }
+    ],
+    "questions": {
+      "comprehension": [
+        { "q_zh": "鑻规灉澶氬皯閽变竴鏂わ紵", "q_vi": "T谩o bao nhi锚u ti峄乶 m峄檛 c芒n?", "options": ["涓ゅ潡浜?, "涓夊潡浜?, "鍥涘潡浜?, "浜斿潡"], "answer": 1 },
+        { "q_zh": "鐜嬩竴闆寰楄嫻鏋滄€庝箞鏍凤紵", "q_vi": "V瓢啤ng Nh岷 Tuy岷縯 th岷 t谩o th岷?n脿o?", "options": ["寰堣吹", "涓嶅ソ鍚?, "鐪熶究瀹?, "涓嶆柊椴?], "answer": 2 },
+        { "q_zh": "鍟嗗満鐨勮。鏈嶅灏戦挶涓€浠讹紵", "q_vi": "Qu岷 谩o 峄?trung t芒m th瓢啤ng m岷 bao nhi锚u ti峄乶 m峄檛 c谩i?", "options": ["浜斿崄鍏?, "涓€鐧惧厓", "涓ょ櫨鍏?, "涓夌櫨鍏?], "answer": 1 }
+      ],
+      "grammar": [
+        { "type": "fill", "sentence_zh": "鑻规灉___閽变竴鏂わ紵", "sentence_vi": "T谩o ___ ti峄乶 m峄檛 c芒n?", "answer": "澶氬皯", "options": ["鍑犱釜", "澶氬皯", "浠€涔?, "鍝噷"], "grammar_point": "澶氬皯閽? },
+        { "type": "fill", "sentence_zh": "杩欏効s鐨勮嫻鏋淿__渚垮疁锛?, "sentence_vi": "T谩o 峄?膽芒y ___ r岷?", "answer": "鐪?, "options": ["寰?, "鐪?, "闈炲父", "涔?], "grammar_point": "绋嬪害鍓瘝 鐪? }
+      ]
+    }
+  },
+ "鎴块棿澶朹__涓€鍙皬鐚€?, "sentence_vi": "B锚n ngo脿i ph貌ng ___ m峄檛 con m猫o nh峄?", "answer": "鏈?, "options": ["鏄?, "鏈?, "鍦?, "鍙?], "grammar_point": "瀛樼幇鍙? }

@@ -11,7 +11,7 @@ CREATE TABLE vocabulary (
   part_of_speech TEXT,
   hsk_level INTEGER CHECK (hsk_level BETWEEN 1 AND 6),
   lesson_number INTEGER,
-  order_in_lesson INTEGER DEFAULT 0,
+  word_number INTEGER DEFAULT 0,
   topic TEXT,                  -- null nếu là HSK vocab, có giá trị nếu là chủ đề
   topic_lesson INTEGER,        -- bài trong topic
   example_zh TEXT,
@@ -19,7 +19,8 @@ CREATE TABLE vocabulary (
   example_vi TEXT,
   image_url TEXT,
   audio_url TEXT,
-  created_at TIMESTAMPTZ DEFAULT NOW()
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  UNIQUE(hsk_level, lesson_number, word_number)
 );
 
 -- ══════════════════════════════════
@@ -194,7 +195,6 @@ CREATE TABLE subscriptions (
   status TEXT DEFAULT 'active'
 );
 
--- Public read policies
 ALTER TABLE vocabulary ENABLE ROW LEVEL SECURITY;
 ALTER TABLE lessons ENABLE ROW LEVEL SECURITY;
 ALTER TABLE topics ENABLE ROW LEVEL SECURITY;
@@ -205,6 +205,46 @@ ALTER TABLE sentence_patterns ENABLE ROW LEVEL SECURITY;
 ALTER TABLE measure_words ENABLE ROW LEVEL SECURITY;
 ALTER TABLE exams ENABLE ROW LEVEL SECURITY;
 
+-- ══════════════════════════════════
+-- CÁC BẢNG BỔ SUNG
+-- ══════════════════════════════════
+
+CREATE TABLE IF NOT EXISTS texts (
+  id SERIAL PRIMARY KEY,
+  book_level INTEGER,
+  lesson_number INTEGER,
+  title_zh TEXT,
+  title_vi TEXT,
+  content_zh TEXT,
+  content_pinyin TEXT,
+  content_vi TEXT,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  UNIQUE(book_level, lesson_number)
+);
+
+CREATE TABLE IF NOT EXISTS grammar_points (
+  id SERIAL PRIMARY KEY,
+  book_level INTEGER,
+  lesson_number INTEGER,
+  point_number INTEGER,
+  title_zh TEXT,
+  explanation_vi TEXT,
+  usage TEXT,
+  formula TEXT,
+  category TEXT,
+  examples JSONB,
+  exercises JSONB,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  UNIQUE(book_level, lesson_number, point_number)
+);
+
+ALTER TABLE texts ENABLE ROW LEVEL SECURITY;
+ALTER TABLE grammar_points ENABLE ROW LEVEL SECURITY;
+ALTER TABLE user_progress ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "public_read_texts" ON texts FOR SELECT USING (TRUE);
+CREATE POLICY "public_read_grammar" ON grammar_points FOR SELECT USING (TRUE);
+
 CREATE POLICY "public_read" ON vocabulary FOR SELECT USING (TRUE);
 CREATE POLICY "public_read" ON lessons FOR SELECT USING (TRUE);
 CREATE POLICY "public_read" ON topics FOR SELECT USING (TRUE);
@@ -214,3 +254,13 @@ CREATE POLICY "public_read" ON radicals FOR SELECT USING (TRUE);
 CREATE POLICY "public_read" ON sentence_patterns FOR SELECT USING (TRUE);
 CREATE POLICY "public_read" ON measure_words FOR SELECT USING (TRUE);
 CREATE POLICY "public_read" ON exams FOR SELECT USING (TRUE);
+
+-- User Progress Policies
+CREATE POLICY "users_own_progress_select" ON user_progress
+  FOR SELECT USING (auth.uid()::text = user_id);
+
+CREATE POLICY "users_own_progress_insert" ON user_progress
+  FOR INSERT WITH CHECK (auth.uid()::text = user_id);
+
+CREATE POLICY "users_own_progress_update" ON user_progress
+  FOR UPDATE USING (auth.uid()::text = user_id);

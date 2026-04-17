@@ -19,25 +19,62 @@ import {
 export default function TranslatorPage() {
   const [sourceText, setSourceText] = useState('');
   const [targetText, setTargetText] = useState('');
+  const [pinyin, setPinyin] = useState('');
   const [sourceLang, setSourceLang] = useState('vi');
   const [targetLang, setTargetLang] = useState('zh');
+  const [isTranslating, setIsTranslating] = useState(false);
 
   const swapLanguages = () => {
-    setSourceLang(targetLang);
-    setTargetLang(sourceLang);
+    setSourceLang(targetLang === 'vi' ? 'zh' : 'vi');
+    setTargetLang(targetLang === 'vi' ? 'vi' : 'zh');
     setSourceText(targetText);
     setTargetText(sourceText);
+    setPinyin('');
   };
 
   const clearText = () => {
     setSourceText('');
     setTargetText('');
+    setPinyin('');
   };
 
-  const handleTranslate = () => {
-    if (!sourceText) return;
-    // Real-world logic would call a translation API here
-    setTargetText('Đây là kết quả dịch mẫu cho nội dung của bạn.');
+  const handleTranslate = async () => {
+    if (!sourceText.trim()) return;
+    
+    setIsTranslating(true);
+    try {
+      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&dt=rm&q=${encodeURIComponent(sourceText)}`;
+      const response = await fetch(url);
+      const data = await response.json();
+      
+      if (data && data[0]) {
+        let fullTranslation = "";
+        let fullPinyin = "";
+        
+        data[0].forEach((segment: any) => {
+          if (segment[0]) fullTranslation += segment[0];
+          
+          // Case 1: Chinese pinyin is usually in segment[3] of the last array item in data[0]
+          // Or segment[2] of the specific segment
+        });
+
+        // Heuristic to find pinyin/transliteration in the response
+        const lastItem = data[0][data[0].length - 1];
+        if (lastItem && lastItem[3]) {
+          fullPinyin = lastItem[3];
+        } else if (lastItem && lastItem[2]) {
+          fullPinyin = lastItem[2];
+        }
+
+        setTargetText(fullTranslation);
+        setPinyin(targetLang === 'zh' ? fullPinyin : '');
+      }
+    } catch (error) {
+      console.error('Translation error:', error);
+      setTargetText('Lỗi kết nối dịch thuật. Vui lòng thử lại sau.');
+    } finally {
+      setIsTranslating(false);
+    }
   };
 
   return (
@@ -125,9 +162,11 @@ export default function TranslatorPage() {
                    <div className="text-xl md:text-2xl font-black text-gray-900 leading-relaxed">
                       {targetText}
                    </div>
-                   <div className="mt-2 text-sm font-bold text-[#D85A30]">
-                      [Dịch: Đây là kết quả dịch mẫu...]
-                   </div>
+                   {pinyin && (
+                     <div className="mt-2 text-sm font-bold text-[#D85A30] animate-in fade-in slide-in-from-top-1">
+                        {pinyin}
+                     </div>
+                   )}
                 </div>
               ) : (
                 <div className="flex-1 flex flex-col items-center justify-center text-center opacity-20">
@@ -149,9 +188,11 @@ export default function TranslatorPage() {
                 {sourceText && (
                   <button 
                     onClick={handleTranslate}
-                    className="bg-gray-900 text-white px-8 py-3 rounded-2xl font-black text-sm shadow-xl hover:bg-black hover:scale-105 active:scale-95 transition-all"
+                    disabled={isTranslating}
+                    className={`${isTranslating ? 'bg-gray-400' : 'bg-gray-900 hover:bg-black hover:scale-105'} text-white px-8 py-3 rounded-2xl font-black text-sm shadow-xl active:scale-95 transition-all flex items-center gap-2`}
                   >
-                    Dịch văn bản
+                    {isTranslating && <div className="w-4 h-4 border-2 border-white/20 border-t-white rounded-full animate-spin"></div>}
+                    {isTranslating ? 'Đang dịch...' : 'Dịch văn bản'}
                   </button>
                 )}
               </div>

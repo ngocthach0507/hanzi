@@ -22,7 +22,7 @@ export default function FlashcardLesson() {
   const router = useRouter();
   const { user } = useUser();
   const level = params.level?.toString().replace('hsk', '') || '1';
-  const lesson = params.lesson?.toString() || '1';
+  const lesson = params.lesson?.toString().replace('bai-', '') || '1';
   const numericLevel = parseInt(level);
   const numericLesson = parseInt(lesson);
 
@@ -41,7 +41,7 @@ export default function FlashcardLesson() {
         const { data, error } = await supabase
           .from('vocabulary')
           .select('*')
-          .eq('hsk_level', numericLevel)
+          .eq('book_level', numericLevel)
           .eq('lesson_number', numericLesson);
 
         if (error) throw error;

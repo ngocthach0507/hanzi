@@ -14,36 +14,85 @@ import {
   Users,
   MessageCircle,
   Languages,
-  RotateCw
+  RotateCw,
+  Loader2
 } from 'lucide-react';
+
+import { supabase } from '@/lib/supabase';
 
 export default function ConversationDetail() {
   const params = useParams();
-  const id = params.id?.toString() || '1';
+  const id = params.id?.toString();
   const level = params.level?.toString() || 'hsk1';
 
   const [showTranslation, setShowTranslation] = useState(true);
-  const [activeRole, setActiveRole] = useState<'A' | 'B' | null>(null);
+  const [activeRole, setActiveRole] = useState<string | null>(null);
+  const [conversation, setConversation] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
-  // Mock conversation data
-  const conversation = {
-    title: 'Chào hỏi và giới thiệu',
-    zh_title: '打招呼和自我介绍',
-    difficulty: 'Dễ',
-    content: [
-      { role: 'A', name: 'Minh', zh: '你好！', pinyin: 'Nǐ hǎo!', vi: 'Xin chào!' },
-      { role: 'B', name: 'Lan', zh: '你好！你叫什么名字？', pinyin: 'Nǐ hǎo! Nǐ jiào shénme míngzi?', vi: 'Xin chào! Bạn tên là gì?' },
-      { role: 'A', name: 'Minh', zh: '我叫阮明。你呢？', pinyin: 'Wǒ jiào Ruǎn Míng. Nǐ ne?', vi: 'Tôi tên là Nguyễn Minh. Còn bạn?' },
-      { role: 'B', name: 'Lan', zh: '我叫陈兰。很高興认识你！', pinyin: 'Wǒ jiào Chén Lán. Hěn gāoxìng rènshi nǐ!', vi: 'Tôi tên là Trần Lan. Rất vui được gặp bạn!' },
-      { role: 'A', name: 'Minh', zh: '我也很高兴认识你！你是哪国人？', pinyin: 'Wǒ yě hěn gāoxìng rènshi nǐ! Nǐ shì nǎ guó rén?', vi: 'Tôi cũng rất vui! Bạn là người nước nào?' },
-    ],
-    vocabulary: [
-      { zh: '名字', pinyin: 'míngzi', vi: 'tên' },
-      { zh: '高兴', pinyin: 'gāoxìng', vi: 'vui mừng' },
-      { zh: '认识', pinyin: 'rènshi', vi: 'quen biết' },
-      { zh: '哪国人', pinyin: 'nǎ guó rén', vi: 'người nước nào' }
-    ]
+  React.useEffect(() => {
+    async function fetchDetail() {
+      if (!id) return;
+      setLoading(true);
+      const { data, error } = await supabase
+        .from('texts')
+        .select('*')
+        .eq('id', id)
+        .single();
+
+      if (!error && data) {
+        try {
+          const lines = JSON.parse(data.content);
+          const roles = Array.from(new Set(lines.map((l: any) => l.speaker))) as string[];
+          
+          setConversation({
+            title: `Bài ${data.lesson_number}.${data.text_number}`,
+            zh_title: data.scene_zh,
+            vi_title: data.scene_vi,
+            content: lines.map((l: any, idx: number) => ({
+              role: l.speaker,
+              name: l.speaker,
+              zh: l.zh,
+              pinyin: l.pinyin || l.py,
+              vi: l.vi || l.en // Use Vietnamese translation from script
+            })),
+            roles: roles,
+            vocabulary: [] // Can be expanded later if we have vocab mapping
+          });
+        } catch (e) {
+          console.error("Error parsing content:", e);
+        }
+      }
+      setLoading(false);
+    }
+    fetchDetail();
+  }, [id]);
+
+  const playSound = (text: string) => {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'zh-CN';
+      utterance.rate = 0.8;
+      window.speechSynthesis.speak(utterance);
+    }
   };
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-white">
+        <Loader2 size={48} className="animate-spin text-[#D85A30]" />
+      </div>
+    );
+  }
+
+  if (!conversation) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <p className="text-gray-500 font-bold">Không tìm thấy nội dung hội thoại.</p>
+      </div>
+    );
+  }
 
   return (
     <div className="bg-[#F8F9FB] min-h-screen">
@@ -88,8 +137,8 @@ export default function ConversationDetail() {
                       key={idx} 
                       className={`flex items-start gap-4 ${isA ? 'flex-row' : 'flex-row-reverse'}`}
                     >
-                      <div className={`w-10 h-10 rounded-full flex-shrink-0 flex items-center justify-center font-bold text-sm ${isA ? 'bg-blue-100 text-blue-600' : 'bg-green-100 text-green-600'}`}>
-                        {line.name[0]}
+                      <div className={`w-10 h-10 rounded-full flex-shrink-0 flex items-center justify-center font-black text-[10px] ${idx % 2 === 0 ? 'bg-blue-100 text-blue-600' : 'bg-green-100 text-green-600'}`}>
+                        {line.name.substring(0, 2)}
                       </div>
                       <div className={`flex flex-col max-w-[80%] ${isA ? 'items-start' : 'items-end'}`}>
                         <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1 px-1">
@@ -109,7 +158,10 @@ export default function ConversationDetail() {
                               {line.vi}
                             </div>
                           )}
-                          <button className="absolute -right-12 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 text-orange-500 transition-opacity">
+                          <button 
+                            onClick={() => playSound(line.zh)}
+                            className="absolute -right-12 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 text-orange-500 transition-opacity hover:scale-110 active:scale-95"
+                          >
                             <Volume2 size={24} />
                           </button>
                         </div>
@@ -122,24 +174,24 @@ export default function ConversationDetail() {
               {/* Interaction Footer for Roleplay */}
               <div className="mt-12 pt-8 border-t border-gray-50 flex flex-col items-center">
                 <div className="text-xs font-black text-gray-400 uppercase tracking-[0.2em] mb-6">Chế độ luyện phản xạ</div>
-                <div className="flex gap-4">
-                  <button 
-                    onClick={() => setActiveRole('A')}
-                    className={`flex items-center gap-3 px-8 py-4 rounded-2xl font-black transition-all ${activeRole === 'A' ? 'bg-[#D85A30] text-white shadow-xl translate-y-1' : 'bg-white border border-gray-200 text-gray-600 hover:border-[#D85A30]'}`}
-                  >
-                    <Users size={20} /> Nhập vai Minh (A)
-                  </button>
-                  <button 
-                    onClick={() => setActiveRole('B')}
-                    className={`flex items-center gap-3 px-8 py-4 rounded-2xl font-black transition-all ${activeRole === 'B' ? 'bg-[#1F2937] text-white shadow-xl translate-y-1' : 'bg-white border border-gray-200 text-gray-600 hover:border-[#1F2937]'}`}
-                  >
-                    <Users size={20} /> Nhập vai Lan (B)
-                  </button>
+                <div className="flex flex-wrap justify-center gap-4">
+                  {conversation.roles.map((role: string, index: number) => (
+                    <button 
+                      key={role}
+                      onClick={() => setActiveRole(role)}
+                      className={`flex items-center gap-3 px-8 py-4 rounded-2xl font-black transition-all ${activeRole === role ? 'bg-[#D85A30] text-white shadow-xl translate-y-1' : 'bg-white border border-gray-200 text-gray-600 hover:border-[#D85A30]'}`}
+                    >
+                      <Users size={20} /> Nhập vai {role}
+                    </button>
+                  ))}
                 </div>
                 {activeRole && (
-                  <div className="mt-6 flex flex-col items-center animate-bounce">
-                    <p className="text-sm font-bold text-orange-600">Đã sẵn sàng! Hãy nhấn "Bắt đầu" để hội thoại với AI.</p>
-                    <button className="mt-4 w-16 h-16 bg-[#D85A30] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform">
+                  <div className="mt-6 flex flex-col items-center animate-in fade-in slide-in-from-bottom-4 duration-500">
+                    <p className="text-sm font-bold text-orange-600">Đã sẵn sàng! Hãy nhấn "Bắt đầu" để hội thoại với {conversation.roles.filter((r:string) => r !== activeRole)[0] || 'AI'}.</p>
+                    <button 
+                      onClick={() => playSound(conversation.content.find((c:any) => c.role !== activeRole)?.zh || '')}
+                      className="mt-4 w-16 h-16 bg-[#D85A30] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform active:scale-95"
+                    >
                       <PlayCircle size={32} />
                     </button>
                   </div>

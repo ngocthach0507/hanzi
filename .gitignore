@@ -38,3 +38,6 @@ brain.db
 data/*.json
 !data/example.json
 hanzi-final-kit/
+
+# clerk configuration (can include secrets)
+/.clerk/

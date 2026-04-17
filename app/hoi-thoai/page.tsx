@@ -2,29 +2,63 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { 
-  MessageSquare, 
-  ChevronRight, 
-  Lock, 
-  PlayCircle, 
-  CheckCircle2, 
-  Search,
-  Filter,
-  Users
-} from 'lucide-react';
-
-const conversations = [
-  { id: 1, level: 1, title: 'Chào hỏi và giới thiệu', zh: '打招呼和自我介绍', topic: 'greeting', difficulty: 'Dễ', isFree: true, status: 'completed' },
-  { id: 2, level: 1, title: 'Hỏi thăm sức khỏe', zh: '问候健康', topic: 'greeting', difficulty: 'Dễ', isFree: true, status: 'available' },
-  { id: 3, level: 1, title: 'Mua sắm tại cửa hàng', zh: '在商店购物', topic: 'shopping', difficulty: 'Dễ', isFree: false, status: 'locked' },
-  { id: 4, level: 1, title: 'Đặt món ở nhà hàng', zh: '在餐厅点菜', topic: 'restaurant', difficulty: 'Dễ', isFree: false, status: 'locked' },
-  { id: 5, level: 2, title: 'Hỏi đường', zh: '问路', topic: 'direction', difficulty: 'Dễ-TB', isFree: false, status: 'locked' },
-];
+import { ChevronRight, Search, MessageSquare, Users, PlayCircle, Lock, CheckCircle2 } from 'lucide-react';
+import { supabase } from '@/lib/supabase';
+// Helper for topics based on lesson titles (mental map)
+const getTopic = (lesson: number) => {
+  if (lesson <= 3) return 'greeting';
+  if (lesson <= 6) return 'family';
+  if (lesson <= 9) return 'daily';
+  return 'shopping';
+};
 
 export default function ConversationList() {
   const [activeLevel, setActiveLevel] = useState(1);
+  const [conversations, setConversations] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const filteredConvs = conversations.filter(c => c.level === activeLevel);
+  React.useEffect(() => {
+    async function fetchConvs() {
+      setLoading(true);
+      const { data, error } = await supabase
+        .from('texts')
+        .select('*')
+        .eq('book_level', activeLevel)
+        .eq('type', 'dialogue')
+        .order('lesson_number', { ascending: true })
+        .order('text_number', { ascending: true });
+
+      if (!error && data) {
+        setConversations(data.map(d => {
+          // Parse lines to check how many roles
+          let rolesCount = 2;
+          try {
+            const lines = JSON.parse(d.content);
+            const roles = new Set(lines.map((l: any) => l.speaker));
+            rolesCount = roles.size;
+          } catch(e) {}
+
+          return {
+            id: d.id,
+            level: d.book_level,
+            lesson: d.lesson_number,
+            text_no: d.text_number,
+            title: `Bài ${d.lesson_number}.${d.text_number}: ${d.scene_vi || d.scene_zh || 'Hội thoại'}`,
+            zh: d.scene_zh,
+            vi: d.scene_vi,
+            topic: getTopic(d.lesson_number),
+            difficulty: d.book_level <= 2 ? 'Dễ' : 'Trung bình',
+            isFree: d.book_level <= 1, // HSK 1 free
+            rolesCount
+          };
+        }));
+      }
+      setLoading(false);
+    }
+    fetchConvs();
+  }, [activeLevel]);
+
+  const filteredConvs = conversations;
 
   return (
     <div className="py-12 px-4 md:px-8 bg-gray-50 min-h-screen">
@@ -95,7 +129,7 @@ export default function ConversationList() {
 
               <div className="mt-auto flex items-center justify-between">
                 <div className="flex items-center gap-2 text-xs font-bold text-gray-500">
-                  <Users size={14} className="text-blue-500" /> 2 vai diễn
+                  <Users size={14} className="text-blue-500" /> {conv.rolesCount || 2} vai diễn
                 </div>
                 
                 {conv.isFree ? (

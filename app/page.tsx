@@ -29,9 +29,9 @@ export default function Home() {
   ];
 
   const hskLevels = [
-    { level: 1, title: 'Tân HSK Giáo Trình 1', stats: '15 bài học · 300 từ · 40 ngữ pháp', desc: 'Giao tiếp cơ bản hàng ngày', color: 'text-red-500', bgColor: 'bg-red-50', borderColor: 'border-red-100', label: 'Cơ bản · HSK 3.0', labelBg: 'bg-red-100', labelText: 'text-red-700' },
-    { level: 2, title: 'Tân HSK Giáo Trình 2', stats: '15 bài học · +200 từ · 45 ngữ pháp', desc: 'Hội thoại và du lịch', color: 'text-orange-600', bgColor: 'bg-orange-50', borderColor: 'border-orange-100', label: 'Trung cấp · HSK 3.0', labelBg: 'bg-orange-100', labelText: 'text-orange-700' },
-    { level: 3, title: 'Tân HSK Giáo Trình 3', stats: '18 bài học · +500 từ · 63 ngữ pháp', desc: 'Giao tiếp tự nhiên', color: 'text-yellow-600', bgColor: 'bg-yellow-50', borderColor: 'border-yellow-100', label: 'Nâng cao · HSK 3.0', labelBg: 'bg-yellow-100', labelText: 'text-yellow-700' },
+    { level: 1, title: 'Giáo trình HSK 3.0 quyển 1', stats: '15 bài học · 300 từ · 40 ngữ pháp', desc: 'Giao tiếp cơ bản hàng daily', color: 'text-red-500', bgColor: 'bg-red-50', borderColor: 'border-red-100', label: 'Cơ bản · HSK 3.0', labelBg: 'bg-red-100', labelText: 'text-red-700' },
+    { level: 2, title: 'Giáo trình HSK 3.0 quyển 2', stats: '15 bài học · +200 từ · 45 ngữ pháp', desc: 'Hội thoại và du lịch', color: 'text-orange-600', bgColor: 'bg-orange-50', borderColor: 'border-orange-100', label: 'Trung cấp · HSK 3.0', labelBg: 'bg-orange-100', labelText: 'text-orange-700' },
+    { level: 3, title: 'Giáo trình HSK 3.0 quyển 3', stats: '18 bài học · +500 từ · 63 ngữ pháp', desc: 'Giao tiếp tự nhiên', color: 'text-yellow-600', bgColor: 'bg-yellow-50', borderColor: 'border-yellow-100', label: 'Nâng cao · HSK 3.0', labelBg: 'bg-yellow-100', labelText: 'text-yellow-700' },
   ];
 
   return (
@@ -46,8 +46,8 @@ export default function Home() {
           <h1 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
             Học tiếng Trung theo chuẩn <span className="text-red-500 uppercase">HSK 3.0</span> mới nhất
           </h1>
-          <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-            Giáo trình Tân HSK của Hanban/CTI — bộ sách chính thức duy nhất chuẩn HSK 3.0. Phương pháp lấy học viên làm trung tâm, tích hợp AI Tiểu Ngữ.
+          <p className="text-gray-600 font-medium mb-8 max-w-2xl mx-auto leading-relaxed">
+            Hệ thống tiên phong được thiết kế chuẩn theo giáo trình HSK 3.0 mới nhất từ Hanban/CTI. Hiện tại, dữ liệu đã nạp đầy đủ lộ trình từ <b>HSK 1 đến HSK 3</b>. Các cấp độ 4-9 sẽ được cập nhật liên tục ngay khi bộ sách chuẩn 3.0 được phát hành chính thức từ nhà xuất bản.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="/giao-trinh" className="bg-red-500 hover:bg-red-600 text-white px-8 py-3.5 rounded-xl font-black text-lg shadow-lg shadow-red-100 transition-all active:scale-95">
@@ -60,7 +60,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 2: HSK LEVELS (From Image 3) */}
+      {/* SECTION 2: HSK LEVELS */}
       <section className="pb-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -86,7 +86,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 3: ALL FEATURES GRID (From Image 4) */}
+      {/* SECTION 3: ALL FEATURES GRID */}
       <section className="py-16 px-4 bg-gray-50/50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl font-black mb-10 text-gray-800">Khám phá tất cả tính năng</h2>
@@ -108,12 +108,8 @@ export default function Home() {
               </Link>
             ))}
           </div>
-          <div className="mt-8 text-gray-400 text-sm font-bold flex items-center gap-2">
-            <span>→ Tab HSK 3.0 trên navbar mở dropdown: HSK 1 / HSK 2 / HSK 3 với màu riêng từng cấp</span>
-          </div>
         </div>
       </section>
     </div>
   );
 }
-
