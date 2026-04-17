@@ -75,7 +75,6 @@ export async function POST(request: Request) {
               status: 'active',
               plan: newPlan,
               sepay_ref: body.id || body.paymentRef || "WEBHOOK_AUTO",
-              activated_at: new Date().toISOString(),
               expires_at: newExpiry.toISOString()
             })
             .eq('user_id', subData.user_id);
