@@ -29,6 +29,7 @@ interface VocabWord {
   meaning_en?: string;
   part_of_speech: string;
   hsk_level: number;
+  lesson_number?: number;
   example_zh?: string;
   example_pinyin?: string;
   example_vi?: string;
