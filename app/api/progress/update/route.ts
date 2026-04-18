@@ -24,14 +24,18 @@ export async function POST(request: Request) {
     if (progressError) throw progressError;
 
     // 2. Update Streak & XP
-    // In a real app, we'd check if the last activity was today to increment streak.
-    // For now, we increment XP only.
+    // Dynamic XP calculation
+    let xpGained = 10; // Default
+    if (contentType === 'lesson') xpGained = 50;
+    if (contentType === 'quiz') xpGained = 20;
+    if (contentType === 'exam') xpGained = 100;
+
     const { error: streakError } = await supabase.rpc('increment_xp', { 
       u_id: userId, 
-      xp_inc: 10 
+      xp_inc: xpGained 
     });
 
-    // If RPC fails (not implemented yet), fallback to a simple upsert
+    // If RPC fails, fallback
     if (streakError) {
       const { data: streak } = await supabase
         .from('user_streaks')
@@ -41,13 +45,13 @@ export async function POST(request: Request) {
 
       await supabase.from('user_streaks').upsert({
         user_id: userId,
-        total_xp: (streak?.total_xp || 0) + 10,
+        total_xp: (streak?.total_xp || 0) + xpGained,
         last_activity: new Date().toISOString(),
         streak_count: streak?.streak_count || 1
       });
     }
 
-    return NextResponse.json({ success: true, xpGained: 10 });
+    return NextResponse.json({ success: true, xpGained });
   } catch (error: any) {
     console.error('Progress Update Error:', error.message);
     return NextResponse.json({ error: error.message }, { status: 500 });
