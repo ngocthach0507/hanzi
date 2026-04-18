@@ -34,6 +34,22 @@ export default function RootLayout({
               gtag('config', 'G-RFGKV7WHTS');
             `}
           </Script>
+          {/* Structured Data: Organization & WebSite */}
+          <Script id="structured-data" type="application/ld+json" strategy="afterInteractive">
+            {`
+              {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Hanzi.io.vn",
+                "url": "https://hanzi.io.vn",
+                "logo": "https://hanzi.io.vn/logo.png",
+                "sameAs": [
+                  "https://www.facebook.com/tiengtrunghongdou"
+                ],
+                "description": "Nền tảng học tiếng Trung HSK 3.0 chuyên biệt cho người Việt."
+              }
+            `}
+          </Script>
         </head>
         <body className="antialiased font-sans" suppressHydrationWarning>
           <AppNavbar />
