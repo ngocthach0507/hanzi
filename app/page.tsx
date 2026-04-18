@@ -13,7 +13,11 @@ import {
   FileText, 
   PenTool,
   ChevronRight,
-  ArrowRight
+  ArrowRight,
+  CheckCircle2,
+  Star,
+  X,
+  Crown
 } from 'lucide-react';
 
 export default function Home() {

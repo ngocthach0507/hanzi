@@ -21,7 +21,8 @@ import {
   Calendar,
   GraduationCap,
   ShieldCheck,
-  LayoutDashboard
+  LayoutDashboard,
+  Sparkles
 } from 'lucide-react';
 
 export default function Dashboard() {
