@@ -66,7 +66,7 @@ export default function Home() {
             <Link href="/giao-trinh" className="group bg-[#FF5E3A] hover:bg-[#D85A30] text-white px-10 py-5 rounded-2xl font-black text-xl shadow-2xl shadow-orange-200 transition-all active:scale-95 flex items-center gap-3">
               Bắt đầu học ngay <ArrowRight size={22} className="group-hover:translate-x-1 transition-transform" />
             </Link>
-            <Link href="/luyen-thi" className="bg-white/80 backdrop-blur-md hover:bg-white text-slate-800 px-10 py-5 rounded-2xl font-black text-lg border-2 border-slate-100 transition-all flex items-center gap-2 shadow-sm">
+            <Link href="/kiem-tra-dau-vao" className="bg-white/80 backdrop-blur-md hover:bg-white text-slate-800 px-10 py-5 rounded-2xl font-black text-lg border-2 border-slate-100 transition-all flex items-center gap-2 shadow-sm">
               Kiểm tra trình độ <PenTool size={20} />
             </Link>
           </div>
@@ -204,6 +204,95 @@ export default function Home() {
           <Link href="/giao-trinh" className="inline-flex items-center gap-3 bg-slate-900 hover:bg-black text-white px-12 py-5 rounded-2xl font-black text-xl shadow-2xl transition-all active:scale-95">
             MỞ KHÓA BÀI HỌC <ArrowRight size={24} />
           </Link>
+        </div>
+      </section>
+
+      {/* SECTION: PRICING (PUBLIC) */}
+      <section className="py-24 px-4 bg-slate-50" id="pricing">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-4 tracking-tighter">Bảng giá công khai</h2>
+            <p className="text-slate-400 font-bold max-w-2xl mx-auto">Lựa chọn gói học phù hợp với mục tiêu của bạn.</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* Free Plan */}
+            <div className="bg-white p-10 rounded-[40px] border border-gray-100 shadow-sm flex flex-col">
+              <div className="mb-8">
+                <h3 className="text-xl font-black text-gray-900 mb-2">Học viên Free</h3>
+                <div className="text-4xl font-black text-gray-900">0đ<span className="text-sm text-gray-400 font-bold">/vĩnh viễn</span></div>
+              </div>
+              <ul className="space-y-4 mb-10 flex-1">
+                <li className="flex items-center gap-3 text-sm font-bold text-gray-600">
+                  <CheckCircle2 size={18} className="text-green-500" /> Toàn bộ HSK 1 (300 từ)
+                </li>
+                <li className="flex items-center gap-3 text-sm font-bold text-gray-600">
+                  <CheckCircle2 size={18} className="text-green-500" /> Luyện viết Hanzi cơ bản
+                </li>
+                <li className="flex items-center gap-3 text-sm font-bold text-gray-600 opacity-50">
+                  <X size={18} className="text-gray-300" /> Đề thi HSK 2-3
+                </li>
+              </ul>
+              <Link href="/dang-ky" className="w-full py-4 bg-gray-100 text-gray-900 rounded-2xl font-black text-center hover:bg-gray-200 transition-all">
+                ĐĂNG KÝ NGAY
+              </Link>
+            </div>
+
+            {/* Premium Plan */}
+            <div className="bg-gray-900 p-10 rounded-[40px] border-4 border-orange-500/20 shadow-2xl flex flex-col relative overflow-hidden">
+              <div className="absolute top-0 right-0 bg-orange-500 text-white px-6 py-2 rounded-bl-3xl font-black text-[10px] uppercase tracking-widest">PHỔ BIẾN NHẤT</div>
+              <div className="mb-8">
+                <h3 className="text-xl font-black text-white mb-2">HSK 3.0 Premium</h3>
+                <div className="text-4xl font-black text-white">499.000đ<span className="text-sm text-gray-400 font-bold">/6 tháng</span></div>
+              </div>
+              <ul className="space-y-4 mb-10 flex-1">
+                <li className="flex items-center gap-3 text-sm font-bold text-gray-300">
+                  <Crown size={18} className="text-yellow-400" /> Mở khóa toàn bộ HSK 1-6
+                </li>
+                <li className="flex items-center gap-3 text-sm font-bold text-gray-300">
+                  <Crown size={18} className="text-yellow-400" /> 120+ Đề thi chuẩn 2026
+                </li>
+                <li className="flex items-center gap-3 text-sm font-bold text-gray-300">
+                  <Crown size={18} className="text-yellow-400" /> Xiaoyu AI Grammar Assistant
+                </li>
+                <li className="flex items-center gap-3 text-sm font-bold text-gray-300">
+                  <Crown size={18} className="text-yellow-400" /> Tải Ebook 1200 từ vựng Free
+                </li>
+              </ul>
+              <Link href="/nang-cap" className="w-full py-4 bg-[#FF5E3A] text-white rounded-2xl font-black text-center hover:bg-[#D85A30] transition-all shadow-xl shadow-orange-900/20">
+                NÂNG CẤP NGAY
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION: TESTIMONIALS (SOCIAL PROOF) */}
+      <section className="py-24 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-4 tracking-tighter">Học viên nói gì về Hanzi?</h2>
+            <p className="text-slate-400 font-bold max-w-2xl mx-auto">Những câu chuyện thành công thực tế từ cộng đồng học viên Tiếng Trung Hongdou.</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              { name: 'Nguyễn Minh Anh', level: 'HSK 4', text: 'Nhờ Hanzi mà mình đã nắm vững 500 từ vựng HSK 3.0 chỉ trong 2 tháng. Giao diện cực kỳ Wow!', avatar: 'MA' },
+              { name: 'Trần Hoàng Nam', level: 'HSK 3', text: 'Thích nhất là phần luyện viết và đề thi chấm tự động. Rất sát với thực tế đi thi.', avatar: 'HN' },
+              { name: 'Lê Thu Trang', level: 'HSK 5', text: 'Mình đã thử nhiều app nhưng chỉ Hanzi mới có giáo trình HSK 3.0 chuẩn nhất hiện nay.', avatar: 'TT' },
+            ].map((t, i) => (
+              <div key={i} className="p-10 bg-gray-50 rounded-[40px] border border-transparent hover:border-orange-100 transition-all">
+                <div className="flex items-center gap-4 mb-6">
+                   <div className="w-12 h-12 bg-orange-100 rounded-2xl flex items-center justify-center font-black text-[#D85A30]">{t.avatar}</div>
+                   <div>
+                      <div className="font-black text-gray-900">{t.name}</div>
+                      <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest">{t.level} Certified</div>
+                   </div>
+                </div>
+                <p className="text-gray-600 font-medium leading-relaxed italic">"{t.text}"</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </div>

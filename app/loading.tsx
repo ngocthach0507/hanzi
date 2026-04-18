@@ -20,11 +20,8 @@ export default function Loading() {
       </div>
       
       <div className="mt-8 text-center">
-        <h2 className="text-xl font-black text-gray-900 tracking-tighter mb-1">
-          hanzi<span className="text-[#D85A30]">.io.vn</span>
-        </h2>
-        <p className="text-[10px] font-bold text-gray-400 uppercase tracking-[0.2em] animate-pulse">
-          Đang chuẩn bị lộ trình...
+        <p className="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] animate-pulse">
+          Đang tải dữ liệu...
         </p>
       </div>
     </div>

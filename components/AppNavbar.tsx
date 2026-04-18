@@ -51,7 +51,7 @@ export default function AppNavbar() {
     { 
       label: 'Luyện tập', 
       icon: <Dumbbell className="w-4 h-4" />, 
-      href: '#',
+      href: '/luyen-tap',
       color: 'text-blue-500',
       hoverBg: 'hover:bg-blue-50',
       hoverBorder: 'hover:border-blue-500',
