@@ -70,7 +70,7 @@ export default function AppNavbar() {
       hoverBorder: 'hover:border-green-500',
       dropdown: [
         { label: 'Từ vựng chủ đề', href: '/tu-vung-chu-de' },
-        { label: 'Từ vựng HSK', href: '/giao-trinh' },
+        { label: 'Từ vựng HSK', href: '/tu-vung-hsk' },
       ]
     },
     { label: 'Hội thoại', icon: <MessageCircle className="w-4 h-4" />, href: '/hoi-thoai', color: 'text-orange-500', hoverBg: 'hover:bg-orange-50', hoverBorder: 'hover:border-orange-500' },
