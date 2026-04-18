@@ -47,7 +47,7 @@ export default function AppNavbar() {
   }, [user, isLoaded]);
 
   const subNavItems = [
-    { label: 'Giáo trình HSK 3.0', icon: <Book className="w-4 h-4" />, href: '/giao-trinh', color: 'text-red-500', hoverBg: 'hover:bg-red-50', hoverBorder: 'hover:border-red-500' },
+    { label: 'Giáo trình HSK 3.0', icon: <Book className="w-4 h-4" />, href: '/hsk-3-0', color: 'text-red-500', hoverBg: 'hover:bg-red-50', hoverBorder: 'hover:border-red-500' },
     { 
       label: 'Luyện tập', 
       icon: <Dumbbell className="w-4 h-4" />, 
@@ -99,7 +99,7 @@ export default function AppNavbar() {
             <input type="text" placeholder="Tìm kiếm khóa học..." className="bg-transparent text-sm w-full outline-none text-slate-700 font-bold" />
           </div>
 
-          <Link href="/giao-trinh" className="hidden md:flex items-center gap-2 text-xs font-black text-slate-700 hover:text-[#FF5E3A] relative py-2 px-4 bg-slate-50 rounded-xl transition-all hover:bg-orange-50">
+          <Link href="/hsk-3-0" className="hidden md:flex items-center gap-2 text-xs font-black text-slate-700 hover:text-[#FF5E3A] relative py-2 px-4 bg-slate-50 rounded-xl transition-all hover:bg-orange-50">
             📚 HSK 3.0
             <span className="bg-[#FF5E3A] text-white text-[8px] px-1.5 py-0.5 rounded-full font-black animate-pulse">NEW</span>
           </Link>

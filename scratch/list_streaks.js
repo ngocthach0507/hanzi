@@ -6,17 +6,15 @@ const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseServiceKey = process.env.SUPABASE_SERVICE_KEY;
 const supabase = createClient(supabaseUrl, supabaseServiceKey);
 
-async function checkRecent() {
-  console.log('--- MOST RECENT SUBSCRIPTIONS ---');
+async function findNewUsers() {
+  console.log('--- ALL USER STREAKS ---');
   const { data, error } = await supabase
-    .from('subscriptions')
-    .select('*')
-    .order('id', { ascending: false }) // Since UUID might not be sequential, but let's try
-    .limit(10);
+    .from('user_streaks')
+    .select('*');
 
   if (data) {
     data.forEach(d => console.log(d));
   }
 }
 
-checkRecent();
+findNewUsers();

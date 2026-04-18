@@ -1,5 +1,5 @@
 # SESSION CONTEXT — Hanzi.io.vn Learning Platform
-> Cập nhật lần cuối: 2026-04-16 | Phiên làm việc b272e485
+> Cập nhật lần cuối: 2026-04-18 | Phiên làm việc 077c41cb
 
 ---
 
@@ -25,6 +25,7 @@ app/
   hoi-thoai/              ← Hội thoại HSK1/2/3
   luyen-nghe/             ← Luyện nghe (có exercises)
   giao-trinh/             ← Giáo trình HSK
+  tu-vung-hsk/            ← Trang từ vựng HSK 3.0 chuyên sâu (MỚI)
 
 constants/
   radicals.ts             ← 214 bộ thủ, interface có cả char (giản) + charTrad (phồn)
@@ -104,13 +105,21 @@ node scripts/import-exams.mjs
 - [x] TTS button hoạt động (Web Speech API, zh-CN)
 - [x] Error overlay khi HanziWriter không có data cho chữ
 
-### Lượng từ (`/luong-tu`) — **MỚI BUILD**
+### Lượng từ (`/luong-tu`)
 - [x] Trang đầy đủ từ `data/measure-words.json`
 - [x] Card mỗi lượng từ: chữ to + pinyin + nghĩa + nhóm màu riêng
 - [x] Filter theo 15 danh mục + search + toggle Free
 - [x] Accordion ví dụ (4 câu/từ)
 - [x] TTS click to speak
 - [x] Banner cú pháp + mẹo học
+
+### Từ vựng HSK 3.0 (`/tu-vung-hsk`) — **MỚI BUILD**
+- [x] Trang liệt kê từ vựng theo HSK 1-6 (HSK 3.0 Syllabus 2026)
+- [x] Popup chi tiết Dictionary Style (Tabs: Từ vựng, Hán tự, Ví dụ, Ngữ pháp, Luyện tập)
+- [x] Tích hợp HanziWriter xem stroke order trực quan
+- [x] Hệ thống luyện tập tự động: 7 câu hỏi/từ (MCQ, Audio, Reorder, Fill-blank, Writing)
+- [x] Ghi chú cá nhân (Local Storage) + Từ ghép/liên quan
+- [x] Patch dữ liệu ví dụ/nghĩa Việt cho HSK 1 qua script `patch-vocab-examples.mjs`
 
 ---
 
