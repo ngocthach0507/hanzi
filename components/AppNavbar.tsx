@@ -90,6 +90,7 @@ export default function AppNavbar() {
           <div className="hidden xl:flex items-center gap-8 ml-4">
             <button onClick={() => setActiveModal('intro')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Giới thiệu</button>
             <button onClick={() => setActiveModal('teacher')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Học giáo viên</button>
+            <Link href="/blog" className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Blog</Link>
           </div>
         </div>
 
@@ -216,6 +217,10 @@ export default function AppNavbar() {
                    <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gray-100 text-gray-500"><GraduationCap size={18} /></div>
                    <span className="font-black text-sm">Học với giáo viên</span>
                 </button>
+                <Link href="/blog" onClick={() => setIsMobileMenuOpen(false)} className="w-full flex items-center gap-4 p-3.5 rounded-2xl hover:bg-gray-50 text-gray-700">
+                    <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gray-100 text-gray-500"><Book className="w-4 h-4" /></div>
+                    <span className="font-black text-sm">Blog & Cẩm nang</span>
+                 </Link>
              </div>
           </div>
           {!isPro && (
