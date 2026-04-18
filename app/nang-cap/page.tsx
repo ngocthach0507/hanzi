@@ -14,6 +14,7 @@ import {
   ClipboardCheck,
   Crown
 } from "lucide-react";
+import { trackEvent } from "@/lib/gtag";
 
 const plans = [
   {
@@ -121,6 +122,14 @@ export default function UpgradePage() {
 
       if (result.success && result.data) {
         setPaymentInfo(result.data);
+        
+        // Track Begin Checkout
+        trackEvent('begin_checkout', {
+          item_id: plan.id,
+          item_name: plan.name,
+          value: plan.price,
+          currency: 'VND'
+        });
       } else {
         alert(`Lỗi hệ thống: ${result.error || "Không thể tạo mã QR"}`);
       }
@@ -139,6 +148,13 @@ export default function UpgradePage() {
         const data = await response.json();
 
         if (data.isPro) {
+          // Track Purchase Success
+          trackEvent('purchase', {
+            transaction_id: paymentInfo.paymentRef,
+            value: paymentInfo.amount,
+            currency: 'VND'
+          });
+
           window.location.reload();
           return;
         }

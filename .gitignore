@@ -38,3 +38,4 @@ hanzi-final-kit/
 
 # clerk configuration (can include secrets)
 /.clerk/
+backup.md

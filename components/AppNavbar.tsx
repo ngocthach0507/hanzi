@@ -131,7 +131,9 @@ export default function AppNavbar() {
                 <SignInButton mode="modal">
                   <button className="text-sm font-bold text-gray-500 hover:text-gray-900">Đăng nhập</button>
                 </SignInButton>
-                <Link href="/dang-ky" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-bold shadow-md shadow-blue-100">Đăng ký</Link>
+                <Link href="/dang-ky" className="bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600 text-white px-5 py-2 rounded-xl text-sm font-black shadow-lg shadow-red-100 transition-all active:scale-95 flex items-center gap-2">
+                   ĐĂNG KÝ MIỄN PHÍ
+                </Link>
               </div>
             )}
             <button className="md:hidden p-2 text-gray-700 bg-gray-50 rounded-xl hover:bg-gray-100 transition-all active:scale-90" onClick={() => setIsMobileMenuOpen(true)}>

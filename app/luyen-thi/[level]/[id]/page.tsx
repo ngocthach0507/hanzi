@@ -20,6 +20,7 @@ import {
   AlertCircle,
   History
 } from 'lucide-react';
+import { trackEvent } from '@/lib/gtag';
 
 export default function ExamInterface() {
   const params = useParams();
@@ -114,6 +115,16 @@ export default function ExamInterface() {
     });
     
     setIsFinished(true);
+
+    // Track event in Google Analytics
+    trackEvent('complete_exam', {
+      category: 'Engagement',
+      label: `HSK ${numericLevel} - ID ${id}`,
+      value: score.total,
+      score_total: score.total,
+      level: numericLevel,
+      exam_id: id
+    });
   };
 
   if (isLoading) {

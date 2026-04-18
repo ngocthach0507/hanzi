@@ -120,8 +120,31 @@ export default function LessonList() {
         {/* Lesson List Grid */}
         <div className="grid grid-cols-1 gap-4">
           {lessons.map((lesson) => {
+            const isGuest = !user?.id;
             const isCompleted = userProgress.has(lesson.lesson_number);
-            const isUnlocked = isPro || lesson.lesson_number <= 2; // Chỉ mở khóa 2 bài đầu cho bản dùng thử
+            
+            // Logic mở khóa mới (Conversion Funnel):
+            // 1. Khách (Chưa đăng nhập): Chỉ xem được 1 bài đầu
+            // 2. Thành viên (Đã đăng nhập, chưa mua Pro): Xem được 3 bài đầu
+            // 3. Pro: Xem tất cả
+            let isUnlocked = false;
+            let lockReason = "";
+
+            if (isPro) {
+              isUnlocked = true;
+            } else if (!isGuest) {
+              if (lesson.lesson_number <= 3) {
+                isUnlocked = true;
+              } else {
+                lockReason = "Yêu cầu Premium";
+              }
+            } else {
+              if (lesson.lesson_number <= 1) {
+                isUnlocked = true;
+              } else {
+                lockReason = "Đăng ký miễn phí";
+              }
+            }
 
             return (
               <div 
@@ -141,11 +164,11 @@ export default function LessonList() {
                 {/* Content */}
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 mb-2">
-                    <h3 className="text-xl md:text-2xl font-black text-gray-900 truncate leading-tight">
+                    <h3 className={`text-xl md:text-2xl font-black text-gray-900 truncate leading-tight ${!isUnlocked ? 'blur-[2px]' : ''}`}>
                        {lesson.title_zh}
                     </h3>
                   </div>
-                  <p className="text-gray-500 font-bold mb-4">{lesson.title_vi}</p>
+                  <p className={`text-gray-500 font-bold mb-4 ${!isUnlocked ? 'blur-[1px]' : ''}`}>{lesson.title_vi}</p>
                   
                   <div className="flex flex-wrap items-center gap-4">
                     {isUnlocked ? (
@@ -164,8 +187,8 @@ export default function LessonList() {
                          )}
                        </>
                     ) : (
-                      <div className="flex items-center gap-2 text-[10px] font-black text-red-500 uppercase tracking-widest">
-                        <Lock size={12} /> Cần kích hoạt PREMIUM
+                      <div className={`flex items-center gap-2 text-[10px] font-black uppercase tracking-widest ${lockReason === "Yêu cầu Premium" ? 'text-orange-500' : 'text-blue-500'}`}>
+                        <Lock size={12} /> {lockReason === "Yêu cầu Premium" ? 'Mở khóa với Premium' : 'Đăng ký để học tiếp'}
                       </div>
                     )}
                   </div>
@@ -181,7 +204,12 @@ export default function LessonList() {
                       <ArrowRight size={28} strokeWidth={3} />
                     </Link>
                   ) : (
-                    <Link href="/nang-cap" className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-gray-100 text-gray-400 flex items-center justify-center transition-all group-hover:bg-red-50 group-hover:text-red-500">
+                    <Link 
+                      href={isGuest ? "/dang-ky" : "/nang-cap"} 
+                      className={`w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center transition-all ${
+                        lockReason === "Yêu cầu Premium" ? 'bg-orange-50 text-orange-500 hover:bg-orange-100' : 'bg-blue-50 text-blue-500 hover:bg-blue-100'
+                      }`}
+                    >
                       <Lock size={28} />
                     </Link>
                   )}

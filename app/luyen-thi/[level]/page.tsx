@@ -32,17 +32,16 @@ export default function ExamListByLevel() {
       if (!isUserLoaded) return;
       setIsLoading(true);
 
-      // Check Premium status
+      // Check Premium status via Secure API
       if (user) {
-        const { data: subData } = await supabase
-          .from('subscriptions')
-          .select('plan, status, expires_at')
-          .eq('user_id', user.id)
-          .single();
-        
-        if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' &&
-            (subData.expires_at ? new Date(subData.expires_at) > new Date() : false)) {
-          setIsPro(true);
+        try {
+          const res = await fetch('/api/user/subscription');
+          const data = await res.json();
+          if (data.isPro) {
+            setIsPro(true);
+          }
+        } catch (err) {
+          console.error("Failed to check subscription:", err);
         }
       }
 
@@ -105,8 +104,27 @@ export default function ExamListByLevel() {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {exams.map((exam, index) => {
-              const isFree = index === 0; // Chỉ đề thi đầu tiên miễn phí
-              const canAccess = isFree || isPro;
+              const isGuest = !user;
+              const lessonNum = index + 1;
+              
+              let canAccess = false;
+              let lockReason = "";
+
+              if (isPro) {
+                canAccess = true;
+              } else if (!isGuest) {
+                if (lessonNum <= 3) {
+                  canAccess = true;
+                } else {
+                  lockReason = "Yêu cầu Premium";
+                }
+              } else {
+                if (lessonNum <= 1) {
+                  canAccess = true;
+                } else {
+                  lockReason = "Đăng ký miễn phí";
+                }
+              }
 
               return (
                 <div 
@@ -119,8 +137,11 @@ export default function ExamListByLevel() {
                 >
                   {!canAccess && (
                     <div className="absolute inset-0 z-10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-white/40 backdrop-blur-[2px] rounded-[32px]">
-                      <Link href="/nang-cap" className="bg-orange-500 text-white px-6 py-2 rounded-xl font-black shadow-xl">
-                        MỞ KHÓA PREMIUM
+                      <Link 
+                        href={isGuest ? "/dang-ky" : "/nang-cap"} 
+                        className={`px-6 py-2 rounded-xl font-black shadow-xl ${lockReason === "Yêu cầu Premium" ? 'bg-orange-500 text-white' : 'bg-blue-600 text-white'}`}
+                      >
+                        {lockReason === "Yêu cầu Premium" ? 'MỞ KHÓA PREMIUM' : 'ĐĂNG KÝ MIỄN PHÍ'}
                       </Link>
                     </div>
                   )}
@@ -132,9 +153,9 @@ export default function ExamListByLevel() {
                       {canAccess ? <FileText size={24} /> : <Lock size={24} />}
                     </div>
                     <span className={`text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full italic ${
-                      canAccess ? 'bg-blue-50 text-blue-500' : 'bg-gray-100 text-gray-400'
+                      canAccess ? 'bg-blue-50 text-blue-500' : (lockReason === "Yêu cầu Premium" ? 'bg-orange-50 text-orange-500' : 'bg-blue-50 text-blue-600')
                     }`}>
-                      {canAccess ? 'Miễn phí' : '🔒 PREMIUM'}
+                      {canAccess ? 'Miễn phí' : (lockReason === "Yêu cầu Premium" ? '🔒 PREMIUM' : '🔒 ĐĂNG KÝ')}
                     </span>
                   </div>
 
