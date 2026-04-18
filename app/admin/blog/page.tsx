@@ -147,14 +147,46 @@ export default function BlogAdmin() {
                          </select>
                       </div>
                       <div>
-                         <label className="block text-xs font-black text-gray-400 uppercase tracking-widest mb-2">Ảnh bìa (URL)</label>
-                         <input 
-                           type="text" 
-                           value={editingPost.image_url}
-                           onChange={(e) => setEditingPost({ ...editingPost, image_url: e.target.value })}
-                           className="w-full bg-gray-50 border-2 border-gray-100 rounded-2xl p-4 font-bold focus:border-[#D85A30] outline-none transition-all"
-                           placeholder="https://..."
-                         />
+                        <label className="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Ảnh bìa (URL)</label>
+                        <input
+                          type="text"
+                          value={editingPost.image_url}
+                          onChange={(e) => setEditingPost({ ...editingPost, image_url: e.target.value })}
+                          className="w-full px-6 py-4 bg-slate-50 border-none rounded-2xl focus:ring-2 focus:ring-orange-500 transition-all font-medium"
+                          placeholder="https://..."
+                        />
+                      </div>
+                   </div>
+
+                   {/* SEO Section */}
+                   <div className="pt-8 border-t border-slate-100 space-y-6">
+                      <div className="flex items-center gap-2 text-slate-900 mb-4">
+                          <div className="w-8 h-8 rounded-lg bg-blue-50 flex items-center justify-center text-blue-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+                          </div>
+                          <h3 className="font-black text-sm uppercase tracking-wider">Cấu hình SEO (Google)</h3>
+                      </div>
+                      
+                      <div className="grid grid-cols-1 gap-6">
+                          <div>
+                            <label className="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Meta Title</label>
+                            <input
+                              type="text"
+                              value={editingPost.meta_title}
+                              onChange={(e) => setEditingPost({ ...editingPost, meta_title: e.target.value })}
+                              className="w-full px-6 py-4 bg-slate-50 border-none rounded-2xl focus:ring-2 focus:ring-blue-500 transition-all font-medium"
+                              placeholder="Tiêu đề hiển thị trên Google..."
+                            />
+                          </div>
+                          <div>
+                            <label className="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Meta Description</label>
+                            <textarea
+                              value={editingPost.meta_description}
+                              onChange={(e) => setEditingPost({ ...editingPost, meta_description: e.target.value })}
+                              className="w-full px-6 py-4 bg-slate-50 border-none rounded-2xl focus:ring-2 focus:ring-blue-500 transition-all font-medium min-h-[100px]"
+                              placeholder="Mô tả ngắn gọn để người dùng bấm vào từ Google..."
+                            />
+                          </div>
                       </div>
                    </div>
                 </div>
