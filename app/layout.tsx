@@ -9,6 +9,9 @@ import WelcomeModal from "@/components/WelcomeModal";
 export const metadata: Metadata = {
   title: "hanzi.io.vn - Nền tảng học Tiếng Trung HSK 3.0 Toàn diện",
   description: "Học tiếng Trung từ cơ bản đến nâng cao chuẩn HSK 1-6. Hệ thống Flashcard SRS, luyện nghe AI, và kho đề thi THPT miễn phí.",
+  verification: {
+    google: "FRMlTE6ucESdUiQwB2pROA4yK41yS5TIO8JLUtFwBFk",
+  },
 };
 
 export default function RootLayout({
