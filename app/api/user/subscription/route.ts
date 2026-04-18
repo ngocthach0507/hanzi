@@ -29,14 +29,28 @@ export async function GET(request: Request) {
       return NextResponse.json({ isPro: false, error: error.message });
     }
 
-    const isPro = data && data.plan !== 'free' && data.status === 'active' && 
-                 (data.expires_at ? new Date(data.expires_at) > new Date() : false);
+    // Logic xác định Pro: 
+    // - Có dữ liệu
+    // - Plan không phải 'free' và không rỗng
+    // - Status là 'active'
+    // - Chưa hết hạn (hoặc là gói vĩnh viễn)
+    const isPro = !!(
+      data && 
+      data.plan && 
+      data.plan !== 'free' && 
+      data.status === 'active' && 
+      (data.expires_at ? new Date(data.expires_at) > new Date() : (data.plan.includes('lifetime')))
+    );
+
+    if (full) {
+      return NextResponse.json({ isPro, data });
+    }
 
     if (isPro) {
       return NextResponse.json({ isPro: true, plan: data.plan });
     }
 
-    return NextResponse.json({ isPro: false });
+    return NextResponse.json({ isPro: false, status: data?.status || 'none' });
   } catch (err: any) {
     console.error("Sub API Catch:", err);
     return NextResponse.json({ isPro: false });

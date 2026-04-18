@@ -43,20 +43,11 @@ export default function Dashboard() {
         const userId = user.id;
 
         // 1. Fetch Subscription Status via Secure API
-        const subRes = await fetch('/api/user/subscription');
+        const subRes = await fetch('/api/user/subscription?full=true');
         const subResult = await subRes.json();
         
-        // Mocking the structure expected by the component
-        if (subResult.isPro) {
-          // We need to fetch the full record for expires_at etc. from Admin if needed, 
-          // but for simplicity, let's just use the result.
-          // Actually, let's re-fetch with Admin to get full details for the dashboard
-          const { data: subData } = await (async () => {
-             const res = await fetch('/api/user/subscription?full=true');
-             const d = await res.json();
-             return { data: d.data };
-          })();
-          setSubscription(subData);
+        if (subResult.data) {
+          setSubscription(subResult.data);
         } else {
           setSubscription(null);
         }
@@ -164,10 +155,12 @@ export default function Dashboard() {
     );
   }
 
-  const isPro = subscription?.plan && 
-                subscription.plan !== 'free' && 
-                subscription?.status === 'active' && 
-                (subscription.expires_at ? new Date(subscription.expires_at) > new Date() : false);
+  const isPro = !!(
+    subscription?.plan && 
+    subscription.plan !== 'free' && 
+    subscription?.status === 'active' && 
+    (subscription.expires_at ? new Date(subscription.expires_at) > new Date() : (subscription.plan.includes('lifetime')))
+  );
 
   return (
     <div className="min-h-screen bg-[#FDFDFD] pb-20">
@@ -210,8 +203,11 @@ export default function Dashboard() {
                 </div>
                 <div className="flex items-center justify-between text-xs">
                   <span className="text-gray-400 font-bold uppercase tracking-wider text-[9px] md:text-[10px]">Loại tài khoản</span>
-                  <span className={`px-2 py-0.5 rounded-md font-black text-[9px] md:text-[10px] uppercase ${isPro ? 'bg-yellow-50 text-yellow-600' : 'bg-gray-50 text-gray-500'}`}>
-                    {isPro ? 'Premium' : 'Miễn phí'}
+                  <span className={`px-2 py-0.5 rounded-md font-black text-[9px] md:text-[10px] uppercase ${
+                    isPro ? 'bg-yellow-50 text-yellow-600' : 
+                    (subscription?.status === 'pending_payment' ? 'bg-blue-50 text-blue-600 animate-pulse' : 'bg-gray-50 text-gray-500')
+                  }`}>
+                    {isPro ? 'Premium' : (subscription?.status === 'pending_payment' ? 'Đang chờ thanh toán' : 'Miễn phí')}
                   </span>
                 </div>
                 {isPro && daysLeft !== null && (

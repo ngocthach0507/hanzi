@@ -22,8 +22,8 @@ export async function POST(request: Request) {
     const referenceCode = String(payload.referenceCode || "");
     
     // Tìm mã đơn hàng trong nội dung chuyển khoản (Ví dụ: DH811524)
-    const orderMatch = content.match(/DH\d+/);
-    const paymentRef = orderMatch ? orderMatch[0] : (referenceCode !== "" ? referenceCode : null);
+    const orderMatch = content.match(/DH\s?\d+/);
+    const paymentRef = orderMatch ? orderMatch[0].replace(/\s/g, '') : (referenceCode !== "" ? referenceCode : null);
 
     if (!paymentRef) {
       const msg = "No payment reference found in content or referenceCode";
