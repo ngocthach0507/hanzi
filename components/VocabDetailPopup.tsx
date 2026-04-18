@@ -55,6 +55,26 @@ export default function VocabDetailPopup({ word, onClose, otherWords = [] }: Voc
   const [practiceCompleted, setPracticeCompleted] = useState(false);
   const [score, setScore] = useState(0);
 
+  // Personal Notes State
+  const [personalNotes, setPersonalNotes] = useState('');
+
+  // Load Notes
+  useEffect(() => {
+    const saved = localStorage.getItem(`vocab_note_${word.id}`);
+    if (saved) setPersonalNotes(saved);
+  }, [word.id]);
+
+  const saveNote = () => {
+    localStorage.setItem(`vocab_note_${word.id}`, personalNotes);
+    alert('Đã lưu ghi chú!');
+  };
+
+  // Find Related Words (Words containing any of the characters)
+  const relatedWords = otherWords.filter(w => 
+    w.id !== word.id && 
+    word.hanzi.split('').some(char => w.hanzi.includes(char))
+  ).slice(0, 12);
+
   // Initialize Hanzi Writer
   useEffect(() => {
     if (activeTab === 'hanzi' && hanziRef.current) {
@@ -378,9 +398,15 @@ export default function VocabDetailPopup({ word, onClose, otherWords = [] }: Voc
                          </div>
                       </div>
                       <div className="space-y-4">
-                         <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Ghi chú</div>
-                         <div className="bg-slate-50 p-6 rounded-3xl min-h-[100px] flex items-center justify-center border-2 border-dashed border-slate-200">
-                            <span className="text-gray-400 text-xs font-bold">Chưa có ghi chú nào cho từ này.</span>
+                         <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Ghi chú nhanh</div>
+                         <div className="bg-slate-50 p-6 rounded-3xl min-h-[100px] flex flex-col">
+                            <textarea 
+                              value={personalNotes}
+                              onChange={(e) => setPersonalNotes(e.target.value)}
+                              placeholder="Nhập ghi chú của bạn tại đây..."
+                              className="w-full flex-1 bg-transparent text-sm font-medium outline-none resize-none text-gray-700"
+                            />
+                            <button onClick={saveNote} className="self-end mt-2 text-[10px] font-black text-[#D85A30] uppercase">Lưu lại</button>
                          </div>
                       </div>
                    </div>
@@ -388,7 +414,7 @@ export default function VocabDetailPopup({ word, onClose, otherWords = [] }: Voc
                    <div className="space-y-4">
                       <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Từ vựng cùng bài</div>
                       <div className="flex flex-wrap gap-2">
-                         {otherWords.slice(0, 10).map((w, i) => (
+                         {otherWords.filter(w => w.lesson_number === word.lesson_number).slice(0, 10).map((w, i) => (
                            <div key={i} className="px-4 py-2 bg-white border border-slate-100 rounded-xl text-sm font-bold text-slate-600 hover:border-[#D85A30] hover:text-[#D85A30] cursor-pointer transition-all">
                               {w.hanzi}
                            </div>
@@ -412,16 +438,16 @@ export default function VocabDetailPopup({ word, onClose, otherWords = [] }: Voc
                    </div>
                    <div className="mt-16 grid grid-cols-3 gap-8 w-full max-w-lg">
                       <div className="text-center">
-                         <div className="text-2xl font-black text-gray-900">7</div>
-                         <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Số nét</div>
+                         <div className="text-2xl font-black text-gray-900">{word.hanzi.length * 5}</div>
+                         <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Nét ước tính</div>
                       </div>
                       <div className="text-center">
-                         <div className="text-2xl font-black text-gray-900">Nữ</div>
-                         <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Bộ thủ</div>
+                         <div className="text-2xl font-black text-gray-900">{word.hanzi[0]}</div>
+                         <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Chữ gốc</div>
                       </div>
                       <div className="text-center">
-                         <div className="text-2xl font-black text-gray-900">A1</div>
-                         <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Độ khó</div>
+                         <div className="text-2xl font-black text-gray-900">HSK {word.hsk_level}</div>
+                         <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Cấp độ</div>
                       </div>
                    </div>
                 </div>
@@ -441,9 +467,57 @@ export default function VocabDetailPopup({ word, onClose, otherWords = [] }: Voc
                      </div>
                    ) : (
                      <div className="py-20 text-center bg-slate-50 rounded-[40px] border-2 border-dashed border-slate-200">
-                        <p className="text-gray-400 font-bold">Chưa có ví dụ cho từ này. Em sẽ sớm cập nhật nhé!</p>
+                        <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 text-slate-300">
+                           <Volume2 size={32} />
+                        </div>
+                        <p className="text-gray-400 font-bold mb-2">Chưa có ví dụ cho từ này trong hệ thống.</p>
+                        <p className="text-gray-400 text-sm">Gợi ý câu: <span className="text-[#D85A30] italic">我学{word.hanzi}。</span> (Tôi học {word.meaning_vi})</p>
                      </div>
                    )}
+                </div>
+              )}
+
+              {/* Related Words Sub-content (Used when sidebar is 'related') */}
+              {activeSidebar === 'related' && (
+                <div className="space-y-6 animate-in fade-in duration-300">
+                   <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Từ ghép & Từ liên quan</div>
+                   {relatedWords.length > 0 ? (
+                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        {relatedWords.map((w, i) => (
+                          <div key={i} className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center justify-between">
+                             <div>
+                                <div className="text-lg font-black text-gray-900">{w.hanzi}</div>
+                                <div className="text-[10px] font-bold text-gray-400 uppercase">{w.pinyin}</div>
+                             </div>
+                             <div className="text-sm font-medium text-gray-500">{w.meaning_vi}</div>
+                          </div>
+                        ))}
+                     </div>
+                   ) : (
+                     <div className="py-12 text-center bg-slate-50 rounded-3xl border border-dashed border-slate-200">
+                        <p className="text-gray-400 font-bold">Không tìm thấy từ ghép liên quan trực tiếp.</p>
+                     </div>
+                   )}
+                </div>
+              )}
+
+              {activeSidebar === 'notes' && (
+                <div className="space-y-6 animate-in fade-in duration-300">
+                   <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Ghi chú cá nhân</div>
+                   <div className="bg-white rounded-[32px] border-2 border-[#D85A30]/20 p-8 shadow-inner min-h-[300px] flex flex-col">
+                      <textarea 
+                        value={personalNotes}
+                        onChange={(e) => setPersonalNotes(e.target.value)}
+                        placeholder="Hãy ghi lại cách bạn nhớ từ này, hoặc ví dụ bạn tự đặt..."
+                        className="w-full flex-1 bg-transparent text-lg font-medium outline-none resize-none text-gray-800 leading-relaxed"
+                      />
+                      <button 
+                        onClick={saveNote}
+                        className="mt-6 bg-[#D85A30] text-white px-8 py-3 rounded-2xl font-black text-sm shadow-xl hover:scale-105 transition-all self-end"
+                      >
+                         LƯU GHI CHÚ
+                      </button>
+                   </div>
                 </div>
               )}
 
