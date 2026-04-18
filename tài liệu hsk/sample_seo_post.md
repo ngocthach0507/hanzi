@@ -16,7 +16,7 @@ Bạn đang hoang mang về chuẩn HSK 3.0? Khám phá ngay lộ trình học T
 </ul>
 
 <div class="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-500 my-8">
-  <p class="m-0 font-bold">Mẹo SEO: Người dùng thường tìm kiếm "Từ vựng HSK 1 chuẩn 3.0", vì vậy chúng tôi đã tích hợp sẵn kho 500 từ này tại Hanzi.io.vn.</p>
+  <p class="m-0 font-bold text-blue-800">💡 Gợi ý từ chuyên gia: Người học nên tập trung nắm vững 500 từ vựng HSK 1 (Chuẩn 3.0) ngay từ đầu để tạo nền móng vững chắc. Bạn có thể thực hành miễn phí kho từ vựng này tại Hanzi.io.vn.</p>
 </div>
 
 <h3>2. Lộ trình học HSK 3.0 cho người mới bắt đầu</h3>

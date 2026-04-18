@@ -19,8 +19,10 @@ import {
   X,
   Crown
 } from 'lucide-react';
+import { useUser } from '@clerk/nextjs';
 
 export default function Home() {
+  const { user } = useUser();
   const features = [
     { title: 'Giáo trình HSK', desc: 'Học theo chuẩn HSK 3.0 từ cấp 1-3', count: '48 bài', icon: <BookText className="w-6 h-6 text-blue-400" />, href: '/giao-trinh', color: 'blue' },
     { title: 'Từ vựng chủ đề', desc: 'Từ vựng phân theo chủ đề giao tiếp', count: '80 bài', icon: <LayoutGrid className="w-6 h-6 text-orange-400" />, href: '/tu-vung-chu-de', color: 'orange' },
@@ -172,9 +174,15 @@ export default function Home() {
               <p className="text-slate-400 font-medium text-lg mb-10 leading-relaxed max-w-xl">
                 Bộ tài liệu PDF chính thức bao gồm Hán tự, Pinyin, nghĩa và ví dụ chuẩn xác nhất cho HSK 1-2-3.
               </p>
-              <Link href="/dang-ky" className="inline-flex items-center gap-3 bg-[#FF5E3A] hover:bg-[#D85A30] text-white px-10 py-5 rounded-2xl font-black text-lg transition-all shadow-xl active:scale-95">
-                ĐĂNG KÝ TẢI NGAY <ChevronRight size={20} />
-              </Link>
+              {user ? (
+                <Link href="/dashboard" className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-10 py-5 rounded-2xl font-black text-lg transition-all shadow-xl active:scale-95">
+                  TẢI EBOOK NGAY <ChevronRight size={20} />
+                </Link>
+              ) : (
+                <Link href="/dang-ky" className="inline-flex items-center gap-3 bg-[#FF5E3A] hover:bg-[#D85A30] text-white px-10 py-5 rounded-2xl font-black text-lg transition-all shadow-xl active:scale-95">
+                  ĐĂNG KÝ TẢI NGAY <ChevronRight size={20} />
+                </Link>
+              )}
             </div>
             
             <div className="lg:w-1/3 relative z-10">
@@ -228,13 +236,16 @@ export default function Home() {
               </div>
               <ul className="space-y-4 mb-10 flex-1">
                 <li className="flex items-center gap-3 text-sm font-bold text-gray-600">
-                  <CheckCircle2 size={18} className="text-green-500" /> Toàn bộ HSK 1 (300 từ)
+                  <CheckCircle2 size={18} className="text-green-500" /> Bảng phát âm Pinyin
                 </li>
                 <li className="flex items-center gap-3 text-sm font-bold text-gray-600">
-                  <CheckCircle2 size={18} className="text-green-500" /> Luyện viết Hanzi cơ bản
+                  <CheckCircle2 size={18} className="text-green-500" /> Sổ tay cá nhân (100 từ)
+                </li>
+                <li className="flex items-center gap-3 text-sm font-bold text-gray-600">
+                  <CheckCircle2 size={18} className="text-green-500" /> Học thử Bài 1 mọi cấp độ
                 </li>
                 <li className="flex items-center gap-3 text-sm font-bold text-gray-600 opacity-50">
-                  <X size={18} className="text-gray-300" /> Đề thi HSK 2-3
+                  <X size={18} className="text-gray-300" /> Luyện đề thi HSK
                 </li>
               </ul>
               <Link href="/dang-ky" className="w-full py-4 bg-gray-100 text-gray-900 rounded-2xl font-black text-center hover:bg-gray-200 transition-all">
@@ -247,20 +258,20 @@ export default function Home() {
               <div className="absolute top-0 right-0 bg-orange-500 text-white px-6 py-2 rounded-bl-3xl font-black text-[10px] uppercase tracking-widest">PHỔ BIẾN NHẤT</div>
               <div className="mb-8">
                 <h3 className="text-xl font-black text-white mb-2">HSK 3.0 Premium</h3>
-                <div className="text-4xl font-black text-white">499.000đ<span className="text-sm text-gray-400 font-bold">/6 tháng</span></div>
+                <div className="text-4xl font-black text-white">489.000đ<span className="text-sm text-gray-400 font-bold">/6 tháng</span></div>
               </div>
               <ul className="space-y-4 mb-10 flex-1">
                 <li className="flex items-center gap-3 text-sm font-bold text-gray-300">
-                  <Crown size={18} className="text-yellow-400" /> Mở khóa toàn bộ HSK 1-6
+                  <Crown size={18} className="text-yellow-400" /> Mở khóa toàn bộ 144 bài HSK
                 </li>
                 <li className="flex items-center gap-3 text-sm font-bold text-gray-300">
-                  <Crown size={18} className="text-yellow-400" /> 120+ Đề thi chuẩn 2026
+                  <Crown size={18} className="text-yellow-400" /> Nhận diện chữ viết tay AI
                 </li>
                 <li className="flex items-center gap-3 text-sm font-bold text-gray-300">
-                  <Crown size={18} className="text-yellow-400" /> Xiaoyu AI Grammar Assistant
+                  <Crown size={18} className="text-yellow-400" /> Luyện 120+ đề thi chuẩn 2026
                 </li>
                 <li className="flex items-center gap-3 text-sm font-bold text-gray-300">
-                  <Crown size={18} className="text-yellow-400" /> Tải Ebook 1200 từ vựng Free
+                  <Crown size={18} className="text-yellow-400" /> Loại bỏ hoàn toàn quảng cáo
                 </li>
               </ul>
               <Link href="/nang-cap" className="w-full py-4 bg-[#FF5E3A] text-white rounded-2xl font-black text-center hover:bg-[#D85A30] transition-all shadow-xl shadow-orange-900/20">

@@ -88,8 +88,8 @@ export default function AppNavbar() {
             hanzi.io.vn
           </Link>
           <div className="hidden xl:flex items-center gap-8 ml-4">
-            <button onClick={() => setActiveModal('intro')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Giới thiệu</button>
-            <button onClick={() => setActiveModal('teacher')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Học giáo viên</button>
+            <button onClick={() => setActiveModal('intro')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Về Hanzi</button>
+            <button onClick={() => setActiveModal('teacher')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Khóa học Online</button>
             <Link href="/blog" className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Blog</Link>
           </div>
         </div>
@@ -243,16 +243,27 @@ export default function AppNavbar() {
               {activeModal === 'intro' ? (
                 <div className="space-y-4">
                   <div className="w-12 h-12 bg-red-50 rounded-2xl flex items-center justify-center mb-6"><Book className="text-red-500 w-6 h-6" /></div>
-                  <h3 className="text-2xl font-black text-gray-900 uppercase">Về Hanzi.io.vn</h3>
+                  <h3 className="text-2xl font-black text-gray-900 uppercase">Về hệ sinh thái Hanzi</h3>
                   <div className="h-1 w-12 bg-red-500"></div>
-                  <p className="text-gray-600 font-medium leading-relaxed pt-2">Hanzi.io.vn là sản phẩm thuộc hệ sinh thái Tiếng Trung Hongdou. Chúng tôi xây dựng nền tảng này để hỗ trợ học viên tiếp cận với giáo trình HSK 3.0 hiệu quả nhất.</p>
+                  <p className="text-gray-600 font-medium leading-relaxed pt-2">
+                    Hanzi.io.vn là nền tảng học Tiếng Trung thông minh thuộc hệ sinh thái <strong>Tiếng Trung Hongdou</strong>. 
+                    Chúng tôi tiên phong trong việc ứng dụng công nghệ AI vào giáo trình HSK 3.0, giúp học viên Việt Nam chinh phục Hán ngữ một cách khoa học và hiệu quả nhất.
+                  </p>
                 </div>
               ) : (
                 <div className="space-y-4">
-                  <div className="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center mb-6"><MessageCircle className="text-blue-500 w-6 h-6" /></div>
-                  <h3 className="text-2xl font-black text-gray-900 uppercase">Học cùng giáo viên</h3>
+                  <div className="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center mb-6"><GraduationCap className="text-blue-500 w-6 h-6" /></div>
+                  <h3 className="text-2xl font-black text-gray-900 uppercase">Khóa học cùng Giáo viên</h3>
                   <div className="h-1 w-12 bg-blue-500"></div>
-                  <p className="text-gray-600 font-medium leading-relaxed pt-2">Tiếng Trung Hongdou cung cấp các chương trình đào tạo chuyên sâu cùng giảng viên. Với lộ trình cá nhân hóa sát theo giáo trình HSK 3.0 mới nhất.</p>
+                  <p className="text-gray-600 font-medium leading-relaxed pt-2">
+                    Ngoài việc tự học trên App, bạn có thể tham gia các lớp học trực tuyến cùng đội ngũ giảng viên chuyên môn cao tại Hongdou. 
+                    Lộ trình học được thiết kế cá nhân hóa, cam kết đầu ra chuẩn HSK 3.0 mới nhất.
+                  </p>
+                  <div className="pt-4">
+                    <a href="https://zalo.me/0969969696" target="_blank" className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-xl font-black text-sm hover:bg-blue-700 transition-all">
+                      Tư vấn khóa học ngay
+                    </a>
+                  </div>
                 </div>
               )}
             </div>
