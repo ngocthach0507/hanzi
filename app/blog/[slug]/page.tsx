@@ -8,6 +8,12 @@ import AppNavbar from '@/components/AppNavbar';
 import { supabase } from '@/lib/supabase';
 import { marked } from 'marked';
 
+// Configure marked for better SEO and formatting
+marked.setOptions({
+  gfm: true,
+  breaks: true,
+});
+
 export default function BlogPostDetail() {
   const params = useParams();
   const slug = params.slug as string;
