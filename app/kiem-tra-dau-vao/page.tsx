@@ -17,8 +17,14 @@ import Breadcrumb from '@/components/BreadCrumb';
 const testQuestions = [
   { id: 1, q: 'Nghĩa của từ "你好" (nǐ hǎo) là gì?', options: ['Chào bạn', 'Cảm ơn', 'Tạm biệt', 'Xin lỗi'], a: 0 },
   { id: 2, q: 'Hỏi tuổi dùng từ nào?', options: ['几岁', '几号', '多少', '什么'], a: 0 },
-  // ... Simplified for demo
   { id: 3, q: 'Phó từ phủ định "不" đi với động từ nào?', options: ['不吃', '吃不', '不的', '不了'], a: 0 },
+  { id: 4, q: 'Lượng từ dùng cho "Sách" (书) là gì?', options: ['个', '本', '张', '件'], a: 1 },
+  { id: 5, q: 'Đại từ chỉ định "Kia/Đó" trong tiếng Trung là gì?', options: ['这', '那', '哪', '什么'], a: 1 },
+  { id: 6, q: 'Câu nào sau đây đúng ngữ pháp?', options: ['我是学习汉语', '我学习汉语', '学习汉语我', '我汉语学习'], a: 1 },
+  { id: 7, q: '"Hôm qua" trong tiếng Trung là gì?', options: ['明天', '今天', '昨天', '明年'], a: 2 },
+  { id: 8, q: 'Để hỏi địa điểm, ta dùng từ nghi vấn nào?', options: ['谁', '什么', '哪儿', '怎么'], a: 2 },
+  { id: 9, q: 'Từ nào sau đây là động từ năng nguyện?', options: ['想', '看', '听', '说'], a: 0 },
+  { id: 10, q: 'Ý nghĩa của "很高兴认识你" là gì?', options: ['Rất vui được gặp bạn', 'Tạm biệt bạn', 'Bạn khỏe không?', 'Cảm ơn bạn'], a: 0 },
 ];
 
 export default function EntranceTestPage() {
@@ -45,8 +51,9 @@ export default function EntranceTestPage() {
       return curr === testQuestions[idx].a ? acc + 1 : acc;
     }, 0);
 
-    // Simplified logic: 3/3 -> HSK 2, else HSK 1
-    if (score === testQuestions.length) setResultLevel('HSK 2');
+    // Logic: 0-4 -> HSK 1, 5-8 -> HSK 2, 9-10 -> HSK 3
+    if (score >= 9) setResultLevel('HSK 3');
+    else if (score >= 5) setResultLevel('HSK 2');
     else setResultLevel('HSK 1');
     
     setStep('result');
@@ -146,7 +153,7 @@ export default function EntranceTestPage() {
                 <div className="text-7xl font-black text-blue-400 mb-6">{resultLevel}</div>
                 <div className="flex items-center justify-center gap-8 border-t border-white/10 pt-8 mt-4">
                    <div className="text-center">
-                      <div className="text-xl font-black">{answers.length}/20</div>
+                      <div className="text-xl font-black">{answers.filter((ans, i) => ans === testQuestions[i].a).length}/10</div>
                       <div className="text-[10px] text-gray-500 font-bold uppercase tracking-widest">Đúng</div>
                    </div>
                    <div className="w-px h-8 bg-white/10"></div>

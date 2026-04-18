@@ -260,6 +260,25 @@ export default function Dashboard() {
                 ))}
               </div>
             </div>
+            {/* Achievements Card */}
+            <div className="bg-white rounded-[2.5rem] p-8 border border-gray-100 shadow-sm">
+               <h3 className="text-lg font-black text-gray-900 mb-6 flex items-center gap-3">
+                  <Award className="w-6 h-6 text-orange-500" /> Huy hiệu đạt được
+               </h3>
+               <div className="grid grid-cols-4 gap-4">
+                  {[
+                    { label: 'Người mới', icon: '🌱', active: true },
+                    { label: 'Chăm chỉ', icon: '🔥', active: true },
+                    { label: 'Từ vựng', icon: '📚', active: false },
+                    { label: 'Vô đối', icon: '👑', active: false },
+                  ].map((a, i) => (
+                    <div key={i} className={`flex flex-col items-center gap-2 ${a.active ? 'opacity-100' : 'opacity-20 grayscale'}`}>
+                       <div className="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center text-2xl shadow-sm border border-gray-100">{a.icon}</div>
+                       <span className="text-[8px] font-black uppercase text-gray-400">{a.label}</span>
+                    </div>
+                  ))}
+               </div>
+            </div>
           </div>
 
           {/* RIGHT COLUMN: Learning Content */}
@@ -273,31 +292,27 @@ export default function Dashboard() {
               <div className="flex flex-col md:flex-row items-center gap-8">
                 <div className="flex-1 text-center md:text-left">
                   <div className="inline-flex items-center gap-2 px-3 py-1 bg-red-50 text-red-600 rounded-full text-[9px] md:text-[10px] font-black uppercase tracking-wider mb-4">
-                    <TrendingUp className="w-3 h-3" /> Gợi ý học tiếp theo
+                    <Sparkles className="w-3 h-3" /> AI Learning Coach
                   </div>
-                  {nextLesson ? (
-                    <>
-                      <h3 className="text-xl md:text-2xl font-black text-gray-900 mb-2">
-                        HSK {nextLesson.book_level} - Bài {nextLesson.lesson_number}
-                      </h3>
-                      <p className="text-gray-500 text-sm md:text-base font-medium mb-6">Chủ đề: <span className="text-gray-800 font-bold">{nextLesson.title}</span></p>
-                      <Link 
-                        href={`/giao-trinh/hsk${nextLesson.book_level}/${nextLesson.lesson_number}`}
-                        className="w-full md:w-auto inline-flex items-center justify-center gap-3 bg-red-600 text-white px-8 py-4 rounded-2xl font-black shadow-lg shadow-red-100 hover:bg-red-700 transition-all active:scale-95"
-                      >
-                        Học ngay bây giờ <ChevronRight className="w-5 h-5" />
-                      </Link>
-                    </>
-                  ) : (
-                    <p className="text-gray-500 font-bold italic">Bạn đã hoàn thành tất cả các bài học. Chúc mừng!</p>
-                  )}
+                  <h3 className="text-xl md:text-2xl font-black text-gray-900 mb-2">
+                    Lời khuyên hôm nay
+                  </h3>
+                  <p className="text-gray-500 text-sm md:text-base font-medium mb-6 leading-relaxed">
+                    "Dựa trên dữ liệu học tập, bạn đang gặp khó khăn với **Biến điệu của '一' (Yī)**. Hãy dành 5 phút xem lại bài học này để cải thiện điểm số nhé!"
+                  </p>
+                  <Link 
+                    href="/giao-trinh/hsk1/bai-5"
+                    className="w-full md:w-auto inline-flex items-center justify-center gap-3 bg-gray-900 text-white px-8 py-4 rounded-2xl font-black shadow-lg hover:bg-black transition-all active:scale-95"
+                  >
+                    Xem gợi ý AI <ChevronRight className="w-5 h-5" />
+                  </Link>
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-[1.5rem] md:rounded-[2rem] text-center w-full md:w-[200px] border border-gray-100">
                   <div className="text-2xl md:text-3xl font-black text-gray-900 mb-1">{reviewsCount}</div>
                   <div className="text-[9px] md:text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-4 leading-none">Từ cần ôn tập</div>
                   <Link 
-                    href="/tu-vung-chu-de"
+                    href="/tu-vung-hsk"
                     className="block w-full bg-white border border-gray-200 text-gray-700 py-3 rounded-xl font-bold text-xs hover:bg-gray-50 transition-colors"
                   >
                     Ôn tập ngay

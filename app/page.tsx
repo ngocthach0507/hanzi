@@ -66,9 +66,9 @@ export default function Home() {
             <Link href="/giao-trinh" className="group bg-[#FF5E3A] hover:bg-[#D85A30] text-white px-10 py-5 rounded-2xl font-black text-xl shadow-2xl shadow-orange-200 transition-all active:scale-95 flex items-center gap-3">
               Bắt đầu học ngay <ArrowRight size={22} className="group-hover:translate-x-1 transition-transform" />
             </Link>
-            <Link href="/kiem-tra-dau-vao" className="bg-white/80 backdrop-blur-md hover:bg-white text-slate-800 px-10 py-5 rounded-2xl font-black text-lg border-2 border-slate-100 transition-all flex items-center gap-2 shadow-sm">
-              Kiểm tra trình độ <PenTool size={20} />
-            </Link>
+            <button className="bg-white/80 backdrop-blur-md hover:bg-white text-slate-800 px-10 py-5 rounded-2xl font-black text-lg border-2 border-slate-100 transition-all flex items-center gap-2 shadow-sm group">
+              Xem Demo <Zap size={20} className="group-hover:text-yellow-500 transition-colors" />
+            </button>
           </div>
           
           <div className="mt-16 flex flex-wrap items-center justify-center gap-8 md:gap-12 opacity-60">
@@ -267,8 +267,65 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION: TESTIMONIALS (SOCIAL PROOF) */}
+      {/* SECTION: DEMO (TRIAL) */}
       <section className="py-24 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col lg:flex-row items-center gap-16">
+             <div className="lg:w-1/2">
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-purple-50 text-purple-600 rounded-full text-[10px] font-black uppercase tracking-widest mb-6">
+                   🕹️ TRẢI NGHIỆM THỰC TẾ
+                </div>
+                <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-8 leading-tight">Học thử không cần <br /> <span className="text-[#FF5E3A]">Đăng ký</span></h2>
+                <p className="text-gray-500 text-lg font-medium mb-10 leading-relaxed">
+                   Chúng tôi tin rằng trải nghiệm thực tế là cách tốt nhất để bạn đánh giá hiệu quả. 
+                   Thử ngay các tính năng cao cấp của Hanzi hoàn toàn miễn phí.
+                </p>
+                <div className="space-y-4 mb-10">
+                   {[
+                     { title: 'Luyện nghe bối cảnh', desc: 'Audio chuẩn native, 3 tốc độ.' },
+                     { title: 'Viết chữ Hán AI', desc: 'Sửa lỗi nét ngay lập tức.' },
+                     { title: 'Flashcard SRS', desc: 'Công nghệ lặp lại ngắt quãng.' },
+                   ].map((item, i) => (
+                     <div key={i} className="flex gap-4">
+                        <div className="w-6 h-6 rounded-full bg-green-50 flex items-center justify-center text-green-600 flex-shrink-0 mt-1"><CheckCircle2 size={14} /></div>
+                        <div>
+                           <div className="font-black text-gray-900">{item.title}</div>
+                           <div className="text-sm text-gray-400 font-medium">{item.desc}</div>
+                        </div>
+                     </div>
+                   ))}
+                </div>
+                <Link href="/giao-trinh/hsk1/bai-1" className="inline-flex items-center gap-2 text-[#FF5E3A] font-black uppercase tracking-widest hover:translate-x-2 transition-transform">
+                   Bắt đầu bài 1 ngay <ArrowRight size={20} />
+                </Link>
+             </div>
+             
+             <div className="lg:w-1/2 relative">
+                <div className="absolute -inset-4 bg-gradient-to-tr from-purple-500 to-pink-500 rounded-[40px] blur-2xl opacity-10"></div>
+                <div className="relative bg-gray-900 rounded-[40px] p-4 shadow-2xl overflow-hidden aspect-video group cursor-pointer">
+                   <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop" alt="Demo Video" className="w-full h-full object-cover rounded-[32px] opacity-40 group-hover:scale-105 transition-transform duration-700" />
+                   <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all">
+                         <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[20px] border-l-gray-900 border-b-[10px] border-b-transparent ml-2"></div>
+                      </div>
+                   </div>
+                   <div className="absolute bottom-8 left-8 right-8 bg-white/10 backdrop-blur-md p-6 rounded-3xl border border-white/20">
+                      <div className="flex items-center justify-between text-white">
+                         <div>
+                            <div className="text-xs font-black uppercase tracking-widest opacity-60 mb-1">Đang xem</div>
+                            <div className="font-black">Tính năng Luyện viết AI</div>
+                         </div>
+                         <div className="text-xs font-black bg-red-500 px-2 py-1 rounded">LIVE</div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION: TESTIMONIALS (SOCIAL PROOF) */}
+      <section className="py-24 px-4 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-4 tracking-tighter">Học viên nói gì về Hanzi?</h2>
@@ -277,11 +334,11 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: 'Nguyễn Minh Anh', level: 'HSK 4', text: 'Nhờ Hanzi mà mình đã nắm vững 500 từ vựng HSK 3.0 chỉ trong 2 tháng. Giao diện cực kỳ Wow!', avatar: 'MA' },
-              { name: 'Trần Hoàng Nam', level: 'HSK 3', text: 'Thích nhất là phần luyện viết và đề thi chấm tự động. Rất sát với thực tế đi thi.', avatar: 'HN' },
-              { name: 'Lê Thu Trang', level: 'HSK 5', text: 'Mình đã thử nhiều app nhưng chỉ Hanzi mới có giáo trình HSK 3.0 chuẩn nhất hiện nay.', avatar: 'TT' },
+              { name: 'Nguyễn Minh Anh', level: 'HSK 4 (285/300)', text: 'Nhờ Hanzi mà mình đã nắm vững 500 từ vựng HSK 3.0 chỉ trong 2 tháng. Giao diện cực kỳ Wow và dễ dùng.', avatar: 'MA' },
+              { name: 'Trần Hoàng Nam', level: 'HSK 3 (290/300)', text: 'Thích nhất là phần luyện viết và đề thi chấm tự động. Rất sát với thực tế đi thi tại viện Khổng Tử.', avatar: 'HN' },
+              { name: 'Lê Thu Trang', level: 'HSK 5 (270/300)', text: 'Mình đã thử nhiều app nhưng chỉ Hanzi mới có giáo trình HSK 3.0 chuẩn nhất hiện nay. Rất đáng đồng tiền bát gạo!', avatar: 'TT' },
             ].map((t, i) => (
-              <div key={i} className="p-10 bg-gray-50 rounded-[40px] border border-transparent hover:border-orange-100 transition-all">
+              <div key={i} className="p-10 bg-white rounded-[40px] border border-transparent hover:border-orange-100 shadow-sm hover:shadow-2xl transition-all">
                 <div className="flex items-center gap-4 mb-6">
                    <div className="w-12 h-12 bg-orange-100 rounded-2xl flex items-center justify-center font-black text-[#D85A30]">{t.avatar}</div>
                    <div>
@@ -290,6 +347,9 @@ export default function Home() {
                    </div>
                 </div>
                 <p className="text-gray-600 font-medium leading-relaxed italic">"{t.text}"</p>
+                <div className="mt-6 flex gap-1">
+                   {[1,2,3,4,5].map(s => <Star key={s} size={14} className="fill-yellow-400 text-yellow-400" />)}
+                </div>
               </div>
             ))}
           </div>
