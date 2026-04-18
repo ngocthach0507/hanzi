@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Calendar, User, Share2, MessageCircle, ArrowLeft } from 'lucide-react';
 import AppNavbar from '@/components/AppNavbar';
 import { supabase } from '@/lib/supabase';
+import { marked } from 'marked';
 
 export default function BlogPostDetail() {
   const params = useParams();
@@ -76,7 +77,7 @@ export default function BlogPostDetail() {
 
             <div 
               className="prose prose-lg max-w-none prose-slate prose-headings:font-black prose-headings:text-gray-900 prose-p:font-medium prose-p:text-gray-600 prose-a:text-[#D85A30] prose-a:no-underline hover:prose-a:underline"
-              dangerouslySetInnerHTML={{ __html: post.content }}
+              dangerouslySetInnerHTML={{ __html: marked.parse(post.content || '') }}
             />
          </article>
       </div>
