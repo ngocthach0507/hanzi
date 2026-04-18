@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
-import { Calendar, User, Share2, Facebook, Twitter, MessageCircle, ArrowLeft } from 'lucide-react';
+import { Calendar, User, Share2, MessageCircle, ArrowLeft } from 'lucide-react';
 import AppNavbar from '@/components/AppNavbar';
 import { supabase } from '@/lib/supabase';
 
@@ -70,8 +70,6 @@ export default function BlogPostDetail() {
          <article className="relative">
             {/* Sidebar Share */}
             <div className="absolute -left-24 top-0 hidden xl:flex flex-col gap-4">
-               <button className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 hover:text-blue-600 hover:bg-blue-50 transition-all"><Facebook size={20} /></button>
-               <button className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 hover:text-blue-400 hover:bg-blue-50 transition-all"><Twitter size={20} /></button>
                <button className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 hover:text-green-500 hover:bg-green-50 transition-all"><MessageCircle size={20} /></button>
                <button className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 hover:text-gray-900 hover:bg-gray-200 transition-all"><Share2 size={20} /></button>
             </div>
