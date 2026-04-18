@@ -23,6 +23,7 @@ import {
 import { trackEvent } from '@/lib/gtag';
 
 export default function ExamInterface() {
+  const { user, isLoaded: isUserLoaded } = useUser();
   const params = useParams();
   const router = useRouter();
   const levelStr = params.level?.toString().replace('hsk', '') || '1';
@@ -38,10 +39,37 @@ export default function ExamInterface() {
   const [isFinished, setIsFinished] = useState(false);
   const [score, setScore] = useState({ listening: 0, reading: 0, total: 0 });
 
-  // Fetch Exam Data
+  // Fetch Exam Data & Check Access
   useEffect(() => {
     const fetchExam = async () => {
       try {
+        // 1. Fetch Exam Index to check access
+        const listRes = await fetch(`/api/exams/list?level=${numericLevel}`);
+        const examsList = await listRes.json();
+        const examIndex = examsList.findIndex((e: any) => e.id.toString() === id.toString());
+        const examNum = examIndex + 1;
+
+        // 2. Check Subscription
+        let isProUser = false;
+        if (user) {
+          const subRes = await fetch('/api/user/subscription');
+          const subData = await subRes.json();
+          isProUser = subData.isPro;
+        }
+
+        // 3. Funnel Logic
+        const isGuest = !user;
+        let canAccess = false;
+        if (isProUser) canAccess = true;
+        else if (!isGuest && examNum <= 3) canAccess = true;
+        else if (isGuest && examNum <= 1) canAccess = true;
+
+        if (!canAccess) {
+          router.push(isGuest ? '/dang-ky' : '/nang-cap');
+          return;
+        }
+
+        // 4. Fetch Exam Content
         const res = await fetch(`/api/exams/generate?id=${id}`);
         const data = await res.json();
         if (data.questions) {
@@ -53,8 +81,8 @@ export default function ExamInterface() {
         console.error("Failed to load exam:", err);
       }
     };
-    fetchExam();
-  }, [numericLevel, id]);
+    if (isUserLoaded) fetchExam();
+  }, [numericLevel, id, user, isUserLoaded, router]);
 
   // Timer
   useEffect(() => {

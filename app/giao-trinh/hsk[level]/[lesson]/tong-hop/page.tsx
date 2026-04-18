@@ -42,6 +42,27 @@ export default function TongHopQuiz() {
     async function loadData() {
       try {
         setLoading(true);
+
+        // 1. Check Access
+        let isProUser = false;
+        if (user) {
+          const subRes = await fetch('/api/user/subscription');
+          const subData = await subRes.json();
+          isProUser = subData.isPro;
+        }
+
+        const isGuest = !user;
+        let canAccess = false;
+        if (isProUser) canAccess = true;
+        else if (!isGuest && numericLesson <= 3) canAccess = true;
+        else if (isGuest && numericLesson <= 1) canAccess = true;
+
+        if (!canAccess) {
+          router.push(isGuest ? '/dang-ky' : '/nang-cap');
+          return;
+        }
+
+        // 2. Fetch Data
         const { data: vocab, error } = await supabase
           .from('vocabulary')
           .select('*')
