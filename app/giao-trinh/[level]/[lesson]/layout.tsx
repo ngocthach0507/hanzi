@@ -10,9 +10,10 @@ type Props = {
   params: { level: string; lesson: string };
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const levelStr = params.level.replace('hsk', '');
-  const lessonStr = params.lesson.replace('bai-', '');
+export async function generateMetadata({ params }: { params: Promise<{ level: string, lesson: string }> }): Promise<Metadata> {
+  const p = await params;
+  const levelStr = p.level.replace('hsk', '');
+  const lessonStr = p.lesson.replace('bai-', '');
   const levelNum = parseInt(levelStr);
   const lessonNum = parseInt(lessonStr);
 
