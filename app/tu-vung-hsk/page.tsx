@@ -191,7 +191,7 @@ export default function HSKVocabPage() {
                  <div className={viewMode === 'list' ? 'flex items-center gap-12 flex-1' : ''}>
                     <div className="flex flex-col">
                        <div className="text-3xl font-black text-gray-900 mb-1 group-hover:text-[#D85A30] transition-colors">{word.hanzi}</div>
-                       <div className="text-xs font-black text-gray-400 uppercase tracking-widest">{word.pinyin}</div>
+                       <div className="text-xs font-black text-gray-400 tracking-widest lowercase">{word.pinyin}</div>
                     </div>
                     
                     <div className={`mt-6 ${viewMode === 'list' ? 'mt-0 flex-1' : ''}`}>

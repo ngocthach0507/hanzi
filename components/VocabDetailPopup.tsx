@@ -350,7 +350,7 @@ export default function VocabDetailPopup({ word, onClose, otherWords = [] }: Voc
                  </div>
                  <div>
                     <h2 className="text-3xl font-black text-gray-900 tracking-tight">{word.hanzi}</h2>
-                    <p className="text-sm font-bold text-gray-400 uppercase tracking-widest">{word.pinyin}</p>
+                    <p className="text-sm font-bold text-gray-400 tracking-widest lowercase">{word.pinyin}</p>
                  </div>
               </div>
               <div className="flex items-center gap-3">
@@ -463,7 +463,7 @@ export default function VocabDetailPopup({ word, onClose, otherWords = [] }: Voc
                            <button onClick={() => playAudio(word.example_zh!)} className="w-10 h-10 bg-white rounded-xl shadow-sm flex items-center justify-center text-[#D85A30] hover:scale-110 transition-all"><Volume2 size={18} /></button>
                         </div>
                         <p className="text-2xl font-black text-gray-900 mb-2 leading-relaxed">{word.example_zh}</p>
-                        <p className="text-sm font-bold text-[#D85A30] uppercase tracking-widest mb-4 opacity-70">{word.example_pinyin}</p>
+                        <p className="text-sm font-bold text-[#D85A30] tracking-widest mb-4 opacity-70 lowercase">{word.example_pinyin}</p>
                         <p className="text-lg font-medium text-gray-500 italic">"{word.example_vi}"</p>
                      </div>
                    ) : (
@@ -488,7 +488,7 @@ export default function VocabDetailPopup({ word, onClose, otherWords = [] }: Voc
                           <div key={i} className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex items-center justify-between">
                              <div>
                                 <div className="text-lg font-black text-gray-900">{w.hanzi}</div>
-                                <div className="text-[10px] font-bold text-gray-400 uppercase">{w.pinyin}</div>
+                                <div className="text-[10px] font-bold text-gray-400 lowercase">{w.pinyin}</div>
                              </div>
                              <div className="text-sm font-medium text-gray-500">{w.meaning_vi}</div>
                           </div>
