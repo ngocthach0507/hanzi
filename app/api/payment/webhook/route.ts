@@ -22,7 +22,7 @@ export async function POST(request: Request) {
     const referenceCode = String(payload.referenceCode || "");
     
     // Tìm mã đơn hàng trong nội dung chuyển khoản (Ví dụ: DH811524)
-    const orderMatch = content.match(/DH\s?\d+/);
+    const orderMatch = content.match(/DH\s?\d+/i);
     const paymentRef = orderMatch ? orderMatch[0].replace(/\s/g, '') : (referenceCode !== "" ? referenceCode : null);
 
     if (!paymentRef) {
@@ -46,14 +46,21 @@ export async function POST(request: Request) {
       .maybeSingle();
 
     if (fetchError || !subscription) {
-      const msg = `Subscription not found for ref: ${paymentRef}`;
-      console.error(`[WEBHOOK ${logId}] ${msg}`, fetchError);
-      await supabaseAdmin.from('webhook_errors').insert({
-        log_id: logId,
-        payload,
-        error: msg + (fetchError ? ': ' + fetchError.message : '')
+      const msg = `Subscription not found for ref: ${paymentRef}. Saving to unmatched_payments.`;
+      console.warn(`[WEBHOOK ${logId}] ${msg}`, fetchError);
+      
+      // LƯU VÀO BẢNG CHỜ ĐỐI SOÁT TỰ ĐỘNG
+      await supabaseAdmin.from('unmatched_payments').insert({
+        payment_ref: paymentRef,
+        amount: amount,
+        sepay_payload: payload,
+        status: 'pending'
       });
-      return NextResponse.json({ error: msg }, { status: 404 });
+
+      return NextResponse.json({ 
+        success: true, 
+        message: "Payment moved to unmatched_payments for later reconciliation" 
+      });
     }
 
     // 2. Cập nhật trạng thái Premium

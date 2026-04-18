@@ -7,7 +7,7 @@ import { supabase } from '@/lib/supabase';
 import { 
   ChevronLeft, BookOpen, MessageCircle, Star, Palette, Headphones, 
   Layers, PenTool, ClipboardCheck, LayoutList, Volume2, Info, CheckCircle2, 
-  Zap, Play, ArrowRight, Save, RefreshCcw
+  Zap, Play, ArrowRight, Save, RefreshCcw, Square
 } from 'lucide-react';
 import GrammarPractice from '@/components/GrammarPractice';
 import ConversationPractice from '@/components/ConversationPractice';
@@ -54,9 +54,11 @@ export default function LessonDetail() {
   
   // New Listening Player state
   const [listeningDialogue, setListeningDialogue] = useState<any>(null);
-  const [currentListeningLineIndex, setCurrentListeningLineIndex] = useState(-1);
+  const [playingTextId, setPlayingTextId] = useState<string | null>(null);
+  const [currentLineIndex, setCurrentLineIndex] = useState(-1);
   const scrollContainerRef = React.useRef<HTMLDivElement>(null);
   const lineRefs = React.useRef<(HTMLDivElement | null)[]>([]);
+  const textLineRefs = React.useRef<Record<string, (HTMLDivElement | null)[]>>({});
 
   // Theme based on level
   const theme = {
@@ -132,40 +134,44 @@ export default function LessonDetail() {
     }
   };
 
-  const stopListeningPlayback = () => {
+  const stopPlayback = () => {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       window.speechSynthesis.cancel();
     }
-    setCurrentListeningLineIndex(-1);
+    setCurrentLineIndex(-1);
+    setPlayingTextId(null);
   };
 
-  const startListeningPlayback = (dialogue: any) => {
-    if (!dialogue || !Array.isArray(dialogue.content)) return;
+  const startPlayback = (textData: any, isListeningTab = false) => {
+    if (!textData || !Array.isArray(textData.content)) return;
     
-    stopListeningPlayback();
-    setListeningDialogue(dialogue);
+    stopPlayback();
+    if (isListeningTab) {
+      setListeningDialogue(textData);
+    } else {
+      setPlayingTextId(textData.id);
+    }
     
-    let index = 0;
     const playLine = (idx: number) => {
-      if (idx >= dialogue.content.length) {
-        // Finished the dialogue
-        setCurrentListeningLineIndex(-1);
+      if (idx >= textData.content.length) {
+        stopPlayback();
         return;
       }
       
-      setCurrentListeningLineIndex(idx);
-      const line = dialogue.content[idx];
+      setCurrentLineIndex(idx);
+      const line = textData.content[idx];
       const utterance = new SpeechSynthesisUtterance(line.zh);
       utterance.lang = 'zh-CN';
       utterance.rate = 0.8;
       
       utterance.onend = () => {
-        playLine(idx + 1);
+        // Small delay between sentences
+        setTimeout(() => playLine(idx + 1), 300);
       };
 
       utterance.onerror = (event) => {
         console.error('SpeechSynthesis error:', event);
-        setCurrentListeningLineIndex(-1);
+        stopPlayback();
       };
       
       window.speechSynthesis.speak(utterance);
@@ -174,15 +180,21 @@ export default function LessonDetail() {
     playLine(0);
   };
 
-  // Auto-scroll effect for listening player
+  // Auto-scroll effect for player
   useEffect(() => {
-    if (currentListeningLineIndex >= 0 && lineRefs.current[currentListeningLineIndex]) {
-      lineRefs.current[currentListeningLineIndex]?.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center'
-      });
+    if (currentLineIndex >= 0) {
+      const targetRef = activeTab === 'listen' 
+        ? lineRefs.current[currentLineIndex] 
+        : textLineRefs.current[playingTextId || '']?.[currentLineIndex];
+        
+      if (targetRef) {
+        targetRef.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        });
+      }
     }
-  }, [currentListeningLineIndex]);
+  }, [currentLineIndex, activeTab, playingTextId]);
 
   // Clean up speech on unmount or tab change
   useEffect(() => {
@@ -327,35 +339,50 @@ export default function LessonDetail() {
                             </div>
                             <button 
                                onClick={() => {
-                                 if (Array.isArray(text.content)) {
-                                   const fullText = text.content.map((m: any) => m.zh).join(', ');
-                                   speak(fullText);
+                                 if (playingTextId === text.id) {
+                                   stopPlayback();
+                                 } else {
+                                   startPlayback(text);
                                  }
                                }}
-                               className={`w-14 h-14 rounded-full ${theme.bg} text-white flex items-center justify-center shadow-xl hover:scale-110 active:scale-95 transition-all`}
+                               className={`w-14 h-14 rounded-full ${playingTextId === text.id ? 'bg-red-500' : theme.bg} text-white flex items-center justify-center shadow-xl hover:scale-110 active:scale-95 transition-all`}
                             >
-                               <Play fill="white" size={20} />
+                               {playingTextId === text.id ? (
+                                 <Square fill="white" size={20} />
+                               ) : (
+                                 <Play fill="white" size={20} />
+                               )}
                             </button>
                           </div>
 
                           <div className="space-y-10">
-                            {Array.isArray(text.content) ? text.content.map((msg: any, mIdx: number) => (
-                              <div key={mIdx} className={`flex items-start gap-6 group`}>
-                                <div className={`mt-1 flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center font-black text-xs ${msg.role === 'A' ? 'bg-blue-50 text-blue-500' : 'bg-green-50 text-green-500'}`}>
-                                  {msg.role}
-                                </div>
-                                <div className="flex-1 space-y-2">
-                                  <div className="flex items-center gap-3">
-                                    <p className="text-2xl font-black text-gray-900 tracking-tight leading-relaxed select-all">{msg.zh}</p>
-                                    <button onClick={() => speak(msg.zh)} className="opacity-0 group-hover:opacity-100 p-2 hover:bg-gray-100 rounded-lg transition-all text-gray-400 hover:text-gray-900">
-                                      <Volume2 size={16} />
-                                    </button>
+                            {Array.isArray(text.content) ? text.content.map((msg: any, mIdx: number) => {
+                              const isActive = playingTextId === text.id && mIdx === currentLineIndex;
+                              return (
+                                <div 
+                                  key={mIdx} 
+                                  ref={el => {
+                                    if (!textLineRefs.current[text.id]) textLineRefs.current[text.id] = [];
+                                    textLineRefs.current[text.id][mIdx] = el;
+                                  }}
+                                  className={`flex items-start gap-6 group p-4 rounded-3xl transition-all duration-300 ${isActive ? `${theme.lightBg} border-2 ${theme.border} scale-[1.02] shadow-lg` : ''}`}
+                                >
+                                  <div className={`mt-1 flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center font-black text-xs ${msg.role === 'A' ? 'bg-blue-50 text-blue-500' : 'bg-green-50 text-green-500'}`}>
+                                    {msg.role}
                                   </div>
-                                  <p className={`text-md font-bold italic opacity-60 ${theme.color}`}>{msg.py}</p>
-                                  <p className="text-gray-500 text-lg leading-relaxed">{msg.vi || msg.en}</p>
+                                  <div className="flex-1 space-y-2">
+                                    <div className="flex items-center gap-3">
+                                      <p className={`text-2xl font-black tracking-tight leading-relaxed select-all ${isActive ? 'text-gray-900' : 'text-gray-700'}`}>{msg.zh}</p>
+                                      <button onClick={() => speak(msg.zh)} className="opacity-0 group-hover:opacity-100 p-2 hover:bg-gray-100 rounded-lg transition-all text-gray-400 hover:text-gray-900">
+                                        <Volume2 size={16} />
+                                      </button>
+                                    </div>
+                                    <p className={`text-md font-bold italic opacity-60 ${theme.color}`}>{msg.py}</p>
+                                    <p className={`text-lg leading-relaxed ${isActive ? 'text-gray-900' : 'text-gray-500'}`}>{msg.vi || msg.en}</p>
+                                  </div>
                                 </div>
-                              </div>
-                            )) : null}
+                              );
+                            }) : null}
                           </div>
                         </div>
                       )) : (
@@ -579,7 +606,7 @@ export default function LessonDetail() {
                                       </div>
                                    </div>
                                    <button 
-                                      onClick={() => startListeningPlayback(text)}
+                                      onClick={() => startPlayback(text, true)}
                                       className={`w-12 h-12 rounded-full ${theme.bg} text-white flex items-center justify-center hover:scale-110 active:scale-95 transition-all shadow-lg`}
                                    >
                                       <Play fill="white" size={18} />
@@ -604,7 +631,7 @@ export default function LessonDetail() {
                           <div className="flex items-center justify-between mb-10 pb-6 border-b border-gray-50">
                             <button 
                               onClick={() => {
-                                stopListeningPlayback();
+                                stopPlayback();
                                 setListeningDialogue(null);
                               }}
                               className="flex items-center gap-2 px-4 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-[#1F2937] text-[10px] font-black transition-all"
@@ -629,13 +656,13 @@ export default function LessonDetail() {
                             className="space-y-6 max-h-[500px] overflow-y-auto px-4 custom-scrollbar"
                           >
                             {listeningDialogue.content.map((line: any, idx: number) => {
-                              const isActive = idx === currentListeningLineIndex;
-                              return (
-                                <div 
-                                  key={idx}
-                                  ref={el => { lineRefs.current[idx] = el; }}
-                                  className={`p-6 rounded-3xl transition-all duration-300 ${isActive ? `${theme.lightBg} border-2 ${theme.border} scale-[1.02] shadow-xl` : 'bg-white opacity-40 grayscale-0 border-2 border-transparent'}`}
-                                >
+                               const isActive = idx === currentLineIndex;
+                               return (
+                                 <div 
+                                   key={idx}
+                                   ref={el => { lineRefs.current[idx] = el; }}
+                                   className={`p-6 rounded-3xl transition-all duration-300 ${isActive ? `${theme.lightBg} border-2 ${theme.border} scale-[1.02] shadow-xl` : 'bg-white opacity-40 grayscale-0 border-2 border-transparent'}`}
+                                 >
                                   <div className="flex items-center gap-4 mb-2">
                                      <div className={`w-8 h-8 rounded-lg flex items-center justify-center font-black text-[10px] ${line.role === 'A' ? 'bg-blue-100 text-blue-600' : 'bg-green-100 text-green-600'}`}>
                                         {line.role}
@@ -660,7 +687,7 @@ export default function LessonDetail() {
                           {/* Player Controls */}
                           <div className="mt-8 pt-8 border-t border-gray-100 flex justify-center">
                              <button 
-                                onClick={() => startListeningPlayback(listeningDialogue)}
+                                onClick={() => startPlayback(listeningDialogue, true)}
                                 className={`flex items-center gap-3 px-10 py-4 rounded-2xl ${theme.bg} text-white font-black shadow-2xl hover:scale-110 active:scale-95 transition-all`}
                              >
                                 <Play fill="white" size={24} /> PHÁT LẠI TOÀN BỘ

@@ -5,17 +5,30 @@
 @tailwind utilities;
 
 :root {
-  --primary: #D85A30;
-  --secondary: #2563EB;
+  --primary: #FF5E3A;
+  --primary-dark: #D85A30;
+  --secondary: #3B82F6;
   --accent: #F59E0B;
   --background: #FFFFFF;
-  --foreground: #1F2937;
+  --foreground: #0F172A;
+  --hsk1: #EF4444;
+  --hsk2: #F97316;
+  --hsk3: #EAB308;
 }
 
 body {
   font-family: 'Outfit', sans-serif;
   color: var(--foreground);
-  background-color: #F9FAFB;
+  background-color: #F8FAFC;
+  overflow-x: hidden;
+}
+
+.bg-mesh {
+  background-color: #ffffff;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(11, 100%, 93%, 1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(210, 100%, 96%, 1) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(38, 100%, 94%, 1) 0, transparent 50%);
 }
 
 .glass {

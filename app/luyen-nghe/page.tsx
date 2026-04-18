@@ -110,19 +110,21 @@ export default function LuyenNgheHub() {
   const currentLevelInfo = HSK_LEVELS.find(l => l.id === selectedLevel);
 
   return (
-    <div className="min-h-screen bg-[#FAFBFD] pb-24 font-sans">
+    <div className="min-h-screen bg-slate-50/50 pb-24 font-sans">
       {/* --- HERO SECTION --- */}
-      <section className="relative pt-20 pb-16 md:pt-32 md:pb-24 px-4 overflow-hidden">
-        <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-orange-50/50 to-transparent -z-10 blur-3xl"></div>
-        <div className="max-w-6xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-gray-100 rounded-full shadow-sm mb-8 animate-in fade-in slide-in-from-bottom-2 duration-700">
-             <Headphones size={18} className="text-[#D85A30]" />
-             <span className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-500">Kỹ năng Nghe hiểu</span>
+      <section className="relative pt-24 pb-20 md:pt-32 md:pb-24 px-4 overflow-hidden bg-mesh">
+        <div className="absolute top-20 left-10 w-32 h-32 bg-orange-200/30 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-10 right-10 w-64 h-64 bg-blue-100/20 rounded-full blur-3xl"></div>
+
+        <div className="max-w-6xl mx-auto text-center relative z-10">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-md border border-slate-100 rounded-full shadow-sm mb-8 animate-in fade-in slide-in-from-bottom-2 duration-700">
+             <Headphones size={18} className="text-[#FF5E3A]" strokeWidth={3} />
+             <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Kỹ năng Nghe hiểu</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-black text-gray-900 mb-6 tracking-tighter leading-none animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100">
-             Luyện Nghe <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-red-500">Phản Xạ</span>
+          <h1 className="text-5xl md:text-8xl font-black text-slate-900 mb-8 tracking-tighter leading-[0.9] animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100">
+             Luyện Nghe <span className="text-[#FF5E3A]">Phản Xạ</span>
           </h1>
-          <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-500 font-medium leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200">
+          <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-500 font-medium leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200">
              Hệ thống bài tập nghe chuẩn bản ngữ theo lộ trình HSK 3.0. 
              Giúp bạn rèn luyện đôi tai thính và phản xạ ngôn ngữ tức thì.
           </p>
@@ -145,29 +147,31 @@ export default function LuyenNgheHub() {
                       setSelectedLevel(level.id);
                     }
                   }}
-                  className={`group relative bg-white rounded-[40px] p-10 border transition-all duration-500 text-left overflow-hidden ${locked ? 'border-gray-100 opacity-80' : 'border-gray-100 hover:border-orange-500 hover:shadow-2xl hover:shadow-orange-100/50'}`}
+                  className={`path-card group featured ${locked ? 'opacity-80 grayscale' : ''}`}
                 >
-                   <div className={`absolute top-0 right-0 w-32 h-32 ${level.bg} opacity-5 rounded-full -translate-y-1/2 translate-x-1/2 transition-transform duration-700 group-hover:scale-150`}></div>
-                   
-                   <div className={`w-16 h-16 rounded-2xl ${level.lightBg} ${level.color} flex items-center justify-center mb-10 shadow-inner group-hover:scale-110 transition-transform`}>
-                      {locked ? <Lock size={28} /> : <Trophy size={32} />}
+                   <div className={`level-badge ${level.bg === 'bg-hsk1' ? 'bg-red-100 text-red-600' : level.bg === 'bg-hsk2' ? 'bg-orange-100 text-orange-600' : 'bg-yellow-100 text-yellow-600'}`}>
+                      {locked ? 'KHÓA PREMIUM' : `CẤP ĐỘ ${level.id}`}
                    </div>
                    
-                   <h2 className="text-4xl font-black text-gray-900 mb-2">{level.title}</h2>
-                   <p className={`text-sm font-black uppercase tracking-widest ${level.color} mb-6`}>
-                     {locked ? 'KHÓA PREMIUM' : level.subtitle}
+                   <div className={`path-icon ${level.lightBg} ${level.color}`}>
+                      {locked ? <Lock size={28} /> : <span className="text-4xl font-black">{level.id}</span>}
+                   </div>
+                   
+                   <h2 className="text-3xl font-black text-slate-900 mb-2 group-hover:text-[#FF5E3A] transition-colors">{level.title}</h2>
+                   <p className="text-xs font-black uppercase tracking-widest text-slate-400 mb-6">
+                     {level.subtitle}
                    </p>
-                   <p className="text-gray-400 font-medium leading-relaxed mb-10 h-20 overflow-hidden line-clamp-3">
+                   <p className="text-slate-500 font-medium leading-relaxed mb-10 h-20 overflow-hidden line-clamp-3">
                      {locked ? 'Vui lòng nâng cấp gói Premium để truy cập lộ trình nghe hiểu nâng cao của cấp độ này.' : level.desc}
                    </p>
                    
-                   <div className="flex items-center justify-between mt-auto">
+                   <div className="flex items-center justify-between mt-auto w-full">
                       <div className="flex items-center gap-2">
-                         <BookOpen size={16} className="text-gray-300" />
-                         <span className="text-xs font-bold text-gray-400">{level.lessonCount} bài học</span>
+                         <BookOpen size={16} className="text-slate-300" />
+                         <span className="text-xs font-black text-slate-400 uppercase tracking-widest">{level.lessonCount} BÀI HỌC</span>
                       </div>
-                      <div className={`w-12 h-12 rounded-full ${locked ? 'bg-gray-200' : level.bg} text-white flex items-center justify-center shadow-lg group-hover:translate-x-2 transition-transform`}>
-                         {locked ? <ArrowRight size={20} /> : <ChevronRight size={20} />}
+                      <div className={`w-12 h-12 rounded-2xl ${locked ? 'bg-slate-200' : level.bg} text-white flex items-center justify-center shadow-lg group-hover:translate-x-2 transition-transform`}>
+                         {locked ? <ArrowRight size={20} strokeWidth={3} /> : <ChevronRight size={20} strokeWidth={3} />}
                       </div>
                    </div>
                 </button>
@@ -198,23 +202,23 @@ export default function LuyenNgheHub() {
                  <p className="text-gray-400 font-bold uppercase tracking-widest text-xs">Đang tải dữ liệu bài học...</p>
               </div>
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 {lessons.map((lesson) => (
                   <Link 
                     key={lesson.id} 
                     href={`/giao-trinh/hsk${selectedLevel}/bai-${lesson.lesson_number}/luyen-nghe`}
-                    className="group bg-white p-8 rounded-[32px] border border-gray-100 hover:border-gray-200 hover:shadow-xl transition-all flex items-center justify-between gap-6"
+                    className="group bg-white p-8 rounded-[2.5rem] border border-white hover:border-orange-100 hover:shadow-2xl hover:shadow-orange-100/20 transition-all flex items-center justify-between gap-6 shadow-sm"
                   >
                     <div className="flex items-center gap-6">
-                       <span className={`w-14 h-14 rounded-2xl ${currentLevelInfo?.lightBg} ${currentLevelInfo?.color} flex items-center justify-center text-xl font-black shadow-inner`}>
+                       <span className={`w-14 h-14 rounded-2xl ${currentLevelInfo?.lightBg} ${currentLevelInfo?.color} flex items-center justify-center text-xl font-black shadow-inner group-hover:scale-110 transition-transform`}>
                          {lesson.lesson_number}
                        </span>
                        <div>
-                          <h3 className="text-lg font-black text-gray-900 mb-1 group-hover:text-[#D85A30] transition-colors">{lesson.title_zh}</h3>
-                          <p className="text-xs text-gray-400 font-bold uppercase tracking-widest">{lesson.title_vi}</p>
+                          <h3 className="text-lg font-black text-slate-900 mb-1 group-hover:text-[#FF5E3A] transition-colors">{lesson.title_zh}</h3>
+                          <p className="text-[10px] text-slate-400 font-black uppercase tracking-[0.2em]">{lesson.title_vi}</p>
                        </div>
                     </div>
-                    <div className="w-10 h-10 rounded-full bg-gray-50 text-gray-300 flex items-center justify-center group-hover:bg-[#D85A30] group-hover:text-white transition-all">
+                    <div className="w-10 h-10 rounded-full bg-slate-50 text-slate-300 flex items-center justify-center group-hover:bg-[#FF5E3A] group-hover:text-white transition-all shadow-sm">
                        <Play size={16} fill="currentColor" />
                     </div>
                   </Link>

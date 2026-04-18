@@ -562,12 +562,6 @@ export default function ReadingDetail() {
             </div>
           </div>
           <div className="flex items-center gap-3">
-            <button
-              onClick={() => setShowPinyin(!showPinyin)}
-              className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${showPinyin ? 'bg-blue-600 text-white shadow-lg' : 'bg-gray-100 text-gray-500'}`}
-            >
-              {showPinyin ? 'Ẩn Phiên âm' : 'Hiện Phiên âm'}
-            </button>
             <button className="p-2 text-gray-400 hover:text-[#D85A30] transition-colors">
               <Bookmark size={22} />
             </button>
@@ -589,19 +583,36 @@ export default function ReadingDetail() {
               ))}
             </div>
 
-            {/* Tab bar */}
-            <div className="flex gap-2 mb-8 bg-gray-100 p-1.5 rounded-2xl w-fit">
-              {tabs.map(tab => (
-                <button
-                  key={tab.id}
-                  onClick={() => setActiveTab(tab.id)}
-                  className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold transition-all ${
-                    activeTab === tab.id ? 'bg-white text-gray-900 shadow-md' : 'text-gray-500 hover:text-gray-700'
-                  }`}
-                >
-                  {tab.icon} {tab.label}
-                </button>
-              ))}
+            {/* Tab bar & Controls */}
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
+              <div className="flex gap-2 bg-gray-100 p-1.5 rounded-2xl w-fit">
+                {tabs.map(tab => (
+                  <button
+                    key={tab.id}
+                    onClick={() => setActiveTab(tab.id)}
+                    className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold transition-all ${
+                      activeTab === tab.id ? 'bg-white text-gray-900 shadow-md' : 'text-gray-500 hover:text-gray-700'
+                    }`}
+                  >
+                    {tab.icon} {tab.label}
+                  </button>
+                ))}
+              </div>
+
+              {activeTab === 'read' && (
+                <div className="flex items-center gap-3 bg-white px-4 py-2 rounded-2xl border border-gray-100 shadow-sm">
+                  <span className="text-xs font-black text-gray-400 uppercase tracking-wider">Phiên âm</span>
+                  <button
+                    onClick={() => setShowPinyin(!showPinyin)}
+                    className={`relative w-12 h-6 rounded-full transition-colors duration-300 focus:outline-none ${showPinyin ? 'bg-blue-500' : 'bg-gray-200'}`}
+                  >
+                    <div className={`absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform duration-300 ${showPinyin ? 'translate-x-6' : 'translate-x-0'}`} />
+                  </button>
+                  <span className={`text-xs font-bold ${showPinyin ? 'text-blue-600' : 'text-gray-400'}`}>
+                    {showPinyin ? 'Đang bật' : 'Đang tắt'}
+                  </span>
+                </div>
+              )}
             </div>
 
             {/* Tab content */}
@@ -681,14 +692,16 @@ export default function ReadingDetail() {
                         <Volume2 size={16} />
                       </button>
                     </div>
-                    <div className="text-xs font-bold text-blue-400 uppercase tracking-widest mb-1">{vocab.py}</div>
+                    {showPinyin && (
+                      <div className="text-xs font-bold text-blue-400 uppercase tracking-widest mb-1 animate-in fade-in duration-300">{vocab.py}</div>
+                    )}
                     <div className="text-sm opacity-60">{vocab.vi}</div>
                     <div className="mt-4 h-px bg-white/10"></div>
                   </div>
                 ))}
               </div>
               <div className="mt-8 p-4 bg-white/5 rounded-2xl border border-white/10 text-xs italic opacity-60 leading-relaxed">
-                💡 Nhấp vào câu để xem bản dịch và nghe phát âm.
+                💡 {showPinyin ? 'Đang hiện phiên âm để hỗ trợ.' : 'Phiên âm đã tắt để bạn tập trung nhớ mặt chữ.'}
               </div>
             </div>
 

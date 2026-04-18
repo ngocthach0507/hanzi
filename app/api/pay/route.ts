@@ -21,9 +21,25 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { planType, amount } = body;
 
-    // Tạo mã nội dung chuyển khoản ngẫu nhiên (Ví dụ: DH123456)
-    const randomSuffix = Math.floor(100000 + Math.random() * 900000);
-    const paymentRef = `DH${randomSuffix}`;
+    // 1. Kiểm tra xem người dùng đã có đơn hàng pending chưa
+    const { data: existingSub } = await supabaseAdmin
+      .from('subscriptions')
+      .select('*')
+      .eq('user_id', userId)
+      .maybeSingle();
+
+    let paymentRef = "";
+    
+    // Nếu đã có đơn pending, giữ nguyên mã cũ để khách không bị nhầm
+    if (existingSub && existingSub.status === 'pending_payment' && existingSub.payment_ref) {
+      paymentRef = existingSub.payment_ref;
+      console.log(`[PAY] Reusing existing ref: ${paymentRef} for user ${userId}`);
+    } else {
+      // Tạo mã mới 8 chữ số (xác suất trùng 1/100 triệu)
+      const randomSuffix = Math.floor(10000000 + Math.random() * 90000000);
+      paymentRef = `DH${randomSuffix}`;
+      console.log(`[PAY] Generated new 8-digit ref: ${paymentRef} for user ${userId}`);
+    }
 
     // Thông tin tài khoản nhận tiền
     const bankId = process.env.SEPAY_BANK_ID || "mbbank";
@@ -33,21 +49,41 @@ export async function POST(request: Request) {
     // Tạo URL ảnh QR VietQR
     const qrUrl = `https://img.vietqr.io/image/${bankId}-${accountNo}-compact.jpg?amount=${amount}&addInfo=${paymentRef}&accountName=${encodeURIComponent(accountName)}`;
 
-    // Lưu thông tin thanh toán chờ (Pending) vào Supabase - DÙNG ADMIN
-    if (!supabaseAdmin) {
-      throw new Error("supabaseAdmin is not configured");
-    }
-
+    // Lưu/Cập nhật thông tin thanh toán
     const { error: dbError } = await supabaseAdmin.from('subscriptions').upsert({
       user_id: userId,
       payment_ref: paymentRef,
-      status: 'pending_payment',
+      status: existingSub?.status === 'active' ? 'active' : 'pending_payment',
       plan: planType.toLowerCase()
     }, { onConflict: 'user_id' });
 
     if (dbError) {
       console.error("Supabase DB Error:", dbError);
       throw dbError;
+    }
+
+    // 2. [TỰ ĐỘNG ĐỐI SOÁT BÙ] Kiểm tra xem mã này đã có tiền về trong bảng unmatched chưa
+    const { data: unmatched } = await supabaseAdmin
+      .from('unmatched_payments')
+      .select('*')
+      .eq('payment_ref', paymentRef)
+      .eq('status', 'pending')
+      .maybeSingle();
+
+    if (unmatched) {
+      console.log(`[PAY] AUTO-CLAIM: Found unmatched payment for ${paymentRef}! Activating now.`);
+      
+      // Kích hoạt luôn
+      await supabaseAdmin.from('subscriptions').update({
+        status: 'active',
+        plan: planType.toLowerCase(),
+        sepay_ref: unmatched.sepay_payload?.id || "AUTO_CLAIMED"
+      }).eq('user_id', userId);
+
+      // Đánh dấu đã nhận tiền
+      await supabaseAdmin.from('unmatched_payments').update({
+        status: 'claimed'
+      }).eq('id', unmatched.id);
     }
 
     // Trả về dữ liệu cho Frontend hiển thị Modal

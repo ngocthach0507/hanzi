@@ -71,7 +71,6 @@ export default function AppNavbar() {
       dropdown: [
         { label: 'Từ vựng chủ đề', href: '/tu-vung-chu-de' },
         { label: 'Từ vựng HSK', href: '/giao-trinh' },
-        { label: 'Lượng từ', href: '/luong-tu' },
       ]
     },
     { label: 'Hội thoại', icon: <MessageCircle className="w-4 h-4" />, href: '/hoi-thoai', color: 'text-orange-500', hoverBg: 'hover:bg-orange-50', hoverBorder: 'hover:border-orange-500' },
@@ -81,37 +80,37 @@ export default function AppNavbar() {
   ];
 
   return (
-    <header className="w-full bg-white sticky top-0 z-[60] shadow-sm font-sans">
+    <header className="w-full bg-white/80 backdrop-blur-xl sticky top-0 z-[60] border-b border-slate-100 font-sans transition-all">
       {/* ROW 1: TOP HEADER */}
-      <div className="border-b border-gray-100 px-4 md:px-8 py-3 flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <Link href="/" className="text-xl md:text-2xl font-black text-red-500 tracking-tighter">
+      <div className="px-4 md:px-12 py-4 flex items-center justify-between max-w-[1600px] mx-auto">
+        <div className="flex items-center gap-8">
+          <Link href="/" className="text-2xl md:text-3xl font-black text-[#FF5E3A] tracking-tighter hover:scale-105 transition-transform">
             hanzi.io.vn
           </Link>
-          <div className="hidden xl:flex items-center gap-6 ml-4">
-            <button onClick={() => setActiveModal('intro')} className="text-xs font-black text-gray-800 hover:text-red-500 uppercase tracking-widest transition-colors">Giới thiệu</button>
-            <button onClick={() => setActiveModal('teacher')} className="text-xs font-black text-gray-800 hover:text-red-500 uppercase tracking-widest transition-colors">Học giáo viên</button>
+          <div className="hidden xl:flex items-center gap-8 ml-4">
+            <button onClick={() => setActiveModal('intro')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Giới thiệu</button>
+            <button onClick={() => setActiveModal('teacher')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Học giáo viên</button>
           </div>
         </div>
 
-        <div className="flex items-center gap-2 md:gap-4">
-          <div className="hidden lg:flex items-center bg-gray-100 rounded-lg px-3 py-1.5 w-64 border border-transparent focus-within:border-red-200 focus-within:bg-white transition-all">
-            <Search className="w-4 h-4 text-gray-400 mr-2" />
-            <input type="text" placeholder="Tìm kiếm..." className="bg-transparent text-sm w-full outline-none text-gray-700 font-bold" />
+        <div className="flex items-center gap-2 md:gap-6">
+          <div className="hidden lg:flex items-center bg-slate-100/50 rounded-2xl px-4 py-2 w-72 border border-transparent focus-within:border-orange-200 focus-within:bg-white transition-all shadow-sm">
+            <Search className="w-4 h-4 text-slate-400 mr-2" />
+            <input type="text" placeholder="Tìm kiếm khóa học..." className="bg-transparent text-sm w-full outline-none text-slate-700 font-bold" />
           </div>
 
-          <Link href="/giao-trinh" className="hidden md:flex items-center gap-1.5 text-sm font-bold text-gray-700 hover:text-red-500 relative py-1 px-2 bg-gray-50 rounded-lg">
+          <Link href="/giao-trinh" className="hidden md:flex items-center gap-2 text-xs font-black text-slate-700 hover:text-[#FF5E3A] relative py-2 px-4 bg-slate-50 rounded-xl transition-all hover:bg-orange-50">
             📚 HSK 3.0
-            <span className="bg-red-500 text-white text-[9px] px-1 rounded-sm animate-pulse">NEW</span>
+            <span className="bg-[#FF5E3A] text-white text-[8px] px-1.5 py-0.5 rounded-full font-black animate-pulse">NEW</span>
           </Link>
 
           {isPro ? (
-            <div className="flex items-center gap-1.5 bg-gray-900 text-white px-3 md:px-4 py-2 rounded-xl text-[10px] md:text-sm font-black shadow-lg">
-              <Crown size={14} className="text-yellow-400" />
+            <div className="flex items-center gap-2 bg-slate-900 text-white px-4 py-2.5 rounded-2xl text-xs font-black shadow-xl ring-4 ring-slate-100">
+              <Crown size={14} className="text-yellow-400 fill-yellow-400" />
               <span className="hidden sm:inline">PREMIUM</span>
             </div>
           ) : (
-            <Link href="/nang-cap" className="hidden sm:flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-orange-500 text-white px-4 py-2 rounded-xl text-sm font-black shadow-lg shadow-orange-100 hover:scale-105 transition-all">
+            <Link href="/nang-cap" className="hidden sm:flex items-center gap-2 bg-gradient-to-r from-orange-400 to-[#FF5E3A] text-white px-5 py-2.5 rounded-2xl text-xs font-black shadow-xl shadow-orange-100 hover:scale-105 transition-all">
               <Zap className="w-4 h-4 fill-white" />
               NÂNG CẤP
             </Link>
@@ -119,25 +118,25 @@ export default function AppNavbar() {
 
           <div className="flex items-center gap-2">
             {!isLoaded ? (
-              <div className="w-8 h-8 bg-gray-100 animate-pulse rounded-full"></div>
+              <div className="w-10 h-10 bg-slate-100 animate-pulse rounded-2xl"></div>
             ) : user ? (
-              <UserButton appearance={{ elements: { userButtonAvatarBox: "w-9 h-9 border-2 border-red-100 hover:border-red-400 transition-all shadow-sm" } }}>
+              <UserButton appearance={{ elements: { userButtonAvatarBox: "w-10 h-10 border-2 border-orange-100 hover:border-[#FF5E3A] transition-all shadow-md rounded-2xl" } }}>
                 <UserButton.MenuItems>
-                  <UserButton.Link label="Hồ sơ cá nhân" href="/dashboard" labelIcon={<LayoutDashboard className="w-4 h-4" />} />
+                  <UserButton.Link label="Dashboard" href="/dashboard" labelIcon={<LayoutDashboard className="w-4 h-4" />} />
                 </UserButton.MenuItems>
               </UserButton>
             ) : (
-              <div className="hidden md:flex items-center gap-2">
+              <div className="hidden md:flex items-center gap-4">
                 <SignInButton mode="modal">
-                  <button className="text-sm font-bold text-gray-500 hover:text-gray-900">Đăng nhập</button>
+                  <button className="text-sm font-black text-slate-400 hover:text-slate-900 transition-colors">Đăng nhập</button>
                 </SignInButton>
-                <Link href="/dang-ky" className="bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600 text-white px-5 py-2 rounded-xl text-sm font-black shadow-lg shadow-red-100 transition-all active:scale-95 flex items-center gap-2">
+                <Link href="/dang-ky" className="bg-slate-900 hover:bg-black text-white px-6 py-2.5 rounded-2xl text-xs font-black shadow-xl transition-all active:scale-95">
                    ĐĂNG KÝ MIỄN PHÍ
                 </Link>
               </div>
             )}
-            <button className="md:hidden p-2 text-gray-700 bg-gray-50 rounded-xl hover:bg-gray-100 transition-all active:scale-90" onClick={() => setIsMobileMenuOpen(true)}>
-              <Menu size={24} />
+            <button className="md:hidden p-3 text-slate-700 bg-slate-50 rounded-2xl hover:bg-slate-100 transition-all active:scale-90" onClick={() => setIsMobileMenuOpen(true)}>
+              <Menu size={20} />
             </button>
           </div>
         </div>
