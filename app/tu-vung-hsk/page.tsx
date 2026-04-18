@@ -16,7 +16,6 @@ import {
   Sparkles
 } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
-import AppNavbar from '@/components/AppNavbar';
 import VocabDetailPopup from '@/components/VocabDetailPopup';
 import { useUser } from '@clerk/nextjs';
 
@@ -91,7 +90,6 @@ export default function HSKVocabPage() {
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] relative overflow-hidden">
-      <AppNavbar />
 
       {/* Premium Background Mesh */}
       <div className="absolute top-0 left-0 w-full h-[600px] overflow-hidden pointer-events-none -z-10">
