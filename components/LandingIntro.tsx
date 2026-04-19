@@ -33,7 +33,7 @@ export default function LandingIntro() {
                 Hanzi.io.vn là sản phẩm tâm huyết thuộc hệ sinh thái **Tiếng Trung Hongdou**. Chúng tôi ra đời với sứ mệnh xóa bỏ rào cản ngôn ngữ cho người Việt bằng công nghệ AI tiên tiến nhất.
               </p>
               <p className="mb-8">
-                Hiện tại Hanzi đang trong giai đoạn Beta, tập trung hoàn thiện lộ trình **HSK 3.0 (9 cấp độ)** - tiêu chuẩn mới nhất của thế giới. Mọi nội dung đều được đội ngũ chuyên gia của Hongdou biên soạn thực chiến, tập trung vào kết quả và sự minh bạch.
+                Hiện tại Hanzi đang trong giai đoạn Beta, tập trung hoàn thiện lộ trình **HSK 3.0 (9 cấp độ)** - tiêu chuẩn mới nhất của thế giới. Mọi nội dung đều được đội ngũ chuyên gia của Hongdou biên soạn bài bản, tập trung vào kết quả và sự minh bạch.
               </p>
               <a 
                 href="https://applychina.io.vn" 

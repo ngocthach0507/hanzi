@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { 
   BookText, 
@@ -18,12 +18,15 @@ import {
   Users,
   MessageCircle,
   Sparkles,
-  ChevronRight
+  ChevronRight,
+  X,
+  Mail
 } from 'lucide-react';
 import { useUser } from '@clerk/nextjs';
 
 export default function HomeClient() {
   const { user } = useUser();
+  const [isBetaModalOpen, setIsBetaModalOpen] = useState(false);
   
   const features = [
     { title: 'Giáo trình HSK', desc: 'Học theo chuẩn HSK 3.0 từ cấp 1-3', count: '48 bài', icon: <BookText className="w-6 h-6 text-blue-400" />, href: '/giao-trinh', color: 'blue' },
@@ -46,14 +49,22 @@ export default function HomeClient() {
         <div className="absolute bottom-10 right-10 w-64 h-64 bg-blue-100/20 rounded-full blur-3xl"></div>
 
         <div className="max-w-5xl mx-auto text-center relative z-10">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-orange-50 border border-orange-100 text-[#D85A30] text-[11px] font-black mb-8 shadow-sm">
-            <span className="bg-[#D85A30] p-0.5 px-2 rounded text-white text-[9px] font-black animate-pulse">LIVE BETA</span>
+          <button 
+            onClick={() => setIsBetaModalOpen(true)}
+            className="group inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-50 border border-orange-200 text-[#D85A30] text-[11px] font-black mb-8 shadow-[0_0_15px_rgba(216,90,48,0.1)] hover:shadow-[0_0_20px_rgba(216,90,48,0.3)] hover:scale-105 transition-all animate-bounce-slow"
+          >
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-[#D85A30]"></span>
+            </span>
+            <span className="bg-[#D85A30] p-0.5 px-2 rounded text-white text-[9px] font-black">LIVE BETA</span>
             CHƯƠNG TRÌNH BETA — MIỄN PHÍ CHO 100 HỌC VIÊN ĐẦU TIÊN
-          </div>
+            <ChevronRight size={14} className="group-hover:translate-x-1 transition-transform" />
+          </button>
           
           <h1 className="text-5xl md:text-7xl font-black mb-8 leading-[1.1] tracking-tight text-slate-900">
             Học Tiếng Trung <span className="text-[#D85A30]">HSK 3.0</span><br />
-            Lộ trình thực chiến cho người Việt
+            Lộ trình tối ưu cho người Việt
           </h1>
           
           <p className="text-slate-500 font-medium mb-12 max-w-2xl mx-auto leading-relaxed text-lg md:text-xl">
@@ -118,16 +129,16 @@ export default function HomeClient() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-             {/* TEACHER 1 */}
+             {/* TEACHER 1 - Cô Đinh Hồng (Áo xanh) */}
              <div className="flex flex-col md:flex-row gap-6 p-8 bg-slate-50 rounded-[3rem] border border-slate-100 hover:border-orange-200 transition-all">
                 <div className="w-32 h-32 rounded-[2rem] overflow-hidden shrink-0 border-4 border-white shadow-lg">
-                   <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop" alt="Cô Thúy Hiền" className="w-full h-full object-cover" />
+                   <img src="/images/teachers/dinh-hong.png" alt="Cô Đinh Hồng" className="w-full h-full object-cover" />
                 </div>
                 <div>
-                   <h3 className="text-xl font-black text-slate-900 mb-1">Cô Thúy Hiền</h3>
-                   <p className="text-[#D85A30] font-black text-[10px] uppercase tracking-widest mb-4">Thạc sĩ Hán ngữ - ĐH Sư phạm Thủ đô Bắc Kinh</p>
+                   <h3 className="text-xl font-black text-slate-900 mb-1">Cô Đinh Hồng</h3>
+                   <p className="text-[#D85A30] font-black text-[10px] uppercase tracking-widest mb-4">Thạc sỹ Đào tạo Hán ngữ Quốc tế (Tốt nghiệp tại Trung Quốc)</p>
                    <ul className="space-y-2">
-                      {['8 năm kinh nghiệm giảng dạy HSK', 'Chuyên gia luyện thi HSK 3.0', 'Cố vấn nội dung cấp cao tại Hongdou'].map((t, i) => (
+                      {['8 năm kinh nghiệm giảng dạy chuyên sâu', 'Chuyên gia luyện thi HSK 6 & HSKK cao cấp', 'Từng tu nghiệp tại ĐH Sư phạm Hoa Đông (Thượng Hải)'].map((t, i) => (
                         <li key={i} className="flex items-center gap-2 text-sm text-slate-500 font-medium">
                            <Check size={14} className="text-green-500" /> {t}
                         </li>
@@ -136,16 +147,16 @@ export default function HomeClient() {
                 </div>
              </div>
 
-             {/* TEACHER 2 */}
+             {/* TEACHER 2 - Cô Bạch Liên (Áo hồng) */}
              <div className="flex flex-col md:flex-row gap-6 p-8 bg-slate-50 rounded-[3rem] border border-slate-100 hover:border-orange-200 transition-all">
                 <div className="w-32 h-32 rounded-[2rem] overflow-hidden shrink-0 border-4 border-white shadow-lg">
-                   <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop" alt="Thầy Minh Đức" className="w-full h-full object-cover" />
+                   <img src="/images/teachers/bach-lien.png" alt="Cô Bạch Liên" className="w-full h-full object-cover" />
                 </div>
                 <div>
-                   <h3 className="text-xl font-black text-slate-900 mb-1">Thầy Minh Đức</h3>
-                   <p className="text-[#D85A30] font-black text-[10px] uppercase tracking-widest mb-4">Cử nhân ĐH Ngôn ngữ Bắc Kinh - HSK 6 (Tuyệt đối)</p>
+                   <h3 className="text-xl font-black text-slate-900 mb-1">Cô Bạch Liên</h3>
+                   <p className="text-[#D85A30] font-black text-[10px] uppercase tracking-widest mb-4">Tốt nghiệp Xuất sắc Đại học Ngoại ngữ - ĐHQGHN</p>
                    <ul className="space-y-2">
-                      {['Chuyên gia nhận diện chữ viết AI', 'Người trực tiếp hỗ trợ 1-1 trên Zalo', '5 năm nghiên cứu phương pháp học thực chiến'].map((t, i) => (
+                      {['8 năm kinh nghiệm đào tạo chuyên sâu', 'Chuyên gia chỉnh âm chuẩn Bắc Kinh', 'Giảng viên tiêu biểu với >1.000 học viên đỗ HSK'].map((t, i) => (
                         <li key={i} className="flex items-center gap-2 text-sm text-slate-500 font-medium">
                            <Check size={14} className="text-green-500" /> {t}
                         </li>
@@ -422,6 +433,89 @@ export default function HomeClient() {
           </Link>
         </div>
       </section>
+
+      {/* BETA ACCESS MODAL */}
+      {isBetaModalOpen && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+          <div className="absolute inset-0 bg-slate-900/60 backdrop-blur-md animate-in fade-in duration-300" onClick={() => setIsBetaModalOpen(false)}></div>
+          <div className="relative bg-white w-full max-w-xl rounded-[2.5rem] shadow-2xl overflow-hidden animate-in zoom-in-95 duration-300 border border-orange-100">
+            {/* Header with Background */}
+            <div className="relative h-32 bg-gradient-to-br from-[#FF5E3A] to-[#D85A30] p-8 overflow-hidden">
+               <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl"></div>
+               <div className="relative z-10 flex items-center gap-4">
+                  <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-md border border-white/30 animate-bounce-slow">
+                     <Zap size={24} className="text-white fill-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-black text-white uppercase tracking-tight">Đặc quyền Live Beta</h3>
+                    <p className="text-white/70 text-[10px] font-bold uppercase tracking-widest">Hỗ trợ học viên giai đoạn thử nghiệm</p>
+                  </div>
+               </div>
+               <button onClick={() => setIsBetaModalOpen(false)} className="absolute top-6 right-6 p-2 bg-white/20 rounded-full hover:bg-white/40 text-white transition-all z-10"><X size={20} /></button>
+            </div>
+
+            <div className="p-8 md:p-10">
+              <div className="space-y-6">
+                <div className="bg-orange-50 rounded-2xl p-4 border border-orange-100">
+                   <p className="text-slate-800 font-bold text-sm leading-relaxed">
+                     Chào mừng bạn! Hanzi hiện đang trong giai đoạn <span className="text-[#D85A30]">Live Beta</span> để hoàn thiện lộ trình HSK 3.0. Chúng tôi dành tặng món quà tri ân cho 100 học viên đầu tiên.
+                   </p>
+                </div>
+
+                <div className="space-y-4">
+                   <div className="flex items-start gap-4">
+                      <div className="w-8 h-8 rounded-xl bg-blue-50 flex items-center justify-center shrink-0 border border-blue-100">
+                         <span className="text-blue-600 font-black text-xs">01</span>
+                      </div>
+                      <div>
+                        <p className="text-sm font-black text-slate-900 mb-1">Đăng ký tài khoản</p>
+                        <p className="text-xs text-slate-500 font-medium">Truy cập nút Đăng ký phía trên Header để tạo tài khoản miễn phí.</p>
+                      </div>
+                   </div>
+
+                   <div className="flex items-start gap-4">
+                      <div className="w-8 h-8 rounded-xl bg-green-50 flex items-center justify-center shrink-0 border border-green-100">
+                         <span className="text-green-600 font-black text-xs">02</span>
+                      </div>
+                      <div>
+                        <p className="text-sm font-black text-slate-900 mb-1">Gửi yêu cầu kích hoạt</p>
+                        <p className="text-xs text-slate-500 font-medium leading-relaxed">
+                          Soạn Email gửi tới: <span className="font-black text-[#D85A30]">xiaohongdouht@gmail.com</span>
+                          <br />Tiêu đề: <span className="font-black italic">"Kích hoạt Beta - [Email của bạn]"</span>
+                        </p>
+                      </div>
+                   </div>
+
+                   <div className="flex items-start gap-4">
+                      <div className="w-8 h-8 rounded-xl bg-purple-50 flex items-center justify-center shrink-0 border border-purple-100">
+                         <span className="text-purple-600 font-black text-xs">03</span>
+                      </div>
+                      <div>
+                        <p className="text-sm font-black text-slate-900 mb-1">Nhận 1 tháng Premium</p>
+                        <p className="text-xs text-slate-500 font-medium">Admin sẽ kích hoạt tài khoản Premium hoàn toàn miễn phí cho bạn trong vòng 24h.</p>
+                      </div>
+                   </div>
+                </div>
+
+                <div className="pt-6 flex flex-col sm:flex-row gap-3">
+                   <a 
+                     href="mailto:xiaohongdouht@gmail.com?subject=Kích hoạt Beta&body=Chào Admin Hanzi, mình muốn đăng ký kích hoạt 1 tháng Premium Beta cho tài khoản Email: " 
+                     className="flex-1 bg-[#D85A30] hover:bg-[#B54825] text-white px-6 py-4 rounded-2xl font-black text-sm flex items-center justify-center gap-2 shadow-xl shadow-orange-100 transition-all active:scale-95"
+                   >
+                     <Mail size={18} /> SOẠN EMAIL NGAY
+                   </a>
+                   <button 
+                     onClick={() => setIsBetaModalOpen(false)}
+                     className="px-6 py-4 bg-slate-50 text-slate-400 rounded-2xl font-black text-sm hover:bg-slate-100 transition-all"
+                   >
+                     ĐỂ SAU
+                   </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }

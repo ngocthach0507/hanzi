@@ -7,7 +7,7 @@ import { supabaseAdmin } from '@/lib/supabase';
 
 export const metadata: Metadata = {
   title: "Hanzi.io.vn | Nền tảng học Tiếng Trung HSK 3.0 Toàn diện & Miễn phí",
-  description: "Học tiếng Trung online chuẩn HSK 3.0 (9 cấp độ). Lộ trình học từ vựng, ngữ pháp, luyện nghe và viết chữ Hán thực chiến cho người Việt. Đang mở cửa Beta miễn phí.",
+  description: "Học tiếng Trung online chuẩn HSK 3.0 (9 cấp độ). Lộ trình học từ vựng, ngữ pháp, luyện nghe và viết chữ Hán chuyên sâu cho người Việt. Đang mở cửa Beta miễn phí.",
   keywords: ["học tiếng Trung", "HSK 3.0", "từ vựng HSK", "luyện thi HSK", "tiếng Trung online", "học tiếng Trung từ đầu"],
   openGraph: {
     title: "Hanzi.io.vn - Chinh phục Tiếng Trung HSK 3.0 Mới nhất 2026",

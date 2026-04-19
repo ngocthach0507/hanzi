@@ -92,3 +92,12 @@ body {
 .stroke-delay-3 { animation-delay: 0.8s; }
 .stroke-delay-4 { animation-delay: 1.2s; }
 .stroke-delay-5 { animation-delay: 1.6s; }
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s ease-in-out infinite;
+}

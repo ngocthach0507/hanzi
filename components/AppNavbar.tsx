@@ -158,7 +158,7 @@ export default function AppNavbar() {
                   {item.dropdown && <ChevronDown className="w-3 h-3 opacity-30" />}
                 </Link>
                 {item.dropdown && (
-                  <div className="absolute top-full left-0 hidden group-hover:block w-48 bg-white border border-gray-100 shadow-xl rounded-b-xl overflow-hidden py-1">
+                  <div className="absolute top-full left-0 hidden group-hover:block w-48 bg-white border border-gray-100 shadow-xl rounded-b-xl overflow-hidden py-1 z-50">
                     {item.dropdown.map((sub, sIdx) => (
                       <Link key={sIdx} href={sub.href} className="block px-4 py-2.5 text-sm font-bold text-gray-600 hover:bg-red-50 hover:text-red-600">{sub.label}</Link>
                     ))}
@@ -177,7 +177,7 @@ export default function AppNavbar() {
           <div className="relative p-6 bg-gradient-to-br from-red-600 to-orange-500 text-white overflow-hidden">
              <button onClick={() => setIsMobileMenuOpen(false)} className="absolute top-4 right-4 p-2 bg-white/20 rounded-full hover:bg-white/30 transition-all"><X size={20} /></button>
              {user ? (
-               <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4">
                   <img src={user.imageUrl} alt={user.fullName || ""} className="w-16 h-16 rounded-2xl border-2 border-white/50 shadow-lg object-cover" />
                   <div>
                     <h3 className="text-xl font-black">{user.fullName}</h3>
@@ -186,15 +186,15 @@ export default function AppNavbar() {
                        {isPro ? <><Crown size={12} className="text-yellow-300" /> Tài khoản Premium</> : 'Thành viên miễn phí'}
                     </div>
                   </div>
-               </div>
+                </div>
              ) : (
-               <div className="py-4">
+                <div className="py-4">
                   <h3 className="text-xl font-black mb-4">Chào mừng đến với Hanzi!</h3>
                   <div className="flex gap-2">
                     <SignInButton mode="modal"><button className="flex-1 bg-white text-red-600 py-2.5 rounded-xl font-black text-sm">Đăng nhập</button></SignInButton>
                     <Link href="/dang-ky" className="flex-1 bg-red-700 text-white py-2.5 rounded-xl font-black text-sm text-center">Đăng ký</Link>
                   </div>
-               </div>
+                </div>
              )}
           </div>
           <div className="flex-1 h-[calc(100%-180px)] overflow-y-auto p-4 space-y-6">
@@ -236,50 +236,66 @@ export default function AppNavbar() {
         </div>
       </div>
 
-      {/* Modal Portals */}
+      {/* Modal Portals (Mainly for Mobile or Focus View) */}
       {activeModal && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setActiveModal(null)}></div>
-          <div className="relative bg-white w-full max-w-lg rounded-3xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">
-            <button onClick={() => setActiveModal(null)} className="absolute top-4 right-4 p-2 rounded-full hover:bg-gray-100 text-gray-400 hover:text-gray-900 transition-all"><X size={20} /></button>
-            <div className="p-8">
+          <div className="absolute inset-0 bg-slate-900/60 backdrop-blur-md" onClick={() => setActiveModal(null)}></div>
+          <div className="relative bg-white w-full max-w-xl rounded-[2.5rem] shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200 border border-slate-100">
+            <button onClick={() => setActiveModal(null)} className="absolute top-6 right-6 p-2 bg-slate-50 rounded-full hover:bg-slate-100 text-gray-400 hover:text-gray-900 transition-all z-10"><X size={20} /></button>
+            <div className="p-10">
               {activeModal === 'intro' ? (
-                <div className="space-y-4">
-                  <div className="w-12 h-12 bg-red-50 rounded-2xl flex items-center justify-center mb-6"><Book className="text-red-500 w-6 h-6" /></div>
-                  <h3 className="text-2xl font-black text-gray-900 uppercase tracking-tight">Về hệ sinh thái Hanzi</h3>
-                  <div className="h-1 w-12 bg-red-500"></div>
-                  <div className="text-gray-600 font-medium leading-relaxed pt-2 space-y-4">
+                <div className="space-y-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-14 h-14 bg-red-50 rounded-2xl flex items-center justify-center"><Book className="text-red-500 w-7 h-7" /></div>
+                    <div>
+                      <h3 className="text-2xl font-black text-gray-900 uppercase tracking-tight">Hệ sinh thái Hanzi</h3>
+                      <div className="h-1 w-12 bg-red-500 mt-1"></div>
+                    </div>
+                  </div>
+                  <div className="text-slate-600 font-medium leading-relaxed space-y-4 text-base">
                     <p>
-                      Hanzi.io.vn là sản phẩm tâm huyết thuộc hệ sinh thái **Tiếng Trung Hongdou**. Chúng tôi ra đời với sứ mệnh xóa bỏ rào cản ngôn ngữ cho người Việt bằng công nghệ AI tiên tiến.
+                      Hanzi.io.vn là sản phẩm tâm huyết thuộc hệ sinh thái <span className="font-black text-slate-900">Tiếng Trung Hongdou</span>. Chúng tôi ra đời với sứ mệnh xóa bỏ rào cản ngôn ngữ cho người Việt bằng công nghệ AI tiên tiến.
                     </p>
                     <p>
-                      Hiện tại Hanzi tập trung hoàn thiện lộ trình **HSK 3.0 (9 cấp độ)** - tiêu chuẩn mới nhất của thế giới. Mọi nội dung đều được đội ngũ chuyên gia của Hongdou biên soạn thực chiến.
+                      Hiện tại Hanzi tập trung hoàn thiện lộ trình <span className="font-black text-slate-900">HSK 3.0 (9 cấp độ)</span> - tiêu chuẩn mới nhất của thế giới. Mọi nội dung đều được đội ngũ chuyên gia của Hongdou biên soạn bài bản.
                     </p>
-                    <a href="https://applychina.io.vn" target="_blank" className="inline-flex items-center gap-2 text-red-600 font-black text-xs uppercase hover:underline">
-                      Hệ sinh thái du học: APPLYCHINA.IO.VN <ExternalLink size={14} />
-                    </a>
+                    <div className="pt-4 border-t border-slate-100">
+                      <a href="https://applychina.io.vn" target="_blank" className="inline-flex items-center gap-2 bg-red-50 text-red-600 px-6 py-3 rounded-2xl font-black text-xs uppercase hover:bg-red-600 hover:text-white transition-all group">
+                        Hệ sinh thái du học: APPLYCHINA.IO.VN <ExternalLink size={14} className="group-hover:translate-x-1 transition-transform" />
+                      </a>
+                    </div>
                   </div>
                 </div>
               ) : (
-                <div className="space-y-4">
-                  <div className="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center mb-6"><GraduationCap className="text-blue-500 w-6 h-6" /></div>
-                  <h3 className="text-2xl font-black text-gray-900 uppercase tracking-tight">Học cùng Giáo viên</h3>
-                  <div className="h-1 w-12 bg-blue-500"></div>
-                  <div className="text-gray-600 font-medium leading-relaxed pt-2 space-y-4">
+                <div className="space-y-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center"><GraduationCap className="text-blue-500 w-7 h-7" /></div>
+                    <div>
+                      <h3 className="text-2xl font-black text-gray-900 uppercase tracking-tight">Học cùng Giáo viên</h3>
+                      <div className="h-1 w-12 bg-blue-500 mt-1"></div>
+                    </div>
+                  </div>
+                  <div className="text-slate-600 font-medium leading-relaxed space-y-4 text-base">
                     <p>
-                      Ngoài việc tự học trên App, bạn có thể tham gia các lớp học trực tuyến (Online) hoặc trực tiếp (Offline tại Hà Nội) cùng đội ngũ giảng viên chuyên môn cao tại Hongdou.
+                      Ngoài việc tự học trên App, bạn có thể tham gia các lớp học <span className="font-black text-slate-900">Trực tuyến (Online)</span> hoặc <span className="font-black text-slate-900">Trực tiếp (Offline tại Hà Nội)</span> cùng đội ngũ giảng viên chuyên môn cao tại Hongdou.
                     </p>
                     <p>
-                      Lộ trình học được thiết kế cá nhân hóa, cam kết đầu ra chuẩn HSK 3.0 mới nhất.
+                      Lộ trình học được thiết kế cá nhân hóa, cam kết đầu ra chuẩn <span className="font-black text-[#D85A30]">HSK 3.0 mới nhất.</span>
                     </p>
-                    <div className="grid grid-cols-1 gap-3 pt-4">
-                      <a href="https://zalo.me/0969969696" target="_blank" className="flex items-center justify-between p-4 bg-gray-50 rounded-2xl hover:bg-blue-50 transition-all border border-transparent hover:border-blue-100 group">
-                        <span className="font-bold text-gray-900 group-hover:text-blue-600">Tư vấn lớp Online</span>
-                        <ArrowRight size={16} />
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6">
+                      <a href="https://zalo.me/0932712601" target="_blank" className="flex flex-col gap-2 p-6 bg-slate-50 rounded-3xl hover:bg-blue-50 transition-all border border-transparent hover:border-blue-100 group">
+                        <span className="font-black text-gray-900 group-hover:text-blue-600 text-sm uppercase tracking-wide">Tư vấn lớp Online</span>
+                        <div className="flex items-center justify-between">
+                           <span className="text-[10px] text-slate-400 font-bold uppercase">Học qua Zoom/Meet</span>
+                           <ArrowRight size={16} className="text-blue-500 group-hover:translate-x-1 transition-transform" />
+                        </div>
                       </a>
-                      <a href="https://zalo.me/0969969696" target="_blank" className="flex items-center justify-between p-4 bg-gray-50 rounded-2xl hover:bg-red-50 transition-all border border-transparent hover:border-red-100 group">
-                        <span className="font-bold text-gray-900 group-hover:text-red-600">Lớp Offline tại Hà Nội</span>
-                        <ArrowRight size={16} />
+                      <a href="https://zalo.me/0932712601" target="_blank" className="flex flex-col gap-2 p-6 bg-slate-50 rounded-3xl hover:bg-orange-50 transition-all border border-transparent hover:border-orange-100 group">
+                        <span className="font-black text-gray-900 group-hover:text-[#D85A30] text-sm uppercase tracking-wide">Lớp Offline Hà Nội</span>
+                        <div className="flex items-center justify-between">
+                           <span className="text-[10px] text-slate-400 font-bold uppercase">Tại cơ sở Hongdou</span>
+                           <ArrowRight size={16} className="text-[#D85A30] group-hover:translate-x-1 transition-transform" />
+                        </div>
                       </a>
                     </div>
                   </div>
@@ -292,5 +308,3 @@ export default function AppNavbar() {
     </header>
   );
 }
-
-

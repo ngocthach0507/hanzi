@@ -17,7 +17,7 @@ export default function Footer() {
                HỆ SINH THÁI HONGDOU
             </h3>
             <p className="text-gray-500 text-sm font-medium leading-relaxed">
-              Hanzi.io.vn là sản phẩm tâm huyết thuộc hệ sinh thái **Tiếng Trung Hongdou**. Chúng tôi tập trung xây dựng nền tảng học tập bám sát giáo trình HSK 3.0 mới nhất, giúp người Việt chinh phục ngôn ngữ này một cách thực chiến và hiệu quả.
+              Hanzi.io.vn là sản phẩm tâm huyết thuộc hệ sinh thái **Tiếng Trung Hongdou**. Chúng tôi tập trung xây dựng nền tảng học tập bám sát giáo trình HSK 3.0 mới nhất, giúp người Việt chinh phục ngôn ngữ này một cách hiệu quả và ứng dụng cao.
             </p>
             <div className="flex gap-4">
                <a href="https://facebook.com/tiengtrunghongdou" target="_blank" className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-blue-600 hover:bg-blue-50 transition-all">
