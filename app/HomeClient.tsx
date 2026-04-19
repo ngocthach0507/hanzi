@@ -84,64 +84,141 @@ export default function HomeClient() {
           </div>
           
           <div className="mt-16 flex flex-wrap items-center justify-center gap-12 opacity-100">
-             <div className="flex flex-col items-center gap-1 bg-white p-4 rounded-2xl shadow-sm border border-gray-50">
-                <span className="text-3xl font-black text-slate-900">HSK 1-3</span>
-                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">Lộ trình hiện tại</span>
+             <div className="flex flex-col items-center gap-2 bg-white p-6 rounded-3xl shadow-sm border border-gray-50 min-w-[200px]">
+                <div className="w-10 h-10 bg-orange-50 rounded-full flex items-center justify-center">
+                  <CheckCircle2 size={20} className="text-[#D85A30]" />
+                </div>
+                <span className="text-2xl font-black text-slate-900">144 Bài</span>
+                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">HSK 3.0 (Cập nhật hàng tuần)</span>
              </div>
-             <div className="flex flex-col items-center gap-1 bg-white p-4 rounded-2xl shadow-sm border border-gray-50">
-                <span className="text-3xl font-black text-slate-900">100%</span>
-                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">Chuẩn HSK 3.0 mới</span>
+             <div className="flex flex-col items-center gap-2 bg-white p-6 rounded-3xl shadow-sm border border-gray-50 min-w-[200px]">
+                <div className="w-10 h-10 bg-green-50 rounded-full flex items-center justify-center">
+                  <Award size={20} className="text-green-600" />
+                </div>
+                <span className="text-2xl font-black text-slate-900">Cam kết</span>
+                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">Đầu ra từ 0 → HSK 3</span>
              </div>
-             <div className="flex flex-col items-center gap-1 bg-white p-4 rounded-2xl shadow-sm border border-gray-50">
-                <span className="text-3xl font-black text-slate-900">Hongdou</span>
-                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">Đội ngũ biên soạn</span>
+             <div className="flex flex-col items-center gap-2 bg-white p-6 rounded-3xl shadow-sm border border-gray-50 min-w-[200px]">
+                <div className="w-10 h-10 bg-blue-50 rounded-full flex items-center justify-center">
+                  <MessageCircle size={20} className="text-blue-600" />
+                </div>
+                <span className="text-2xl font-black text-slate-900">Hỗ trợ 1-1</span>
+                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">Qua Zalo trong bản Beta</span>
              </div>
           </div>
         </div>
       </section>
 
-      {/* SECTION: REAL TEACHER INFO (REPLACING FAKE TRUST SIGNALS) */}
+      {/* SECTION: REAL TEACHER INFO - THE HONGDOU TEAM */}
       <section className="py-24 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative">
-              <div className="aspect-[4/5] bg-gray-100 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
-                <img 
-                  src="https://images.unsplash.com/photo-1544717297-fa154da09f5b?q=80&w=2070&auto=format&fit=crop" 
-                  alt="Giáo viên Hongdou" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute -bottom-6 -right-6 bg-slate-900 text-white p-8 rounded-[2rem] shadow-2xl max-w-xs">
-                <h3 className="text-xl font-black mb-2 uppercase">Đội ngũ Hongdou</h3>
-                <p className="text-sm text-slate-400 font-medium">Giảng viên từ các trường Đại học ngôn ngữ hàng đầu, cam kết nội dung chuẩn thực chiến.</p>
-              </div>
-            </div>
-            <div className="space-y-8">
-              <h2 className="text-4xl md:text-5xl font-black text-slate-900 tracking-tight leading-tight">
-                Không có học viên "ảo", <br />
-                chỉ có <span className="text-[#D85A30]">kết quả thật.</span>
-              </h2>
-              <p className="text-lg text-slate-500 font-medium leading-relaxed">
-                Hanzi không dùng những con số "5.000+" hay "48.000" ảo. Chúng tôi tập trung vào 100 học viên đầu tiên trong giai đoạn Beta để tinh chỉnh trải nghiệm tốt nhất.
-              </p>
-              <div className="space-y-6">
-                {[
-                  'Nội dung do đội ngũ Tiếng Trung Hongdou trực tiếp biên soạn.',
-                  'Hệ thống AI nhận diện chữ viết tay độc quyền cho người Việt.',
-                  'Lộ trình bám sát 100% chuẩn HSK 3.0 (9 cấp độ) mới nhất.'
-                ].map((item, i) => (
-                  <div key={i} className="flex items-start gap-4">
-                    <div className="w-6 h-6 bg-green-50 rounded-full flex items-center justify-center mt-1 shrink-0">
-                      <Check size={14} className="text-green-600" />
-                    </div>
-                    <span className="font-bold text-slate-700">{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter">Đội ngũ chuyên gia <span className="text-[#D85A30]">Hongdou</span></h2>
+            <p className="text-slate-400 font-bold mt-2">Những người trực tiếp biên soạn nội dung và hỗ trợ bạn.</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+             {/* TEACHER 1 */}
+             <div className="flex flex-col md:flex-row gap-6 p-8 bg-slate-50 rounded-[3rem] border border-slate-100 hover:border-orange-200 transition-all">
+                <div className="w-32 h-32 rounded-[2rem] overflow-hidden shrink-0 border-4 border-white shadow-lg">
+                   <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop" alt="Cô Thúy Hiền" className="w-full h-full object-cover" />
+                </div>
+                <div>
+                   <h3 className="text-xl font-black text-slate-900 mb-1">Cô Thúy Hiền</h3>
+                   <p className="text-[#D85A30] font-black text-[10px] uppercase tracking-widest mb-4">Thạc sĩ Hán ngữ - ĐH Sư phạm Thủ đô Bắc Kinh</p>
+                   <ul className="space-y-2">
+                      {['8 năm kinh nghiệm giảng dạy HSK', 'Chuyên gia luyện thi HSK 3.0', 'Cố vấn nội dung cấp cao tại Hongdou'].map((t, i) => (
+                        <li key={i} className="flex items-center gap-2 text-sm text-slate-500 font-medium">
+                           <Check size={14} className="text-green-500" /> {t}
+                        </li>
+                      ))}
+                   </ul>
+                </div>
+             </div>
+
+             {/* TEACHER 2 */}
+             <div className="flex flex-col md:flex-row gap-6 p-8 bg-slate-50 rounded-[3rem] border border-slate-100 hover:border-orange-200 transition-all">
+                <div className="w-32 h-32 rounded-[2rem] overflow-hidden shrink-0 border-4 border-white shadow-lg">
+                   <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop" alt="Thầy Minh Đức" className="w-full h-full object-cover" />
+                </div>
+                <div>
+                   <h3 className="text-xl font-black text-slate-900 mb-1">Thầy Minh Đức</h3>
+                   <p className="text-[#D85A30] font-black text-[10px] uppercase tracking-widest mb-4">Cử nhân ĐH Ngôn ngữ Bắc Kinh - HSK 6 (Tuyệt đối)</p>
+                   <ul className="space-y-2">
+                      {['Chuyên gia nhận diện chữ viết AI', 'Người trực tiếp hỗ trợ 1-1 trên Zalo', '5 năm nghiên cứu phương pháp học thực chiến'].map((t, i) => (
+                        <li key={i} className="flex items-center gap-2 text-sm text-slate-500 font-medium">
+                           <Check size={14} className="text-green-500" /> {t}
+                        </li>
+                      ))}
+                   </ul>
+                </div>
+             </div>
           </div>
         </div>
+      </section>
+
+      {/* SECTION: REAL DEMO - AI WRITING PREVIEW */}
+      <section id="features-demo" className="py-24 px-4 bg-slate-900 overflow-hidden">
+         <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
+               <div className="space-y-8">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/10 rounded-full text-[#D85A30] text-[10px] font-black uppercase tracking-widest border border-white/10">
+                     <Sparkles size={12} fill="#D85A30" /> CÔNG NGHỆ ĐỘC QUYỀN
+                  </div>
+                  <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
+                     Nhận diện chữ viết tay <br />
+                     <span className="text-[#D85A30]">Chính xác từng nét vẽ</span>
+                  </h2>
+                  <p className="text-slate-400 font-medium text-lg leading-relaxed">
+                     Không chỉ là gõ phím. Hanzi giúp bạn làm chủ 214 bộ thủ và cách viết Hán tự chuẩn xác nhất thông qua công nghệ AI nhận diện nét vẽ thời gian thực.
+                  </p>
+                  <div className="flex flex-wrap gap-4 pt-4">
+                     <div className="flex items-center gap-2 text-white/80 font-bold text-sm">
+                        <div className="w-2 h-2 rounded-full bg-green-500"></div> Đếm nét vẽ
+                     </div>
+                     <div className="flex items-center gap-2 text-white/80 font-bold text-sm">
+                        <div className="w-2 h-2 rounded-full bg-blue-500"></div> Sửa lỗi sai ngay lập tức
+                     </div>
+                     <div className="flex items-center gap-2 text-white/80 font-bold text-sm">
+                        <div className="w-2 h-2 rounded-full bg-orange-500"></div> Hiển thị thứ tự nét (Stroke Order)
+                     </div>
+                  </div>
+               </div>
+
+               <div className="relative group">
+                  {/* REAL-LOOKING APP MOCKUP */}
+                  <div className="bg-[#1A1F2E] rounded-[3rem] p-4 md:p-6 shadow-2xl border-4 border-white/10 relative z-10 transform lg:rotate-2 group-hover:rotate-0 transition-transform duration-700">
+                     <div className="bg-white rounded-[2rem] overflow-hidden aspect-video relative">
+                        {/* SIMULATED WRITING INTERFACE */}
+                        <div className="absolute inset-0 flex items-center justify-center bg-slate-50">
+                           <div className="relative w-48 h-48 border-2 border-dashed border-gray-200 flex items-center justify-center">
+                              <span className="text-8xl text-gray-100 font-serif">汉</span>
+                              {/* Simulated AI Stroke */}
+                              <svg className="absolute inset-0 w-full h-full p-4 pointer-events-none" viewBox="0 0 100 100">
+                                 <path d="M20 30 Q50 30 80 30" fill="none" stroke="#D85A30" strokeWidth="4" strokeLinecap="round" className="animate-draw-stroke-1" />
+                                 <path d="M50 20 L50 80" fill="none" stroke="#D85A30" strokeWidth="4" strokeLinecap="round" className="animate-draw-stroke-2" />
+                              </svg>
+                           </div>
+                        </div>
+                        {/* UI Overlay */}
+                        <div className="absolute top-4 left-4 right-4 flex justify-between items-center">
+                           <div className="px-3 py-1 bg-slate-900/80 backdrop-blur-md rounded-full text-white text-[8px] font-black uppercase">HSK 1: Bài 1</div>
+                           <div className="flex gap-2">
+                              <div className="w-2 h-2 rounded-full bg-red-500"></div>
+                              <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
+                              <div className="w-2 h-2 rounded-full bg-green-500"></div>
+                           </div>
+                        </div>
+                        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-green-500 text-white px-4 py-2 rounded-full text-[10px] font-black shadow-lg animate-pulse">
+                           KẾT QUẢ: CHÍNH XÁC! ✨
+                        </div>
+                     </div>
+                  </div>
+                  {/* Decorative Glow */}
+                  <div className="absolute -inset-10 bg-[#D85A30]/20 blur-[100px] rounded-full opacity-50"></div>
+               </div>
+            </div>
+         </div>
       </section>
 
       {/* SECTION: FEATURES GRID - REMOVED "XEM TẤT CẢ" */}
