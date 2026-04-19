@@ -13,6 +13,7 @@ import {
   ClipboardList, 
   Smartphone, 
   ChevronDown,
+  ExternalLink,
   Menu,
   X,
   Zap,
