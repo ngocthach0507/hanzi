@@ -19,7 +19,9 @@ import {
   Zap,
   LayoutDashboard,
   GraduationCap,
-  Crown
+  Crown,
+  ArrowRight,
+  ChevronRight
 } from 'lucide-react';
 import { UserButton, SignInButton, useUser } from '@clerk/nextjs';
 
@@ -291,7 +293,4 @@ export default function AppNavbar() {
   );
 }
 
-const ChevronRight = ({ className, size = 24 }: { className?: string; size?: number }) => (
-  <svg className={className} xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-);
 
