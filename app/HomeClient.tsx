@@ -436,9 +436,9 @@ export default function HomeClient() {
 
       {/* BETA ACCESS MODAL */}
       {isBetaModalOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-          <div className="absolute inset-0 bg-slate-900/60 backdrop-blur-md animate-in fade-in duration-300" onClick={() => setIsBetaModalOpen(false)}></div>
-          <div className="relative bg-white w-full max-w-xl rounded-[2.5rem] shadow-2xl overflow-hidden animate-in zoom-in-95 duration-300 border border-orange-100">
+        <div className="fixed inset-0 z-[100] flex items-start justify-center p-4 overflow-y-auto scrollbar-hide py-10 md:py-20">
+          <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-md animate-in fade-in duration-300" onClick={() => setIsBetaModalOpen(false)}></div>
+          <div className="relative bg-white w-full max-w-xl rounded-[2.5rem] shadow-2xl animate-in zoom-in-95 duration-300 border border-orange-100 mb-10">
             {/* Header with Background */}
             <div className="relative h-32 bg-gradient-to-br from-[#FF5E3A] to-[#D85A30] p-8 overflow-hidden">
                <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl"></div>
