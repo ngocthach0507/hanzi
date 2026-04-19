@@ -440,77 +440,78 @@ export default function HomeClient() {
           <div className="flex min-h-full items-center justify-center p-4 md:p-10">
             <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-md animate-in fade-in duration-300 transition-opacity" onClick={() => setIsBetaModalOpen(false)}></div>
             <div className="relative bg-white w-full max-w-xl rounded-[2.5rem] shadow-2xl animate-in zoom-in-95 duration-300 border border-orange-100 my-8 md:my-12 overflow-hidden">
-            {/* Header with Background */}
-            <div className="relative h-32 bg-gradient-to-br from-[#FF5E3A] to-[#D85A30] p-8 overflow-hidden">
-               <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl"></div>
-               <div className="relative z-10 flex items-center gap-4">
-                  <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-md border border-white/30 animate-bounce-slow">
-                     <Zap size={24} className="text-white fill-white" />
+              {/* Header with Background */}
+              <div className="relative h-32 bg-gradient-to-br from-[#FF5E3A] to-[#D85A30] p-8 overflow-hidden">
+                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl"></div>
+                 <div className="relative z-10 flex items-center gap-4">
+                    <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-md border border-white/30 animate-bounce-slow">
+                       <Zap size={24} className="text-white fill-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-black text-white uppercase tracking-tight">Đặc quyền Live Beta</h3>
+                      <p className="text-white/70 text-[10px] font-bold uppercase tracking-widest">Hỗ trợ học viên giai đoạn thử nghiệm</p>
+                    </div>
+                 </div>
+                 <button onClick={() => setIsBetaModalOpen(false)} className="absolute top-6 right-6 p-2 bg-white/20 rounded-full hover:bg-white/40 text-white transition-all z-10"><X size={20} /></button>
+              </div>
+
+              <div className="p-8 md:p-10">
+                <div className="space-y-6">
+                  <div className="bg-orange-50 rounded-2xl p-4 border border-orange-100">
+                     <p className="text-slate-800 font-bold text-sm leading-relaxed">
+                       Chào mừng bạn! Hanzi hiện đang trong giai đoạn <span className="text-[#D85A30]">Live Beta</span> để hoàn thiện lộ trình HSK 3.0. Chúng tôi dành tặng món quà tri ân cho 100 học viên đầu tiên.
+                     </p>
                   </div>
-                  <div>
-                    <h3 className="text-xl font-black text-white uppercase tracking-tight">Đặc quyền Live Beta</h3>
-                    <p className="text-white/70 text-[10px] font-bold uppercase tracking-widest">Hỗ trợ học viên giai đoạn thử nghiệm</p>
+
+                  <div className="space-y-4">
+                     <div className="flex items-start gap-4">
+                        <div className="w-8 h-8 rounded-xl bg-blue-50 flex items-center justify-center shrink-0 border border-blue-100">
+                           <span className="text-blue-600 font-black text-xs">01</span>
+                        </div>
+                        <div>
+                          <p className="text-sm font-black text-slate-900 mb-1">Đăng ký tài khoản</p>
+                          <p className="text-xs text-slate-500 font-medium">Truy cập nút Đăng ký phía trên Header để tạo tài khoản miễn phí.</p>
+                        </div>
+                     </div>
+
+                     <div className="flex items-start gap-4">
+                        <div className="w-8 h-8 rounded-xl bg-green-50 flex items-center justify-center shrink-0 border border-green-100">
+                           <span className="text-green-600 font-black text-xs">02</span>
+                        </div>
+                        <div>
+                          <p className="text-sm font-black text-slate-900 mb-1">Gửi yêu cầu kích hoạt</p>
+                          <p className="text-xs text-slate-500 font-medium leading-relaxed">
+                            Soạn Email gửi tới: <span className="font-black text-[#D85A30]">xiaohongdouht@gmail.com</span>
+                            <br />Tiêu đề: <span className="font-black italic">"Kích hoạt Beta - [Email của bạn]"</span>
+                          </p>
+                        </div>
+                     </div>
+
+                     <div className="flex items-start gap-4">
+                        <div className="w-8 h-8 rounded-xl bg-purple-50 flex items-center justify-center shrink-0 border border-purple-100">
+                           <span className="text-purple-600 font-black text-xs">03</span>
+                        </div>
+                        <div>
+                          <p className="text-sm font-black text-slate-900 mb-1">Nhận 1 tháng Premium</p>
+                          <p className="text-xs text-slate-500 font-medium">Admin sẽ kích hoạt tài khoản Premium hoàn toàn miễn phí cho bạn trong vòng 24h.</p>
+                        </div>
+                     </div>
                   </div>
-               </div>
-               <button onClick={() => setIsBetaModalOpen(false)} className="absolute top-6 right-6 p-2 bg-white/20 rounded-full hover:bg-white/40 text-white transition-all z-10"><X size={20} /></button>
-            </div>
 
-            <div className="p-8 md:p-10">
-              <div className="space-y-6">
-                <div className="bg-orange-50 rounded-2xl p-4 border border-orange-100">
-                   <p className="text-slate-800 font-bold text-sm leading-relaxed">
-                     Chào mừng bạn! Hanzi hiện đang trong giai đoạn <span className="text-[#D85A30]">Live Beta</span> để hoàn thiện lộ trình HSK 3.0. Chúng tôi dành tặng món quà tri ân cho 100 học viên đầu tiên.
-                   </p>
-                </div>
-
-                <div className="space-y-4">
-                   <div className="flex items-start gap-4">
-                      <div className="w-8 h-8 rounded-xl bg-blue-50 flex items-center justify-center shrink-0 border border-blue-100">
-                         <span className="text-blue-600 font-black text-xs">01</span>
-                      </div>
-                      <div>
-                        <p className="text-sm font-black text-slate-900 mb-1">Đăng ký tài khoản</p>
-                        <p className="text-xs text-slate-500 font-medium">Truy cập nút Đăng ký phía trên Header để tạo tài khoản miễn phí.</p>
-                      </div>
-                   </div>
-
-                   <div className="flex items-start gap-4">
-                      <div className="w-8 h-8 rounded-xl bg-green-50 flex items-center justify-center shrink-0 border border-green-100">
-                         <span className="text-green-600 font-black text-xs">02</span>
-                      </div>
-                      <div>
-                        <p className="text-sm font-black text-slate-900 mb-1">Gửi yêu cầu kích hoạt</p>
-                        <p className="text-xs text-slate-500 font-medium leading-relaxed">
-                          Soạn Email gửi tới: <span className="font-black text-[#D85A30]">xiaohongdouht@gmail.com</span>
-                          <br />Tiêu đề: <span className="font-black italic">"Kích hoạt Beta - [Email của bạn]"</span>
-                        </p>
-                      </div>
-                   </div>
-
-                   <div className="flex items-start gap-4">
-                      <div className="w-8 h-8 rounded-xl bg-purple-50 flex items-center justify-center shrink-0 border border-purple-100">
-                         <span className="text-purple-600 font-black text-xs">03</span>
-                      </div>
-                      <div>
-                        <p className="text-sm font-black text-slate-900 mb-1">Nhận 1 tháng Premium</p>
-                        <p className="text-xs text-slate-500 font-medium">Admin sẽ kích hoạt tài khoản Premium hoàn toàn miễn phí cho bạn trong vòng 24h.</p>
-                      </div>
-                   </div>
-                </div>
-
-                <div className="pt-6 flex flex-col sm:flex-row gap-3">
-                   <a 
-                     href="mailto:xiaohongdouht@gmail.com?subject=Kích hoạt Beta&body=Chào Admin Hanzi, mình muốn đăng ký kích hoạt 1 tháng Premium Beta cho tài khoản Email: " 
-                     className="flex-1 bg-[#D85A30] hover:bg-[#B54825] text-white px-6 py-4 rounded-2xl font-black text-sm flex items-center justify-center gap-2 shadow-xl shadow-orange-100 transition-all active:scale-95"
-                   >
-                     <Mail size={18} /> SOẠN EMAIL NGAY
-                   </a>
-                   <button 
-                     onClick={() => setIsBetaModalOpen(false)}
-                     className="px-6 py-4 bg-slate-50 text-slate-400 rounded-2xl font-black text-sm hover:bg-slate-100 transition-all"
-                   >
-                     ĐỂ SAU
-                   </button>
+                  <div className="pt-6 flex flex-col sm:flex-row gap-3">
+                     <a 
+                       href="mailto:xiaohongdouht@gmail.com?subject=Kích hoạt Beta&body=Chào Admin Hanzi, mình muốn đăng ký kích hoạt 1 tháng Premium Beta cho tài khoản Email: " 
+                       className="flex-1 bg-[#D85A30] hover:bg-[#B54825] text-white px-6 py-4 rounded-2xl font-black text-sm flex items-center justify-center gap-2 shadow-xl shadow-orange-100 transition-all active:scale-95"
+                     >
+                       <Mail size={18} /> SOẠN EMAIL NGAY
+                     </a>
+                     <button 
+                       onClick={() => setIsBetaModalOpen(false)}
+                       className="px-6 py-4 bg-slate-50 text-slate-400 rounded-2xl font-black text-sm hover:bg-slate-100 transition-all"
+                     >
+                       ĐỂ SAU
+                     </button>
+                  </div>
                 </div>
               </div>
             </div>
