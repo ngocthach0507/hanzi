@@ -1,11 +1,9 @@
 import React from 'react';
 import { ExternalLink, Calendar, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 import HomeClient from './HomeClient';
 import { Metadata } from 'next';
 import { supabaseAdmin } from '@/lib/supabase';
-import Link from 'next/link';
-
-import LandingIntro from '@/components/LandingIntro';
 
 export const metadata: Metadata = {
   title: "Hanzi.io.vn | Nền tảng học Tiếng Trung HSK 3.0 Toàn diện & Miễn phí",
@@ -29,10 +27,7 @@ export default async function Home() {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      {/* SECTION: INTRODUCTION & TEACHER (Interactive Accordion) */}
-      <LandingIntro />
-
-      {/* Main Client Content */}
+      {/* Main Client Content (Hero, Features, Pricing, etc.) */}
       <HomeClient />
 
       {/* SECTION: LATEST BLOG POSTS (SEO & INTERNAL LINKING) */}

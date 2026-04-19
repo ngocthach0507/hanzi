@@ -243,26 +243,42 @@ export default function AppNavbar() {
               {activeModal === 'intro' ? (
                 <div className="space-y-4">
                   <div className="w-12 h-12 bg-red-50 rounded-2xl flex items-center justify-center mb-6"><Book className="text-red-500 w-6 h-6" /></div>
-                  <h3 className="text-2xl font-black text-gray-900 uppercase">Về hệ sinh thái Hanzi</h3>
+                  <h3 className="text-2xl font-black text-gray-900 uppercase tracking-tight">Về hệ sinh thái Hanzi</h3>
                   <div className="h-1 w-12 bg-red-500"></div>
-                  <p className="text-gray-600 font-medium leading-relaxed pt-2">
-                    Hanzi.io.vn là nền tảng học Tiếng Trung thông minh thuộc hệ sinh thái <strong>Tiếng Trung Hongdou</strong>. 
-                    Chúng tôi tiên phong trong việc ứng dụng công nghệ AI vào giáo trình HSK 3.0, giúp học viên Việt Nam chinh phục Hán ngữ một cách khoa học và hiệu quả nhất.
-                  </p>
+                  <div className="text-gray-600 font-medium leading-relaxed pt-2 space-y-4">
+                    <p>
+                      Hanzi.io.vn là sản phẩm tâm huyết thuộc hệ sinh thái **Tiếng Trung Hongdou**. Chúng tôi ra đời với sứ mệnh xóa bỏ rào cản ngôn ngữ cho người Việt bằng công nghệ AI tiên tiến.
+                    </p>
+                    <p>
+                      Hiện tại Hanzi tập trung hoàn thiện lộ trình **HSK 3.0 (9 cấp độ)** - tiêu chuẩn mới nhất của thế giới. Mọi nội dung đều được đội ngũ chuyên gia của Hongdou biên soạn thực chiến.
+                    </p>
+                    <a href="https://applychina.io.vn" target="_blank" className="inline-flex items-center gap-2 text-red-600 font-black text-xs uppercase hover:underline">
+                      Hệ sinh thái du học: APPLYCHINA.IO.VN <ExternalLink size={14} />
+                    </a>
+                  </div>
                 </div>
               ) : (
                 <div className="space-y-4">
                   <div className="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center mb-6"><GraduationCap className="text-blue-500 w-6 h-6" /></div>
-                  <h3 className="text-2xl font-black text-gray-900 uppercase">Khóa học cùng Giáo viên</h3>
+                  <h3 className="text-2xl font-black text-gray-900 uppercase tracking-tight">Học cùng Giáo viên</h3>
                   <div className="h-1 w-12 bg-blue-500"></div>
-                  <p className="text-gray-600 font-medium leading-relaxed pt-2">
-                    Ngoài việc tự học trên App, bạn có thể tham gia các lớp học trực tuyến cùng đội ngũ giảng viên chuyên môn cao tại Hongdou. 
-                    Lộ trình học được thiết kế cá nhân hóa, cam kết đầu ra chuẩn HSK 3.0 mới nhất.
-                  </p>
-                  <div className="pt-4">
-                    <a href="https://zalo.me/0969969696" target="_blank" className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-xl font-black text-sm hover:bg-blue-700 transition-all">
-                      Tư vấn khóa học ngay
-                    </a>
+                  <div className="text-gray-600 font-medium leading-relaxed pt-2 space-y-4">
+                    <p>
+                      Ngoài việc tự học trên App, bạn có thể tham gia các lớp học trực tuyến (Online) hoặc trực tiếp (Offline tại Hà Nội) cùng đội ngũ giảng viên chuyên môn cao tại Hongdou.
+                    </p>
+                    <p>
+                      Lộ trình học được thiết kế cá nhân hóa, cam kết đầu ra chuẩn HSK 3.0 mới nhất.
+                    </p>
+                    <div className="grid grid-cols-1 gap-3 pt-4">
+                      <a href="https://zalo.me/0969969696" target="_blank" className="flex items-center justify-between p-4 bg-gray-50 rounded-2xl hover:bg-blue-50 transition-all border border-transparent hover:border-blue-100 group">
+                        <span className="font-bold text-gray-900 group-hover:text-blue-600">Tư vấn lớp Online</span>
+                        <ArrowRight size={16} />
+                      </a>
+                      <a href="https://zalo.me/0969969696" target="_blank" className="flex items-center justify-between p-4 bg-gray-50 rounded-2xl hover:bg-red-50 transition-all border border-transparent hover:border-red-100 group">
+                        <span className="font-bold text-gray-900 group-hover:text-red-600">Lớp Offline tại Hà Nội</span>
+                        <ArrowRight size={16} />
+                      </a>
+                    </div>
                   </div>
                 </div>
               )}

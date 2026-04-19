@@ -56,3 +56,36 @@
 ---
 **Ghi chú cho Agent tiếp theo:** 
 Dự án đã có khung frontend rất mạnh. Hãy tập trung vào việc **làm giàu dữ liệu HSK 3** và **hoàn thiện các con số trong Dashboard** để người dùng thấy được tiến độ học tập. Đọc `walkthrough.md` để xem các bản ghi màn hình/ảnh chụp các tính năng mới nhất.
+
+---
+
+## 🚀 6. CẬP NHẬT MỚI NHẤT (SESSION 20/04/2026)
+
+### ✅ Các hạng mục đã hoàn thành
+1. **Phễu chuyển đổi (Trial-First Funnel):**
+   - Triển khai chiến lược **Học thử ngay**: Mở khóa Bài 1 HSK 1 công khai, không bắt buộc login.
+   - Hệ thống **Progress Gate**: Thu thập email qua Soft Gate (khi xong 50% bài) và Hard Gate (kết thúc bài).
+   - Form Ebook trên trang chủ chuyển thành form nhập email trực tiếp, đẩy thẳng vào DB và Email System.
+
+2. **Tối ưu SEO (SEO Foundation):**
+   - **Technical:** Cập nhật `sitemap.ts` động, `robots.txt` chuẩn SEO, tối ưu Meta Tags cho Home và HSK 3.0.
+   - **Structured Data:** Cài đặt mã Schema JSON-LD (Course, FAQ, Organization) giúp hiển thị kết quả tìm kiếm uy tín.
+
+3. **Email Marketing Automation:**
+   - Kết nối thành công API **Brevo** với `BREVO_API_KEY` và `BREVO_LIST_ID`.
+   - Tạo API `/api/leads` và bảng `leads` trong Supabase để quản lý khách hàng tiềm năng.
+   - Tối ưu hóa lọc email rác, email ảo để tiết kiệm chi phí/quota gửi mail.
+
+4. **UI/UX & Giao diện:**
+   - Thêm phần **Giới thiệu** và **Học với giáo viên** dưới dạng Accordion tương tác ngay đầu Landing Page.
+   - Sửa lỗi nút **Xem Demo** và bổ sung các icon bị thiếu (`ChevronRight`, `Sparkles`, `Award`...).
+   - **Deploy:** Đã cập nhật toàn bộ lên GitHub và Deploy thành công trên Netlify.
+
+### ⚠️ Hạng mục chưa xử lý (Pending - QUAN TRỌNG)
+- **Xác thực DNS cho Brevo:** Hiện tại 4 bản ghi (TXT/CNAME) chưa được cấu hình tại 123host.
+  - *Tình trạng:* Hệ thống vẫn thu thập được Lead nhưng email gửi từ Hanzi có nguy cơ cao bị Gmail đánh dấu là **Spam**.
+  - *Cần làm:* Đăng nhập 123host và thêm 4 bản ghi DNS đã được lưu trong lịch sử chat.
+
+---
+**Ghi chú cho Agent tiếp theo:** 
+Hệ thống Marketing đã "thông". Hãy tập trung vào việc **viết 10 bài Blog Pillar** theo kế hoạch tại `docs/SEO_CONTENT_PLAN.md` để bắt đầu kéo traffic organic về phễu đã dựng sẵn.
