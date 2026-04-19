@@ -5,9 +5,9 @@ import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabase';
 import { 
-  ChevronLeft, BookOpen, MessageCircle, Star, Palette, Headphones, 
+  ChevronLeft, ChevronRight, BookOpen, MessageCircle, Star, Palette, Headphones, 
   Layers, PenTool, ClipboardCheck, LayoutList, Volume2, Info, CheckCircle2, 
-  Zap, Play, ArrowRight, Save, RefreshCcw, Square
+  Zap, Play, ArrowRight, Save, RefreshCcw, Square, Sparkles, Award
 } from 'lucide-react';
 import GrammarPractice from '@/components/GrammarPractice';
 import ConversationPractice from '@/components/ConversationPractice';
@@ -59,6 +59,78 @@ export default function LessonDetail() {
   const scrollContainerRef = React.useRef<HTMLDivElement>(null);
   const lineRefs = React.useRef<(HTMLDivElement | null)[]>([]);
   const textLineRefs = React.useRef<Record<string, (HTMLDivElement | null)[]>>({});
+
+  // --- Trial-First Funnel State ---
+  const [visitedTabs, setVisitedTabs] = useState<Set<string>>(new Set(['vocab']));
+  const [showSoftGate, setShowSoftGate] = useState(false);
+  const [showHardGate, setShowHardGate] = useState(false);
+  const [email, setEmail] = useState('');
+  const [gateDismissed, setGateDismissed] = useState(false);
+  const [hasConverted, setHasConverted] = useState(false);
+
+  // Load state from localStorage
+  useEffect(() => {
+    const savedEmail = localStorage.getItem('hanzi_beta_email');
+    const dismissed = localStorage.getItem('hanzi_soft_gate_dismissed');
+    if (savedEmail) {
+      setEmail(savedEmail);
+      setHasConverted(true);
+    }
+    if (dismissed) setGateDismissed(true);
+  }, []);
+
+  // Track progress
+  useEffect(() => {
+    if (!visitedTabs.has(activeTab)) {
+      const nextVisited = new Set(visitedTabs);
+      nextVisited.add(activeTab);
+      setVisitedTabs(nextVisited);
+
+      // Save progress to localStorage
+      localStorage.setItem(`progress_hsk${level}_bai${lesson}`, JSON.stringify(Array.from(nextVisited)));
+
+      // Trigger Soft Gate for Lesson 1 at 50% (5 tabs visited)
+      if (numericLevel === 1 && numericLesson === 1 && !hasConverted && !gateDismissed && nextVisited.size === 5) {
+        setShowSoftGate(true);
+      }
+
+      // Trigger Hard Gate at Summary tab for Lesson 1
+      if (numericLevel === 1 && numericLesson === 1 && activeTab === 'summary' && !hasConverted) {
+        setShowHardGate(true);
+      }
+    }
+  }, [activeTab, numericLevel, numericLesson, hasConverted, gateDismissed]);
+
+  const handleLeadSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email) return;
+
+    try {
+      // 1. Save to local storage for instant UX
+      localStorage.setItem('hanzi_beta_email', email);
+      setHasConverted(true);
+      setShowSoftGate(false);
+      setShowHardGate(false);
+
+      // 2. Send to API for Email Marketing Automation
+      await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email,
+          source: 'lesson_gate',
+          level: numericLevel,
+          lesson: numericLesson,
+          metadata: {
+            is_mobile: window.innerWidth < 768,
+            timestamp: new Date().toISOString()
+          }
+        })
+      });
+    } catch (error) {
+      console.error('Failed to submit lead:', error);
+    }
+  };
 
   // Theme based on level
   const theme = {
@@ -786,6 +858,97 @@ export default function LessonDetail() {
               )}
             </div>
 
+            {/* --- PROGRESS GATES (SOFT & HARD) --- */}
+            
+            {/* 1. SOFT GATE */}
+            {showSoftGate && (
+              <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-gray-900/40 backdrop-blur-md animate-in fade-in duration-300">
+                <div className="bg-white rounded-[3rem] p-10 max-w-md w-full shadow-2xl animate-in zoom-in-95 duration-500 border border-orange-100">
+                   <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center text-[#D85A30] mb-8">
+                      <Sparkles size={32} />
+                   </div>
+                   <h3 className="text-2xl font-black text-gray-900 mb-4 leading-tight">Bạn đang làm rất tốt! 🎉</h3>
+                   <p className="text-gray-500 font-medium mb-8 leading-relaxed">
+                      Bạn đã hoàn thành 50% Bài 1. Hãy nhập email để **lưu tiến độ** và nhận thông báo khi có Bài 2 miễn phí nhé!
+                   </p>
+                   <form onSubmit={handleLeadSubmit} className="space-y-4">
+                      <input 
+                         type="email" 
+                         required
+                         placeholder="Email của bạn" 
+                         className="w-full px-6 py-4 rounded-2xl bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-[#D85A30] font-medium"
+                         value={email}
+                         onChange={(e) => setEmail(e.target.value)}
+                      />
+                      <button type="submit" className="w-full py-4 bg-[#D85A30] text-white rounded-2xl font-black shadow-xl shadow-orange-200 hover:bg-[#B54825] transition-all">
+                         LƯU TIẾN ĐỘ & HỌC TIẾP
+                      </button>
+                      <button 
+                         type="button" 
+                         onClick={() => {
+                           setShowSoftGate(false);
+                           setGateDismissed(true);
+                           localStorage.setItem('hanzi_soft_gate_dismissed', 'true');
+                         }}
+                         className="w-full text-center text-xs font-black text-gray-400 uppercase tracking-widest hover:text-gray-600 transition-colors"
+                      >
+                         Bỏ qua, học tiếp →
+                      </button>
+                   </form>
+                </div>
+              </div>
+            )}
+
+            {/* 2. HARD GATE */}
+            {showHardGate && (
+              <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-gray-900/80 backdrop-blur-md animate-in fade-in duration-300">
+                <div className="bg-white rounded-[3rem] p-12 max-w-lg w-full shadow-2xl animate-in zoom-in-95 duration-500 relative overflow-hidden">
+                   <div className="absolute top-0 right-0 w-32 h-32 bg-green-100 rounded-full -mr-16 -mt-16 opacity-50"></div>
+                   
+                   <div className="relative z-10 text-center">
+                      <div className="w-20 h-20 bg-green-100 rounded-3xl flex items-center justify-center text-green-600 mx-auto mb-8 shadow-xl shadow-green-50">
+                         <Award size={48} />
+                      </div>
+                      <h3 className="text-3xl font-black text-gray-900 mb-4 tracking-tight">🎓 Chúc mừng!</h3>
+                      <p className="text-xl font-bold text-gray-600 mb-8">
+                         Bạn đã hoàn thành xuất sắc Bài 1 HSK 1
+                      </p>
+                      
+                      <div className="grid grid-cols-2 gap-4 mb-10">
+                         <div className="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                            <div className="text-2xl font-black text-gray-900">{data.vocabulary.length}</div>
+                            <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Từ vựng</div>
+                         </div>
+                         <div className="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                            <div className="text-2xl font-black text-gray-900">{data.grammar.length}</div>
+                            <div className="text-[10px] font-black text-gray-400 uppercase tracking-widest">Ngữ pháp</div>
+                         </div>
+                      </div>
+
+                      <form onSubmit={handleLeadSubmit} className="space-y-4">
+                         <div className="text-left text-xs font-black text-gray-400 uppercase tracking-widest mb-2 pl-2">Email để nhận Bài 2 miễn phí:</div>
+                         <input 
+                            type="email" 
+                            required
+                            placeholder="Email của bạn" 
+                            className="w-full px-6 py-4 rounded-2xl bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-green-500 font-medium"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                         />
+                         <button type="submit" className="w-full py-5 bg-gray-900 text-white rounded-2xl font-black shadow-xl hover:bg-black transition-all flex items-center justify-center gap-3">
+                            HỌC TIẾP BÀI 2 MIỄN PHÍ <ArrowRight size={20} />
+                         </button>
+                         
+                         <div className="pt-6 mt-6 border-t border-gray-100">
+                            <Link href="/nang-cap" className="inline-flex items-center gap-2 text-[#D85A30] font-black uppercase tracking-widest text-xs hover:underline">
+                               Nâng cấp Premium - Mở khóa 144 bài học <ChevronRight size={14} />
+                            </Link>
+                         </div>
+                      </form>
+                   </div>
+                </div>
+              </div>
+            )}
           </main>
 
           {/* --- SIDEBAR / LESSON MAP --- */}

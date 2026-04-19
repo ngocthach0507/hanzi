@@ -9,24 +9,30 @@ const supabase = createClient(
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://hanzi.io.vn';
 
-  // 1. Static Routes
+  // 1. Pillar & Feature Pages
   const routes = [
     '',
-    '/tu-vung-hsk',
+    '/hsk-3-0',
+    '/giao-trinh',
+    '/blog',
     '/bo-thu',
-    '/luong-tu',
-    '/luyen-nghe',
+    '/tu-vung-chu-de',
     '/hoi-thoai',
+    '/doc-hieu',
+    '/luyen-nghe',
     '/luyen-thi',
-    '/hsk-3-0', // USP Landing
+    '/luyen-viet',
+    '/mau-cau',
+    '/dich',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
-    priority: 1.0,
+    priority: route === '' ? 1.0 : 0.8,
   }));
 
   // 2. HSK Lessons (Dynamic from DB)
+  let lessonRoutes: any[] = [];
   try {
     const { data: vocab } = await supabase
       .from('vocabulary')
@@ -39,21 +45,39 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         new Set(vocab.map((v) => `hsk${v.hsk_level}-bai-${v.lesson_number}`))
       );
 
-      const lessonRoutes = uniqueLessons.map((slug) => {
+      lessonRoutes = uniqueLessons.map((slug) => {
         const [level, lesson] = slug.split('-bai-');
         return {
           url: `${baseUrl}/giao-trinh/${level}/bai-${lesson}`,
           lastModified: new Date(),
           changeFrequency: 'monthly' as const,
-          priority: 0.8,
+          priority: 0.7,
         };
       });
-
-      return [...routes, ...lessonRoutes];
     }
   } catch (err) {
-    console.error('Error generating dynamic sitemap:', err);
+    console.error('Error generating dynamic sitemap (lessons):', err);
   }
 
-  return routes;
+  // 3. Blog Posts (Dynamic from DB)
+  let blogRoutes: any[] = [];
+  try {
+    const { data: posts } = await supabase
+      .from('blog_posts')
+      .select('slug, updated_at')
+      .order('created_at', { ascending: false });
+
+    if (posts) {
+      blogRoutes = posts.map((post) => ({
+        url: `${baseUrl}/blog/${post.slug}`,
+        lastModified: new Date(post.updated_at || new Date()),
+        changeFrequency: 'weekly' as const,
+        priority: 0.9,
+      }));
+    }
+  } catch (err) {
+    console.error('Error generating dynamic sitemap (blog):', err);
+  }
+
+  return [...routes, ...lessonRoutes, ...blogRoutes];
 }

@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react';
 import Link from 'next/link';
 import { 
@@ -16,11 +14,59 @@ import {
   Award
 } from 'lucide-react';
 import AppNavbar from '@/components/AppNavbar';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "HSK 3.0 là gì? So sánh HSK 2.0 & 3.0 và Lộ trình 9 cấp độ mới nhất | Hanzi",
+  description: "Chuẩn HSK 3.0 (2026) có gì mới? So sánh chi tiết HSK 6 cấp và 9 cấp. Lộ trình học 11,092 từ vựng, 144 bài hội thoại chuẩn quốc tế dành riêng cho người Việt.",
+  openGraph: {
+    title: "HSK 3.0 là gì? Mọi điều cần biết về chuẩn tiếng Trung mới 2026",
+    description: "Khám phá lộ trình chinh phục 9 cấp độ HSK 3.0 chuẩn 2026 tại Hanzi.io.vn.",
+    images: ['https://hanzi.io.vn/og-hsk30.jpg'],
+  },
+};
 
 export default function HSK30Landing() {
   return (
     <div className="min-h-screen bg-white">
       <AppNavbar />
+
+      {/* Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "HSK 3.0 là gì?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "HSK 3.0 là tiêu chuẩn đánh giá năng lực Hán ngữ mới nhất của Trung Quốc, được chia làm 9 cấp độ thay vì 6 cấp độ như trước đây."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Khi nào HSK 3.0 chính thức áp dụng tại Việt Nam?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Theo lộ trình, chuẩn HSK 3.0 sẽ bắt đầu được áp dụng rộng rãi từ tháng 7/2026."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Tôi có thể dùng tài liệu HSK cũ để thi HSK 3.0 không?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Rất khó, vì lượng từ vựng và cấu trúc ngữ pháp của chuẩn 3.0 tăng lên đáng kể (gấp đôi chuẩn cũ)."
+                }
+              }
+            ]
+          })
+        }}
+      />
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-24 overflow-hidden">

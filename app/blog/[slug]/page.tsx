@@ -1,12 +1,10 @@
-"use client";
-
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'next/navigation';
+import React from 'react';
 import Link from 'next/link';
 import { Calendar, User, Share2, MessageCircle, ArrowLeft } from 'lucide-react';
 import AppNavbar from '@/components/AppNavbar';
-import { supabase } from '@/lib/supabase';
+import { supabaseAdmin } from '@/lib/supabase';
 import { marked } from 'marked';
+import { Metadata, ResolvingMetadata } from 'next';
 
 // Configure marked for better SEO and formatting
 marked.setOptions({
@@ -14,26 +12,56 @@ marked.setOptions({
   breaks: true,
 });
 
-export default function BlogPostDetail() {
-  const params = useParams();
-  const slug = params.slug as string;
-  const [post, setPost] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
 
-  useEffect(() => {
-    async function fetchPost() {
-      const { data } = await supabase
-        .from('blog_posts')
-        .select('*')
-        .eq('slug', slug)
-        .maybeSingle();
-      setPost(data);
-      setLoading(false);
-    }
-    fetchPost();
-  }, [slug]);
+export async function generateMetadata(
+  { params }: PageProps,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  const { slug } = await params;
+  
+  const { data: post } = await supabaseAdmin
+    .from('blog_posts')
+    .select('*')
+    .eq('slug', slug)
+    .maybeSingle();
 
-  if (loading) return <div className="p-20 text-center">Đang tải nội dung...</div>;
+  if (!post) {
+    return {
+      title: 'Bài viết không tồn tại | Hanzi',
+    };
+  }
+
+  return {
+    title: `${post.title} | Hanzi Blog`,
+    description: post.excerpt || `Đọc bài viết về ${post.title} trên Hanzi - Nền tảng học tiếng Trung hiện đại.`,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      images: [post.image_url || 'https://hanzi.io.vn/og-image.jpg'],
+      type: 'article',
+      publishedTime: post.created_at,
+      authors: [post.author || 'Hanzi Team'],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      images: [post.image_url || 'https://hanzi.io.vn/og-image.jpg'],
+    },
+  };
+}
+
+export default async function BlogPostDetail({ params }: PageProps) {
+  const { slug } = await params;
+
+  const { data: post } = await supabaseAdmin
+    .from('blog_posts')
+    .select('*')
+    .eq('slug', slug)
+    .maybeSingle();
 
   if (!post) {
     return (
@@ -43,6 +71,8 @@ export default function BlogPostDetail() {
       </div>
     );
   }
+
+  const contentHtml = await marked.parse(post.content || '');
 
   return (
     <div className="min-h-screen bg-white">
@@ -83,7 +113,7 @@ export default function BlogPostDetail() {
 
             <div 
               className="prose prose-lg max-w-none prose-slate prose-headings:font-black prose-headings:text-gray-900 prose-p:font-medium prose-p:text-gray-600 prose-a:text-[#D85A30] prose-a:no-underline hover:prose-a:underline"
-              dangerouslySetInnerHTML={{ __html: marked.parse(post.content || '') }}
+              dangerouslySetInnerHTML={{ __html: contentHtml }}
             />
          </article>
       </div>

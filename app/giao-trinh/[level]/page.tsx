@@ -87,6 +87,24 @@ export default function LessonList() {
 
   return (
     <div className="py-12 px-4 md:px-8 bg-white min-h-screen font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Course",
+            "name": `Giáo trình HSK ${numericLevel} chuẩn 3.0`,
+            "description": `Lộ trình học tiếng Trung HSK ${numericLevel} chuẩn 3.0 mới nhất. Bao gồm từ vựng, ngữ pháp, hội thoại và luyện nghe.`,
+            "provider": {
+              "@type": "Organization",
+              "name": "Hanzi.io.vn",
+              "sameAs": "https://hanzi.io.vn"
+            },
+            "courseCode": `HSK${numericLevel}`,
+            "educationalLevel": `HSK ${numericLevel}`
+          })
+        }}
+      />
       <div className="max-w-5xl mx-auto">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-xs text-gray-400 mb-12 font-bold uppercase tracking-widest">
