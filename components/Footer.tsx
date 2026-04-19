@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Mail, Globe, ExternalLink, ShieldCheck } from 'lucide-react';
+import { Mail, Globe, ExternalLink, ShieldCheck, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
