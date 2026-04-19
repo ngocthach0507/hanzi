@@ -47,57 +47,99 @@ export default function HomeClient() {
 
         <div className="max-w-5xl mx-auto text-center relative z-10">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-orange-50 border border-orange-100 text-[#D85A30] text-[11px] font-black mb-8 shadow-sm">
-            <span className="bg-[#D85A30] p-0.5 px-2 rounded text-white text-[9px] font-black animate-pulse">BETA</span>
-            PHIÊN BẢN BETA — MIỄN PHÍ CHO 100 HỌC VIÊN ĐẦU TIÊN
+            <span className="bg-[#D85A30] p-0.5 px-2 rounded text-white text-[9px] font-black animate-pulse">LIVE BETA</span>
+            CHƯƠNG TRÌNH BETA — MIỄN PHÍ CHO 100 HỌC VIÊN ĐẦU TIÊN
           </div>
           
           <h1 className="text-5xl md:text-7xl font-black mb-8 leading-[1.1] tracking-tight text-slate-900">
-            Chinh phục <span className="text-[#D85A30]">HSK 3.0</span><br />
-            Chỉ với một cú click
+            Học Tiếng Trung <span className="text-[#D85A30]">HSK 3.0</span><br />
+            Lộ trình thực chiến cho người Việt
           </h1>
           
           <p className="text-slate-500 font-medium mb-12 max-w-2xl mx-auto leading-relaxed text-lg md:text-xl">
-            Nền tảng học tiếng Trung chuẩn 3.0 đầu tiên tại Việt Nam. 
-            Học thử bài học chất lượng cao ngay lập tức mà không cần đăng ký.
+            Nền tảng học thông minh từ hệ sinh thái <strong>Tiếng Trung Hongdou</strong>. 
+            Học thử ngay Bài 1 (Cấp độ 1-3) hoàn toàn miễn phí, không cần tài khoản.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            {/* PRIMARY CTA */}
-            <Link href="/giao-trinh/hsk1/bai-1" className="group bg-[#D85A30] hover:bg-[#B54825] text-white px-12 py-5 rounded-2xl font-black text-xl shadow-2xl shadow-orange-200 transition-all active:scale-95 flex flex-col items-center gap-1">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+            {/* CONSOLIDATED PRIMARY CTA */}
+            <Link href="/giao-trinh/hsk1/bai-1" className="group bg-[#D85A30] hover:bg-[#B54825] text-white px-16 py-6 rounded-3xl font-black text-2xl shadow-2xl shadow-orange-200 transition-all active:scale-95 flex flex-col items-center gap-1 border-4 border-orange-100/50">
               <div className="flex items-center gap-3">
-                🚀 HỌC THỬ BÀI 1 MIỄN PHÍ <ArrowRight size={22} className="group-hover:translate-x-1 transition-transform" />
+                🚀 HỌC THỬ BÀI 1 NGAY <ArrowRight size={28} className="group-hover:translate-x-1 transition-transform" />
               </div>
-              <span className="text-[10px] font-bold opacity-80 uppercase tracking-widest">Không cần tài khoản • Chỉ mất 5 phút</span>
+              <span className="text-[10px] font-bold opacity-80 uppercase tracking-widest">Không cần đăng ký • Hoàn thành trong 5 phút</span>
             </Link>
 
-            {/* DEMO BUTTON (FIXED) */}
+            {/* DEMO BUTTON */}
             <button 
               onClick={() => {
                 const videoSection = document.getElementById('features-demo');
                 if (videoSection) videoSection.scrollIntoView({ behavior: 'smooth' });
-                else alert('Tính năng Video Demo đang được cập nhật. Bạn hãy trải nghiệm trực tiếp qua nút "Học thử" nhé!');
+                else alert('Video Demo đang được đội ngũ Hongdou hoàn thiện. Bạn hãy trải nghiệm trực tiếp qua nút "Học thử" nhé!');
               }}
-              className="w-full sm:w-auto px-10 py-5 bg-white text-gray-900 border-2 border-gray-100 rounded-2xl font-black text-lg hover:bg-gray-50 transition-all flex items-center justify-center gap-3 shadow-sm"
+              className="px-10 py-6 bg-white text-gray-900 border-2 border-gray-100 rounded-3xl font-black text-xl hover:bg-gray-50 transition-all flex items-center gap-3 shadow-sm"
             >
-              Xem Video Demo <Sparkles size={20} className="text-orange-400" />
+              Xem Demo <Sparkles size={20} className="text-orange-400" />
             </button>
           </div>
           
-          <div className="mt-16 flex flex-wrap items-center justify-center gap-8 md:gap-12 opacity-80">
-             <div className="flex flex-col items-center gap-1">
-                <span className="text-2xl font-black text-slate-900">144 Bài</span>
-                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">HSK 3.0 Syllabus</span>
+          <div className="mt-16 flex flex-wrap items-center justify-center gap-12 opacity-100">
+             <div className="flex flex-col items-center gap-1 bg-white p-4 rounded-2xl shadow-sm border border-gray-50">
+                <span className="text-3xl font-black text-slate-900">HSK 1-3</span>
+                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">Lộ trình hiện tại</span>
              </div>
-             <div className="h-8 w-px bg-slate-200 hidden sm:block"></div>
-             <div className="flex flex-col items-center gap-1">
-                <span className="text-2xl font-black text-slate-900">Native Audio</span>
-                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">Phát âm chuẩn Bắc Kinh</span>
+             <div className="flex flex-col items-center gap-1 bg-white p-4 rounded-2xl shadow-sm border border-gray-50">
+                <span className="text-3xl font-black text-slate-900">100%</span>
+                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">Chuẩn HSK 3.0 mới</span>
              </div>
-             <div className="h-8 w-px bg-slate-200 hidden sm:block"></div>
-             <div className="flex flex-col items-center gap-1">
-                <span className="text-2xl font-black text-slate-900">AI Writing</span>
-                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">Nhận diện nét vẽ thông minh</span>
+             <div className="flex flex-col items-center gap-1 bg-white p-4 rounded-2xl shadow-sm border border-gray-50">
+                <span className="text-3xl font-black text-slate-900">Hongdou</span>
+                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">Đội ngũ biên soạn</span>
              </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION: REAL TEACHER INFO (REPLACING FAKE TRUST SIGNALS) */}
+      <section className="py-24 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="relative">
+              <div className="aspect-[4/5] bg-gray-100 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
+                <img 
+                  src="https://images.unsplash.com/photo-1544717297-fa154da09f5b?q=80&w=2070&auto=format&fit=crop" 
+                  alt="Giáo viên Hongdou" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-6 -right-6 bg-slate-900 text-white p-8 rounded-[2rem] shadow-2xl max-w-xs">
+                <h3 className="text-xl font-black mb-2 uppercase">Đội ngũ Hongdou</h3>
+                <p className="text-sm text-slate-400 font-medium">Giảng viên từ các trường Đại học ngôn ngữ hàng đầu, cam kết nội dung chuẩn thực chiến.</p>
+              </div>
+            </div>
+            <div className="space-y-8">
+              <h2 className="text-4xl md:text-5xl font-black text-slate-900 tracking-tight leading-tight">
+                Không có học viên "ảo", <br />
+                chỉ có <span className="text-[#D85A30]">kết quả thật.</span>
+              </h2>
+              <p className="text-lg text-slate-500 font-medium leading-relaxed">
+                Hanzi không dùng những con số "5.000+" hay "48.000" ảo. Chúng tôi tập trung vào 100 học viên đầu tiên trong giai đoạn Beta để tinh chỉnh trải nghiệm tốt nhất.
+              </p>
+              <div className="space-y-6">
+                {[
+                  'Nội dung do đội ngũ Tiếng Trung Hongdou trực tiếp biên soạn.',
+                  'Hệ thống AI nhận diện chữ viết tay độc quyền cho người Việt.',
+                  'Lộ trình bám sát 100% chuẩn HSK 3.0 (9 cấp độ) mới nhất.'
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-4">
+                    <div className="w-6 h-6 bg-green-50 rounded-full flex items-center justify-center mt-1 shrink-0">
+                      <Check size={14} className="text-green-600" />
+                    </div>
+                    <span className="font-bold text-slate-700">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
