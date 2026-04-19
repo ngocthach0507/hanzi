@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="space-y-4 text-gray-500 text-sm font-medium">
                <p className="flex items-start gap-3">
                   <ShieldCheck size={18} className="text-[#D85A30] shrink-0" />
-                  <span><strong>Văn phòng:</strong> Số 12, Ngõ 45, Phố Vọng, Hai Bà Trưng, Hà Nội</span>
+                  <span><strong>Văn phòng:</strong> TP. Hồ Chí Minh</span>
                </p>
                <p className="flex items-start gap-3">
                   <Mail size={18} className="text-[#D85A30] shrink-0" />
@@ -60,7 +60,7 @@ export default function Footer() {
                 -- TƯ VẤN LỘ TRÌNH HSK 1-6
               </a>
               <a href="https://zalo.me/0932712601" target="_blank" className="text-gray-900 font-black text-xs uppercase tracking-wider block hover:text-red-500 transition-colors">
-                -- ĐĂNG KÝ HỌC OFFLINE TẠI HÀ NỘI
+                -- ĐĂNG KÝ HỌC OFFLINE TẠI TP. HCM
               </a>
               <a href="https://applychina.io.vn" target="_blank" className="text-red-600 font-black text-xs uppercase tracking-wider block hover:underline">
                 -- TƯ VẤN DU HỌC TRUNG QUỐC

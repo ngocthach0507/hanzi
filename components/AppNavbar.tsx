@@ -240,7 +240,7 @@ export default function AppNavbar() {
       {activeModal && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-slate-900/60 backdrop-blur-md" onClick={() => setActiveModal(null)}></div>
-          <div className="relative bg-white w-full max-w-xl rounded-[2.5rem] shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200 border border-slate-100">
+          <div className="relative bg-white w-full max-w-xl max-h-[95vh] overflow-y-auto rounded-[2.5rem] shadow-2xl animate-in zoom-in-95 duration-200 border border-slate-100 scrollbar-hide">
             <button onClick={() => setActiveModal(null)} className="absolute top-6 right-6 p-2 bg-slate-50 rounded-full hover:bg-slate-100 text-gray-400 hover:text-gray-900 transition-all z-10"><X size={20} /></button>
             <div className="p-10">
               {activeModal === 'intro' ? (
@@ -277,7 +277,7 @@ export default function AppNavbar() {
                   </div>
                   <div className="text-slate-600 font-medium leading-relaxed space-y-4 text-base">
                     <p>
-                      Ngoài việc tự học trên App, bạn có thể tham gia các lớp học <span className="font-black text-slate-900">Trực tuyến (Online)</span> hoặc <span className="font-black text-slate-900">Trực tiếp (Offline tại Hà Nội)</span> cùng đội ngũ giảng viên chuyên môn cao tại Hongdou.
+                      Ngoài việc tự học trên App, bạn có thể tham gia các lớp học <span className="font-black text-slate-900">Trực tuyến (Online)</span> hoặc <span className="font-black text-slate-900">Trực tiếp (Offline tại TP. HCM)</span> cùng đội ngũ giảng viên chuyên môn cao tại Hongdou.
                     </p>
                     <p>
                       Lộ trình học được thiết kế cá nhân hóa, cam kết đầu ra chuẩn <span className="font-black text-[#D85A30]">HSK 3.0 mới nhất.</span>
@@ -291,7 +291,7 @@ export default function AppNavbar() {
                         </div>
                       </a>
                       <a href="https://zalo.me/0932712601" target="_blank" className="flex flex-col gap-2 p-6 bg-slate-50 rounded-3xl hover:bg-orange-50 transition-all border border-transparent hover:border-orange-100 group">
-                        <span className="font-black text-gray-900 group-hover:text-[#D85A30] text-sm uppercase tracking-wide">Lớp Offline Hà Nội</span>
+                        <span className="font-black text-gray-900 group-hover:text-[#D85A30] text-sm uppercase tracking-wide">Lớp Offline TP. HCM</span>
                         <div className="flex items-center justify-between">
                            <span className="text-[10px] text-slate-400 font-bold uppercase">Tại cơ sở Hongdou</span>
                            <ArrowRight size={16} className="text-[#D85A30] group-hover:translate-x-1 transition-transform" />
