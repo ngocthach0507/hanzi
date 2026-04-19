@@ -189,14 +189,22 @@ export default function HomeClient() {
                   {/* REAL-LOOKING APP MOCKUP */}
                   <div className="bg-[#1A1F2E] rounded-[3rem] p-4 md:p-6 shadow-2xl border-4 border-white/10 relative z-10 transform lg:rotate-2 group-hover:rotate-0 transition-transform duration-700">
                      <div className="bg-white rounded-[2rem] overflow-hidden aspect-video relative">
-                        {/* SIMULATED WRITING INTERFACE */}
+                        {/* SIMULATED AI STROKE - SEQUENTIAL DRAWING */}
                         <div className="absolute inset-0 flex items-center justify-center bg-slate-50">
                            <div className="relative w-48 h-48 border-2 border-dashed border-gray-200 flex items-center justify-center">
-                              <span className="text-8xl text-gray-100 font-serif">汉</span>
-                              {/* Simulated AI Stroke */}
+                              <span className="text-8xl text-gray-100 font-serif opacity-30">汉</span>
+                              {/* Animated SVG Strokes for '汉' */}
                               <svg className="absolute inset-0 w-full h-full p-4 pointer-events-none" viewBox="0 0 100 100">
-                                 <path d="M20 30 Q50 30 80 30" fill="none" stroke="#D85A30" strokeWidth="4" strokeLinecap="round" className="animate-draw-stroke-1" />
-                                 <path d="M50 20 L50 80" fill="none" stroke="#D85A30" strokeWidth="4" strokeLinecap="round" className="animate-draw-stroke-2" />
+                                 {/* Dot 1 (Top Left) */}
+                                 <path d="M25 35 Q30 35 32 40" fill="none" stroke="#D85A30" strokeWidth="4" strokeLinecap="round" className="animate-stroke stroke-delay-1" />
+                                 {/* Dot 2 (Middle Left) */}
+                                 <path d="M22 55 Q27 55 29 60" fill="none" stroke="#D85A30" strokeWidth="4" strokeLinecap="round" className="animate-stroke stroke-delay-2" />
+                                 {/* Dot 3 (Bottom Left - Ti) */}
+                                 <path d="M20 85 L35 70" fill="none" stroke="#D85A30" strokeWidth="4" strokeLinecap="round" className="animate-stroke stroke-delay-3" />
+                                 {/* Right Side - Top (Heng-Pie) */}
+                                 <path d="M45 35 L85 35 L45 85" fill="none" stroke="#D85A30" strokeWidth="4" strokeLinecap="round" className="animate-stroke stroke-delay-4" />
+                                 {/* Right Side - Diagonal (Na) */}
+                                 <path d="M55 50 L85 85" fill="none" stroke="#D85A30" strokeWidth="4" strokeLinecap="round" className="animate-stroke stroke-delay-5" />
                               </svg>
                            </div>
                         </div>

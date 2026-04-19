@@ -71,3 +71,24 @@ body {
 .gradient-gold {
   background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
 }
+
+/* SVG STROKE ANIMATIONS */
+@keyframes drawStroke {
+  0% { stroke-dashoffset: 100; }
+  30% { stroke-dashoffset: 0; }
+  90% { stroke-dashoffset: 0; opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 0; }
+}
+
+.animate-stroke {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: drawStroke 3s ease-in-out infinite;
+  opacity: 0;
+}
+
+.stroke-delay-1 { animation-delay: 0s; }
+.stroke-delay-2 { animation-delay: 0.4s; }
+.stroke-delay-3 { animation-delay: 0.8s; }
+.stroke-delay-4 { animation-delay: 1.2s; }
+.stroke-delay-5 { animation-delay: 1.6s; }
