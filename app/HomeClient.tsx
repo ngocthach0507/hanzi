@@ -10,6 +10,7 @@ import {
   Languages, 
   FileText, 
   PenTool,
+  Check,
   ArrowRight,
   CheckCircle2,
   ShieldCheck,
