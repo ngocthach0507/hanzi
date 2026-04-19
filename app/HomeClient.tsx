@@ -190,77 +190,93 @@ export default function HomeClient() {
         </div>
       </section>
 
-      {/* SECTION: PRICING - FULL 3 PLANS */}
+      {/* SECTION: PRICING - ORIGINAL 4 PLANS */}
       <section id="pricing" className="py-24 px-4 bg-slate-50 border-t border-gray-100">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-[1400px] mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">Bắt đầu miễn phí</h2>
-            <p className="text-slate-500 font-medium">Chúng tôi không yêu cầu thẻ tín dụng, học thử ngay bây giờ.</p>
+            <h2 className="text-4xl md:text-6xl font-black text-slate-900 mb-4 tracking-tight">Chọn gói phù hợp với <span className="text-blue-600">nhịp học</span> của bạn</h2>
+            <p className="text-slate-500 font-medium flex items-center justify-center gap-2">
+              <ShieldCheck size={18} className="text-green-500" /> Không giới hạn tính năng ở mọi gói
+            </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 items-stretch">
-            {/* FREE PLAN */}
-            <div className="bg-white rounded-[3rem] p-10 border-2 border-gray-50 flex flex-col h-full hover:border-orange-100 transition-all">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
+            {/* GÓI 1 THÁNG */}
+            <div className="bg-white rounded-[2.5rem] p-8 border border-slate-100 flex flex-col h-full hover:shadow-xl transition-all">
               <div className="mb-8">
-                <h3 className="text-xl font-black text-slate-900 mb-2">Học viên Beta</h3>
-                <div className="flex items-baseline gap-1">
-                  <span className="text-4xl font-black text-slate-900">0đ</span>
-                  <span className="text-slate-400 font-bold">/vĩnh viễn</span>
-                </div>
+                <h3 className="text-blue-600 font-black text-sm uppercase tracking-widest mb-4">Gói 1 tháng</h3>
+                <div className="text-slate-400 text-[10px] font-bold uppercase mb-2">Toàn bộ tính năng Premium</div>
+                <div className="text-3xl font-black text-slate-900">119.000đ</div>
+                <div className="text-[10px] text-slate-400 font-bold mt-1">~119.000đ/tháng</div>
               </div>
               <ul className="space-y-4 mb-10 flex-1">
-                {['Học thử Bài 1 mọi cấp độ', 'Bảng phát âm Pinyin', 'Sổ tay cá nhân (100 từ)', 'Truy cập 144 bài hội thoại'].map((f, i) => (
-                  <li key={i} className="flex items-center gap-3 text-slate-600 font-medium text-sm">
-                    <Check size={16} className="text-green-600" /> {f}
+                {['Loại bỏ quảng cáo', 'Giáo trình Hán ngữ', 'Luyện đề thi HSK', 'Kiểm tra từ vựng', 'Học bài nghe HSK', 'Bài hội thoại theo chủ đề', 'Nhận diện chữ viết tay'].map((f, i) => (
+                  <li key={i} className="flex items-center gap-3 text-slate-500 font-medium text-[11px]">
+                    <Check size={14} className="text-slate-300" /> {f}
                   </li>
                 ))}
               </ul>
-              <Link href="/giao-trinh/hsk1/bai-1" className="w-full py-4 bg-gray-100 text-gray-900 rounded-2xl font-black text-sm text-center hover:bg-gray-200 transition-all">
-                HỌC THỬ MIỄN PHÍ
-              </Link>
+              <Link href="/nang-cap" className="w-full py-4 bg-slate-50 text-slate-900 rounded-2xl font-black text-xs text-center hover:bg-slate-100 transition-all">CHỌN GÓI NÀY</Link>
             </div>
 
-            {/* PREMIUM 6 MONTHS (POPULAR) */}
-            <div className="bg-slate-900 rounded-[3rem] p-10 flex flex-col h-full relative overflow-hidden border-4 border-[#D85A30] shadow-2xl shadow-orange-100 scale-105 z-10">
-              <div className="absolute top-6 right-6 bg-[#D85A30] text-white text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-widest">PHỔ BIẾN</div>
-              <div className="mb-8 relative z-10">
-                <h3 className="text-xl font-black text-white mb-2">HSK 3.0 Premium</h3>
-                <div className="flex items-baseline gap-1 text-white">
-                  <span className="text-4xl font-black">489.000đ</span>
-                  <span className="text-slate-400 font-bold">/6 tháng</span>
-                </div>
-              </div>
-              <ul className="space-y-4 mb-10 flex-1 relative z-10">
-                {['Mở khóa toàn bộ 144 bài HSK', 'Nhận diện chữ viết tay AI', 'Luyện 120+ đề thi chuẩn 2026', 'Hỗ trợ học tập 24/7'].map((f, i) => (
-                  <li key={i} className="flex items-center gap-3 text-slate-300 font-medium text-sm">
-                    <Zap size={16} className="text-orange-500 fill-orange-500" /> {f}
-                  </li>
-                ))}
-              </ul>
-              <Link href="/nang-cap" className="w-full py-5 bg-[#D85A30] hover:bg-[#B54825] text-white rounded-2xl font-black text-lg text-center transition-all shadow-xl shadow-orange-900/20 relative z-10">
-                NÂNG CẤP NGAY
-              </Link>
-            </div>
-
-            {/* PREMIUM 12 MONTHS */}
-            <div className="bg-white rounded-[3rem] p-10 border-2 border-gray-50 flex flex-col h-full hover:border-orange-100 transition-all">
+            {/* GÓI 3 THÁNG */}
+            <div className="bg-white rounded-[2.5rem] p-8 border border-slate-100 flex flex-col h-full hover:shadow-xl transition-all">
               <div className="mb-8">
-                <h3 className="text-xl font-black text-slate-900 mb-2">Premium Plus</h3>
-                <div className="flex items-baseline gap-1">
-                  <span className="text-4xl font-black text-slate-900">799.000đ</span>
-                  <span className="text-slate-400 font-bold">/12 tháng</span>
-                </div>
+                <h3 className="text-blue-600 font-black text-sm uppercase tracking-widest mb-4">Gói 3 tháng</h3>
+                <div className="text-slate-400 text-[10px] font-bold uppercase mb-2">Toàn bộ tính năng Premium</div>
+                <div className="text-3xl font-black text-slate-900 mb-2">289.000đ <span className="text-xs text-slate-300 line-through">357.000đ</span></div>
+                <div className="inline-flex items-center gap-1.5 px-2 py-1 bg-red-500 text-white text-[9px] font-black rounded-md mb-2">-19% <span className="opacity-80">Tiết kiệm 68.000đ</span></div>
+                <div className="text-[10px] text-slate-400 font-bold mt-1">~96.333đ/tháng</div>
               </div>
               <ul className="space-y-4 mb-10 flex-1">
-                {['Toàn bộ tính năng gói 6 tháng', 'Tặng kèm Ebook 1200 từ vựng', 'Tài liệu luyện dịch nâng cao', 'Thời hạn học gấp đôi'].map((f, i) => (
-                  <li key={i} className="flex items-center gap-3 text-slate-600 font-medium text-sm">
-                    <Check size={16} className="text-[#D85A30]" /> {f}
+                {['Loại bỏ quảng cáo', 'Giáo trình Hán ngữ', 'Luyện đề thi HSK', 'Kiểm tra từ vựng', 'Học bài nghe HSK', 'Bài hội thoại theo chủ đề', 'Nhận diện chữ viết tay'].map((f, i) => (
+                  <li key={i} className="flex items-center gap-3 text-slate-500 font-medium text-[11px]">
+                    <Check size={14} className="text-slate-300" /> {f}
                   </li>
                 ))}
               </ul>
-              <Link href="/nang-cap" className="w-full py-4 bg-slate-900 text-white rounded-2xl font-black text-sm text-center hover:bg-black transition-all">
-                GÓI TIẾT KIỆM
-              </Link>
+              <Link href="/nang-cap" className="w-full py-4 bg-slate-50 text-slate-900 rounded-2xl font-black text-xs text-center hover:bg-slate-100 transition-all">CHỌN GÓI NÀY</Link>
+            </div>
+
+            {/* GÓI 6 THÁNG (POPULAR) */}
+            <div className="bg-white rounded-[2.5rem] p-8 border-2 border-blue-500 flex flex-col h-full shadow-2xl shadow-blue-100 relative scale-105 z-10">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-orange-400 to-orange-600 text-white text-[9px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest shadow-lg flex items-center gap-1 whitespace-nowrap">
+                <Sparkles size={10} fill="white" /> PHỔ BIẾN NHẤT
+              </div>
+              <div className="mb-8">
+                <h3 className="text-blue-600 font-black text-sm uppercase tracking-widest mb-4">Gói 6 tháng</h3>
+                <div className="text-slate-400 text-[10px] font-bold uppercase mb-2">Toàn bộ tính năng Premium</div>
+                <div className="text-4xl font-black text-[#D85A30] mb-2">489.000đ <span className="text-xs text-slate-300 line-through">714.000đ</span></div>
+                <div className="inline-flex items-center gap-1.5 px-2 py-1 bg-red-500 text-white text-[9px] font-black rounded-md mb-2">32% <span className="opacity-80">Tiết kiệm 225.000đ</span></div>
+                <div className="text-[10px] text-slate-400 font-bold mt-1">~81.500đ/tháng</div>
+              </div>
+              <ul className="space-y-4 mb-10 flex-1">
+                {['Loại bỏ quảng cáo', 'Giáo trình Hán ngữ', 'Luyện đề thi HSK', 'Kiểm tra từ vựng', 'Học bài nghe HSK', 'Bài hội thoại theo chủ đề', 'Nhận diện chữ viết tay'].map((f, i) => (
+                  <li key={i} className="flex items-center gap-3 text-slate-700 font-bold text-[11px]">
+                    <Check size={14} className="text-blue-500" /> {f}
+                  </li>
+                ))}
+              </ul>
+              <Link href="/nang-cap" className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-black text-xs text-center transition-all shadow-lg shadow-blue-200 uppercase tracking-widest">ĐĂNG KÝ NGAY</Link>
+            </div>
+
+            {/* GÓI 1 NĂM */}
+            <div className="bg-white rounded-[2.5rem] p-8 border border-slate-100 flex flex-col h-full hover:shadow-xl transition-all">
+              <div className="mb-8">
+                <h3 className="text-blue-600 font-black text-sm uppercase tracking-widest mb-4">Gói 1 năm</h3>
+                <div className="text-slate-400 text-[10px] font-bold uppercase mb-2">Toàn bộ tính năng Premium</div>
+                <div className="text-3xl font-black text-slate-900 mb-2">689.000đ <span className="text-xs text-slate-300 line-through">1.428.000đ</span></div>
+                <div className="inline-flex items-center gap-1.5 px-2 py-1 bg-red-500 text-white text-[9px] font-black rounded-md mb-2">-52% <span className="opacity-80">Tiết kiệm 739.000đ</span></div>
+                <div className="text-[10px] text-slate-400 font-bold mt-1">~57.417đ/tháng</div>
+              </div>
+              <ul className="space-y-4 mb-10 flex-1">
+                {['Loại bỏ quảng cáo', 'Giáo trình Hán ngữ', 'Luyện đề thi HSK', 'Kiểm tra từ vựng', 'Học bài nghe HSK', 'Bài hội thoại theo chủ đề', 'Nhận diện chữ viết tay'].map((f, i) => (
+                  <li key={i} className="flex items-center gap-3 text-slate-500 font-medium text-[11px]">
+                    <Check size={14} className="text-slate-300" /> {f}
+                  </li>
+                ))}
+              </ul>
+              <Link href="/nang-cap" className="w-full py-4 bg-slate-900 text-white rounded-2xl font-black text-xs text-center hover:bg-black transition-all">CHỌN GÓI NÀY</Link>
             </div>
           </div>
         </div>
