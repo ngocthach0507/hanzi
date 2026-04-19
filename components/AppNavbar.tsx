@@ -238,9 +238,10 @@ export default function AppNavbar() {
 
       {/* Modal Portals (Mainly for Mobile or Focus View) */}
       {activeModal && (
-        <div className="fixed inset-0 z-[100] flex items-start justify-center p-4 overflow-y-auto scrollbar-hide py-10 md:py-20">
-          <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-md" onClick={() => setActiveModal(null)}></div>
-          <div className="relative bg-white w-full max-w-xl rounded-[2.5rem] shadow-2xl animate-in zoom-in-95 duration-200 border border-slate-100 mb-10">
+        <div className="fixed inset-0 z-[100] overflow-y-auto scrollbar-hide">
+          <div className="flex min-h-full items-center justify-center p-4 md:p-10">
+            <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-md transition-opacity" onClick={() => setActiveModal(null)}></div>
+            <div className="relative bg-white w-full max-w-xl rounded-[2.5rem] shadow-2xl animate-in zoom-in-95 duration-200 border border-slate-100 my-8 md:my-12">
             <button onClick={() => setActiveModal(null)} className="absolute top-6 right-6 p-2 bg-slate-50 rounded-full hover:bg-slate-100 text-gray-400 hover:text-gray-900 transition-all z-10"><X size={20} /></button>
             <div className="p-10">
               {activeModal === 'intro' ? (
