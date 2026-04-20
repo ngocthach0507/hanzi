@@ -90,9 +90,9 @@ export default function AppNavbar() {
           <Link href="/" className="text-2xl md:text-3xl font-black text-[#FF5E3A] tracking-tighter hover:scale-105 transition-transform">
             hanzi.io.vn
           </Link>
-          <div className="hidden xl:flex items-center gap-8 ml-4">
-            <button onClick={() => setActiveModal('intro')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Về Hanzi</button>
-            <button onClick={() => setActiveModal('teacher')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Khóa học Online</button>
+          <div className="hidden lg:flex items-center gap-8 ml-4">
+            <button onClick={() => setActiveModal('intro')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">VỀ HANZI</button>
+            <button onClick={() => setActiveModal('teacher')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">KHÓA HỌC ONLINE</button>
             <Link href="/blog" className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Blog</Link>
           </div>
         </div>
@@ -214,11 +214,11 @@ export default function AppNavbar() {
                 <p className="px-4 text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Khám phá Hanzi</p>
                 <button onClick={() => { setActiveModal('intro'); setIsMobileMenuOpen(false); }} className="w-full flex items-center gap-4 p-3.5 rounded-2xl hover:bg-gray-50 text-gray-700">
                    <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gray-100 text-gray-500"><BookOpen size={18} /></div>
-                   <span className="font-black text-sm">Về chúng tôi</span>
+                   <span className="font-black text-sm uppercase tracking-wider">VỀ HANZI</span>
                 </button>
                 <button onClick={() => { setActiveModal('teacher'); setIsMobileMenuOpen(false); }} className="w-full flex items-center gap-4 p-3.5 rounded-2xl hover:bg-gray-50 text-gray-700">
                    <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gray-100 text-gray-500"><GraduationCap size={18} /></div>
-                   <span className="font-black text-sm">Học với giáo viên</span>
+                   <span className="font-black text-sm uppercase tracking-wider">KHÓA HỌC ONLINE</span>
                 </button>
                 <Link href="/blog" onClick={() => setIsMobileMenuOpen(false)} className="w-full flex items-center gap-4 p-3.5 rounded-2xl hover:bg-gray-50 text-gray-700">
                     <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gray-100 text-gray-500"><Book className="w-4 h-4" /></div>
