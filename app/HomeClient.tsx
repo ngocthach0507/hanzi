@@ -64,7 +64,7 @@ export default function HomeClient() {
           
           <h1 className="text-5xl md:text-7xl font-black mb-8 leading-[1.1] tracking-tight text-slate-900">
             Học Tiếng Trung <span className="text-[#D85A30]">HSK 3.0</span><br />
-            Lộ trình tối ưu cho người Việt
+            Lộ trình thực chiến cho người Việt
           </h1>
           
           <p className="text-slate-500 font-medium mb-12 max-w-2xl mx-auto leading-relaxed text-lg md:text-xl">
