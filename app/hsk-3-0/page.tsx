@@ -13,7 +13,6 @@ import {
   ShieldCheck,
   Award
 } from 'lucide-react';
-import AppNavbar from '@/components/AppNavbar';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -29,8 +28,7 @@ export const metadata: Metadata = {
 export default function HSK30Landing() {
   return (
     <div className="min-h-screen bg-white">
-      <AppNavbar />
-
+      
       {/* Schema Markup */}
       <script
         type="application/ld+json"

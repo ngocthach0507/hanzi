@@ -15,7 +15,6 @@ import {
   CheckCircle2,
   AlertCircle
 } from 'lucide-react';
-import AppNavbar from '@/components/AppNavbar';
 
 export default function BlogAdmin() {
   const { user, isLoaded } = useUser();
@@ -70,8 +69,7 @@ export default function BlogAdmin() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <AppNavbar />
-      
+            
       <main className="max-w-7xl mx-auto px-4 md:px-12 py-12">
         <div className="flex items-center justify-between mb-12">
            <div>

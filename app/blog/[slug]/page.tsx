@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { Calendar, User, Share2, MessageCircle, ArrowLeft } from 'lucide-react';
-import AppNavbar from '@/components/AppNavbar';
 import { supabaseAdmin } from '@/lib/supabase';
 import { marked } from 'marked';
 import { Metadata, ResolvingMetadata } from 'next';
@@ -76,8 +75,7 @@ export default async function BlogPostDetail({ params }: PageProps) {
 
   return (
     <div className="min-h-screen bg-white">
-      <AppNavbar />
-
+      
       {/* Article Header */}
       <header className="relative pt-32 pb-20 bg-gray-50">
          <div className="max-w-4xl mx-auto px-4 md:px-8">

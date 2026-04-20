@@ -12,7 +12,6 @@ import {
   Sparkles,
   Target
 } from 'lucide-react';
-import AppNavbar from '@/components/AppNavbar';
 
 export default function PracticeHub() {
   const practiceModules = [
@@ -52,8 +51,7 @@ export default function PracticeHub() {
 
   return (
     <div className="min-h-screen bg-[#F8FAFC]">
-      <AppNavbar />
-
+      
       <main className="max-w-7xl mx-auto px-4 md:px-12 py-16">
         {/* Header */}
         <div className="mb-16">

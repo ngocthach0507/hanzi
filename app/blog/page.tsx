@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ChevronRight, Calendar, ArrowRight, Sparkles } from 'lucide-react';
-import AppNavbar from '@/components/AppNavbar';
 import { supabase } from '@/lib/supabase';
 
 export default function BlogListing() {
@@ -26,8 +25,7 @@ export default function BlogListing() {
 
   return (
     <div className="min-h-screen bg-[#F8FAFC]">
-      <AppNavbar />
-
+      
       <main className="max-w-7xl mx-auto px-4 md:px-12 py-20">
         {/* Header */}
         <div className="text-center mb-20">
