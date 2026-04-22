@@ -74,11 +74,11 @@ export default function HomeClient() {
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             {/* CONSOLIDATED PRIMARY CTA */}
-            <Link href="/giao-trinh/hsk1/bai-1" className="group bg-[#D85A30] hover:bg-[#B54825] text-white px-16 py-6 rounded-3xl font-black text-2xl shadow-2xl shadow-orange-200 transition-all active:scale-95 flex flex-col items-center gap-1 border-4 border-orange-100/50">
-              <div className="flex items-center gap-3">
-                🚀 HỌC THỬ BÀI 1 NGAY <ArrowRight size={28} className="group-hover:translate-x-1 transition-transform" />
+            <Link href="/giao-trinh" className="group bg-[#D85A30] hover:bg-[#B54825] text-white px-8 py-4 md:px-16 md:py-6 rounded-3xl font-black text-xl md:text-2xl shadow-2xl shadow-orange-200 transition-all active:scale-95 flex flex-col items-center gap-1 border-4 border-orange-100/50">
+              <div className="flex items-center gap-3 text-center">
+                🚀 HỌC MIỄN PHÍ NGAY <ArrowRight className="w-6 h-6 md:w-[28px] md:h-[28px] group-hover:translate-x-1 transition-transform" />
               </div>
-              <span className="text-[10px] font-bold opacity-80 uppercase tracking-widest">Không cần đăng ký • Hoàn thành trong 5 phút</span>
+              <span className="text-[9px] md:text-[10px] font-bold opacity-80 uppercase tracking-widest text-center mt-1">Khám phá lộ trình HSK 3.0 phù hợp với bạn</span>
             </Link>
 
             {/* DEMO BUTTON */}
@@ -88,9 +88,9 @@ export default function HomeClient() {
                 if (videoSection) videoSection.scrollIntoView({ behavior: 'smooth' });
                 else alert('Video Demo đang được đội ngũ Hongdou hoàn thiện. Bạn hãy trải nghiệm trực tiếp qua nút "Học thử" nhé!');
               }}
-              className="px-10 py-6 bg-white text-gray-900 border-2 border-gray-100 rounded-3xl font-black text-xl hover:bg-gray-50 transition-all flex items-center gap-3 shadow-sm"
+              className="px-8 py-4 md:px-10 md:py-6 bg-white text-gray-900 border-2 border-gray-100 rounded-3xl font-black text-lg md:text-xl hover:bg-gray-50 transition-all flex items-center justify-center gap-3 shadow-sm w-full sm:w-auto"
             >
-              Xem Demo <Sparkles size={20} className="text-orange-400" />
+              Xem Demo <Sparkles className="w-5 h-5 md:w-6 md:h-6 text-orange-400" />
             </button>
           </div>
           
@@ -120,48 +120,68 @@ export default function HomeClient() {
         </div>
       </section>
 
-      {/* SECTION: REAL TEACHER INFO - THE HONGDOU TEAM */}
+      {/* SECTION: EXPERT TEAM */}
       <section className="py-24 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter">Đội ngũ chuyên gia <span className="text-[#D85A30]">Hongdou</span></h2>
-            <p className="text-slate-400 font-bold mt-2">Những người trực tiếp biên soạn nội dung và hỗ trợ bạn.</p>
+            <h2 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter">Bảo chứng <span className="text-[#D85A30]">Chất lượng</span></h2>
+            <p className="text-slate-500 font-medium text-lg mt-4 max-w-2xl mx-auto">
+              Nội dung trên Hanzi được nghiên cứu và biên soạn trực tiếp bởi đội ngũ chuyên gia học thuật hàng đầu từ hệ sinh thái Tiếng Trung Hongdou.
+            </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-             {/* TEACHER 1 - Cô Đinh Hồng (Áo xanh) */}
-             <div className="flex flex-col md:flex-row gap-6 p-8 bg-slate-50 rounded-[3rem] border border-slate-100 hover:border-orange-200 transition-all">
-                <div className="w-32 h-32 rounded-[2rem] overflow-hidden shrink-0 border-4 border-white shadow-lg">
-                   <img src="/images/teachers/dinh-hong.png" alt="Cô Đinh Hồng" className="w-full h-full object-cover" />
+          <div className="bg-slate-50 rounded-[3rem] p-8 md:p-12 border border-slate-100 shadow-sm relative overflow-hidden">
+             {/* Background decorative elements */}
+             <div className="absolute top-0 right-0 w-64 h-64 bg-orange-100/50 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+             <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-50 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+             
+             <div className="relative z-10 grid sm:grid-cols-2 gap-8 lg:gap-12">
+                <div className="flex gap-4">
+                   <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shrink-0 shadow-sm text-[#D85A30]">
+                      <Users size={24} />
+                   </div>
+                   <div>
+                      <h3 className="font-black text-slate-900 text-lg mb-2">Thạc sỹ & Cử nhân xuất sắc</h3>
+                      <p className="text-slate-500 font-medium text-sm leading-relaxed">
+                        Đội ngũ học thuật tốt nghiệp từ các trường Đại học Sư phạm hàng đầu tại Trung Quốc (ĐH Sư phạm Hoa Đông,...) và Việt Nam (ĐHQGHN).
+                      </p>
+                   </div>
                 </div>
-                <div>
-                   <h3 className="text-xl font-black text-slate-900 mb-1">Cô Đinh Hồng</h3>
-                   <p className="text-[#D85A30] font-black text-[10px] uppercase tracking-widest mb-4">Thạc sỹ Đào tạo Hán ngữ Quốc tế (Tốt nghiệp tại Trung Quốc)</p>
-                   <ul className="space-y-2">
-                      {['8 năm kinh nghiệm giảng dạy chuyên sâu', 'Chuyên gia luyện thi HSK 6 & HSKK cao cấp', 'Từng tu nghiệp tại ĐH Sư phạm Hoa Đông (Thượng Hải)'].map((t, i) => (
-                        <li key={i} className="flex items-center gap-2 text-sm text-slate-500 font-medium">
-                           <Check size={14} className="text-green-500" /> {t}
-                        </li>
-                      ))}
-                   </ul>
-                </div>
-             </div>
 
-             {/* TEACHER 2 - Cô Bạch Liên (Áo hồng) */}
-             <div className="flex flex-col md:flex-row gap-6 p-8 bg-slate-50 rounded-[3rem] border border-slate-100 hover:border-orange-200 transition-all">
-                <div className="w-32 h-32 rounded-[2rem] overflow-hidden shrink-0 border-4 border-white shadow-lg">
-                   <img src="/images/teachers/bach-lien.png" alt="Cô Bạch Liên" className="w-full h-full object-cover" />
+                <div className="flex gap-4">
+                   <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shrink-0 shadow-sm text-blue-500">
+                      <Award size={24} />
+                   </div>
+                   <div>
+                      <h3 className="font-black text-slate-900 text-lg mb-2">Dày dặn kinh nghiệm</h3>
+                      <p className="text-slate-500 font-medium text-sm leading-relaxed">
+                        Hơn 8 năm kinh nghiệm đào tạo Hán ngữ chuyên sâu và luyện thi HSK/HSKK cao cấp, từng đồng hành cùng hàng ngàn học viên đỗ đạt.
+                      </p>
+                   </div>
                 </div>
-                <div>
-                   <h3 className="text-xl font-black text-slate-900 mb-1">Cô Bạch Liên</h3>
-                   <p className="text-[#D85A30] font-black text-[10px] uppercase tracking-widest mb-4">Tốt nghiệp Xuất sắc Đại học Ngoại ngữ - ĐHQGHN</p>
-                   <ul className="space-y-2">
-                      {['8 năm kinh nghiệm đào tạo chuyên sâu', 'Chuyên gia chỉnh âm chuẩn Bắc Kinh', 'Giảng viên tiêu biểu với >1.000 học viên đỗ HSK'].map((t, i) => (
-                        <li key={i} className="flex items-center gap-2 text-sm text-slate-500 font-medium">
-                           <Check size={14} className="text-green-500" /> {t}
-                        </li>
-                      ))}
-                   </ul>
+
+                <div className="flex gap-4">
+                   <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shrink-0 shadow-sm text-green-500">
+                      <BookText size={24} />
+                   </div>
+                   <div>
+                      <h3 className="font-black text-slate-900 text-lg mb-2">Chuyên gia chuẩn HSK 3.0</h3>
+                      <p className="text-slate-500 font-medium text-sm leading-relaxed">
+                        Nghiên cứu và phân tích sâu sắc tiêu chuẩn HSK 3.0 mới nhất, đảm bảo giáo trình cung cấp luôn chuẩn xác, khoa học và đi trước thời đại.
+                      </p>
+                   </div>
+                </div>
+
+                <div className="flex gap-4">
+                   <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shrink-0 shadow-sm text-purple-500">
+                      <ShieldCheck size={24} />
+                   </div>
+                   <div>
+                      <h3 className="font-black text-slate-900 text-lg mb-2">Bảo chứng chất lượng</h3>
+                      <p className="text-slate-500 font-medium text-sm leading-relaxed">
+                        Mọi bài học, từ vựng, và cấu trúc ngữ pháp trên hệ thống đều được kiểm duyệt gắt gao nhiều vòng trước khi xuất bản tới tay người dùng.
+                      </p>
+                   </div>
                 </div>
              </div>
           </div>
@@ -425,11 +445,11 @@ export default function HomeClient() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-8 tracking-tighter">Sẵn sàng để thử ngay?</h2>
           <p className="text-slate-400 font-medium text-lg mb-12">
-            Trải nghiệm Bài 1 giáo trình HSK 3.0 mới nhất trong 5 phút. 
-            Không cần đăng ký, không cần cam kết.
+            Khám phá lộ trình giáo trình HSK 3.0 mới nhất. 
+            Không cần đăng ký, bắt đầu học ngay.
           </p>
-          <Link href="/giao-trinh/hsk1/bai-1" className="inline-flex items-center gap-3 bg-slate-900 hover:bg-black text-white px-12 py-5 rounded-2xl font-black text-xl shadow-2xl transition-all active:scale-95">
-            HỌC BÀI 1 NGAY <ArrowRight size={24} />
+          <Link href="/giao-trinh" className="inline-flex items-center justify-center gap-3 bg-slate-900 hover:bg-black text-white px-8 py-4 md:px-12 md:py-5 rounded-2xl font-black text-lg md:text-xl shadow-2xl transition-all active:scale-95 w-full sm:w-auto">
+            HỌC MIỄN PHÍ NGAY <ArrowRight className="w-6 h-6" />
           </Link>
         </div>
       </section>
@@ -443,19 +463,19 @@ export default function HomeClient() {
               {/* Header with Background */}
               <div className="relative h-32 bg-gradient-to-br from-[#FF5E3A] to-[#D85A30] p-8 overflow-hidden">
                  <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl"></div>
-                 <div className="relative z-10 flex items-center gap-4">
-                    <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-md border border-white/30 animate-bounce-slow">
+                 <div className="relative z-10 flex items-center gap-4 pr-8">
+                    <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-md border border-white/30 animate-bounce-slow shrink-0">
                        <Zap size={24} className="text-white fill-white" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-black text-white uppercase tracking-tight">Đặc quyền Live Beta</h3>
-                      <p className="text-white/70 text-[10px] font-bold uppercase tracking-widest">Hỗ trợ học viên giai đoạn thử nghiệm</p>
+                      <h3 className="text-lg md:text-xl font-black text-white uppercase tracking-tight">Đặc quyền Live Beta</h3>
+                      <p className="text-white/70 text-[9px] md:text-[10px] font-bold uppercase tracking-widest">Hỗ trợ học viên giai đoạn thử nghiệm</p>
                     </div>
                  </div>
-                 <button onClick={() => setIsBetaModalOpen(false)} className="absolute top-6 right-6 p-2 bg-white/20 rounded-full hover:bg-white/40 text-white transition-all z-10"><X size={20} /></button>
+                 <button onClick={() => setIsBetaModalOpen(false)} className="absolute top-4 right-4 md:top-6 md:right-6 p-2 bg-white/20 rounded-full hover:bg-white/40 text-white transition-all z-10"><X size={20} /></button>
               </div>
 
-              <div className="p-8 md:p-10">
+              <div className="p-6 md:p-10">
                 <div className="space-y-6">
                   <div className="bg-orange-50 rounded-2xl p-4 border border-orange-100">
                      <p className="text-slate-800 font-bold text-sm leading-relaxed">

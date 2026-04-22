@@ -87,7 +87,7 @@ export default function HSK30Landing() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <Link href="/giao-trinh/hsk1/bai-1" className="w-full sm:w-auto px-12 py-5 bg-gray-900 text-white rounded-[24px] font-black text-lg shadow-2xl hover:scale-105 transition-all flex items-center justify-center gap-3">
+            <Link href="/giao-trinh" className="w-full sm:w-auto px-12 py-5 bg-gray-900 text-white rounded-[24px] font-black text-lg shadow-2xl hover:scale-105 transition-all flex items-center justify-center gap-3">
               HỌC MIỄN PHÍ NGAY <ArrowRight size={20} />
             </Link>
             <Link href="#so-sanh" className="w-full sm:w-auto px-12 py-5 bg-white text-gray-900 border-2 border-gray-100 rounded-[24px] font-black text-lg hover:bg-gray-50 transition-all flex items-center justify-center gap-3">
@@ -143,11 +143,11 @@ export default function HSK30Landing() {
                <div className="absolute -inset-4 bg-gradient-to-tr from-orange-400 to-yellow-300 rounded-[48px] blur-2xl opacity-20"></div>
                <div className="relative bg-white p-12 rounded-[48px] shadow-2xl border border-gray-100">
                   <h3 className="text-2xl font-black text-gray-900 mb-8 text-center uppercase tracking-[0.1em]">Bảng so sánh lộ trình</h3>
-                  <div className="space-y-4">
-                     <div className="flex items-center justify-between p-4 bg-gray-50 rounded-2xl">
-                        <span className="font-black text-gray-500">Tiêu chí</span>
-                        <span className="font-black text-gray-900">HSK 2.0 (Cũ)</span>
-                        <span className="font-black text-[#D85A30]">HSK 3.0 (Mới)</span>
+                  <div className="flex flex-col">
+                     <div className="grid grid-cols-[1fr_1fr_1.5fr] gap-2 items-center p-4 bg-gray-50 rounded-2xl mb-2">
+                        <span className="font-black text-gray-500 text-left">Tiêu chí</span>
+                        <span className="font-black text-gray-900 text-center">HSK 2.0 (Cũ)</span>
+                        <span className="font-black text-[#D85A30] text-right">HSK 3.0 (Mới)</span>
                      </div>
                      {[
                        ['Số cấp độ', '6 Cấp', '9 Cấp (3 Sơ - 3 Trung - 3 Cao)'],
@@ -155,10 +155,10 @@ export default function HSK30Landing() {
                        ['Hán tự', '2,663 chữ', '3,000 chữ'],
                        ['Kỹ năng', 'Nghe, Đọc, Viết', 'Nghe, Nói, Đọc, Viết, Dịch'],
                      ].map((row, i) => (
-                       <div key={i} className="flex items-center justify-between p-4 border-b border-gray-50 last:border-0">
-                          <span className="text-xs font-black text-gray-400 uppercase tracking-widest">{row[0]}</span>
-                          <span className="text-sm font-bold text-gray-400">{row[1]}</span>
-                          <span className="text-sm font-black text-gray-900">{row[2]}</span>
+                       <div key={i} className="grid grid-cols-[1fr_1fr_1.5fr] gap-2 items-center px-4 py-6 border-b border-gray-50 last:border-0">
+                          <span className="text-xs font-black text-gray-400 uppercase tracking-widest text-left">{row[0]}</span>
+                          <span className="text-sm font-bold text-gray-400 text-center">{row[1]}</span>
+                          <span className="text-sm font-black text-gray-900 text-right">{row[2]}</span>
                        </div>
                      ))}
                   </div>

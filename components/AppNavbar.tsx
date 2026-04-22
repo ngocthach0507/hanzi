@@ -83,7 +83,8 @@ export default function AppNavbar() {
   ];
 
   return (
-    <header className="w-full bg-white/80 backdrop-blur-xl sticky top-0 z-[60] border-b border-slate-100 font-sans transition-all">
+    <>
+      <header className="w-full bg-white/80 backdrop-blur-xl sticky top-0 z-[60] border-b border-slate-100 font-sans transition-all">
       {/* ROW 1: TOP HEADER */}
       <div className="px-4 md:px-12 py-4 flex items-center justify-between max-w-[1600px] mx-auto">
         <div className="flex items-center gap-8">
@@ -92,7 +93,7 @@ export default function AppNavbar() {
           </Link>
           <div className="hidden lg:flex items-center gap-8 ml-4">
             <button onClick={() => setActiveModal('intro')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">VỀ HANZI</button>
-            <button onClick={() => setActiveModal('teacher')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">KHÓA HỌC ONLINE</button>
+            <button onClick={() => setActiveModal('teacher')} className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">HỌC VỚI GIÁO VIÊN</button>
             <Link href="/blog" className="text-[11px] font-black text-slate-500 hover:text-[#FF5E3A] uppercase tracking-widest transition-colors">Blog</Link>
           </div>
         </div>
@@ -170,11 +171,13 @@ export default function AppNavbar() {
         </div>
       </div>
 
+      </header>
+
       {/* MOBILE SIDEBAR */}
       <div className={`fixed inset-0 z-[100] transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
         <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={() => setIsMobileMenuOpen(false)}></div>
-        <div className={`absolute top-0 right-0 h-full w-[85%] max-w-[400px] bg-white shadow-2xl transition-transform duration-300 ease-out transform ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-          <div className="relative p-6 bg-gradient-to-br from-red-600 to-orange-500 text-white overflow-hidden">
+        <div className={`absolute top-0 right-0 h-full w-[85%] max-w-[400px] bg-white shadow-2xl transition-transform duration-300 ease-out transform ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col`}>
+          <div className="relative p-6 bg-gradient-to-br from-red-600 to-orange-500 text-white overflow-hidden shrink-0">
              <button onClick={() => setIsMobileMenuOpen(false)} className="absolute top-4 right-4 p-2 bg-white/20 rounded-full hover:bg-white/30 transition-all"><X size={20} /></button>
              {user ? (
                 <div className="flex flex-col gap-4">
@@ -197,7 +200,7 @@ export default function AppNavbar() {
                 </div>
              )}
           </div>
-          <div className="flex-1 h-[calc(100%-180px)] overflow-y-auto p-4 space-y-6">
+          <div className="flex-1 overflow-y-auto p-4 space-y-6">
              <div className="space-y-1">
                 <p className="px-4 text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Học tập & Luyện tập</p>
                 {subNavItems.map((item, idx) => (
@@ -218,7 +221,7 @@ export default function AppNavbar() {
                 </button>
                 <button onClick={() => { setActiveModal('teacher'); setIsMobileMenuOpen(false); }} className="w-full flex items-center gap-4 p-3.5 rounded-2xl hover:bg-gray-50 text-gray-700">
                    <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gray-100 text-gray-500"><GraduationCap size={18} /></div>
-                   <span className="font-black text-sm uppercase tracking-wider">KHÓA HỌC ONLINE</span>
+                   <span className="font-black text-sm uppercase tracking-wider">HỌC VỚI GIÁO VIÊN</span>
                 </button>
                 <Link href="/blog" onClick={() => setIsMobileMenuOpen(false)} className="w-full flex items-center gap-4 p-3.5 rounded-2xl hover:bg-gray-50 text-gray-700">
                     <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gray-100 text-gray-500"><Book className="w-4 h-4" /></div>
@@ -227,7 +230,7 @@ export default function AppNavbar() {
              </div>
           </div>
           {!isPro && (
-            <div className="absolute bottom-0 left-0 w-full p-4 border-t border-gray-100 bg-gray-50/50">
+            <div className="shrink-0 p-4 border-t border-gray-100 bg-gray-50/50">
                <Link href="/nang-cap" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-center gap-3 bg-gradient-to-r from-amber-500 to-orange-600 text-white p-4 rounded-2xl font-black shadow-xl">
                   <Zap size={18} className="fill-white" /> NÂNG CẤP PREMIUM NGAY
                </Link>
@@ -242,11 +245,11 @@ export default function AppNavbar() {
           <div className="flex min-h-full items-center justify-center p-4 md:p-10">
             <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-md transition-opacity" onClick={() => setActiveModal(null)}></div>
             <div className="relative bg-white w-full max-w-xl rounded-[2.5rem] shadow-2xl animate-in zoom-in-95 duration-200 border border-slate-100 my-8 md:my-12">
-              <button onClick={() => setActiveModal(null)} className="absolute top-6 right-6 p-2 bg-slate-50 rounded-full hover:bg-slate-100 text-gray-400 hover:text-gray-900 transition-all z-10"><X size={20} /></button>
-              <div className="p-10">
+              <button onClick={() => setActiveModal(null)} className="absolute top-4 right-4 md:top-6 md:right-6 p-2 bg-slate-50 rounded-full hover:bg-slate-100 text-gray-400 hover:text-gray-900 transition-all z-10"><X size={20} /></button>
+              <div className="p-6 md:p-10">
                 {activeModal === 'intro' ? (
                   <div className="space-y-6">
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-4 pr-8">
                       <div className="w-14 h-14 bg-red-50 rounded-2xl flex items-center justify-center"><Book className="text-red-500 w-7 h-7" /></div>
                       <div>
                         <h3 className="text-2xl font-black text-gray-900 uppercase tracking-tight">Hệ sinh thái Hanzi</h3>
@@ -269,7 +272,7 @@ export default function AppNavbar() {
                   </div>
                 ) : (
                   <div className="space-y-6">
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-4 pr-8">
                       <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center"><GraduationCap className="text-blue-500 w-7 h-7" /></div>
                       <div>
                         <h3 className="text-2xl font-black text-gray-900 uppercase tracking-tight">Học cùng Giáo viên</h3>
@@ -307,6 +310,6 @@ export default function AppNavbar() {
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 }
