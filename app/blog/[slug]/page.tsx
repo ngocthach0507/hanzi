@@ -34,12 +34,21 @@ export async function generateMetadata(
   }
 
   return {
-    title: `${post.title} | Hanzi Blog`,
+    title: post.title,
     description: post.excerpt || `Đọc bài viết về ${post.title} trên Hanzi - Nền tảng học tiếng Trung hiện đại.`,
+    alternates: {
+      canonical: `/blog/${slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      images: [post.image_url || 'https://hanzi.io.vn/og-image.jpg'],
+      url: `https://hanzi.io.vn/blog/${slug}`,
+      images: [{
+        url: post.image_url || 'https://hanzi.io.vn/og-main.jpg',
+        width: 1200,
+        height: 630,
+        alt: post.title,
+      }],
       type: 'article',
       publishedTime: post.created_at,
       authors: [post.author || 'Hanzi Team'],
@@ -48,7 +57,7 @@ export async function generateMetadata(
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
-      images: [post.image_url || 'https://hanzi.io.vn/og-image.jpg'],
+      images: [post.image_url || 'https://hanzi.io.vn/og-main.jpg'],
     },
   };
 }

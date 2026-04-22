@@ -7,8 +7,35 @@ import Footer from "@/components/Footer";
 import WelcomeModal from "@/components/WelcomeModal";
 
 export const metadata: Metadata = {
-  title: "hanzi.io.vn - Nền tảng học Tiếng Trung HSK 3.0 Toàn diện",
+  title: {
+    default: "hanzi.io.vn - Nền tảng học Tiếng Trung HSK 3.0 Toàn diện",
+    template: "%s | Hanzi.io.vn"
+  },
   description: "Học tiếng Trung từ cơ bản đến nâng cao chuẩn HSK 1-6. Hệ thống Flashcard SRS, luyện nghe AI, và kho đề thi THPT miễn phí.",
+  metadataBase: new URL('https://hanzi.io.vn'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'vi_VN',
+    url: 'https://hanzi.io.vn',
+    siteName: 'Hanzi.io.vn',
+    images: [
+      {
+        url: '/og-main.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Hanzi.io.vn - Học Tiếng Trung HSK 3.0',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hanzi.io.vn - Học Tiếng Trung HSK 3.0 Toàn diện',
+    description: 'Học tiếng Trung từ cơ bản đến nâng cao chuẩn HSK 1-6 với AI.',
+    images: ['/og-main.jpg'],
+  },
   verification: {
     google: "FRMlTE6ucESdUiQwB2pROA4yK41yS5TIO8JLUtFwBFk",
   },
