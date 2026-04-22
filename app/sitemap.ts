@@ -1,11 +1,6 @@
 import { MetadataRoute } from 'next';
 import { createClient } from '@supabase/supabase-js';
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!
-);
-
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://hanzi.io.vn';
 
@@ -30,6 +25,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     changeFrequency: 'weekly' as const,
     priority: route === '' ? 1.0 : 0.8,
   }));
+
+  // Initialize Supabase only if environment variables are present
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseKey = process.env.SUPABASE_SERVICE_KEY;
+  
+  if (!supabaseUrl || !supabaseKey) {
+    console.warn('Supabase environment variables missing for sitemap generation');
+    return routes;
+  }
+
+  const supabase = createClient(supabaseUrl, supabaseKey);
 
   // 2. HSK Lessons (Dynamic from DB)
   let lessonRoutes: any[] = [];
