@@ -83,7 +83,11 @@ export default function HSK30Landing() {
           
           <p className="max-w-3xl mx-auto text-xl text-gray-500 font-medium leading-relaxed mb-12">
             Đừng để bản thân bị tụt hậu. Hanzi.io.vn là nền tảng duy nhất tại Việt Nam tích hợp trọn bộ 
-            nội dung học tập theo chuẩn HSK 3.0 mới nhất — Hiệu lực chính thức từ tháng 7/2026.
+            nội dung học tập theo chuẩn HSK 3.0 mới nhất — Hiệu lực chính thức từ tháng 7/2026. 
+            <br />
+            <Link href="/blog/lo-trinh-hoc-hsk-3-0-cho-nguoi-moi" className="text-[#D85A30] text-sm font-bold hover:underline">
+              👉 Xem lộ trình học từ con số 0 đến cấp độ 3 nhanh nhất
+            </Link>
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -163,7 +167,10 @@ export default function HSK30Landing() {
                      ))}
                   </div>
                   <div className="mt-8 p-6 bg-orange-50 rounded-3xl text-center">
-                     <p className="text-[#D85A30] font-black text-sm italic">"HSK 3.0 không chỉ là kỳ thi, đó là tiêu chuẩn ngôn ngữ toàn diện."</p>
+                     <p className="text-[#D85A30] font-black text-sm italic mb-2">"HSK 3.0 không chỉ là kỳ thi, đó là tiêu chuẩn ngôn ngữ toàn diện."</p>
+                     <Link href="/blog/so-snh-hsk-c-6-cp-v-hsk-30-9-cp-2026-nhng-thay-i-quan-trng-bn-cn-bit" className="text-[10px] font-black uppercase tracking-widest text-gray-500 hover:text-gray-900 transition-colors">
+                        Xem phân tích chi tiết các thay đổi quan trọng →
+                     </Link>
                   </div>
                </div>
             </div>
@@ -181,10 +188,10 @@ export default function HSK30Landing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-8">
            {[
              { title: 'Database Độc quyền', text: '144 bài hội thoại HSK 3.0 đầy đủ pinyin, dịch nghĩa và audio chuẩn.', icon: <ShieldCheck className="text-green-500" /> },
-             { title: 'Luyện tập Interactive', desc: 'Không còn những trang giấy tĩnh. Flashcard, Quiz và bài tập điền từ 3D giúp bạn nhớ từ vựng ngay lập tức.', icon: < Zap className="text-orange-500" /> },
+             { title: 'Luyện tập Interactive', text: 'Flashcard, Quiz và bài tập điền từ 3D giúp bạn nhớ từ vựng ngay lập tức.', link: '/blog/tu-hoc-tieng-trung-tai-nha-voi-cong-nghe-ai', linkText: 'Cách tự học hiệu quả nhờ AI', icon: <Zap className="text-orange-500" /> },
              { title: 'Lộ trình Cá nhân hóa', text: 'Hệ thống tự động theo dõi tiến độ và gợi ý các bài học phù hợp với trình độ của bạn.', icon: <Award className="text-blue-500" /> },
            ].map((feature, i) => (
-             <div key={i} className="p-10 bg-white rounded-[40px] border border-gray-100 shadow-sm hover:shadow-2xl hover:border-orange-100 transition-all group">
+             <div key={i} className="p-10 bg-white rounded-[40px] border border-gray-100 shadow-sm hover:shadow-2xl hover:border-orange-100 transition-all group flex flex-col">
                 <div className="w-16 h-16 bg-gray-50 rounded-3xl flex items-center justify-center mb-8 group-hover:bg-orange-50 transition-colors">
                    {feature.icon}
                 </div>
