@@ -1,0 +1,19 @@
+[Unit]
+Description=Hanzi MCP Server — GoClaw AI Agent Integration
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/my-website/mcp
+ExecStart=/usr/bin/node /opt/my-website/mcp/server.js
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+# Biến môi trường (hoặc dùng EnvironmentFile)
+EnvironmentFile=/opt/my-website/.env
+
+[Install]
+WantedBy=multi-user.target
