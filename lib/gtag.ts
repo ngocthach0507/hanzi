@@ -1,5 +1,5 @@
 // lib/gtag.ts
-export const GA_MEASUREMENT_ID = 'G-RFGKV7WHTS';
+export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-RFGKV7WHTS';
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 export const pageview = (url: string) => {
