@@ -196,7 +196,7 @@ export default function HSK30Landing() {
                    {feature.icon}
                 </div>
                 <h4 className="text-2xl font-black text-gray-900 mb-4">{feature.title}</h4>
-                <p className="text-gray-500 font-medium leading-relaxed">{feature.text || feature.desc}</p>
+                <p className="text-gray-500 font-medium leading-relaxed">{feature.text}</p>
              </div>
            ))}
         </div>
