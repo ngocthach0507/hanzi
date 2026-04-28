@@ -9,8 +9,7 @@ import {
   Volume2, 
   BookOpen, 
   Activity, 
-  Search, 
-  Star,
+  Search,
   RotateCw,
   X,
   PlayCircle
@@ -30,6 +29,16 @@ export default function TopicLessonContent() {
     { id: 3, hanzi: '学生', pinyin: 'xuésheng', meaning: 'học sinh', type: 'danh từ', ex_zh: '他是一个好学生。', ex_pinyin: 'Tā shì yī gè hǎo xuésheng.', ex_vi: 'Cậu ấy là một học sinh giỏi.' },
     { id: 4, hanzi: '工人', pinyin: 'gōngrén', meaning: 'công nhân', type: 'danh từ', ex_zh: '爸爸是工厂的工人。', ex_pinyin: 'Bàba shì gōngchǎng de gōngrén.', ex_vi: 'Bố là công nhân nhà máy.' },
   ];
+
+  const playSound = (text: string) => {
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'zh-CN';
+      utterance.rate = 0.8;
+      window.speechSynthesis.speak(utterance);
+    }
+  };
 
   return (
     <div className="bg-gray-50 min-h-screen pb-20">
@@ -53,9 +62,6 @@ export default function TopicLessonContent() {
           <div className="flex items-center gap-3">
             <button className="hidden sm:flex items-center gap-2 px-4 py-2 bg-orange-50 text-[#D85A30] rounded-xl text-xs font-bold hover:bg-orange-100 transition-colors">
               <PlayCircle size={16} /> Luyện nghe toàn bộ
-            </button>
-            <button className="p-2.5 text-gray-300 hover:text-yellow-500 transition-colors">
-              <Star size={22} />
             </button>
           </div>
         </div>
@@ -90,7 +96,10 @@ export default function TopicLessonContent() {
                     <h3 className="text-5xl font-black text-gray-900 mb-2">{word.hanzi}</h3>
                     <span className="text-lg font-bold text-[#D85A30] tracking-wide">{word.pinyin}</span>
                   </div>
-                  <button className="w-14 h-14 bg-gray-50 hover:bg-[#D85A30] hover:text-white text-[#D85A30] rounded-full flex items-center justify-center transition-all active:scale-90">
+                  <button 
+                    onClick={() => playSound(word.hanzi)}
+                    className="w-14 h-14 bg-gray-50 hover:bg-[#D85A30] hover:text-white text-[#D85A30] rounded-full flex items-center justify-center transition-all active:scale-90"
+                  >
                     <Volume2 size={24} />
                   </button>
                 </div>
@@ -105,10 +114,6 @@ export default function TopicLessonContent() {
                     <p className="text-sm text-gray-600">{word.ex_vi}</p>
                   </div>
                 </div>
-
-                <button className="absolute top-6 right-20 text-gray-200 hover:text-yellow-400 transition-colors">
-                  <Star size={20} />
-                </button>
               </div>
             ))}
           </div>
