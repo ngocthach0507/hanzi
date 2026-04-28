@@ -62,7 +62,7 @@ const extractBlankSegment = (
 
 const ConversationPractice: React.FC<ConversationPracticeProps> = ({ dialogue, theme, onBack }) => {
   const [activeMode, setActiveMode] = useState<'roleplay' | 'dictation' | 'sequence' | 'qa' | 'fill'>('roleplay');
-  const [showTranslation, setShowTranslation] = useState(true);
+  const [showTranslation, setShowTranslation] = useState(false);
 
   // --- Roleplay ---
   const [activeRole, setActiveRole] = useState<string | null>(null);
