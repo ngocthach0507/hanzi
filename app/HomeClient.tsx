@@ -57,8 +57,8 @@ export default function HomeClient() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-[#D85A30]"></span>
             </span>
-            <span className="bg-[#D85A30] p-0.5 px-2 rounded text-white text-[9px] font-black">LIVE BETA</span>
-            CHƯƠNG TRÌNH BETA — MIỄN PHÍ CHO 100 HỌC VIÊN ĐẦU TIÊN
+            <span className="bg-[#D85A30] p-0.5 px-2 rounded text-white text-[9px] font-black">TRẢI NGHIỆM</span>
+            CHƯƠNG TRÌNH TRẢI NGHIỆM MIỄN PHÍ — CÙNG HANZI HOÀN THIỆN
             <ChevronRight size={14} className="group-hover:translate-x-1 transition-transform" />
           </button>
           
@@ -468,8 +468,8 @@ export default function HomeClient() {
                        <Zap size={24} className="text-white fill-white" />
                     </div>
                     <div>
-                      <h3 className="text-lg md:text-xl font-black text-white uppercase tracking-tight">Đặc quyền Live Beta</h3>
-                      <p className="text-white/70 text-[9px] md:text-[10px] font-bold uppercase tracking-widest">Hỗ trợ học viên giai đoạn thử nghiệm</p>
+                      <h3 className="text-lg md:text-xl font-black text-white uppercase tracking-tight">Trải nghiệm Miễn phí</h3>
+                      <p className="text-white/70 text-[9px] md:text-[10px] font-bold uppercase tracking-widest">Cùng xây dựng cộng đồng học HSK 3.0</p>
                     </div>
                  </div>
                  <button onClick={() => setIsBetaModalOpen(false)} className="absolute top-4 right-4 md:top-6 md:right-6 p-2 bg-white/20 rounded-full hover:bg-white/40 text-white transition-all z-10"><X size={20} /></button>
@@ -477,57 +477,60 @@ export default function HomeClient() {
 
               <div className="p-6 md:p-10">
                 <div className="space-y-6">
-                  <div className="bg-orange-50 rounded-2xl p-4 border border-orange-100">
-                     <p className="text-slate-800 font-bold text-sm leading-relaxed">
-                       Chào mừng bạn! Hanzi hiện đang trong giai đoạn <span className="text-[#D85A30]">Live Beta</span> để hoàn thiện lộ trình HSK 3.0. Chúng tôi dành tặng món quà tri ân cho 100 học viên đầu tiên.
+                  <div className="bg-orange-50 rounded-2xl p-5 border border-orange-100">
+                     <p className="text-slate-800 font-bold text-sm leading-relaxed text-center">
+                       Hanzi đang trong giai đoạn phát triển và mong muốn nhận được ý kiến đóng góp từ cộng đồng. Chúng tôi dành tặng <span className="text-[#D85A30]">Quyền trải nghiệm Premium Miễn phí</span> cho tất cả các bạn tham gia thử nghiệm!
                      </p>
                   </div>
 
-                  <div className="space-y-4">
+                  <div className="space-y-5">
                      <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 rounded-xl bg-blue-50 flex items-center justify-center shrink-0 border border-blue-100">
-                           <span className="text-blue-600 font-black text-xs">01</span>
+                        <div className="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center shrink-0 border border-blue-100">
+                           <Sparkles className="text-blue-600 w-5 h-5" />
                         </div>
                         <div>
-                          <p className="text-sm font-black text-slate-900 mb-1">Đăng ký tài khoản</p>
-                          <p className="text-xs text-slate-500 font-medium">Truy cập nút Đăng ký phía trên Header để tạo tài khoản miễn phí.</p>
-                        </div>
-                     </div>
-
-                     <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 rounded-xl bg-green-50 flex items-center justify-center shrink-0 border border-green-100">
-                           <span className="text-green-600 font-black text-xs">02</span>
-                        </div>
-                        <div>
-                          <p className="text-sm font-black text-slate-900 mb-1">Gửi yêu cầu kích hoạt</p>
+                          <p className="text-base font-black text-slate-900 mb-1">1. Mở khóa toàn bộ tính năng</p>
                           <p className="text-xs text-slate-500 font-medium leading-relaxed">
-                            Soạn Email gửi tới: <span className="font-black text-[#D85A30]">xiaohongdouht@gmail.com</span>
-                            <br />Tiêu đề: <span className="font-black italic">"Kích hoạt Beta - [Email của bạn]"</span>
+                            Đăng ký tài khoản và gửi email tới <span className="font-black text-[#D85A30]">xiaohongdouht@gmail.com</span> với tiêu đề <span className="font-black italic">"Trải nghiệm Hanzi - [Email của bạn]"</span> để Admin kích hoạt gói Premium miễn phí.
                           </p>
                         </div>
                      </div>
 
                      <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 rounded-xl bg-purple-50 flex items-center justify-center shrink-0 border border-purple-100">
-                           <span className="text-purple-600 font-black text-xs">03</span>
+                        <div className="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center shrink-0 border border-green-100">
+                           <MessageCircle className="text-green-600 w-5 h-5" />
                         </div>
                         <div>
-                          <p className="text-sm font-black text-slate-900 mb-1">Nhận 1 tháng Premium</p>
-                          <p className="text-xs text-slate-500 font-medium">Admin sẽ kích hoạt tài khoản Premium hoàn toàn miễn phí cho bạn trong vòng 24h.</p>
+                          <p className="text-base font-black text-slate-900 mb-1">2. Kiểm tra & Báo lỗi</p>
+                          <p className="text-xs text-slate-500 font-medium leading-relaxed">
+                            Hãy sử dụng Hanzi như công cụ học tập hằng ngày. Nếu gặp lỗi hiển thị, sai đáp án hay có ý tưởng hay, đừng ngần ngại gửi Email hoặc nhắn tin đóng góp cho tụi mình nhé!
+                          </p>
+                        </div>
+                     </div>
+
+                     <div className="flex items-start gap-4">
+                        <div className="w-10 h-10 rounded-xl bg-rose-50 flex items-center justify-center shrink-0 border border-rose-100">
+                           <svg className="w-5 h-5 text-rose-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                        </div>
+                        <div>
+                          <p className="text-base font-black text-slate-900 mb-1">3. Ủng hộ tinh thần (Tùy tâm)</p>
+                          <p className="text-xs text-slate-500 font-medium leading-relaxed">
+                            Team duy trì máy chủ tự túc. Nếu dự án giúp ích được cho lộ trình học HSK của bạn, một lời động viên hay một phần "ủng hộ tinh thần" nhỏ sẽ là động lực cực kỳ to lớn đối với team!
+                          </p>
                         </div>
                      </div>
                   </div>
 
                   <div className="pt-6 flex flex-col sm:flex-row gap-3">
                      <a 
-                       href="mailto:xiaohongdouht@gmail.com?subject=Kích hoạt Beta&body=Chào Admin Hanzi, mình muốn đăng ký kích hoạt 1 tháng Premium Beta cho tài khoản Email: " 
+                       href="mailto:xiaohongdouht@gmail.com?subject=Đăng ký Trải nghiệm Hanzi&body=Chào Admin, mình đã tạo tài khoản và muốn đăng ký trải nghiệm Full tính năng. Email của mình là: " 
                        className="flex-1 bg-[#D85A30] hover:bg-[#B54825] text-white px-6 py-4 rounded-2xl font-black text-sm flex items-center justify-center gap-2 shadow-xl shadow-orange-100 transition-all active:scale-95"
                      >
-                       <Mail size={18} /> SOẠN EMAIL NGAY
+                       <Mail size={18} /> GỬI EMAIL ĐĂNG KÝ
                      </a>
                      <button 
                        onClick={() => setIsBetaModalOpen(false)}
-                       className="px-6 py-4 bg-slate-50 text-slate-400 rounded-2xl font-black text-sm hover:bg-slate-100 transition-all"
+                       className="px-6 py-4 bg-slate-50 text-slate-400 hover:text-slate-900 rounded-2xl font-black text-sm hover:bg-slate-100 transition-all"
                      >
                        ĐỂ SAU
                      </button>
