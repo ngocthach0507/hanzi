@@ -392,7 +392,7 @@ export default function ExamInterface() {
                 onClick={() => goToQuestion(currentQuestion - 1)}
                 className="w-14 h-14 md:w-20 md:h-20 bg-white border-2 border-gray-100 rounded-full flex items-center justify-center text-gray-400 disabled:opacity-20 hover:border-blue-400 hover:text-blue-500 transition-all shadow-sm active:scale-90"
               >
-                <ChevronLeft size={24} md:size={36} />
+                <ChevronLeft size={36} />
               </button>
               
               <div className="text-[10px] md:text-sm font-black text-gray-400 uppercase tracking-widest md:tracking-[0.3em] flex flex-col items-center">
@@ -405,7 +405,7 @@ export default function ExamInterface() {
                 className="px-8 md:px-16 h-14 md:h-20 bg-gray-900 text-white rounded-[20px] md:rounded-[32px] font-black text-base md:text-xl hover:bg-black transition-all flex items-center gap-2 md:gap-4 shadow-2xl shadow-gray-400 active:scale-95"
               >
                 {currentQuestion < examData.totalQuestions - 1 ? 'Kế tiếp' : 'Hoàn tất'} 
-                <ChevronRight size={20} md:size={24} />
+                <ChevronRight size={24} />
               </button>
             </div>
           </div>

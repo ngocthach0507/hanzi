@@ -116,12 +116,12 @@ export default function TopicLessonList() {
                     href={`/tu-vung-chu-de/${topicSlug}/${lesson.id}`}
                     className="bg-gray-50 group-hover:bg-[#D85A30] group-hover:text-white text-gray-900 px-4 md:px-6 py-2.5 md:py-3 rounded-xl md:rounded-2xl text-xs md:text-base font-bold flex items-center gap-2 transition-all shadow-inner"
                   >
-                    Bắt đầu <PlayCircle size={16} md:size={18} />
+                    Bắt đầu <PlayCircle size={18} />
                   </Link>
                 ) : (
                   <div className="flex flex-col items-end gap-1">
                     <div className="bg-gray-50 text-gray-300 px-4 md:px-6 py-2.5 md:py-3 rounded-xl md:rounded-2xl text-xs md:text-base font-bold flex items-center gap-2">
-                      <Lock size={16} md:size={18} /> Khóa
+                      <Lock size={18} /> Khóa
                     </div>
                     <span className="text-[8px] md:text-[10px] font-black text-gray-300 uppercase mr-1 md:mr-2">Cần tài khoản PREMIUM</span>
                   </div>
