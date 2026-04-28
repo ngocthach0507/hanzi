@@ -86,7 +86,7 @@
         {"no": 7,  "hanzi": "条",    "pinyin": "tiáo",     "pos": "m.",   "en": "used for long, narrow things"},
         {"no": 8,  "hanzi": "所以",  "pinyin": "suǒyǐ",    "pos": "conj.","en": "so; therefore"},
         {"no": 9,  "hanzi": "因为",  "pinyin": "yīnwèi",   "pos": "conj.","en": "because"},
-        {"no": 10, "hanzi": "过",    "pinyin": "guò",      "pos": "part.","en": "aspect particle indicating past experience"},
+        {"no": 10, "hanzi": "过",    "pinyin": "guò",      "pos": "part.","en": "qua, từng (trợ từ)"},
         {"no": 11, "hanzi": "过去",  "pinyin": "guòqù",    "pos": "v.",   "en": "go over; pass"},
         {"no": 12, "hanzi": "进去",  "pinyin": "jìnqù",    "pos": "v.",   "en": "go in"},
         {"no": 13, "hanzi": "书包",  "pinyin": "shūbāo",   "pos": "n.",   "en": "school bag; backpack"},
@@ -112,7 +112,7 @@
         {"no": 11, "hanzi": "下去",  "pinyin": "xiàqù",    "pos": "v.",   "en": "go down"},
         {"no": 12, "hanzi": "等",    "pinyin": "děng",     "pos": "v.",   "en": "wait"},
         {"no": 13, "hanzi": "懂",    "pinyin": "dǒng",     "pos": "v.",   "en": "understand"},
-        {"no": 14, "hanzi": "面",    "pinyin": "miàn",     "pos": "n.",   "en": "side; face; noodles"}
+        {"no": 14, "hanzi": "面",    "pinyin": "miàn",     "pos": "n.",   "en": "mặt, mì"}
       ]
     },
     {
@@ -131,8 +131,8 @@
         {"no": 8,  "hanzi": "画",    "pinyin": "huà",      "pos": "v./n.","en": "draw; picture"},
         {"no": 9,  "hanzi": "打开",  "pinyin": "dǎkāi",    "pos": "v.",   "en": "open"},
         {"no": 10, "hanzi": "床",    "pinyin": "chuáng",   "pos": "n.",   "en": "bed"},
-        {"no": 11, "hanzi": "地",    "pinyin": "de",       "pos": "part.","en": "structural particle before verbs"},
-        {"no": 12, "hanzi": "过年",  "pinyin": "guònián",  "pos": "v.",   "en": "celebrate Chinese New Year"},
+        {"no": 11, "hanzi": "地",    "pinyin": "de",       "pos": "part.","en": "một cách (trợ từ kết cấu)"},
+        {"no": 12, "hanzi": "过年",  "pinyin": "guònián",  "pos": "v.",   "en": "đón năm mới, ăn Tết"},
         {"no": 13, "hanzi": "但是",  "pinyin": "dànshì",   "pos": "conj.","en": "but; however"},
         {"no": 14, "hanzi": "点",    "pinyin": "diǎn",     "pos": "v.",   "en": "order (food/drinks)"}
       ]
@@ -140,19 +140,19 @@
     {
       "lesson": 7,
       "title_zh": "他篮球打得很好",
-      "title_en": "He plays basketball very well",
+      "title_en": "He plays basketquả bóng very well",
       "word_count": 14,
       "vocabulary": [
-        {"no": 1,  "hanzi": "篮球",  "pinyin": "lánqiú",   "pos": "n.",   "en": "basketball"},
-        {"no": 2,  "hanzi": "踢",    "pinyin": "tī",       "pos": "v.",   "en": "kick; play (football)"},
+        {"no": 1,  "hanzi": "篮球",  "pinyin": "lánqiú",   "pos": "n.",   "en": "basketquả bóng"},
+        {"no": 2,  "hanzi": "踢",    "pinyin": "tī",       "pos": "v.",   "en": "kick; play (footquả bóng)"},
         {"no": 3,  "hanzi": "跑",    "pinyin": "pǎo",      "pos": "v.",   "en": "run"},
         {"no": 4,  "hanzi": "跑步",  "pinyin": "pǎobù",    "pos": "v.",   "en": "jog; running"},
         {"no": 5,  "hanzi": "游",    "pinyin": "yóu",      "pos": "v.",   "en": "swim; travel"},
         {"no": 6,  "hanzi": "游泳",  "pinyin": "yóuyǒng",  "pos": "v.",   "en": "swim; swimming"},
         {"no": 7,  "hanzi": "运动",  "pinyin": "yùndòng",  "pos": "n./v.","en": "sport; exercise"},
-        {"no": 8,  "hanzi": "球",    "pinyin": "qiú",      "pos": "n.",   "en": "ball"},
+        {"no": 8,  "hanzi": "球",    "pinyin": "qiú",      "pos": "n.",   "en": "quả bóng"},
         {"no": 9,  "hanzi": "开始",  "pinyin": "kāishǐ",   "pos": "v.",   "en": "start; begin"},
-        {"no": 10, "hanzi": "打",    "pinyin": "dǎ",       "pos": "v.",   "en": "play (ball games); hit"},
+        {"no": 10, "hanzi": "打",    "pinyin": "dǎ",       "pos": "v.",   "en": "play (quả bóng games); hit"},
         {"no": 11, "hanzi": "得",    "pinyin": "de",       "pos": "part.","en": "structural particle after verbs"},
         {"no": 12, "hanzi": "从",    "pinyin": "cóng",     "pos": "prep.","en": "from"},
         {"no": 13, "hanzi": "往",    "pinyin": "wǎng",     "pos": "prep.","en": "toward; in the direction of"},
@@ -231,7 +231,7 @@
       "title_en": "I like Chinese food the most",
       "word_count": 14,
       "vocabulary": [
-        {"no": 1,  "hanzi": "药",    "pinyin": "yào",      "pos": "n.",   "en": "medicine; drug"},
+        {"no": 1,  "hanzi": "药",    "pinyin": "yào",      "pos": "n.",   "en": "thuốc"},
         {"no": 2,  "hanzi": "药店",  "pinyin": "yàodiàn",  "pos": "n.",   "en": "pharmacy; drugstore"},
         {"no": 3,  "hanzi": "疼",    "pinyin": "téng",     "pos": "adj.", "en": "painful; aching"},
         {"no": 4,  "hanzi": "身体",  "pinyin": "shēntǐ",   "pos": "n.",   "en": "body; health"},
@@ -263,8 +263,8 @@
         {"no": 8,  "hanzi": "事情",  "pinyin": "shìqing",  "pos": "n.",   "en": "matter; thing; affair"},
         {"no": 9,  "hanzi": "小时候","pinyin": "xiǎoshíhou","pos": "n.",  "en": "childhood; when young"},
         {"no": 10, "hanzi": "从",    "pinyin": "cóng",     "pos": "prep.","en": "from"},
-        {"no": 11, "hanzi": "好",    "pinyin": "hǎo",      "pos": "adv.", "en": "very; quite (in exclamations)"},
-        {"no": 12, "hanzi": "那",    "pinyin": "nà",       "pos": "conj.","en": "in that case; then"},
+        {"no": 11, "hanzi": "好",    "pinyin": "hǎo",      "pos": "adv.", "en": "tốt, khỏe, rất"},
+        {"no": 12, "hanzi": "那",    "pinyin": "nà",       "pos": "conj.","en": "kia, đó, vậy thì"},
         {"no": 13, "hanzi": "回",    "pinyin": "huí",      "pos": "v.",   "en": "return; go back"},
         {"no": 14, "hanzi": "眼睛",  "pinyin": "yǎnjīng",  "pos": "n.",   "en": "eye(s)"}
       ]
@@ -332,7 +332,7 @@
         {"no": 11, "hanzi": "姓名",  "pinyin": "xìngmíng", "pos": "n.",   "en": "full name"},
         {"no": 12, "hanzi": "还是",  "pinyin": "háishi",   "pos": "conj.","en": "or (in questions); still"},
         {"no": 13, "hanzi": "回",    "pinyin": "huí",      "pos": "m.",   "en": "time; occurrence (for actions)"},
-        {"no": 14, "hanzi": "动量补语","pinyin": "dòngliàng bǔyǔ","pos": "gram.","en": "complement of frequency"},
+        {"no": 14, "hanzi": "动量补语","pinyin": "dòngliàng bǔyǔ","pos": "gram.","en": "bổ ngữ động lượng"},
         {"no": 15, "hanzi": "有字句","pinyin": "yǒu zì jù","pos": "gram.","en": "existential sentence with 有"}
       ]
     }

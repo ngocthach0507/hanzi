@@ -155,7 +155,7 @@
         "q": "\"半\" (bàn) có nghĩa là gì?",
         "options": [
           "nửa, rưỡi",
-          "in that case; then",
+          "kia, đó, vậy thì",
           "nam",
           "sân bay"
         ],
@@ -261,7 +261,7 @@
           "ai",
           "học sinh tiểu học",
           "rồi (trợ từ biến đổi trạng thái)",
-          "very; quite (in exclamations)"
+          "tốt, khỏe, rất"
         ],
         "answer": 0,
         "explain": "谁 (shéi/shuí) = ai. Loại từ: pron."
@@ -928,7 +928,7 @@
         "section": "Phần 3: Đọc hiểu HSK1",
         "q": "Câu \"家下班小。\" diễn đạt điều gì?",
         "options": [
-          "structural particle before verbs, rời khỏi",
+          "một cách (trợ từ kết cấu), rời khỏi",
           "rẻ và đói",
           "a, chà (trợ từ ngữ khí)",
           "nhà, gia đình tan làm nhỏ."
@@ -1432,7 +1432,7 @@
         "q": "\"大\" (dà) có nghĩa là gì?",
         "options": [
           "một ít",
-          "order; point",
+          "điểm, giờ",
           "lớn, to",
           "nước, quốc gia"
         ],
@@ -1536,7 +1536,7 @@
         "q": "Đoạn văn sau có nghĩa là gì? \"做饭书菜。\"",
         "options": [
           "phía sau",
-          "bố, ba, put; place; let go",
+          "bố, ba, đặt, để, thả",
           "nấu cơm sách món ăn, rau.",
           "kết thúc và sớm"
         ],
@@ -1705,17 +1705,17 @@
           "ở đây",
           "chị gái",
           "muộn, tối",
-          "medicine; drug"
+          "thuốc"
         ],
         "answer": 3,
-        "explain": "药 (yào) = medicine; drug. Loại từ: n."
+        "explain": "药 (yào) = thuốc. Loại từ: n."
       },
       {
         "type": "single",
         "section": "Phần 3: Đọc hiểu HSK1",
         "q": "Câu \"玩上忙。\" diễn đạt điều gì?",
         "options": [
-          "câu hỏi, đề bài và put; place; let go",
+          "câu hỏi, đề bài và đặt, để, thả",
           "chơi trên, phía trên bận.",
           "có hứng thú với",
           "hôm nay, phương hướng"
@@ -1780,7 +1780,7 @@
         "section": "Phần 1: Từ vựng HSK1",
         "q": "\"可以\" (kěyǐ) có nghĩa là gì?",
         "options": [
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "có thể",
           "máy tính",
           "không (trợ từ nghi vấn)"
@@ -1833,12 +1833,12 @@
         "q": "Nội dung chính của câu \"好很这。\" là gì?",
         "options": [
           "các bạn, các anh, các chị",
-          "very; quite (in exclamations) rất đây, này.",
+          "tốt, khỏe, rất rất đây, này.",
           "và, gặp mặt",
           "tại sao và hàng xóm"
         ],
         "answer": 1,
-        "explain": "Câu \"好很这。\" có nghĩa là: very; quite (in exclamations) rất đây, này."
+        "explain": "Câu \"好很这。\" có nghĩa là: tốt, khỏe, rất rất đây, này."
       },
       {
         "type": "single",
@@ -1936,7 +1936,7 @@
         "options": [
           "bên, cạnh",
           "ở, đang",
-          "in that case; then",
+          "kia, đó, vậy thì",
           "bạn học"
         ],
         "answer": 1,
@@ -2119,7 +2119,7 @@
           "những cái này",
           "món ăn, rau",
           "bệnh nhân",
-          "in that case; then"
+          "kia, đó, vậy thì"
         ],
         "answer": 0,
         "explain": "这些 (zhèxiē) = những cái này. Loại từ: pron."
@@ -2595,11 +2595,11 @@
         "options": [
           "cầu thang, đều",
           "trứng gà",
-          "em gái đâu, ở đâu in that case; then.",
+          "em gái đâu, ở đâu kia, đó, vậy thì.",
           "gần và mai, ngày mai"
         ],
         "answer": 2,
-        "explain": "Câu \"妹妹哪里那。\" có nghĩa là: em gái đâu, ở đâu in that case; then."
+        "explain": "Câu \"妹妹哪里那。\" có nghĩa là: em gái đâu, ở đâu kia, đó, vậy thì."
       },
       {
         "type": "single",
@@ -2878,7 +2878,7 @@
         "q": "\"上\" (shang/shàng) có nghĩa là gì?",
         "options": [
           "tháng",
-          "in that case; then",
+          "kia, đó, vậy thì",
           "trên, phía trên",
           "đi"
         ],
@@ -2918,7 +2918,7 @@
         "options": [
           "học sinh, sinh viên tháng buổi sáng.",
           "bao, gói, túi, đến",
-          "ball",
+          "quả bóng",
           "làm và ngân hàng"
         ],
         "answer": 0,
@@ -3044,7 +3044,7 @@
         "section": "Phần 3: Đọc hiểu HSK1",
         "q": "Nội dung chính của câu \"好玩儿下雨面包。\" là gì?",
         "options": [
-          "structural particle before verbs",
+          "một cách (trợ từ kết cấu)",
           "họ và kế toán",
           "vui, hay trời mưa bánh mì.",
           "cái thìa, muỗng, đại học"
@@ -3086,10 +3086,10 @@
           "kế toán và nữ",
           "ra khỏi cửa, đi xa",
           "xuống đó, xem, nhìn, đọc",
-          "phút cơm tối medicine; drug."
+          "phút cơm tối thuốc."
         ],
         "answer": 3,
-        "explain": "Câu \"分钟晚饭药。\" có nghĩa là: phút cơm tối medicine; drug."
+        "explain": "Câu \"分钟晚饭药。\" có nghĩa là: phút cơm tối thuốc."
       },
       {
         "type": "single",
@@ -3870,7 +3870,7 @@
         "section": "Phần 1: Từ vựng HSK1",
         "q": "\"米饭\" (mǐfàn) có nghĩa là gì?",
         "options": [
-          "medicine; drug",
+          "thuốc",
           "cơm",
           "chúng tôi, chúng ta",
           "sớm"
@@ -4026,7 +4026,7 @@
         "section": "Phần 3: Đọc hiểu HSK1",
         "q": "Đoạn văn sau có nghĩa là gì? \"国爸爸想。\"",
         "options": [
-          "celebrate Chinese New Year, lựa chọn",
+          "đón năm mới, ăn Tết, lựa chọn",
           "thẻ tín dụng",
           "nước, quốc gia bố, ba muốn, nghĩ.",
           "tan học và nó (chỉ con vật, đồ vật)"
@@ -4102,7 +4102,7 @@
         "section": "Phần 1: Từ vựng HSK1",
         "q": "\"那儿\" (nàr) có nghĩa là gì?",
         "options": [
-          "order; point",
+          "điểm, giờ",
           "bác sĩ",
           "ở kia, ở đó",
           "hát"
@@ -4594,7 +4594,7 @@
         "section": "Phần 3: Đọc hiểu HSK1",
         "q": "Đoạn văn sau có nghĩa là gì? \"在小朋友看。\"",
         "options": [
-          "celebrate Chinese New Year, có khả năng, có lẽ",
+          "đón năm mới, ăn Tết, có khả năng, có lẽ",
           "thấp và máy bay",
           "hứng thú",
           "ở, đang em nhỏ xem, nhìn, đọc."
@@ -5629,7 +5629,7 @@
           "mì",
           "làm",
           "nhà hàng, khách sạn",
-          "in that case; then"
+          "kia, đó, vậy thì"
         ],
         "answer": 2,
         "explain": "饭店 (fàndiàn) = nhà hàng, khách sạn. Loại từ: n."
@@ -5718,7 +5718,7 @@
           "cơm, bữa ăn",
           "tìm",
           "nhiều",
-          "in that case; then"
+          "kia, đó, vậy thì"
         ],
         "answer": 2,
         "explain": "多 (duō) = nhiều. Loại từ: adj."
@@ -6129,7 +6129,7 @@
         "section": "Phần 4: Nghe hiểu HSK1",
         "q": "Bạn nghe thấy: \"shíjiān\". Đó là chữ Hán nào?",
         "options": [
-          "medicine; drug",
+          "thuốc",
           "không có gì",
           "ông, bà, ngài (đại từ tôn trọng)",
           "thời gian"
@@ -6183,7 +6183,7 @@
         "options": [
           "chủ nhật và cây",
           "trước, phía trước",
-          "in that case; then, bảng đen",
+          "kia, đó, vậy thì, bảng đen",
           "nhìn thấy một ít, một vài công ty."
         ],
         "answer": 3,
@@ -6207,7 +6207,7 @@
         "section": "Phần 1: Từ vựng HSK1",
         "q": "\"那个\" (nàge) có nghĩa là gì?",
         "options": [
-          "order; point",
+          "điểm, giờ",
           "cái đó, cái kia",
           "có cái, có người",
           "về"
@@ -6362,12 +6362,12 @@
         "q": "\"点\" (diǎn) có nghĩa là gì?",
         "options": [
           "muộn, tối",
-          "order; point",
+          "điểm, giờ",
           "ngon",
           "một ít, một vài"
         ],
         "answer": 1,
-        "explain": "点 (diǎn) = order; point. Loại từ: m."
+        "explain": "点 (diǎn) = điểm, giờ. Loại từ: m."
       },
       {
         "type": "single",
@@ -6517,7 +6517,7 @@
         "options": [
           "một ít",
           "sau, phía sau",
-          "order; point",
+          "điểm, giờ",
           "đồ vật, thứ"
         ],
         "answer": 3,
@@ -6593,7 +6593,7 @@
         "section": "Phần 1: Từ vựng HSK1",
         "q": "\"家\" (jiā) có nghĩa là gì?",
         "options": [
-          "in that case; then",
+          "kia, đó, vậy thì",
           "vui, hay",
           "điện thoại",
           "nhà, gia đình"
@@ -6839,12 +6839,12 @@
         "q": "Nội dung chính của câu \"那里点她们。\" là gì?",
         "options": [
           "vấn đề, câu hỏi, tự (mình)",
-          "ở đó order; point các cô ấy, các bà ấy.",
+          "ở đó điểm, giờ các cô ấy, các bà ấy.",
           "họ",
           "nhà thi đấu thể thao và đường"
         ],
         "answer": 1,
-        "explain": "Câu \"那里点她们。\" có nghĩa là: ở đó order; point các cô ấy, các bà ấy."
+        "explain": "Câu \"那里点她们。\" có nghĩa là: ở đó điểm, giờ các cô ấy, các bà ấy."
       },
       {
         "type": "single",
@@ -6892,7 +6892,7 @@
         "options": [
           "các bạn, các anh, các chị",
           "muốn, nghĩ",
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "em nhỏ"
         ],
         "answer": 0,
@@ -7575,13 +7575,13 @@
         "section": "Phần 3: Đọc hiểu HSK1",
         "q": "Đoạn văn sau có nghĩa là gì? \"明年那白天。\"",
         "options": [
-          "sang năm in that case; then ban ngày.",
+          "sang năm kia, đó, vậy thì ban ngày.",
           "trang, chạy",
           "một lát",
           "nhớ, còn nhớ và tự (mình)"
         ],
         "answer": 0,
-        "explain": "Câu \"明年那白天。\" có nghĩa là: sang năm in that case; then ban ngày."
+        "explain": "Câu \"明年那白天。\" có nghĩa là: sang năm kia, đó, vậy thì ban ngày."
       }
     ],
     "is_free": false,
@@ -8337,7 +8337,7 @@
         "q": "\"课\" (kè) có nghĩa là gì?",
         "options": [
           "bài học, môn học",
-          "medicine; drug",
+          "thuốc",
           "học sinh, sinh viên",
           "như thế nào"
         ],
@@ -9022,10 +9022,10 @@
           "buổi sáng, phía Nam",
           "thi",
           "ngủ dậy và em gái",
-          "in that case; then đồ vật, thứ sân bay."
+          "kia, đó, vậy thì đồ vật, thứ sân bay."
         ],
         "answer": 3,
-        "explain": "Câu \"那东西机场。\" có nghĩa là: in that case; then đồ vật, thứ sân bay."
+        "explain": "Câu \"那东西机场。\" có nghĩa là: kia, đó, vậy thì đồ vật, thứ sân bay."
       },
       {
         "type": "single",
@@ -9165,10 +9165,10 @@
           "có cái, có người",
           "hôm qua",
           "sớm",
-          "in that case; then"
+          "kia, đó, vậy thì"
         ],
         "answer": 3,
-        "explain": "那 (nà) = in that case; then. Loại từ: conj."
+        "explain": "那 (nà) = kia, đó, vậy thì. Loại từ: conj."
       },
       {
         "type": "single",
@@ -9264,7 +9264,7 @@
         "section": "Phần 3: Đọc hiểu HSK1",
         "q": "Câu \"请男朋友商店。\" diễn đạt điều gì?",
         "options": [
-          "dễ chịu, thoải mái và complement of frequency",
+          "dễ chịu, thoải mái và bổ ngữ động lượng",
           "mời, xin bạn trai cửa hàng.",
           "vườn bách thú",
           "ăn, ngủ"
@@ -9410,7 +9410,7 @@
           "ngon ở, đang trời.",
           "lại (biểu thị sự lặp lại), kiểm tra",
           "điều hòa",
-          "structural particle before verbs và xin hỏi"
+          "một cách (trợ từ kết cấu) và xin hỏi"
         ],
         "answer": 0,
         "explain": "Câu \"好吃在天。\" có nghĩa là: ngon ở, đang trời."
@@ -9627,7 +9627,7 @@
         "q": "\"几\" (jǐ) có nghĩa là gì?",
         "options": [
           "mấy",
-          "in that case; then",
+          "kia, đó, vậy thì",
           "mẹ",
           "ngoài, bên ngoài"
         ],
@@ -9821,7 +9821,7 @@
         "options": [
           "nữ",
           "học",
-          "medicine; drug",
+          "thuốc",
           "ở đâu"
         ],
         "answer": 0,
@@ -9871,7 +9871,7 @@
         "section": "Phần 1: Từ vựng HSK1",
         "q": "\"吧\" (ba) có nghĩa là gì?",
         "options": [
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "quần áo",
           "đi, nhé (trợ từ ngữ khí)",
           "học sinh trung học"
@@ -9952,7 +9952,7 @@
           "đi, nhé (trợ từ ngữ khí) và cái đĩa",
           "đại học có thể những cái nào.",
           "khám bệnh",
-          "bạn, anh, chị, put; place; let go"
+          "bạn, anh, chị, đặt, để, thả"
         ],
         "answer": 1,
         "explain": "Câu \"大学可以哪些。\" có nghĩa là: đại học có thể những cái nào."
@@ -10052,7 +10052,7 @@
         "q": "Nội dung chính của câu \"觉得书店我。\" là gì?",
         "options": [
           "công viên, cổng, lối vào",
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "tên, danh (lượng từ chỉ người) và bên phải",
           "cảm thấy hiệu sách tôi, mình."
         ],
@@ -10065,12 +10065,12 @@
         "q": "Nghe câu: \"那\" (nà). Nghĩa là gì?",
         "options": [
           "một nửa",
-          "in that case; then",
+          "kia, đó, vậy thì",
           "trứng gà",
           "vấn đề, câu hỏi"
         ],
         "answer": 1,
-        "explain": "\"那\" (nà) có nghĩa là: in that case; then"
+        "explain": "\"那\" (nà) có nghĩa là: kia, đó, vậy thì"
       },
       {
         "type": "single",
@@ -10325,7 +10325,7 @@
           "chủ nhật sớm vô tuyến, tivi.",
           "phía ngoài và phiên dịch, biên dịch",
           "lại, hãy (sau đó)",
-          "học kỳ, test"
+          "học kỳ, kiểm tra"
         ],
         "answer": 0,
         "explain": "Câu \"星期日早电视。\" có nghĩa là: chủ nhật sớm vô tuyến, tivi."
@@ -10414,7 +10414,7 @@
         "q": "Nghe câu: \"喜欢\" (xǐhuān). Nghĩa là gì?",
         "options": [
           "thích",
-          "medicine; drug",
+          "thuốc",
           "quyển, cuốn (lượng từ sách)",
           "đang"
         ],
@@ -10517,7 +10517,7 @@
         "section": "Phần 1: Từ vựng HSK1",
         "q": "\"觉得\" (juéde) có nghĩa là gì?",
         "options": [
-          "order; point",
+          "điểm, giờ",
           "muốn, định",
           "chúng (dùng cho vật/con vật)",
           "cảm thấy"
@@ -10674,7 +10674,7 @@
           "em nhỏ",
           "lại, hãy (sau đó)",
           "gọi là, tên là",
-          "very; quite (in exclamations)"
+          "tốt, khỏe, rất"
         ],
         "answer": 0,
         "explain": "小朋友 (xiǎopéngyǒu) = em nhỏ. Loại từ: n."
@@ -10890,13 +10890,13 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"那\" (nà) có nghĩa là gì?",
         "options": [
-          "in that case; then",
+          "kia, đó, vậy thì",
           "đôi mắt",
           "vé máy bay",
           "cầm, lấy"
         ],
         "answer": 0,
-        "explain": "那 (nà) = in that case; then. Loại từ: conj."
+        "explain": "那 (nà) = kia, đó, vậy thì. Loại từ: conj."
       },
       {
         "type": "single",
@@ -10943,7 +10943,7 @@
         "q": "\"妻子\" (qīzi) có nghĩa là gì?",
         "options": [
           "từ",
-          "medicine; drug",
+          "thuốc",
           "vợ",
           "con chim"
         ],
@@ -10996,11 +10996,11 @@
         "options": [
           "họ tên",
           "hỏng, xấu",
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "lớp học"
         ],
         "answer": 2,
-        "explain": "过 (guò) = aspect particle indicating past experience. Loại từ: part."
+        "explain": "过 (guò) = qua, từng (trợ từ). Loại từ: part."
       },
       {
         "type": "single",
@@ -11046,13 +11046,13 @@
         "section": "Phần 3: Đọc hiểu HSK2",
         "q": "Đoạn văn sau có nghĩa là gì? \"男孩儿动量补语接。\"",
         "options": [
-          "bé trai complement of frequency đón, nhận (điện thoại).",
+          "bé trai bổ ngữ động lượng đón, nhận (điện thoại).",
           "biết và trước",
           "bơi lội",
           "của, thể dục, thể thao"
         ],
         "answer": 0,
-        "explain": "Câu \"男孩儿动量补语接。\" có nghĩa là: bé trai complement of frequency đón, nhận (điện thoại)."
+        "explain": "Câu \"男孩儿动量补语接。\" có nghĩa là: bé trai bổ ngữ động lượng đón, nhận (điện thoại)."
       },
       {
         "type": "single",
@@ -11114,7 +11114,7 @@
           "đá",
           "ngại quá, xin lỗi",
           "lớp học",
-          "side; face; noodles"
+          "mặt, mì"
         ],
         "answer": 1,
         "explain": "不好意思 (bù hǎoyìsi) = ngại quá, xin lỗi. "
@@ -11165,7 +11165,7 @@
         "options": [
           "một lát",
           "về đó",
-          "order; point",
+          "điểm, giờ",
           "thi"
         ],
         "answer": 0,
@@ -11304,13 +11304,13 @@
         "section": "Phần 3: Đọc hiểu HSK2",
         "q": "Nội dung chính của câu \"好快右边。\" là gì?",
         "options": [
-          "very; quite (in exclamations) nhanh phía bên phải.",
+          "tốt, khỏe, rất nhanh phía bên phải.",
           "bánh bao",
-          "order; point, ai",
+          "điểm, giờ, ai",
           "mì ăn liền và ngại quá, xin lỗi"
         ],
         "answer": 0,
-        "explain": "Câu \"好快右边。\" có nghĩa là: very; quite (in exclamations) nhanh phía bên phải."
+        "explain": "Câu \"好快右边。\" có nghĩa là: tốt, khỏe, rất nhanh phía bên phải."
       },
       {
         "type": "single",
@@ -11332,7 +11332,7 @@
         "options": [
           "đi qua đó",
           "phía trên",
-          "complement of frequency",
+          "bổ ngữ động lượng",
           "bóng rổ"
         ],
         "answer": 1,
@@ -11384,7 +11384,7 @@
         "options": [
           "hoa, tiêu (tiền/thời gian)",
           "đạt được, (trợ từ kết cấu)",
-          "order; point",
+          "điểm, giờ",
           "từ"
         ],
         "answer": 0,
@@ -11450,7 +11450,7 @@
           "cao",
           "bởi vì",
           "giúp đỡ",
-          "side; face; noodles"
+          "mặt, mì"
         ],
         "answer": 0,
         "explain": "高 (gāo) = cao. Loại từ: adj."
@@ -11551,7 +11551,7 @@
         "options": [
           "bên cạnh",
           "bên ngoài",
-          "celebrate Chinese New Year",
+          "đón năm mới, ăn Tết",
           "ông nội"
         ],
         "answer": 3,
@@ -11590,7 +11590,7 @@
         "options": [
           "từ",
           "bên cạnh",
-          "medicine; drug",
+          "thuốc",
           "phía sau"
         ],
         "answer": 1,
@@ -11627,7 +11627,7 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"前面\" (qiánmiàn) có nghĩa là gì?",
         "options": [
-          "order; point",
+          "điểm, giờ",
           "bên ngoài",
           "vô vị, không hay",
           "phía trước"
@@ -11964,7 +11964,7 @@
         "q": "\"回\" (huí) có nghĩa là gì?",
         "options": [
           "về",
-          "complement of frequency",
+          "bổ ngữ động lượng",
           "chạy bộ",
           "vào đây"
         ],
@@ -12003,7 +12003,7 @@
         "q": "\"白色\" (báisè) có nghĩa là gì?",
         "options": [
           "về",
-          "side; face; noodles",
+          "mặt, mì",
           "màu trắng",
           "đường"
         ],
@@ -12044,7 +12044,7 @@
           "đi qua đó",
           "sinh nhật",
           "bơi lội",
-          "complement of frequency"
+          "bổ ngữ động lượng"
         ],
         "answer": 2,
         "explain": "游泳 (yóuyǒng) = bơi lội. Loại từ: v."
@@ -12108,11 +12108,11 @@
         "options": [
           "kiểm tra, việc, sự việc",
           "đóng, tắt",
-          "cà phê order; point đường.",
+          "cà phê điểm, giờ đường.",
           "mặc dù và như thế nào"
         ],
         "answer": 2,
-        "explain": "Câu \"咖啡点路。\" có nghĩa là: cà phê order; point đường."
+        "explain": "Câu \"咖啡点路。\" có nghĩa là: cà phê điểm, giờ đường."
       },
       {
         "type": "single",
@@ -12211,7 +12211,7 @@
           "khiêu vũ, nhảy",
           "trường cấp 3",
           "chậm",
-          "celebrate Chinese New Year"
+          "đón năm mới, ăn Tết"
         ],
         "answer": 1,
         "explain": "高中 (gāozhōng) = trường cấp 3. Loại từ: n."
@@ -12249,7 +12249,7 @@
         "options": [
           "đi vào",
           "về phía, hướng tới, từ (ai đó)",
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "đi nước ngoài"
         ],
         "answer": 3,
@@ -12403,20 +12403,20 @@
         "section": "Phần 3: Đọc hiểu HSK2",
         "q": "Nội dung chính của câu \"名因为点。\" là gì?",
         "options": [
-          "tên, danh (lượng từ chỉ người) bởi vì order; point.",
+          "tên, danh (lượng từ chỉ người) bởi vì điểm, giờ.",
           "chuối và nỗ lực, cố gắng",
           "sữa bò, váy",
           "lái xe"
         ],
         "answer": 0,
-        "explain": "Câu \"名因为点。\" có nghĩa là: tên, danh (lượng từ chỉ người) bởi vì order; point."
+        "explain": "Câu \"名因为点。\" có nghĩa là: tên, danh (lượng từ chỉ người) bởi vì điểm, giờ."
       },
       {
         "type": "single",
         "section": "Phần 4: Nghe hiểu HSK2",
         "q": "Bạn nghe thấy: \"wèi\". Đó là chữ Hán nào?",
         "options": [
-          "celebrate Chinese New Year",
+          "đón năm mới, ăn Tết",
           "kể, bảo, nói",
           "sinh nhật",
           "vị (lượng từ tôn trọng)"
@@ -12650,11 +12650,11 @@
         "options": [
           "đi học",
           "luyện tập và viết",
-          "đường celebrate Chinese New Year vô vị, không hay.",
+          "đường đón năm mới, ăn Tết vô vị, không hay.",
           "ai, đang"
         ],
         "answer": 2,
-        "explain": "Câu \"路过年没意思。\" có nghĩa là: đường celebrate Chinese New Year vô vị, không hay."
+        "explain": "Câu \"路过年没意思。\" có nghĩa là: đường đón năm mới, ăn Tết vô vị, không hay."
       },
       {
         "type": "single",
@@ -12663,11 +12663,11 @@
         "options": [
           "lớp học, sự tình, việc",
           "đúng, đang",
-          "có khả năng, có lẽ như vậy order; point.",
+          "có khả năng, có lẽ như vậy điểm, giờ.",
           "bạn trai và trung tâm thương mại"
         ],
         "answer": 2,
-        "explain": "Câu \"可能这样点。\" có nghĩa là: có khả năng, có lẽ như vậy order; point."
+        "explain": "Câu \"可能这样点。\" có nghĩa là: có khả năng, có lẽ như vậy điểm, giờ."
       },
       {
         "type": "single",
@@ -12780,11 +12780,11 @@
         "options": [
           "trình độ, mức độ, như vậy, kiểu đó",
           "đẹp, xinh đẹp",
-          "thường xuyên bên ngoài aspect particle indicating past experience.",
+          "thường xuyên bên ngoài qua, từng (trợ từ).",
           "chiếc rương, vali và việc, sự việc"
         ],
         "answer": 2,
-        "explain": "Câu \"经常外面过。\" có nghĩa là: thường xuyên bên ngoài aspect particle indicating past experience."
+        "explain": "Câu \"经常外面过。\" có nghĩa là: thường xuyên bên ngoài qua, từng (trợ từ)."
       },
       {
         "type": "single",
@@ -12894,12 +12894,12 @@
         "q": "Nội dung chính của câu \"球这么跑步。\" là gì?",
         "options": [
           "quên",
-          "ball như thế này chạy bộ.",
+          "quả bóng như thế này chạy bộ.",
           "trong lòng và đọc sách, đi học",
           "diễn viên, vạn (mười nghìn)"
         ],
         "answer": 1,
-        "explain": "Câu \"球这么跑步。\" có nghĩa là: ball như thế này chạy bộ."
+        "explain": "Câu \"球这么跑步。\" có nghĩa là: quả bóng như thế này chạy bộ."
       },
       {
         "type": "single",
@@ -13296,7 +13296,7 @@
         "options": [
           "màu sắc",
           "họ",
-          "in that case; then",
+          "kia, đó, vậy thì",
           "từ"
         ],
         "answer": 0,
@@ -13347,7 +13347,7 @@
         "q": "Bạn nghe thấy: \"huài\". Đó là chữ Hán nào?",
         "options": [
           "cao",
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "đi qua đó",
           "hỏng, xấu"
         ],
@@ -13361,7 +13361,7 @@
         "options": [
           "rửa, giặt",
           "nhà hàng, quán ăn",
-          "order; point",
+          "điểm, giờ",
           "nước ngoài"
         ],
         "answer": 1,
@@ -13439,7 +13439,7 @@
         "options": [
           "đã",
           "tên, danh (lượng từ chỉ người)",
-          "celebrate Chinese New Year",
+          "đón năm mới, ăn Tết",
           "mỗi"
         ],
         "answer": 0,
@@ -13489,7 +13489,7 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"告诉\" (gàosu) có nghĩa là gì?",
         "options": [
-          "medicine; drug",
+          "thuốc",
           "âm, trời u ám",
           "kể, bảo, nói",
           "xong, hết"
@@ -13566,12 +13566,12 @@
         "q": "\"动量补语\" (dòngliàng bǔyǔ) có nghĩa là gì?",
         "options": [
           "bé gái",
-          "complement of frequency",
+          "bổ ngữ động lượng",
           "tay",
           "hoa, tiêu (tiền/thời gian)"
         ],
         "answer": 1,
-        "explain": "动量补语 (dòngliàng bǔyǔ) = complement of frequency. Loại từ: gram."
+        "explain": "动量补语 (dòngliàng bǔyǔ) = bổ ngữ động lượng. Loại từ: gram."
       },
       {
         "type": "single",
@@ -13593,7 +13593,7 @@
         "options": [
           "lớp, ca làm việc",
           "sắp sửa",
-          "medicine; drug",
+          "thuốc",
           "tòa nhà, lầu"
         ],
         "answer": 3,
@@ -13605,7 +13605,7 @@
         "q": "\"床\" (chuáng) có nghĩa là gì?",
         "options": [
           "cầm, lấy",
-          "celebrate Chinese New Year",
+          "đón năm mới, ăn Tết",
           "về phía, hướng tới, từ (ai đó)",
           "giường"
         ],
@@ -13632,7 +13632,7 @@
         "options": [
           "tự (mình)",
           "phía trong",
-          "order; point",
+          "điểm, giờ",
           "ra ngoài"
         ],
         "answer": 0,
@@ -13734,7 +13734,7 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"包\" (bāo) có nghĩa là gì?",
         "options": [
-          "in that case; then",
+          "kia, đó, vậy thì",
           "thi",
           "bao, gói, túi",
           "tay"
@@ -13750,7 +13750,7 @@
           "gọi xe, đi taxi",
           "khiêu vũ, nhảy",
           "bởi vì",
-          "in that case; then"
+          "kia, đó, vậy thì"
         ],
         "answer": 0,
         "explain": "打车 (dǎchē) = gọi xe, đi taxi. Loại từ: v."
@@ -13761,12 +13761,12 @@
         "q": "\"球\" (qiú) có nghĩa là gì?",
         "options": [
           "sinh nhật",
-          "ball",
+          "quả bóng",
           "xa",
           "đôi mắt"
         ],
         "answer": 1,
-        "explain": "球 (qiú) = ball. Loại từ: n."
+        "explain": "球 (qiú) = quả bóng. Loại từ: n."
       },
       {
         "type": "single",
@@ -13914,13 +13914,13 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"那\" (nà) có nghĩa là gì?",
         "options": [
-          "in that case; then",
+          "kia, đó, vậy thì",
           "trung tâm thương mại",
           "thì, ngay (biểu thị thời gian gần hoặc sự việc theo sau)",
           "khai giảng, bắt đầu học"
         ],
         "answer": 0,
-        "explain": "那 (nà) = in that case; then. Loại từ: conj."
+        "explain": "那 (nà) = kia, đó, vậy thì. Loại từ: conj."
       },
       {
         "type": "single",
@@ -14177,10 +14177,10 @@
           "nhưng",
           "quần",
           "cửa, môn (lượng từ môn học)",
-          "structural particle before verbs"
+          "một cách (trợ từ kết cấu)"
         ],
         "answer": 3,
-        "explain": "地 (de) = structural particle before verbs. Loại từ: part."
+        "explain": "地 (de) = một cách (trợ từ kết cấu). Loại từ: part."
       },
       {
         "type": "single",
@@ -14224,13 +14224,13 @@
         "section": "Phần 3: Đọc hiểu HSK2",
         "q": "Đoạn văn sau có nghĩa là gì? \"药虽然药店。\"",
         "options": [
-          "medicine; drug mặc dù nhà thuốc.",
+          "thuốc mặc dù nhà thuốc.",
           "bức, lá (lượng từ thư), lái xe",
           "từ nhỏ và hy vọng",
           "bay"
         ],
         "answer": 0,
-        "explain": "Câu \"药虽然药店。\" có nghĩa là: medicine; drug mặc dù nhà thuốc."
+        "explain": "Câu \"药虽然药店。\" có nghĩa là: thuốc mặc dù nhà thuốc."
       },
       {
         "type": "single",
@@ -14276,7 +14276,7 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"洗手间\" (xǐshǒujiān) có nghĩa là gì?",
         "options": [
-          "order; point",
+          "điểm, giờ",
           "bến xe, nhà ga",
           "nhất",
           "nhà vệ sinh"
@@ -14305,7 +14305,7 @@
           "từ",
           "hay là (câu hỏi)",
           "họ",
-          "aspect particle indicating past experience"
+          "qua, từng (trợ từ)"
         ],
         "answer": 1,
         "explain": "还是 (háishi) = hay là (câu hỏi). Loại từ: conj."
@@ -14316,12 +14316,12 @@
         "q": "\"点\" (diǎn) có nghĩa là gì?",
         "options": [
           "chạy",
-          "order; point",
+          "điểm, giờ",
           "như vậy",
           "hoa, tiêu (tiền/thời gian)"
         ],
         "answer": 1,
-        "explain": "点 (diǎn) = order; point. Loại từ: v."
+        "explain": "点 (diǎn) = điểm, giờ. Loại từ: v."
       },
       {
         "type": "single",
@@ -14393,13 +14393,13 @@
         "section": "Phần 3: Đọc hiểu HSK2",
         "q": "Đoạn văn sau có nghĩa là gì? \"考眼睛面。\"",
         "options": [
-          "thi đôi mắt side; face; noodles.",
+          "thi đôi mắt mặt, mì.",
           "sân bóng và đồ uống",
-          "put; place; let go, đến muộn, trễ giờ",
+          "đặt, để, thả, đến muộn, trễ giờ",
           "cơm"
         ],
         "answer": 0,
-        "explain": "Câu \"考眼睛面。\" có nghĩa là: thi đôi mắt side; face; noodles."
+        "explain": "Câu \"考眼睛面。\" có nghĩa là: thi đôi mắt mặt, mì."
       },
       {
         "type": "single",
@@ -14433,7 +14433,7 @@
         "q": "Nội dung chính của câu \"记得下来鸟。\" là gì?",
         "options": [
           "chụp ảnh",
-          "put; place; let go và test",
+          "đặt, để, thả và kiểm tra",
           "nhớ, còn nhớ xuống đây con chim.",
           "cách (khoảng cách), các cô ấy, các bà ấy"
         ],
@@ -14485,7 +14485,7 @@
         "q": "Bạn nghe thấy: \"wàiguó\". Đó là chữ Hán nào?",
         "options": [
           "hướng về, tới",
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "nước ngoài",
           "chậm"
         ],
@@ -14561,7 +14561,7 @@
         "q": "\"门票\" (ménpiào) có nghĩa là gì?",
         "options": [
           "vẽ, bức tranh",
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "thân thể, sức khỏe",
           "vé (va cửa)"
         ],
@@ -14783,11 +14783,11 @@
         "options": [
           "câu",
           "cơm sáng, vị (lượng từ tôn trọng)",
-          "complement of frequency đúng, đang ngại quá, xin lỗi.",
+          "bổ ngữ động lượng đúng, đang ngại quá, xin lỗi.",
           "nghe và thói quen, quen với"
         ],
         "answer": 2,
-        "explain": "Câu \"动量补语正不好意思。\" có nghĩa là: complement of frequency đúng, đang ngại quá, xin lỗi."
+        "explain": "Câu \"动量补语正不好意思。\" có nghĩa là: bổ ngữ động lượng đúng, đang ngại quá, xin lỗi."
       },
       {
         "type": "single",
@@ -14938,7 +14938,7 @@
           "phía bên phải",
           "thì, ngay (biểu thị thời gian gần hoặc sự việc theo sau)",
           "đôi mắt",
-          "side; face; noodles"
+          "mặt, mì"
         ],
         "answer": 0,
         "explain": "\"右边\" (yòubian) có nghĩa là: phía bên phải"
@@ -14988,7 +14988,7 @@
         "q": "\"门票\" (ménpiào) có nghĩa là gì?",
         "options": [
           "vé (va cửa)",
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "câu hỏi, đề bài",
           "bên phải"
         ],
@@ -15002,11 +15002,11 @@
         "options": [
           "tìm, máy ảnh",
           "hữu dụng, có ích và số, ngày",
-          "ball gọi xe, đi taxi dài.",
+          "quả bóng gọi xe, đi taxi dài.",
           "cơm trưa"
         ],
         "answer": 2,
-        "explain": "Câu \"球打车长。\" có nghĩa là: ball gọi xe, đi taxi dài."
+        "explain": "Câu \"球打车长。\" có nghĩa là: quả bóng gọi xe, đi taxi dài."
       },
       {
         "type": "single",
@@ -15015,11 +15015,11 @@
         "options": [
           "giúp và nhỏ",
           "phía Đông",
-          "tàu điện ngầm side; face; noodles thú vị.",
+          "tàu điện ngầm mặt, mì thú vị.",
           "có, cân (500g)"
         ],
         "answer": 2,
-        "explain": "Câu \"地铁面有意思。\" có nghĩa là: tàu điện ngầm side; face; noodles thú vị."
+        "explain": "Câu \"地铁面有意思。\" có nghĩa là: tàu điện ngầm mặt, mì thú vị."
       },
       {
         "type": "single",
@@ -15053,12 +15053,12 @@
         "q": "\"过年\" (guònián) có nghĩa là gì?",
         "options": [
           "đạt được, (trợ từ kết cấu)",
-          "celebrate Chinese New Year",
+          "đón năm mới, ăn Tết",
           "sân bay",
           "con chim"
         ],
         "answer": 1,
-        "explain": "过年 (guònián) = celebrate Chinese New Year. Loại từ: v."
+        "explain": "过年 (guònián) = đón năm mới, ăn Tết. Loại từ: v."
       },
       {
         "type": "single",
@@ -15182,7 +15182,7 @@
         "section": "Phần 4: Nghe hiểu HSK2",
         "q": "Nghe câu: \"机场\" (jīchǎng). Nghĩa là gì?",
         "options": [
-          "structural particle before verbs",
+          "một cách (trợ từ kết cấu)",
           "sân bay",
           "phía trước",
           "bay"
@@ -15378,10 +15378,10 @@
           "hàng xóm, gọi là, tên là",
           "đồ uống và sách điện tử",
           "cái đĩa",
-          "để, cho phép, nhường so với side; face; noodles."
+          "để, cho phép, nhường so với mặt, mì."
         ],
         "answer": 3,
-        "explain": "Câu \"让比面。\" có nghĩa là: để, cho phép, nhường so với side; face; noodles."
+        "explain": "Câu \"让比面。\" có nghĩa là: để, cho phép, nhường so với mặt, mì."
       },
       {
         "type": "single",
@@ -15390,11 +15390,11 @@
         "options": [
           "đã",
           "bên phải",
-          "order; point",
+          "điểm, giờ",
           "lên mạng"
         ],
         "answer": 2,
-        "explain": "点 (diǎn) = order; point. Loại từ: v."
+        "explain": "点 (diǎn) = điểm, giờ. Loại từ: v."
       },
       {
         "type": "single",
@@ -15442,11 +15442,11 @@
         "options": [
           "tự (mình)",
           "bạn gái, đi qua đó",
-          "order; point hy vọng bao, gói, túi.",
-          "viết và celebrate Chinese New Year"
+          "điểm, giờ hy vọng bao, gói, túi.",
+          "viết và đón năm mới, ăn Tết"
         ],
         "answer": 2,
-        "explain": "Câu \"点希望包。\" có nghĩa là: order; point hy vọng bao, gói, túi."
+        "explain": "Câu \"点希望包。\" có nghĩa là: điểm, giờ hy vọng bao, gói, túi."
       },
       {
         "type": "single",
@@ -15495,10 +15495,10 @@
           "đường",
           "vở, cuốn sổ",
           "trình độ, mức độ",
-          "very; quite (in exclamations)"
+          "tốt, khỏe, rất"
         ],
         "answer": 3,
-        "explain": "好 (hǎo) = very; quite (in exclamations). Loại từ: adv."
+        "explain": "好 (hǎo) = tốt, khỏe, rất. Loại từ: adv."
       },
       {
         "type": "single",
@@ -15648,11 +15648,11 @@
         "options": [
           "câu và bệnh",
           "khách, đồng ý",
-          "so với gần complement of frequency.",
+          "so với gần bổ ngữ động lượng.",
           "vạn (mười nghìn)"
         ],
         "answer": 2,
-        "explain": "Câu \"比近动量补语。\" có nghĩa là: so với gần complement of frequency."
+        "explain": "Câu \"比近动量补语。\" có nghĩa là: so với gần bổ ngữ động lượng."
       },
       {
         "type": "single",
@@ -15699,7 +15699,7 @@
         "q": "\"经常\" (jīngcháng) có nghĩa là gì?",
         "options": [
           "nước ngoài",
-          "in that case; then",
+          "kia, đó, vậy thì",
           "thi",
           "thường xuyên"
         ],
@@ -15803,12 +15803,12 @@
         "q": "Câu \"小孩儿妻子那。\" diễn đạt điều gì?",
         "options": [
           "sân bóng và con (lượng từ con vật)",
-          "trẻ con vợ in that case; then.",
+          "trẻ con vợ kia, đó, vậy thì.",
           "nghe thấy, cầm, lấy",
-          "complement of frequency"
+          "bổ ngữ động lượng"
         ],
         "answer": 1,
-        "explain": "Câu \"小孩儿妻子那。\" có nghĩa là: trẻ con vợ in that case; then."
+        "explain": "Câu \"小孩儿妻子那。\" có nghĩa là: trẻ con vợ kia, đó, vậy thì."
       },
       {
         "type": "single",
@@ -15969,7 +15969,7 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"小时候\" (xiǎoshíhou) có nghĩa là gì?",
         "options": [
-          "complement of frequency",
+          "bổ ngữ động lượng",
           "a, chà (trợ từ ngữ khí)",
           "chồng",
           "hồi nhỏ"
@@ -16034,7 +16034,7 @@
         "section": "Phần 4: Nghe hiểu HSK2",
         "q": "Câu nói \"上面\" có nghĩa là gì?",
         "options": [
-          "in that case; then",
+          "kia, đó, vậy thì",
           "ra khỏi cửa, đi xa",
           "rửa, giặt",
           "phía trên"
@@ -16086,13 +16086,13 @@
         "section": "Phần 3: Đọc hiểu HSK2",
         "q": "Câu \"周高中面。\" diễn đạt điều gì?",
         "options": [
-          "tuần trường cấp 3 side; face; noodles.",
+          "tuần trường cấp 3 mặt, mì.",
           "cực kỳ, hết sức, mùa xuân",
           "chúng ta, chúng mình và đây, này",
-          "aspect particle indicating past experience"
+          "qua, từng (trợ từ)"
         ],
         "answer": 0,
-        "explain": "Câu \"周高中面。\" có nghĩa là: tuần trường cấp 3 side; face; noodles."
+        "explain": "Câu \"周高中面。\" có nghĩa là: tuần trường cấp 3 mặt, mì."
       },
       {
         "type": "single",
@@ -16293,7 +16293,7 @@
         "q": "\"但\" (dàn) có nghĩa là gì?",
         "options": [
           "nhưng",
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "cho nên",
           "trà sữa"
         ],
@@ -16347,7 +16347,7 @@
           "câu hỏi, đề bài",
           "chạy",
           "hình như, giống như",
-          "order; point"
+          "điểm, giờ"
         ],
         "answer": 1,
         "explain": "跑 (pǎo) = chạy. Loại từ: v."
@@ -16384,7 +16384,7 @@
         "q": "Câu nói \"车站\" có nghĩa là gì?",
         "options": [
           "màu xanh lá",
-          "medicine; drug",
+          "thuốc",
           "hay là (câu hỏi)",
           "bến xe, nhà ga"
         ],
@@ -16423,12 +16423,12 @@
         "q": "Câu \"旁边点球。\" diễn đạt điều gì?",
         "options": [
           "đồng ý và buổi chiều",
-          "bên cạnh order; point ball.",
+          "bên cạnh điểm, giờ quả bóng.",
           "đi ngủ",
-          "put; place; let go, kiểm tra"
+          "đặt, để, thả, kiểm tra"
         ],
         "answer": 1,
-        "explain": "Câu \"旁边点球。\" có nghĩa là: bên cạnh order; point ball."
+        "explain": "Câu \"旁边点球。\" có nghĩa là: bên cạnh điểm, giờ quả bóng."
       },
       {
         "type": "single",
@@ -16448,7 +16448,7 @@
         "section": "Phần 3: Đọc hiểu HSK2",
         "q": "Đoạn văn sau có nghĩa là gì? \"下来但是这么。\"",
         "options": [
-          "lên mạng và structural particle before verbs",
+          "lên mạng và một cách (trợ từ kết cấu)",
           "cho nên, ăn",
           "xuống đây nhưng như thế này.",
           "chụp ảnh"
@@ -16732,10 +16732,10 @@
         "section": "Phần 4: Nghe hiểu HSK2",
         "q": "Bạn nghe thấy: \"ràng\". Đó là chữ Hán nào?",
         "options": [
-          "celebrate Chinese New Year",
+          "đón năm mới, ăn Tết",
           "giúp",
           "để, cho phép, nhường",
-          "structural particle before verbs"
+          "một cách (trợ từ kết cấu)"
         ],
         "answer": 2,
         "explain": "\"让\" (ràng) có nghĩa là: để, cho phép, nhường"
@@ -16913,7 +16913,7 @@
         "q": "Câu nói \"记得\" có nghĩa là gì?",
         "options": [
           "nhớ, còn nhớ",
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "ra ngoài",
           "thì, ngay (biểu thị thời gian gần hoặc sự việc theo sau)"
         ],
@@ -16926,7 +16926,7 @@
         "q": "\"还是\" (háishi) có nghĩa là gì?",
         "options": [
           "nhà hàng, quán ăn",
-          "in that case; then",
+          "kia, đó, vậy thì",
           "đạt được, (trợ từ kết cấu)",
           "hay là (câu hỏi)"
         ],
@@ -16954,10 +16954,10 @@
           "bình thường, lúc thường",
           "cảm ơn, đánh, chơi",
           "vé và nhỉ, thì sao (trợ từ)",
-          "bên ngoài order; point đạt được, (trợ từ kết cấu)."
+          "bên ngoài điểm, giờ đạt được, (trợ từ kết cấu)."
         ],
         "answer": 3,
-        "explain": "Câu \"外面点得。\" có nghĩa là: bên ngoài order; point đạt được, (trợ từ kết cấu)."
+        "explain": "Câu \"外面点得。\" có nghĩa là: bên ngoài điểm, giờ đạt được, (trợ từ kết cấu)."
       },
       {
         "type": "single",
@@ -17005,7 +17005,7 @@
         "options": [
           "đạt được, (trợ từ kết cấu)",
           "một lát",
-          "structural particle before verbs",
+          "một cách (trợ từ kết cấu)",
           "vui vẻ, hạnh phúc"
         ],
         "answer": 0,
@@ -17238,7 +17238,7 @@
           "hồi nhỏ",
           "trẻ con",
           "từ",
-          "order; point"
+          "điểm, giờ"
         ],
         "answer": 0,
         "explain": "小时候 (xiǎoshíhou) = hồi nhỏ. Loại từ: n."
@@ -17378,7 +17378,7 @@
         "section": "Phần 3: Đọc hiểu HSK2",
         "q": "Đoạn văn sau có nghĩa là gì? \"就一会儿忘。\"",
         "options": [
-          "order; point",
+          "điểm, giờ",
           "gặp mặt, quan tâm theo dõi",
           "thì, ngay (biểu thị thời gian gần hoặc sự việc theo sau) một lát quên.",
           "trẻ trung và mang theo, dắt"
@@ -17469,8 +17469,8 @@
         "section": "Phần 4: Nghe hiểu HSK2",
         "q": "Nghe câu: \"裤子\" (kùzi). Nghĩa là gì?",
         "options": [
-          "celebrate Chinese New Year",
-          "structural particle before verbs",
+          "đón năm mới, ăn Tết",
+          "một cách (trợ từ kết cấu)",
           "vị (lượng từ tôn trọng)",
           "quần"
         ],
@@ -17547,7 +17547,7 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"离\" (lí) có nghĩa là gì?",
         "options": [
-          "celebrate Chinese New Year",
+          "đón năm mới, ăn Tết",
           "đường",
           "thân thể, sức khỏe",
           "cách (khoảng cách)"
@@ -17690,7 +17690,7 @@
         "options": [
           "trên đường",
           "nhiều",
-          "side; face; noodles",
+          "mặt, mì",
           "mặc dù"
         ],
         "answer": 3,
@@ -17920,13 +17920,13 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"球\" (qiú) có nghĩa là gì?",
         "options": [
-          "ball",
+          "quả bóng",
           "hướng về, tới",
           "mở ra",
-          "in that case; then"
+          "kia, đó, vậy thì"
         ],
         "answer": 0,
-        "explain": "球 (qiú) = ball. Loại từ: n."
+        "explain": "球 (qiú) = quả bóng. Loại từ: n."
       },
       {
         "type": "single",
@@ -17934,7 +17934,7 @@
         "q": "Nội dung chính của câu \"回小时候门口。\" là gì?",
         "options": [
           "mùa, bay",
-          "in that case; then",
+          "kia, đó, vậy thì",
           "trà sữa và một nửa",
           "về hồi nhỏ cổng, lối vào."
         ],
@@ -18219,13 +18219,13 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"那\" (nà) có nghĩa là gì?",
         "options": [
-          "in that case; then",
+          "kia, đó, vậy thì",
           "vẽ, bức tranh",
           "cà phê",
           "đánh, chơi"
         ],
         "answer": 0,
-        "explain": "那 (nà) = in that case; then. Loại từ: conj."
+        "explain": "那 (nà) = kia, đó, vậy thì. Loại từ: conj."
       }
     ],
     "is_free": false,
@@ -18257,7 +18257,7 @@
         "q": "\"不好意思\" (bù hǎoyìsi) có nghĩa là gì?",
         "options": [
           "về",
-          "side; face; noodles",
+          "mặt, mì",
           "đi vào",
           "ngại quá, xin lỗi"
         ],
@@ -18297,11 +18297,11 @@
         "options": [
           "dùng, sử dụng, họa sĩ",
           "mai, ngày mai và họ tên",
-          "về phía, hướng tới, từ (ai đó) medicine; drug giúp.",
+          "về phía, hướng tới, từ (ai đó) thuốc giúp.",
           "siêu thị"
         ],
         "answer": 2,
-        "explain": "Câu \"向药帮。\" có nghĩa là: về phía, hướng tới, từ (ai đó) medicine; drug giúp."
+        "explain": "Câu \"向药帮。\" có nghĩa là: về phía, hướng tới, từ (ai đó) thuốc giúp."
       },
       {
         "type": "single",
@@ -18400,7 +18400,7 @@
         "q": "\"不错\" (búcuò) có nghĩa là gì?",
         "options": [
           "trình độ, mức độ",
-          "order; point",
+          "điểm, giờ",
           "cầm, lấy",
           "không tồi, khá tốt"
         ],
@@ -18428,7 +18428,7 @@
           "gọi xe, đi taxi đánh, chơi vợ.",
           "bán và vừa... vừa",
           "viết",
-          "ball, quần đùi"
+          "quả bóng, quần đùi"
         ],
         "answer": 0,
         "explain": "Câu \"打车打妻子。\" có nghĩa là: gọi xe, đi taxi đánh, chơi vợ."
@@ -18479,11 +18479,11 @@
         "options": [
           "kể, bảo, nói",
           "áo khoác, áo choàng, câu có từ 'có'",
-          "in that case; then phía trong vô vị, không hay.",
+          "kia, đó, vậy thì phía trong vô vị, không hay.",
           "y tế và liên lạc"
         ],
         "answer": 2,
-        "explain": "Câu \"那里面没意思。\" có nghĩa là: in that case; then phía trong vô vị, không hay."
+        "explain": "Câu \"那里面没意思。\" có nghĩa là: kia, đó, vậy thì phía trong vô vị, không hay."
       },
       {
         "type": "single",
@@ -18531,7 +18531,7 @@
         "options": [
           "đau",
           "xong, hết",
-          "order; point",
+          "điểm, giờ",
           "nhưng"
         ],
         "answer": 0,
@@ -18593,7 +18593,7 @@
         "q": "\"间\" (jiān) có nghĩa là gì?",
         "options": [
           "đợi",
-          "complement of frequency",
+          "bổ ngữ động lượng",
           "cho nên",
           "gian, phòng (lượng từ)"
         ],
@@ -18698,7 +18698,7 @@
         "options": [
           "chậm",
           "vé máy bay",
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "phía trước"
         ],
         "answer": 0,
@@ -18788,12 +18788,12 @@
         "q": "Câu \"好像疼过年。\" diễn đạt điều gì?",
         "options": [
           "cảm thấy và cái đĩa",
-          "hình như, giống như đau celebrate Chinese New Year.",
-          "order; point",
+          "hình như, giống như đau đón năm mới, ăn Tết.",
+          "điểm, giờ",
           "chơi, hỏi"
         ],
         "answer": 1,
-        "explain": "Câu \"好像疼过年。\" có nghĩa là: hình như, giống như đau celebrate Chinese New Year."
+        "explain": "Câu \"好像疼过年。\" có nghĩa là: hình như, giống như đau đón năm mới, ăn Tết."
       },
       {
         "type": "single",
@@ -18855,7 +18855,7 @@
           "đồng hồ đeo tay",
           "bóng rổ",
           "đường",
-          "order; point"
+          "điểm, giờ"
         ],
         "answer": 0,
         "explain": "\"手表\" (shǒubiǎo) có nghĩa là: đồng hồ đeo tay"
@@ -19048,10 +19048,10 @@
           "vé (va cửa)",
           "bơi, dạo chơi, làm sao, thế nào",
           "nam và ở đó",
-          "tuần quần order; point."
+          "tuần quần điểm, giờ."
         ],
         "answer": 3,
-        "explain": "Câu \"周裤子点。\" có nghĩa là: tuần quần order; point."
+        "explain": "Câu \"周裤子点。\" có nghĩa là: tuần quần điểm, giờ."
       },
       {
         "type": "single",
@@ -19149,7 +19149,7 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"给\" (gěi) có nghĩa là gì?",
         "options": [
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "dạy",
           "đi qua đó",
           "cho"
@@ -19331,7 +19331,7 @@
         "options": [
           "cho nên",
           "đôi mắt",
-          "in that case; then",
+          "kia, đó, vậy thì",
           "vô vị, không hay"
         ],
         "answer": 1,
@@ -19395,12 +19395,12 @@
         "q": "Câu \"等球自。\" diễn đạt điều gì?",
         "options": [
           "phù hợp và có khả năng, có lẽ",
-          "đợi ball tự (mình).",
+          "đợi quả bóng tự (mình).",
           "phía ngoài, kế toán",
           "cửa, môn (lượng từ môn học)"
         ],
         "answer": 1,
-        "explain": "Câu \"等球自。\" có nghĩa là: đợi ball tự (mình)."
+        "explain": "Câu \"等球自。\" có nghĩa là: đợi quả bóng tự (mình)."
       },
       {
         "type": "single",
@@ -19410,7 +19410,7 @@
           "gọi xe, đi taxi",
           "sự tình, việc",
           "thịt",
-          "medicine; drug"
+          "thuốc"
         ],
         "answer": 1,
         "explain": "事情 (shìqing) = sự tình, việc. Loại từ: n."
@@ -19421,7 +19421,7 @@
         "q": "\"网上\" (wǎngshang) có nghĩa là gì?",
         "options": [
           "cá",
-          "order; point",
+          "điểm, giờ",
           "trên mạng",
           "lớp, ca làm việc"
         ],
@@ -19498,13 +19498,13 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"面\" (miàn) có nghĩa là gì?",
         "options": [
-          "side; face; noodles",
+          "mặt, mì",
           "lên mạng",
           "thịt",
           "giúp"
         ],
         "answer": 0,
-        "explain": "面 (miàn) = side; face; noodles. Loại từ: n."
+        "explain": "面 (miàn) = mặt, mì. Loại từ: n."
       },
       {
         "type": "single",
@@ -19539,11 +19539,11 @@
         "options": [
           "ra ngoài",
           "quên",
-          "complement of frequency",
+          "bổ ngữ động lượng",
           "đầu, cái (lượng từ con vật lớn)"
         ],
         "answer": 2,
-        "explain": "动量补语 (dòngliàng bǔyǔ) = complement of frequency. Loại từ: gram."
+        "explain": "动量补语 (dòngliàng bǔyǔ) = bổ ngữ động lượng. Loại từ: gram."
       },
       {
         "type": "single",
@@ -19629,10 +19629,10 @@
           "đợi và gần",
           "rất, không tồi, khá tốt",
           "bốn mùa",
-          "nhà hàng, quán ăn ball bắt đầu."
+          "nhà hàng, quán ăn quả bóng bắt đầu."
         ],
         "answer": 3,
-        "explain": "Câu \"饭馆球开始。\" có nghĩa là: nhà hàng, quán ăn ball bắt đầu."
+        "explain": "Câu \"饭馆球开始。\" có nghĩa là: nhà hàng, quán ăn quả bóng bắt đầu."
       },
       {
         "type": "single",
@@ -19705,7 +19705,7 @@
         "q": "\"错\" (cuò) có nghĩa là gì?",
         "options": [
           "sai",
-          "medicine; drug",
+          "thuốc",
           "tên, danh (lượng từ chỉ người)",
           "bóng rổ"
         ],
@@ -19717,13 +19717,13 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"过年\" (guònián) có nghĩa là gì?",
         "options": [
-          "in that case; then",
+          "kia, đó, vậy thì",
           "sinh nhật",
           "nhanh",
-          "celebrate Chinese New Year"
+          "đón năm mới, ăn Tết"
         ],
         "answer": 3,
-        "explain": "过年 (guònián) = celebrate Chinese New Year. Loại từ: v."
+        "explain": "过年 (guònián) = đón năm mới, ăn Tết. Loại từ: v."
       },
       {
         "type": "single",
@@ -19731,12 +19731,12 @@
         "q": "Nội dung chính của câu \"条那洗。\" là gì?",
         "options": [
           "con (lượng từ con vật)",
-          "con, cái (lượng từ vật dài) in that case; then rửa, giặt.",
+          "con, cái (lượng từ vật dài) kia, đó, vậy thì rửa, giặt.",
           "trình độ và phòng",
           "bến xe, nhà ga, kỹ sư"
         ],
         "answer": 1,
-        "explain": "Câu \"条那洗。\" có nghĩa là: con, cái (lượng từ vật dài) in that case; then rửa, giặt."
+        "explain": "Câu \"条那洗。\" có nghĩa là: con, cái (lượng từ vật dài) kia, đó, vậy thì rửa, giặt."
       },
       {
         "type": "single",
@@ -20054,12 +20054,12 @@
         "q": "Câu \"书包间面。\" diễn đạt điều gì?",
         "options": [
           "cao, không (trợ từ nghi vấn)",
-          "cặp sách gian, phòng (lượng từ) side; face; noodles.",
+          "cặp sách gian, phòng (lượng từ) mặt, mì.",
           "muốn, nghĩ và phát hiện",
           "đã"
         ],
         "answer": 1,
-        "explain": "Câu \"书包间面。\" có nghĩa là: cặp sách gian, phòng (lượng từ) side; face; noodles."
+        "explain": "Câu \"书包间面。\" có nghĩa là: cặp sách gian, phòng (lượng từ) mặt, mì."
       },
       {
         "type": "single",
@@ -20119,12 +20119,12 @@
         "q": "Đoạn văn sau có nghĩa là gì? \"那样条动量补语。\"",
         "options": [
           "tên, danh (lượng từ chỉ người)",
-          "như vậy, kiểu đó con, cái (lượng từ vật dài) complement of frequency.",
+          "như vậy, kiểu đó con, cái (lượng từ vật dài) bổ ngữ động lượng.",
           "vị (lượng từ tôn trọng) và trạm, đứng",
           "ngắn, luyện tập"
         ],
         "answer": 1,
-        "explain": "Câu \"那样条动量补语。\" có nghĩa là: như vậy, kiểu đó con, cái (lượng từ vật dài) complement of frequency."
+        "explain": "Câu \"那样条动量补语。\" có nghĩa là: như vậy, kiểu đó con, cái (lượng từ vật dài) bổ ngữ động lượng."
       },
       {
         "type": "single",
@@ -20275,7 +20275,7 @@
           "dạy",
           "bơi, dạo chơi",
           "họ tên",
-          "celebrate Chinese New Year"
+          "đón năm mới, ăn Tết"
         ],
         "answer": 1,
         "explain": "游 (yóu) = bơi, dạo chơi. Loại từ: v."
@@ -20286,12 +20286,12 @@
         "q": "Nội dung chính của câu \"懂过年疼。\" là gì?",
         "options": [
           "bán và cho rằng",
-          "hiểu celebrate Chinese New Year đau.",
+          "hiểu đón năm mới, ăn Tết đau.",
           "màu đen, không tồi, khá tốt",
           "bóng rổ"
         ],
         "answer": 1,
-        "explain": "Câu \"懂过年疼。\" có nghĩa là: hiểu celebrate Chinese New Year đau."
+        "explain": "Câu \"懂过年疼。\" có nghĩa là: hiểu đón năm mới, ăn Tết đau."
       },
       {
         "type": "single",
@@ -20340,10 +20340,10 @@
           "nhà hàng, quán ăn",
           "đói, tàu điện ngầm",
           "trạm, đứng và đôi mắt",
-          "màu sắc in that case; then cửa, môn (lượng từ môn học)."
+          "màu sắc kia, đó, vậy thì cửa, môn (lượng từ môn học)."
         ],
         "answer": 3,
-        "explain": "Câu \"颜色那门。\" có nghĩa là: màu sắc in that case; then cửa, môn (lượng từ môn học)."
+        "explain": "Câu \"颜色那门。\" có nghĩa là: màu sắc kia, đó, vậy thì cửa, môn (lượng từ môn học)."
       },
       {
         "type": "single",
@@ -20482,11 +20482,11 @@
         "options": [
           "bài hát và mùa hè",
           "bên ngoài",
-          "phía trong sai ball.",
+          "phía trong sai quả bóng.",
           "có một số, nghiêm túc, chăm chỉ"
         ],
         "answer": 2,
-        "explain": "Câu \"里面错球。\" có nghĩa là: phía trong sai ball."
+        "explain": "Câu \"里面错球。\" có nghĩa là: phía trong sai quả bóng."
       },
       {
         "type": "single",
@@ -20507,7 +20507,7 @@
         "q": "Nghe câu: \"眼睛\" (yǎnjīng). Nghĩa là gì?",
         "options": [
           "đôi mắt",
-          "order; point",
+          "điểm, giờ",
           "vẽ, bức tranh",
           "cho"
         ],
@@ -20572,8 +20572,8 @@
         "q": "\"长\" (cháng) có nghĩa là gì?",
         "options": [
           "cà phê",
-          "medicine; drug",
-          "in that case; then",
+          "thuốc",
+          "kia, đó, vậy thì",
           "dài"
         ],
         "answer": 3,
@@ -20611,10 +20611,10 @@
           "cầm, lấy",
           "khai giảng, bắt đầu học",
           "xuống đây",
-          "side; face; noodles"
+          "mặt, mì"
         ],
         "answer": 3,
-        "explain": "面 (miàn) = side; face; noodles. Loại từ: n."
+        "explain": "面 (miàn) = mặt, mì. Loại từ: n."
       },
       {
         "type": "single",
@@ -20649,7 +20649,7 @@
         "options": [
           "bao, gói, túi",
           "thân thể, sức khỏe",
-          "order; point",
+          "điểm, giờ",
           "hình như, giống như"
         ],
         "answer": 3,
@@ -20661,7 +20661,7 @@
         "q": "Nội dung chính của câu \"动洗手间肉。\" là gì?",
         "options": [
           "động, chuyển động nhà vệ sinh thịt.",
-          "structural particle before verbs",
+          "một cách (trợ từ kết cấu)",
           "hiệu trưởng và bình thường, lúc thường",
           "mẹ, trước"
         ],
@@ -20931,13 +20931,13 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"面\" (miàn) có nghĩa là gì?",
         "options": [
-          "side; face; noodles",
+          "mặt, mì",
           "câu hỏi, đề bài",
           "tàu điện ngầm",
-          "celebrate Chinese New Year"
+          "đón năm mới, ăn Tết"
         ],
         "answer": 0,
-        "explain": "面 (miàn) = side; face; noodles. Loại từ: n."
+        "explain": "面 (miàn) = mặt, mì. Loại từ: n."
       },
       {
         "type": "single",
@@ -21230,13 +21230,13 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"地\" (de) có nghĩa là gì?",
         "options": [
-          "ball",
+          "quả bóng",
           "cá",
-          "structural particle before verbs",
+          "một cách (trợ từ kết cấu)",
           "vị (lượng từ tôn trọng)"
         ],
         "answer": 2,
-        "explain": "地 (de) = structural particle before verbs. Loại từ: part."
+        "explain": "地 (de) = một cách (trợ từ kết cấu). Loại từ: part."
       },
       {
         "type": "single",
@@ -21268,12 +21268,12 @@
         "q": "Bạn nghe thấy: \"hǎo\". Đó là chữ Hán nào?",
         "options": [
           "đi qua đó",
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "lên mạng",
           "lần (lượng từ số lần)"
         ],
         "answer": 1,
-        "explain": "\"好\" (hǎo) có nghĩa là: very; quite (in exclamations)"
+        "explain": "\"好\" (hǎo) có nghĩa là: tốt, khỏe, rất"
       },
       {
         "type": "single",
@@ -21282,11 +21282,11 @@
         "options": [
           "sủi cảo và có hứng thú với",
           "cơm, bữa ăn, âm, trời u ám",
-          "trên mạng tên, danh (lượng từ chỉ người) structural particle before verbs.",
+          "trên mạng tên, danh (lượng từ chỉ người) một cách (trợ từ kết cấu).",
           "thời tiết"
         ],
         "answer": 2,
-        "explain": "Câu \"网上名地。\" có nghĩa là: trên mạng tên, danh (lượng từ chỉ người) structural particle before verbs."
+        "explain": "Câu \"网上名地。\" có nghĩa là: trên mạng tên, danh (lượng từ chỉ người) một cách (trợ từ kết cấu)."
       },
       {
         "type": "single",
@@ -21308,11 +21308,11 @@
         "options": [
           "như vậy, kiểu đó",
           "sai",
-          "celebrate Chinese New Year",
+          "đón năm mới, ăn Tết",
           "đã"
         ],
         "answer": 2,
-        "explain": "过年 (guònián) = celebrate Chinese New Year. Loại từ: v."
+        "explain": "过年 (guònián) = đón năm mới, ăn Tết. Loại từ: v."
       },
       {
         "type": "single",
@@ -21335,7 +21335,7 @@
           "về đây",
           "có khi, thỉnh thoảng",
           "bơi lội",
-          "medicine; drug"
+          "thuốc"
         ],
         "answer": 1,
         "explain": "有时 (yǒushí) = có khi, thỉnh thoảng. Loại từ: adv."
@@ -21411,7 +21411,7 @@
         "q": "\"女孩儿\" (nǚháir) có nghĩa là gì?",
         "options": [
           "đi nước ngoài",
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "bé gái",
           "âm, trời u ám"
         ],
@@ -21436,7 +21436,7 @@
         "section": "Phần 4: Nghe hiểu HSK2",
         "q": "Câu nói \"有时\" có nghĩa là gì?",
         "options": [
-          "in that case; then",
+          "kia, đó, vậy thì",
           "có khi, thỉnh thoảng",
           "hy vọng",
           "hiểu"
@@ -21462,13 +21462,13 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"面\" (miàn) có nghĩa là gì?",
         "options": [
-          "side; face; noodles",
+          "mặt, mì",
           "kể, bảo, nói",
           "bao, gói, túi",
           "hỏng, xấu"
         ],
         "answer": 0,
-        "explain": "面 (miàn) = side; face; noodles. Loại từ: n."
+        "explain": "面 (miàn) = mặt, mì. Loại từ: n."
       },
       {
         "type": "single",
@@ -21476,12 +21476,12 @@
         "q": "Đoạn văn sau có nghĩa là gì? \"那周多。\"",
         "options": [
           "hôm kia, lo lắng, sốt ruột",
-          "in that case; then tuần nhiều.",
+          "kia, đó, vậy thì tuần nhiều.",
           "hiểu, rõ ràng",
           "trả lời và đôi đũa"
         ],
         "answer": 1,
-        "explain": "Câu \"那周多。\" có nghĩa là: in that case; then tuần nhiều."
+        "explain": "Câu \"那周多。\" có nghĩa là: kia, đó, vậy thì tuần nhiều."
       },
       {
         "type": "single",
@@ -21527,13 +21527,13 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"那\" (nà) có nghĩa là gì?",
         "options": [
-          "in that case; then",
+          "kia, đó, vậy thì",
           "tặng, tiễn",
           "nhà hàng, quán ăn",
           "nhiều"
         ],
         "answer": 0,
-        "explain": "那 (nà) = in that case; then. Loại từ: conj."
+        "explain": "那 (nà) = kia, đó, vậy thì. Loại từ: conj."
       },
       {
         "type": "single",
@@ -21567,12 +21567,12 @@
         "q": "\"地\" (de) có nghĩa là gì?",
         "options": [
           "thì, ngay (biểu thị thời gian gần hoặc sự việc theo sau)",
-          "ball",
-          "structural particle before verbs",
+          "quả bóng",
+          "một cách (trợ từ kết cấu)",
           "vào đây"
         ],
         "answer": 2,
-        "explain": "地 (de) = structural particle before verbs. Loại từ: part."
+        "explain": "地 (de) = một cách (trợ từ kết cấu). Loại từ: part."
       },
       {
         "type": "single",
@@ -21733,7 +21733,7 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"右\" (yòu) có nghĩa là gì?",
         "options": [
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "đi qua đó",
           "bên phải",
           "sai"
@@ -21839,7 +21839,7 @@
         "options": [
           "vóc dáng, chiều cao",
           "ra khỏi cửa, đi xa",
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "phía sau"
         ],
         "answer": 0,
@@ -21851,12 +21851,12 @@
         "q": "\"过\" (guò) có nghĩa là gì?",
         "options": [
           "về đó",
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "đạt được, (trợ từ kết cấu)",
           "màu trắng"
         ],
         "answer": 1,
-        "explain": "过 (guò) = aspect particle indicating past experience. Loại từ: part."
+        "explain": "过 (guò) = qua, từng (trợ từ). Loại từ: part."
       },
       {
         "type": "single",
@@ -21903,7 +21903,7 @@
         "q": "\"但\" (dàn) có nghĩa là gì?",
         "options": [
           "nhưng",
-          "ball",
+          "quả bóng",
           "nhất",
           "ngại quá, xin lỗi"
         ],
@@ -21967,11 +21967,11 @@
         "options": [
           "cùng nhau",
           "động, chuyển động",
-          "ball",
+          "quả bóng",
           "bé trai"
         ],
         "answer": 2,
-        "explain": "球 (qiú) = ball. Loại từ: n."
+        "explain": "球 (qiú) = quả bóng. Loại từ: n."
       },
       {
         "type": "single",
@@ -21993,18 +21993,18 @@
         "options": [
           "đón, nhận (điện thoại)",
           "vạn (mười nghìn) và công ty",
-          "ball một lát đang (trợ từ biểu thị trạng thái).",
+          "quả bóng một lát đang (trợ từ biểu thị trạng thái).",
           "điện thoại di động, nó (chỉ con vật, đồ vật)"
         ],
         "answer": 2,
-        "explain": "Câu \"球一会儿着。\" có nghĩa là: ball một lát đang (trợ từ biểu thị trạng thái)."
+        "explain": "Câu \"球一会儿着。\" có nghĩa là: quả bóng một lát đang (trợ từ biểu thị trạng thái)."
       },
       {
         "type": "single",
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"打\" (dǎ) có nghĩa là gì?",
         "options": [
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "đánh, chơi",
           "đi qua đó",
           "thường xuyên"
@@ -22136,7 +22136,7 @@
         "options": [
           "câu có từ 'có'",
           "thịt",
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "lên mạng"
         ],
         "answer": 0,
@@ -22253,11 +22253,11 @@
         "options": [
           "phía trước",
           "lớp học",
-          "structural particle before verbs",
+          "một cách (trợ từ kết cấu)",
           "sai"
         ],
         "answer": 2,
-        "explain": "地 (de) = structural particle before verbs. Loại từ: part."
+        "explain": "地 (de) = một cách (trợ từ kết cấu). Loại từ: part."
       }
     ],
     "is_free": false,
@@ -22340,7 +22340,7 @@
         "section": "Phần 4: Nghe hiểu HSK2",
         "q": "Bạn nghe thấy: \"qīzi\". Đó là chữ Hán nào?",
         "options": [
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "về đây",
           "vợ",
           "về"
@@ -22444,8 +22444,8 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"游\" (yóu) có nghĩa là gì?",
         "options": [
-          "very; quite (in exclamations)",
-          "aspect particle indicating past experience",
+          "tốt, khỏe, rất",
+          "qua, từng (trợ từ)",
           "bơi, dạo chơi",
           "cười"
         ],
@@ -22577,7 +22577,7 @@
           "bà nội",
           "hoa, tiêu (tiền/thời gian)",
           "lớp học",
-          "very; quite (in exclamations)"
+          "tốt, khỏe, rất"
         ],
         "answer": 2,
         "explain": "教室 (jiàoshì) = lớp học. Loại từ: n."
@@ -22639,7 +22639,7 @@
         "options": [
           "màu trắng",
           "hiểu",
-          "ball",
+          "quả bóng",
           "tay"
         ],
         "answer": 0,
@@ -22794,7 +22794,7 @@
         "q": "\"近\" (jìn) có nghĩa là gì?",
         "options": [
           "đi nước ngoài",
-          "order; point",
+          "điểm, giờ",
           "chồng",
           "gần"
         ],
@@ -22834,7 +22834,7 @@
         "options": [
           "không tồi, khá tốt",
           "vé (va cửa)",
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "gọi xe, đi taxi"
         ],
         "answer": 0,
@@ -22859,7 +22859,7 @@
         "q": "\"路上\" (lùshang) có nghĩa là gì?",
         "options": [
           "ngại quá, xin lỗi",
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "đau",
           "trên đường"
         ],
@@ -22872,12 +22872,12 @@
         "q": "Đoạn văn sau có nghĩa là gì? \"好动机票。\"",
         "options": [
           "yêu thích, việc, sự việc",
-          "very; quite (in exclamations) động, chuyển động vé máy bay.",
+          "tốt, khỏe, rất động, chuyển động vé máy bay.",
           "đồ vật, thứ và thi",
           "rửa, giặt"
         ],
         "answer": 1,
-        "explain": "Câu \"好动机票。\" có nghĩa là: very; quite (in exclamations) động, chuyển động vé máy bay."
+        "explain": "Câu \"好动机票。\" có nghĩa là: tốt, khỏe, rất động, chuyển động vé máy bay."
       },
       {
         "type": "single",
@@ -22898,7 +22898,7 @@
         "q": "\"游泳\" (yóuyǒng) có nghĩa là gì?",
         "options": [
           "như thế này",
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "trường cấp 3",
           "bơi lội"
         ],
@@ -22948,7 +22948,7 @@
         "q": "\"出门\" (chūmén) có nghĩa là gì?",
         "options": [
           "ra khỏi cửa, đi xa",
-          "celebrate Chinese New Year",
+          "đón năm mới, ăn Tết",
           "ra ngoài",
           "hướng về, tới"
         ],
@@ -22975,11 +22975,11 @@
         "options": [
           "dài",
           "cửa, môn (lượng từ môn học)",
-          "complement of frequency",
+          "bổ ngữ động lượng",
           "bắt đầu"
         ],
         "answer": 2,
-        "explain": "动量补语 (dòngliàng bǔyǔ) = complement of frequency. Loại từ: gram."
+        "explain": "动量补语 (dòngliàng bǔyǔ) = bổ ngữ động lượng. Loại từ: gram."
       },
       {
         "type": "single",
@@ -23001,7 +23001,7 @@
         "options": [
           "đầu, cái (lượng từ con vật lớn)",
           "con, cái (lượng từ vật dài)",
-          "side; face; noodles",
+          "mặt, mì",
           "bà nội"
         ],
         "answer": 1,
@@ -23066,11 +23066,11 @@
         "options": [
           "soát vé và các, những (hậu tố số nhiều)",
           "trước",
-          "khi, lúc very; quite (in exclamations) đi qua đó.",
+          "khi, lúc tốt, khỏe, rất đi qua đó.",
           "tiện lợi, màu đen"
         ],
         "answer": 2,
-        "explain": "Câu \"时好过去。\" có nghĩa là: khi, lúc very; quite (in exclamations) đi qua đó."
+        "explain": "Câu \"时好过去。\" có nghĩa là: khi, lúc tốt, khỏe, rất đi qua đó."
       },
       {
         "type": "single",
@@ -23312,7 +23312,7 @@
           "bà nội",
           "vóc dáng, chiều cao",
           "thú vị",
-          "complement of frequency"
+          "bổ ngữ động lượng"
         ],
         "answer": 0,
         "explain": "奶奶 (nǎinai) = bà nội. Loại từ: n."
@@ -23324,24 +23324,24 @@
         "options": [
           "nhất và hôm qua",
           "đối với, chậm",
-          "bởi vì very; quite (in exclamations) bơi, dạo chơi.",
+          "bởi vì tốt, khỏe, rất bơi, dạo chơi.",
           "trà sữa"
         ],
         "answer": 2,
-        "explain": "Câu \"因为好游。\" có nghĩa là: bởi vì very; quite (in exclamations) bơi, dạo chơi."
+        "explain": "Câu \"因为好游。\" có nghĩa là: bởi vì tốt, khỏe, rất bơi, dạo chơi."
       },
       {
         "type": "single",
         "section": "Phần 4: Nghe hiểu HSK2",
         "q": "Câu nói \"球\" có nghĩa là gì?",
         "options": [
-          "ball",
+          "quả bóng",
           "so với",
           "hồi nhỏ",
           "lần (lượng từ số lần)"
         ],
         "answer": 0,
-        "explain": "\"球\" (qiú) có nghĩa là: ball"
+        "explain": "\"球\" (qiú) có nghĩa là: quả bóng"
       },
       {
         "type": "single",
@@ -23351,7 +23351,7 @@
           "có khi, thỉnh thoảng",
           "thường xuyên",
           "đầu, cái (lượng từ con vật lớn)",
-          "medicine; drug"
+          "thuốc"
         ],
         "answer": 0,
         "explain": "有时 (yǒushí) = có khi, thỉnh thoảng. Loại từ: adv."
@@ -23390,7 +23390,7 @@
           "vô vị, không hay",
           "trạm, đứng",
           "con chim",
-          "celebrate Chinese New Year"
+          "đón năm mới, ăn Tết"
         ],
         "answer": 1,
         "explain": "站 (zhàn) = trạm, đứng. Loại từ: n./v."
@@ -23585,7 +23585,7 @@
           "xuống đó",
           "so với",
           "mỗi",
-          "order; point"
+          "điểm, giờ"
         ],
         "answer": 1,
         "explain": "比 (bǐ) = so với. Loại từ: prep."
@@ -23596,7 +23596,7 @@
         "q": "\"下来\" (xiàlái) có nghĩa là gì?",
         "options": [
           "xuống đây",
-          "celebrate Chinese New Year",
+          "đón năm mới, ăn Tết",
           "bởi vì",
           "vé"
         ],
@@ -23646,7 +23646,7 @@
         "q": "\"洗手间\" (xǐshǒujiān) có nghĩa là gì?",
         "options": [
           "du lịch",
-          "in that case; then",
+          "kia, đó, vậy thì",
           "nhà vệ sinh",
           "khi, lúc"
         ],
@@ -23658,7 +23658,7 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"坏\" (huài) có nghĩa là gì?",
         "options": [
-          "aspect particle indicating past experience",
+          "qua, từng (trợ từ)",
           "hỏng, xấu",
           "kể, bảo, nói",
           "cá"
@@ -23791,10 +23791,10 @@
           "bên phải",
           "thầy giáo, cô giáo, sân bay",
           "đồng nghiệp và đáng yêu",
-          "từ bé trai complement of frequency."
+          "từ bé trai bổ ngữ động lượng."
         ],
         "answer": 3,
-        "explain": "Câu \"从男孩儿动量补语。\" có nghĩa là: từ bé trai complement of frequency."
+        "explain": "Câu \"从男孩儿动量补语。\" có nghĩa là: từ bé trai bổ ngữ động lượng."
       },
       {
         "type": "single",
@@ -23827,7 +23827,7 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"眼睛\" (yǎnjīng) có nghĩa là gì?",
         "options": [
-          "in that case; then",
+          "kia, đó, vậy thì",
           "lớp học",
           "ngại quá, xin lỗi",
           "đôi mắt"
@@ -24033,9 +24033,9 @@
         "section": "Phần 1: Từ vựng HSK2",
         "q": "\"位\" (wèi) có nghĩa là gì?",
         "options": [
-          "side; face; noodles",
+          "mặt, mì",
           "vị (lượng từ tôn trọng)",
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "vé máy bay"
         ],
         "answer": 1,
@@ -24060,12 +24060,12 @@
         "q": "\"好\" (hǎo) có nghĩa là gì?",
         "options": [
           "mặc dù",
-          "very; quite (in exclamations)",
+          "tốt, khỏe, rất",
           "sự tình, việc",
           "xong, hết"
         ],
         "answer": 1,
-        "explain": "好 (hǎo) = very; quite (in exclamations). Loại từ: adv."
+        "explain": "好 (hǎo) = tốt, khỏe, rất. Loại từ: adv."
       },
       {
         "type": "single",
@@ -24086,12 +24086,12 @@
         "q": "\"点\" (diǎn) có nghĩa là gì?",
         "options": [
           "giúp đỡ",
-          "side; face; noodles",
+          "mặt, mì",
           "lớp, ca làm việc",
-          "order; point"
+          "điểm, giờ"
         ],
         "answer": 3,
-        "explain": "点 (diǎn) = order; point. Loại từ: v."
+        "explain": "点 (diǎn) = điểm, giờ. Loại từ: v."
       },
       {
         "type": "single",
@@ -24176,13 +24176,13 @@
         "section": "Phần 3: Đọc hiểu HSK2",
         "q": "Nội dung chính của câu \"希望前面点。\" là gì?",
         "options": [
-          "hy vọng phía trước order; point.",
+          "hy vọng phía trước điểm, giờ.",
           "nhanh và mời khách, đãi tiệc",
           "tòa nhà, lầu",
           "đợi, tặng, tiễn"
         ],
         "answer": 0,
-        "explain": "Câu \"希望前面点。\" có nghĩa là: hy vọng phía trước order; point."
+        "explain": "Câu \"希望前面点。\" có nghĩa là: hy vọng phía trước điểm, giờ."
       },
       {
         "type": "single",
@@ -24440,7 +24440,7 @@
           "水平当然放动物"
         ],
         "answer": 3,
-        "explain": "Câu đúng là: 水平当然放动物. Nghĩa: trình độ đương nhiên put; place; let go động vật"
+        "explain": "Câu đúng là: 水平当然放动物. Nghĩa: trình độ đương nhiên đặt, để, thả động vật"
       },
       {
         "type": "single",
@@ -24835,7 +24835,7 @@
         "section": "Phần 3: Đọc hiểu HSK3",
         "q": "Nội dung chính của câu \"勺子得分运动会。\" là gì?",
         "options": [
-          "chậm, complement of frequency",
+          "chậm, bổ ngữ động lượng",
           "cái thìa, muỗng ghi điểm đại hội thể thao.",
           "dễ chịu, thoải mái",
           "cái đĩa và cái này"
@@ -25056,7 +25056,7 @@
         "section": "Phần 1: Từ vựng HSK3",
         "q": "\"有名\" (yǒumíng) có nghĩa là gì?",
         "options": [
-          "put; place; let go",
+          "đặt, để, thả",
           "tưởng rằng (thường là nhầm)",
           "quốc bảo",
           "nổi tiếng"
@@ -25203,7 +25203,7 @@
           "路口会议放练"
         ],
         "answer": 3,
-        "explain": "Câu đúng là: 路口会议放练. Nghĩa: ngã tư, giao lộ hội nghị, cuộc họp put; place; let go luyện, rèn luyện"
+        "explain": "Câu đúng là: 路口会议放练. Nghĩa: ngã tư, giao lộ hội nghị, cuộc họp đặt, để, thả luyện, rèn luyện"
       },
       {
         "type": "single",
@@ -25315,9 +25315,9 @@
         "q": "Câu \"或又学期。\" diễn đạt điều gì?",
         "options": [
           "hoặc lại (biểu thị sự lặp lại) học kỳ.",
-          "đại học, complement of frequency",
+          "đại học, bổ ngữ động lượng",
           "thói quen, quen với và sai",
-          "celebrate Chinese New Year"
+          "đón năm mới, ăn Tết"
         ],
         "answer": 0,
         "explain": "Câu \"或又学期。\" có nghĩa là: hoặc lại (biểu thị sự lặp lại) học kỳ."
@@ -25715,7 +25715,7 @@
         "section": "Phần 3: Đọc hiểu HSK3",
         "q": "Đoạn văn sau có nghĩa là gì? \"或网球纸。\"",
         "options": [
-          "celebrate Chinese New Year và nổi tiếng",
+          "đón năm mới, ăn Tết và nổi tiếng",
           "trước, diễn viên",
           "hoặc quần vợt giấy.",
           "lạnh"
@@ -26322,7 +26322,7 @@
         "section": "Phần 3: Đọc hiểu HSK3",
         "q": "Nội dung chính của câu \"只要前天行。\" là gì?",
         "options": [
-          "trình độ, mức độ, celebrate Chinese New Year",
+          "trình độ, mức độ, đón năm mới, ăn Tết",
           "ngoài... ra",
           "tài xế và nóng",
           "chỉ cần hôm kia được, ổn."
@@ -26801,7 +26801,7 @@
         "section": "Phần 3: Đọc hiểu HSK3",
         "q": "Nội dung chính của câu \"页检查担心。\" là gì?",
         "options": [
-          "vui mừng, vui vẻ, very; quite (in exclamations)",
+          "vui mừng, vui vẻ, tốt, khỏe, rất",
           "thân thể, sức khỏe",
           "trong lòng và kỳ nghỉ",
           "trang kiểm tra lo lắng."
@@ -27125,7 +27125,7 @@
         "q": "Nội dung chính của câu \"低应该得分。\" là gì?",
         "options": [
           "trường trung học, các cô ấy, các bà ấy",
-          "put; place; let go và trường cấp 3",
+          "đặt, để, thả và trường cấp 3",
           "thấp nên ghi điểm.",
           "mới"
         ],
@@ -27515,7 +27515,7 @@
           "có và hoặc",
           "môn toán quyết định soát vé.",
           "cặp sách, đã",
-          "structural particle before verbs"
+          "một cách (trợ từ kết cấu)"
         ],
         "answer": 1,
         "explain": "Câu \"数学决定检票。\" có nghĩa là: môn toán quyết định soát vé."
@@ -27722,7 +27722,7 @@
         "options": [
           "trang web",
           "hàng xóm",
-          "order; point",
+          "điểm, giờ",
           "làm, khô"
         ],
         "answer": 1,
@@ -28175,7 +28175,7 @@
         "options": [
           "nước khoáng trang web nhà thi đấu thể thao.",
           "thương nhân, doanh nhân",
-          "ball, nhanh",
+          "quả bóng, nhanh",
           "dưới, dưới thấp và nào"
         ],
         "answer": 0,
@@ -28858,7 +28858,7 @@
         "section": "Phần 1: Từ vựng HSK3",
         "q": "\"试\" (shì) có nghĩa là gì?",
         "options": [
-          "order; point",
+          "điểm, giờ",
           "vấn đề khó",
           "thử",
           "nhiệt tình"
@@ -29507,7 +29507,7 @@
           "thi và vô cùng, cực kỳ",
           "thói quen, quen với tươi mới soát vé.",
           "thế giới",
-          "very; quite (in exclamations), màu sắc"
+          "tốt, khỏe, rất, màu sắc"
         ],
         "answer": 1,
         "explain": "Câu \"习惯新鲜检票。\" có nghĩa là: thói quen, quen với tươi mới soát vé."
@@ -30178,7 +30178,7 @@
         "section": "Phần 3: Đọc hiểu HSK3",
         "q": "Câu \"结婚提高离开。\" diễn đạt điều gì?",
         "options": [
-          "về, aspect particle indicating past experience",
+          "về, qua, từng (trợ từ)",
           "kết hôn nâng cao rời khỏi.",
           "trước, phía trước",
           "tìm và hiệu sách"
@@ -30541,12 +30541,12 @@
         "q": "\"点\" (diǎn) có nghĩa là gì?",
         "options": [
           "tai",
-          "order; point",
+          "điểm, giờ",
           "người già",
           "đột nhiên"
         ],
         "answer": 1,
-        "explain": "点 (diǎn) = order; point. Loại từ: v."
+        "explain": "点 (diǎn) = điểm, giờ. Loại từ: v."
       },
       {
         "type": "single",
@@ -30775,7 +30775,7 @@
           "đối thoại",
           "mì ăn liền",
           "phát hiện",
-          "order; point"
+          "điểm, giờ"
         ],
         "answer": 0,
         "explain": "对话 (duìhuà) = đối thoại. Loại từ: n."
@@ -31166,7 +31166,7 @@
           "决定小心放"
         ],
         "answer": 3,
-        "explain": "Câu đúng là: 决定小心放. Nghĩa: quyết định cẩn thận put; place; let go"
+        "explain": "Câu đúng là: 决定小心放. Nghĩa: quyết định cẩn thận đặt, để, thả"
       },
       {
         "type": "single",
@@ -31305,7 +31305,7 @@
         "options": [
           "đã lâu tìm hiểu, rõ gầy, ốm.",
           "alo, này, phương hướng",
-          "side; face; noodles",
+          "mặt, mì",
           "đồng (đơn vị tiền) và bên cạnh mình"
         ],
         "answer": 0,
@@ -31758,7 +31758,7 @@
         "options": [
           "chị gái",
           "nâng cao, đi qua đó",
-          "complement of frequency và họa sĩ",
+          "bổ ngữ động lượng và họa sĩ",
           "yêu cầu khỏe mạnh, sức khỏe đương nhiên."
         ],
         "answer": 3,
@@ -31951,7 +31951,7 @@
         "options": [
           "để, vì",
           "đồ uống",
-          "put; place; let go",
+          "đặt, để, thả",
           "khỏe mạnh, sức khỏe"
         ],
         "answer": 1,
@@ -32134,7 +32134,7 @@
           "sách điện tử",
           "mời khách, đãi tiệc được, ổn quần vợt.",
           "xin lỗi và ngồi",
-          "đạt được, side; face; noodles"
+          "đạt được, mặt, mì"
         ],
         "answer": 1,
         "explain": "Câu \"请客行网球。\" có nghĩa là: mời khách, đãi tiệc được, ổn quần vợt."
@@ -32287,7 +32287,7 @@
         "section": "Phần 3: Đọc hiểu HSK3",
         "q": "Câu \"树游客公斤。\" diễn đạt điều gì?",
         "options": [
-          "medicine; drug",
+          "thuốc",
           "cây du khách ki-lô-gam.",
           "cao và yêu cầu",
           "ban đêm, hoa quả, trái cây"
@@ -32493,7 +32493,7 @@
         "section": "Phần 3: Đọc hiểu HSK3",
         "q": "Đoạn văn sau có nghĩa là gì? \"平时年轻图书馆。\"",
         "options": [
-          "gọi là, tên là và structural particle before verbs",
+          "gọi là, tên là và một cách (trợ từ kết cấu)",
           "hơn, thêm, cơm sáng",
           "bình thường, lúc thường trẻ trung thư viện.",
           "hoặc là"
@@ -33323,7 +33323,7 @@
         "options": [
           "nói, giảng dưa hấu mặt trời.",
           "hòm thư và những cái kia",
-          "complement of frequency",
+          "bổ ngữ động lượng",
           "tìm hiểu, rõ, không, chưa"
         ],
         "answer": 0,
@@ -33646,7 +33646,7 @@
         "options": [
           "sủi cảo",
           "kích thước, to nhỏ và lái xe",
-          "in that case; then, một ít, một vài",
+          "kia, đó, vậy thì, một ít, một vài",
           "nếm thử đói nhà thi đấu thể thao."
         ],
         "answer": 3,
@@ -34240,7 +34240,7 @@
         "section": "Phần 3: Đọc hiểu HSK3",
         "q": "Nội dung chính của câu \"树发展放假。\" là gì?",
         "options": [
-          "vào và celebrate Chinese New Year",
+          "vào và đón năm mới, ăn Tết",
           "cân (500g), một chút, hơi",
           "cây phát triển nghỉ lễ, nghỉ hè.",
           "vườn hoa"
@@ -34292,13 +34292,13 @@
         "section": "Phần 3: Đọc hiểu HSK3",
         "q": "Đoạn văn sau có nghĩa là gì? \"决定放点。\"",
         "options": [
-          "quyết định put; place; let go order; point.",
+          "quyết định đặt, để, thả điểm, giờ.",
           "sắp sửa và như thế nào",
           "nên, đến lượt, bình thường, lúc thường",
           "cái gì, gì"
         ],
         "answer": 0,
-        "explain": "Câu \"决定放点。\" có nghĩa là: quyết định put; place; let go order; point."
+        "explain": "Câu \"决定放点。\" có nghĩa là: quyết định đặt, để, thả điểm, giờ."
       }
     ],
     "is_free": false,
@@ -34914,7 +34914,7 @@
         "options": [
           "đánh, chải dưa hấu phía Tây Bắc.",
           "tưởng rằng (thường là nhầm)",
-          "structural particle before verbs, ngoài... ra",
+          "một cách (trợ từ kết cấu), ngoài... ra",
           "nhưng và lâu"
         ],
         "answer": 0,
@@ -35547,7 +35547,7 @@
         "options": [
           "môn toán và nghe",
           "đôi đũa thêm, cộng vội, khẩn cấp.",
-          "bây giờ, test",
+          "bây giờ, kiểm tra",
           "động, chuyển động"
         ],
         "answer": 1,
@@ -35985,7 +35985,7 @@
         "section": "Phần 1: Từ vựng HSK3",
         "q": "\"骑\" (qí) có nghĩa là gì?",
         "options": [
-          "put; place; let go",
+          "đặt, để, thả",
           "cưỡi, đi (xe đạp, xe máy)",
           "khu dân cư",
           "nhân viên, thành viên"
@@ -36160,7 +36160,7 @@
           "网球有些点"
         ],
         "answer": 0,
-        "explain": "Câu đúng là: 有些网球点. Nghĩa: có một số quần vợt order; point"
+        "explain": "Câu đúng là: 有些网球点. Nghĩa: có một số quần vợt điểm, giờ"
       },
       {
         "type": "single",
@@ -36208,8 +36208,8 @@
         "options": [
           "cưỡi, đi (xe đạp, xe máy) vợ chồng điều hòa.",
           "chúng ta, chúng mình",
-          "complement of frequency và đạt được, (trợ từ kết cấu)",
-          "vào đây, structural particle before verbs"
+          "bổ ngữ động lượng và đạt được, (trợ từ kết cấu)",
+          "vào đây, một cách (trợ từ kết cấu)"
         ],
         "answer": 0,
         "explain": "Câu \"骑夫妻空调。\" có nghĩa là: cưỡi, đi (xe đạp, xe máy) vợ chồng điều hòa."
@@ -36504,7 +36504,7 @@
         "q": "Đoạn văn sau có nghĩa là gì? \"同意对话一共。\"",
         "options": [
           "đồng ý đối thoại tổng cộng.",
-          "test, những cái kia",
+          "kiểm tra, những cái kia",
           "phía bên phải và phát hiện",
           "cá"
         ],
@@ -36725,10 +36725,10 @@
           "giải quyết",
           "trẻ trung",
           "thế giới",
-          "put; place; let go"
+          "đặt, để, thả"
         ],
         "answer": 3,
-        "explain": "放 (fàng) = put; place; let go. Loại từ: v."
+        "explain": "放 (fàng) = đặt, để, thả. Loại từ: v."
       },
       {
         "type": "single",
@@ -37953,11 +37953,11 @@
         "options": [
           "máy ảnh, trả lời",
           "có một số",
-          "order; point ngắn cầu thang.",
+          "điểm, giờ ngắn cầu thang.",
           "âm nhạc và cà phê"
         ],
         "answer": 2,
-        "explain": "Câu \"点短楼梯。\" có nghĩa là: order; point ngắn cầu thang."
+        "explain": "Câu \"点短楼梯。\" có nghĩa là: điểm, giờ ngắn cầu thang."
       },
       {
         "type": "single",
@@ -39028,7 +39028,7 @@
         "options": [
           "alo, này và thời gian",
           "phía trong",
-          "celebrate Chinese New Year, vẽ, bức tranh",
+          "đón năm mới, ăn Tết, vẽ, bức tranh",
           "trình độ quyết định yêu cầu."
         ],
         "answer": 3,
@@ -39508,10 +39508,10 @@
           "gọi điện thoại và con mèo",
           "không tồi, khá tốt",
           "tìm, cầm, lấy",
-          "đồ uống chụp ảnh put; place; let go."
+          "đồ uống chụp ảnh đặt, để, thả."
         ],
         "answer": 3,
-        "explain": "Câu \"饮料照相放。\" có nghĩa là: đồ uống chụp ảnh put; place; let go."
+        "explain": "Câu \"饮料照相放。\" có nghĩa là: đồ uống chụp ảnh đặt, để, thả."
       }
     ],
     "is_free": false,
@@ -39933,7 +39933,7 @@
           "chỉ là",
           "phát triển",
           "ki-lô-gam",
-          "order; point"
+          "điểm, giờ"
         ],
         "answer": 2,
         "explain": "公斤 (gōngjīn) = ki-lô-gam. Loại từ: m."
@@ -40141,7 +40141,7 @@
           "dùng, sử dụng và thích",
           "vấn đề, câu hỏi",
           "dưa hấu buổi tiệc tối câu chuyện.",
-          "đang, complement of frequency"
+          "đang, bổ ngữ động lượng"
         ],
         "answer": 2,
         "explain": "Câu \"西瓜晚会故事。\" có nghĩa là: dưa hấu buổi tiệc tối câu chuyện."
@@ -40205,7 +40205,7 @@
         "options": [
           "phía Tây Bắc, mặc dù",
           "đôi, cặp",
-          "đã và aspect particle indicating past experience",
+          "đã và qua, từng (trợ từ)",
           "quà tặng nhận ra, biết (mặt) mùa thu."
         ],
         "answer": 3,

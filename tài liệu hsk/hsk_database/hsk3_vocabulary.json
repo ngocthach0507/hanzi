@@ -177,7 +177,7 @@
         {"no":13, "hanzi":"甜",    "pinyin":"tián",     "pos":"adj.", "en":"sweet"},
         {"no":14, "hanzi":"米",    "pinyin":"mǐ",       "pos":"m.",   "en":"meter"},
         {"no":15, "hanzi":"台",    "pinyin":"tián",     "pos":"m.",   "en":"platform; stand (for machines)"},
-        {"no":16, "hanzi":"试",    "pinyin":"shì",      "pos":"v.",   "en":"try; test; attempt"}
+        {"no":16, "hanzi":"试",    "pinyin":"shì",      "pos":"v.",   "en":"try; kiểm tra; attempt"}
       ]
     },
     {
@@ -310,13 +310,13 @@
         {"no":4,  "hanzi":"晚会",  "pinyin":"wǎnhuì",   "pos":"n.",   "en":"evening party; soirée"},
         {"no":5,  "hanzi":"盘子",  "pinyin":"pánzi",    "pos":"n.",   "en":"plate; dish"},
         {"no":6,  "hanzi":"加",    "pinyin":"jiā",      "pos":"v.",   "en":"add; plus; increase"},
-        {"no":7,  "hanzi":"放",    "pinyin":"fàng",     "pos":"v.",   "en":"put; place; let go"},
+        {"no":7,  "hanzi":"放",    "pinyin":"fàng",     "pos":"v.",   "en":"đặt, để, thả"},
         {"no":8,  "hanzi":"画家",  "pinyin":"huàjiā",   "pos":"n.",   "en":"painter; artist"},
         {"no":9,  "hanzi":"夫妻",  "pinyin":"fūqī",     "pos":"n.",   "en":"husband and wife; couple"},
         {"no":10, "hanzi":"客人",  "pinyin":"kèrén",    "pos":"n.",   "en":"guest; visitor"},
         {"no":11, "hanzi":"南方",  "pinyin":"nánfāng",  "pos":"n.",   "en":"south; the South"},
         {"no":12, "hanzi":"留学生","pinyin":"liúxuéshēng","pos":"n.", "en":"international student"},
-        {"no":13, "hanzi":"点",    "pinyin":"diǎn",     "pos":"v.",   "en":"order; point"},
+        {"no":13, "hanzi":"点",    "pinyin":"diǎn",     "pos":"v.",   "en":"điểm, giờ"},
         {"no":14, "hanzi":"感到",  "pinyin":"gǎndào",   "pos":"v.",   "en":"feel; sense"},
         {"no":15, "hanzi":"一边",  "pinyin":"yībiān",   "pos":"adv.", "en":"at the same time; while"},
         {"no":16, "hanzi":"空调",  "pinyin":"kōngtiáo", "pos":"n.",   "en":"air conditioner"}
