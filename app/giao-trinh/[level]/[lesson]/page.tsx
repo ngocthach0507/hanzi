@@ -354,8 +354,8 @@ export default function LessonDetail() {
                 <div className="space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-500">
                   {data.vocabulary.length > 0 ? (
                     data.vocabulary.map((v, i) => (
-                      <div key={v.id} className="bg-white p-8 rounded-[2.5rem] border border-gray-100 hover:border-gray-200 hover:shadow-2xl hover:shadow-gray-100/50 transition-all flex flex-col md:flex-row md:items-center justify-between gap-8 group">
-                         <div className="flex items-start gap-8">
+                      <div key={v.id} className="bg-white p-5 md:p-8 rounded-[1.5rem] md:rounded-[2.5rem] border border-gray-100 hover:border-gray-200 hover:shadow-2xl hover:shadow-gray-100/50 transition-all flex flex-col md:flex-row md:items-center justify-between gap-8 group">
+                         <div className="flex items-start gap-5 md:gap-8">
                             <span className="text-sm font-black text-gray-200 mt-3">{i + 1 < 10 ? `0${i+1}` : i+1}</span>
                             <div>
                                <div className="flex items-baseline gap-4 mb-3">
@@ -392,7 +392,7 @@ export default function LessonDetail() {
               {/* 2. TEXT (DIALOGUE/READING) TAB - UNIFIED VIEW */}
               {activeTab === 'text' && (
                 <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-                  <div className="bg-white rounded-[4rem] p-10 md:p-16 border border-gray-100 shadow-sm relative overflow-hidden">
+                  <div className="bg-white rounded-[2rem] md:rounded-[4rem] p-6 md:p-16 border border-gray-100 shadow-sm relative overflow-hidden">
                     {/* Decorative Background Element */}
                     <div className="absolute top-0 right-0 w-64 h-64 bg-gray-50 rounded-full -mr-32 -mt-32 opacity-50"></div>
                     
@@ -494,9 +494,9 @@ export default function LessonDetail() {
                              
                              {/* Cấu trúc (Formula) Section */}
                              {g.formula && (
-                                <div className="pl-12 mb-10">
+                                <div className="pl-4 md:pl-12 mb-10">
                                    <h4 className="text-xs font-black text-gray-400 uppercase tracking-widest mb-4">Cấu trúc:</h4>
-                                   <div className={`bg-gray-50/50 p-6 md:p-8 rounded-[1.5rem] border border-transparent border-l-[6px] ${numericLevel === 1 ? 'border-l-red-500' : numericLevel === 2 ? 'border-l-orange-500' : 'border-l-yellow-500'} relative group`}>
+                                   <div className={`bg-gray-50/50 p-5 md:p-8 rounded-[1.5rem] border border-transparent border-l-[6px] ${numericLevel === 1 ? 'border-l-red-500' : numericLevel === 2 ? 'border-l-orange-500' : 'border-l-yellow-500'} relative group`}>
                                       <div className="text-xl md:text-2xl font-black text-gray-800 tracking-tighter leading-tight italic">
                                          - {g.formula}
                                       </div>
@@ -505,8 +505,8 @@ export default function LessonDetail() {
                              )}
 
                              {/* Ví dụ (Examples) Section */}
-                             <div className="pl-12">
-                                <div className="flex items-center justify-between mb-6">
+                             <div className="pl-0 md:pl-12">
+                                <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 gap-4">
                                    <h4 className="text-xs font-black text-gray-400 uppercase tracking-widest">Ví dụ:</h4>
                                    {/* Grammar Legend */}
                                    <div className="flex gap-4 text-[10px] font-bold uppercase tracking-tighter">
@@ -573,7 +573,7 @@ export default function LessonDetail() {
                              </div>
 
                               {/* Exercise Section (Integrated with new style) */}
-                              <div className="mt-14 pl-12">
+                              <div className="mt-14 pl-0 md:pl-12">
                                  <button
                                     onClick={() => setPracticeOpen({ ...practiceOpen, [g.id]: !practiceOpen[g.id] })}
                                     className={`w-full py-4 rounded-2xl border-2 font-black transition-all flex items-center justify-center gap-2 group ${

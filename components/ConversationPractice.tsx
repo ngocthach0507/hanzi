@@ -205,33 +205,32 @@ const ConversationPractice: React.FC<ConversationPracticeProps> = ({ dialogue, t
     }
   };
 
-  // ── Render ────────────────────────────────────────────────────────────────
   return (
-    <div className="bg-white rounded-[3rem] border border-gray-100 p-8 md:p-12 animate-in zoom-in-95 duration-300">
+    <div className="bg-white rounded-[2rem] md:rounded-[3rem] border border-gray-100 p-5 md:p-12 animate-in zoom-in-95 duration-300">
 
       {/* ── Header & Tab nav ─────────────────────────────────────────────── */}
       <div className="flex flex-col mb-10 pb-6 border-b border-gray-50">
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-start md:items-center justify-between mb-8 gap-2">
           <button
             onClick={onBack}
-            className="flex items-center gap-2 px-4 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-[#1F2937] text-[10px] font-black transition-all shadow-sm active:scale-95"
+            className="flex items-center gap-1 md:gap-2 px-3 md:px-4 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-[#1F2937] text-[10px] font-black transition-all shadow-sm active:scale-95 shrink-0"
           >
-            <ChevronLeft size={14} className="stroke-[3]" /> DANH SÁCH
+            <ChevronLeft size={14} className="stroke-[3]" /> <span className="hidden sm:inline">DANH SÁCH</span>
           </button>
-          <div className="text-center">
-            <h3 className="text-xl font-black text-gray-900">{dialogue.scene_zh}</h3>
-            <p className="text-xs text-gray-400 font-bold uppercase tracking-widest">{dialogue.scene_vi}</p>
+          <div className="text-center px-2 flex-1">
+            <h3 className="text-lg md:text-xl font-black text-gray-900 leading-tight">{dialogue.scene_zh}</h3>
+            <p className="text-[10px] md:text-xs text-gray-400 font-bold uppercase tracking-widest mt-1">{dialogue.scene_vi}</p>
           </div>
           <button
             onClick={() => setShowTranslation(!showTranslation)}
-            className={`px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${showTranslation ? theme.bg + ' text-white shadow-lg' : 'bg-gray-100 text-gray-400'}`}
+            className={`px-3 md:px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all shrink-0 ${showTranslation ? theme.bg + ' text-white shadow-lg' : 'bg-gray-100 text-gray-400'}`}
           >
             {showTranslation ? 'Ẩn dịch' : 'Hiện dịch'}
           </button>
         </div>
 
         {/* Tab pills */}
-        <div className="flex items-center justify-center flex-wrap gap-1.5 bg-gray-50 p-1.5 rounded-[1.5rem] self-center">
+        <div className="flex items-center justify-start md:justify-center overflow-x-auto no-scrollbar whitespace-nowrap flex-nowrap gap-1.5 bg-gray-50 p-1.5 rounded-[1.5rem] w-full">
           {[
             { id: 'roleplay',  icon: <Layers size={13} />,      label: 'NHẬP VAI'   },
             { id: 'dictation', icon: <Keyboard size={13} />,    label: 'NGHE & ĐIỀN'},
@@ -314,7 +313,7 @@ const ConversationPractice: React.FC<ConversationPracticeProps> = ({ dialogue, t
             </span>
           </h4>
 
-          <div className="bg-gray-50/50 rounded-[2rem] p-8 md:p-12 border border-gray-100 text-center mb-8">
+          <div className="bg-gray-50/50 rounded-[1.5rem] md:rounded-[2rem] p-6 md:p-12 border border-gray-100 text-center mb-8">
             <button
               onClick={() => speak(dictationLines[dictationCurrentIdx].zh)}
               className={`w-20 h-20 rounded-full ${theme.lightBg} ${theme.color} flex items-center justify-center mx-auto mb-6 hover:scale-110 active:scale-95 transition-all shadow-inner`}
@@ -404,7 +403,7 @@ const ConversationPractice: React.FC<ConversationPracticeProps> = ({ dialogue, t
             <span className="text-xs text-gray-400 font-medium normal-case tracking-normal">Bấm vào các câu bên dưới để xếp thành đoạn hoàn chỉnh</span>
           </h4>
 
-          <div className="min-h-[250px] bg-gray-50/50 rounded-[2rem] p-6 border-2 border-dashed border-gray-200 mb-8 space-y-3 relative">
+          <div className="min-h-[250px] bg-gray-50/50 rounded-[1.5rem] md:rounded-[2rem] p-4 md:p-6 border-2 border-dashed border-gray-200 mb-8 space-y-3 relative">
             {selectedSequence.length === 0 && (
               <div className="absolute inset-0 flex items-center justify-center text-gray-300 font-bold italic">Khu vực ghép câu</div>
             )}
@@ -486,7 +485,7 @@ const ConversationPractice: React.FC<ConversationPracticeProps> = ({ dialogue, t
             </span>
           </h4>
 
-          <div className="bg-gray-50/50 rounded-[2rem] p-8 md:p-10 border border-gray-100 mb-8">
+          <div className="bg-gray-50/50 rounded-[1.5rem] md:rounded-[2rem] p-6 md:p-10 border border-gray-100 mb-8">
             {/* Context: what was said before */}
             {qaCurrentIdx > 0 && (
               <div className="mb-6 p-4 bg-white rounded-2xl border border-gray-100 shadow-sm">
@@ -601,7 +600,7 @@ const ConversationPractice: React.FC<ConversationPracticeProps> = ({ dialogue, t
             </span>
           </h4>
 
-          <div className="bg-gray-50/50 rounded-[2rem] p-8 md:p-12 border border-gray-100 text-center mb-8">
+          <div className="bg-gray-50/50 rounded-[1.5rem] md:rounded-[2rem] p-6 md:p-12 border border-gray-100 text-center mb-8">
             {/* TTS play button */}
             <button
               onClick={() => speak(fillLines[fillCurrentIdx].zh)}

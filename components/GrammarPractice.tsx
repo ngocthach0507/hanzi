@@ -78,7 +78,7 @@ const GrammarPractice: React.FC<GrammarPracticeProps> = ({ exercises, theme }) =
         )}
       </div>
 
-      <div className="bg-gray-50/50 rounded-[2.5rem] p-8 border border-gray-100 relative overflow-hidden">
+      <div className="bg-gray-50/50 rounded-[1.5rem] md:rounded-[2.5rem] p-5 md:p-8 border border-gray-100 relative overflow-hidden">
         {/* Question Prompt */}
         <div className="text-xl font-black text-gray-900 mb-6 leading-relaxed flex gap-2">
           <span className={theme.color}>Câu {currentIdx + 1}:</span>
