@@ -4,7 +4,7 @@
     "lesson_number": 1,
     "point_number": 1,
     "title_zh": "语气助词“吧”（2）",
-    "explanation_vi": "Các bạn chính là học sinh của cô ấy nhỉ?",
+    "explanation_vi": "Trợ từ '吧' đặt ở cuối câu dùng để đưa ra sự suy đoán, ước lượng với thái độ không chắc chắn (nhỉ, chắc là).",
     "formula": "Câu + 吧",
     "category": "Ngữ pháp",
     "examples": [
@@ -72,7 +72,7 @@
     "lesson_number": 1,
     "point_number": 2,
     "title_zh": "“是……的”句",
-    "explanation_vi": "Chúng tôi đến để du lịch.",
+    "explanation_vi": "Câu chữ '是...的' dùng để nhấn mạnh thời gian, địa điểm, mục đích, phương thức hoặc người thực hiện của một hành động ĐÃ XẢY RA.",
     "formula": "(是) + Phần nhấn mạnh + Động từ/Cụm động từ + 的",
     "category": "Ngữ pháp",
     "examples": [
@@ -151,7 +151,7 @@
     "lesson_number": 1,
     "point_number": 3,
     "title_zh": "兼语句",
-    "explanation_vi": "Tôi muốn nhờ bạn giúp một việc.",
+    "explanation_vi": "Câu kiêm ngữ là câu có tân ngữ của động từ thứ nhất (请, 让, 叫...) đồng thời làm chủ ngữ của động từ thứ hai.",
     "formula": "Chủ ngữ + 请/让/叫 + Tân ngữ + Cụm động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -235,7 +235,7 @@
     "lesson_number": 2,
     "point_number": 1,
     "title_zh": "固定格式“还是……吧”",
-    "explanation_vi": "Chúng ta vẫn nên đi taxi đi.",
+    "explanation_vi": "Cấu trúc '还是...吧' biểu thị sự lựa chọn hoặc đề xuất sau khi đã cân nhắc (hay là... đi).",
     "formula": "hay là + Lựa chọn + 吧",
     "category": "Ngữ pháp",
     "examples": [
@@ -313,7 +313,7 @@
     "lesson_number": 2,
     "point_number": 2,
     "title_zh": "用“多”表达概数",
-    "explanation_vi": "Đại học Bắc Kinh có hơn 40.000 sinh viên đấy!",
+    "explanation_vi": "Dùng '多' để biểu thị số lượng ước chừng, lớn hơn số nguyên đã nêu (hơn, ngoài).",
     "formula": "Số từ + 多 + Lượng từ / Số từ + Lượng từ + 多",
     "category": "Ngữ pháp",
     "examples": [
@@ -395,7 +395,7 @@
     "lesson_number": 2,
     "point_number": 3,
     "title_zh": "动词或动词性短语、主谓短语作定语",
-    "explanation_vi": "Vé xem phim họ bán cũng rất rẻ.",
+    "explanation_vi": "Cụm động từ hoặc cụm chủ vị làm định ngữ, luôn phải có '的' kết nối với trung tâm ngữ.",
     "formula": "Cụm động từ/Cụm chủ vị + 的 + Danh từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -479,7 +479,7 @@
     "lesson_number": 3,
     "point_number": 1,
     "title_zh": "结果补语",
-    "explanation_vi": "Đồ ăn đã làm xong cả rồi.",
+    "explanation_vi": "Bổ ngữ kết quả (完, 好, 到, 见, 懂...) đứng sau động từ để nói rõ kết quả của hành động đó.",
     "formula": "Động từ + Bổ ngữ kết quả (完/好/到/见/懂等)",
     "category": "Ngữ pháp",
     "examples": [
@@ -559,7 +559,7 @@
     "lesson_number": 3,
     "point_number": 2,
     "title_zh": "动词重叠（1）",
-    "explanation_vi": "Thế bạn nghĩ lại đi.",
+    "explanation_vi": "Động từ lặp lại (AA, ABAB) biểu thị hành động diễn ra trong thời gian ngắn, làm thử hoặc mang ngữ khí nhẹ nhàng.",
     "formula": "AA / A一A / ABAB / AAB",
     "category": "Ngữ pháp",
     "examples": [
@@ -637,7 +637,7 @@
     "lesson_number": 3,
     "point_number": 3,
     "title_zh": "动词重叠（2）",
-    "explanation_vi": "Tôi đã xem qua phần giới thiệu trên mạng.",
+    "explanation_vi": "Động từ lặp lại khi nói về hành động đã xảy ra (A了A, AB了一下).",
     "formula": "A了A / AB了一下 / A了AB",
     "category": "Ngữ pháp",
     "examples": [
@@ -716,7 +716,7 @@
     "lesson_number": 4,
     "point_number": 1,
     "title_zh": "动态助词“过”",
-    "explanation_vi": "Chúng ta đã đến trung tâm thương mại này chưa?",
+    "explanation_vi": "Trợ từ động thái '过' đứng sau động từ biểu thị một trải nghiệm hoặc hành động đã từng xảy ra trong quá khứ.",
     "formula": "Động từ + 过",
     "category": "Ngữ pháp",
     "examples": [
@@ -799,7 +799,7 @@
     "lesson_number": 4,
     "point_number": 2,
     "title_zh": "因果复句“因为……，所以……”",
-    "explanation_vi": "Vì tôi thích màu trắng, nên tôi vẫn muốn mua quần áo trắng.",
+    "explanation_vi": "Câu phức nhân quả: '因为' (bởi vì) chỉ nguyên nhân, '所以' (cho nên) chỉ kết quả.",
     "formula": "因为 + Nguyên nhân，所以 + Kết quả",
     "category": "Ngữ pháp",
     "examples": [
@@ -884,7 +884,7 @@
     "lesson_number": 4,
     "point_number": 3,
     "title_zh": "“的”字短语",
-    "explanation_vi": "Màu đỏ, màu xanh, màu đen, bạn muốn mua cái nào?",
+    "explanation_vi": "Cụm từ chữ '的' (Đại từ/Tính từ/Động từ + 的) dùng để thay thế cho cụm danh từ đã được nhắc đến trước đó để tránh lặp lại.",
     "formula": "Đại từ/Danh từ/Động từ/Tính từ + 的",
     "category": "Ngữ pháp",
     "examples": [
@@ -963,7 +963,7 @@
     "lesson_number": 5,
     "point_number": 1,
     "title_zh": "简单趋向补语（1）",
-    "explanation_vi": "Tôi không lên trên nữa, chờ bạn ở dưới này.",
+    "explanation_vi": "Bổ ngữ xu hướng đơn '来' (hướng về người nói) hoặc '去' (rời xa người nói) đứng sau động từ để chỉ hướng của hành động.",
     "formula": "Động từ + 来/去",
     "category": "Ngữ pháp",
     "examples": [
@@ -1039,7 +1039,7 @@
     "lesson_number": 5,
     "point_number": 2,
     "title_zh": "简单趋向补语（2）",
-    "explanation_vi": "Các bạn khách sáo quá, còn mang nhiều quà đến thế!",
+    "explanation_vi": "Các động từ xu hướng (上, 下, 进, 出, 回, 过, 起) kết hợp với '来/去' để chỉ hướng di chuyển cụ thể.",
     "formula": "Động từ + 上/下/进/出/回/过 + 来/去",
     "category": "Ngữ pháp",
     "examples": [
@@ -1110,8 +1110,8 @@
     "lesson_number": 5,
     "point_number": 3,
     "title_zh": "固定格式“都……了”",
-    "explanation_vi": "Đã 12 giờ rồi, chúng ta ăn cơm đi.",
-    "formula": "都 + Thời gian/数量 + 了",
+    "explanation_vi": "Cấu trúc '都...了' (đã... rồi) biểu thị sự phàn nàn, trách móc hoặc nhấn mạnh thời gian đã trễ, số lượng đã nhiều.",
+    "formula": "都 + Thời gian/Số lượng + 了",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -1167,7 +1167,7 @@
     "lesson_number": 6,
     "point_number": 1,
     "title_zh": "形容词重叠",
-    "explanation_vi": "Anh lại mua cho em ấy một cái bánh sinh nhật thật to.",
+    "explanation_vi": "Tính từ lặp lại (AABB) dùng để miêu tả sinh động và nhấn mạnh mức độ của tính chất.",
     "formula": "AA / AABB",
     "category": "Ngữ pháp",
     "examples": [
@@ -1221,7 +1221,7 @@
     "lesson_number": 6,
     "point_number": 2,
     "title_zh": "固定短语“什么的”",
-    "explanation_vi": "Có bố, mẹ, em trai, còn có chó đen, mèo trắng các thứ.",
+    "explanation_vi": "Dùng '什么的' ở cuối dãy liệt kê để biểu thị vẫn còn những thứ khác tương tự (vân vân, các thứ).",
     "formula": "A、B + 什么的",
     "category": "Ngữ pháp",
     "examples": [
@@ -1277,7 +1277,7 @@
     "lesson_number": 6,
     "point_number": 3,
     "title_zh": "结构助词“地”",
-    "explanation_vi": "Chơi một cách vui vẻ.",
+    "explanation_vi": "Trợ từ '地' nối giữa trạng ngữ (Tính từ) và động từ, tương đương với chữ 'một cách' trong tiếng Việt.",
     "formula": "Tính từ + 地 + Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1332,7 +1332,7 @@
     "lesson_number": 7,
     "point_number": 1,
     "title_zh": "紧缩复句“……就……”",
-    "explanation_vi": "Sao cậu vừa tan học đã chạy ra ngoài thế?",
+    "explanation_vi": "Cấu trúc '一...就...' biểu thị hai hành động xảy ra nối tiếp nhau ngay lập tức (vừa... đã/thì...).",
     "formula": "一 + A + 就 + B",
     "category": "Ngữ pháp",
     "examples": [
@@ -1401,7 +1401,7 @@
     "lesson_number": 7,
     "point_number": 2,
     "title_zh": "状态补语（1）",
-    "explanation_vi": "Tôi đá cũng tạm được.",
+    "explanation_vi": "Bổ ngữ trạng thái đứng sau '得' dùng để đánh giá, miêu tả trình độ hoặc trạng thái của hành động.",
     "formula": "Động từ + 得 + Tính từCụm từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1456,7 +1456,7 @@
     "lesson_number": 7,
     "point_number": 3,
     "title_zh": "状态补语（2）",
-    "explanation_vi": "Cậu chơi bóng rổ thế nào?",
+    "explanation_vi": "Khi động từ mang tân ngữ, phải lặp lại động từ trước khi thêm '得' và bổ ngữ trạng thái (Động từ + Tân ngữ + Động từ + 得 + Bổ ngữ).",
     "formula": "Động từ + Tân ngữ + Động từ + 得 + Bổ ngữ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1517,7 +1517,7 @@
     "lesson_number": 8,
     "point_number": 1,
     "title_zh": "比较句（1）",
-    "explanation_vi": "Cái bên trái đẹp hơn cái bên phải.",
+    "explanation_vi": "Câu so sánh dùng chữ '比': A + 比 + B + Tính từ (A hơn B về mặt nào đó).",
     "formula": "A 比 B + Tính từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1579,7 +1579,7 @@
     "lesson_number": 8,
     "point_number": 2,
     "title_zh": "比较句（2）",
-    "explanation_vi": "Bộ phim này còn thú vị hơn phim tình cảm kia.",
+    "explanation_vi": "Thêm phó từ '更' hoặc '还' trước tính từ trong câu so sánh chữ '比' để nhấn mạnh mức độ cao hơn nữa.",
     "formula": "A 比 B + 更/还 + Tính từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1634,7 +1634,7 @@
     "lesson_number": 8,
     "point_number": 3,
     "title_zh": "转折复句“虽然……，但是……”",
-    "explanation_vi": "Tuy em quên, nhưng anh vẫn nhớ.",
+    "explanation_vi": "Câu phức chuyển ý: '虽然' (mặc dù) và '但是' (nhưng) dùng để nối hai mệnh đề có ý nghĩa tương phản.",
     "formula": "虽然 + A，但是 + B",
     "category": "Ngữ pháp",
     "examples": [
@@ -1703,7 +1703,7 @@
     "lesson_number": 9,
     "point_number": 1,
     "title_zh": "比较句（3）",
-    "explanation_vi": "Con trai không cao bằng anh ấy.",
+    "explanation_vi": "Câu so sánh không bằng: A + 没有 + B + Tính từ (A không bằng B).",
     "formula": "A 没有 B + Tính từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1766,7 +1766,7 @@
     "lesson_number": 9,
     "point_number": 2,
     "title_zh": "动词“离”",
-    "explanation_vi": "Quán cà phê hơi xa chỗ này.",
+    "explanation_vi": "Giới từ '离' (cách) dùng để biểu thị khoảng cách về không gian hoặc thời gian giữa hai điểm.",
     "formula": "A 离 B + 远/近/距离",
     "category": "Ngữ pháp",
     "examples": [
@@ -1821,7 +1821,7 @@
     "lesson_number": 9,
     "point_number": 3,
     "title_zh": "时量补语（1）",
-    "explanation_vi": "Đi bộ hơn nửa tiếng là đến.",
+    "explanation_vi": "Bổ ngữ thời lượng đứng sau động từ để biểu thị hành động kéo dài trong bao lâu.",
     "formula": "Động từ + Thời gian段",
     "category": "Ngữ pháp",
     "examples": [
@@ -1889,7 +1889,7 @@
     "lesson_number": 10,
     "point_number": 1,
     "title_zh": "主谓谓语句",
-    "explanation_vi": "Cậu có nhìn thấy cặp sách của tôi không?",
+    "explanation_vi": "Câu có vị ngữ là một cụm Chủ-Vị, dùng để miêu tả chi tiết một bộ phận hoặc đặc điểm của chủ ngữ lớn.",
     "formula": "Chủ ngữ + Cụm chủ vị",
     "category": "Ngữ pháp",
     "examples": [
@@ -1957,7 +1957,7 @@
     "lesson_number": 10,
     "point_number": 2,
     "title_zh": "选择问句",
-    "explanation_vi": "Là cô chuẩn bị thi hay tôi chuẩn bị thi?",
+    "explanation_vi": "Câu hỏi lựa chọn dùng '还是' (hay là) để nối giữa hai hoặc nhiều phương án.",
     "formula": "(是) A hay là B",
     "category": "Ngữ pháp",
     "examples": [
@@ -2012,7 +2012,7 @@
     "lesson_number": 10,
     "point_number": 3,
     "title_zh": "固定格式“要/快/快要/就要……了”",
-    "explanation_vi": "Đồ ăn sắp làm xong rồi.",
+    "explanation_vi": "Cấu trúc '要/快要...了' biểu thị một sự việc sắp sửa xảy ra (sắp... rồi).",
     "formula": "要/快/快要/就要 + Cụm động từ + 了",
     "category": "Ngữ pháp",
     "examples": [
@@ -2078,7 +2078,7 @@
     "lesson_number": 11,
     "point_number": 1,
     "title_zh": "动态助词“着”（1）",
-    "explanation_vi": "Thế em ngồi đây đi.",
+    "explanation_vi": "Trợ từ '着' đứng sau động từ biểu thị trạng thái đang tiếp diễn của hành động hoặc tư thế.",
     "formula": "Động từ + 着",
     "category": "Ngữ pháp",
     "examples": [
@@ -2132,7 +2132,7 @@
     "lesson_number": 11,
     "point_number": 2,
     "title_zh": "动态助词“着”（2）",
-    "explanation_vi": "Bây giờ đường nhiều xe, lại còn đang có tuyết rơi.",
+    "explanation_vi": "Động từ + 着 + Tân ngữ: dùng để miêu tả phương thức hoặc trạng thái đi kèm khi thực hiện một hành động khác.",
     "formula": "Động từ + 着 + Tân ngữ",
     "category": "Ngữ pháp",
     "examples": [
@@ -2201,7 +2201,7 @@
     "lesson_number": 11,
     "point_number": 3,
     "title_zh": "程度副词“最”",
-    "explanation_vi": "Cậu thích nhất là ăn đồ Trung Quốc.",
+    "explanation_vi": "Phó từ chỉ mức độ '最' biểu thị mức độ cao nhất (nhất).",
     "formula": "最 + Tính từ/心理Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -2255,7 +2255,7 @@
     "lesson_number": 12,
     "point_number": 1,
     "title_zh": "比较句（4）",
-    "explanation_vi": "Chỗ tôi lạnh hơn Bắc Kinh nhiều.",
+    "explanation_vi": "So sánh hơn nhiều: thêm '多了' hoặc '得多' vào sau tính từ trong câu chữ '比'.",
     "formula": "A 比 B + Tính từ + 多了/得多",
     "category": "Ngữ pháp",
     "examples": [
@@ -2318,8 +2318,8 @@
     "lesson_number": 12,
     "point_number": 2,
     "title_zh": "比较句（5）",
-    "explanation_vi": "Hôm qua tuyết rơi to hơn hôm nay.",
-    "formula": "A 比 B + 状态Bổ ngữ / 状态Bổ ngữ + 比 B",
+    "explanation_vi": "Kết hợp câu so sánh '比' với Bổ ngữ trạng thái để so sánh kết quả của hành động.",
+    "formula": "A 比 B + Trạng tháiBổ ngữ / Trạng tháiBổ ngữ + 比 B",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -2374,7 +2374,7 @@
     "lesson_number": 12,
     "point_number": 3,
     "title_zh": "比较句（6）",
-    "explanation_vi": "Cậu chạy nhanh hơn tôi.",
+    "explanation_vi": "Khi động từ mang tân ngữ, có thể dùng cấu trúc lặp lại động từ trong câu so sánh chữ '比'.",
     "formula": "Động từ + Tân ngữ + Động từ + 得 + 比 + Bổ ngữ",
     "category": "Ngữ pháp",
     "examples": [
@@ -2444,8 +2444,8 @@
     "lesson_number": 13,
     "point_number": 1,
     "title_zh": "双宾语句（2）",
-    "explanation_vi": "Thì tặng hoa cho cô ấy đi.",
-    "formula": "Chủ ngữ + 拿/送/卖 + 给 + 间接Tân ngữ + 直接Tân ngữ",
+    "explanation_vi": "Sử dụng giới từ '给' trong câu hai tân ngữ để chỉ đối tượng tiếp nhận (tặng cho, đưa cho).",
+    "formula": "Chủ ngữ + 拿/送/卖 + 给 + Gián tiếp Tân ngữ + Trực tiếp Tân ngữ",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -2512,7 +2512,7 @@
     "lesson_number": 13,
     "point_number": 2,
     "title_zh": "比较句（7）",
-    "explanation_vi": "Từ hôm nay nhiều hơn hôm qua mười từ.",
+    "explanation_vi": "Thêm cụm số lượng cụ thể vào sau tính từ trong câu chữ '比' để nói rõ mức độ chênh lệch chính xác.",
     "formula": "A 比 B + Tính từ + Cụm số lượng",
     "category": "Ngữ pháp",
     "examples": [
@@ -2567,7 +2567,7 @@
     "lesson_number": 13,
     "point_number": 3,
     "title_zh": "比较句（8）",
-    "explanation_vi": "Đắt hơn cuốn vở chúng ta mua cùng nhau một chút.",
+    "explanation_vi": "Thêm '一点儿' hoặc '一些' vào sau tính từ trong câu chữ '比' để biểu thị mức độ chênh lệch ít.",
     "formula": "A 比 B + Tính từ + 一点儿/一些",
     "category": "Ngữ pháp",
     "examples": [
@@ -2622,8 +2622,8 @@
     "lesson_number": 14,
     "point_number": 1,
     "title_zh": "存现句（2）",
-    "explanation_vi": "Dưới tầng nhà cậu có một người đang đứng.",
-    "formula": "处所 + Động từ + 着 + 人/事物",
+    "explanation_vi": "Câu tồn hiện miêu tả trạng thái: Địa điểm + Động từ + 着 + Người/Vật (Ở đâu đó đang diễn ra/tồn tại cái gì).",
+    "formula": "Địa điểm + Động từ + 着 + 人/Sự vật",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -2688,7 +2688,7 @@
     "lesson_number": 14,
     "point_number": 2,
     "title_zh": "程度副词“多”",
-    "explanation_vi": "Một mình cậu ở đây chán chết đi được!",
+    "explanation_vi": "Phó từ '多' dùng trong câu cảm thán biểu thị mức độ cao (Biết bao, thật là).",
     "formula": "多 + Tính từ + 啊",
     "category": "Ngữ pháp",
     "examples": [
@@ -2742,7 +2742,7 @@
     "lesson_number": 14,
     "point_number": 3,
     "title_zh": "复合趋向补语",
-    "explanation_vi": "Em ấy thường chạy lên trên tìm tôi chơi.",
+    "explanation_vi": "Bổ ngữ xu hướng phức hợp (Động từ + 上/下/进/出... + 来/去) biểu thị chính xác phương hướng di chuyển.",
     "formula": "Động từ + 上/下/进/出/回/过 + 来/去",
     "category": "Ngữ pháp",
     "examples": [
@@ -2797,7 +2797,7 @@
     "lesson_number": 15,
     "point_number": 1,
     "title_zh": "动量补语（1）",
-    "explanation_vi": "Tuy đã đi một lần rồi, nhưng rất muốn đi thêm một lần nữa.",
+    "explanation_vi": "Bổ ngữ động lượng (Số từ + 次/遍/趟/下) đứng sau động từ để biểu thị số lần thực hiện hành động.",
     "formula": "Động từ + Số từ + 次",
     "category": "Ngữ pháp",
     "examples": [
@@ -2864,8 +2864,8 @@
     "lesson_number": 15,
     "point_number": 2,
     "title_zh": "动量补语（2）",
-    "explanation_vi": "Tôi muốn ăn thêm một lần vịt quay Bắc Kinh nữa.",
-    "formula": "Động từ + Đại từ + 动量Bổ ngữ / Động từ + 动量Bổ ngữ + 事物Danh từ",
+    "explanation_vi": "Vị trí của Bổ ngữ động lượng khi động từ mang tân ngữ là đại từ hoặc danh từ.",
+    "formula": "Động từ + Đại từ + 动量Bổ ngữ / Động từ + 动量Bổ ngữ + Sự vậtDanh từ",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -2929,7 +2929,7 @@
     "lesson_number": 15,
     "point_number": 3,
     "title_zh": "“有”字句（2）",
-    "explanation_vi": "Cậu đã một năm chưa về nước rồi nhỉ?",
+    "explanation_vi": "Câu chữ '有' dùng để biểu thị sự ước lượng, đạt đến một mức độ, khoảng thời gian nào đó.",
     "formula": "有 + Cụm số lượng",
     "category": "Ngữ pháp",
     "examples": [

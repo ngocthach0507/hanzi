@@ -4,7 +4,7 @@
     "lesson_number": 1,
     "point_number": 1,
     "title_zh": "固定短语“看上去/看起来”",
-    "explanation_vi": "Trông họ hơi giống nhau.",
+    "explanation_vi": "Cấu trúc '看上去/看起来' dùng để đưa ra nhận xét, đánh giá thông qua việc quan sát bằng mắt (trông có vẻ, nhìn có vẻ).",
     "formula": "看上去/看起来 + Tính từ/Cụm động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -60,8 +60,8 @@
     "lesson_number": 1,
     "point_number": 2,
     "title_zh": "疑问代词的非疑问用法（1）",
-    "explanation_vi": "Hình như tôi thấy chiếc vali này ở đâu đó rồi.",
-    "formula": "Đại từ nghi vấn（哪儿/什么/谁/哪）+ 陈述句",
+    "explanation_vi": "Đại từ nghi vấn (哪儿, 什么, 谁, 哪) dùng trong câu trần thuật để chỉ người, vật, địa điểm phiếm chỉ (ai đó, cái gì đó, đâu đó).",
+    "formula": "Đại từ nghi vấn（哪儿/什么/谁/哪）+ Câu trần thuật",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -116,8 +116,8 @@
     "lesson_number": 1,
     "point_number": 3,
     "title_zh": "多项定语",
-    "explanation_vi": "Lý Văn có phải là người thanh niên tóc ngắn mặc áo đen không?",
-    "formula": "Thời gian/处所 + 动作/状态 + 特点 + 的 + Danh từ",
+    "explanation_vi": "Nhiều định ngữ cùng tu bổ cho một danh từ. Thứ tự thông thường: Thời gian/Địa điểm -> Hành động/Trạng thái -> Đặc điểm -> Danh từ.",
+    "formula": "Thời gian/Địa điểm + Hành động/Trạng thái + Đặc điểm + 的 + Danh từ",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -185,7 +185,7 @@
     "lesson_number": 2,
     "point_number": 1,
     "title_zh": "并列复句“又……又……”",
-    "explanation_vi": "Bây giờ tôi đúng là vừa đói vừa khát.",
+    "explanation_vi": "Cấu trúc '又...又...' dùng để miêu tả hai tính chất, trạng thái cùng tồn tại song song ở một sự vật (Vừa... vừa...).",
     "formula": "又 + Tính từ1 + 又 + Tính từ2",
     "category": "Ngữ pháp",
     "examples": [
@@ -240,7 +240,7 @@
     "lesson_number": 2,
     "point_number": 2,
     "title_zh": "疑问代词的非疑问用法（2）",
-    "explanation_vi": "Món nào cũng ngon.",
+    "explanation_vi": "Đại từ nghi vấn kết hợp với '都' hoặc '也' mang nghĩa khẳng định hoặc phủ định toàn bộ (Bất cứ ai, bất cứ đâu, cái gì cũng...).",
     "formula": "Đại từ nghi vấn + 都 + Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -307,7 +307,7 @@
     "lesson_number": 2,
     "point_number": 3,
     "title_zh": "疑问代词的非疑问用法（3）",
-    "explanation_vi": "Các bạn muốn ăn gì thì gọi món đấy.",
+    "explanation_vi": "Dùng hai đại từ nghi vấn giống nhau kết nối bằng '就' để biểu thị bất cứ điều kiện gì cũng sẽ dẫn đến kết quả tương ứng (Muốn... gì thì... đó).",
     "formula": "Đại từ nghi vấn + 就 + Đại từ nghi vấn",
     "category": "Ngữ pháp",
     "examples": [
@@ -361,7 +361,7 @@
     "lesson_number": 3,
     "point_number": 1,
     "title_zh": "程度副词“挺”",
-    "explanation_vi": "Môi trường khu chung cư này khá tốt.",
+    "explanation_vi": "Phó từ '挺...的' dùng để biểu thị mức độ khá cao (Khá là, rất).",
     "formula": "挺 + Tính từ/心理Động từ + 的",
     "category": "Ngữ pháp",
     "examples": [
@@ -415,7 +415,7 @@
     "lesson_number": 3,
     "point_number": 2,
     "title_zh": "程度补语（1）",
-    "explanation_vi": "Mấy hôm nay tôi bận quá.",
+    "explanation_vi": "Bổ ngữ mức độ '坏了' đứng sau tính từ biểu thị mức độ cực điểm, thường dùng trong khẩu ngữ (Cực kỳ, chết mất, hỏng mất).",
     "formula": "Tính từ + 坏了",
     "category": "Ngữ pháp",
     "examples": [
@@ -482,7 +482,7 @@
     "lesson_number": 3,
     "point_number": 3,
     "title_zh": "“就”和“才”",
-    "explanation_vi": "Ngân hàng Trung Quốc rất gần, đi bộ vài phút là đến. Chiều nay tôi phải đi bệnh viện, tối muộn mới về được.",
+    "explanation_vi": "Phó từ '就' nhấn mạnh sự việc diễn ra sớm, nhanh chóng, dễ dàng. Phó từ '才' nhấn mạnh sự việc diễn ra muộn, chậm chạp, khó khăn.",
     "formula": "就/才 + Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -536,7 +536,7 @@
     "lesson_number": 4,
     "point_number": 1,
     "title_zh": "固定格式“一……也/都+不/没……”",
-    "explanation_vi": "Đồng cỏ không lạnh chút nào.",
+    "explanation_vi": "Cấu trúc phủ định hoàn toàn: Một (chút/cái) cũng không/chưa... (一点儿也不, 一个都没...).",
     "formula": "一 + Lượng từ + 也/都 + 不/没 + Động từ/Tính từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -592,7 +592,7 @@
     "lesson_number": 4,
     "point_number": 2,
     "title_zh": "比较句（9）",
-    "explanation_vi": "Khách sạn này không giống với những nơi khác.",
+    "explanation_vi": "So sánh bằng: A 跟 B 一样 (A giống B) hoặc A 跟 B 一样 + Tính từ (A ... như B).",
     "formula": "A 跟 B 一样 (+ Tính từ)",
     "category": "Ngữ pháp",
     "examples": [
@@ -647,7 +647,7 @@
     "lesson_number": 4,
     "point_number": 3,
     "title_zh": "固定格式“除了……（以外），……都/还/也……”",
-    "explanation_vi": "Ngoài vali này ra, còn đồ gì khác không?",
+    "explanation_vi": "Cấu trúc '除了...(以外)' có hai nghĩa: loại trừ (ngoài... ra thì đều) hoặc bổ sung (ngoài... ra thì còn).",
     "formula": "除了 + N + (以外)， + 都/还/也 + ...",
     "category": "Ngữ pháp",
     "examples": [
@@ -715,7 +715,7 @@
     "lesson_number": 5,
     "point_number": 1,
     "title_zh": "程度补语（2）",
-    "explanation_vi": "Thời tiết bây giờ đẹp lắm.",
+    "explanation_vi": "Bổ ngữ mức độ '得很' đứng sau tính từ/động từ tâm lý biểu thị mức độ rất cao (Lắm, cực kỳ).",
     "formula": "Tính từ + 得很",
     "category": "Ngữ pháp",
     "examples": [
@@ -769,7 +769,7 @@
     "lesson_number": 5,
     "point_number": 2,
     "title_zh": "量词重叠",
-    "explanation_vi": "Những bức ảnh này tấm nào cũng rất đẹp.",
+    "explanation_vi": "Lượng từ lặp lại (AA) mang nghĩa 'Mỗi, mọi' (Cái nào cái nấy, ai ai cũng).",
     "formula": "Lượng từ + Lượng từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -837,8 +837,8 @@
     "lesson_number": 5,
     "point_number": 3,
     "title_zh": "存现句（3）",
-    "explanation_vi": "Phía sau có hai người đi qua.",
-    "formula": "处所 + Động từ + Bổ ngữ xu hướng/Bổ ngữ kết quả + 数量 + 人/物",
+    "explanation_vi": "Câu tồn hiện miêu tả sự xuất hiện/biến mất: Địa điểm + Động từ + Xu hướng/Kết quả + Số lượng + Người/Vật.",
+    "formula": "Địa điểm + Động từ + Bổ ngữ xu hướng/Bổ ngữ kết quả + Số lượng + 人/物",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -903,7 +903,7 @@
     "lesson_number": 5,
     "point_number": 4,
     "title_zh": "紧缩复句“……了……就……”",
-    "explanation_vi": "Em nghe xong hòa nhạc thì sang nhà chị ăn cơm nhé.",
+    "explanation_vi": "Cấu trúc 'Động từ 1 + 了 + Động từ 2 + 就...' biểu thị hai hành động xảy ra liên tiếp, hành động thứ nhất hoàn thành thì hành động thứ hai diễn ra ngay.",
     "formula": "Động từ1 + 了 + 就 + Động từ2",
     "category": "Ngữ pháp",
     "examples": [
@@ -958,7 +958,7 @@
     "lesson_number": 6,
     "point_number": 1,
     "title_zh": "固定格式“该……了”",
-    "explanation_vi": "Chúng ta nên mua vé đi Thượng Hải rồi.",
+    "explanation_vi": "Cấu trúc '该...了' dùng để nhắc nhở hoặc nhận định đã đến lúc phải làm việc gì đó (Nên/Đã đến lúc... rồi).",
     "formula": "该 + Cụm động từ + 了",
     "category": "Ngữ pháp",
     "examples": [
@@ -1011,8 +1011,8 @@
     "lesson_number": 6,
     "point_number": 2,
     "title_zh": "假设复句“如果……，就……”",
-    "explanation_vi": "Nếu không đi nhầm thì đã đến từ hai mươi phút trước rồi.",
-    "formula": "如果 + 条件，就 + Kết quả",
+    "explanation_vi": "Câu phức giả thiết: '如果' (Nếu như) nêu điều kiện, '就' (thì) nêu kết quả.",
+    "formula": "如果 + Điều kiện，就 + Kết quả",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -1073,7 +1073,7 @@
     "lesson_number": 6,
     "point_number": 3,
     "title_zh": "固定短语“越来越”",
-    "explanation_vi": "Người phía trước càng lúc càng đông.",
+    "explanation_vi": "Cấu trúc '越来越' (càng ngày càng) biểu thị sự thay đổi mức độ theo thời gian.",
     "formula": "越来越 + Tính từ/心理Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1126,7 +1126,7 @@
     "lesson_number": 7,
     "point_number": 1,
     "title_zh": "连动句（2）",
-    "explanation_vi": "Chúng ta có thể đi bộ.",
+    "explanation_vi": "Câu liên động dùng trợ từ '着': Động từ 1 + 着 + Động từ 2. Biểu thị hành động 1 là phương thức, trạng thái của hành động 2.",
     "formula": "Động từ1 + 着 + Động từ2",
     "category": "Ngữ pháp",
     "examples": [
@@ -1181,7 +1181,7 @@
     "lesson_number": 7,
     "point_number": 2,
     "title_zh": "比较句（10）",
-    "explanation_vi": "Váy chẳng đắt hơn quần short là bao.",
+    "explanation_vi": "Câu so sánh phủ định dùng '不比': A 不比 B (A không hơn B, A chỉ ngang hoặc kém B).",
     "formula": "A 不比 B + Tính từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1235,7 +1235,7 @@
     "lesson_number": 7,
     "point_number": 3,
     "title_zh": "程度补语（3）",
-    "explanation_vi": "Miếng dưa hấu đá này ngọt quá.",
+    "explanation_vi": "Bổ ngữ mức độ '极了' đứng sau tính từ biểu thị mức độ cao nhất (Cực kỳ, lắm).",
     "formula": "Tính từ/心理Động từ + 极了",
     "category": "Ngữ pháp",
     "examples": [
@@ -1288,7 +1288,7 @@
     "lesson_number": 7,
     "point_number": 4,
     "title_zh": "递进复句“不但……，而且……”",
-    "explanation_vi": "Tivi bây giờ không những rẻ mà còn rất tiện dùng.",
+    "explanation_vi": "Câu phức tăng tiến: '不但' (Không những) và '而且' (mà còn) nối hai mệnh đề có ý nghĩa bổ sung, tăng tiến.",
     "formula": "不但 + A，而且 + B",
     "category": "Ngữ pháp",
     "examples": [
@@ -1354,7 +1354,7 @@
     "lesson_number": 8,
     "point_number": 1,
     "title_zh": "趋向补语的引申用法（1）",
-    "explanation_vi": "Năm nay tôi béo lên hơn chục cân, không thể béo thêm được nữa.",
+    "explanation_vi": "Bổ ngữ xu hướng '下去' mang nghĩa chuyển từ hiện tại tiếp tục hướng tới tương lai (Tiếp tục...).",
     "formula": "Động từ/Tính từ + 下去",
     "category": "Ngữ pháp",
     "examples": [
@@ -1407,8 +1407,8 @@
     "lesson_number": 8,
     "point_number": 2,
     "title_zh": "离合词（2）",
-    "explanation_vi": "Hôm qua sau khi bơi xong, tai tôi cứ hơi đau.",
-    "formula": "离合词中间插入其他成分",
+    "explanation_vi": "Khi dùng từ ly hợp, các thành phần bổ sung (số lượng, thời lượng, đại từ) phải chèn vào giữa động từ và tân ngữ.",
+    "formula": "离合Từ中间插入其他成分",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -1461,7 +1461,7 @@
     "lesson_number": 8,
     "point_number": 3,
     "title_zh": "时量补语（2）",
-    "explanation_vi": "Lần trước tôi đến bệnh viện cũng đã gần hai năm rồi.",
+    "explanation_vi": "Bổ ngữ thời lượng kết hợp với trợ từ '了' biểu thị hành động đã kéo dài trong bao lâu tính đến hiện tại.",
     "formula": "Động từ + Thời gian段 + 了",
     "category": "Ngữ pháp",
     "examples": [
@@ -1515,7 +1515,7 @@
     "lesson_number": 8,
     "point_number": 4,
     "title_zh": "固定格式“……以前/以后/前/后”",
-    "explanation_vi": "Loại thuốc này cần uống mỗi ngày một lần trước khi đi ngủ.",
+    "explanation_vi": "Cấu trúc '(Thời gian/Hành động) + 以前/以后' biểu thị thời điểm trước/sau khi xảy ra sự việc.",
     "formula": "Thời gian/事件 + 以前/以后/前/后",
     "category": "Ngữ pháp",
     "examples": [
@@ -1569,8 +1569,8 @@
     "lesson_number": 9,
     "point_number": 1,
     "title_zh": "目的复句“为了……”",
-    "explanation_vi": "Nghe nói để chuẩn bị cho hội thao, mấy bạn nam ngày nào cũng luyện bóng.",
-    "formula": "为了 + 目的， + 行动",
+    "explanation_vi": "Giới từ '为了' (Để, vì) đứng đầu câu để nêu mục đích của hành động.",
+    "formula": "为了 + Mục đích， + Hành động",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -1624,7 +1624,7 @@
     "lesson_number": 9,
     "point_number": 2,
     "title_zh": "可能补语",
-    "explanation_vi": "Đánh không tốt cũng không sao.",
+    "explanation_vi": "Bổ ngữ khả năng: Động từ + 得/不 + Bổ ngữ (kết quả/xu hướng), biểu thị có khả năng hay không thể đạt được kết quả đó.",
     "formula": "Động từ + 得/不 + Bổ ngữ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1678,7 +1678,7 @@
     "lesson_number": 9,
     "point_number": 3,
     "title_zh": "固定格式“越A越B”",
-    "explanation_vi": "Trận bóng đá hôm nay tôi càng xem càng sốt ruột.",
+    "explanation_vi": "Cấu trúc '越 A 越 B' (Càng A càng B) biểu thị sự thay đổi mức độ của B phụ thuộc vào sự phát triển của A.",
     "formula": "越 + A + 越 + B",
     "category": "Ngữ pháp",
     "examples": [
@@ -1744,7 +1744,7 @@
     "lesson_number": 10,
     "point_number": 1,
     "title_zh": "“把”字句（1）",
-    "explanation_vi": "Tôi sẽ ghi hết những bài này vào vở.",
+    "explanation_vi": "Câu chữ '把': Chủ ngữ + 把 + Tân ngữ (vật bị tác động) + Động từ + 在/到 + Địa điểm. Biểu thị sự di chuyển vật đến vị trí mới.",
     "formula": "Chủ ngữ + 把 + Tân ngữ + Động từ + 在/到 + Địa điểm",
     "category": "Ngữ pháp",
     "examples": [
@@ -1811,7 +1811,7 @@
     "lesson_number": 10,
     "point_number": 2,
     "title_zh": "固定格式“在……上/中/下”",
-    "explanation_vi": "Trong học tập, gặp vấn đề gì cũng có thể hỏi tôi.",
+    "explanation_vi": "Cấu trúc '在... 上/中/下' chỉ phương diện, điều kiện hoặc phạm vi (Trong, trên, dưới khía cạnh nào đó).",
     "formula": "在 + Danh từ + 上/中/下",
     "category": "Ngữ pháp",
     "examples": [
@@ -1865,7 +1865,7 @@
     "lesson_number": 10,
     "point_number": 3,
     "title_zh": "“把”字句（2）",
-    "explanation_vi": "Ngày mai em trả sách lại cho anh nhé.",
+    "explanation_vi": "Câu chữ '把' kết hợp với '给': Chủ ngữ + 把 + Tân ngữ + Động từ + 给 + Người nhận. Biểu thị sự chuyển giao vật.",
     "formula": "Chủ ngữ + 把 + Tân ngữ1 + Động từ + 给 + Tân ngữ2",
     "category": "Ngữ pháp",
     "examples": [
@@ -1930,7 +1930,7 @@
     "lesson_number": 11,
     "point_number": 1,
     "title_zh": "“还是”和“或者”",
-    "explanation_vi": "Chúng ta dùng máy tính trong phòng họp hay máy tính xách tay của mình? Dùng máy tính trong phòng họp hoặc máy của mình đều được.",
+    "explanation_vi": "Cả hai đều nghĩa là 'hoặc, hay là'. '还是' dùng trong câu hỏi lựa chọn. '或者' dùng trong câu trần thuật.",
     "formula": "hay là (câu hỏi) / hoặc (câu trần thuật)",
     "category": "Ngữ pháp",
     "examples": [
@@ -1984,8 +1984,8 @@
     "lesson_number": 11,
     "point_number": 2,
     "title_zh": "固定短语“看来”",
-    "explanation_vi": "Xem ra tôi không có cách giải quyết vấn đề này.",
-    "formula": "看来 + 结论",
+    "explanation_vi": "Phó từ '看来' (Xem ra, có vẻ như) đứng đầu câu, dùng để đưa ra kết luận hoặc nhận định dựa trên tình hình trước đó.",
+    "formula": "看来 + Kết luận",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -2038,7 +2038,7 @@
     "lesson_number": 11,
     "point_number": 3,
     "title_zh": "“把”字句（3）",
-    "explanation_vi": "Em cùng chị làm hết những việc này.",
+    "explanation_vi": "Câu chữ '把' mang Bổ ngữ kết quả: Chủ ngữ + 把 + Tân ngữ + Động từ + Bổ ngữ kết quả. Nhấn mạnh kết quả của hành động tác động lên vật.",
     "formula": "Chủ ngữ + 把 + Tân ngữ + Động từ + Bổ ngữ kết quả",
     "category": "Ngữ pháp",
     "examples": [
@@ -2104,7 +2104,7 @@
     "lesson_number": 11,
     "point_number": 4,
     "title_zh": "固定格式“对……来说”",
-    "explanation_vi": "Đối với tôi, cuộc sống cũng rất quan trọng.",
+    "explanation_vi": "Cấu trúc '对...来说' (Đối với... mà nói) dùng để đưa ra góc nhìn, nhận xét từ phía đối tượng được nhắc đến.",
     "formula": "对 + Đối tượng + 来说",
     "category": "Ngữ pháp",
     "examples": [
@@ -2158,7 +2158,7 @@
     "lesson_number": 12,
     "point_number": 1,
     "title_zh": "选择复句“或者……，或者……”",
-    "explanation_vi": "Hoặc mai đi, hoặc mốt đi, cô gọi điện cho em nhé.",
+    "explanation_vi": "Câu phức lựa chọn: '或者...或者...' (Hoặc là... hoặc là...) đưa ra hai phương án để lựa chọn trong câu trần thuật.",
     "formula": "hoặc + A，hoặc + B",
     "category": "Ngữ pháp",
     "examples": [
@@ -2213,7 +2213,7 @@
     "lesson_number": 12,
     "point_number": 2,
     "title_zh": "趋向补语的引申用法（2）",
-    "explanation_vi": "Mưa đã bắt đầu rơi rồi.",
+    "explanation_vi": "Bổ ngữ xu hướng '起来' mang nghĩa hành động bắt đầu và đang tiếp diễn (bắt đầu...).",
     "formula": "Động từ/Tính từ + 起来",
     "category": "Ngữ pháp",
     "examples": [
@@ -2267,8 +2267,8 @@
     "lesson_number": 12,
     "point_number": 3,
     "title_zh": "范围副词“就”",
-    "explanation_vi": "Bắc Kinh thường có tuyết, nhưng nghe nói năm nay chỉ có một lần.",
-    "formula": "就 + 数量 + Động từ",
+    "explanation_vi": "Phó từ '就' dùng trước số lượng hoặc danh từ biểu thị số lượng ít, phạm vi hẹp (Chỉ).",
+    "formula": "就 + Số lượng + Động từ",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -2321,7 +2321,7 @@
     "lesson_number": 12,
     "point_number": 4,
     "title_zh": "趋向补语的引申用法（3）",
-    "explanation_vi": "Ở đây hơn một năm qua, tôi vẫn thích bốn mùa ở Bắc Kinh hơn.",
+    "explanation_vi": "Bổ ngữ xu hướng '下来' mang nghĩa hành động cố định lại, lưu giữ lại, hoặc từ quá khứ kéo dài đến hiện tại.",
     "formula": "Động từ + 下来",
     "category": "Ngữ pháp",
     "examples": [
@@ -2375,7 +2375,7 @@
     "lesson_number": 13,
     "point_number": 1,
     "title_zh": "假设复句“……的话，就……”",
-    "explanation_vi": "Nếu các bạn có thời gian thì đến nhà tôi chơi nhé.",
+    "explanation_vi": "Cấu trúc '...(的)话' dùng ở cuối mệnh đề giả thiết (Nếu như...), kết hợp với '就' ở mệnh đề sau.",
     "formula": "A + 的话，就 + B",
     "category": "Ngữ pháp",
     "examples": [
@@ -2429,8 +2429,8 @@
     "lesson_number": 13,
     "point_number": 2,
     "title_zh": "“把”字句（4）",
-    "explanation_vi": "Em bật âm thanh to quá.",
-    "formula": "Chủ ngữ + 把 + Tân ngữ + Động từ + Bổ ngữ xu hướng/状态Bổ ngữ",
+    "explanation_vi": "Câu chữ '把' mang Bổ ngữ xu hướng hoặc Bổ ngữ trạng thái để nhấn mạnh sự thay đổi trạng thái của vật.",
+    "formula": "Chủ ngữ + 把 + Tân ngữ + Động từ + Bổ ngữ xu hướng/Trạng tháiBổ ngữ",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -2494,7 +2494,7 @@
     "lesson_number": 13,
     "point_number": 3,
     "title_zh": "并列复句“一边……，一边……”",
-    "explanation_vi": "Chúng mình vừa ăn bánh vừa trò chuyện nhé.",
+    "explanation_vi": "Cấu trúc '一边... 一边...' biểu thị hai hành động cùng được thực hiện song song tại một thời điểm (Vừa... vừa...).",
     "formula": "一边 + A，一边 + B",
     "category": "Ngữ pháp",
     "examples": [
@@ -2548,7 +2548,7 @@
     "lesson_number": 14,
     "point_number": 1,
     "title_zh": "被动句（1）",
-    "explanation_vi": "Cuốn sách này đã bị người khác mượn mất.",
+    "explanation_vi": "Câu bị động chữ '被': Người/vật bị tác động + 被 + Người/vật chủ động + Động từ + Thành phần khác. Biểu thị bị làm sao đó.",
     "formula": "Chủ ngữ + 被 + (Tân ngữ) + Động từ + 其他成分",
     "category": "Ngữ pháp",
     "examples": [
@@ -2602,7 +2602,7 @@
     "lesson_number": 14,
     "point_number": 2,
     "title_zh": "承接复句“先……，再/然后……”",
-    "explanation_vi": "Tôi muốn lên thư viện mượn sách trước, sau đó đi bơi.",
+    "explanation_vi": "Câu phức nối tiếp: '先' (Trước tiên) ... '再 / 然后' (Sau đó) biểu thị trình tự xảy ra của hành động.",
     "formula": "先 + A，再/然后 + B",
     "category": "Ngữ pháp",
     "examples": [
@@ -2669,7 +2669,7 @@
     "lesson_number": 14,
     "point_number": 3,
     "title_zh": "固定格式“×什么（啊）”",
-    "explanation_vi": "Căng thẳng gì chứ, ai cũng thích nghe em hát cả.",
+    "explanation_vi": "Cấu trúc 'Động từ/Tính từ + 什么 (啊)' dùng trong khẩu ngữ để phản bác, phủ nhận nhẹ nhàng (Làm gì mà... / Có gì mà...).",
     "formula": "×什么 (啊)",
     "category": "Ngữ pháp",
     "examples": [

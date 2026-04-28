@@ -4,7 +4,7 @@
     "lesson_number": 1,
     "point_number": 1,
     "title_zh": "汉语的基本语序",
-    "explanation_vi": "Tôi tên là Trần Thiên Trung.",
+    "explanation_vi": "Cấu trúc cơ bản của câu tiếng Trung tương tự tiếng Việt: Chủ ngữ đứng trước, sau đó là Động từ (Vị ngữ) và cuối cùng là Tân ngữ.",
     "formula": "Chủ ngữ + Vị ngữ + Tân ngữ",
     "category": "Ngữ pháp",
     "examples": [
@@ -73,7 +73,7 @@
     "lesson_number": 2,
     "point_number": 1,
     "title_zh": "汉语的基本语序",
-    "explanation_vi": "Tôi tên là Bạch Gia Nguyệt.",
+    "explanation_vi": "Cấu trúc cơ bản của câu tiếng Trung tương tự tiếng Việt: Chủ ngữ đứng trước, sau đó là Động từ (Vị ngữ) và cuối cùng là Tân ngữ.",
     "formula": "Chủ ngữ + Vị ngữ + Tân ngữ",
     "category": "Ngữ pháp",
     "examples": [
@@ -141,7 +141,7 @@
     "lesson_number": 3,
     "point_number": 1,
     "title_zh": "“是”字句",
-    "explanation_vi": "Tôi là người Pháp.",
+    "explanation_vi": "Câu chữ '是' dùng để định nghĩa, giới thiệu hoặc khẳng định. Tương đương với chữ 'là' trong tiếng Việt.",
     "formula": "Chủ ngữ + 是 + Tân ngữ",
     "category": "Ngữ pháp",
     "examples": [
@@ -214,8 +214,8 @@
     "lesson_number": 3,
     "point_number": 2,
     "title_zh": "结构助词“的”",
-    "explanation_vi": "Giáo viên tiếng Trung của Bạch Gia Nguyệt",
-    "formula": "Định ngữ + 的 + 中心语",
+    "explanation_vi": "Trợ từ kết cấu '的' nối giữa định ngữ và trung tâm ngữ, biểu thị quan hệ sở hữu hoặc tính chất. Tương đương với chữ 'của'.",
+    "formula": "Định ngữ + 的 + Trung tâm ngữ",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -278,8 +278,8 @@
     "lesson_number": 3,
     "point_number": 3,
     "title_zh": "用“吗”的是非问句",
-    "explanation_vi": "Bạn có phải là học sinh không?",
-    "formula": "陈述句 + 吗？",
+    "explanation_vi": "Thêm trợ từ '吗' vào cuối câu trần thuật để tạo thành câu hỏi Có/Không.",
+    "formula": "Câu trần thuật + 吗？",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -352,7 +352,7 @@
     "lesson_number": 4,
     "point_number": 1,
     "title_zh": "“有”字句（1）",
-    "explanation_vi": "Cô ấy có hai mươi học sinh.",
+    "explanation_vi": "Câu chữ '有' biểu thị sự sở hữu (có cái gì đó) hoặc sự tồn tại.",
     "formula": "Chủ ngữ + 有 + Tân ngữ",
     "category": "Ngữ pháp",
     "examples": [
@@ -431,7 +431,7 @@
     "lesson_number": 4,
     "point_number": 2,
     "title_zh": "数字的表达",
-    "explanation_vi": "22, 999",
+    "explanation_vi": "Cách đọc và diễn đạt các con số từ 0 đến hàng vạn trong tiếng Trung.",
     "formula": "0–99, 百, 千, 万",
     "category": "Ngữ pháp",
     "examples": [
@@ -475,7 +475,7 @@
     "lesson_number": 4,
     "point_number": 3,
     "title_zh": "语气助词“呢”（1）",
-    "explanation_vi": "Tôi có hai anh trai, còn bạn thì sao?",
+    "explanation_vi": "Trợ từ '呢' dùng ở cuối câu để hỏi ngược lại về một đối tượng đã được nhắc đến trước đó (Còn... thì sao?).",
     "formula": "A……，B呢？",
     "category": "Ngữ pháp",
     "examples": [
@@ -550,7 +550,7 @@
     "lesson_number": 4,
     "point_number": 4,
     "title_zh": "名量词和名量结构",
-    "explanation_vi": "Bốn người trong gia đình, hai anh trai",
+    "explanation_vi": "Cấu trúc Số lượng từ dùng để đếm người hoặc vật (Số từ + Lượng từ + Danh từ).",
     "formula": "Số từ + Lượng từ + (Danh từ)",
     "category": "Ngữ pháp",
     "examples": [
@@ -638,7 +638,7 @@
     "lesson_number": 5,
     "point_number": 1,
     "title_zh": "时间的表达（1）",
-    "explanation_vi": "Ngày 22 tháng 5 năm 2025, thứ Tư",
+    "explanation_vi": "Cách diễn đạt ngày tháng năm trong tiếng Trung theo thứ tự từ lớn đến nhỏ: Năm -> Tháng -> Ngày -> Thứ.",
     "formula": "年 → 月 → 日/号 → 星期",
     "category": "Ngữ pháp",
     "examples": [
@@ -704,7 +704,7 @@
     "lesson_number": 5,
     "point_number": 2,
     "title_zh": "名词谓语句",
-    "explanation_vi": "Hôm nay là ngày 1 tháng 5.",
+    "explanation_vi": "Câu có vị ngữ là danh từ hoặc cụm danh từ, thường dùng để nói về thời gian, tuổi tác, thời tiết, giá cả...",
     "formula": "Chủ ngữ + Danh từ性成分",
     "category": "Ngữ pháp",
     "examples": [
@@ -792,7 +792,7 @@
     "lesson_number": 5,
     "point_number": 3,
     "title_zh": "能愿动词“会”",
-    "explanation_vi": "Tôi biết nấu ăn.",
+    "explanation_vi": "Động từ năng nguyện '会' biểu thị khả năng biết làm một việc gì đó thông qua quá trình học tập, rèn luyện.",
     "formula": "会 + Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -859,7 +859,7 @@
     "lesson_number": 6,
     "point_number": 1,
     "title_zh": "能愿动词“想”",
-    "explanation_vi": "Tôi muốn đi siêu thị.",
+    "explanation_vi": "Động từ năng nguyện '想' biểu thị mong muốn, ý định hoặc dự định làm một việc gì đó (muốn...).",
     "formula": "想 + Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -933,7 +933,7 @@
     "lesson_number": 6,
     "point_number": 2,
     "title_zh": "连动句（1）",
-    "explanation_vi": "Tôi đi siêu thị mua đồ.",
+    "explanation_vi": "Câu liên động là câu có hai hoặc nhiều động từ/cụm động từ đứng liền nhau để biểu thị các hành động xảy ra liên tiếp hoặc hành động sau là mục đích của hành động trước.",
     "formula": "Cụm động từ + Cụm động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1039,7 +1039,7 @@
     "lesson_number": 6,
     "point_number": 3,
     "title_zh": "疑问代词“怎么”",
-    "explanation_vi": "Bạn đi siêu thị bằng cách nào?",
+    "explanation_vi": "Đại từ nghi vấn '怎么' (thế nào, sao) dùng để hỏi về phương thức của hành động hoặc nguyên nhân của sự việc.",
     "formula": "怎么 + Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1133,7 +1133,7 @@
     "lesson_number": 7,
     "point_number": 1,
     "title_zh": "时间的表达（2）",
-    "explanation_vi": "10 giờ 10 phút sáng",
+    "explanation_vi": "Cách diễn đạt giờ phút cơ bản trong tiếng Trung (Giờ + Điểm, Phút + Phân).",
     "formula": "点 + 分",
     "category": "Ngữ pháp",
     "examples": [
@@ -1216,7 +1216,7 @@
     "lesson_number": 7,
     "point_number": 2,
     "title_zh": "语气助词“吧”（1）",
-    "explanation_vi": "Chúng mình gặp nhau lúc 2 giờ chiều nhé.",
+    "explanation_vi": "Trợ từ '吧' đặt ở cuối câu để đưa ra lời đề nghị, yêu cầu, mệnh lệnh hoặc sự đồng ý nhẹ nhàng (nhé, đi, thôi).",
     "formula": "Câu + 吧",
     "category": "Ngữ pháp",
     "examples": [
@@ -1322,7 +1322,7 @@
     "lesson_number": 7,
     "point_number": 3,
     "title_zh": "副词、时间词语作状语的位置",
-    "explanation_vi": "Chiều nay tôi không đi học.",
+    "explanation_vi": "Phó từ và Từ chỉ thời gian thường đứng trước Động từ/Tính từ để làm trạng ngữ.",
     "formula": "Từ chỉ thời gian + Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1434,7 +1434,7 @@
     "lesson_number": 7,
     "point_number": 4,
     "title_zh": "语气助词“呢”（2）",
-    "explanation_vi": "Chiều nay tôi vẫn còn tiết học đấy.",
+    "explanation_vi": "Trợ từ '呢' dùng ở cuối câu trần thuật để nhấn mạnh sự việc đang tiếp diễn hoặc xác nhận một sự thật.",
     "formula": "Câu + 呢",
     "category": "Ngữ pháp",
     "examples": [
@@ -1500,7 +1500,7 @@
     "lesson_number": 8,
     "point_number": 1,
     "title_zh": "方位词",
-    "explanation_vi": "Trong phòng có một chú mèo nhỏ.",
+    "explanation_vi": "Các từ chỉ phương hướng, vị trí (trên, dưới, trong, ngoài, trước, sau...).",
     "formula": "上、下、里、外、前、后、外边",
     "category": "Ngữ pháp",
     "examples": [
@@ -1607,7 +1607,7 @@
     "lesson_number": 8,
     "point_number": 2,
     "title_zh": "介词“在”",
-    "explanation_vi": "Tôi ăn trưa ở trường.",
+    "explanation_vi": "Giới từ '在' kết hợp với từ chỉ địa điểm đứng trước động từ để chỉ nơi chốn xảy ra hành động (Làm gì ở đâu).",
     "formula": "在 + Địa điểm + Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1719,7 +1719,7 @@
     "lesson_number": 8,
     "point_number": 3,
     "title_zh": "能愿动词“能”",
-    "explanation_vi": "2 giờ chiều bạn có thể đến được không?",
+    "explanation_vi": "Động từ năng nguyện '能' biểu thị khả năng hoặc điều kiện cho phép thực hiện hành động (có thể).",
     "formula": "能 + Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -1837,8 +1837,8 @@
     "lesson_number": 9,
     "point_number": 1,
     "title_zh": "存现句（1）",
-    "explanation_vi": "Trên bàn có một quyển sách.",
-    "formula": "处所 + 有/是 + 人/物",
+    "explanation_vi": "Câu tồn hiện dùng để miêu tả ở một địa điểm nào đó có sự tồn tại hoặc xuất hiện của người/vật.",
+    "formula": "Địa điểm + 有/是 + 人/物",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -1937,8 +1937,8 @@
     "lesson_number": 9,
     "point_number": 2,
     "title_zh": "时间词语和处所词语同时作状语的顺序",
-    "explanation_vi": "Chúng ta gặp nhau lúc 7 giờ ở bên ngoài rạp chiếu phim.",
-    "formula": "Thời gian + 处所 + Động từ",
+    "explanation_vi": "Khi cả thời gian và địa điểm cùng làm trạng ngữ, thời gian thường đứng trước địa điểm.",
+    "formula": "Thời gian + Địa điểm + Động từ",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -2049,7 +2049,7 @@
     "lesson_number": 9,
     "point_number": 3,
     "title_zh": "表示序数的“第”",
-    "explanation_vi": "Thứ nhất, học sinh thứ nhất",
+    "explanation_vi": "Dùng '第' thêm vào trước số từ để tạo thành số thứ tự (thứ nhất, thứ hai...).",
     "formula": "第 + Số từ + (Lượng từ) + (Danh từ)",
     "category": "Ngữ pháp",
     "examples": [
@@ -2109,7 +2109,7 @@
     "lesson_number": 10,
     "point_number": 1,
     "title_zh": "钱数的表达",
-    "explanation_vi": "3,2 tệ, 6,02 tệ",
+    "explanation_vi": "Cách diễn đạt tiền tệ trong tiếng Trung (Tệ/Đồng, Hào, Xu).",
     "formula": "元/块 + 角/毛 + 分",
     "category": "Ngữ pháp",
     "examples": [
@@ -2152,7 +2152,7 @@
     "lesson_number": 10,
     "point_number": 2,
     "title_zh": "形容词谓语句",
-    "explanation_vi": "Hoa quả ở đây thật không ít!",
+    "explanation_vi": "Câu có vị ngữ là tính từ dùng để miêu tả tính chất, trạng thái của người hoặc vật. Thường đi kèm phó từ chỉ mức độ như '很'.",
     "formula": "Chủ ngữ + Tính từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -2252,7 +2252,7 @@
     "lesson_number": 10,
     "point_number": 3,
     "title_zh": "疑问代词“怎么样”",
-    "explanation_vi": "Chiếc áo này thế nào?",
+    "explanation_vi": "Đại từ nghi vấn '怎么样' (như thế nào) dùng để hỏi về tính chất, tình trạng hoặc xin ý kiến.",
     "formula": "……怎么样？",
     "category": "Ngữ pháp",
     "examples": [
@@ -2340,7 +2340,7 @@
     "lesson_number": 11,
     "point_number": 1,
     "title_zh": "正反问",
-    "explanation_vi": "Nó có ở sau siêu thị không?",
+    "explanation_vi": "Câu hỏi chính phản được tạo bằng cách đặt dạng khẳng định và phủ định của động từ/tính từ liền nhau (V không V).",
     "formula": "Động từ + 不/没 + Động từ / Tính từ + 不 + Tính từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -2424,7 +2424,7 @@
     "lesson_number": 11,
     "point_number": 2,
     "title_zh": "时间副词“在/正在”",
-    "explanation_vi": "Anh ấy đang xem tivi.",
+    "explanation_vi": "Phó từ '在' hoặc '正在' đứng trước động từ biểu thị hành động đang diễn ra (đang).",
     "formula": "在/正在 + Động từ + (呢)",
     "category": "Ngữ pháp",
     "examples": [
@@ -2530,7 +2530,7 @@
     "lesson_number": 11,
     "point_number": 3,
     "title_zh": "能愿动词“要”",
-    "explanation_vi": "Hôm nay anh ấy muốn chơi với các bạn nhỏ.",
+    "explanation_vi": "Động từ năng nguyện '要' biểu thị mong muốn mạnh mẽ hoặc nhu cầu, yêu cầu tất yếu (phải, muốn).",
     "formula": "要 + Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -2679,8 +2679,8 @@
     "lesson_number": 12,
     "point_number": 1,
     "title_zh": "非主谓句",
-    "explanation_vi": "Trời mưa rồi.",
-    "formula": "词/Cụm từ，无Chủ ngữVị ngữ之分",
+    "explanation_vi": "Câu không có chủ ngữ - vị ngữ rõ ràng, thường dùng trong câu cảm thán, chào hỏi hoặc miêu tả thời tiết.",
+    "formula": "Từ/Cụm từ，Không có Chủ ngữVị ngữ phân biệt",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -2744,7 +2744,7 @@
     "lesson_number": 12,
     "point_number": 2,
     "title_zh": "语气助词“了（1）”",
-    "explanation_vi": "Trời mưa rồi (trước không mưa).",
+    "explanation_vi": "Trợ từ ngữ khí '了' đặt ở cuối câu để biểu thị một sự thay đổi hoặc một tình huống mới đã xuất hiện (rồi).",
     "formula": "Câu + 了",
     "category": "Ngữ pháp",
     "examples": [
@@ -2810,7 +2810,7 @@
     "lesson_number": 12,
     "point_number": 3,
     "title_zh": "“太……了”格式",
-    "explanation_vi": "Lạnh quá!",
+    "explanation_vi": "Cấu trúc '太...了' dùng để biểu thị mức độ cao (quá, lắm), thường mang sắc thái cảm thán.",
     "formula": "太 + Tính từ + 了",
     "category": "Ngữ pháp",
     "examples": [
@@ -2926,7 +2926,7 @@
     "lesson_number": 13,
     "point_number": 1,
     "title_zh": "能愿动词“可以”",
-    "explanation_vi": "Tôi có thể hỏi cô thêm một câu được không?",
+    "explanation_vi": "Động từ năng nguyện '可以' biểu thị sự cho phép hoặc khả năng khách quan (có thể, được).",
     "formula": "可以 + Động từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -3004,7 +3004,7 @@
     "lesson_number": 13,
     "point_number": 2,
     "title_zh": "“动词+一下”结构",
-    "explanation_vi": "Bạn có thể gọi điện hỏi thử.",
+    "explanation_vi": "Cấu trúc 'Động từ + 一下' dùng để biểu thị hành động diễn ra trong thời gian ngắn hoặc mang ngữ khí nhẹ nhàng, làm thử (một lát, một chút).",
     "formula": "Động từ + 一下",
     "category": "Ngữ pháp",
     "examples": [
@@ -3096,8 +3096,8 @@
     "lesson_number": 13,
     "point_number": 3,
     "title_zh": "双宾语句（1）",
-    "explanation_vi": "Làm ơn cho tôi một cốc sữa.",
-    "formula": "Động từ + 间接Tân ngữ + 直接Tân ngữ",
+    "explanation_vi": "Câu hai tân ngữ: Động từ + Tân ngữ gián tiếp (người) + Tân ngữ trực tiếp (vật).",
+    "formula": "Động từ + Gián tiếp Tân ngữ + Trực tiếp Tân ngữ",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -3207,7 +3207,7 @@
     "lesson_number": 14,
     "point_number": 1,
     "title_zh": "动态助词“了（2）”",
-    "explanation_vi": "Tôi đã xem một bộ phim.",
+    "explanation_vi": "Trợ từ động thái '了' đứng ngay sau động từ để biểu thị hành động đã hoàn thành.",
     "formula": "Động từ + 了",
     "category": "Ngữ pháp",
     "examples": [
@@ -3318,8 +3318,8 @@
     "lesson_number": 14,
     "point_number": 2,
     "title_zh": "离合词（1）",
-    "explanation_vi": "Lên lớp → đã lên lớp; ngủ → đã ngủ một giấc",
-    "formula": "可分可合",
+    "explanation_vi": "Từ ly hợp là loại động từ có cấu trúc Động-Tân, có thể dùng liền nhau hoặc tách ra chèn thêm thành phần khác vào giữa.",
+    "formula": "Có thể tách ra hoặc gộp lại",
     "category": "Ngữ pháp",
     "examples": [
       {
@@ -3389,7 +3389,7 @@
     "lesson_number": 14,
     "point_number": 3,
     "title_zh": "范围副词“都”",
-    "explanation_vi": "Chúng tôi đều biết viết rồi.",
+    "explanation_vi": "Phó từ '都' (đều) biểu thị phạm vi bao quát toàn bộ các đối tượng đã nhắc đến phía trước.",
     "formula": "都 + Động từ/Tính từ",
     "category": "Ngữ pháp",
     "examples": [
@@ -3500,8 +3500,8 @@
     "lesson_number": 15,
     "point_number": 1,
     "title_zh": "并列复句“……，还/也……”",
-    "explanation_vi": "Tôi thích cái này, cũng thích cái kia.",
-    "formula": "小句1，还/也 + 小句2",
+    "explanation_vi": "Câu phức đẳng lập dùng '还/也' để nối hai mệnh đề song song, biểu thị sự bổ sung (còn, cũng).",
+    "formula": "Mệnh đề 1，还/也 + Mệnh đề 2",
     "category": "Ngữ pháp",
     "examples": [
       {
