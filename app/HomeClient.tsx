@@ -20,8 +20,7 @@ import {
   Sparkles,
   ChevronRight,
   X,
-  Mail,
-  Zap
+  Mail
 } from 'lucide-react';
 import { useUser } from '@clerk/nextjs';
 import HSK30InfoModal from '@/components/HSK30InfoModal';
