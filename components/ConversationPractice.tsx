@@ -209,7 +209,7 @@ const ConversationPractice: React.FC<ConversationPracticeProps> = ({ dialogue, t
     <div className="bg-white rounded-[2rem] md:rounded-[3rem] border border-gray-100 p-5 md:p-12 animate-in zoom-in-95 duration-300">
 
       {/* ── Header & Tab nav ─────────────────────────────────────────────── */}
-      <div className="flex flex-col mb-10 pb-6 border-b border-gray-50">
+      <div className="flex flex-col mb-10 pb-6 border-b border-gray-50 sticky top-0 lg:relative z-20 bg-white/95 backdrop-blur-sm">
         <div className="flex items-start md:items-center justify-between mb-8 gap-2">
           <button
             onClick={onBack}

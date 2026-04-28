@@ -327,13 +327,19 @@ export default function LessonDetail() {
           <main className="lg:w-3/4">
             
             {/* TABS NAVIGATION (As seen in image 5) */}
-            <nav className="flex items-center gap-2 p-1.5 rounded-[2rem] bg-gray-50/80 backdrop-blur-md border border-gray-100 mb-10 overflow-x-auto no-scrollbar scroll-smooth">
+            <nav className="flex items-center gap-2 p-1.5 rounded-[2rem] bg-gray-50/80 backdrop-blur-md border border-gray-100 mb-10 overflow-x-auto no-scrollbar scroll-smooth sticky top-[80px] lg:relative lg:top-0 z-40">
               {TABS.map((tab) => {
                 const isActive = activeTab === tab.id;
                 return (
                   <button
                     key={tab.id}
-                    onClick={() => setActiveTab(tab.id)}
+                    onClick={() => {
+                      setActiveTab(tab.id);
+                      // Scroll to top of content area on mobile
+                      if (window.innerWidth < 1024) {
+                        window.scrollTo({ top: 300, behavior: 'smooth' });
+                      }
+                    }}
                     className={`flex items-center gap-2 px-6 py-4 rounded-[1.5rem] text-xs font-black transition-all whitespace-nowrap ${
                       isActive 
                         ? `${theme.bg} text-white shadow-xl shadow-current/20` 
@@ -359,7 +365,7 @@ export default function LessonDetail() {
                             <span className="text-sm font-black text-gray-200 mt-3">{i + 1 < 10 ? `0${i+1}` : i+1}</span>
                             <div>
                                <div className="flex items-baseline gap-4 mb-3">
-                                  <h3 className="text-5xl font-black text-gray-900 tracking-tighter group-hover:text-brand transition-colors">{v.hanzi}</h3>
+                                  <h3 className="text-4xl md:text-5xl font-black text-gray-900 tracking-tighter group-hover:text-brand transition-colors">{v.hanzi}</h3>
                                   <span className={`text-xl font-bold italic font-serif ${theme.color}`}>{v.pinyin}</span>
                                   {v.part_of_speech && <span className="text-xs bg-gray-100 text-gray-400 px-2 py-1 rounded-lg uppercase font-black">{v.part_of_speech}</span>}
                                </div>
@@ -509,7 +515,7 @@ export default function LessonDetail() {
                                 <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 gap-4">
                                    <h4 className="text-xs font-black text-gray-400 uppercase tracking-widest">Ví dụ:</h4>
                                    {/* Grammar Legend */}
-                                   <div className="flex gap-4 text-[10px] font-bold uppercase tracking-tighter">
+                                   <div className="flex flex-wrap gap-3 md:gap-4 text-[9px] md:text-[10px] font-bold uppercase tracking-tighter">
                                       <div className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-blue-500"></span><span className="text-blue-600">Chủ ngữ</span></div>
                                       <div className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-rose-500"></span><span className="text-rose-600">Vị ngữ</span></div>
                                       <div className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-emerald-500"></span><span className="text-emerald-600">Tân ngữ</span></div>

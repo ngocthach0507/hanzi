@@ -24,6 +24,7 @@ import {
 import { trackEvent } from '@/lib/gtag';
 
 export default function ExamInterface() {
+  const questionAreaRef = React.useRef<HTMLDivElement>(null);
   const { user, isLoaded: isUserLoaded } = useUser();
   const params = useParams();
   const router = useRouter();
@@ -115,6 +116,21 @@ export default function ExamInterface() {
 
   const handleAnswerSelect = (optionIdx: number) => {
     setAnswers(prev => ({ ...prev, [currentQuestion]: optionIdx }));
+  };
+
+  const goToQuestion = (idx: number) => {
+    setCurrentQuestion(idx);
+    // Auto-scroll to question area on mobile
+    if (window.innerWidth < 1024 && questionAreaRef.current) {
+      const offset = 220; // Header + Navigator height
+      const elementPosition = questionAreaRef.current.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
   };
 
   const handleFinish = (auto = false) => {
@@ -256,19 +272,19 @@ export default function ExamInterface() {
           
           {/* Question Navigator (Left on Desktop, Top on Mobile) */}
           <div className="lg:w-1/4">
-            <div className="bg-white rounded-[48px] p-10 border border-gray-100 shadow-sm sticky top-36 max-h-[calc(100vh-180px)] flex flex-col">
-              <h3 className="text-lg font-black text-gray-900 mb-8 flex items-center gap-4">
-                <BarChart3 size={24} className="text-blue-600" /> Tiến độ làm bài
+            <div className="bg-white rounded-[24px] md:rounded-[48px] p-4 md:p-10 border border-gray-100 shadow-lg md:shadow-sm sticky top-[88px] lg:top-36 z-40 lg:z-30 max-h-[calc(100vh-120px)] lg:max-h-[calc(100vh-180px)] flex flex-col transition-all">
+              <h3 className="text-sm md:text-lg font-black text-gray-900 mb-4 md:mb-8 flex items-center gap-4">
+                <BarChart3 size={20} className="text-blue-600" /> <span className="whitespace-nowrap">Tiến độ làm bài</span>
               </h3>
               
-              <div className="grid grid-cols-4 sm:grid-cols-5 lg:grid-cols-4 gap-3 overflow-y-auto pr-3 custom-scrollbar flex-1 pb-4">
+              <div className="flex lg:grid lg:grid-cols-4 sm:grid-cols-5 gap-2 md:gap-3 overflow-x-auto lg:overflow-y-auto no-scrollbar lg:custom-scrollbar flex-1 pb-2 lg:pb-4 lg:pr-3">
                 {Array.from({ length: examData.totalQuestions }, (_, i) => (
                   <button
                     key={i}
-                    onClick={() => setCurrentQuestion(i)}
-                    className={`aspect-square rounded-[18px] flex items-center justify-center text-sm font-black transition-all ${
+                    onClick={() => goToQuestion(i)}
+                    className={`min-w-[40px] md:min-w-0 aspect-square rounded-[12px] md:rounded-[18px] flex items-center justify-center text-xs md:text-sm font-black transition-all shrink-0 ${
                       currentQuestion === i 
-                      ? 'bg-blue-600 text-white shadow-xl scale-110 ring-4 ring-blue-100' 
+                      ? 'bg-blue-600 text-white shadow-xl scale-110 ring-2 md:ring-4 ring-blue-100' 
                       : (answers[i] !== undefined ? 'bg-emerald-100 text-emerald-700' : 'bg-gray-50 text-gray-300 hover:bg-gray-100')
                     }`}
                   >
@@ -277,7 +293,7 @@ export default function ExamInterface() {
                 ))}
               </div>
 
-              <div className="mt-8 pt-8 border-t border-gray-50 space-y-4">
+              <div className="hidden lg:block mt-8 pt-8 border-t border-gray-50 space-y-4">
                  <div className="flex items-center gap-4 text-[10px] font-bold text-gray-400 uppercase tracking-widest">
                     <div className="w-3.5 h-3.5 bg-blue-600 rounded-md shadow-sm"></div> Đang làm
                  </div>
@@ -292,7 +308,7 @@ export default function ExamInterface() {
           </div>
 
           {/* Main Question Area (Right) */}
-          <div className="lg:w-3/4 flex flex-col">
+          <div ref={questionAreaRef} className="lg:w-3/4 flex flex-col">
             {/* Audio Section */}
             {q.section?.toLowerCase().includes('nghe') && (
               <div className="bg-gray-950 text-white p-10 rounded-[48px] mb-8 flex flex-col md:flex-row items-center gap-10 shadow-2xl relative overflow-hidden group">
@@ -322,21 +338,21 @@ export default function ExamInterface() {
               </div>
             )}
 
-            <div className="bg-white rounded-[60px] shadow-sm border border-gray-100 flex-1 p-10 md:p-16 flex flex-col justify-center min-h-[500px] relative">
-              <div className="mb-16 text-center">
+            <div className="bg-white rounded-[32px] md:rounded-[60px] shadow-sm border border-gray-100 flex-1 p-6 md:p-16 flex flex-col justify-center min-h-[400px] md:min-h-[500px] relative">
+              <div className="mb-10 md:mb-16 text-center">
                 {!q.section?.toLowerCase().includes('nghe') && (
                   <>
-                    <div className="inline-flex px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-[10px] font-black uppercase tracking-widest mb-10 shadow-sm border border-blue-100/50">
+                    <div className="inline-flex px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-[9px] md:text-[10px] font-black uppercase tracking-widest mb-6 md:mb-10 shadow-sm border border-blue-100/50">
                       {q.section}
                     </div>
-                    <div className={`${(q.q?.length > 40) ? 'text-2xl md:text-3xl lg:text-4xl leading-normal' : 'text-3xl md:text-5xl leading-tight'} font-black text-gray-900 tracking-tight mb-8`}>
+                    <div className={`${(q.q?.length > 40) ? 'text-xl md:text-3xl lg:text-4xl leading-normal' : 'text-2xl md:text-5xl leading-tight'} font-black text-gray-900 tracking-tight mb-8`}>
                        {q.q}
                     </div>
                   </>
                 )}
                 {q.section?.toLowerCase().includes('nghe') && (
-                  <div className="flex flex-col items-center gap-10 py-12">
-                     <div className={`${(q.q?.length > 40) ? 'text-2xl md:text-3xl lg:text-4xl leading-normal' : 'text-3xl md:text-5xl leading-tight'} font-black text-gray-900 tracking-tight mb-8`}>
+                  <div className="flex flex-col items-center gap-6 md:gap-10 py-6 md:py-12">
+                     <div className={`${(q.q?.length > 40) ? 'text-xl md:text-3xl lg:text-4xl leading-normal' : 'text-2xl md:text-5xl leading-tight'} font-black text-gray-900 tracking-tight mb-8`}>
                        {q.q}
                      </div>
                   </div>
@@ -344,24 +360,24 @@ export default function ExamInterface() {
               </div>
 
               {/* Options Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 {q.options.map((option: any, idx: number) => (
                   <button
                     key={idx}
                     onClick={() => handleAnswerSelect(idx)}
-                    className={`p-10 rounded-[32px] border-2 text-2xl font-black transition-all text-left flex items-center justify-between group shadow-sm ${
+                    className={`p-6 md:p-10 rounded-[24px] md:rounded-[32px] border-2 text-lg md:text-2xl font-black transition-all text-left flex items-center justify-between group shadow-sm ${
                       answers[currentQuestion] === idx 
-                      ? 'border-blue-600 bg-blue-50 text-blue-900 scale-[1.03] shadow-xl shadow-blue-100' 
-                      : 'border-gray-50 bg-gray-50 text-gray-500 hover:border-blue-200 hover:bg-white hover:scale-[1.02]'
+                      ? 'border-blue-600 bg-blue-50 text-blue-900 scale-[1.02] md:scale-[1.03] shadow-xl shadow-blue-100' 
+                      : 'border-gray-50 bg-gray-50 text-gray-500 hover:border-blue-200 hover:bg-white hover:scale-[1.01] md:hover:scale-[1.02]'
                     }`}
                   >
-                    <div className="flex items-center gap-8">
-                      <span className={`w-12 h-12 rounded-2xl flex items-center justify-center text-sm font-black shadow-sm transition-all ${answers[currentQuestion] === idx ? 'bg-blue-600 text-white' : 'bg-white text-gray-300 border border-gray-100'}`}>
+                    <div className="flex items-center gap-4 md:gap-8">
+                      <span className={`w-10 h-10 md:w-12 md:h-12 rounded-xl md:rounded-2xl flex items-center justify-center text-xs md:text-sm font-black shadow-sm transition-all ${answers[currentQuestion] === idx ? 'bg-blue-600 text-white' : 'bg-white text-gray-300 border border-gray-100'}`}>
                         {String.fromCharCode(65 + idx)}
                       </span>
                       <span className="leading-tight">{option}</span>
                     </div>
-                    <div className={`w-8 h-8 rounded-full border-2 p-1 transition-all ${answers[currentQuestion] === idx ? 'border-blue-600' : 'border-gray-200 opacity-0 group-hover:opacity-100'}`}>
+                    <div className={`w-6 h-6 md:w-8 md:h-8 rounded-full border-2 p-1 transition-all ${answers[currentQuestion] === idx ? 'border-blue-600' : 'border-gray-200 opacity-0 group-hover:opacity-100'}`}>
                        <div className={`w-full h-full rounded-full transition-all ${answers[currentQuestion] === idx ? 'bg-blue-600 scale-100' : 'bg-gray-100 scale-0'}`}></div>
                     </div>
                   </button>
@@ -370,26 +386,26 @@ export default function ExamInterface() {
             </div>
 
             {/* Pagination Controls */}
-            <div className="mt-10 flex justify-between items-center bg-white/50 backdrop-blur-md p-6 rounded-[40px] border border-white shadow-xl shadow-gray-200/50">
+            <div className="mt-8 flex justify-between items-center bg-white/50 backdrop-blur-md p-4 md:p-6 rounded-[32px] md:rounded-[40px] border border-white shadow-xl shadow-gray-200/50">
               <button 
                 disabled={currentQuestion === 0}
-                onClick={() => setCurrentQuestion(currentQuestion - 1)}
-                className="w-20 h-20 bg-white border-2 border-gray-100 rounded-full flex items-center justify-center text-gray-400 disabled:opacity-20 hover:border-blue-400 hover:text-blue-500 transition-all shadow-sm active:scale-90"
+                onClick={() => goToQuestion(currentQuestion - 1)}
+                className="w-14 h-14 md:w-20 md:h-20 bg-white border-2 border-gray-100 rounded-full flex items-center justify-center text-gray-400 disabled:opacity-20 hover:border-blue-400 hover:text-blue-500 transition-all shadow-sm active:scale-90"
               >
-                <ChevronLeft size={36} />
+                <ChevronLeft size={24} md:size={36} />
               </button>
               
-              <div className="text-sm font-black text-gray-400 uppercase tracking-[0.3em] flex flex-col items-center">
+              <div className="text-[10px] md:text-sm font-black text-gray-400 uppercase tracking-widest md:tracking-[0.3em] flex flex-col items-center">
                 <span>Trạng thái</span>
-                <span className="text-gray-900 text-xl tracking-normal mt-1">{Object.keys(answers).length} / {examData.totalQuestions}</span>
+                <span className="text-gray-900 text-lg md:text-xl tracking-normal mt-1">{Object.keys(answers).length} / {examData.totalQuestions}</span>
               </div>
 
               <button 
-                onClick={() => currentQuestion < examData.totalQuestions - 1 ? setCurrentQuestion(currentQuestion + 1) : handleFinish()}
-                className="px-16 h-20 bg-gray-900 text-white rounded-[32px] font-black text-xl hover:bg-black transition-all flex items-center gap-4 shadow-2xl shadow-gray-400 active:scale-95"
+                onClick={() => currentQuestion < examData.totalQuestions - 1 ? goToQuestion(currentQuestion + 1) : handleFinish()}
+                className="px-8 md:px-16 h-14 md:h-20 bg-gray-900 text-white rounded-[20px] md:rounded-[32px] font-black text-base md:text-xl hover:bg-black transition-all flex items-center gap-2 md:gap-4 shadow-2xl shadow-gray-400 active:scale-95"
               >
                 {currentQuestion < examData.totalQuestions - 1 ? 'Kế tiếp' : 'Hoàn tất'} 
-                <ChevronRight size={24} />
+                <ChevronRight size={20} md:size={24} />
               </button>
             </div>
           </div>
