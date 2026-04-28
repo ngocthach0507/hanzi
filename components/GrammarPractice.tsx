@@ -179,7 +179,7 @@ const GrammarPractice: React.FC<GrammarPracticeProps> = ({ exercises, theme }) =
 
         {/* Action Buttons */}
         <div className="flex gap-4">
-          {status !== 'correct' ? (
+          {status === 'idle' ? (
             <button
               onClick={checkAnswer}
               disabled={ (currentEx.type === 'reorder' && selectedSegments.length === 0) || (currentEx.type !== 'reorder' && !userInput.trim()) }
