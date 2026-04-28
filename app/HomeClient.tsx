@@ -20,13 +20,16 @@ import {
   Sparkles,
   ChevronRight,
   X,
-  Mail
+  Mail,
+  Zap
 } from 'lucide-react';
 import { useUser } from '@clerk/nextjs';
+import HSK30InfoModal from '@/components/HSK30InfoModal';
 
 export default function HomeClient() {
   const { user } = useUser();
   const [isBetaModalOpen, setIsBetaModalOpen] = useState(false);
+  const [isHSKModalOpen, setIsHSKModalOpen] = useState(false);
   
   const features = [
     { title: 'Giáo trình HSK', desc: 'Học theo chuẩn HSK 3.0 từ cấp 1-3', count: '48 bài', icon: <BookText className="w-6 h-6 text-blue-400" />, href: '/giao-trinh', color: 'blue' },
@@ -81,16 +84,12 @@ export default function HomeClient() {
               <span className="text-[9px] md:text-[10px] font-bold opacity-80 uppercase tracking-widest text-center mt-1">Khám phá lộ trình HSK 3.0 phù hợp với bạn</span>
             </Link>
 
-            {/* DEMO BUTTON */}
+            {/* HSK 3.0 INFO BUTTON */}
             <button 
-              onClick={() => {
-                const videoSection = document.getElementById('features-demo');
-                if (videoSection) videoSection.scrollIntoView({ behavior: 'smooth' });
-                else alert('Video Demo đang được đội ngũ Hongdou hoàn thiện. Bạn hãy trải nghiệm trực tiếp qua nút "Học thử" nhé!');
-              }}
+              onClick={() => setIsHSKModalOpen(true)}
               className="px-8 py-4 md:px-10 md:py-6 bg-white text-gray-900 border-2 border-gray-100 rounded-3xl font-black text-lg md:text-xl hover:bg-gray-50 transition-all flex items-center justify-center gap-3 shadow-sm w-full sm:w-auto"
             >
-              Xem Demo <Sparkles className="w-5 h-5 md:w-6 md:h-6 text-orange-400" />
+              TÌM HIỂU HSK 3.0 <Zap size={20} className="text-[#D85A30]" fill="currentColor" />
             </button>
           </div>
           
@@ -541,6 +540,10 @@ export default function HomeClient() {
           </div>
         </div>
       )}
+      <HSK30InfoModal 
+        isOpen={isHSKModalOpen} 
+        onClose={() => setIsHSKModalOpen(false)} 
+      />
     </>
   );
 }
