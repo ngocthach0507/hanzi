@@ -13,10 +13,36 @@ import {
   Activity,
   CheckCircle2
 } from 'lucide-react';
+import { supabase } from '@/lib/supabase';
+import { useUser } from '@clerk/nextjs';
 
 export default function TopicLessonList() {
   const params = useParams();
   const topicSlug = params.topic?.toString() || '';
+  const { user, isLoaded: isUserLoaded } = useUser();
+  const [isPremium, setIsPremium] = React.useState(false);
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    async function checkSubscription() {
+      if (!isUserLoaded) return;
+      
+      if (user) {
+        const { data: subData } = await supabase
+          .from('subscriptions')
+          .select('plan, status, expires_at')
+          .eq('user_id', user.id)
+          .single();
+        
+        if (subData && subData.plan && subData.plan !== 'free' && subData.status === 'active' &&
+            (subData.expires_at ? new Date(subData.expires_at) > new Date() : false)) {
+          setIsPremium(true);
+        }
+      }
+      setLoading(false);
+    }
+    checkSubscription();
+  }, [isUserLoaded, user]);
 
   const lessons = Array.from({ length: 10 }, (_, i) => ({
     id: i + 1,
@@ -65,41 +91,44 @@ export default function TopicLessonList() {
 
         {/* Lesson List */}
         <div className="space-y-4">
-          {lessons.map((lesson) => (
-            <div 
-              key={lesson.id}
-              className={`group bg-white p-6 rounded-3xl border border-gray-100 transition-all flex items-center justify-between ${!lesson.is_free ? 'opacity-80' : 'hover:shadow-lg hover:border-orange-100'}`}
-            >
-              <div className="flex items-center gap-6">
-                <div className={`w-14 h-14 rounded-2xl flex items-center justify-center font-black text-xl ${lesson.is_free ? 'bg-orange-50 text-orange-600' : 'bg-gray-50 text-gray-300'}`}>
-                  {lesson.id}
-                </div>
-                <div>
-                  <h3 className="font-bold text-gray-900 mb-1">{lesson.title}</h3>
-                  <div className="flex items-center gap-4 text-xs font-bold text-gray-400 uppercase tracking-tighter">
-                    <span className="flex items-center gap-1"><BookOpen size={12} /> {lesson.word_count} từ vựng</span>
-                    {lesson.status === 'completed' && <span className="flex items-center gap-1 text-green-500"><CheckCircle2 size={12} /> Đã thuộc</span>}
+          {lessons.map((lesson) => {
+            const canAccess = lesson.is_free || isPremium;
+            return (
+              <div 
+                key={lesson.id}
+                className={`group bg-white p-6 rounded-3xl border border-gray-100 transition-all flex items-center justify-between ${!canAccess ? 'opacity-80' : 'hover:shadow-lg hover:border-orange-100'}`}
+              >
+                <div className="flex items-center gap-6">
+                  <div className={`w-14 h-14 rounded-2xl flex items-center justify-center font-black text-xl ${canAccess ? 'bg-orange-50 text-orange-600' : 'bg-gray-50 text-gray-300'}`}>
+                    {lesson.id}
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-gray-900 mb-1">{lesson.title}</h3>
+                    <div className="flex items-center gap-4 text-xs font-bold text-gray-400 uppercase tracking-tighter">
+                      <span className="flex items-center gap-1"><BookOpen size={12} /> {lesson.word_count} từ vựng</span>
+                      {lesson.status === 'completed' && <span className="flex items-center gap-1 text-green-500"><CheckCircle2 size={12} /> Đã thuộc</span>}
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {lesson.is_free ? (
-                <Link 
-                  href={`/tu-vung-chu-de/${topicSlug}/${lesson.id}`}
-                  className="bg-gray-50 group-hover:bg-[#D85A30] group-hover:text-white text-gray-900 px-6 py-3 rounded-2xl font-bold flex items-center gap-2 transition-all shadow-inner"
-                >
-                  Bắt đầu <PlayCircle size={18} />
-                </Link>
-              ) : (
-                <div className="flex flex-col items-end gap-1">
-                  <div className="bg-gray-50 text-gray-300 px-6 py-3 rounded-2xl font-bold flex items-center gap-2">
-                    <Lock size={18} /> Khóa
+                {canAccess ? (
+                  <Link 
+                    href={`/tu-vung-chu-de/${topicSlug}/${lesson.id}`}
+                    className="bg-gray-50 group-hover:bg-[#D85A30] group-hover:text-white text-gray-900 px-6 py-3 rounded-2xl font-bold flex items-center gap-2 transition-all shadow-inner"
+                  >
+                    Bắt đầu <PlayCircle size={18} />
+                  </Link>
+                ) : (
+                  <div className="flex flex-col items-end gap-1">
+                    <div className="bg-gray-50 text-gray-300 px-6 py-3 rounded-2xl font-bold flex items-center gap-2">
+                      <Lock size={18} /> Khóa
+                    </div>
+                    <span className="text-[10px] font-black text-gray-300 uppercase mr-2">Cần tài khoản PREMIUM</span>
                   </div>
-                  <span className="text-[10px] font-black text-gray-300 uppercase mr-2">Cần tài khoản PREMIUM</span>
-                </div>
-              )}
-            </div>
-          ))}
+                )}
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
