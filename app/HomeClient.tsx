@@ -19,8 +19,7 @@ import {
   MessageCircle,
   Sparkles,
   ChevronRight,
-  X,
-  Mail
+  X
 } from 'lucide-react';
 import { useUser } from '@clerk/nextjs';
 import HSK30InfoModal from '@/components/HSK30InfoModal';
@@ -489,7 +488,7 @@ export default function HomeClient() {
                         <div>
                           <p className="text-base font-black text-slate-900 mb-1">1. Mở khóa toàn bộ tính năng</p>
                           <p className="text-xs text-slate-500 font-medium leading-relaxed">
-                            Đăng ký tài khoản và gửi email tới <span className="font-black text-[#D85A30]">xiaohongdouht@gmail.com</span> với tiêu đề <span className="font-black italic">"Trải nghiệm Hanzi - [Email của bạn]"</span> để Admin kích hoạt gói Premium miễn phí.
+                            Chỉ cần <span className="font-black text-[#D85A30]">Đăng ký tài khoản</span>, hệ thống sẽ tự động kích hoạt gói Premium miễn phí cho bạn ngay lập tức. Không cần thủ tục rườm rà!
                           </p>
                         </div>
                      </div>
@@ -501,7 +500,7 @@ export default function HomeClient() {
                         <div>
                           <p className="text-base font-black text-slate-900 mb-1">2. Kiểm tra & Báo lỗi</p>
                           <p className="text-xs text-slate-500 font-medium leading-relaxed">
-                            Hãy sử dụng Hanzi như công cụ học tập hằng ngày. Nếu gặp lỗi hiển thị, sai đáp án hay có ý tưởng hay, đừng ngần ngại gửi Email hoặc nhắn tin đóng góp cho tụi mình nhé!
+                            Hãy sử dụng Hanzi như công cụ học tập hằng ngày. Nếu gặp lỗi hiển thị, sai đáp án hay có ý tưởng hay, đừng ngần ngại góp ý cho team!
                           </p>
                         </div>
                      </div>
@@ -520,12 +519,13 @@ export default function HomeClient() {
                   </div>
 
                   <div className="pt-6 flex flex-col sm:flex-row gap-3">
-                     <a 
-                       href="mailto:xiaohongdouht@gmail.com?subject=Đăng ký Trải nghiệm Hanzi&body=Chào Admin, mình đã tạo tài khoản và muốn đăng ký trải nghiệm Full tính năng. Email của mình là: " 
-                       className="flex-1 bg-[#D85A30] hover:bg-[#B54825] text-white px-6 py-4 rounded-2xl font-black text-sm flex items-center justify-center gap-2 shadow-xl shadow-orange-100 transition-all active:scale-95"
-                     >
-                       <Mail size={18} /> GỬI EMAIL ĐĂNG KÝ
-                     </a>
+                      <Link 
+                        href={user ? "/giao-trinh" : "/dang-ky"} 
+                        onClick={() => setIsBetaModalOpen(false)}
+                        className="flex-1 bg-[#D85A30] hover:bg-[#B54825] text-white px-6 py-4 rounded-2xl font-black text-sm flex items-center justify-center gap-2 shadow-xl shadow-orange-100 transition-all active:scale-95 text-center"
+                      >
+                        {user ? "🚀 VÀO HỌC MIỄN PHÍ NGAY" : "✨ ĐĂNG KÝ TÀI KHOẢN NGAY"}
+                      </Link>
                      <button 
                        onClick={() => setIsBetaModalOpen(false)}
                        className="px-6 py-4 bg-slate-50 text-slate-400 hover:text-slate-900 rounded-2xl font-black text-sm hover:bg-slate-100 transition-all"
