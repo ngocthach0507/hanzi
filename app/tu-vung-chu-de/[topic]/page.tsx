@@ -105,8 +105,8 @@ export default function TopicLessonList() {
                   <div>
                     <h3 className="font-bold text-sm md:text-base text-gray-900 mb-1">{lesson.title}</h3>
                     <div className="flex items-center gap-4 text-[10px] md:text-xs font-bold text-gray-400 uppercase tracking-tighter">
-                      <span className="flex items-center gap-1"><BookOpen size={10} md:size={12} /> {lesson.word_count} từ vựng</span>
-                      {lesson.status === 'completed' && <span className="flex items-center gap-1 text-green-500"><CheckCircle2 size={10} md:size={12} /> Đã thuộc</span>}
+                      <span className="flex items-center gap-1"><BookOpen size={12} /> {lesson.word_count} từ vựng</span>
+                      {lesson.status === 'completed' && <span className="flex items-center gap-1 text-green-500"><CheckCircle2 size={12} /> Đã thuộc</span>}
                     </div>
                   </div>
                 </div>
